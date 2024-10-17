@@ -58,7 +58,7 @@ class ProbeWorker:
 
     def get_logger(self):
         if self.logging == "local" and self.project_prefix != "":
-            return CSVLogger(save_dir=self.result_folder, name=f"{self.project_prefix}-{self.probe_name}/{self.get_local_run_id()}")
+            return CSVLogger(save_dir=self.result_folder, name=f"{self.project_prefix}/{self.probe_name}/{self.get_local_run_id()}")
         elif self.logging == "local":
             return CSVLogger(save_dir=self.result_folder, name=f"{self.probe_name}/{self.get_local_run_id()}")
         elif self.logging == "wandb" and self.project_prefix != "":

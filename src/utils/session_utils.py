@@ -15,42 +15,12 @@ def clean_session():
         os.system("rm -rf " + os.environ["RAY_SESSION_DIR"])
 
 
-@ray.remote(num_gpus=1 / 24, num_cpus=1)
-def ray_run_probe_with_params(
-    params,
-    train_dataset,
-    dev_dataset,
-    test_dataset,
-    dump_preds,
-    force,
-    project_prefix,
-    logging="local",
-    probe_name=None,
-):
-    run_probe_with_params(
-        params,
-        train_dataset,
-        dev_dataset,
-        test_dataset,
-        dump_preds,
-        force,
-        project_prefix,
-        logging,
-        probe_name,
-    )
 
+@ray.remote(num_gpus=1/24, num_cpus=1)
+def ray_run_probe_with_params(params, train_dataset, dev_dataset, test_dataset, dump_preds, force, project_prefix,  logging="local", probe_name=None):
+    run_probe_with_params(params, train_dataset, dev_dataset, test_dataset, dump_preds, force, project_prefix, logging, probe_name)
 
-def run_probe_with_params(
-    params,
-    train_dataset,
-    dev_dataset,
-    test_dataset,
-    dump_preds,
-    force,
-    project_prefix,
-    logging="local",
-    probe_name=None,
-):
+def run_probe_with_params(params, train_dataset, dev_dataset, test_dataset, dump_preds, force, project_prefix, logging="local", probe_name=None):
     hyperparameter = params["hyperparameter"]
 
     hyperparameter["control_task_type"] = params["control_task_type"].name
@@ -70,19 +40,12 @@ def run_probe_with_params(
     elif hyperparameter["probe_type"] == "linear_mdl":
         WORKER_CLASS = MDLProbeWorker
 
+
     worker = WORKER_CLASS(
-        train_dataset=train_dataset,
-        dev_dataset=dev_dataset,
-        test_dataset=test_dataset,
-        hyperparameter=hyperparameter,
-        project_prefix=project_prefix,
-        n_layers=params["n_layers"],
-        probe_name=probe_name,
-        dump_preds=dump_preds,
-        force=force,
-        result_folder=params["result_folder"],
-        logging=logging,
-        cache_folder="/home/tk/Schreibtisch/School/Bachelorarbeit/code/holmes-evaluation/cache/flash-holmes",
+        train_dataset=train_dataset, dev_dataset=dev_dataset, test_dataset=test_dataset,
+        hyperparameter=hyperparameter, project_prefix=project_prefix, n_layers=params["n_layers"],
+        probe_name=probe_name, dump_preds=dump_preds, force=force, result_folder=params["result_folder"],
+        logging=logging, cache_folder='/holmes-evaluation/cache'
     )
 
     worker.run_fold()

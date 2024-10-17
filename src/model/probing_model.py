@@ -23,69 +23,66 @@ class SkeletonProbingModel(LightningModule):
 
         if self.hyperparameter["num_labels"] == 1:
             self.mean_loss = torch.nn.SmoothL1Loss()
-            self.loss = torch.nn.SmoothL1Loss(reduction="none")
+            self.loss = torch.nn.SmoothL1Loss(reduction='none')
             self.metrics = {
                 "pearson": torchmetrics.PearsonCorrCoef(),
-                "error": torchmetrics.MeanSquaredError(),
+                "error": torchmetrics.MeanSquaredError()
             }
         else:
             self.mean_loss = torch.nn.CrossEntropyLoss()
-            self.loss = torch.nn.CrossEntropyLoss(reduction="none")
+            self.loss = torch.nn.CrossEntropyLoss(reduction='none')
 
-            task_type = (
-                "binary" if self.hyperparameter["num_labels"] == 2 else "multiclass"
-            )
+            task_type = "binary" if self.hyperparameter["num_labels"] == 2 else "multiclass"
 
             self.metrics = {
-                "acc": torchmetrics.Accuracy(
-                    task=task_type, num_classes=self.hyperparameter["num_labels"]
-                ),
+                "acc": torchmetrics.Accuracy(task=task_type, num_classes=self.hyperparameter["num_labels"]),
                 "f1": torchmetrics.F1Score(
-                    average="macro",
-                    num_classes=self.hyperparameter["num_labels"],
-                    task=task_type,
+                    average="macro", num_classes=self.hyperparameter["num_labels"], task=task_type
                 ),
             }
             if self.hyperparameter["num_labels"] > 2:
-                self.f1_all = torchmetrics.F1Score(
-                    average="none",
-                    num_classes=self.hyperparameter["num_labels"],
-                    task=task_type,
-                )
-                self.acc_all = torchmetrics.Accuracy(
-                    average="none",
-                    num_classes=self.hyperparameter["num_labels"],
-                    task=task_type,
-                )
+                self.f1_all = torchmetrics.F1Score(average="none", num_classes=self.hyperparameter["num_labels"], task=task_type)
+                self.acc_all = torchmetrics.Accuracy(average="none", num_classes=self.hyperparameter["num_labels"], task=task_type)
 
         self.best_val_metrics = defaultdict(lambda: -1)
         self.best_test_metrics = defaultdict(lambda: -1)
         self.test_preds = []
         self.unique_inputs = unique_inputs
 
-    def batching_collate(self, batch: List):
-        encoded_inputs = torch.FloatTensor(
-            numpy.stack([element[1] for element in batch])
-        )
+
+
+    def batching_collate(self, batch:List):
+        encoded_inputs = torch.FloatTensor(numpy.stack([element[1] for element in batch]))
 
         if self.hyperparameter["num_labels"] == 1:
-            labels = torch.Tensor([element[2] for element in batch])
+            labels = torch.Tensor(
+                [element[2] for element in batch]
+            )
         else:
-            labels = torch.LongTensor([element[2] for element in batch])
+            labels = torch.LongTensor(
+                [element[2] for element in batch]
+            )
 
         return encoded_inputs, labels
 
-    def test_batching_collate(self, batch: List[ProbingEntry]):
-        encoded_inputs = torch.FloatTensor(
-            numpy.stack([element[1] for element in batch])
-        )
+
+    def test_batching_collate(self, batch:List[ProbingEntry]):
+        encoded_inputs = torch.FloatTensor(numpy.stack([element[1] for element in batch]))
 
         if self.hyperparameter["num_labels"] == 1:
-            labels = torch.Tensor([element[2] for element in batch])
+            labels = torch.Tensor(
+                [element[2] for element in batch]
+            )
         else:
-            labels = torch.LongTensor([element[2] for element in batch])
+            labels = torch.LongTensor(
+                [element[2] for element in batch]
+            )
 
-        seen_indices = torch.BoolTensor([element[0] for element in batch])
+        seen_indices = torch.BoolTensor(
+            [
+                element[0] for element in batch
+            ]
+        )
 
         return encoded_inputs, labels, seen_indices
 
@@ -133,7 +130,7 @@ class SkeletonProbingModel(LightningModule):
             pred = pred.squeeze(1)
             losses = losses.squeeze(1)
 
-        # self.log(prefix + " loss", losses.mean(), on_epoch=True, prog_bar=True)
+        #self.log(prefix + " loss", losses.mean(), on_epoch=True, prog_bar=True)
         self.test_step_outputs.append([losses, pred, y, seen_indices])
         return losses, pred, y, seen_indices
 
@@ -157,17 +154,19 @@ class SkeletonProbingModel(LightningModule):
             self.logger.log_hyperparams(self.hyperparameter)
 
     def validation_step(self, batch, batch_index):
-        # set = "val" if dataloader_index == 0 else "test"
+       # set = "val" if dataloader_index == 0 else "test"
         return self.run_val_step(batch, "val")
 
     def test_step(self, batch, batch_index):
         return self.run_test_step(batch, "test")
+
 
     def on_train_epoch_end(self):
         self.log("train loss", torch.tensor(self.train_step_outputs).mean())
         self.train_step_outputs.clear()
 
     def on_test_epoch_end(self):
+
         losses = [ele[0] for ele in self.test_step_outputs]
         losses = torch.concat(losses)
         losses_mean = losses.mean()
@@ -186,43 +185,28 @@ class SkeletonProbingModel(LightningModule):
 
         metric_inputs = [
             ("full", pred_labels, truth_labels),
-            ("seen", pred_labels[seen_indices], truth_labels[seen_indices]),
-            ("unseen", pred_labels[unseen_indices], truth_labels[unseen_indices]),
+            ("seen",  pred_labels[seen_indices], truth_labels[seen_indices]),
+            ("unseen",  pred_labels[unseen_indices], truth_labels[unseen_indices]),
         ]
 
         if self.hyperparameter["num_labels"] == 1:
+
             lower_quantile = truth_labels.quantile(q=0.25)
             upper_quantile = truth_labels.quantile(q=0.75)
 
             lower_quantile_indices = (truth_labels < lower_quantile).nonzero().squeeze()
             upper_quantile_indices = (truth_labels > upper_quantile).nonzero().squeeze()
 
-            middle_quantile_indices = (
-                ((truth_labels > lower_quantile) & (truth_labels < upper_quantile))
-                .nonzero()
-                .squeeze()
-            )
+            middle_quantile_indices = ((truth_labels > lower_quantile) & (truth_labels < upper_quantile)).nonzero().squeeze()
 
             metric_inputs.append(
-                (
-                    "lower",
-                    pred_labels[lower_quantile_indices],
-                    truth_labels[lower_quantile_indices],
-                ),
+                ("lower",  pred_labels[lower_quantile_indices], truth_labels[lower_quantile_indices]),
             )
             metric_inputs.append(
-                (
-                    "middle",
-                    pred_labels[middle_quantile_indices],
-                    truth_labels[middle_quantile_indices],
-                ),
+                ("middle",  pred_labels[middle_quantile_indices], truth_labels[middle_quantile_indices]),
             )
             metric_inputs.append(
-                (
-                    "upper",
-                    pred_labels[upper_quantile_indices],
-                    truth_labels[upper_quantile_indices],
-                ),
+                ("upper",  pred_labels[upper_quantile_indices], truth_labels[upper_quantile_indices]),
             )
 
         for set_name, preds, labels in metric_inputs:
@@ -230,7 +214,7 @@ class SkeletonProbingModel(LightningModule):
                 continue
 
             for metric, func in self.metrics.items():
-                # if metric == "pearson":
+                #if metric == "pearson":
                 #    pred_labels = pred_labels.squeeze(dim=1)
                 if self.hyperparameter["num_labels"] > 1:
                     metric_result = func(pred_labels.argmax(1), truth_labels)
@@ -239,18 +223,10 @@ class SkeletonProbingModel(LightningModule):
                 metric_results[set_name + " test " + metric] = float(metric_result)
 
             if self.hyperparameter["num_labels"] > 2:
-                for label, value in enumerate(
-                    self.f1_all.cpu()(preds.cpu(), labels.cpu())
-                ):
-                    metric_results["z_" + set_name + " test f1-" + str(label)] = float(
-                        value
-                    )
-                for label, value in enumerate(
-                    self.acc_all.cpu()(preds.cpu(), labels.cpu())
-                ):
-                    metric_results["z_" + set_name + " test acc-" + str(label)] = float(
-                        value
-                    )
+                for label, value in enumerate(self.f1_all.cpu()(preds.cpu(), labels.cpu())):
+                    metric_results["z_" + set_name + " test f1-" + str(label)] = float(value)
+                for label, value in enumerate(self.acc_all.cpu()(preds.cpu(), labels.cpu())):
+                    metric_results["z_" + set_name + " test acc-" + str(label)] = float(value)
 
         for metric, result in metric_results.items():
             self.best_test_metrics[metric] = result
@@ -291,6 +267,7 @@ class SkeletonProbingModel(LightningModule):
         metric_results = {}
 
         for metric, func in self.metrics.items():
+
             if self.hyperparameter["num_labels"] > 1:
                 metric_result = func(pred_labels.argmax(1), truth_labels)
             else:
@@ -307,26 +284,20 @@ class SkeletonProbingModel(LightningModule):
             self.best_val_metrics["summed_loss"] = float(summed_loss.detach().cpu())
             self.best_val_metrics["ref"] = ref_metric
             self.best_val_metrics["epoch"] = ref_metric
-
+                
             for metric, result in metric_results.items():
                 self.best_val_metrics[metric] = float(result.detach().cpu())
 
         for metric, metric_result in metric_results.items():
-            self.log("val " + metric, metric_result, on_epoch=True, prog_bar=True)
+            self.log("val " + metric, metric_result,  on_epoch=True, prog_bar=True)
 
         if self.hyperparameter["num_labels"] > 2:
-            for label, value in enumerate(
-                self.f1_all.cpu()(pred_labels.cpu(), truth_labels.cpu())
-            ):
+            for label, value in enumerate(self.f1_all.cpu()(pred_labels.cpu(), truth_labels.cpu())):
                 self.log("z_val f1-" + str(label), value, on_epoch=True, prog_bar=False)
-            for label, value in enumerate(
-                self.acc_all.cpu()(pred_labels.cpu(), truth_labels.cpu())
-            ):
-                self.log(
-                    "z_val acc-" + str(label), value, on_epoch=True, prog_bar=False
-                )
+            for label, value in enumerate(self.acc_all.cpu()(pred_labels.cpu(), truth_labels.cpu())):
+                self.log("z_val acc-" + str(label), value,  on_epoch=True, prog_bar=False)
 
-        self.log("val loss sum", summed_loss, on_epoch=True, prog_bar=True)
+        self.log("val loss sum", summed_loss,  on_epoch=True, prog_bar=True)
 
         if self.hyperparameter["num_labels"] >= 2:
             self.dev_preds = pred_labels.argmax(dim=1).detach().cpu().int().numpy()
@@ -339,24 +310,31 @@ class SkeletonProbingModel(LightningModule):
 
         self.log("val_ref", ref_metric)
 
+
     def configure_optimizers(self):
-        optimizer = self.hyperparameter["optimizer"](
-            self.parameters(), lr=self.hyperparameter["learning_rate"]
-        )
+        optimizer = self.hyperparameter["optimizer"](self.parameters(), lr=self.hyperparameter["learning_rate"])
         scheduler = get_linear_schedule_with_warmup(
             optimizer,
             num_warmup_steps=self.hyperparameter["warmup_steps"],
-            num_training_steps=self.hyperparameter["training_steps"],
+            num_training_steps=self.hyperparameter["training_steps"]
         )
 
         return dict(
-            optimizer=optimizer, lr_scheduler=dict(scheduler=scheduler, interval="step")
+            optimizer=optimizer,
+            lr_scheduler=dict(
+                scheduler=scheduler,
+                interval='step'
+            )
         )
+
+
 
 
 class LinearProbingModel(SkeletonProbingModel):
     def __init__(self, hyperparameter: Dict, unique_inputs={}):
+
         super().__init__(hyperparameter, unique_inputs)
+
 
         self.layers = ModuleList([])
         self.layers.append(torch.nn.Dropout(self.hyperparameter["dropout"]))
@@ -364,23 +342,23 @@ class LinearProbingModel(SkeletonProbingModel):
         input_dim = self.hyperparameter["input_dim"]
         if self.hyperparameter["num_hidden_layers"] > 0:
             for i in range(self.hyperparameter["num_hidden_layers"]):
-                self.layers.append(
-                    torch.nn.Linear(input_dim, self.hyperparameter["hidden_dim"])
-                )
+                self.layers.append(torch.nn.Linear(input_dim, self.hyperparameter["hidden_dim"]))
                 self.layers.append(torch.nn.LeakyReLU())
                 self.layers.append(torch.nn.Dropout(self.hyperparameter["dropout"]))
 
                 input_dim = self.hyperparameter["hidden_dim"]
 
-        self.layers.append(
-            torch.nn.Linear(input_dim, self.hyperparameter["num_labels"])
-        )
 
-    def forward(self, x: torch.Tensor):
+        self.layers.append(torch.nn.Linear(input_dim, self.hyperparameter["num_labels"]))
+
+    def forward(self, x:torch.Tensor):
         for l in self.layers:
             x = l(x)
         pred = x
         return pred
 
+
     def log_custom_metrics(self, metric_results, set):
         pass
+
+

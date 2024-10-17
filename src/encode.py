@@ -13,23 +13,14 @@ from utils.session_utils import clean_session
 
 
 @click.command()
-@click.option(
-    "--config_file_path",
-    type=str,
-    default="../data/flash-holmes/protoroles-change_of_state/config-none.yaml",
-)
-@click.option("--model_name", type=str, default="bbunzeck/baby_llama")
-@click.option("--encoding_batch_size", type=int, default=10)
-@click.option("--model_precision", type=str, default="full")
-@click.option("--dump_folder", type=str, default="../dumps")
-@click.option("--force", is_flag=True, default=False)
+@click.option('--config_file_path', type=str, default='../data/flash-holmes/protoroles-change_of_state/config-none.yaml')
+@click.option('--model_name', type=str, default="bbunzeck/baby_llama")
+@click.option('--encoding_batch_size', type=int, default=10)
+@click.option('--model_precision', type=str, default="full")
+@click.option('--dump_folder', type=str, default="../dumps")
+@click.option('--force', is_flag=True, default=False)
 def main(
-    config_file_path,
-    encoding_batch_size,
-    model_name,
-    model_precision,
-    dump_folder,
-    force,
+        config_file_path, encoding_batch_size, model_name, model_precision, dump_folder, force
 ):
     base_path = "/".join(config_file_path.split("/")[:-1]) + "/samples.csv"
 
@@ -43,17 +34,8 @@ def main(
     control_task_type = config["control_task_type"]
     probe_task_type = PROBE_TASK_TYPES(config["probe_task_type"])
 
-    dump_id = "__".join(
-        [
-            model_name,
-            model_precision,
-            control_task_type,
-            config["probe_name"],
-            str(probe_frame.shape[0]),
-            "False",
-        ]
-    )
-    dump_id = dump_id.replace("/", "__")
+    dump_id = "__".join([model_name, model_precision, control_task_type, config["probe_name"], str(probe_frame.shape[0]), "False"])
+    dump_id = dump_id.replace('/', "__")
 
     dump_path = f"{dump_folder}/{dump_id}.pickle"
 
@@ -65,16 +47,8 @@ def main(
         print(f"Already encoded at {dump_path}")
         return
 
-    dump_data(
-        probe_frame,
-        probe_task_type,
-        control_task_type,
-        encoding_batch_size,
-        dump_path,
-        model_name,
-        model_precision,
-        scalar_mixin=False,
-    )
+    dump_data(probe_frame, probe_task_type, control_task_type, encoding_batch_size, dump_path,
+                               model_name, model_precision, scalar_mixin=False)
 
 
 if __name__ == "__main__":

@@ -18,8 +18,10 @@ def main(
 
         if "full test pearson" in metrics.columns:
             final_metric = list(metrics["full test pearson"])[-1]
-        else:
+        elif "full test f1" in metrics.columns:
             final_metric = list(metrics["full test f1"])[-1]
+        else:
+            pass
 
         _, probing_dataset, model_name, encoding, control_task_type, sample_size, seed, num_hidden_layers, _ = (
             result_file
