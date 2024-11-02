@@ -13,7 +13,7 @@ import backend
 st.set_page_config(layout="wide")
 
 
-def sentence_eval(df):
+def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
     temp_data = []
 
     for index, item in enumerate(df["modified_sentence"]):
@@ -39,7 +39,9 @@ def sentence_eval(df):
         index=False,
     )
 
-    return backend.Backend()
+    return backend.Backend(
+        probing_task=f"{selected_task}", selected_models=selected_models
+    )
 
 
 # Define the directory and task folders
@@ -54,15 +56,11 @@ folders = [
 st.sidebar.title("Navigation Bar")
 st.sidebar.write("Please choose a probing task here")
 selected_task = st.sidebar.selectbox("Choose a probing task", sorted(folders))
-selected_model = st.sidebar.multiselect(
-    "Not implemented yet...",
-    default=[
-        "EleutherAI/pythia-12b-deduped",
-        "facebook/bart-base",
-        "microsoft/Orca-2-13b",
-        "EleutherAI/pythia-6.9b-deduped",
-    ],
+st.session_state.selected_model = st.sidebar.multiselect(
+    "Please select at most 4 models from here",
+    default=["microsoft/deberta-v3-base", "meta-llama/Llama-3.2-1B"],
     options=[
+        "meta-llama/Llama-3.2-1B",
         "google/flan-ul2",
         "google/flan-t5-xxl",
         "google/t5-xxl-lm-adapt",
@@ -129,12 +127,25 @@ openai_prompt = st.sidebar.text_area(
 )
 
 
+def load_model_dfs(models):
+    list_of_preds_dfs = []
+    for i in models:
+        model_name = i.replace("/", "__")
+        path = glob.glob(
+            f"../../results/holmes/{selected_task}/{model_name}/full/NONE/**/**/0/done/preds.csv"
+        )
+        files = pd.concat([pd.read_csv(file) for file in path])
+        st.session_state.model = (
+            files.groupby("Unnamed: 0")["pred"].mean().reset_index()
+        )
+        list_of_preds_dfs.append(st.session_state.model["pred"])
+
+    return list_of_preds_dfs
+
+
 # Callback function to update data based on the selected probing task
 def update_task():
     st.session_state.df = pd.read_csv(f"../../data/holmes/{selected_task}/samples.csv")
-    path = glob.glob(
-        f"../../results/holmes/{selected_task}/microsoft__deberta-v3-base/full/NONE/**/**/0/done/preds.csv"
-    )
     st.session_state.df = st.session_state.df[
         st.session_state.df["set-0"] == "test"
     ].reset_index()
@@ -142,20 +153,35 @@ def update_task():
         columns={"inputs": "Sentence", "label": "Label"}
     )
 
-    files = pd.concat([pd.read_csv(file) for file in path])
-    st.session_state.model0 = files.groupby("Unnamed: 0")["pred"].mean().reset_index()
-
     st.session_state.df["Sentence"] = st.session_state.df["Sentence"].map(
         lambda x: x.lstrip('"(""``').rstrip('"",)"')
     )
-    st.session_state.df["Bart Base"] = st.session_state.model0["pred"].apply(
-        lambda x: "{:.2f}%".format(x * 100)
+    for i in range(len(st.session_state.selected_model)):
+        st.session_state.df[f"{st.session_state.selected_model[i]}"] = load_model_dfs(
+            st.session_state.selected_model
+        )[i]
+
+    # Define averaging logic
+    def average_results(row):
+        # Collect numerical results from each model for the current row
+        model_results = [row[model] for model in st.session_state.selected_model]
+        # Calculate the mean of the model results
+        return sum(model_results) / len(model_results)
+
+    # Apply averaging function to each row
+    st.session_state.df["Aggregated Results"] = st.session_state.df.apply(
+        average_results, axis=1
     )
-    st.session_state.df = st.session_state.df[["Sentence", "Label", "Bart Base"]]
+
+    # Get percentages
+    for model in st.session_state.selected_model + ["Aggregated Results"]:
+        st.session_state.df[model] = st.session_state.df[model].apply(
+            lambda x: "{:.2f}%".format(x * 100)
+        )
 
 
 def investigate_models():
-    for i in selected_model:
+    for i in st.session_state.selected_model:
         probing_command = f"python3 investigate.py --model_name {i} --version holmes  --cuda_visible_devices 0,1 --dump_preds --in_filter {selected_task}"
         os.chdir("../../src/")
         os.system(probing_command)
@@ -211,34 +237,55 @@ def click_button():
     st.session_state.clicked = True
 
 
+if st.button("Proceed with Reevaluation", on_click=click_button):
+    pass
+
 if st.session_state.clicked:
     changes_df = get_changed_rows_df(st.session_state.df, edited_df)
     if not changes_df.empty:
         st.write("Changed rows:")
-        evaluated_df = sentence_eval(changes_df).drop(
-            columns="label"
-        )  # Get evaluated DataFrame
 
-        # Rename columns in evaluated_df to match st.session_state.df for consistency
-        evaluated_df = evaluated_df.rename(
-            columns={"instance": "Sentence", "pred": "Bart Base"}
+        # Run evaluation for multiple models
+        model_predictions = sentence_eval(
+            changes_df, selected_models=st.session_state.selected_model
         )
 
-        evaluated_df["Sentence"] = evaluated_df["Sentence"].map(
-            lambda x: str(x).lstrip('"(""``').rstrip('"",)"')
-        )
-        evaluated_df["Bart Base"] = evaluated_df["Bart Base"].apply(
-            lambda x: "{:.2f}%".format(x * 100)
-        )
+        # Initialize a list to store model data for merging
+        dfs_to_merge = []
 
-        # Update edited_df in st.data_editor with the new rows
-        edited_df = st.dataframe(
-            evaluated_df,
-            hide_index=1,
-            use_container_width=1,
-        )
+        # Loop over each model to process and prepare its results
+        for model_name, model_df in model_predictions.items():
+            # Rename columns and clean the DataFrame
+            model_df = model_df.rename(
+                columns={"instance": "Sentence", "pred": f"{model_name} Prediction"}
+            ).drop(["label", "loss"], axis=1)
+
+            # Format the columns
+            model_df["Sentence"] = model_df["Sentence"].map(
+                lambda x: str(x).lstrip('"(""``').rstrip('"",)"')
+            )
+            model_df[f"{model_name} Prediction"] = model_df[
+                f"{model_name} Prediction"
+            ].apply(lambda x: "{:.2f}%".format(x * 100))
+
+            # Append to list for merging
+            dfs_to_merge.append(model_df)
+
+        # Merge all DataFrames on the 'Sentence' column
+        if dfs_to_merge:
+            combined_df = dfs_to_merge[0]
+            for df in dfs_to_merge[1:]:
+                combined_df = combined_df.merge(df, on="Sentence", how="outer")
+
+            # Display the combined DataFrame
+            st.write("Combined Model Predictions:")
+            st.dataframe(
+                combined_df,
+                hide_index=True,
+                use_container_width=True,
+            )
+
+        # Store the combined DataFrame in session state if needed later
+        st.session_state.evaluated_df = combined_df
     else:
         st.write("No changes detected.")
-
-if st.button("Proceed with Reevaluation", on_click=click_button):
-    pass
