@@ -60,6 +60,7 @@ st.session_state.selected_model = st.sidebar.multiselect(
     "Please select at most 4 models from here",
     default=["microsoft/deberta-v3-base", "meta-llama/Llama-3.2-1B"],
     options=[
+        "HuggingFaceTB/SmolLM2-1.7B-Instruct",
         "meta-llama/Llama-3.2-1B",
         "google/flan-ul2",
         "google/flan-t5-xxl",
