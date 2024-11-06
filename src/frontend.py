@@ -1,14 +1,10 @@
 import streamlit as st
-from streamlit import column_config
 import pandas as pd
-import time
+from streamlit import column_config
 import glob
-import sys
 import os
 
-sys.path.append("../backend/")
-sys.path.append("../../src/")
-import backend
+from backend import Backend
 
 st.set_page_config(layout="wide")
 
@@ -35,17 +31,15 @@ def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
     )
 
     temp_df.to_csv(
-        f"../../data/holmes/{selected_task}/modified_samples.csv",
+        f"./data/holmes/{selected_task}/modified_samples.csv",
         index=False,
     )
 
-    return backend.Backend(
-        probing_task=f"{selected_task}", selected_models=selected_models
-    )
+    return Backend(probing_task=f"{selected_task}", selected_models=selected_models)
 
 
 # Define the directory and task folders
-directory_path = "../../data/holmes/"
+directory_path = "./data/holmes/"
 folders = [
     f
     for f in os.listdir(directory_path)
@@ -133,7 +127,7 @@ def load_model_dfs(models):
     for i in models:
         model_name = i.replace("/", "__")
         path = glob.glob(
-            f"../../results/holmes/{selected_task}/{model_name}/full/NONE/**/**/0/done/preds.csv"
+            f"./results/holmes/{selected_task}/{model_name}/full/NONE/**/**/0/done/preds.csv"
         )
         files = pd.concat([pd.read_csv(file) for file in path])
         st.session_state.model = (
@@ -146,7 +140,7 @@ def load_model_dfs(models):
 
 # Callback function to update data based on the selected probing task
 def update_task():
-    st.session_state.df = pd.read_csv(f"../../data/holmes/{selected_task}/samples.csv")
+    st.session_state.df = pd.read_csv(f"./data/holmes/{selected_task}/samples.csv")
     st.session_state.df = st.session_state.df[
         st.session_state.df["set-0"] == "test"
     ].reset_index()
@@ -286,7 +280,18 @@ if st.session_state.clicked:
                 use_container_width=True,
             )
 
-        # Store the combined DataFrame in session state if needed later
         st.session_state.evaluated_df = combined_df
+
+        chart_data = combined_df.set_index("Sentence")
+        chart_data = chart_data.applymap(
+            lambda x: float(x.strip("%")) / 100
+            if isinstance(x, str) and "%" in x
+            else x
+        )
+
+        # Plot all model predictions in a single chart
+        st.write("Model Predictions Visualization:")
+        st.bar_chart(chart_data, stack=False)
+
     else:
         st.write("No changes detected.")

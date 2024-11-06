@@ -1,7 +1,3 @@
-import sys
-
-sys.path.append("../../src/")
-
 import pandas as pd
 from utils import data_loading
 from defs.control_task_types import CONTROL_TASK_TYPES
@@ -23,7 +19,7 @@ def Backend(
         # Load model and dataset
         base_model = data_loading.load_model(model, CONTROL_TASK_TYPES.NONE, "full")
         probe_frame = data_loading.load_probe_file(
-            f"../../data/holmes/{probing_task}/modified_samples.csv",
+            f"./data/holmes/{probing_task}/modified_samples.csv",
             CONTROL_TASK_TYPES.NONE,
         )
 
@@ -56,7 +52,7 @@ def Backend(
         for seed in range(0, 5):
             cfg["seed"] = seed  # Update seed in configuration
             model_renamed = model.replace("/", "__")
-            path_pattern = f"../../results/holmes/{probing_task}/{model_renamed}/full/NONE/**/{seed}/0/done/*.ckpt"
+            path_pattern = f"./results/holmes/{probing_task}/{model_renamed}/full/NONE/**/{seed}/0/done/*.ckpt"
             checkpoint_files = glob.glob(path_pattern)
 
             # Load model checkpoint for each seed
@@ -101,7 +97,7 @@ def Backend(
         # Save the averaged predictions
         model_name_safe = model.replace("/", "__")
         average_predictions.to_csv(
-            f"../../results/holmes/{probing_task}/{model_name_safe}/averaged_predictions.csv",
+            f"./results/holmes/{probing_task}/{model_name_safe}/averaged_predictions.csv",
             index=False,
         )
 
