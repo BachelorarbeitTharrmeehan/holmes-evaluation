@@ -53,8 +53,8 @@ st.sidebar.write("Please choose a probing task here")
 selected_task = st.sidebar.selectbox("Choose a probing task", sorted(folders))
 st.session_state.selected_model = st.sidebar.multiselect(
     "Please select at most 4 models from here",
-    default=["microsoft/deberta-v3-base", "HuggingFaceTB/SmolLM2-1.7B-Instruct"],
-    options=["HuggingFaceTB/SmolLM2-1.7B-Instruct", "microsoft/deberta-v3-base"],
+    default=["microsoft/deberta-v3-base"],
+    options=["microsoft/deberta-v3-base"],
     max_selections=4,
 )
 use_openai_response = st.sidebar.checkbox("Get OpenAI Response for Modified Sentences")
