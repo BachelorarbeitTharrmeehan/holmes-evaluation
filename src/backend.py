@@ -65,7 +65,7 @@ def Backend(
             custom_dataloader = probing_model.get_test_dataloader(
                 test_dataset, 300, shuffle=False
             )
-            trainer = Trainer(accelerator="auto", devices=1, precision="32")
+            trainer = Trainer(accelerator="cpu", devices=-1, precision="32")
             trainer.test(probing_model, dataloaders=[custom_dataloader])
 
             # Collect predictions for this seed
