@@ -1,7 +1,0 @@
-control_task_type: RANDOMIZATION
-num_inputs: 1
-num_labels: 2
-num_probe_folds: 1
-probe_name: probe-blimp-coordinate_structure_constraint_object_extraction
-probe_task_type: SENTENCE
-probes_samples_path: general-probes/blimp-coordinate_structure_constraint_object_extraction/

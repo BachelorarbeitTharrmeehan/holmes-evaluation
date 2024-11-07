@@ -1,7 +1,0 @@
-control_task_type: RANDOM_WEIGHTS
-num_inputs: 1
-num_labels: 2
-num_probe_folds: 1
-probe_name: probe-blimp-determiner_noun_agreement_with_adj_irregular_1
-probe_task_type: SENTENCE
-probes_samples_path: general-probes/blimp-determiner_noun_agreement_with_adj_irregular_1/

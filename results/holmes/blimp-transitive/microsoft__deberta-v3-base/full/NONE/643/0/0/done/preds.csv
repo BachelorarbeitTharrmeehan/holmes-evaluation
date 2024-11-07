@@ -1,0 +1,401 @@
+,instance,pred,label,loss,seen
+0,"(""Most pedestrians' father might climb up the slope."",)",1.0,0,0.7378462553024292,seen
+1,"(""Most pedestrians' father might murmur the slope."",)",1.0,1,0.39333009719848633,seen
+2,"(""A lot of girls' son hadn't insulted Jerry."",)",1.0,0,0.8296526670455933,seen
+3,"(""A lot of girls' son hadn't sighed Jerry."",)",1.0,1,0.37977513670921326,seen
+4,"(""Denise has escaped from Marie's grandsons."",)",0.0,0,0.4510907530784607,seen
+5,"(""Denise has fallen Marie's grandsons."",)",1.0,1,0.41079819202423096,seen
+6,"(""The truck hadn't astounded a bank."",)",1.0,0,0.7449398040771484,seen
+7,"(""The truck hadn't fallen a bank."",)",1.0,1,0.62530916929245,seen
+8,"(""April's mentees weren't kissing Matt's nephews."",)",0.0,0,0.42030012607574463,seen
+9,"(""April's mentees weren't chuckling Matt's nephews."",)",0.0,1,0.7501381635665894,seen
+10,"(""Phillip isn't observing Winston Churchill."",)",0.0,0,0.4201754331588745,unseen
+11,"(""Phillip isn't grinning Winston Churchill."",)",1.0,1,0.5855615735054016,unseen
+12,"(""Some mother of Diane wasn't distracting a lot of students' ex-girlfriends."",)",1.0,0,0.8272758722305298,seen
+13,"(""Some mother of Diane wasn't coming here a lot of students' ex-girlfriends."",)",1.0,1,0.5209295749664307,seen
+14,"(""Monet hadn't examined most commentaries."",)",1.0,0,0.6962229609489441,seen
+15,"(""Monet hadn't wept most commentaries."",)",1.0,1,0.42594051361083984,seen
+16,"('Many actresses escape from Cynthia.',)",0.0,0,0.6024080514907837,seen
+17,"('Many actresses weep Cynthia.',)",1.0,1,0.5401096940040588,seen
+18,"(""Carmen's father isn't cleaning a lot of cups."",)",0.0,0,0.4003828763961792,seen
+19,"(""Carmen's father isn't waving a lot of cups."",)",0.0,1,1.0341594219207764,seen
+20,"(""Rose couldn't like Liam's employees."",)",0.0,0,0.5849871635437012,seen
+21,"(""Rose couldn't go fishing Liam's employees."",)",1.0,1,0.601564347743988,seen
+22,"(""Daniel's ex-husband resembles a lot of prints of actresses."",)",1.0,0,0.7348344922065735,seen
+23,"(""Daniel's ex-husband compromises a lot of prints of actresses."",)",1.0,1,0.6008669137954712,seen
+24,"(""Phillip's senators alarm the driver."",)",0.0,0,0.5772884488105774,unseen
+25,"(""Phillip's senators shouted the driver."",)",1.0,1,0.5671242475509644,unseen
+26,"(""Phillip knows Jill's senator."",)",0.0,0,0.42133966088294983,unseen
+27,"(""Phillip reacts Jill's senator."",)",1.0,1,0.4527163505554199,unseen
+28,"(""Every cashier astounded Barbara's nieces."",)",0.0,0,0.5592500567436218,seen
+29,"(""Every cashier boasts Barbara's nieces."",)",0.0,1,0.7183350920677185,seen
+30,"('Michelle praises Bradley.',)",0.0,0,0.39508703351020813,seen
+31,"('Michelle testifies Bradley.',)",1.0,1,0.49428409337997437,seen
+32,"(""This teacher's plumbers can't skate around many movie theaters."",)",1.0,0,0.8596264123916626,seen
+33,"(""This teacher's plumbers can't clash many movie theaters."",)",1.0,1,0.4570819139480591,seen
+34,"(""Customers' ex-girlfriends bike to the Great Lakes."",)",0.0,0,0.4818115234375,seen
+35,"(""Customers' ex-girlfriends escape the Great Lakes."",)",0.0,1,1.077304482460022,seen
+36,"('A carriage upsets Amanda.',)",0.0,0,0.4285481572151184,seen
+37,"('A carriage fell Amanda.',)",1.0,1,0.47006338834762573,seen
+38,"(""Carolyn's grandfathers ran around these grocery stores."",)",0.0,0,0.4297489821910858,seen
+39,"(""Carolyn's grandfathers conspired these grocery stores."",)",0.0,1,0.7528831958770752,seen
+40,"(""The son of Diana wouldn't buy most sweaters."",)",0.0,0,0.44966280460357666,seen
+41,"(""The son of Diana wouldn't complain most sweaters."",)",1.0,1,0.5928759574890137,seen
+42,"('Laura talks to Carrie.',)",0.0,0,0.4068433344364166,unseen
+43,"('Laura chuckled Carrie.',)",1.0,1,0.40469998121261597,unseen
+44,"(""Some rabbits hadn't shocked John's hairdresser."",)",0.0,0,0.5769319534301758,seen
+45,"(""Some rabbits hadn't come here John's hairdresser."",)",1.0,1,0.44248825311660767,seen
+46,"('Russell runs around a lot of closets.',)",0.0,0,0.553110659122467,seen
+47,"('Russell falls a lot of closets.',)",1.0,1,0.5157971978187561,seen
+48,"('Kimberley will care for Cynthia.',)",0.0,0,0.40428557991981506,unseen
+49,"('Kimberley will smile Cynthia.',)",1.0,1,0.5461520552635193,unseen
+50,"('Allison is discussing every brother of Jane.',)",1.0,0,0.8491966724395752,seen
+51,"('Allison is nodding every brother of Jane.',)",1.0,1,0.3731388747692108,seen
+52,"('Some children are talking about Amy.',)",0.0,0,0.43332505226135254,seen
+53,"('Some children are going fishing Amy.',)",0.0,1,0.7368470430374146,seen
+54,"(""Every woman's classmate broke a lot of chairs."",)",0.0,0,0.48290830850601196,seen
+55,"(""Every woman's classmate works hard a lot of chairs."",)",1.0,1,0.37599050998687744,seen
+56,"(""Tiffany's contractors watch the father of Kristen."",)",1.0,0,0.717982292175293,seen
+57,"(""Tiffany's contractors confer the father of Kristen."",)",1.0,1,0.6252928972244263,seen
+58,"(""Angela hasn't aggravated the senator's piano teachers."",)",0.0,0,0.46367669105529785,seen
+59,"(""Angela hasn't come here the senator's piano teachers."",)",1.0,1,0.529707670211792,seen
+60,"('A mountain shocks Walter.',)",0.0,0,0.5829825401306152,seen
+61,"('A mountain fell Walter.',)",1.0,1,0.3630392551422119,seen
+62,"('Lisa is aggravating Liam.',)",0.0,0,0.42728662490844727,unseen
+63,"('Lisa is muttering Liam.',)",1.0,1,0.6375651359558105,unseen
+64,"(""Richard would reference Phillip's tutor."",)",0.0,0,0.5074805021286011,seen
+65,"(""Richard would scream Phillip's tutor."",)",1.0,1,0.6657506823539734,seen
+66,"('These children discuss a dancer.',)",0.0,0,0.43448740243911743,seen
+67,"('These children shouted a dancer.',)",1.0,1,0.4556077718734741,seen
+68,"(""Gary boasted about Mitchell's ex-wife."",)",0.0,0,0.46957865357398987,unseen
+69,"(""Gary works hard Mitchell's ex-wife."",)",0.0,1,0.7300409078598022,unseen
+70,"('Naomi has boycotted some glaciers.',)",0.0,0,0.5608456134796143,unseen
+71,"('Naomi has joked around some glaciers.',)",1.0,1,0.5147228240966797,unseen
+72,"(""Mary escapes from many boys' doctors."",)",1.0,0,0.9263179302215576,seen
+73,"(""Mary shrugged many boys' doctors."",)",1.0,1,0.37030303478240967,seen
+74,"(""This teacher's partners stunned Walter."",)",0.0,0,0.5465896129608154,seen
+75,"(""This teacher's partners fall Walter."",)",1.0,1,0.38449057936668396,seen
+76,"(""Many documentaries about Winston Churchill had disagreed with Kevin's dermatologist."",)",0.0,0,0.520338237285614,seen
+77,"(""Many documentaries about Winston Churchill had disagreed Kevin's dermatologist."",)",1.0,1,0.5846285223960876,seen
+78,"(""Tina's ex-wife hid Walter."",)",0.0,0,0.5153338313102722,seen
+79,"(""Tina's ex-wife compromised Walter."",)",0.0,1,0.7961210012435913,seen
+80,"('Many brothers of Monica attack that guy.',)",0.0,0,0.6705774664878845,seen
+81,"('Many brothers of Monica complained that guy.',)",1.0,1,0.4591331481933594,seen
+82,"(""Some college campus hadn't irritated Sonia."",)",1.0,0,0.7912167310714722,seen
+83,"(""Some college campus hadn't fallen Sonia."",)",1.0,1,0.4133053719997406,seen
+84,"('Every driver can discover Amy.',)",0.0,0,0.4056818187236786,seen
+85,"('Every driver can concur Amy.',)",1.0,1,0.46046754717826843,seen
+86,"(""Tonya disagrees with some people's associate."",)",0.0,0,0.6672337651252747,seen
+87,"(""Tonya boasted some people's associate."",)",1.0,1,0.4552122950553894,seen
+88,"(""A waiter couldn't clean that glass."",)",0.0,0,0.40202996134757996,seen
+89,"(""A waiter couldn't speak up that glass."",)",1.0,1,0.3879699110984802,seen
+90,"('Most drawings of Dawn would stun many cousins of most ladies.',)",0.0,0,0.6354366540908813,seen
+91,"('Most drawings of Dawn would fall many cousins of most ladies.',)",1.0,1,0.42390063405036926,seen
+92,"(""Ella's cousin wasn't stunning the Impressionists."",)",0.0,0,0.46155089139938354,seen
+93,"(""Ella's cousin wasn't shrugging the Impressionists."",)",0.0,1,0.7806601524353027,seen
+94,"('Chad knows Brett.',)",0.0,0,0.5121462941169739,seen
+95,"('Chad falls Brett.',)",1.0,1,0.36713385581970215,seen
+96,"(""Stephen's best friend hadn't remembered Spain."",)",0.0,0,0.38345733284950256,seen
+97,"(""Stephen's best friend hadn't sighed Spain."",)",1.0,1,0.6093343496322632,seen
+98,"(""Every waiter's brother explores some hill."",)",0.0,0,0.4868701994419098,seen
+99,"(""Every waiter's brother goes fishing some hill."",)",1.0,1,0.4931567311286926,seen
+100,"('Vincent hated William.',)",0.0,0,0.43750783801078796,seen
+101,"('Vincent grinned William.',)",1.0,1,0.4228500723838806,seen
+102,"('Bradley messed up some library.',)",1.0,0,0.7201004028320312,seen
+103,"('Bradley smiles some library.',)",1.0,1,0.3674728572368622,seen
+104,"(""Some woman's oncologist will discuss Gary."",)",1.0,0,0.7484700679779053,seen
+105,"(""Some woman's oncologist will lie Gary."",)",1.0,1,0.5812778472900391,seen
+106,"('A picture of Keith looks like all convertibles.',)",1.0,0,0.8748363256454468,seen
+107,"('A picture of Keith fell all convertibles.',)",1.0,1,0.37315669655799866,seen
+108,"('Beef shocks some grandmother of the Clintons.',)",1.0,0,0.7195194959640503,seen
+109,"('Beef fell some grandmother of the Clintons.',)",1.0,1,0.3841738700866699,seen
+110,"('That school had bothered the grandmother of Galileo.',)",0.0,0,0.5366987586021423,seen
+111,"('That school had responded the grandmother of Galileo.',)",1.0,1,0.4750524163246155,seen
+112,"(""Many teenagers had fled from Jerry's wife."",)",0.0,0,0.49813663959503174,seen
+113,"(""Many teenagers had negotiated Jerry's wife."",)",1.0,1,0.5057269334793091,seen
+114,"('Gerald would flee from many nephews of Ellen.',)",0.0,0,0.6622169613838196,unseen
+115,"('Gerald would nod many nephews of Ellen.',)",1.0,1,0.4098988473415375,unseen
+116,"('Connie attacks Karen.',)",0.0,0,0.38778752088546753,seen
+117,"('Connie jokes around Karen.',)",0.0,1,0.9198057651519775,seen
+118,"(""Carla isn't praising many books about the Great Lakes."",)",0.0,0,0.4488679766654968,seen
+119,"(""Carla isn't talking many books about the Great Lakes."",)",0.0,1,0.7261881828308105,seen
+120,"(""Kristen won't love Kimberley."",)",0.0,0,0.4342414140701294,unseen
+121,"(""Kristen won't fall asleep Kimberley."",)",0.0,1,0.914217472076416,unseen
+122,"('All grandsons of Stacy walk through some art gallery.',)",1.0,0,0.9348312616348267,seen
+123,"('All grandsons of Stacy cried some art gallery.',)",1.0,1,0.33723393082618713,seen
+124,"(""Cindy's podiatrists cleaned most public parks."",)",0.0,0,0.678231954574585,seen
+125,"(""Cindy's podiatrists cooperated most public parks."",)",1.0,1,0.49356478452682495,seen
+126,"('Ella examines a nephew of some customers.',)",0.0,0,0.6824700236320496,seen
+127,"('Ella chuckled a nephew of some customers.',)",1.0,1,0.39883556962013245,seen
+128,"('Most grandfathers of Gregory think about some fish.',)",1.0,0,0.9657537937164307,seen
+129,"('Most grandfathers of Gregory slumped over some fish.',)",1.0,1,0.5704323053359985,seen
+130,"(""All women's plumbers aren't fixing this bicycle."",)",0.0,0,0.5007943511009216,seen
+131,"(""All women's plumbers aren't crying this bicycle."",)",1.0,1,0.40357083082199097,seen
+132,"(""Linda's nieces attack Carla."",)",0.0,0,0.3957507610321045,unseen
+133,"(""Linda's nieces compete Carla."",)",1.0,1,0.6209783554077148,unseen
+134,"(""A lot of ladies shouldn't appreciate Julia."",)",0.0,0,0.5160433053970337,seen
+135,"(""A lot of ladies shouldn't scream Julia."",)",0.0,1,0.8430282473564148,seen
+136,"(""A government doesn't respect dancers."",)",0.0,0,0.5273044109344482,seen
+137,"(""A government doesn't negotiate dancers."",)",0.0,1,0.7600284814834595,seen
+138,"('Michael boasted about Anna.',)",0.0,0,0.4371103048324585,seen
+139,"('Michael muttered Anna.',)",1.0,1,0.47770389914512634,seen
+140,"(""James wasn't wearing this sock."",)",0.0,0,0.38491907715797424,unseen
+141,"(""James wasn't blinking this sock."",)",0.0,1,0.7088504433631897,unseen
+142,"('That granddaughter of Becky criticizes the teenager.',)",0.0,0,0.6766723394393921,seen
+143,"('That granddaughter of Becky sighs the teenager.',)",1.0,1,0.3497171700000763,seen
+144,"(""Joel's grandfathers flee from the boy's father."",)",0.0,0,0.4191462993621826,unseen
+145,"(""Joel's grandfathers coped the boy's father."",)",1.0,1,0.6273049116134644,unseen
+146,"(""Diane couldn't lift this print."",)",0.0,0,0.3864040672779083,seen
+147,"(""Diane couldn't fall this print."",)",1.0,1,0.4916629195213318,seen
+148,"(""Janice won't dislike Jennifer."",)",0.0,0,0.41221266984939575,unseen
+149,"(""Janice won't weep Jennifer."",)",0.0,1,0.71631920337677,unseen
+150,"(""Tammy's associates go to this high school."",)",0.0,0,0.3937305510044098,seen
+151,"(""Tammy's associates flirt this high school."",)",1.0,1,0.570848822593689,seen
+152,"(""The grandson of Valerie wasn't hiding Stephanie."",)",0.0,0,0.5304610729217529,seen
+153,"(""The grandson of Valerie wasn't shouting Stephanie."",)",0.0,1,0.8755269050598145,seen
+154,"('Those women do research some university.',)",1.0,0,1.234337329864502,seen
+155,"('Those women do concur some university.',)",1.0,1,0.34019017219543457,seen
+156,"('Monica climbs up some slope.',)",0.0,0,0.5069464445114136,seen
+157,"('Monica escaped some slope.',)",1.0,1,0.4345722496509552,seen
+158,"(""Sherry shouldn't tour some bank."",)",0.0,0,0.5805630683898926,seen
+159,"(""Sherry shouldn't litter some bank."",)",0.0,1,0.8222877979278564,seen
+160,"(""That actor's partner questions Homer."",)",0.0,0,0.5328351259231567,seen
+161,"(""That actor's partner cried Homer."",)",1.0,1,0.6205877065658569,seen
+162,"('Some adult finds some bicycle.',)",0.0,0,0.6581974625587463,seen
+163,"('Some adult went fishing some bicycle.',)",1.0,1,0.3494005799293518,seen
+164,"('Most fish can astound Paula.',)",0.0,0,0.6881678104400635,seen
+165,"('Most fish can escape Paula.',)",0.0,1,0.8563076853752136,seen
+166,"('These customers complain about a lady.',)",0.0,0,0.4593731164932251,seen
+167,"('These customers disagreed a lady.',)",1.0,1,0.39293763041496277,seen
+168,"('Michelle aggravated Gregory.',)",1.0,0,1.0369001626968384,seen
+169,"('Michelle blinks Gregory.',)",1.0,1,0.5233175158500671,seen
+170,"('A lot of customers fix all cups.',)",1.0,0,0.853300929069519,seen
+171,"('A lot of customers fell all cups.',)",1.0,1,0.37230226397514343,seen
+172,"(""Many waitresses' ex-wives have observed all drivers."",)",0.0,0,0.6902458667755127,seen
+173,"(""Many waitresses' ex-wives have conspired all drivers."",)",1.0,1,0.4670789837837219,seen
+174,"(""Douglas's plumber is passing a mall."",)",0.0,0,0.5201804041862488,seen
+175,"(""Douglas's plumber is coming here a mall."",)",1.0,1,0.41921448707580566,seen
+176,"(""Connie's dermatologist kissed Monica's plumbers."",)",0.0,0,0.47139087319374084,seen
+177,"(""Connie's dermatologist nods Monica's plumbers."",)",0.0,1,0.7086717486381531,seen
+178,"(""Sonia's hairdresser messed up all schools."",)",0.0,0,0.6069076061248779,seen
+179,"(""Sonia's hairdresser struggles all schools."",)",1.0,1,0.42253080010414124,seen
+180,"(""The dancer wouldn't talk about Heather's boss."",)",0.0,0,0.3820030987262726,seen
+181,"(""The dancer wouldn't escape Heather's boss."",)",0.0,1,0.855094313621521,seen
+182,"('Barbara loved most mothers of Beth.',)",1.0,0,1.0643129348754883,seen
+183,"('Barbara screams most mothers of Beth.',)",1.0,1,0.37294134497642517,seen
+184,"(""Christopher's dermatologist will notice Liam."",)",0.0,0,0.4697979688644409,seen
+185,"(""Christopher's dermatologist will fall asleep Liam."",)",1.0,1,0.5360532999038696,seen
+186,"(""Every cashier had kissed Sally's dermatologist."",)",0.0,0,0.5490669012069702,seen
+187,"(""Every cashier had cried Sally's dermatologist."",)",1.0,1,0.522321343421936,seen
+188,"('Those rabbits confuse Carla.',)",0.0,0,0.4279150068759918,seen
+189,"('Those rabbits fell Carla.',)",1.0,1,0.3922420144081116,seen
+190,"(""Dawn visits every teacher's senator."",)",0.0,0,0.5729047656059265,seen
+191,"(""Dawn slumps over every teacher's senator."",)",1.0,1,0.4582551419734955,seen
+192,"(""Alicia wasn't climbing down the stairs."",)",0.0,0,0.41797471046447754,seen
+193,"(""Alicia wasn't blinking the stairs."",)",1.0,1,0.6425601243972778,seen
+194,"(""Matt's teacher would drive to that grocery store."",)",0.0,0,0.4006551504135132,seen
+195,"(""Matt's teacher would slump over that grocery store."",)",0.0,1,0.708686113357544,seen
+196,"(""Kenneth won't praise Wayne."",)",0.0,0,0.40743139386177063,unseen
+197,"(""Kenneth won't cry Wayne."",)",0.0,1,0.7147735357284546,unseen
+198,"('Tamara will disturb all grandfathers of most ladies.',)",1.0,0,0.7346833944320679,seen
+199,"('Tamara will nod all grandfathers of most ladies.',)",1.0,1,0.4650070369243622,seen
+200,"(""Deborah's best friend couldn't go to some hill."",)",0.0,0,0.47839784622192383,seen
+201,"(""Deborah's best friend couldn't speak up some hill."",)",1.0,1,0.6774091124534607,seen
+202,"(""Eva has shocked James's grandsons."",)",0.0,0,0.4327090084552765,seen
+203,"(""Eva has cried James's grandsons."",)",1.0,1,0.4994858205318451,seen
+204,"(""Amy had known a lot of students' lawyer."",)",1.0,0,0.961601972579956,seen
+205,"(""Amy had escaped a lot of students' lawyer."",)",1.0,1,0.4588478207588196,seen
+206,"('Stacy fixed that window.',)",0.0,0,0.4427308142185211,seen
+207,"('Stacy lied that window.',)",1.0,1,0.3778077960014343,seen
+208,"(""That driver's ex-girlfriend sounds like Chad."",)",0.0,0,0.4977028965950012,seen
+209,"(""That driver's ex-girlfriend littered Chad."",)",0.0,1,0.8424906730651855,seen
+210,"(""Susan couldn't respect Christine."",)",0.0,0,0.4046188294887543,seen
+211,"(""Susan couldn't murmur Christine."",)",1.0,1,0.574755072593689,seen
+212,"(""Richard hadn't investigated Sheila."",)",0.0,0,0.4115499258041382,seen
+213,"(""Richard hadn't chuckled Sheila."",)",1.0,1,0.5861521363258362,seen
+214,"(""Noah's associates have taken some birds."",)",0.0,0,0.4175665080547333,unseen
+215,"(""Noah's associates have littered some birds."",)",0.0,1,0.7102483510971069,unseen
+216,"(""These customers had loved Melissa's teachers."",)",0.0,0,0.4923666715621948,seen
+217,"(""These customers had compromised Melissa's teachers."",)",0.0,1,0.8972598314285278,seen
+218,"(""Lissa's grandfathers hadn't distracted James."",)",0.0,0,0.44627344608306885,unseen
+219,"(""Lissa's grandfathers hadn't blinked James."",)",1.0,1,0.6656075716018677,unseen
+220,"(""Melanie shouldn't hurt Patrick."",)",0.0,0,0.35555514693260193,seen
+221,"(""Melanie shouldn't shout Patrick."",)",0.0,1,1.009763479232788,seen
+222,"(""Valerie attacks Matt's boyfriend."",)",0.0,0,0.4322284758090973,seen
+223,"(""Valerie died Matt's boyfriend."",)",1.0,1,0.4648624360561371,seen
+224,"('Melissa was visiting Travis.',)",0.0,0,0.45981037616729736,seen
+225,"('Melissa was blinking Travis.',)",1.0,1,0.6844684481620789,seen
+226,"('Lisa brought the scarves.',)",0.0,0,0.4079139232635498,unseen
+227,"('Lisa grins the scarves.',)",1.0,1,0.39176174998283386,unseen
+228,"('George climbed down many mountains.',)",0.0,0,0.5915957689285278,unseen
+229,"('George struggles many mountains.',)",1.0,1,0.4807433784008026,unseen
+230,"(""The student's contractor was cleaning all spotlights."",)",0.0,0,0.5085557699203491,seen
+231,"(""The student's contractor was laughing all spotlights."",)",1.0,1,0.43038854002952576,seen
+232,"('These sons of Danielle worry Adam.',)",1.0,0,0.9538028836250305,seen
+233,"('These sons of Danielle fall asleep Adam.',)",1.0,1,0.4536725580692291,seen
+234,"(""Sharon's oncologists have boasted about Sara's son."",)",0.0,0,0.4640864133834839,seen
+235,"(""Sharon's oncologists have coped Sara's son."",)",1.0,1,0.6142449975013733,seen
+236,"('Wendy can fix some forks.',)",0.0,0,0.42111074924468994,unseen
+237,"('Wendy can shrug some forks.',)",1.0,1,0.561784029006958,unseen
+238,"(""Walter's grandsons skate around some glacier."",)",0.0,0,0.4491102695465088,unseen
+239,"(""Walter's grandsons react some glacier."",)",1.0,1,0.42239776253700256,unseen
+240,"('All dancers did bike to the rivers.',)",1.0,0,0.9022294282913208,seen
+241,"('All dancers did nod the rivers.',)",1.0,1,0.3749552071094513,seen
+242,"('Alan had returned to Joel.',)",0.0,0,0.500381588935852,seen
+243,"('Alan had shrugged Joel.',)",1.0,1,0.4624229967594147,seen
+244,"(""Rachel saw Jill's tutor."",)",0.0,0,0.5589136481285095,seen
+245,"(""Rachel lied Jill's tutor."",)",0.0,1,0.7309969663619995,seen
+246,"(""Renee's lawyer fires Benjamin."",)",0.0,0,0.3841368556022644,seen
+247,"(""Renee's lawyer suffers Benjamin."",)",1.0,1,0.4747259020805359,seen
+248,"('This guest had referenced some sister of Irene.',)",1.0,0,0.7075371742248535,seen
+249,"('This guest had smiled some sister of Irene.',)",1.0,1,0.4004013240337372,seen
+250,"(""Linda wouldn't boycott every organization."",)",0.0,0,0.39898771047592163,unseen
+251,"(""Linda wouldn't slump over every organization."",)",0.0,1,0.7792280912399292,unseen
+252,"(""That granddaughter of Rachel couldn't exit those public parks."",)",0.0,0,0.6896670460700989,seen
+253,"(""That granddaughter of Rachel couldn't chuckle those public parks."",)",1.0,1,0.40660497546195984,seen
+254,"(""Regina's nephew had exited some libraries."",)",0.0,0,0.5419100522994995,seen
+255,"(""Regina's nephew had screamed some libraries."",)",1.0,1,0.5772393345832825,seen
+256,"(""Connie won't exit these college campuses."",)",0.0,0,0.46261921525001526,seen
+257,"(""Connie won't speak up these college campuses."",)",1.0,1,0.5856037735939026,seen
+258,"('Sally had worked with a teacher.',)",0.0,0,0.5511385798454285,seen
+259,"('Sally had shrugged a teacher.',)",1.0,1,0.5263789296150208,seen
+260,"('Most cashiers resemble every sketch of Helen.',)",0.0,0,0.6023471355438232,seen
+261,"('Most cashiers grin every sketch of Helen.',)",1.0,1,0.45851337909698486,seen
+262,"('Jessica appreciates science.',)",0.0,0,0.3919878900051117,unseen
+263,"('Jessica came here science.',)",1.0,1,0.37242892384529114,unseen
+264,"(""This projector alarms all waiters' husband."",)",1.0,0,0.8445662260055542,seen
+265,"(""This projector falls all waiters' husband."",)",1.0,1,0.33944639563560486,seen
+266,"(""This shoe scared Vincent's handymen."",)",0.0,0,0.4033372700214386,seen
+267,"(""This shoe fell Vincent's handymen."",)",1.0,1,0.4760195016860962,seen
+268,"('Some prints have annoyed Scott.',)",0.0,0,0.41757845878601074,seen
+269,"('Some prints have fallen Scott.',)",1.0,1,0.4758301377296448,seen
+270,"(""That apple hasn't disgusted Natalie."",)",0.0,0,0.5016299486160278,seen
+271,"(""That apple hasn't rotted Natalie."",)",0.0,1,1.0531829595565796,seen
+272,"(""Chad's niece isn't cleaning some hat."",)",0.0,0,0.6783100366592407,seen
+273,"(""Chad's niece isn't littering some hat."",)",0.0,1,0.8339900970458984,seen
+274,"(""A son of this guest couldn't examine Kenneth's niece."",)",0.0,0,0.6702947020530701,seen
+275,"(""A son of this guest couldn't joke around Kenneth's niece."",)",0.0,1,0.6946721076965332,seen
+276,"('Some hamsters embarrass most actors.',)",0.0,0,0.6121619939804077,seen
+277,"('Some hamsters came here most actors.',)",1.0,1,0.33998027443885803,seen
+278,"('Sonia skated around those malls.',)",0.0,0,0.5486189126968384,seen
+279,"('Sonia compromises those malls.',)",1.0,1,0.4013379216194153,seen
+280,"('The girl forgot Omar.',)",0.0,0,0.5580574870109558,seen
+281,"('The girl murmured Omar.',)",1.0,1,0.6333914995193481,seen
+282,"('The convertible distracts a committee.',)",0.0,0,0.5076391696929932,seen
+283,"('The convertible fell a committee.',)",1.0,1,0.362289160490036,seen
+284,"('Angela will worry these daughters of Michelle.',)",1.0,0,0.9626533389091492,seen
+285,"('Angela will come here these daughters of Michelle.',)",1.0,1,0.3666573166847229,seen
+286,"('Many organizations worry Susan.',)",0.0,0,0.5458666086196899,seen
+287,"('Many organizations compete Susan.',)",1.0,1,0.480192095041275,seen
+288,"('Matt arrived at a lot of hospitals.',)",0.0,0,0.39705947041511536,seen
+289,"('Matt littered a lot of hospitals.',)",0.0,1,0.7445908784866333,seen
+290,"(""Bradley's nieces fix every unicycle."",)",0.0,0,0.4458945691585541,seen
+291,"(""Bradley's nieces negotiated every unicycle."",)",0.0,1,0.7810770273208618,seen
+292,"(""Joel argued about Christopher's students."",)",0.0,0,0.5114900469779968,unseen
+293,"(""Joel sighed Christopher's students."",)",1.0,1,0.5541405081748962,unseen
+294,"('Those horses have bothered Sandra.',)",0.0,0,0.4658314883708954,seen
+295,"('Those horses have fallen Sandra.',)",1.0,1,0.6858299374580383,seen
+296,"('A waiter remembers Jill.',)",0.0,0,0.3632780909538269,seen
+297,"('A waiter testifies Jill.',)",1.0,1,0.48264896869659424,seen
+298,"(""Sonia's mothers weren't boycotting this association."",)",0.0,0,0.5815238356590271,seen
+299,"(""Sonia's mothers weren't nodding this association."",)",1.0,1,0.5812742710113525,seen
+300,"('Many nieces of Alicia praise Paula.',)",0.0,0,0.4810979962348938,seen
+301,"('Many nieces of Alicia struggle Paula.',)",1.0,1,0.3882870674133301,seen
+302,"('Janice forgets Donna.',)",0.0,0,0.38577431440353394,unseen
+303,"('Janice smiles Donna.',)",1.0,1,0.4167296290397644,unseen
+304,"('Raymond had seen most rivers.',)",0.0,0,0.4138873517513275,seen
+305,"('Raymond had gone fishing most rivers.',)",0.0,1,0.7949706315994263,seen
+306,"('All nieces of Beverly conceal that granddaughter of Janet.',)",1.0,0,1.0242009162902832,seen
+307,"('All nieces of Beverly talked that granddaughter of Janet.',)",1.0,1,0.35805487632751465,seen
+308,"('Paintings look like most sketches.',)",0.0,0,0.6378697752952576,unseen
+309,"('Paintings fell most sketches.',)",1.0,1,0.33796215057373047,unseen
+310,"(""Danielle's oncologist arrives at a restaurant."",)",0.0,0,0.3654576539993286,seen
+311,"(""Danielle's oncologist boasted a restaurant."",)",0.0,1,1.1138126850128174,seen
+312,"(""Wayne wasn't going to that high school."",)",0.0,0,0.3949239253997803,unseen
+313,"(""Wayne wasn't complaining that high school."",)",1.0,1,0.5482560396194458,unseen
+314,"(""Beth hasn't argued about Jeffrey."",)",0.0,0,0.40964648127555847,seen
+315,"(""Beth hasn't gone fishing Jeffrey."",)",0.0,1,0.7678002119064331,seen
+316,"('Kristin wore some hat.',)",1.0,0,0.8997789621353149,unseen
+317,"('Kristin lies some hat.',)",1.0,1,0.34766751527786255,unseen
+318,"(""Phillip's nieces watch Kendra."",)",0.0,0,0.44197291135787964,unseen
+319,"(""Phillip's nieces compromise Kendra."",)",0.0,1,1.0231876373291016,unseen
+320,"(""That customer's doctors are buying that photograph of a carriage."",)",0.0,0,0.6813148260116577,seen
+321,"(""That customer's doctors are communicating that photograph of a carriage."",)",1.0,1,0.5484907627105713,seen
+322,"(""Paul's sisters heal Deborah."",)",0.0,0,0.4968370199203491,unseen
+323,"(""Paul's sisters escaped Deborah."",)",1.0,1,0.6904374361038208,unseen
+324,"(""Every skateboard hasn't disturbed Adam."",)",1.0,0,0.7480443716049194,seen
+325,"(""Every skateboard hasn't fallen Adam."",)",1.0,1,0.6693195700645447,seen
+326,"('Meredith visits many adults.',)",0.0,0,0.5311170816421509,seen
+327,"('Meredith falls many adults.',)",1.0,1,0.3890751898288727,seen
+328,"('These pedestrians talked to Renee.',)",0.0,0,0.4257458448410034,seen
+329,"('These pedestrians testified Renee.',)",1.0,1,0.41980159282684326,seen
+330,"(""Danielle's employee shouldn't notice that pedestrian."",)",0.0,0,0.5932767391204834,seen
+331,"(""Danielle's employee shouldn't nod that pedestrian."",)",1.0,1,0.5592250823974609,seen
+332,"('All fathers of Stacy reference Keith.',)",0.0,0,0.6513546705245972,seen
+333,"('All fathers of Stacy chatted Keith.',)",1.0,1,0.42586639523506165,seen
+334,"('Some drawing of these dishes can look like Ruth.',)",1.0,0,0.9635801315307617,seen
+335,"('Some drawing of these dishes can fall Ruth.',)",1.0,1,0.3402595520019531,seen
+336,"(""Most pedestrians shouldn't research Nancy's husband."",)",0.0,0,0.45045170187950134,seen
+337,"(""Most pedestrians shouldn't cry Nancy's husband."",)",1.0,1,0.5483511686325073,seen
+338,"(""All brothers of Regina remember Phillip's friends."",)",1.0,0,0.7776211500167847,seen
+339,"(""All brothers of Regina negotiate Phillip's friends."",)",1.0,1,0.39921653270721436,seen
+340,"(""The Lutherans kiss Victoria's associate."",)",0.0,0,0.4941742718219757,seen
+341,"(""The Lutherans mutter Victoria's associate."",)",1.0,1,0.6292825937271118,seen
+342,"('This bicycle bored Maria.',)",0.0,0,0.5380449295043945,seen
+343,"('This bicycle falls Maria.',)",1.0,1,0.35654395818710327,seen
+344,"(""Renee hasn't revealed women."",)",0.0,0,0.6517729163169861,seen
+345,"(""Renee hasn't wept women."",)",1.0,1,0.4146883487701416,seen
+346,"(""Mary's piano teacher hugged Gina's partner."",)",0.0,0,0.39825066924095154,seen
+347,"(""Mary's piano teacher responds Gina's partner."",)",0.0,1,0.7791110277175903,seen
+348,"(""Wayne's students went to the grocery store."",)",0.0,0,0.40204015374183655,unseen
+349,"(""Wayne's students murmur the grocery store."",)",1.0,1,0.6406691670417786,unseen
+350,"(""Kenneth's plumbers wouldn't appreciate the dancer."",)",0.0,0,0.4507029950618744,unseen
+351,"(""Kenneth's plumbers wouldn't disagree the dancer."",)",1.0,1,0.5552457571029663,unseen
+352,"(""Gina's students know Jerry."",)",0.0,0,0.36581602692604065,unseen
+353,"(""Gina's students collaborated Jerry."",)",1.0,1,0.5178347229957581,unseen
+354,"(""Patricia's ex-boyfriend has toured a grocery store."",)",0.0,0,0.38815057277679443,unseen
+355,"(""Patricia's ex-boyfriend has fallen asleep a grocery store."",)",0.0,1,0.7618297338485718,unseen
+356,"('This boy watched Nicole.',)",0.0,0,0.5407299399375916,seen
+357,"('This boy grinned Nicole.',)",1.0,1,0.43387341499328613,seen
+358,"('Most cars alarmed Galileo.',)",1.0,0,0.7917826175689697,seen
+359,"('Most cars fall Galileo.',)",1.0,1,0.37458479404449463,seen
+360,"('Some person annoyed this patient.',)",0.0,0,0.41598039865493774,seen
+361,"('Some person wept this patient.',)",1.0,1,0.40912988781929016,seen
+362,"(""Carrie's mentee isn't ascending every ladder."",)",0.0,0,0.36603379249572754,seen
+363,"(""Carrie's mentee isn't concurring every ladder."",)",0.0,1,0.8428059816360474,seen
+364,"(""Some car hasn't bothered Carmen's hairdressers."",)",0.0,0,0.6888225078582764,seen
+365,"(""Some car hasn't fallen Carmen's hairdressers."",)",1.0,1,0.45429056882858276,seen
+366,"(""The Borgias hadn't shocked all granddaughters of Kathleen."",)",1.0,0,0.9209305047988892,seen
+367,"(""The Borgias hadn't disagreed all granddaughters of Kathleen."",)",1.0,1,0.3700103759765625,seen
+368,"('All brothers of Melanie bike to Harvard University.',)",0.0,0,0.6461250185966492,seen
+369,"('All brothers of Melanie grin Harvard University.',)",1.0,1,0.36392316222190857,seen
+370,"(""A lot of drivers weren't admiring Dana."",)",0.0,0,0.4058065414428711,seen
+371,"(""A lot of drivers weren't conspiring Dana."",)",0.0,1,0.7069928646087646,seen
+372,"(""A lot of teachers' mothers climb down all hills."",)",1.0,0,0.7806344032287598,seen
+373,"(""A lot of teachers' mothers littered all hills."",)",1.0,1,0.552047848701477,seen
+374,"(""Galileo kissed that doctor's daughter."",)",0.0,0,0.47104597091674805,unseen
+375,"(""Galileo spoke up that doctor's daughter."",)",1.0,1,0.48486316204071045,unseen
+376,"('Rachel was driving to most museums.',)",0.0,0,0.6827860474586487,seen
+377,"('Rachel was lying most museums.',)",1.0,1,0.3860442042350769,seen
+378,"(""Wendy couldn't disgust Scott."",)",0.0,0,0.4110462963581085,unseen
+379,"(""Wendy couldn't concur Scott."",)",1.0,1,0.6168685555458069,unseen
+380,"(""This child researched some woman's students."",)",0.0,0,0.6233245730400085,seen
+381,"(""This child weeps some woman's students."",)",1.0,1,0.43399783968925476,seen
+382,"(""All drivers conceal Paul's French teachers."",)",1.0,0,0.8434414863586426,seen
+383,"(""All drivers fall Paul's French teachers."",)",1.0,1,0.4442947506904602,seen
+384,"(""Lori isn't breaking some bicycle."",)",0.0,0,0.6133272647857666,unseen
+385,"(""Lori isn't grinning some bicycle."",)",1.0,1,0.41604480147361755,unseen
+386,"(""Stacey's oncologist hasn't seen a lot of mothers of Gerald."",)",0.0,0,0.45316189527511597,seen
+387,"(""Stacey's oncologist hasn't blinked a lot of mothers of Gerald."",)",1.0,1,0.6654729843139648,seen
+388,"(""That daughter of Becca shouldn't arrive at this high school."",)",0.0,0,0.6575872898101807,seen
+389,"(""That daughter of Becca shouldn't blink this high school."",)",1.0,1,0.3918948471546173,seen
+390,"(""The government can't bother Gregory's dentists."",)",0.0,0,0.4540089964866638,seen
+391,"(""The government can't respond Gregory's dentists."",)",1.0,1,0.5764471292495728,seen
+392,"('A print distracted Jennifer.',)",1.0,0,1.0095555782318115,seen
+393,"('A print fell Jennifer.',)",1.0,1,0.3567604124546051,seen
+394,"('Dan will explore the high school.',)",0.0,0,0.37854358553886414,seen
+395,"('Dan will smile the high school.',)",1.0,1,0.3915535509586334,seen
+396,"(""Vincent's plumbers clean this skirt."",)",0.0,0,0.6285065412521362,seen
+397,"(""Vincent's plumbers die this skirt."",)",1.0,1,0.39866340160369873,seen
+398,"('Curtis wore those sweaters.',)",0.0,0,0.5630927085876465,seen
+399,"('Curtis concurs those sweaters.',)",1.0,1,0.3829513192176819,seen

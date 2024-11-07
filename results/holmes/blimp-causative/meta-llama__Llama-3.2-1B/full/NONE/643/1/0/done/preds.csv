@@ -1,0 +1,401 @@
+,instance,pred,label,loss,seen
+0,"('Aaron breaks the glass.',)",0.0,0,0.38609054684638977,seen
+1,"('Aaron appeared the glass.',)",1.0,1,0.49152112007141113,seen
+2,"('April had dropped the truck.',)",0.0,0,0.5955069661140442,seen
+3,"('April had existed the truck.',)",1.0,1,0.3778492212295532,seen
+4,"(""All actors train Tonya's brothers."",)",0.0,0,0.4245001971721649,seen
+5,"(""All actors appeared Tonya's brothers."",)",1.0,1,0.5813538432121277,seen
+6,"('Rodney was moving Victoria.',)",0.0,0,0.5223318934440613,unseen
+7,"('Rodney was sighing Victoria.',)",1.0,1,0.4457501769065857,unseen
+8,"('The Borgias crash a lot of unicycles.',)",0.0,0,0.5315463542938232,unseen
+9,"('The Borgias existed a lot of unicycles.',)",1.0,1,0.38322916626930237,unseen
+10,"('Katherine grew some apples.',)",0.0,0,0.4485999345779419,seen
+11,"('Katherine went bad some apples.',)",1.0,1,0.5048432946205139,seen
+12,"(""Noah hasn't shattered a mirror."",)",0.0,0,0.6049511432647705,unseen
+13,"(""Noah hasn't fallen a mirror."",)",1.0,1,0.4079476296901703,unseen
+14,"('Lissa shuts the door.',)",0.0,0,0.5299758911132812,unseen
+15,"('Lissa wasted away the door.',)",1.0,1,0.4388352334499359,unseen
+16,"('Many actors evaporate a lot of glaciers.',)",1.0,0,0.8632848262786865,seen
+17,"('Many actors disappeared a lot of glaciers.',)",1.0,1,0.4005196988582611,seen
+18,"('Natalie has assembled a hospital.',)",0.0,0,0.5103873014450073,unseen
+19,"('Natalie has debated a hospital.',)",0.0,1,0.6979905366897583,unseen
+20,"('Stacy twirled a sweater.',)",0.0,0,0.3735327124595642,seen
+21,"('Stacy wasted away a sweater.',)",1.0,1,0.5736873745918274,seen
+22,"('Cheryl had trained Tara.',)",0.0,0,0.42789170145988464,seen
+23,"('Cheryl had murmured Tara.',)",1.0,1,0.5020701885223389,seen
+24,"('This guest shattered a plane.',)",0.0,0,0.49429789185523987,unseen
+25,"('This guest exists a plane.',)",1.0,1,0.43019232153892517,unseen
+26,"('A lot of women fade those lights.',)",0.0,0,0.5991165041923523,seen
+27,"('A lot of women vanished those lights.',)",1.0,1,0.5587248802185059,seen
+28,"(""Colleen wouldn't drop some truck."",)",0.0,0,0.5094439387321472,seen
+29,"(""Colleen wouldn't slip some truck."",)",0.0,1,0.8569068312644958,seen
+30,"('Bethany had frayed jackets.',)",0.0,0,0.4747048616409302,seen
+31,"('Bethany had wasted away jackets.',)",1.0,1,0.6552551984786987,seen
+32,"('Julie wrinkled every shawl.',)",0.0,0,0.38952717185020447,unseen
+33,"('Julie wastes away every shawl.',)",1.0,1,0.6637648344039917,unseen
+34,"(""Heidi isn't blackening some cake."",)",0.0,0,0.5090746283531189,unseen
+35,"(""Heidi isn't existing some cake."",)",1.0,1,0.4430994987487793,unseen
+36,"('Gina wakes up Ellen.',)",0.0,0,0.5777286291122437,unseen
+37,"('Gina complained Ellen.',)",1.0,1,0.5532705187797546,unseen
+38,"(""William's plumbers hide every photograph."",)",0.0,0,0.3891559839248657,seen
+39,"(""William's plumbers vanished every photograph."",)",1.0,1,0.6477413177490234,seen
+40,"('Deanna wakes up Kirsten.',)",0.0,0,0.5728597640991211,seen
+41,"('Deanna chuckles Kirsten.',)",1.0,1,0.48611071705818176,seen
+42,"('Rachel had turned this carriage.',)",0.0,0,0.6482537984848022,unseen
+43,"('Rachel had disappeared this carriage.',)",1.0,1,0.4603220820426941,unseen
+44,"(""Nina isn't burning some casserole."",)",0.0,0,0.4721040725708008,unseen
+45,"(""Nina isn't vanishing some casserole."",)",1.0,1,0.6872382164001465,unseen
+46,"('Adam will melt these rivers.',)",0.0,0,0.48663216829299927,seen
+47,"('Adam will vanish these rivers.',)",1.0,1,0.43220216035842896,seen
+48,"('Brett has melted some icicles.',)",0.0,0,0.35963234305381775,seen
+49,"('Brett has vanished some icicles.',)",0.0,1,0.7138020992279053,seen
+50,"('Naomi had twisted most hats.',)",0.0,0,0.5571136474609375,unseen
+51,"('Naomi had fallen most hats.',)",1.0,1,0.3861527740955353,unseen
+52,"('Most teenagers had warped a scarf.',)",1.0,0,0.9067460298538208,seen
+53,"('Most teenagers had disappeared a scarf.',)",1.0,1,0.4106113910675049,seen
+54,"('The Lutherans tighten those shoes.',)",1.0,0,0.8338677883148193,unseen
+55,"('The Lutherans disappeared those shoes.',)",1.0,1,0.4206102192401886,unseen
+56,"('The teachers freeze all lakes.',)",0.0,0,0.5810064077377319,unseen
+57,"('The teachers waste away all lakes.',)",1.0,1,0.4997626543045044,unseen
+58,"('John has loosened many hats.',)",0.0,0,0.3931210935115814,unseen
+59,"('John has disappeared many hats.',)",1.0,1,0.6930128931999207,unseen
+60,"(""Alexander wouldn't wash all women's grandfathers."",)",0.0,0,0.5330257415771484,seen
+61,"(""Alexander wouldn't cheer all women's grandfathers."",)",1.0,1,0.42938241362571716,seen
+62,"(""Stacy's classmates heal Julia's employee."",)",0.0,0,0.6115108728408813,seen
+63,"(""Stacy's classmates slumped over Julia's employee."",)",1.0,1,0.48918575048446655,seen
+64,"('Many girls bake many cakes.',)",0.0,0,0.633905291557312,seen
+65,"('Many girls appeared many cakes.',)",1.0,1,0.46903085708618164,seen
+66,"('All customers slow some cars.',)",0.0,0,0.44035768508911133,seen
+67,"('All customers appear some cars.',)",1.0,1,0.5949181914329529,seen
+68,"('Gina rolls that wheelbarrow.',)",0.0,0,0.39871659874916077,unseen
+69,"('Gina existed that wheelbarrow.',)",1.0,1,0.3744685649871826,unseen
+70,"('The Borgias shrank some blouse.',)",1.0,0,0.7140239477157593,unseen
+71,"('The Borgias vanished some blouse.',)",1.0,1,0.386038601398468,unseen
+72,"('Christina chipped glasses.',)",0.0,0,0.5819367170333862,seen
+73,"('Christina vanished glasses.',)",1.0,1,0.5168905258178711,seen
+74,"('Carla accelerates every skateboard.',)",0.0,0,0.4016333818435669,seen
+75,"('Carla disappeared every skateboard.',)",0.0,1,0.7972345352172852,seen
+76,"(""Sarah doesn't benefit the Clintons."",)",1.0,0,1.1328575611114502,seen
+77,"(""Sarah doesn't meet the Clintons."",)",1.0,1,0.42025938630104065,seen
+78,"('Emily woke up a grandmother of Alice.',)",1.0,0,0.7939584255218506,unseen
+79,"('Emily wastes away a grandmother of Alice.',)",1.0,1,0.38772231340408325,unseen
+80,"('All stairs had worried Paul.',)",0.0,0,0.497653990983963,seen
+81,"('All stairs had eaten Paul.',)",0.0,1,1.0069364309310913,seen
+82,"('The Borgias trains a waiter.',)",0.0,0,0.6261628866195679,unseen
+83,"('The Borgias whispered a waiter.',)",1.0,1,0.3642272353172302,unseen
+84,"('Steven has chipped computers.',)",0.0,0,0.3825470805168152,seen
+85,"('Steven has fallen apart computers.',)",1.0,1,0.5184744596481323,seen
+86,"(""Diane heals Carla's associates."",)",0.0,0,0.46714556217193604,seen
+87,"(""Diane met Carla's associates."",)",0.0,1,0.8110775947570801,seen
+88,"('Alicia shatters that mirror.',)",0.0,0,0.5722435712814331,seen
+89,"('Alicia vanishes that mirror.',)",0.0,1,0.7011361122131348,seen
+90,"('Every student shrank this scarf.',)",0.0,0,0.5663151144981384,unseen
+91,"('Every student disappeared this scarf.',)",1.0,1,0.6071447134017944,unseen
+92,"('Michael worried this museum.',)",1.0,0,0.8319931030273438,seen
+93,"('Michael testified this museum.',)",1.0,1,0.4265199601650238,seen
+94,"('Maria cracks this bike.',)",0.0,0,0.4097291827201843,seen
+95,"('Maria falls apart this bike.',)",1.0,1,0.47321420907974243,seen
+96,"('A waitress chipped every cart.',)",0.0,0,0.3547443151473999,seen
+97,"('A waitress vanished every cart.',)",0.0,1,0.8914749622344971,seen
+98,"('Gina cracks every cup.',)",0.0,0,0.3733230531215668,unseen
+99,"('Gina falls every cup.',)",1.0,1,0.5416957139968872,unseen
+100,"('Brenda trained Kirsten.',)",0.0,0,0.44257691502571106,seen
+101,"('Brenda shrugs Kirsten.',)",1.0,1,0.6417467594146729,seen
+102,"('All cashiers blacken many eggplants.',)",0.0,0,0.5381890535354614,seen
+103,"('All cashiers fall many eggplants.',)",1.0,1,0.4746659994125366,seen
+104,"(""Some waitresses haven't shut all closets."",)",0.0,0,0.6651799082756042,seen
+105,"(""Some waitresses haven't vanished all closets."",)",1.0,1,0.43734264373779297,seen
+106,"('Homer is tightening those gloves.',)",0.0,0,0.5588396191596985,unseen
+107,"('Homer is existing those gloves.',)",1.0,1,0.4133301377296448,unseen
+108,"('Carla will maneuver every plane.',)",0.0,0,0.4353848397731781,seen
+109,"('Carla will fall apart every plane.',)",1.0,1,0.45595669746398926,seen
+110,"('Heidi had baked this pie.',)",0.0,0,0.4619547426700592,unseen
+111,"('Heidi had fallen this pie.',)",1.0,1,0.43070390820503235,unseen
+112,"('The Impressionists bake all tomatoes.',)",0.0,0,0.5360881090164185,unseen
+113,"('The Impressionists fall all tomatoes.',)",1.0,1,0.4234312176704407,unseen
+114,"('Many guys change the guys.',)",0.0,0,0.420131117105484,seen
+115,"('Many guys talk the guys.',)",1.0,1,0.42582979798316956,seen
+116,"(""These eggplants were worrying many women's father."",)",1.0,0,0.7607960104942322,unseen
+117,"(""These eggplants were studying many women's father."",)",1.0,1,0.6081421971321106,unseen
+118,"('Allison stretched those socks.',)",0.0,0,0.4382442235946655,seen
+119,"('Allison vanished those socks.',)",0.0,1,0.7088221311569214,seen
+120,"('Samuel soaked a lot of glasses.',)",0.0,0,0.34470582008361816,seen
+121,"('Samuel appeared a lot of glasses.',)",1.0,1,0.46038782596588135,seen
+122,"('Some children flatten many skirts.',)",0.0,0,0.5631237030029297,seen
+123,"('Some children disappeared many skirts.',)",1.0,1,0.48335474729537964,seen
+124,"('Kimberley could loosen these skirts.',)",1.0,0,0.8023276925086975,seen
+125,"('Kimberley could vanish these skirts.',)",1.0,1,0.5102587342262268,seen
+126,"(""Suzanne isn't evaporating a lake."",)",0.0,0,0.5585256814956665,seen
+127,"(""Suzanne isn't appearing a lake."",)",1.0,1,0.46206843852996826,seen
+128,"('Men fling open some gates.',)",0.0,0,0.638035774230957,seen
+129,"('Men exist some gates.',)",1.0,1,0.4139816164970398,seen
+130,"('Carolyn is drying that shawl.',)",0.0,0,0.3903841972351074,seen
+131,"('Carolyn is existing that shawl.',)",1.0,1,0.40580081939697266,seen
+132,"(""Frank didn't condense some water."",)",1.0,0,0.7818487882614136,unseen
+133,"(""Frank didn't vanish some water."",)",1.0,1,0.4165947735309601,unseen
+134,"('Most senators benefit a lot of grandsons of the ladies.',)",1.0,0,1.2006480693817139,seen
+135,"('Most senators confer a lot of grandsons of the ladies.',)",1.0,1,0.35127997398376465,seen
+136,"(""Some cashier hadn't burned that pasta."",)",0.0,0,0.49238985776901245,seen
+137,"(""Some cashier hadn't appeared that pasta."",)",1.0,1,0.6020737290382385,seen
+138,"('Donna did vaporize the popsicle.',)",0.0,0,0.45093584060668945,seen
+139,"('Donna did exist the popsicle.',)",1.0,1,0.45073914527893066,seen
+140,"('Helen evaporates some lake.',)",0.0,0,0.4223703145980835,unseen
+141,"('Helen appeared some lake.',)",1.0,1,0.41656336188316345,unseen
+142,"('Raymond had dried all socks.',)",0.0,0,0.37156179547309875,unseen
+143,"('Raymond had disappeared all socks.',)",0.0,1,0.8322522640228271,unseen
+144,"(""Brenda hadn't crumpled every shoe."",)",0.0,0,0.5205298066139221,seen
+145,"(""Brenda hadn't wasted away every shoe."",)",1.0,1,0.5685986280441284,seen
+146,"('Keith condensed that water.',)",1.0,0,0.7591363191604614,seen
+147,"('Keith falls that water.',)",1.0,1,0.3782128691673279,seen
+148,"('Tammy had loosened all jackets.',)",0.0,0,0.3843870162963867,unseen
+149,"('Tammy had vanished all jackets.',)",0.0,1,0.7529832720756531,unseen
+150,"('Those boys roll all cars.',)",0.0,0,0.4223891496658325,unseen
+151,"('Those boys appeared all cars.',)",1.0,1,0.5817655920982361,unseen
+152,"('Kathleen is darkening that lamp.',)",1.0,0,0.7470039129257202,seen
+153,"('Kathleen is appearing that lamp.',)",1.0,1,0.48952484130859375,seen
+154,"('Gina can fray many dresses.',)",0.0,0,0.48989614844322205,unseen
+155,"('Gina can fall many dresses.',)",1.0,1,0.3602740466594696,unseen
+156,"('Elaine had accelerated all bikes.',)",0.0,0,0.3960379958152771,unseen
+157,"('Elaine had appeared all bikes.',)",1.0,1,0.6462233662605286,unseen
+158,"('Paula is twisting the hats.',)",0.0,0,0.44009748101234436,seen
+159,"('Paula is vanishing the hats.',)",0.0,1,0.79483962059021,seen
+160,"(""Kayla isn't worrying a lot of customers."",)",0.0,0,0.6624859571456909,seen
+161,"(""Kayla isn't cooking a lot of customers."",)",0.0,1,0.8174723386764526,seen
+162,"('All customers have grown some banana.',)",0.0,0,0.4964352548122406,seen
+163,"('All customers have fallen some banana.',)",1.0,1,0.4516110420227051,seen
+164,"('Russell has broken every plane.',)",0.0,0,0.4818628430366516,unseen
+165,"('Russell has existed every plane.',)",1.0,1,0.5142742395401001,unseen
+166,"('Jennifer twirls some scarf.',)",0.0,0,0.3653305172920227,unseen
+167,"('Jennifer appears some scarf.',)",1.0,1,0.3999030292034149,unseen
+168,"('Brian had condensed some ice cream.',)",0.0,0,0.36734166741371155,seen
+169,"('Brian had wasted away some ice cream.',)",0.0,1,0.8244612216949463,seen
+170,"('Carlos hides the girl.',)",0.0,0,0.4336463510990143,seen
+171,"('Carlos falls the girl.',)",1.0,1,0.3649567663669586,seen
+172,"('William is tipping over a lot of cups.',)",0.0,0,0.37919747829437256,seen
+173,"('William is slipping a lot of cups.',)",0.0,1,1.0702186822891235,seen
+174,"('Most dancers had stopped every convertible.',)",1.0,0,0.8420614004135132,seen
+175,"('Most dancers had slipped every convertible.',)",1.0,1,0.6243664026260376,seen
+176,"('Sara frayed the blouses.',)",0.0,0,0.42635202407836914,seen
+177,"('Sara existed the blouses.',)",1.0,1,0.3972518742084503,seen
+178,"(""Chad wakes up Jennifer's guest."",)",0.0,0,0.5111392736434937,seen
+179,"(""Chad fell asleep Jennifer's guest."",)",1.0,1,0.40146392583847046,seen
+180,"(""Derek hadn't hidden Angela."",)",0.0,0,0.55012446641922,seen
+181,"(""Derek hadn't muttered Angela."",)",1.0,1,0.5447210669517517,seen
+182,"('Rose opened all gates.',)",0.0,0,0.48763006925582886,unseen
+183,"('Rose disappeared all gates.',)",0.0,1,0.7264293432235718,unseen
+184,"(""Eva shouldn't steer the cars."",)",0.0,0,0.5869451761245728,unseen
+185,"(""Eva shouldn't waste away the cars."",)",1.0,1,0.45838072896003723,unseen
+186,"('Some customer sits down every waiter.',)",1.0,0,0.6989124417304993,seen
+187,"('Some customer struggles every waiter.',)",0.0,1,0.7467283010482788,seen
+188,"('Anne twisted every hat.',)",0.0,0,0.433919757604599,seen
+189,"('Anne vanishes every hat.',)",1.0,1,0.5049694776535034,seen
+190,"(""Teresa isn't flattening scarves."",)",0.0,0,0.49767976999282837,unseen
+191,"(""Teresa isn't appearing scarves."",)",1.0,1,0.5197399854660034,unseen
+192,"('These boys wrinkle the gloves.',)",0.0,0,0.37809306383132935,unseen
+193,"('These boys vanished the gloves.',)",1.0,1,0.6519508957862854,unseen
+194,"('The Clintons break that dish.',)",1.0,0,0.8934001922607422,unseen
+195,"('The Clintons fell that dish.',)",1.0,1,0.3366895914077759,unseen
+196,"(""Gina wasn't scorching that pepper."",)",1.0,0,0.8875994682312012,unseen
+197,"(""Gina wasn't vanishing that pepper."",)",1.0,1,0.4998624324798584,unseen
+198,"(""Kimberley hadn't stretched most skirts."",)",0.0,0,0.6382991075515747,seen
+199,"(""Kimberley hadn't disappeared most skirts."",)",1.0,1,0.43194401264190674,seen
+200,"('These women crash some unicycles.',)",0.0,0,0.4486009478569031,unseen
+201,"('These women rust some unicycles.',)",0.0,1,0.7241076231002808,unseen
+202,"('Amy has rolled the truck.',)",0.0,0,0.3609141409397125,seen
+203,"('Amy has appeared the truck.',)",0.0,1,0.7220011353492737,seen
+204,"('Vanessa freezes some water.',)",0.0,0,0.3834512233734131,unseen
+205,"('Vanessa disappears some water.',)",0.0,1,0.7629628777503967,unseen
+206,"('Eva grew this pepper.',)",0.0,0,0.5310162305831909,unseen
+207,"('Eva falls this pepper.',)",1.0,1,0.4114791452884674,unseen
+208,"('Jacqueline baked the cilantro.',)",0.0,0,0.5063178539276123,unseen
+209,"('Jacqueline wasted away the cilantro.',)",1.0,1,0.4293314218521118,unseen
+210,"('Dana stretched Melinda.',)",0.0,0,0.6381030082702637,seen
+211,"('Dana shrugged Melinda.',)",1.0,1,0.5023685693740845,seen
+212,"(""A lot of teenagers benefit Susan's French teachers."",)",1.0,0,0.9407460689544678,seen
+213,"(""A lot of teenagers went fishing Susan's French teachers."",)",1.0,1,0.43172216415405273,seen
+214,"('All adults stop the convertibles.',)",1.0,0,0.712067723274231,seen
+215,"('All adults vanished the convertibles.',)",1.0,1,0.5231001973152161,seen
+216,"('Rodney brightened some screens.',)",0.0,0,0.3598944842815399,unseen
+217,"('Rodney wasted away some screens.',)",0.0,1,0.780777633190155,unseen
+218,"('Randolf rolls this bike.',)",0.0,0,0.4578954875469208,unseen
+219,"('Randolf rusts this bike.',)",1.0,1,0.6856575012207031,unseen
+220,"('Deanna charred this spinach.',)",0.0,0,0.4722225069999695,seen
+221,"('Deanna falls this spinach.',)",1.0,1,0.5441005229949951,seen
+222,"(""Claire didn't fold the gloves."",)",0.0,0,0.4732050895690918,seen
+223,"(""Claire didn't vanish the gloves."",)",1.0,1,0.5707481503486633,seen
+224,"('Kristin was maneuvering the convertible.',)",0.0,0,0.5532739162445068,seen
+225,"('Kristin was appearing the convertible.',)",1.0,1,0.4515712857246399,seen
+226,"('Some teenager crumpled every scarf.',)",0.0,0,0.6099441051483154,seen
+227,"('Some teenager disappears every scarf.',)",1.0,1,0.5287050604820251,seen
+228,"('Catherine moved the teacher.',)",0.0,0,0.6002798080444336,seen
+229,"('Catherine approves the teacher.',)",1.0,1,0.5844759941101074,seen
+230,"('The people unfold a lot of jackets.',)",1.0,0,0.939608633518219,unseen
+231,"('The people appear a lot of jackets.',)",1.0,1,0.3615001142024994,unseen
+232,"('The waitress washes Regina.',)",0.0,0,0.4146122634410858,unseen
+233,"('The waitress went fishing Regina.',)",1.0,1,0.6387096047401428,unseen
+234,"('Andrea burns chicken.',)",0.0,0,0.6243776082992554,seen
+235,"('Andrea exists chicken.',)",1.0,1,0.5285656452178955,seen
+236,"('Most doctors are melting this river.',)",1.0,0,0.9702416658401489,seen
+237,"('Most doctors are disappearing this river.',)",1.0,1,0.39566248655319214,seen
+238,"('Michael grows every tomato.',)",0.0,0,0.3798062801361084,seen
+239,"('Michael goes bad every tomato.',)",1.0,1,0.574248194694519,seen
+240,"('The Impressionists broke this couch.',)",0.0,0,0.6212953329086304,unseen
+241,"('The Impressionists existed this couch.',)",1.0,1,0.42380771040916443,unseen
+242,"('A lot of senators hid Edward.',)",0.0,0,0.6368494629859924,seen
+243,"('A lot of senators saw Edward.',)",1.0,1,0.6341899633407593,seen
+244,"(""These fish worry that driver's grandmother."",)",1.0,0,0.8718456029891968,unseen
+245,"(""These fish sang that driver's grandmother."",)",1.0,1,0.43170326948165894,unseen
+246,"('Those teenagers steer those convertibles.',)",0.0,0,0.507195770740509,unseen
+247,"('Those teenagers slipped those convertibles.',)",0.0,1,1.050611972808838,unseen
+248,"(""Every man hadn't reunited some women."",)",1.0,0,0.9260754585266113,unseen
+249,"(""Every man hadn't screamed some women."",)",1.0,1,0.41168561577796936,unseen
+250,"('Mary had loosened the dress.',)",0.0,0,0.5070791840553284,seen
+251,"('Mary had wasted away the dress.',)",1.0,1,0.43026527762413025,seen
+252,"(""Tara wasn't shattering that bike."",)",0.0,0,0.6296213865280151,unseen
+253,"(""Tara wasn't rusting that bike."",)",1.0,1,0.6384856700897217,unseen
+254,"(""Scott won't tighten most sweaters."",)",1.0,0,0.8089166879653931,seen
+255,"(""Scott won't exist most sweaters."",)",1.0,1,0.39993906021118164,seen
+256,"('Stacy darkens some candle.',)",0.0,0,0.43893301486968994,seen
+257,"('Stacy appeared some candle.',)",1.0,1,0.4505566954612732,seen
+258,"('Raymond would crumple hats.',)",0.0,0,0.5518062710762024,unseen
+259,"('Raymond would exist hats.',)",1.0,1,0.39043882489204407,unseen
+260,"('The Impressionists dim many spotlights.',)",1.0,0,0.7123499512672424,unseen
+261,"('The Impressionists fell many spotlights.',)",1.0,1,0.3621903955936432,unseen
+262,"('Jesus does loosen a jacket.',)",1.0,0,0.7673187255859375,unseen
+263,"('Jesus does waste away a jacket.',)",1.0,1,0.4497808814048767,unseen
+264,"(""Deborah isn't freezing these lakes."",)",0.0,0,0.5998220443725586,seen
+265,"(""Deborah isn't vanishing these lakes."",)",1.0,1,0.6876861453056335,seen
+266,"(""Eva's niece is healing some guests' supervisors."",)",0.0,0,0.44407135248184204,unseen
+267,"(""Eva's niece is compromising some guests' supervisors."",)",0.0,1,0.7226046919822693,unseen
+268,"(""Tina hasn't crumpled blouses."",)",0.0,0,0.4824872314929962,unseen
+269,"(""Tina hasn't appeared blouses."",)",0.0,1,0.8082758784294128,unseen
+270,"('That child ripens this pepper.',)",1.0,0,0.9908503293991089,unseen
+271,"('That child disappears this pepper.',)",1.0,1,0.38931500911712646,unseen
+272,"('Homer tipped over the mirrors.',)",0.0,0,0.5686940550804138,unseen
+273,"('Homer fell apart the mirrors.',)",1.0,1,0.4365738034248352,unseen
+274,"(""Rachel isn't assembling the company."",)",0.0,0,0.48185354471206665,unseen
+275,"(""Rachel isn't joking around the company."",)",1.0,1,0.6095119118690491,unseen
+276,"('The actresses burn a lot of peppers.',)",1.0,0,0.7009982466697693,unseen
+277,"('The actresses vanish a lot of peppers.',)",1.0,1,0.4479101598262787,unseen
+278,"('Some teachers fold a lot of dresses.',)",0.0,0,0.36911457777023315,seen
+279,"('Some teachers wasted away a lot of dresses.',)",1.0,1,0.5005842447280884,seen
+280,"(""Some adults were benefiting Samuel's grandfathers."",)",1.0,0,0.9934383630752563,seen
+281,"(""Some adults were retaliating Samuel's grandfathers."",)",1.0,1,0.4480072855949402,seen
+282,"(""Pamela hasn't darkened those lamps."",)",0.0,0,0.6023604273796082,seen
+283,"(""Pamela hasn't existed those lamps."",)",1.0,1,0.5320172905921936,seen
+284,"(""Gary had changed Brad's bosses."",)",0.0,0,0.4966961443424225,unseen
+285,"(""Gary had negotiated Brad's bosses."",)",1.0,1,0.6076474189758301,unseen
+286,"('All patients brighten spotlights.',)",0.0,0,0.5962618589401245,seen
+287,"('All patients fell spotlights.',)",1.0,1,0.43012556433677673,seen
+288,"(""Andrew hadn't twirled a lot of skirts."",)",0.0,0,0.3558763861656189,seen
+289,"(""Andrew hadn't existed a lot of skirts."",)",1.0,1,0.392444908618927,seen
+290,"(""Connie wasn't stretching Alan."",)",0.0,0,0.6033382415771484,seen
+291,"(""Connie wasn't shouting Alan."",)",1.0,1,0.5583434104919434,seen
+292,"('Every doctor shrinks that dress.',)",0.0,0,0.6716762781143188,unseen
+293,"('Every doctor falls that dress.',)",1.0,1,0.3674660921096802,unseen
+294,"('Randolf tips over this window.',)",0.0,0,0.6323661208152771,unseen
+295,"('Randolf fell this window.',)",1.0,1,0.3918617367744446,unseen
+296,"('Leslie grows a pepper.',)",0.0,0,0.42097681760787964,unseen
+297,"('Leslie existed a pepper.',)",1.0,1,0.38546115159988403,unseen
+298,"(""Theodore's sister was selling this truck."",)",0.0,0,0.5098077058792114,unseen
+299,"(""Theodore's sister was slipping this truck."",)",0.0,1,0.9121384620666504,unseen
+300,"(""Heidi hasn't wrinkled every blouse."",)",0.0,0,0.3966561257839203,unseen
+301,"(""Heidi hasn't wasted away every blouse."",)",1.0,1,0.6795454025268555,unseen
+302,"(""Carrie isn't stopping this carriage."",)",0.0,0,0.6635370254516602,seen
+303,"(""Carrie isn't slipping this carriage."",)",0.0,1,0.7413004636764526,seen
+304,"(""Joseph doesn't move Russell."",)",1.0,0,0.8631865978240967,unseen
+305,"(""Joseph doesn't shrug Russell."",)",1.0,1,0.5826239585876465,unseen
+306,"('Ella was accelerating some carriage.',)",0.0,0,0.6057879328727722,unseen
+307,"('Ella was falling apart some carriage.',)",1.0,1,0.4146063029766083,unseen
+308,"('Stacey shrinks a shawl.',)",0.0,0,0.46470537781715393,seen
+309,"('Stacey disappeared a shawl.',)",1.0,1,0.5052635073661804,seen
+310,"('That boy had opened some gates.',)",0.0,0,0.5113474130630493,unseen
+311,"('That boy had wasted away some gates.',)",1.0,1,0.6004359722137451,unseen
+312,"('Kristin had shattered those skateboards.',)",0.0,0,0.4972701668739319,seen
+313,"('Kristin had disappeared those skateboards.',)",0.0,1,0.6943982839584351,seen
+314,"('This pedestrian brightens every screen.',)",0.0,0,0.46113675832748413,unseen
+315,"('This pedestrian wasted away every screen.',)",1.0,1,0.5607456564903259,unseen
+316,"('Pamela soaks every dress.',)",0.0,0,0.4406655430793762,seen
+317,"('Pamela vanished every dress.',)",1.0,1,0.547972559928894,seen
+318,"('The dancers wrinkle the shawls.',)",0.0,0,0.42950189113616943,unseen
+319,"('The dancers fall the shawls.',)",1.0,1,0.4141489565372467,unseen
+320,"('The Clintons brighten these spotlights.',)",1.0,0,0.8072676062583923,unseen
+321,"('The Clintons vanish these spotlights.',)",1.0,1,0.4029152989387512,unseen
+322,"('Those doctors steered a skateboard.',)",1.0,0,0.73191899061203,unseen
+323,"('Those doctors existed a skateboard.',)",1.0,1,0.3786623775959015,unseen
+324,"('Pamela should flatten some scarf.',)",0.0,0,0.4587448239326477,seen
+325,"('Pamela should exist some scarf.',)",1.0,1,0.42283836007118225,seen
+326,"(""The child hadn't hidden Alice."",)",1.0,0,0.793015718460083,unseen
+327,"(""The child hadn't donated Alice."",)",1.0,1,0.5309946537017822,unseen
+328,"('These guests had stretched this dress.',)",0.0,0,0.629542350769043,unseen
+329,"('These guests had fallen this dress.',)",1.0,1,0.35956570506095886,unseen
+330,"('A lot of senators freeze all icicles.',)",1.0,0,0.7034685611724854,seen
+331,"('A lot of senators fall all icicles.',)",1.0,1,0.3836759924888611,seen
+332,"(""Janet hasn't broken every car."",)",0.0,0,0.5088496208190918,unseen
+333,"(""Janet hasn't disappeared every car."",)",1.0,1,0.647295355796814,unseen
+334,"(""Sabrina wasn't spinning around this man."",)",1.0,0,0.8754400014877319,seen
+335,"(""Sabrina wasn't speaking up this man."",)",1.0,1,0.416713684797287,seen
+336,"('The driver is drying many scarves.',)",0.0,0,0.4046204388141632,unseen
+337,"('The driver is appearing many scarves.',)",1.0,1,0.5067922472953796,unseen
+338,"('Sonia dries some scarf.',)",0.0,0,0.4266379177570343,seen
+339,"('Sonia wasted away some scarf.',)",1.0,1,0.42674824595451355,seen
+340,"('A lot of adults break this computer.',)",1.0,0,0.7335142493247986,seen
+341,"('A lot of adults vanished this computer.',)",1.0,1,0.479536771774292,seen
+342,"('Sally might accelerate the cart.',)",1.0,0,0.9281289577484131,seen
+343,"('Sally might disappear the cart.',)",1.0,1,0.5594143867492676,seen
+344,"('Travis had loosened every shirt.',)",0.0,0,0.34882304072380066,unseen
+345,"('Travis had existed every shirt.',)",1.0,1,0.5158989429473877,unseen
+346,"('James is dropping this mirror.',)",0.0,0,0.5101824402809143,unseen
+347,"('James is vanishing this mirror.',)",1.0,1,0.6453752517700195,unseen
+348,"(""Cheryl's piano teachers are breaking the chairs."",)",0.0,0,0.4379347562789917,seen
+349,"(""Cheryl's piano teachers are disappearing the chairs."",)",0.0,1,0.9169391393661499,seen
+350,"('Some pedestrian shrinks this glove.',)",0.0,0,0.6900734901428223,seen
+351,"('Some pedestrian existed this glove.',)",1.0,1,0.4325424134731293,seen
+352,"('Richard would freeze this ice.',)",0.0,0,0.6327241063117981,unseen
+353,"('Richard would waste away this ice.',)",1.0,1,0.41108953952789307,unseen
+354,"(""Melinda stands up Kirsten's son."",)",1.0,0,0.8985984325408936,seen
+355,"(""Melinda smiles Kirsten's son."",)",1.0,1,0.542487621307373,seen
+356,"('Irene was hurting Tamara.',)",1.0,0,0.9693381786346436,unseen
+357,"('Irene was explaining everything Tamara.',)",1.0,1,0.49345430731773376,unseen
+358,"('These teenagers move these wheelbarrows.',)",0.0,0,0.41043567657470703,unseen
+359,"('These teenagers fell apart these wheelbarrows.',)",1.0,1,0.5582749843597412,unseen
+360,"('Patrick warped this shoe.',)",0.0,0,0.36890482902526855,seen
+361,"('Patrick disappeared this shoe.',)",1.0,1,0.6676504611968994,seen
+362,"(""Janice isn't evaporating that icicle."",)",0.0,0,0.6204149127006531,unseen
+363,"(""Janice isn't appearing that icicle."",)",1.0,1,0.45814621448516846,unseen
+364,"(""Some customers weren't benefiting the girls."",)",1.0,0,0.9582850337028503,seen
+365,"(""Some customers weren't crying the girls."",)",1.0,1,0.3731212317943573,seen
+366,"('Denise should open the gate.',)",0.0,0,0.5328376293182373,seen
+367,"('Denise should vanish the gate.',)",1.0,1,0.5694271326065063,seen
+368,"('Monica fades every candle.',)",0.0,0,0.6799994707107544,seen
+369,"('Monica wastes away every candle.',)",1.0,1,0.5871515870094299,seen
+370,"('That grandfather of the Clintons has healed Omar.',)",1.0,0,0.989473819732666,unseen
+371,"('That grandfather of the Clintons has gotten fired Omar.',)",1.0,1,0.43435537815093994,unseen
+372,"('Rachelle has stood up Amanda.',)",1.0,0,0.767353892326355,unseen
+373,"('Rachelle has drunk Amanda.',)",0.0,1,0.9137735366821289,unseen
+374,"('Students spun around Derek.',)",0.0,0,0.5165694952011108,seen
+375,"('Students compromised Derek.',)",1.0,1,0.6300978064537048,seen
+376,"(""Christopher hadn't shrunk a shoe."",)",0.0,0,0.5434060096740723,seen
+377,"(""Christopher hadn't fallen a shoe."",)",1.0,1,0.38448888063430786,seen
+378,"('Chad slows the cart.',)",0.0,0,0.566614031791687,seen
+379,"('Chad disappears the cart.',)",1.0,1,0.6208615899085999,seen
+380,"(""Anna wasn't benefiting a lot of students."",)",1.0,0,1.0509309768676758,seen
+381,"(""Anna wasn't sighing a lot of students."",)",1.0,1,0.3490352928638458,seen
+382,"('Laura scorched some eggplant.',)",0.0,0,0.3980920910835266,unseen
+383,"('Laura wastes away some eggplant.',)",0.0,1,0.7064013481140137,unseen
+384,"('Aaron stood up Elizabeth.',)",1.0,0,0.8956353664398193,seen
+385,"('Aaron cheers Elizabeth.',)",0.0,1,0.7626553773880005,seen
+386,"(""The Borgias trains that doctor's handyman."",)",0.0,0,0.6305724382400513,unseen
+387,"(""The Borgias swallowed that doctor's handyman."",)",1.0,1,0.3796878755092621,unseen
+388,"(""Naomi hadn't twisted a shirt."",)",0.0,0,0.539372444152832,unseen
+389,"(""Naomi hadn't wasted away a shirt."",)",1.0,1,0.4545539319515228,unseen
+390,"(""Janet hasn't flung open some eye."",)",1.0,0,0.7339421510696411,unseen
+391,"(""Janet hasn't existed some eye."",)",1.0,1,0.43901246786117554,unseen
+392,"('Monet ripens the cilantro.',)",0.0,0,0.4377824068069458,seen
+393,"('Monet appears the cilantro.',)",1.0,1,0.5383660793304443,seen
+394,"('Steven ripened these peppers.',)",0.0,0,0.4735719859600067,seen
+395,"('Steven existed these peppers.',)",1.0,1,0.4254349172115326,seen
+396,"(""Jessica hadn't burned this banana."",)",0.0,0,0.6564223170280457,unseen
+397,"(""Jessica hadn't wasted away this banana."",)",1.0,1,0.4107598662376404,unseen
+398,"(""Some pedestrian hasn't tightened this shirt."",)",0.0,0,0.5189189314842224,seen
+399,"(""Some pedestrian hasn't appeared this shirt."",)",1.0,1,0.4698682427406311,seen

@@ -1,7 +1,0 @@
-control_task_type: RANDOMIZATION
-num_inputs: 1
-num_labels: 2
-num_probe_folds: 1
-probe_name: probe-blimp-principle_A_domain_2
-probe_task_type: SENTENCE
-probes_samples_path: general-probes/blimp-principle_A_domain_2/

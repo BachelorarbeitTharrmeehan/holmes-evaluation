@@ -1,0 +1,401 @@
+,instance,pred,label,loss,seen
+0,"('This niece of Elizabeth protests.',)",0.0,0,0.46688705682754517,seen
+1,"('This niece of Elizabeth walks through.',)",1.0,1,0.5671918988227844,seen
+2,"(""This guest's plumber complains."",)",0.0,0,0.4862186908721924,seen
+3,"(""This guest's plumber wore."",)",1.0,1,0.6629667282104492,seen
+4,"('Some glaciers are vaporizing.',)",0.0,0,0.4167989492416382,seen
+5,"('Some glaciers are scaring.',)",1.0,1,0.4206506907939911,seen
+6,"(""Guy's French teachers die."",)",0.0,0,0.3586878478527069,unseen
+7,"(""Guy's French teachers arrived at."",)",0.0,1,0.8164389133453369,unseen
+8,"('This shirt crumples.',)",0.0,0,0.33359625935554504,seen
+9,"('This shirt scares.',)",1.0,1,0.4426562488079071,seen
+10,"(""Rachelle's partner chuckled."",)",0.0,0,0.34110110998153687,seen
+11,"(""Rachelle's partner dislikes."",)",0.0,1,0.9942176342010498,seen
+12,"(""Some sisters of Laurie weren't hunting."",)",1.0,0,0.6991176009178162,seen
+13,"(""Some sisters of Laurie weren't examining."",)",1.0,1,0.6617204546928406,seen
+14,"('Bethany murmured.',)",0.0,0,0.36523571610450745,unseen
+15,"('Bethany goes to.',)",1.0,1,0.3866617977619171,unseen
+16,"('Some wheelbarrow shattered.',)",0.0,0,0.5919715166091919,seen
+17,"('Some wheelbarrow looked like.',)",1.0,1,0.4159594774246216,seen
+18,"(""The companies haven't competed."",)",0.0,0,0.4780593812465668,seen
+19,"(""The companies haven't concealed."",)",1.0,1,0.652869701385498,seen
+20,"('Kimberley wakes up.',)",0.0,0,0.4399896264076233,unseen
+21,"('Kimberley returned to.',)",1.0,1,0.45268020033836365,unseen
+22,"(""Donna shouldn't die."",)",0.0,0,0.3999331593513489,seen
+23,"(""Donna shouldn't argue about."",)",1.0,1,0.6825618147850037,seen
+24,"(""Kendra's granddaughters get fired."",)",0.0,0,0.43664172291755676,unseen
+25,"(""Kendra's granddaughters escape from."",)",1.0,1,0.6902576088905334,unseen
+26,"('The sock crumples.',)",0.0,0,0.346729576587677,seen
+27,"('The sock scared.',)",1.0,1,0.4321692883968353,seen
+28,"(""This shirt wasn't warping."",)",0.0,0,0.45505714416503906,seen
+29,"(""This shirt wasn't scaring."",)",1.0,1,0.43285608291625977,seen
+30,"('Some grandmothers of Vincent have blinked.',)",0.0,0,0.5171220898628235,seen
+31,"('Some grandmothers of Vincent have listened to.',)",1.0,1,0.6656833291053772,seen
+32,"('Wayne is smiling.',)",0.0,0,0.4491240978240967,unseen
+33,"('Wayne is dropping by.',)",1.0,1,0.4788171052932739,unseen
+34,"('Tracy is sighing.',)",0.0,0,0.3602902591228485,seen
+35,"('Tracy is complaining about.',)",1.0,1,0.6078694462776184,seen
+36,"('The guests did meet.',)",0.0,0,0.6271827220916748,seen
+37,"('The guests did argue about.',)",1.0,1,0.5016435384750366,seen
+38,"('Some wheelbarrows are slowing.',)",1.0,0,0.7134584188461304,seen
+39,"('Some wheelbarrows are scaring.',)",1.0,1,0.46390241384506226,seen
+40,"('This bike is existing.',)",0.0,0,0.6066704392433167,seen
+41,"('This bike is scaring.',)",1.0,1,0.37198156118392944,seen
+42,"(""Katherine won't yawn."",)",0.0,0,0.4931913912296295,unseen
+43,"(""Katherine won't drive to."",)",1.0,1,0.3842732310295105,unseen
+44,"('The Impressionists have changed.',)",0.0,0,0.5113116502761841,seen
+45,"('The Impressionists have dropped by.',)",0.0,1,0.9304229021072388,seen
+46,"('Aaron talked.',)",0.0,0,0.4707185626029968,seen
+47,"('Aaron went to.',)",1.0,1,0.3431941866874695,seen
+48,"(""Those daughters of Pamela wouldn't sit down."",)",0.0,0,0.40516918897628784,seen
+49,"(""Those daughters of Pamela wouldn't dislike."",)",0.0,1,0.9327915906906128,seen
+50,"('The plane slowed.',)",0.0,0,0.4855460524559021,seen
+51,"('The plane looks like.',)",1.0,1,0.41389334201812744,seen
+52,"('These planes tip over.',)",0.0,0,0.4694984555244446,seen
+53,"('These planes scare.',)",1.0,1,0.37950199842453003,seen
+54,"(""Most tomatoes hadn't wasted away."",)",0.0,0,0.393066942691803,seen
+55,"(""Most tomatoes hadn't resembled."",)",1.0,1,0.6642628908157349,seen
+56,"('That spinach burns.',)",0.0,0,0.3847289979457855,seen
+57,"('That spinach resembles.',)",1.0,1,0.6208142042160034,seen
+58,"('Many girls worry.',)",0.0,0,0.6656278371810913,seen
+59,"('Many girls walked through.',)",1.0,1,0.4266575276851654,seen
+60,"(""This candle won't brighten."",)",0.0,0,0.45648062229156494,seen
+61,"(""This candle won't look like."",)",1.0,1,0.5256590843200684,seen
+62,"(""Dawn's oncologists had worried."",)",0.0,0,0.41706088185310364,seen
+63,"(""Dawn's oncologists had boasted about."",)",0.0,1,0.8576431274414062,seen
+64,"(""Larry couldn't lie."",)",0.0,0,0.44012266397476196,unseen
+65,"(""Larry couldn't complain about."",)",1.0,1,0.661551296710968,unseen
+66,"('Most icicles were evaporating.',)",0.0,0,0.43275579810142517,seen
+67,"('Most icicles were scaring.',)",1.0,1,0.46133941411972046,seen
+68,"('That box flings open.',)",0.0,0,0.4266148805618286,seen
+69,"('That box looks like.',)",1.0,1,0.41033628582954407,seen
+70,"(""Denise's electricians kiss."",)",0.0,0,0.5384858250617981,seen
+71,"(""Denise's electricians like."",)",1.0,1,0.6329013109207153,seen
+72,"(""Vincent's ex-girlfriend learns."",)",0.0,0,0.39462921023368835,unseen
+73,"(""Vincent's ex-girlfriend resembles."",)",0.0,1,1.0976433753967285,unseen
+74,"(""Gina's granddaughter isn't getting fired."",)",0.0,0,0.57100510597229,unseen
+75,"(""Gina's granddaughter isn't complaining about."",)",0.0,1,0.7077488899230957,unseen
+76,"('Michael will bake.',)",0.0,0,0.6549809575080872,seen
+77,"('Michael will argue about.',)",1.0,1,0.3943013846874237,seen
+78,"('Aaron has hunted.',)",0.0,0,0.6183878779411316,seen
+79,"('Aaron has lifted.',)",0.0,1,0.8144239187240601,seen
+80,"(""The Borgias' daughters fall asleep."",)",0.0,0,0.3915557265281677,seen
+81,"(""The Borgias' daughters lifted."",)",0.0,1,0.871953010559082,seen
+82,"('The universities donated.',)",1.0,0,1.0162451267242432,seen
+83,"('The universities scared.',)",1.0,1,0.38929134607315063,seen
+84,"('That lady whispers.',)",0.0,0,0.3805791139602661,seen
+85,"('That lady cares for.',)",0.0,1,0.7860990762710571,seen
+86,"('Craig fell asleep.',)",0.0,0,0.4228450655937195,unseen
+87,"('Craig sounded like.',)",1.0,1,0.6092973947525024,unseen
+88,"('Kathleen can nod.',)",0.0,0,0.4020470380783081,unseen
+89,"('Kathleen can fire.',)",0.0,1,0.8102219104766846,unseen
+90,"(""Eric can't write."",)",0.0,0,0.5771222710609436,unseen
+91,"(""Eric can't drop by."",)",1.0,1,0.619317889213562,unseen
+92,"('Every carriage accelerated.',)",0.0,0,0.39294278621673584,unseen
+93,"('Every carriage resembled.',)",1.0,1,0.3978096544742584,unseen
+94,"(""Irene's teachers salute."",)",0.0,0,0.4398733079433441,unseen
+95,"(""Irene's teachers escape from."",)",1.0,1,0.6008907556533813,unseen
+96,"(""Jackets haven't folded."",)",0.0,0,0.41155195236206055,unseen
+97,"(""Jackets haven't looked like."",)",1.0,1,0.46110183000564575,unseen
+98,"('All socks were shrinking.',)",0.0,0,0.40315183997154236,seen
+99,"('All socks were looking like.',)",1.0,1,0.5553238987922668,seen
+100,"(""Heidi isn't waving."",)",0.0,0,0.4621010422706604,unseen
+101,"(""Heidi isn't fleeing from."",)",1.0,1,0.5399920344352722,unseen
+102,"('Dana coughs.',)",0.0,0,0.33121705055236816,seen
+103,"('Dana looked like.',)",1.0,1,0.6843785047531128,seen
+104,"(""These cashiers' tutor was blinking."",)",0.0,0,0.6184437870979309,seen
+105,"(""These cashiers' tutor was referencing."",)",1.0,1,0.5702704191207886,seen
+106,"('All coats flattened.',)",0.0,0,0.4146406948566437,seen
+107,"('All coats looked like.',)",1.0,1,0.4775722026824951,seen
+108,"(""The rivers hadn't evaporated."",)",0.0,0,0.4630417227745056,seen
+109,"(""The rivers hadn't scared."",)",1.0,1,0.48498719930648804,seen
+110,"(""Those cakes aren't blackening."",)",0.0,0,0.4832635819911957,seen
+111,"(""Those cakes aren't scaring."",)",1.0,1,0.3695259094238281,seen
+112,"(""Brenda can't read."",)",0.0,0,0.4930492639541626,unseen
+113,"(""Brenda can't admire."",)",0.0,1,0.7891164422035217,unseen
+114,"(""Ella's podiatrists paint."",)",0.0,0,0.6143141984939575,unseen
+115,"(""Ella's podiatrists boasted about."",)",1.0,1,0.5859473943710327,unseen
+116,"('Gina copes.',)",0.0,0,0.42385396361351013,unseen
+117,"('Gina resembles.',)",1.0,1,0.6661995053291321,unseen
+118,"(""All sisters of Donna haven't divorced."",)",0.0,0,0.42991262674331665,seen
+119,"(""All sisters of Donna haven't complained about."",)",0.0,1,0.8797528147697449,seen
+120,"(""Most shoes aren't drying."",)",0.0,0,0.5735625624656677,seen
+121,"(""Most shoes aren't scaring."",)",1.0,1,0.3642444610595703,seen
+122,"(""Angela's girlfriend spoke up."",)",0.0,0,0.3719220459461212,seen
+123,"(""Angela's girlfriend admires."",)",0.0,1,0.7692692279815674,seen
+124,"(""Rodney's ex-husbands exercise."",)",0.0,0,0.39048245549201965,seen
+125,"(""Rodney's ex-husbands resemble."",)",0.0,1,1.0110732316970825,seen
+126,"('Some box closes.',)",0.0,0,0.5900037288665771,seen
+127,"('Some box scared.',)",1.0,1,0.46987637877464294,seen
+128,"('A window flings open.',)",0.0,0,0.3509436547756195,seen
+129,"('A window resembled.',)",1.0,1,0.4981752336025238,seen
+130,"('A lot of cucumbers bake.',)",0.0,0,0.4306853711605072,seen
+131,"('A lot of cucumbers resemble.',)",1.0,1,0.5241652131080627,seen
+132,"('Roger had washed.',)",0.0,0,0.499039888381958,seen
+133,"('Roger had sounded like.',)",0.0,1,0.7761770486831665,seen
+134,"('A lot of grandmothers of Martin murmur.',)",0.0,0,0.5622698664665222,seen
+135,"('A lot of grandmothers of Martin care for.',)",1.0,1,0.5818151831626892,seen
+136,"('Jennifer donates.',)",0.0,0,0.44043442606925964,unseen
+137,"('Jennifer found.',)",0.0,1,0.8179758787155151,unseen
+138,"('Emily might laugh.',)",0.0,0,0.34795159101486206,unseen
+139,"('Emily might dislike.',)",1.0,1,0.5892432332038879,unseen
+140,"(""Those guests' associate scratches."",)",0.0,0,0.5543510913848877,seen
+141,"(""Those guests' associate arrived at."",)",1.0,1,0.5510916709899902,seen
+142,"('All closets fling open.',)",0.0,0,0.38310548663139343,seen
+143,"('All closets resembled.',)",1.0,1,0.6003454923629761,seen
+144,"('This wheelbarrow could steer.',)",0.0,0,0.4585748016834259,seen
+145,"('This wheelbarrow could scare.',)",1.0,1,0.6702877879142761,seen
+146,"('A car dropped.',)",0.0,0,0.6667794585227966,seen
+147,"('A car scared.',)",1.0,1,0.5907683372497559,seen
+148,"('Grace might nod.',)",0.0,0,0.35265788435935974,unseen
+149,"('Grace might examine.',)",0.0,1,0.702954113483429,unseen
+150,"(""Carmen wasn't grinning."",)",0.0,0,0.43871009349823,unseen
+151,"(""Carmen wasn't firing."",)",0.0,1,1.015168309211731,unseen
+152,"('Some brothers of a lot of actresses chuckle.',)",0.0,0,0.5875391960144043,seen
+153,"('Some brothers of a lot of actresses drove to.',)",1.0,1,0.41645291447639465,seen
+154,"('Dennis ate.',)",0.0,0,0.5946990847587585,seen
+155,"('Dennis dislikes.',)",0.0,1,0.7206292152404785,seen
+156,"('That water evaporates.',)",0.0,0,0.3525015413761139,seen
+157,"('That water looks like.',)",1.0,1,0.6093246936798096,seen
+158,"(""Ruth's best friend sees."",)",1.0,0,0.7358132600784302,seen
+159,"(""Ruth's best friend escapes from."",)",1.0,1,0.4916881322860718,seen
+160,"('Those pants will flatten.',)",0.0,0,0.5334674715995789,seen
+161,"('Those pants will resemble.',)",1.0,1,0.4614226818084717,seen
+162,"('Those students murmur.',)",0.0,0,0.38603535294532776,seen
+163,"('Those students scared.',)",1.0,1,0.6362704038619995,seen
+164,"('Every convertible maneuvers.',)",0.0,0,0.3955487608909607,unseen
+165,"('Every convertible looked like.',)",1.0,1,0.5689384937286377,unseen
+166,"('A lot of women win.',)",1.0,0,0.7540355920791626,seen
+167,"('A lot of women return to.',)",1.0,1,0.4297759532928467,seen
+168,"(""Every boy's doctors wouldn't meet."",)",0.0,0,0.668053150177002,unseen
+169,"(""Every boy's doctors wouldn't respect."",)",1.0,1,0.6437027454376221,unseen
+170,"(""Tamara's bosses weren't marrying."",)",0.0,0,0.5235667824745178,seen
+171,"(""Tamara's bosses weren't finding."",)",0.0,1,0.7786005735397339,seen
+172,"('This sock stretches.',)",0.0,0,0.38739585876464844,seen
+173,"('This sock resembles.',)",1.0,1,0.45524224638938904,seen
+174,"('This committee is succeeding.',)",0.0,0,0.37260839343070984,seen
+175,"('This committee is boasting about.',)",1.0,1,0.5317908525466919,seen
+176,"(""A person hadn't boasted."",)",0.0,0,0.4393399655818939,seen
+177,"(""A person hadn't concealed."",)",0.0,1,0.967461109161377,seen
+178,"('Eric smiles.',)",0.0,0,0.34952598810195923,unseen
+179,"('Eric looks like.',)",1.0,1,0.5517036318778992,unseen
+180,"('Sandra is cooking.',)",0.0,0,0.6135016679763794,seen
+181,"('Sandra is concealing.',)",0.0,1,0.7004501223564148,seen
+182,"('Sheila is writing.',)",0.0,0,0.5921245217323303,seen
+183,"('Sheila is finding.',)",1.0,1,0.5560227632522583,seen
+184,"('Socks were soaking.',)",0.0,0,0.4018639922142029,seen
+185,"('Socks were scaring.',)",1.0,1,0.42270204424858093,seen
+186,"('A shoe loosens.',)",0.0,0,0.3957938551902771,seen
+187,"('A shoe resembles.',)",1.0,1,0.5251563787460327,seen
+188,"(""Jerry's granddaughters escape."",)",0.0,0,0.5196661949157715,unseen
+189,"(""Jerry's granddaughters disagree with."",)",0.0,1,0.898916482925415,unseen
+190,"('Patricia is stretching.',)",0.0,0,0.5327246189117432,seen
+191,"('Patricia is working with.',)",1.0,1,0.5561595559120178,seen
+192,"('These doctors interact.',)",0.0,0,0.4883918762207031,seen
+193,"('These doctors argued about.',)",1.0,1,0.4206992983818054,seen
+194,"('A coat would warp.',)",0.0,0,0.4062221944332123,seen
+195,"('A coat would resemble.',)",1.0,1,0.6042090654373169,seen
+196,"(""Benjamin's nieces aren't divorcing."",)",0.0,0,0.4515448808670044,unseen
+197,"(""Benjamin's nieces aren't talking to."",)",0.0,1,0.7924816608428955,unseen
+198,"('That fish exists.',)",0.0,0,0.37672802805900574,seen
+199,"('That fish scares.',)",1.0,1,0.41139888763427734,seen
+200,"(""Most guests' son is playing."",)",0.0,0,0.6722173094749451,seen
+201,"(""Most guests' son is walking through."",)",1.0,1,0.5187990665435791,seen
+202,"('Omar came here.',)",0.0,0,0.4399834871292114,unseen
+203,"('Omar wears.',)",0.0,1,0.8648500442504883,unseen
+204,"('Craig can telephone.',)",1.0,0,0.7649505138397217,unseen
+205,"('Craig can care for.',)",1.0,1,0.6105042695999146,unseen
+206,"(""Renee's teachers have compromised."",)",0.0,0,0.399946004152298,seen
+207,"(""Renee's teachers have walked through."",)",0.0,1,0.7627757787704468,seen
+208,"(""Sheila's mentees are studying."",)",0.0,0,0.5412704348564148,seen
+209,"(""Sheila's mentees are listening to."",)",0.0,1,0.897388756275177,seen
+210,"(""This lady's sisters donate."",)",0.0,0,0.43544653058052063,seen
+211,"(""This lady's sisters flee from."",)",0.0,1,0.7863386869430542,seen
+212,"('Monet copes.',)",0.0,0,0.35098907351493835,seen
+213,"('Monet sounds like.',)",0.0,1,0.868344783782959,seen
+214,"('All pants shrink.',)",0.0,0,0.35626932978630066,seen
+215,"('All pants looked like.',)",1.0,1,0.4460395574569702,seen
+216,"('That girl is moving.',)",1.0,0,0.7296159267425537,seen
+217,"('That girl is returning to.',)",1.0,1,0.4011370539665222,seen
+218,"('Some forks drop.',)",0.0,0,0.43976065516471863,seen
+219,"('Some forks scare.',)",1.0,1,0.48267462849617004,seen
+220,"('Debra has laughed.',)",0.0,0,0.39216163754463196,seen
+221,"('Debra has found.',)",0.0,1,0.7653099298477173,seen
+222,"('Mitchell sighed.',)",0.0,0,0.3425593078136444,seen
+223,"('Mitchell worked with.',)",1.0,1,0.6015936732292175,seen
+224,"('Sharon is eating.',)",1.0,0,0.778023362159729,seen
+225,"('Sharon is firing.',)",1.0,1,0.6866243481636047,seen
+226,"(""Maria hasn't waved."",)",0.0,0,0.4442967474460602,seen
+227,"(""Maria hasn't scared."",)",1.0,1,0.6876296997070312,seen
+228,"('Lawrence was dying.',)",0.0,0,0.43239590525627136,unseen
+229,"('Lawrence was revealing.',)",0.0,1,0.6986957788467407,unseen
+230,"(""Curtis's students have testified."",)",0.0,0,0.4373566508293152,unseen
+231,"(""Curtis's students have referenced."",)",0.0,1,0.8623631000518799,unseen
+232,"(""Many governments shouldn't surrender."",)",0.0,0,0.6452743411064148,seen
+233,"(""Many governments shouldn't work with."",)",1.0,1,0.6880447864532471,seen
+234,"(""These trucks weren't maneuvering."",)",1.0,0,1.034545660018921,seen
+235,"(""These trucks weren't looking like."",)",1.0,1,0.33896297216415405,seen
+236,"('That unicycle would roll.',)",0.0,0,0.5100405812263489,seen
+237,"('That unicycle would scare.',)",1.0,1,0.4535158574581146,seen
+238,"('The closet is flinging open.',)",0.0,0,0.5762403011322021,seen
+239,"('The closet is looking like.',)",1.0,1,0.3785537779331207,seen
+240,"('Many glaciers were evaporating.',)",0.0,0,0.3982711732387543,seen
+241,"('Many glaciers were looking like.',)",1.0,1,0.558837354183197,seen
+242,"(""This broccoli wasn't rotting."",)",0.0,0,0.44571077823638916,seen
+243,"(""This broccoli wasn't scaring."",)",1.0,1,0.41150882840156555,seen
+244,"('Donald works hard.',)",0.0,0,0.4764905571937561,seen
+245,"('Donald listened to.',)",0.0,1,0.7239102125167847,seen
+246,"(""Pork wasn't baking."",)",0.0,0,0.4404814839363098,seen
+247,"(""Pork wasn't looking like."",)",1.0,1,0.4867420792579651,seen
+248,"(""Homer hasn't whispered."",)",0.0,0,0.3772578835487366,unseen
+249,"(""Homer hasn't revealed."",)",0.0,1,0.9643229246139526,unseen
+250,"('Aaron lies.',)",0.0,0,0.3836667537689209,seen
+251,"('Aaron disliked.',)",0.0,1,0.8138847351074219,seen
+252,"(""An actor's nieces weren't surrendering."",)",0.0,0,0.5808606743812561,seen
+253,"(""An actor's nieces weren't listening to."",)",0.0,1,0.7573574781417847,seen
+254,"('These carts slipped.',)",0.0,0,0.5151352286338806,seen
+255,"('These carts scared.',)",1.0,1,0.3676094710826874,seen
+256,"(""These couches hadn't cracked."",)",0.0,0,0.4594212770462036,seen
+257,"(""These couches hadn't looked like."",)",1.0,1,0.4443976581096649,seen
+258,"(""Michelle's tutors fight."",)",0.0,0,0.511347234249115,seen
+259,"(""Michelle's tutors fled from."",)",1.0,1,0.5407776832580566,seen
+260,"('A glacier condensed.',)",0.0,0,0.3710240423679352,seen
+261,"('A glacier looked like.',)",1.0,1,0.6521182060241699,seen
+262,"('Wayne littered.',)",0.0,0,0.6457364559173584,unseen
+263,"('Wayne scared.',)",1.0,1,0.5649551153182983,unseen
+264,"(""Carolyn's grandfather wouldn't hunt."",)",0.0,0,0.5421316623687744,unseen
+265,"(""Carolyn's grandfather wouldn't escape from."",)",1.0,1,0.6440321207046509,unseen
+266,"('Some sons of Wayne could see.',)",1.0,0,0.8513453006744385,seen
+267,"('Some sons of Wayne could go to.',)",1.0,1,0.38723325729370117,seen
+268,"(""Some ice hasn't condensed."",)",0.0,0,0.39173179864883423,seen
+269,"(""Some ice hasn't looked like."",)",1.0,1,0.5584304332733154,seen
+270,"(""Edward's best friends haven't replied."",)",0.0,0,0.4888967275619507,unseen
+271,"(""Edward's best friends haven't scared."",)",1.0,1,0.588551938533783,unseen
+272,"('Many brothers of Colleen testified.',)",0.0,0,0.48790204524993896,seen
+273,"('Many brothers of Colleen concealed.',)",0.0,1,0.9652594923973083,seen
+274,"('Drivers cry.',)",0.0,0,0.39848414063453674,seen
+275,"('Drivers wore.',)",1.0,1,0.5650639533996582,seen
+276,"('Some plate has dropped.',)",0.0,0,0.44937726855278015,seen
+277,"('Some plate has looked like.',)",1.0,1,0.4549667537212372,seen
+278,"(""Lori's employee screams."",)",0.0,0,0.3877895474433899,unseen
+279,"(""Lori's employee cures."",)",0.0,1,1.0071896314620972,unseen
+280,"('Every couch slips.',)",0.0,0,0.40943673253059387,unseen
+281,"('Every couch scared.',)",1.0,1,0.5933875441551208,unseen
+282,"('A cake blackens.',)",0.0,0,0.3351307213306427,seen
+283,"('A cake resembles.',)",1.0,1,0.6830102801322937,seen
+284,"('All women hide.',)",0.0,0,0.4269481599330902,seen
+285,"('All women reveal.',)",0.0,1,0.9706718325614929,seen
+286,"('Some screens fell apart.',)",0.0,0,0.35601475834846497,seen
+287,"('Some screens scare.',)",1.0,1,0.5562604665756226,seen
+288,"('That gate opens.',)",0.0,0,0.4452590346336365,seen
+289,"('That gate scares.',)",1.0,1,0.39307868480682373,seen
+290,"('All waiters boasted.',)",0.0,0,0.5457720756530762,seen
+291,"('All waiters boast about.',)",1.0,1,0.6346731781959534,seen
+292,"('These associations are profiting.',)",0.0,0,0.6286553144454956,seen
+293,"('These associations are concealing.',)",0.0,1,0.8460928201675415,seen
+294,"('That plane turns.',)",0.0,0,0.486813485622406,seen
+295,"('That plane scared.',)",1.0,1,0.4827391505241394,seen
+296,"('Many dresses loosen.',)",0.0,0,0.5381792783737183,seen
+297,"('Many dresses look like.',)",1.0,1,0.36827754974365234,seen
+298,"(""The dancers weren't drinking."",)",1.0,0,0.7494916915893555,seen
+299,"(""The dancers weren't concealing."",)",1.0,1,0.5509940385818481,seen
+300,"(""Victoria's hairdressers chatted."",)",0.0,0,0.48249202966690063,unseen
+301,"(""Victoria's hairdressers dislike."",)",0.0,1,0.7911728620529175,unseen
+302,"(""Andrew's friend disagreed."",)",0.0,0,0.4272841513156891,seen
+303,"(""Andrew's friend cared for."",)",0.0,1,0.8583433628082275,seen
+304,"('Clyde yawns.',)",0.0,0,0.34566590189933777,unseen
+305,"('Clyde drove to.',)",1.0,1,0.4315149784088135,unseen
+306,"(""Kimberley's cousins had struggled."",)",0.0,0,0.5486719608306885,unseen
+307,"(""Kimberley's cousins had escaped from."",)",1.0,1,0.4889290928840637,unseen
+308,"('Most nephews of Cheryl are conspiring.',)",0.0,0,0.6284044981002808,seen
+309,"('Most nephews of Cheryl are walking through.',)",1.0,1,0.438750684261322,seen
+310,"('Becky paints.',)",0.0,0,0.43272462487220764,unseen
+311,"('Becky conceals.',)",0.0,1,0.9935891628265381,unseen
+312,"(""Students' employees were benefiting."",)",0.0,0,0.5805101990699768,seen
+313,"(""Students' employees were listening to."",)",1.0,1,0.5921832323074341,seen
+314,"('Sara is sitting down.',)",0.0,0,0.5543770790100098,seen
+315,"('Sara is fleeing from.',)",1.0,1,0.45537394285202026,seen
+316,"('All fathers of Mitchell have fought.',)",0.0,0,0.6060611009597778,seen
+317,"('All fathers of Mitchell have escaped from.',)",1.0,1,0.4650125801563263,seen
+318,"('Those vases cracked.',)",0.0,0,0.40232911705970764,seen
+319,"('Those vases looked like.',)",1.0,1,0.40653616189956665,seen
+320,"('Some men will scream.',)",0.0,0,0.45060059428215027,seen
+321,"('Some men will care for.',)",0.0,1,0.7991294264793396,seen
+322,"('Mark won.',)",0.0,0,0.4834889769554138,seen
+323,"('Mark flees from.',)",1.0,1,0.40993088483810425,seen
+324,"('The bike was dropping.',)",1.0,0,0.8372536301612854,seen
+325,"('The bike was looking like.',)",1.0,1,0.3676281273365021,seen
+326,"('That shawl could stretch.',)",0.0,0,0.5017632246017456,seen
+327,"('That shawl could resemble.',)",0.0,1,0.7673274874687195,seen
+328,"('The projectors fade.',)",0.0,0,0.36031103134155273,seen
+329,"('The projectors scared.',)",1.0,1,0.5110712647438049,seen
+330,"('Those icicles vaporize.',)",0.0,0,0.419443815946579,seen
+331,"('Those icicles resembled.',)",1.0,1,0.5793735980987549,seen
+332,"(""Some couches didn't chip."",)",0.0,0,0.46885448694229126,seen
+333,"(""Some couches didn't scare."",)",1.0,1,0.5160796642303467,seen
+334,"('The scarves shrank.',)",0.0,0,0.4179117679595947,seen
+335,"('The scarves look like.',)",1.0,1,0.47639063000679016,seen
+336,"(""Julia's brothers can't come here."",)",0.0,0,0.4939933121204376,unseen
+337,"(""Julia's brothers can't talk about."",)",1.0,1,0.5909079313278198,unseen
+338,"('A lot of people should reply.',)",0.0,0,0.552706241607666,seen
+339,"('A lot of people should escape from.',)",1.0,1,0.4774797856807709,seen
+340,"('All couches drop.',)",0.0,0,0.43984296917915344,seen
+341,"('All couches look like.',)",1.0,1,0.4788384437561035,seen
+342,"(""Renee's mothers would chat."",)",0.0,0,0.40311193466186523,seen
+343,"(""Renee's mothers would walk through."",)",1.0,1,0.5409358143806458,seen
+344,"(""Stephanie's grandson hadn't woken up."",)",0.0,0,0.4472672939300537,seen
+345,"(""Stephanie's grandson hadn't biked to."",)",1.0,1,0.6639206409454346,seen
+346,"(""Connie's dermatologists are flirting."",)",0.0,0,0.46737438440322876,unseen
+347,"(""Connie's dermatologists are walking through."",)",1.0,1,0.5502966642379761,unseen
+348,"('A lot of ladies were telephoning.',)",0.0,0,0.6718900203704834,seen
+349,"('A lot of ladies were finding.',)",1.0,1,0.508985161781311,seen
+350,"('Many tomatoes grew.',)",0.0,0,0.43056610226631165,seen
+351,"('Many tomatoes resembled.',)",1.0,1,0.3995315730571747,seen
+352,"(""Some cart isn't crashing."",)",0.0,0,0.5590718984603882,seen
+353,"(""Some cart isn't scaring."",)",1.0,1,0.4458596110343933,seen
+354,"(""Most children aren't competing."",)",1.0,0,0.7476701140403748,seen
+355,"(""Most children aren't driving to."",)",1.0,1,0.3539138436317444,seen
+356,"('This report wins.',)",0.0,0,0.467227041721344,seen
+357,"('This report disagreed with.',)",0.0,1,0.8684830665588379,seen
+358,"('A lot of organizations struggled.',)",0.0,0,0.5849202871322632,seen
+359,"('A lot of organizations talked about.',)",1.0,1,0.5169128179550171,seen
+360,"(""That skirt can't shrink."",)",0.0,0,0.5636686086654663,seen
+361,"(""That skirt can't scare."",)",1.0,1,0.4552455544471741,seen
+362,"(""Those waitresses' guests screamed."",)",0.0,0,0.4083247482776642,seen
+363,"(""Those waitresses' guests examine."",)",0.0,1,0.7157554626464844,seen
+364,"(""Some tomatoes aren't going bad."",)",0.0,0,0.41558828949928284,seen
+365,"(""Some tomatoes aren't looking like."",)",1.0,1,0.5147900581359863,seen
+366,"('This box closed.',)",0.0,0,0.3831714689731598,seen
+367,"('This box resembled.',)",1.0,1,0.4712188243865967,seen
+368,"(""Donna's piano teachers cough."",)",0.0,0,0.3658757209777832,seen
+369,"(""Donna's piano teachers reference."",)",0.0,1,1.0067082643508911,seen
+370,"('Some bananas grow.',)",0.0,0,0.5190408825874329,seen
+371,"('Some bananas resembled.',)",1.0,1,0.38647469878196716,seen
+372,"('Some dancers had yawned.',)",0.0,0,0.41362521052360535,seen
+373,"('Some dancers had found.',)",1.0,1,0.4600614309310913,seen
+374,"(""Tara's oncologists haven't surrendered."",)",0.0,0,0.410115510225296,seen
+375,"(""Tara's oncologists haven't escaped from."",)",0.0,1,0.7872786521911621,seen
+376,"(""Natalie's mothers struggle."",)",0.0,0,0.39406725764274597,unseen
+377,"(""Natalie's mothers talk about."",)",0.0,1,0.9048674702644348,unseen
+378,"('Colleen stands up.',)",0.0,0,0.35028907656669617,unseen
+379,"('Colleen reveals.',)",0.0,1,0.9114435911178589,unseen
+380,"(""Douglas's dermatologists fought."",)",0.0,0,0.5601858496665955,seen
+381,"(""Douglas's dermatologists went to."",)",1.0,1,0.49732694029808044,seen
+382,"(""Julie's hairdressers vanish."",)",0.0,0,0.43971025943756104,unseen
+383,"(""Julie's hairdressers concealed."",)",0.0,1,0.9448345303535461,unseen
+384,"('Heidi should bake.',)",0.0,0,0.49596449732780457,unseen
+385,"('Heidi should talk about.',)",1.0,1,0.6194514632225037,unseen
+386,"('Some doors could shut.',)",0.0,0,0.5581522583961487,seen
+387,"('Some doors could resemble.',)",1.0,1,0.3848419487476349,seen
+388,"(""Ruth shouldn't weep."",)",0.0,0,0.3645772635936737,seen
+389,"(""Ruth shouldn't cure."",)",0.0,1,0.970727801322937,seen
+390,"(""Most grandmothers of Angela can't flirt."",)",0.0,0,0.6570449471473694,seen
+391,"(""Most grandmothers of Angela can't bike to."",)",1.0,1,0.38976743817329407,seen
+392,"('Lisa is exercising.',)",0.0,0,0.510622501373291,unseen
+393,"('Lisa is concealing.',)",0.0,1,0.8695766925811768,unseen
+394,"(""Lissa hadn't learned."",)",0.0,0,0.4656751751899719,unseen
+395,"(""Lissa hadn't examined."",)",0.0,1,0.890662670135498,unseen
+396,"(""The guest's sons change."",)",0.0,0,0.4954550266265869,seen
+397,"(""The guest's sons complained about."",)",0.0,1,0.7052076458930969,seen
+398,"(""The Borgias' lawyers date."",)",0.0,0,0.6049012541770935,seen
+399,"(""The Borgias' lawyers referenced."",)",0.0,1,0.7072389125823975,seen

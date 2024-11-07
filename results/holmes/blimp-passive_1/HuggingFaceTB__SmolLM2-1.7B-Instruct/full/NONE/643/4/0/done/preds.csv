@@ -1,0 +1,401 @@
+,instance,pred,label,loss,seen
+0,"(""David wasn't disgusted by these hospitals."",)",0.0,0,0.6370365023612976,seen
+1,"(""David wasn't shouted by these hospitals."",)",1.0,1,0.43971848487854004,seen
+2,"(""These patients aren't visited by David."",)",0.0,0,0.5321342945098877,seen
+3,"(""These patients aren't profited by David."",)",0.0,1,0.7044349908828735,seen
+4,"(""These cashiers aren't disgusted by Melissa's grandsons."",)",1.0,0,0.7177509069442749,seen
+5,"(""These cashiers aren't coped by Melissa's grandsons."",)",1.0,1,0.4678345322608948,seen
+6,"(""An eggplant isn't seen by those men."",)",0.0,0,0.6323801875114441,seen
+7,"(""An eggplant isn't rotted by those men."",)",0.0,1,0.7391200065612793,seen
+8,"(""Wayne isn't criticized by Aaron."",)",0.0,0,0.5381344556808472,unseen
+9,"(""Wayne isn't talked by Aaron."",)",1.0,1,0.5432566404342651,unseen
+10,"(""Bruce isn't shocked by some pedestrians."",)",0.0,0,0.4415554702281952,unseen
+11,"(""Bruce isn't compromised by some pedestrians."",)",0.0,1,1.058084487915039,unseen
+12,"(""William isn't fired by this girl."",)",0.0,0,0.5273969769477844,unseen
+13,"(""William isn't lied by this girl."",)",1.0,1,0.4166465699672699,unseen
+14,"(""Peter's sisters were examined by this mother of Claire."",)",0.0,0,0.634573757648468,unseen
+15,"(""Peter's sisters were clashed by this mother of Claire."",)",1.0,1,0.47396373748779297,unseen
+16,"(""The cilantro wasn't sold by Ann."",)",1.0,0,0.827726423740387,seen
+17,"(""The cilantro wasn't rotted by Ann."",)",1.0,1,0.4877167344093323,seen
+18,"(""Many commentaries about the Borgias aren't discussed by Marcus's classmate."",)",0.0,0,0.47666776180267334,seen
+19,"(""Many commentaries about the Borgias aren't disagreed by Marcus's classmate."",)",0.0,1,0.7255595922470093,seen
+20,"(""That doctor's doctor isn't disgusted by Andrew."",)",1.0,0,0.8050755262374878,seen
+21,"(""That doctor's doctor isn't spoken up by Andrew."",)",1.0,1,0.6243435144424438,seen
+22,"(""This legislature isn't investigated by Travis."",)",0.0,0,0.43461093306541443,seen
+23,"(""This legislature isn't competed by Travis."",)",1.0,1,0.5795208811759949,seen
+24,"(""A teacher wasn't insulted by Julie."",)",0.0,0,0.6404961347579956,seen
+25,"(""A teacher wasn't died by Julie."",)",1.0,1,0.5427159667015076,seen
+26,"(""Peter's supervisors are cared for by Julia."",)",0.0,0,0.4865971803665161,unseen
+27,"(""Peter's supervisors are profited by Julia."",)",0.0,1,0.8278809189796448,unseen
+28,"('Those friends of Dan are admired by Valerie.',)",0.0,0,0.6277693510055542,seen
+29,"('Those friends of Dan are sighed by Valerie.',)",1.0,1,0.5029010772705078,seen
+30,"(""George wasn't appreciated by Keith."",)",0.0,0,0.43167710304260254,seen
+31,"(""George wasn't blinked by Keith."",)",1.0,1,0.5025821924209595,seen
+32,"(""Dennis's girlfriend isn't escaped from by Natalie's classmate."",)",0.0,0,0.49428820610046387,seen
+33,"(""Dennis's girlfriend isn't left by Natalie's classmate."",)",0.0,1,0.7151519656181335,seen
+34,"('Some daughters of Jason are discussed by Julia.',)",0.0,0,0.607236385345459,unseen
+35,"('Some daughters of Jason are conferred by Julia.',)",0.0,1,0.7026435136795044,unseen
+36,"('Carmen was concealed by Stacey.',)",0.0,0,0.5922203660011292,seen
+37,"('Carmen was shouted by Stacey.',)",1.0,1,0.4937097430229187,seen
+38,"(""Jill isn't seen by Paul."",)",0.0,0,0.5354689359664917,seen
+39,"(""Jill isn't left by Paul."",)",1.0,1,0.4699913561344147,seen
+40,"(""Sara isn't irritated by commentaries about science."",)",0.0,0,0.6679302453994751,unseen
+41,"(""Sara isn't cried by commentaries about science."",)",1.0,1,0.4387266933917999,unseen
+42,"(""Vanessa isn't appreciated by this museum."",)",0.0,0,0.4433722496032715,unseen
+43,"(""Vanessa isn't chuckled by this museum."",)",1.0,1,0.4292493164539337,unseen
+44,"(""A lot of shows about Spain were forgotten by Andrew's ex-boyfriends."",)",0.0,0,0.6012563109397888,seen
+45,"(""A lot of shows about Spain were disagreed by Andrew's ex-boyfriends."",)",1.0,1,0.5721959471702576,seen
+46,"('Sara is alarmed by that glass.',)",0.0,0,0.5757499933242798,unseen
+47,"('Sara is boasted by that glass.',)",1.0,1,0.4935678243637085,unseen
+48,"(""Michael's colleagues were left by Jacqueline."",)",0.0,0,0.6574627757072449,seen
+49,"(""Michael's colleagues were littered by Jacqueline."",)",1.0,1,0.6706275939941406,seen
+50,"('Brothers of a teenager are known by Spain.',)",0.0,0,0.5918416976928711,unseen
+51,"('Brothers of a teenager are coped by Spain.',)",1.0,1,0.5786107182502747,unseen
+52,"(""Sonia's oncologists aren't visited by Danielle's fathers."",)",0.0,0,0.5319570899009705,unseen
+53,"(""Sonia's oncologists aren't cooperated by Danielle's fathers."",)",1.0,1,0.5767059326171875,unseen
+54,"(""Caroline's grandfathers were worried by Mitchell."",)",0.0,0,0.4863542318344116,seen
+55,"(""Caroline's grandfathers were cooperated by Mitchell."",)",0.0,1,0.7095360159873962,seen
+56,"('All universities are stunned by the dresses.',)",0.0,0,0.4584280848503113,seen
+57,"('All universities are joked around by the dresses.',)",1.0,1,0.4761385917663574,seen
+58,"(""These ladies aren't discussed by every legislature."",)",0.0,0,0.47348952293395996,seen
+59,"(""These ladies aren't competed by every legislature."",)",1.0,1,0.5600346326828003,seen
+60,"(""The waitresses aren't worried by some banana."",)",1.0,0,0.6960744857788086,seen
+61,"(""The waitresses aren't coped by some banana."",)",1.0,1,0.466222882270813,seen
+62,"(""Edward's granddaughters weren't known by some mother of the Lutherans."",)",0.0,0,0.6721575260162354,seen
+63,"(""Edward's granddaughters weren't replied by some mother of the Lutherans."",)",1.0,1,0.49954724311828613,seen
+64,"(""Rodney's friends weren't distracted by those carriages."",)",0.0,0,0.5919474363327026,seen
+65,"(""Rodney's friends weren't negotiated by those carriages."",)",0.0,1,0.6943034529685974,seen
+66,"(""Patricia's oncologist isn't examined by many dancers."",)",0.0,0,0.6242567896842957,unseen
+67,"(""Patricia's oncologist isn't nodded by many dancers."",)",1.0,1,0.4881070852279663,unseen
+68,"(""Naomi's piano teachers weren't left by Karen."",)",1.0,0,0.7193089723587036,unseen
+69,"(""Naomi's piano teachers weren't reacted by Karen."",)",1.0,1,0.5940353870391846,unseen
+70,"(""Sarah wasn't kissed by those senators."",)",1.0,0,0.7599601745605469,unseen
+71,"(""Sarah wasn't come here by those senators."",)",1.0,1,0.4351213276386261,unseen
+72,"(""That woman's dermatologists are kissed by Steve."",)",1.0,0,0.8423001766204834,seen
+73,"(""That woman's dermatologists are collaborated by Steve."",)",1.0,1,0.5662007331848145,seen
+74,"(""This guest's best friends are criticized by Dan's grandfather."",)",0.0,0,0.4529580771923065,seen
+75,"(""This guest's best friends are replied by Dan's grandfather."",)",1.0,1,0.6687687039375305,seen
+76,"(""These senators weren't aggravated by Gerald."",)",0.0,0,0.5087961554527283,seen
+77,"(""These senators weren't negotiated by Gerald."",)",0.0,1,0.8613795042037964,seen
+78,"(""Emily isn't watched by this person."",)",0.0,0,0.6201772093772888,seen
+79,"(""Emily isn't trained by this person."",)",0.0,1,0.7199232578277588,seen
+80,"(""A hospital isn't exited by that guy."",)",1.0,0,0.8915099501609802,seen
+81,"(""A hospital isn't retaliated by that guy."",)",0.0,1,0.7998623847961426,seen
+82,"(""George wasn't upset by those eggplants."",)",0.0,0,0.6165106892585754,seen
+83,"(""George wasn't concurred by those eggplants."",)",1.0,1,0.4148361384868622,seen
+84,"(""All children's friends weren't investigated by Russell."",)",0.0,0,0.5370815396308899,seen
+85,"(""All children's friends weren't talked by Russell."",)",1.0,1,0.4895906448364258,seen
+86,"(""Some senator wasn't bothered by Kirsten."",)",0.0,0,0.6573169231414795,unseen
+87,"(""Some senator wasn't wept by Kirsten."",)",1.0,1,0.46519023180007935,unseen
+88,"('Most ladies were confused by some teacher.',)",1.0,0,0.8090009093284607,seen
+89,"('Most ladies were murmured by some teacher.',)",1.0,1,0.3468392491340637,seen
+90,"(""Marcus's friend isn't praised by those mothers of Beth."",)",0.0,0,0.5235046744346619,seen
+91,"(""Marcus's friend isn't boasted by those mothers of Beth."",)",1.0,1,0.5961405634880066,seen
+92,"('The government was stunned by Carla.',)",0.0,0,0.4519692659378052,seen
+93,"('The government was retaliated by Carla.',)",0.0,1,0.7453199625015259,seen
+94,"(""Linda's oncologist isn't discussed by William."",)",0.0,0,0.5309627652168274,seen
+95,"(""Linda's oncologist isn't blinked by William."",)",1.0,1,0.5331688523292542,seen
+96,"(""Ronald's tutors weren't worried by some sister of Michelle."",)",0.0,0,0.6904014945030212,seen
+97,"(""Ronald's tutors weren't suffered by some sister of Michelle."",)",1.0,1,0.47527873516082764,seen
+98,"(""Elaine's employees aren't bored by Karen."",)",0.0,0,0.5963709354400635,seen
+99,"(""Elaine's employees aren't trained by Karen."",)",0.0,1,0.9188013672828674,seen
+100,"(""Some associations weren't shocked by Aaron."",)",0.0,0,0.4538113474845886,unseen
+101,"(""Some associations weren't responded by Aaron."",)",0.0,1,0.8446694612503052,unseen
+102,"(""All nieces of Nicole are hired by Helen's tutor."",)",1.0,0,0.9663568735122681,seen
+103,"(""All nieces of Nicole are flirted by Helen's tutor."",)",1.0,1,0.37903329730033875,seen
+104,"(""Richard's tutors weren't worried by current events."",)",0.0,0,0.6114431023597717,seen
+105,"(""Richard's tutors weren't smiled by current events."",)",1.0,1,0.49542874097824097,seen
+106,"('Chad is irritated by the plates.',)",0.0,0,0.5840356349945068,seen
+107,"('Chad is gotten fired by the plates.',)",1.0,1,0.6791856288909912,seen
+108,"('All daughters of Jill are concealed by Erin.',)",1.0,0,0.8543077707290649,seen
+109,"('All daughters of Jill are cooperated by Erin.',)",1.0,1,0.4152393937110901,seen
+110,"(""Some dancer's classmates are admired by Naomi."",)",0.0,0,0.5920742154121399,unseen
+111,"(""Some dancer's classmates are interacted by Naomi."",)",1.0,1,0.6558068990707397,unseen
+112,"(""Those guys' nephews are impressed by Andrew's daughter."",)",1.0,0,0.7413997650146484,seen
+113,"(""Those guys' nephews are cried by Andrew's daughter."",)",1.0,1,0.48304489254951477,seen
+114,"(""April's ex-boyfriend wasn't insulted by Catherine."",)",0.0,0,0.43652403354644775,seen
+115,"(""April's ex-boyfriend wasn't screamed by Catherine."",)",1.0,1,0.6914652585983276,seen
+116,"(""That woman was irritated by Irene's mentee."",)",1.0,0,0.7803300023078918,seen
+117,"(""That woman was waved by Irene's mentee."",)",1.0,1,0.4587254524230957,seen
+118,"('All people are alarmed by this hat.',)",0.0,0,0.6478344798088074,seen
+119,"('All people are shouted by this hat.',)",1.0,1,0.3925424814224243,seen
+120,"(""Dawn is forgotten by Erin's friends."",)",0.0,0,0.429608553647995,seen
+121,"(""Dawn is nodded by Erin's friends."",)",0.0,1,0.7908716797828674,seen
+122,"(""Clyde's ex-husbands were approached by those pedestrians' oncologists."",)",0.0,0,0.46151459217071533,seen
+123,"(""Clyde's ex-husbands were negotiated by those pedestrians' oncologists."",)",0.0,1,0.779110312461853,seen
+124,"('The daughters of Karla are cared for by Judy.',)",0.0,0,0.5751466155052185,seen
+125,"('The daughters of Karla are profited by Judy.',)",1.0,1,0.65279221534729,seen
+126,"(""Holly's tutors aren't left by Anne."",)",0.0,0,0.6417199373245239,seen
+127,"(""Holly's tutors aren't clashed by Anne."",)",1.0,1,0.6812568306922913,seen
+128,"(""Douglas isn't kissed by Travis."",)",1.0,0,0.6983401775360107,seen
+129,"(""Douglas isn't shrugged by Travis."",)",1.0,1,0.5022701025009155,seen
+130,"('The banks are remembered by Rebecca.',)",0.0,0,0.5334104299545288,seen
+131,"('The banks are corresponded by Rebecca.',)",1.0,1,0.6907196640968323,seen
+132,"(""Caroline's senators aren't discussed by Patrick."",)",0.0,0,0.40262436866760254,seen
+133,"(""Caroline's senators aren't interacted by Patrick."",)",0.0,1,0.9902638792991638,seen
+134,"(""Tina's employees were known by Todd."",)",0.0,0,0.6502794623374939,seen
+135,"(""Tina's employees were responded by Todd."",)",1.0,1,0.5226592421531677,seen
+136,"('The Lutherans were helped by Todd.',)",0.0,0,0.48153167963027954,seen
+137,"('The Lutherans were talked by Todd.',)",1.0,1,0.5565074682235718,seen
+138,"('Every girl was concealed by Nancy.',)",1.0,0,0.7401135563850403,seen
+139,"('Every girl was murmured by Nancy.',)",1.0,1,0.3764735460281372,seen
+140,"(""Randolf's doctor was confused by Candice."",)",0.0,0,0.6746731400489807,seen
+141,"(""Randolf's doctor was littered by Candice."",)",1.0,1,0.5090188980102539,seen
+142,"('That organization was scared by a cashier.',)",0.0,0,0.519173800945282,seen
+143,"('That organization was testified by a cashier.',)",0.0,1,0.9507103562355042,seen
+144,"(""The Lutherans aren't kissed by Naomi."",)",0.0,0,0.5488791465759277,seen
+145,"(""The Lutherans aren't reacted by Naomi."",)",0.0,1,0.7665495872497559,seen
+146,"(""Colleen wasn't forgotten by Craig."",)",0.0,0,0.5676096677780151,seen
+147,"(""Colleen wasn't fallen asleep by Craig."",)",1.0,1,0.46199244260787964,seen
+148,"(""Curtis's lawyers aren't talked about by Daniel."",)",0.0,0,0.5501754879951477,seen
+149,"(""Curtis's lawyers aren't negotiated by Daniel."",)",0.0,1,0.7256630659103394,seen
+150,"(""This man's best friend is hugged by Karen."",)",0.0,0,0.6415375471115112,seen
+151,"(""This man's best friend is muttered by Karen."",)",1.0,1,0.648639976978302,seen
+152,"(""The brothers of Alan weren't disgusted by all cousins of those patients."",)",1.0,0,0.8271689414978027,seen
+153,"(""The brothers of Alan weren't profited by all cousins of those patients."",)",1.0,1,0.4719574451446533,seen
+154,"(""John's mentor is appreciated by Lawrence."",)",0.0,0,0.48335784673690796,seen
+155,"(""John's mentor is suffered by Lawrence."",)",0.0,1,0.7024493217468262,seen
+156,"('All guys were talked about by a lot of libraries.',)",1.0,0,1.0720226764678955,seen
+157,"('All guys were talked by a lot of libraries.',)",1.0,1,0.3794102370738983,seen
+158,"(""Rhonda's associate is hated by Denise's nephews."",)",0.0,0,0.43855634331703186,seen
+159,"(""Rhonda's associate is disagreed by Denise's nephews."",)",0.0,1,0.7912903428077698,seen
+160,"(""Eric isn't embarrassed by most pedestrians."",)",0.0,0,0.6335011124610901,seen
+161,"(""Eric isn't answered by most pedestrians."",)",1.0,1,0.661281168460846,seen
+162,"(""Janice wasn't helped by Wayne."",)",0.0,0,0.5864360332489014,seen
+163,"(""Janice wasn't concurred by Wayne."",)",1.0,1,0.4473722577095032,seen
+164,"(""Amanda's lawyers were known by Winston Churchill."",)",0.0,0,0.4448075294494629,seen
+165,"(""Amanda's lawyers were reacted by Winston Churchill."",)",0.0,1,0.8017598390579224,seen
+166,"(""Most dancers weren't upset by all books."",)",0.0,0,0.6633732914924622,seen
+167,"(""Most dancers weren't joked around by all books."",)",1.0,1,0.3993799090385437,seen
+168,"('Holly is attacked by Marla.',)",0.0,0,0.375833660364151,seen
+169,"('Holly is come here by Marla.',)",1.0,1,0.5440108180046082,seen
+170,"('Nancy is kissed by Susan.',)",1.0,0,0.704893946647644,unseen
+171,"('Nancy is spoken up by Susan.',)",1.0,1,0.5995417833328247,unseen
+172,"(""Bradley's ex-wives were embarrassed by Veronica."",)",0.0,0,0.43746596574783325,unseen
+173,"(""Bradley's ex-wives were communicated by Veronica."",)",0.0,1,0.9986273646354675,unseen
+174,"(""Christopher isn't worried by this casserole."",)",0.0,0,0.6421334743499756,seen
+175,"(""Christopher isn't murmured by this casserole."",)",1.0,1,0.3951731324195862,seen
+176,"(""Irene's dermatologists weren't hired by Ann."",)",0.0,0,0.6380555629730225,unseen
+177,"(""Irene's dermatologists weren't collaborated by Ann."",)",1.0,1,0.5693785548210144,unseen
+178,"(""Nicole wasn't visited by these students."",)",0.0,0,0.587191104888916,unseen
+179,"(""Nicole wasn't nodded by these students."",)",1.0,1,0.40266597270965576,unseen
+180,"(""Leslie isn't concealed by Andrea's mentee."",)",1.0,0,0.800073504447937,seen
+181,"(""Leslie isn't trained by Andrea's mentee."",)",1.0,1,0.6830686926841736,seen
+182,"(""Marcus's teacher isn't alarmed by Jesus."",)",0.0,0,0.5455950498580933,seen
+183,"(""Marcus's teacher isn't waved by Jesus."",)",1.0,1,0.6162357330322266,seen
+184,"(""Vanessa's mothers were shocked by these students."",)",0.0,0,0.4970036745071411,unseen
+185,"(""Vanessa's mothers were corresponded by these students."",)",0.0,1,0.9407179355621338,unseen
+186,"(""Martha wasn't confused by Nina."",)",0.0,0,0.6631379723548889,seen
+187,"(""Martha wasn't compromised by Nina."",)",0.0,1,1.0301718711853027,seen
+188,"('Many girls are irritated by Angela.',)",0.0,0,0.6696980595588684,seen
+189,"('Many girls are cooperated by Angela.',)",1.0,1,0.4249195456504822,seen
+190,"(""Winston Churchill was confused by Cindy's tutor."",)",0.0,0,0.5794963240623474,unseen
+191,"(""Winston Churchill was wept by Cindy's tutor."",)",0.0,1,0.6971229910850525,unseen
+192,"('The actresses are appreciated by Steve.',)",0.0,0,0.5680075883865356,seen
+193,"('The actresses are responded by Steve.',)",1.0,1,0.6575735807418823,seen
+194,"('A lot of adults are admired by Douglas.',)",0.0,0,0.6449955105781555,seen
+195,"('A lot of adults are talked by Douglas.',)",1.0,1,0.46585753560066223,seen
+196,"(""Ruth's French teacher wasn't remembered by Adam."",)",0.0,0,0.6033502817153931,seen
+197,"(""Ruth's French teacher wasn't complained by Adam."",)",1.0,1,0.4997619092464447,seen
+198,"(""Kirsten isn't described by the mother of Rodney."",)",0.0,0,0.5022392272949219,seen
+199,"(""Kirsten isn't argued by the mother of Rodney."",)",1.0,1,0.6263136863708496,seen
+200,"(""Kristen is seen by Carrie's ex-wives."",)",0.0,0,0.4463668465614319,seen
+201,"(""Kristen is littered by Carrie's ex-wives."",)",0.0,1,0.8290195465087891,seen
+202,"('The Lutherans are distracted by Carlos.',)",0.0,0,0.47593456506729126,seen
+203,"('The Lutherans are reacted by Carlos.',)",0.0,1,0.7318722605705261,seen
+204,"(""Some governments aren't annoyed by some show about the Clintons."",)",0.0,0,0.4780709743499756,unseen
+205,"(""Some governments aren't interacted by some show about the Clintons."",)",0.0,1,0.885964035987854,unseen
+206,"('The museum is escaped from by Beverly.',)",0.0,0,0.377750039100647,seen
+207,"('The museum is communicated by Beverly.',)",0.0,1,0.9471606612205505,seen
+208,"(""Most girls weren't concealed by Jeffrey."",)",1.0,0,0.7127043604850769,seen
+209,"(""Most girls weren't communicated by Jeffrey."",)",1.0,1,0.5535566210746765,seen
+210,"(""Most guests aren't approached by Tara."",)",0.0,0,0.6308677196502686,seen
+211,"(""Most guests aren't collaborated by Tara."",)",1.0,1,0.5300743579864502,seen
+212,"(""A lot of hospitals aren't left by the Borgias."",)",0.0,0,0.6076079607009888,seen
+213,"(""A lot of hospitals aren't retaliated by the Borgias."",)",0.0,1,0.7808917760848999,seen
+214,"('Claire was irritated by the mall.',)",0.0,0,0.5620548129081726,seen
+215,"('Claire was fallen asleep by the mall.',)",1.0,1,0.4164429306983948,seen
+216,"('Christopher is hurt by actors.',)",0.0,0,0.5583715438842773,seen
+217,"('Christopher is blinked by actors.',)",1.0,1,0.5204779505729675,seen
+218,"(""The government isn't alarmed by most libraries."",)",0.0,0,0.3693912923336029,seen
+219,"(""The government isn't conferred by most libraries."",)",0.0,1,0.9229899644851685,seen
+220,"(""Omar wasn't disturbed by Debra."",)",0.0,0,0.605351448059082,unseen
+221,"(""Omar wasn't fallen asleep by Debra."",)",1.0,1,0.4597073793411255,unseen
+222,"(""All grandmothers of Stephen weren't watched by Kenneth's electricians."",)",1.0,0,0.7718480229377747,seen
+223,"(""All grandmothers of Stephen weren't interacted by Kenneth's electricians."",)",1.0,1,0.5298475027084351,seen
+224,"(""Edward isn't distracted by Sonia."",)",0.0,0,0.582383394241333,seen
+225,"(""Edward isn't fallen asleep by Sonia."",)",1.0,1,0.5730302333831787,seen
+226,"(""Amanda's dermatologist is visited by Peter."",)",0.0,0,0.5805611610412598,seen
+227,"(""Amanda's dermatologist is gone fishing by Peter."",)",1.0,1,0.6307293176651001,seen
+228,"(""Every hospital isn't remembered by Samuel."",)",0.0,0,0.49780863523483276,seen
+229,"(""Every hospital isn't clashed by Samuel."",)",1.0,1,0.6377379298210144,seen
+230,"(""The daughters of Tanya are stunned by Frank's grandsons."",)",1.0,0,0.8551045656204224,seen
+231,"(""The daughters of Tanya are retaliated by Frank's grandsons."",)",1.0,1,0.6678369641304016,seen
+232,"(""All guys aren't talked about by Samantha's brothers."",)",1.0,0,1.0205368995666504,seen
+233,"(""All guys aren't retaliated by Samantha's brothers."",)",1.0,1,0.5186604261398315,seen
+234,"(""Grandfathers of Nina aren't helped by Joseph."",)",0.0,0,0.5370343923568726,seen
+235,"(""Grandfathers of Nina aren't testified by Joseph."",)",0.0,1,0.7693688869476318,seen
+236,"(""Stephen's handymen were examined by some adult."",)",0.0,0,0.5912492275238037,unseen
+237,"(""Stephen's handymen were talked by some adult."",)",1.0,1,0.5455538034439087,unseen
+238,"('Karla is disgusted by these stories.',)",0.0,0,0.5696540474891663,seen
+239,"('Karla is died by these stories.',)",1.0,1,0.6062608361244202,seen
+240,"(""A museum wasn't exited by Carla's associates."",)",1.0,0,0.7450273036956787,seen
+241,"(""A museum wasn't struggled by Carla's associates."",)",0.0,1,0.7237769365310669,seen
+242,"('Timothy was forgotten by Cynthia.',)",0.0,0,0.505574643611908,seen
+243,"('Timothy was gone fishing by Cynthia.',)",1.0,1,0.5426881313323975,seen
+244,"(""All waiters aren't insulted by Beth."",)",1.0,0,1.0845698118209839,seen
+245,"(""All waiters aren't replied by Beth."",)",1.0,1,0.36585620045661926,seen
+246,"(""Harvard University wasn't escaped from by a teacher."",)",0.0,0,0.43698418140411377,seen
+247,"(""Harvard University wasn't replied by a teacher."",)",0.0,1,0.8676234483718872,seen
+248,"(""Tamara's grandfathers weren't scared by Melanie."",)",0.0,0,0.5741033554077148,seen
+249,"(""Tamara's grandfathers weren't replied by Melanie."",)",1.0,1,0.6359996199607849,seen
+250,"(""The Clintons were seen by Stephanie's plumbers."",)",0.0,0,0.3907952606678009,seen
+251,"(""The Clintons were conferred by Stephanie's plumbers."",)",0.0,1,1.0284861326217651,seen
+252,"(""Rodney isn't criticized by those associations."",)",0.0,0,0.4871339201927185,seen
+253,"(""Rodney isn't gone fishing by those associations."",)",1.0,1,0.5526121258735657,seen
+254,"(""Elaine's supervisor was fired by the brothers of men."",)",0.0,0,0.3950144648551941,seen
+255,"(""Elaine's supervisor was laughed by the brothers of men."",)",1.0,1,0.5944059491157532,seen
+256,"(""Tammy wasn't visited by Cynthia's daughters."",)",0.0,0,0.5468223094940186,seen
+257,"(""Tammy wasn't come here by Cynthia's daughters."",)",1.0,1,0.39007070660591125,seen
+258,"(""Jodi wasn't praised by Regina."",)",0.0,0,0.4874490797519684,seen
+259,"(""Jodi wasn't died by Regina."",)",1.0,1,0.559262752532959,seen
+260,"('All sisters of many guys are disliked by these grandmothers of Susan.',)",1.0,0,1.0272319316864014,seen
+261,"('All sisters of many guys are worked hard by these grandmothers of Susan.',)",1.0,1,0.37495702505111694,seen
+262,"('Andrew is approached by Theresa.',)",0.0,0,0.3665428161621094,seen
+263,"('Andrew is chuckled by Theresa.',)",1.0,1,0.4496178925037384,seen
+264,"(""April's grandmothers were discussed by Liam."",)",0.0,0,0.527135968208313,seen
+265,"(""April's grandmothers were flirted by Liam."",)",1.0,1,0.4847874641418457,seen
+266,"('That university was impressed by that water.',)",0.0,0,0.5088589191436768,seen
+267,"('That university was replied by that water.',)",1.0,1,0.5867008566856384,seen
+268,"(""Bradley's guests were alarmed by Paul."",)",0.0,0,0.43306076526641846,unseen
+269,"(""Bradley's guests were coped by Paul."",)",0.0,1,0.7103158235549927,unseen
+270,"(""Julia wasn't visited by the Impressionists."",)",0.0,0,0.5572778582572937,seen
+271,"(""Julia wasn't sighed by the Impressionists."",)",1.0,1,0.4081367552280426,seen
+272,"('A waiter is escaped from by an actress.',)",1.0,0,0.816216230392456,seen
+273,"('A waiter is talked by an actress.',)",1.0,1,0.36905738711357117,seen
+274,"(""Gary wasn't disliked by Bethany."",)",0.0,0,0.6033234000205994,seen
+275,"(""Gary wasn't suffered by Bethany."",)",1.0,1,0.5501188039779663,seen
+276,"(""Gina's ex-boyfriends are stunned by Brad's associate."",)",0.0,0,0.5203913450241089,seen
+277,"(""Gina's ex-boyfriends are interacted by Brad's associate."",)",0.0,1,0.8485746383666992,seen
+278,"(""A child's partners weren't hurt by those lakes."",)",0.0,0,0.5752724409103394,seen
+279,"(""A child's partners weren't responded by those lakes."",)",1.0,1,0.5875921845436096,seen
+280,"(""Martin wasn't impressed by Raymond."",)",0.0,0,0.5531456470489502,seen
+281,"(""Martin wasn't wept by Raymond."",)",1.0,1,0.44603636860847473,seen
+282,"(""Some boy's grandmothers weren't talked about by Joel."",)",1.0,0,0.8968542814254761,unseen
+283,"(""Some boy's grandmothers weren't complained by Joel."",)",1.0,1,0.44029170274734497,unseen
+284,"(""All schools aren't disliked by Amanda."",)",0.0,0,0.640921413898468,seen
+285,"(""All schools aren't chatted by Amanda."",)",1.0,1,0.414080411195755,seen
+286,"('This driver is stunned by Homer.',)",0.0,0,0.45109647512435913,seen
+287,"('This driver is joked around by Homer.',)",0.0,1,0.7578557729721069,seen
+288,"(""Elizabeth is respected by Margaret's podiatrists."",)",0.0,0,0.4533935785293579,seen
+289,"(""Elizabeth is murmured by Margaret's podiatrists."",)",1.0,1,0.443143755197525,seen
+290,"(""A girl isn't praised by Diane."",)",0.0,0,0.6273764371871948,seen
+291,"(""A girl isn't complained by Diane."",)",1.0,1,0.5109202265739441,seen
+292,"(""Larry's lawyers weren't embarrassed by Amy's fathers."",)",0.0,0,0.5153783559799194,seen
+293,"(""Larry's lawyers weren't retaliated by Amy's fathers."",)",0.0,1,0.9720765352249146,seen
+294,"('Guys are kissed by these daughters of Lawrence.',)",1.0,0,0.723981499671936,seen
+295,"('Guys are replied by these daughters of Lawrence.',)",1.0,1,0.5076790452003479,seen
+296,"(""Christine wasn't scared by some adults."",)",0.0,0,0.6779853701591492,seen
+297,"(""Christine wasn't sighed by some adults."",)",1.0,1,0.4451940655708313,seen
+298,"('Jesus is criticized by these women.',)",0.0,0,0.4179583191871643,seen
+299,"('Jesus is trained by these women.',)",0.0,1,0.8887404203414917,seen
+300,"(""All waiters weren't admired by Timothy."",)",1.0,0,1.0240696668624878,seen
+301,"(""All waiters weren't chuckled by Timothy."",)",1.0,1,0.34866634011268616,seen
+302,"(""Some adults' hairdressers were kissed by Bradley."",)",1.0,0,0.9067020416259766,unseen
+303,"(""Some adults' hairdressers were struggled by Bradley."",)",1.0,1,0.5061412453651428,unseen
+304,"('Margaret was watched by Carol.',)",0.0,0,0.5140261054039001,seen
+305,"('Margaret was died by Carol.',)",1.0,1,0.6625797152519226,seen
+306,"(""Julie's girlfriend wasn't insulted by Helen."",)",0.0,0,0.5576249957084656,seen
+307,"(""Julie's girlfriend wasn't gone fishing by Helen."",)",0.0,1,0.7014943361282349,seen
+308,"('Judy was distracted by many glaciers.',)",0.0,0,0.6179060339927673,seen
+309,"('Judy was trained by many glaciers.',)",0.0,1,0.8256988525390625,seen
+310,"(""Michelle's senators are visited by the Clintons."",)",0.0,0,0.413463830947876,seen
+311,"(""Michelle's senators are responded by the Clintons."",)",0.0,1,0.7959434986114502,seen
+312,"(""Carlos wasn't cared for by many friends of Connie."",)",1.0,0,0.756257176399231,seen
+313,"(""Carlos wasn't joked around by many friends of Connie."",)",1.0,1,0.3870285749435425,seen
+314,"(""Jerry wasn't talked about by Sarah."",)",1.0,0,0.7330272197723389,seen
+315,"(""Jerry wasn't cried by Sarah."",)",1.0,1,0.4249168038368225,seen
+316,"(""Barbara is bothered by customers' dermatologists."",)",0.0,0,0.6319182515144348,unseen
+317,"(""Barbara is littered by customers' dermatologists."",)",1.0,1,0.5634387135505676,unseen
+318,"(""Some cashier wasn't hired by Danielle."",)",1.0,0,0.903548002243042,unseen
+319,"(""Some cashier wasn't murmured by Danielle."",)",1.0,1,0.3646978735923767,unseen
+320,"('Janet was loved by Lissa.',)",0.0,0,0.5497996211051941,seen
+321,"('Janet was died by Lissa.',)",1.0,1,0.5538760423660278,seen
+322,"(""Some cilantro wasn't lifted by Stacey."",)",1.0,0,0.728175163269043,unseen
+323,"(""Some cilantro wasn't rotted by Stacey."",)",1.0,1,0.5410189628601074,unseen
+324,"(""Brenda wasn't criticized by Paul."",)",0.0,0,0.5334635972976685,unseen
+325,"(""Brenda wasn't shrugged by Paul."",)",1.0,1,0.41084837913513184,unseen
+326,"(""Anna's daughters aren't disagreed with by Nicole's grandmother."",)",1.0,0,1.0588871240615845,seen
+327,"(""Anna's daughters aren't shrugged by Nicole's grandmother."",)",1.0,1,0.4148629903793335,seen
+328,"('A man is disturbed by literature.',)",0.0,0,0.5656542778015137,seen
+329,"('A man is compromised by literature.',)",0.0,1,0.9087926149368286,seen
+330,"(""These waiters weren't attacked by Bethany's doctors."",)",0.0,0,0.5558050870895386,seen
+331,"(""These waiters weren't reacted by Bethany's doctors."",)",1.0,1,0.48192644119262695,seen
+332,"(""Alicia isn't cared for by some sister of Andrea."",)",0.0,0,0.577192485332489,seen
+333,"(""Alicia isn't grinned by some sister of Andrea."",)",1.0,1,0.42138737440109253,seen
+334,"('These waitresses were seen by that woman.',)",1.0,0,0.7410327196121216,seen
+335,"('These waitresses were interacted by that woman.',)",1.0,1,0.4585402011871338,seen
+336,"('A woman is cared for by Heidi.',)",0.0,0,0.5138993859291077,seen
+337,"('A woman is come here by Heidi.',)",1.0,1,0.4934643507003784,seen
+338,"('Some museum is worried by Janice.',)",0.0,0,0.6060584783554077,unseen
+339,"('Some museum is communicated by Janice.',)",1.0,1,0.5360777974128723,unseen
+340,"(""The waitresses aren't respected by Stacy's guest."",)",0.0,0,0.6140393614768982,seen
+341,"(""The waitresses aren't negotiated by Stacy's guest."",)",1.0,1,0.6778861284255981,seen
+342,"('All actors were disliked by Spain.',)",0.0,0,0.6814314723014832,seen
+343,"('All actors were flirted by Spain.',)",1.0,1,0.3692821264266968,seen
+344,"(""Samuel's tutors were discussed by this guest."",)",0.0,0,0.5457334518432617,unseen
+345,"(""Samuel's tutors were concurred by this guest."",)",1.0,1,0.43813616037368774,unseen
+346,"(""Some essays about Jesus weren't concealed by Kathleen."",)",0.0,0,0.6015792489051819,unseen
+347,"(""Some essays about Jesus weren't disagreed by Kathleen."",)",1.0,1,0.5019207000732422,unseen
+348,"(""Jill isn't stunned by Randolf."",)",0.0,0,0.6542885899543762,seen
+349,"(""Jill isn't compromised by Randolf."",)",0.0,1,0.8331055045127869,seen
+350,"(""A lot of legislatures aren't worried by most blouses."",)",0.0,0,0.5877643823623657,seen
+351,"(""A lot of legislatures aren't clashed by most blouses."",)",1.0,1,0.4978650212287903,seen
+352,"(""Rhonda isn't upset by Jodi's spouse."",)",0.0,0,0.624092161655426,seen
+353,"(""Rhonda isn't wept by Jodi's spouse."",)",1.0,1,0.4394054114818573,seen
+354,"(""Those guys' bosses weren't loved by Marcus."",)",0.0,0,0.5251141786575317,seen
+355,"(""Those guys' bosses weren't conferred by Marcus."",)",0.0,1,0.7912591695785522,seen
+356,"(""All apples aren't admired by Kayla's bosses."",)",1.0,0,0.8606740236282349,seen
+357,"(""All apples aren't rotted by Kayla's bosses."",)",1.0,1,0.5467795729637146,seen
+358,"(""Daniel isn't referenced by Vanessa."",)",0.0,0,0.3825538456439972,seen
+359,"(""Daniel isn't wept by Vanessa."",)",1.0,1,0.5154948234558105,seen
+360,"(""Anne wasn't loved by the daughter of Beverly."",)",0.0,0,0.5273729562759399,seen
+361,"(""Anne wasn't gotten fired by the daughter of Beverly."",)",1.0,1,0.6724106073379517,seen
+362,"(""Richard is attacked by those pedestrians' mentor."",)",0.0,0,0.4992307424545288,seen
+363,"(""Richard is shouted by those pedestrians' mentor."",)",1.0,1,0.44889333844184875,seen
+364,"(""Melinda's handymen aren't observed by Adam."",)",0.0,0,0.5599426627159119,seen
+365,"(""Melinda's handymen aren't retaliated by Adam."",)",0.0,1,0.7228028178215027,seen
+366,"(""Elaine's podiatrists aren't upset by Debra's contractor."",)",0.0,0,0.6225315928459167,seen
+367,"(""Elaine's podiatrists aren't conspired by Debra's contractor."",)",1.0,1,0.6321874856948853,seen
+368,"(""The cilantro isn't sold by Cynthia."",)",0.0,0,0.627241849899292,seen
+369,"(""The cilantro isn't rotted by Cynthia."",)",1.0,1,0.6287423968315125,seen
+370,"(""Elaine's supervisors weren't respected by Steven."",)",0.0,0,0.4872286915779114,seen
+371,"(""Elaine's supervisors weren't laughed by Steven."",)",1.0,1,0.5452213287353516,seen
+372,"(""Mark isn't remembered by Alexander."",)",0.0,0,0.4754924476146698,seen
+373,"(""Mark isn't chuckled by Alexander."",)",1.0,1,0.39963871240615845,seen
+374,"(""These teachers weren't forgotten by the girl."",)",0.0,0,0.4198901951313019,seen
+375,"(""These teachers weren't spoken up by the girl."",)",0.0,1,0.8788777589797974,seen
+376,"('Many museums are remembered by Rhonda.',)",0.0,0,0.492797315120697,seen
+377,"('Many museums are coped by Rhonda.',)",1.0,1,0.5785401463508606,seen
+378,"(""Cashiers weren't described by Diane's mother."",)",0.0,0,0.5197718739509583,seen
+379,"(""Cashiers weren't collaborated by Diane's mother."",)",1.0,1,0.5459581613540649,seen
+380,"(""Melinda wasn't admired by a school."",)",1.0,0,0.6966883540153503,seen
+381,"(""Melinda wasn't screamed by a school."",)",1.0,1,0.36163538694381714,seen
+382,"('All students are embarrassed by some trucks.',)",1.0,0,0.824682354927063,seen
+383,"('All students are communicated by some trucks.',)",0.0,1,0.7198550701141357,seen
+384,"(""Veronica's sisters are disturbed by a skirt."",)",0.0,0,0.4654879570007324,unseen
+385,"(""Veronica's sisters are shouted by a skirt."",)",1.0,1,0.621978223323822,unseen
+386,"(""Cynthia isn't disliked by Margaret."",)",0.0,0,0.5735005736351013,seen
+387,"(""Cynthia isn't compromised by Margaret."",)",0.0,1,0.9077599048614502,seen
+388,"(""Lori's handymen aren't astounded by Ann."",)",0.0,0,0.6872469782829285,seen
+389,"(""Lori's handymen aren't competed by Ann."",)",1.0,1,0.5827118754386902,seen
+390,"(""A senator's employees aren't remembered by Noah."",)",0.0,0,0.3878188133239746,seen
+391,"(""A senator's employees aren't responded by Noah."",)",0.0,1,0.9522188901901245,seen
+392,"(""Suzanne's bosses weren't criticized by Martha."",)",0.0,0,0.4769926965236664,unseen
+393,"(""Suzanne's bosses weren't struggled by Martha."",)",1.0,1,0.5698827505111694,unseen
+394,"('Anna is impressed by current events.',)",0.0,0,0.583372950553894,seen
+395,"('Anna is suffered by current events.',)",1.0,1,0.5769074559211731,seen
+396,"(""Bruce isn't distracted by Kirsten."",)",0.0,0,0.49889108538627625,unseen
+397,"(""Bruce isn't gone fishing by Kirsten."",)",0.0,1,0.8474432826042175,unseen
+398,"(""Adam's plumber isn't bored by Kayla's guest."",)",1.0,0,0.7011610269546509,seen
+399,"(""Adam's plumber isn't answered by Kayla's guest."",)",0.0,1,0.715177059173584,seen

@@ -16,14 +16,14 @@ __pycache__
 cache/*
 cache
 dumps/*
-results/*
-results/**
-results/**/*
+# results/*
+# results/**
+# results/**/*
 data/flash-holmes/*
 # data/holmes/*
 !versions/flash-holmes/README.md
 !versions/holmes/README.md
 !versions/flash-holmes/download.py
 !versions/holmes/download.py
-/results/
+# /results/
 lightning_logs
