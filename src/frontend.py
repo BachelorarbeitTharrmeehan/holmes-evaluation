@@ -123,7 +123,12 @@ if use_openai_response:
     user_prompt_template = st.sidebar.text_area(
         label="OpenAI Prompt",
         value="Is the following sentence grammatically acceptable or no?: {sentence}",
+        help="The {sentence} placeholder is required for every prompt you might create. you can add it anywhere in your prompt.",
     )
+    if "{sentence}" not in user_prompt_template:
+        st.error(
+            "Error: The prompt template must contain '{sentence}'. Please include it in your template."
+        )
 
 
 def get_openai_responses(api_key, user_prompt_template, changes_df):
@@ -279,12 +284,19 @@ if st.session_state.clicked:
         st.write("Changed rows:")
 
         if use_openai_response:
-            openai_responses_df = get_openai_responses(
-                api_key, user_prompt_template, changes_df
-            )
+            if "{sentence}" not in user_prompt_template:
+                st.error(
+                    "Error: The prompt template must contain '{sentence}'. Please include it in your template."
+                )
+            else:
+                openai_responses_df = get_openai_responses(
+                    api_key, user_prompt_template, changes_df
+                )
 
-            st.write("OpenAI Responses for Modified Sentences:")
-            st.dataframe(openai_responses_df, hide_index=True, use_container_width=True)
+                st.write("OpenAI Responses for Modified Sentences:")
+                st.dataframe(
+                    openai_responses_df, hide_index=True, use_container_width=True
+                )
         else:
             st.write("OpenAI response generation is disabled.")
 
