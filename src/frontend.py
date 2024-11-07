@@ -3,6 +3,7 @@ import pandas as pd
 from streamlit import column_config
 import glob
 import os
+import openai
 
 from backend import Backend
 
@@ -116,10 +117,48 @@ st.session_state.selected_model = st.sidebar.multiselect(
     ],
     max_selections=4,
 )
-openai_prompt = st.sidebar.text_area(
-    label="OpenAI Prompt",
-    value="Is this sentence negated or not, if it is please answer with a 1 else with a 0",
-)
+use_openai_response = st.sidebar.checkbox("Get OpenAI Response for Modified Sentences")
+if use_openai_response:
+    api_key = st.sidebar.text_input("Enter your OpenAI API key", type="password")
+    user_prompt_template = st.sidebar.text_area(
+        label="OpenAI Prompt",
+        value="Is the following sentence grammatically acceptable or no?: {sentence}",
+    )
+
+
+def get_openai_responses(api_key, user_prompt_template, changes_df):
+    client = openai.OpenAI(api_key=api_key)
+    responses = []
+
+    for index, row in changes_df.iterrows():
+        modified_sentence = row["modified_sentence"]
+
+        prompt = user_prompt_template.format(sentence=modified_sentence)
+
+        try:
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt},
+                ],
+                max_tokens=150,
+            )
+
+            result = response.choices[0].message.content.strip()
+
+            responses.append(
+                {
+                    "Modified Sentence": modified_sentence,
+                    "OpenAI Response": result,
+                }
+            )
+
+        except Exception as e:
+            st.error(f"Error fetching response for sentence '{modified_sentence}': {e}")
+
+    # Convert the list of responses to a DataFrame
+    return pd.DataFrame(responses)
 
 
 def load_model_dfs(models):
@@ -199,7 +238,6 @@ if "df" not in st.session_state:
     # Call the update_task function to load the initial dataframe
     update_task()
 
-# Data editor for displaying and editing the DataFrame
 edited_df = st.data_editor(
     st.session_state.df,
     disabled=("Label", "Bart Base"),
@@ -239,6 +277,16 @@ if st.session_state.clicked:
     changes_df = get_changed_rows_df(st.session_state.df, edited_df)
     if not changes_df.empty:
         st.write("Changed rows:")
+
+        if use_openai_response:
+            openai_responses_df = get_openai_responses(
+                api_key, user_prompt_template, changes_df
+            )
+
+            st.write("OpenAI Responses for Modified Sentences:")
+            st.dataframe(openai_responses_df, hide_index=True, use_container_width=True)
+        else:
+            st.write("OpenAI response generation is disabled.")
 
         # Run evaluation for multiple models
         model_predictions = sentence_eval(
