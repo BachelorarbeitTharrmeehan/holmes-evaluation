@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"(""Todd can't yawn."",)",,,1,train,1,0,0
+"(""Todd can't walk through."",)",,,0,train,0,1,1
+"(""Some guests hadn't left."",)",,,1,train,1,0,2
+"(""Some guests hadn't boasted about."",)",,,0,train,0,1,3
+"('Regina is shouting.',)",,,1,train,1,0,6
+"('Regina is boasting about.',)",,,0,train,0,1,7
+"(""Anna's grandmothers aren't benefiting."",)",,,1,train,1,0,10
+"(""Anna's grandmothers aren't arguing about."",)",,,0,train,0,1,11
+"('Stephanie succeeds.',)",,,1,train,1,0,14
+"('Stephanie boasts about.',)",,,0,train,0,1,15
+"(""Tara's contractors scream."",)",,,1,train,1,0,16
+"(""Tara's contractors drive to."",)",,,0,train,0,1,17
+"(""All gloves weren't crumpling."",)",,,1,train,1,0,18
+"(""All gloves weren't looking like."",)",,,0,train,0,1,19
+"(""Patricia's hairdressers hadn't cooked."",)",,,1,train,1,0,20
+"(""Patricia's hairdressers hadn't gone to."",)",,,0,train,0,1,21
+"('The spotlights faded.',)",,,1,train,1,0,22
+"('The spotlights scared.',)",,,0,train,0,1,23
+"('The muffins were scorching.',)",,,1,train,1,0,24
+"('The muffins were scaring.',)",,,0,train,0,1,25
+"('Those friends of Sally were painting.',)",,,1,train,1,0,26
+"('Those friends of Sally were walking through.',)",,,0,train,0,1,27
+"('This screen does brighten.',)",,,1,train,1,0,28
+"('This screen does resemble.',)",,,0,train,0,1,29
+"(""Danielle's podiatrists were succeeding."",)",,,1,train,1,0,30
+"(""Danielle's podiatrists were scaring."",)",,,0,train,0,1,31
+"('A lot of cashiers should collaborate.',)",,,1,train,1,0,32
+"('A lot of cashiers should go to.',)",,,0,train,0,1,33
+"('The pepper blackened.',)",,,1,train,1,0,34
+"('The pepper resembles.',)",,,0,train,0,1,35
+"(""Some skirts haven't unfolded."",)",,,1,train,1,0,36
+"(""Some skirts haven't scared."",)",,,0,train,0,1,37
+"('Some cup falls apart.',)",,,1,train,1,0,42
+"('Some cup resembles.',)",,,0,train,0,1,43
+"(""All grandmothers of Bill hadn't clashed."",)",,,1,train,1,0,44
+"(""All grandmothers of Bill hadn't arrived at."",)",,,0,train,0,1,45
+"('Some convertible is chipping.',)",,,1,train,1,0,46
+"('Some convertible is scaring.',)",,,0,train,0,1,47
+"('These grandfathers of Ella cooperated.',)",,,1,train,1,0,50
+"('These grandfathers of Ella boast about.',)",,,0,train,0,1,51
+"('Most spotlights had dimmed.',)",,,1,train,1,0,52
+"('Most spotlights had looked like.',)",,,0,train,0,1,53
+"('Andrea has donated.',)",,,1,train,1,0,56
+"('Keith learns.',)",,,1,dev,1,0,54
+"('Keith disliked.',)",,,0,dev,0,1,55
+"('Larry departs.',)",,,1,dev,1,0,64
+"('Larry cured.',)",,,0,dev,0,1,65
+"('The water melts.',)",,,1,dev,1,0,108
+"('The water resembled.',)",,,0,dev,0,1,109
+"(""Karen isn't answering."",)",,,1,dev,1,0,136
+"(""Karen isn't talking about."",)",,,0,dev,0,1,137
+"('A closet flung open.',)",,,1,dev,1,0,156
+"('A closet looks like.',)",,,0,dev,0,1,157
+"('Julie replies.',)",,,1,dev,1,0,212
+"('Julie complained about.',)",,,0,dev,0,1,213
+"(""Candice's students haven't practiced."",)",,,1,dev,1,0,214
+"(""Candice's students haven't cared for."",)",,,0,dev,0,1,215
+"('Some son of Nancy stretched.',)",,,1,dev,1,0,222
+"('Some son of Nancy talked about.',)",,,0,dev,0,1,223
+"('Those doors shut.',)",,,1,dev,1,0,238
+"('Those doors look like.',)",,,0,dev,0,1,239
+"('Some skirt wrinkled.',)",,,1,dev,1,0,252
+"('Some skirt resembles.',)",,,0,dev,0,1,253
+"('These granddaughters of Eric eat.',)",,,1,dev,1,0,278
+"('These granddaughters of Eric lifted.',)",,,0,dev,0,1,279
+"(""Every patient isn't practicing."",)",,,1,dev,1,0,304
+"(""Every patient isn't revealing."",)",,,0,dev,0,1,305
+"('The ice cream did condense.',)",,,1,dev,1,0,334
+"('The ice cream did scare.',)",,,0,dev,0,1,335
+"('Cindy has murmured.',)",,,1,dev,1,0,352
+"('Cindy has scared.',)",,,0,dev,0,1,353
+"('A lot of hats flattened.',)",,,1,dev,1,0,358
+"('A lot of hats resembled.',)",,,0,dev,0,1,359
+"('Wendy trains.',)",,,1,dev,1,0,372
+"('Wendy respected.',)",,,0,dev,0,1,373
+"(""Nicole's sons will wake up."",)",,,1,dev,1,0,392
+"(""Nicole's sons will dislike."",)",,,0,dev,0,1,393
+"('Ruth succeeds.',)",,,1,dev,1,0,400
+"('Ruth references.',)",,,0,dev,0,1,401
+"('Tracy will depart.',)",,,1,dev,1,0,406
+"('Tracy will talk to.',)",,,0,dev,0,1,407
+"('Some scarf dries.',)",,,1,dev,1,0,424
+"('Some scarf looks like.',)",,,0,dev,0,1,425
+"(""William's ex-wives communicate."",)",,,1,dev,1,0,426
+"(""William's ex-wives returned to."",)",,,0,dev,0,1,427
+"(""Rodney's sons explain everything."",)",,,1,dev,1,0,450
+"(""Rodney's sons respected."",)",,,0,dev,0,1,451
+"(""Melissa's nieces could respond."",)",,,1,dev,1,0,486
+"(""Melissa's nieces could flee from."",)",,,0,dev,0,1,487
+"('Every candle has brightened.',)",,,1,dev,1,0,508
+"('Every candle has resembled.',)",,,0,dev,0,1,509
+"('Every truck turned.',)",,,1,dev,1,0,514
+"('Every truck resembled.',)",,,0,dev,0,1,515
+"('This bank can fight.',)",,,1,dev,1,0,516
+"('This bank can argue about.',)",,,0,dev,0,1,517
+"('The sweater shrinks.',)",,,1,dev,1,0,524
+"('The sweater scares.',)",,,0,dev,0,1,525
+"(""Kristin's ex-girlfriends can speak up."",)",,,1,dev,1,0,586
+"(""Kristin's ex-girlfriends can sound like."",)",,,0,dev,0,1,587
+"('The wheelbarrows were slowing.',)",,,1,dev,1,0,588
+"('The wheelbarrows were looking like.',)",,,0,dev,0,1,589
+"(""All sisters of these patients don't clash."",)",,,1,dev,1,0,670
+"(""All sisters of these patients don't scare."",)",,,0,dev,0,1,671
+"('Most sons of Robert competed.',)",,,1,dev,1,0,704
+"('Most sons of Robert walked through.',)",,,0,dev,0,1,705
+"('Some sons of the Impressionists cough.',)",,,1,dev,1,0,730
+"('Some sons of the Impressionists walk through.',)",,,0,dev,0,1,731
+"('Jason might slump over.',)",,,1,dev,1,0,754
+"('Jason might drive to.',)",,,0,dev,0,1,755
+"('Some library was interacting.',)",,,1,dev,1,0,756
+"('Some library was boasting about.',)",,,0,dev,0,1,757
+"(""Bill wasn't nodding."",)",,,1,dev,1,0,762
+"(""Bill wasn't escaping from."",)",,,0,dev,0,1,763
+"(""The Clintons didn't cook."",)",,,1,dev,1,0,804
+"(""The Clintons didn't reference."",)",,,0,dev,0,1,805
+"(""Chad's sisters will react."",)",,,1,dev,1,0,810
+"(""Chad's sisters will flee from."",)",,,0,dev,0,1,811
+"('The cucumber scorched.',)",,,1,dev,1,0,818
+"('The cucumber scared.',)",,,0,dev,0,1,819
+"('Many icicles condense.',)",,,1,dev,1,0,846
+"('Many icicles looked like.',)",,,0,dev,0,1,847
+"(""Nancy's best friend should salute."",)",,,1,dev,1,0,900
+"(""Nancy's best friend should complain about."",)",,,0,dev,0,1,901
+"('A lot of ladies profited.',)",,,1,dev,1,0,904
+"('A lot of ladies complain about.',)",,,0,dev,0,1,905
+"('That bread burned.',)",,,1,dev,1,0,940
+"('That bread scares.',)",,,0,dev,0,1,941
+"('Walter cries.',)",,,1,dev,1,0,942
+"('Walter biked to.',)",,,0,dev,0,1,943
+"('Some sisters of Katherine have screamed.',)",,,1,dev,1,0,962
+"('Some sisters of Katherine have revealed.',)",,,0,dev,0,1,963
+"('That bike maneuvered.',)",,,1,dev,1,0,972
+"('That bike looked like.',)",,,0,dev,0,1,973
+"(""Kristin's colleagues yawn."",)",,,1,dev,1,0,1006
+"(""Kristin's colleagues resemble."",)",,,0,dev,0,1,1007
+"('Victoria protests.',)",,,1,dev,1,0,1016
+"('Victoria likes.',)",,,0,dev,0,1,1017
+"(""Every child couldn't paint."",)",,,1,dev,1,0,1020
+"(""Every child couldn't talk about."",)",,,0,dev,0,1,1021
+"('The bicycles shattered.',)",,,1,dev,1,0,1068
+"('The bicycles resemble.',)",,,0,dev,0,1,1069
+"('Most unicycles should crash.',)",,,1,dev,1,0,1090
+"('Most unicycles should resemble.',)",,,0,dev,0,1,1091
+"('Thomas is yelling.',)",,,1,dev,1,0,1114
+"('Thomas is returning to.',)",,,0,dev,0,1,1115
+"(""Gregory isn't answering."",)",,,1,dev,1,0,1120
+"(""Gregory isn't biking to."",)",,,0,dev,0,1,1121
+"('The patients communicated.',)",,,1,dev,1,0,1146
+"('The patients flee from.',)",,,0,dev,0,1,1147
+"(""Winston Churchill's students cheer."",)",,,1,dev,1,0,1166
+"(""Winston Churchill's students admired."",)",,,0,dev,0,1,1167
+"(""The actresses aren't negotiating."",)",,,1,dev,1,0,1174
+"(""The actresses aren't boasting about."",)",,,0,dev,0,1,1175
+"('Tonya smiles.',)",,,1,dev,1,0,1180
+"('Tonya complains about.',)",,,0,dev,0,1,1181
+"('Most commentaries about the Balkans will disagree.',)",,,1,dev,1,0,1248
+"('Most commentaries about the Balkans will disagree with.',)",,,0,dev,0,1,1249
+"('A lamp could dim.',)",,,1,dev,1,0,1258
+"('A lamp could resemble.',)",,,0,dev,0,1,1259
+"(""Laurie's lawyers do divorce."",)",,,1,dev,1,0,1322
+"(""Laurie's lawyers do bike to."",)",,,0,dev,0,1,1323
+"('The lamp fades.',)",,,1,dev,1,0,1324
+"('The lamp looks like.',)",,,0,dev,0,1,1325
+"(""Heather's mentors hug."",)",,,1,dev,1,0,1330
+"(""Heather's mentors cured."",)",,,0,dev,0,1,1331
+"('Many lakes condensed.',)",,,1,dev,1,0,1344
+"('Many lakes looked like.',)",,,0,dev,0,1,1345
+"('Scott gets a job.',)",,,1,dev,1,0,1346
+"('Scott conceals.',)",,,0,dev,0,1,1347
+"('This sweater should unfold.',)",,,1,dev,1,0,1348
+"('This sweater should look like.',)",,,0,dev,0,1,1349
+"(""Janice's lawyers aren't conspiring."",)",,,1,dev,1,0,1350
+"(""Janice's lawyers aren't firing."",)",,,0,dev,0,1,1351
+"('Some dancers did hug.',)",,,1,dev,1,0,1378
+"('Some dancers did walk through.',)",,,0,dev,0,1,1379
+"('Most teachers reacted.',)",,,1,dev,1,0,1384
+"('Most teachers liked.',)",,,0,dev,0,1,1385
+"('Pamela protests.',)",,,1,dev,1,0,1400
+"('Pamela disagrees with.',)",,,0,dev,0,1,1401
+"('Lucille is waving.',)",,,1,dev,1,0,1402
+"('Lucille is listening to.',)",,,0,dev,0,1,1403
+"('Those museums have retaliated.',)",,,1,dev,1,0,1404
+"('Those museums have fired.',)",,,0,dev,0,1,1405
+"(""Barbara's employees cooperated."",)",,,1,dev,1,0,1428
+"(""Barbara's employees reveal."",)",,,0,dev,0,1,1429
+"('Most mushrooms scorch.',)",,,1,dev,1,0,1442
+"('Most mushrooms resemble.',)",,,0,dev,0,1,1443
+"('The gate opens.',)",,,1,dev,1,0,1448
+"('The gate resembled.',)",,,0,dev,0,1,1449
+"(""This driver's fathers forfeit."",)",,,1,dev,1,0,1468
+"(""This driver's fathers like."",)",,,0,dev,0,1,1469
+"(""Craig's nieces kiss."",)",,,1,dev,1,0,1480
+"(""Craig's nieces argue about."",)",,,0,dev,0,1,1481
+"(""A horse hadn't wasted away."",)",,,1,dev,1,0,1506
+"(""A horse hadn't scared."",)",,,0,dev,0,1,1507
+"('All children practice.',)",,,1,dev,1,0,1508
+"('All children fire.',)",,,0,dev,0,1,1509
+"('Elizabeth was falling asleep.',)",,,1,dev,1,0,1538
+"('Elizabeth was returning to.',)",,,0,dev,0,1,1539
+"('Most glaciers do evaporate.',)",,,1,dev,1,0,1556
+"('Most glaciers do look like.',)",,,0,dev,0,1,1557
+"(""Melissa's oncologists move."",)",,,1,dev,1,0,1596
+"(""Melissa's oncologists disagreed with."",)",,,0,dev,0,1,1597
+"(""Florence's ex-girlfriends compete."",)",,,1,dev,1,0,1610
+"(""Florence's ex-girlfriends liked."",)",,,0,dev,0,1,1611
+"('Tracy cheered.',)",,,1,dev,1,0,1614
+"('Tracy drove to.',)",,,0,dev,0,1,1615
+"(""Many unicycles don't crash."",)",,,1,dev,1,0,1624
+"(""Many unicycles don't look like."",)",,,0,dev,0,1,1625
+"('Most socks crumple.',)",,,1,dev,1,0,1632
+"('Most socks scare.',)",,,0,dev,0,1,1633
+"(""Amelia's contractors hunt."",)",,,1,dev,1,0,1646
+"(""Amelia's contractors admire."",)",,,0,dev,0,1,1647
+"('Patricia escapes.',)",,,1,dev,1,0,1662
+"('Patricia liked.',)",,,0,dev,0,1,1663
+"('Most hats are shrinking.',)",,,1,dev,1,0,1694
+"('Most hats are looking like.',)",,,0,dev,0,1,1695
+"(""Some patient's employees negotiate."",)",,,1,dev,1,0,1722
+"(""Some patient's employees care for."",)",,,0,dev,0,1,1723
+"('Those fathers of Brett smile.',)",,,1,dev,1,0,1734
+"('Those fathers of Brett referenced.',)",,,0,dev,0,1,1735
+"(""Ronald wasn't studying."",)",,,1,dev,1,0,1736
+"(""Ronald wasn't listening to."",)",,,0,dev,0,1,1737
+"(""Daniel's associate can stand up."",)",,,1,dev,1,0,1774
+"(""Daniel's associate can conceal."",)",,,0,dev,0,1,1775
+"(""Julie's granddaughters yell."",)",,,1,dev,1,0,1792
+"(""Julie's granddaughters go to."",)",,,0,dev,0,1,1793
+"('Dana lies.',)",,,1,dev,1,0,1818
+"('Dana revealed.',)",,,0,dev,0,1,1819
+"('Every wheelbarrow was shattering.',)",,,1,dev,1,0,1822
+"('Every wheelbarrow was looking like.',)",,,0,dev,0,1,1823
+"('Valerie disappeared.',)",,,1,dev,1,0,1836
+"('Valerie concealed.',)",,,0,dev,0,1,1837
+"('Thomas benefits.',)",,,1,dev,1,0,1838
+"('Thomas concealed.',)",,,0,dev,0,1,1839
+"('Many apples will rot.',)",,,1,dev,1,0,1922
+"('Many apples will resemble.',)",,,0,dev,0,1,1923
+"('Sarah waves.',)",,,1,dev,1,0,1924
+"('Sarah arrives at.',)",,,0,dev,0,1,1925
+"('Nancy played.',)",,,1,dev,1,0,1992
+"('Nancy returned to.',)",,,0,dev,0,1,1993
+"('Harvard University is clashing.',)",,,1,dev,1,0,1998
+"('Harvard University is arguing about.',)",,,0,dev,0,1,1999
+"('This niece of Elizabeth protests.',)",,,1,test,1,0,4
+"('This niece of Elizabeth walks through.',)",,,0,test,0,1,5
+"(""This guest's plumber complains."",)",,,1,test,1,0,8
+"(""This guest's plumber wore."",)",,,0,test,0,1,9
+"('Some glaciers are vaporizing.',)",,,1,test,1,0,12
+"('Some glaciers are scaring.',)",,,0,test,0,1,13
+"(""Guy's French teachers die."",)",,,1,test,1,0,38
+"(""Guy's French teachers arrived at."",)",,,0,test,0,1,39
+"('This shirt crumples.',)",,,1,test,1,0,40
+"('This shirt scares.',)",,,0,test,0,1,41
+"(""Rachelle's partner chuckled."",)",,,1,test,1,0,48
+"(""Rachelle's partner dislikes."",)",,,0,test,0,1,49
+"(""Some sisters of Laurie weren't hunting."",)",,,1,test,1,0,58
+"(""Some sisters of Laurie weren't examining."",)",,,0,test,0,1,59
+"('Bethany murmured.',)",,,1,test,1,0,72
+"('Bethany goes to.',)",,,0,test,0,1,73
+"('Some wheelbarrow shattered.',)",,,1,test,1,0,76
+"('Some wheelbarrow looked like.',)",,,0,test,0,1,77
+"(""The companies haven't competed."",)",,,1,test,1,0,80
+"(""The companies haven't concealed."",)",,,0,test,0,1,81
+"('Kimberley wakes up.',)",,,1,test,1,0,82
+"('Kimberley returned to.',)",,,0,test,0,1,83
+"(""Donna shouldn't die."",)",,,1,test,1,0,90
+"(""Donna shouldn't argue about."",)",,,0,test,0,1,91
+"(""Kendra's granddaughters get fired."",)",,,1,test,1,0,122
+"(""Kendra's granddaughters escape from."",)",,,0,test,0,1,123
+"('The sock crumples.',)",,,1,test,1,0,124
+"('The sock scared.',)",,,0,test,0,1,125
+"(""This shirt wasn't warping."",)",,,1,test,1,0,130
+"(""This shirt wasn't scaring."",)",,,0,test,0,1,131
+"('Some grandmothers of Vincent have blinked.',)",,,1,test,1,0,150
+"('Some grandmothers of Vincent have listened to.',)",,,0,test,0,1,151
+"('Wayne is smiling.',)",,,1,test,1,0,158
+"('Wayne is dropping by.',)",,,0,test,0,1,159
+"('Tracy is sighing.',)",,,1,test,1,0,166
+"('Tracy is complaining about.',)",,,0,test,0,1,167
+"('The guests did meet.',)",,,1,test,1,0,170
+"('The guests did argue about.',)",,,0,test,0,1,171
+"('Some wheelbarrows are slowing.',)",,,1,test,1,0,190
+"('Some wheelbarrows are scaring.',)",,,0,test,0,1,191
+"('This bike is existing.',)",,,1,test,1,0,196
+"('This bike is scaring.',)",,,0,test,0,1,197
+"(""Katherine won't yawn."",)",,,1,test,1,0,218
+"(""Katherine won't drive to."",)",,,0,test,0,1,219
+"('The Impressionists have changed.',)",,,1,test,1,0,220
+"('The Impressionists have dropped by.',)",,,0,test,0,1,221
+"('Aaron talked.',)",,,1,test,1,0,234
+"('Aaron went to.',)",,,0,test,0,1,235
+"(""Those daughters of Pamela wouldn't sit down."",)",,,1,test,1,0,240
+"(""Those daughters of Pamela wouldn't dislike."",)",,,0,test,0,1,241
+"('The plane slowed.',)",,,1,test,1,0,256
+"('The plane looks like.',)",,,0,test,0,1,257
+"('These planes tip over.',)",,,1,test,1,0,264
+"('These planes scare.',)",,,0,test,0,1,265
+"(""Most tomatoes hadn't wasted away."",)",,,1,test,1,0,268
+"(""Most tomatoes hadn't resembled."",)",,,0,test,0,1,269
+"('That spinach burns.',)",,,1,test,1,0,274
+"('That spinach resembles.',)",,,0,test,0,1,275
+"('Many girls worry.',)",,,1,test,1,0,294
+"('Many girls walked through.',)",,,0,test,0,1,295
+"(""This candle won't brighten."",)",,,1,test,1,0,298
+"(""This candle won't look like."",)",,,0,test,0,1,299
+"(""Dawn's oncologists had worried."",)",,,1,test,1,0,336
+"(""Dawn's oncologists had boasted about."",)",,,0,test,0,1,337
+"(""Larry couldn't lie."",)",,,1,test,1,0,354
+"(""Larry couldn't complain about."",)",,,0,test,0,1,355
+"('Most icicles were evaporating.',)",,,1,test,1,0,364
+"('Most icicles were scaring.',)",,,0,test,0,1,365
+"('That box flings open.',)",,,1,test,1,0,366
+"('That box looks like.',)",,,0,test,0,1,367
+"(""Denise's electricians kiss."",)",,,1,test,1,0,384
+"(""Denise's electricians like."",)",,,0,test,0,1,385
+"(""Vincent's ex-girlfriend learns."",)",,,1,test,1,0,388
+"(""Vincent's ex-girlfriend resembles."",)",,,0,test,0,1,389
+"(""Gina's granddaughter isn't getting fired."",)",,,1,test,1,0,394
+"(""Gina's granddaughter isn't complaining about."",)",,,0,test,0,1,395
+"('Michael will bake.',)",,,1,test,1,0,422
+"('Michael will argue about.',)",,,0,test,0,1,423
+"('Aaron has hunted.',)",,,1,test,1,0,428
+"('Aaron has lifted.',)",,,0,test,0,1,429
+"(""The Borgias' daughters fall asleep."",)",,,1,test,1,0,436
+"(""The Borgias' daughters lifted."",)",,,0,test,0,1,437
+"('The universities donated.',)",,,1,test,1,0,440
+"('The universities scared.',)",,,0,test,0,1,441
+"('That lady whispers.',)",,,1,test,1,0,446
+"('That lady cares for.',)",,,0,test,0,1,447
+"('Craig fell asleep.',)",,,1,test,1,0,470
+"('Craig sounded like.',)",,,0,test,0,1,471
+"('Kathleen can nod.',)",,,1,test,1,0,476
+"('Kathleen can fire.',)",,,0,test,0,1,477
+"(""Eric can't write."",)",,,1,test,1,0,490
+"(""Eric can't drop by."",)",,,0,test,0,1,491
+"('Every carriage accelerated.',)",,,1,test,1,0,492
+"('Every carriage resembled.',)",,,0,test,0,1,493
+"(""Irene's teachers salute."",)",,,1,test,1,0,498
+"(""Irene's teachers escape from."",)",,,0,test,0,1,499
+"(""Jackets haven't folded."",)",,,1,test,1,0,510
+"(""Jackets haven't looked like."",)",,,0,test,0,1,511
+"('All socks were shrinking.',)",,,1,test,1,0,512
+"('All socks were looking like.',)",,,0,test,0,1,513
+"(""Heidi isn't waving."",)",,,1,test,1,0,526
+"(""Heidi isn't fleeing from."",)",,,0,test,0,1,527
+"('Dana coughs.',)",,,1,test,1,0,530
+"('Dana looked like.',)",,,0,test,0,1,531
+"(""These cashiers' tutor was blinking."",)",,,1,test,1,0,540
+"(""These cashiers' tutor was referencing."",)",,,0,test,0,1,541
+"('All coats flattened.',)",,,1,test,1,0,560
+"('All coats looked like.',)",,,0,test,0,1,561
+"(""The rivers hadn't evaporated."",)",,,1,test,1,0,564
+"(""The rivers hadn't scared."",)",,,0,test,0,1,565
+"(""Those cakes aren't blackening."",)",,,1,test,1,0,566
+"(""Those cakes aren't scaring."",)",,,0,test,0,1,567
+"(""Brenda can't read."",)",,,1,test,1,0,568
+"(""Brenda can't admire."",)",,,0,test,0,1,569
+"(""Ella's podiatrists paint."",)",,,1,test,1,0,596
+"(""Ella's podiatrists boasted about."",)",,,0,test,0,1,597
+"('Gina copes.',)",,,1,test,1,0,598
+"('Gina resembles.',)",,,0,test,0,1,599
+"(""All sisters of Donna haven't divorced."",)",,,1,test,1,0,602
+"(""All sisters of Donna haven't complained about."",)",,,0,test,0,1,603
+"(""Most shoes aren't drying."",)",,,1,test,1,0,604
+"(""Most shoes aren't scaring."",)",,,0,test,0,1,605
+"(""Angela's girlfriend spoke up."",)",,,1,test,1,0,606
+"(""Angela's girlfriend admires."",)",,,0,test,0,1,607
+"(""Rodney's ex-husbands exercise."",)",,,1,test,1,0,616
+"(""Rodney's ex-husbands resemble."",)",,,0,test,0,1,617
+"('Some box closes.',)",,,1,test,1,0,638
+"('Some box scared.',)",,,0,test,0,1,639
+"('A window flings open.',)",,,1,test,1,0,644
+"('A window resembled.',)",,,0,test,0,1,645
+"('A lot of cucumbers bake.',)",,,1,test,1,0,646
+"('A lot of cucumbers resemble.',)",,,0,test,0,1,647
+"('Roger had washed.',)",,,1,test,1,0,662
+"('Roger had sounded like.',)",,,0,test,0,1,663
+"('A lot of grandmothers of Martin murmur.',)",,,1,test,1,0,664
+"('A lot of grandmothers of Martin care for.',)",,,0,test,0,1,665
+"('Jennifer donates.',)",,,1,test,1,0,674
+"('Jennifer found.',)",,,0,test,0,1,675
+"('Emily might laugh.',)",,,1,test,1,0,684
+"('Emily might dislike.',)",,,0,test,0,1,685
+"(""Those guests' associate scratches."",)",,,1,test,1,0,692
+"(""Those guests' associate arrived at."",)",,,0,test,0,1,693
+"('All closets fling open.',)",,,1,test,1,0,698
+"('All closets resembled.',)",,,0,test,0,1,699
+"('This wheelbarrow could steer.',)",,,1,test,1,0,700
+"('This wheelbarrow could scare.',)",,,0,test,0,1,701
+"('A car dropped.',)",,,1,test,1,0,712
+"('A car scared.',)",,,0,test,0,1,713
+"('Grace might nod.',)",,,1,test,1,0,718
+"('Grace might examine.',)",,,0,test,0,1,719
+"(""Carmen wasn't grinning."",)",,,1,test,1,0,726
+"(""Carmen wasn't firing."",)",,,0,test,0,1,727
+"('Some brothers of a lot of actresses chuckle.',)",,,1,test,1,0,738
+"('Some brothers of a lot of actresses drove to.',)",,,0,test,0,1,739
+"('Dennis ate.',)",,,1,test,1,0,764
+"('Dennis dislikes.',)",,,0,test,0,1,765
+"('That water evaporates.',)",,,1,test,1,0,784
+"('That water looks like.',)",,,0,test,0,1,785
+"(""Ruth's best friend sees."",)",,,1,test,1,0,786
+"(""Ruth's best friend escapes from."",)",,,0,test,0,1,787
+"('Those pants will flatten.',)",,,1,test,1,0,788
+"('Those pants will resemble.',)",,,0,test,0,1,789
+"('Those students murmur.',)",,,1,test,1,0,796
+"('Those students scared.',)",,,0,test,0,1,797
+"('Every convertible maneuvers.',)",,,1,test,1,0,826
+"('Every convertible looked like.',)",,,0,test,0,1,827
+"('A lot of women win.',)",,,1,test,1,0,840
+"('A lot of women return to.',)",,,0,test,0,1,841
+"(""Every boy's doctors wouldn't meet."",)",,,1,test,1,0,844
+"(""Every boy's doctors wouldn't respect."",)",,,0,test,0,1,845
+"(""Tamara's bosses weren't marrying."",)",,,1,test,1,0,848
+"(""Tamara's bosses weren't finding."",)",,,0,test,0,1,849
+"('This sock stretches.',)",,,1,test,1,0,868
+"('This sock resembles.',)",,,0,test,0,1,869
+"('This committee is succeeding.',)",,,1,test,1,0,910
+"('This committee is boasting about.',)",,,0,test,0,1,911
+"(""A person hadn't boasted."",)",,,1,test,1,0,918
+"(""A person hadn't concealed."",)",,,0,test,0,1,919
+"('Eric smiles.',)",,,1,test,1,0,926
+"('Eric looks like.',)",,,0,test,0,1,927
+"('Sandra is cooking.',)",,,1,test,1,0,938
+"('Sandra is concealing.',)",,,0,test,0,1,939
+"('Sheila is writing.',)",,,1,test,1,0,948
+"('Sheila is finding.',)",,,0,test,0,1,949
+"('Socks were soaking.',)",,,1,test,1,0,960
+"('Socks were scaring.',)",,,0,test,0,1,961
+"('A shoe loosens.',)",,,1,test,1,0,988
+"('A shoe resembles.',)",,,0,test,0,1,989
+"(""Jerry's granddaughters escape."",)",,,1,test,1,0,1008
+"(""Jerry's granddaughters disagree with."",)",,,0,test,0,1,1009
+"('Patricia is stretching.',)",,,1,test,1,0,1010
+"('Patricia is working with.',)",,,0,test,0,1,1011
+"('These doctors interact.',)",,,1,test,1,0,1014
+"('These doctors argued about.',)",,,0,test,0,1,1015
+"('A coat would warp.',)",,,1,test,1,0,1022
+"('A coat would resemble.',)",,,0,test,0,1,1023
+"(""Benjamin's nieces aren't divorcing."",)",,,1,test,1,0,1030
+"(""Benjamin's nieces aren't talking to."",)",,,0,test,0,1,1031
+"('That fish exists.',)",,,1,test,1,0,1034
+"('That fish scares.',)",,,0,test,0,1,1035
+"(""Most guests' son is playing."",)",,,1,test,1,0,1036
+"(""Most guests' son is walking through."",)",,,0,test,0,1,1037
+"('Omar came here.',)",,,1,test,1,0,1038
+"('Omar wears.',)",,,0,test,0,1,1039
+"('Craig can telephone.',)",,,1,test,1,0,1040
+"('Craig can care for.',)",,,0,test,0,1,1041
+"(""Renee's teachers have compromised."",)",,,1,test,1,0,1042
+"(""Renee's teachers have walked through."",)",,,0,test,0,1,1043
+"(""Sheila's mentees are studying."",)",,,1,test,1,0,1052
+"(""Sheila's mentees are listening to."",)",,,0,test,0,1,1053
+"(""This lady's sisters donate."",)",,,1,test,1,0,1054
+"(""This lady's sisters flee from."",)",,,0,test,0,1,1055
+"('Monet copes.',)",,,1,test,1,0,1064
+"('Monet sounds like.',)",,,0,test,0,1,1065
+"('All pants shrink.',)",,,1,test,1,0,1066
+"('All pants looked like.',)",,,0,test,0,1,1067
+"('That girl is moving.',)",,,1,test,1,0,1076
+"('That girl is returning to.',)",,,0,test,0,1,1077
+"('Some forks drop.',)",,,1,test,1,0,1096
+"('Some forks scare.',)",,,0,test,0,1,1097
+"('Debra has laughed.',)",,,1,test,1,0,1098
+"('Debra has found.',)",,,0,test,0,1,1099
+"('Mitchell sighed.',)",,,1,test,1,0,1100
+"('Mitchell worked with.',)",,,0,test,0,1,1101
+"('Sharon is eating.',)",,,1,test,1,0,1132
+"('Sharon is firing.',)",,,0,test,0,1,1133
+"(""Maria hasn't waved."",)",,,1,test,1,0,1134
+"(""Maria hasn't scared."",)",,,0,test,0,1,1135
+"('Lawrence was dying.',)",,,1,test,1,0,1138
+"('Lawrence was revealing.',)",,,0,test,0,1,1139
+"(""Curtis's students have testified."",)",,,1,test,1,0,1144
+"(""Curtis's students have referenced."",)",,,0,test,0,1,1145
+"(""Many governments shouldn't surrender."",)",,,1,test,1,0,1162
+"(""Many governments shouldn't work with."",)",,,0,test,0,1,1163
+"(""These trucks weren't maneuvering."",)",,,1,test,1,0,1178
+"(""These trucks weren't looking like."",)",,,0,test,0,1,1179
+"('That unicycle would roll.',)",,,1,test,1,0,1182
+"('That unicycle would scare.',)",,,0,test,0,1,1183
+"('The closet is flinging open.',)",,,1,test,1,0,1210
+"('The closet is looking like.',)",,,0,test,0,1,1211
+"('Many glaciers were evaporating.',)",,,1,test,1,0,1228
+"('Many glaciers were looking like.',)",,,0,test,0,1,1229
+"(""This broccoli wasn't rotting."",)",,,1,test,1,0,1232
+"(""This broccoli wasn't scaring."",)",,,0,test,0,1,1233
+"('Donald works hard.',)",,,1,test,1,0,1236
+"('Donald listened to.',)",,,0,test,0,1,1237
+"(""Pork wasn't baking."",)",,,1,test,1,0,1238
+"(""Pork wasn't looking like."",)",,,0,test,0,1,1239
+"(""Homer hasn't whispered."",)",,,1,test,1,0,1242
+"(""Homer hasn't revealed."",)",,,0,test,0,1,1243
+"('Aaron lies.',)",,,1,test,1,0,1244
+"('Aaron disliked.',)",,,0,test,0,1,1245
+"(""An actor's nieces weren't surrendering."",)",,,1,test,1,0,1270
+"(""An actor's nieces weren't listening to."",)",,,0,test,0,1,1271
+"('These carts slipped.',)",,,1,test,1,0,1288
+"('These carts scared.',)",,,0,test,0,1,1289
+"(""These couches hadn't cracked."",)",,,1,test,1,0,1298
+"(""These couches hadn't looked like."",)",,,0,test,0,1,1299
+"(""Michelle's tutors fight."",)",,,1,test,1,0,1304
+"(""Michelle's tutors fled from."",)",,,0,test,0,1,1305
+"('A glacier condensed.',)",,,1,test,1,0,1306
+"('A glacier looked like.',)",,,0,test,0,1,1307
+"('Wayne littered.',)",,,1,test,1,0,1334
+"('Wayne scared.',)",,,0,test,0,1,1335
+"(""Carolyn's grandfather wouldn't hunt."",)",,,1,test,1,0,1354
+"(""Carolyn's grandfather wouldn't escape from."",)",,,0,test,0,1,1355
+"('Some sons of Wayne could see.',)",,,1,test,1,0,1358
+"('Some sons of Wayne could go to.',)",,,0,test,0,1,1359
+"(""Some ice hasn't condensed."",)",,,1,test,1,0,1360
+"(""Some ice hasn't looked like."",)",,,0,test,0,1,1361
+"(""Edward's best friends haven't replied."",)",,,1,test,1,0,1364
+"(""Edward's best friends haven't scared."",)",,,0,test,0,1,1365
+"('Many brothers of Colleen testified.',)",,,1,test,1,0,1388
+"('Many brothers of Colleen concealed.',)",,,0,test,0,1,1389
+"('Drivers cry.',)",,,1,test,1,0,1392
+"('Drivers wore.',)",,,0,test,0,1,1393
+"('Some plate has dropped.',)",,,1,test,1,0,1394
+"('Some plate has looked like.',)",,,0,test,0,1,1395
+"(""Lori's employee screams."",)",,,1,test,1,0,1396
+"(""Lori's employee cures."",)",,,0,test,0,1,1397
+"('Every couch slips.',)",,,1,test,1,0,1420
+"('Every couch scared.',)",,,0,test,0,1,1421
+"('A cake blackens.',)",,,1,test,1,0,1422
+"('A cake resembles.',)",,,0,test,0,1,1423
+"('All women hide.',)",,,1,test,1,0,1432
+"('All women reveal.',)",,,0,test,0,1,1433
+"('Some screens fell apart.',)",,,1,test,1,0,1438
+"('Some screens scare.',)",,,0,test,0,1,1439
+"('That gate opens.',)",,,1,test,1,0,1446
+"('That gate scares.',)",,,0,test,0,1,1447
+"('All waiters boasted.',)",,,1,test,1,0,1458
+"('All waiters boast about.',)",,,0,test,0,1,1459
+"('These associations are profiting.',)",,,1,test,1,0,1460
+"('These associations are concealing.',)",,,0,test,0,1,1461
+"('That plane turns.',)",,,1,test,1,0,1472
+"('That plane scared.',)",,,0,test,0,1,1473
+"('Many dresses loosen.',)",,,1,test,1,0,1484
+"('Many dresses look like.',)",,,0,test,0,1,1485
+"(""The dancers weren't drinking."",)",,,1,test,1,0,1496
+"(""The dancers weren't concealing."",)",,,0,test,0,1,1497
+"(""Victoria's hairdressers chatted."",)",,,1,test,1,0,1514
+"(""Victoria's hairdressers dislike."",)",,,0,test,0,1,1515
+"(""Andrew's friend disagreed."",)",,,1,test,1,0,1524
+"(""Andrew's friend cared for."",)",,,0,test,0,1,1525
+"('Clyde yawns.',)",,,1,test,1,0,1534
+"('Clyde drove to.',)",,,0,test,0,1,1535
+"(""Kimberley's cousins had struggled."",)",,,1,test,1,0,1554
+"(""Kimberley's cousins had escaped from."",)",,,0,test,0,1,1555
+"('Most nephews of Cheryl are conspiring.',)",,,1,test,1,0,1564
+"('Most nephews of Cheryl are walking through.',)",,,0,test,0,1,1565
+"('Becky paints.',)",,,1,test,1,0,1572
+"('Becky conceals.',)",,,0,test,0,1,1573
+"(""Students' employees were benefiting."",)",,,1,test,1,0,1574
+"(""Students' employees were listening to."",)",,,0,test,0,1,1575
+"('Sara is sitting down.',)",,,1,test,1,0,1580
+"('Sara is fleeing from.',)",,,0,test,0,1,1581
+"('All fathers of Mitchell have fought.',)",,,1,test,1,0,1600
+"('All fathers of Mitchell have escaped from.',)",,,0,test,0,1,1601
+"('Those vases cracked.',)",,,1,test,1,0,1608
+"('Those vases looked like.',)",,,0,test,0,1,1609
+"('Some men will scream.',)",,,1,test,1,0,1622
+"('Some men will care for.',)",,,0,test,0,1,1623
+"('Mark won.',)",,,1,test,1,0,1628
+"('Mark flees from.',)",,,0,test,0,1,1629
+"('The bike was dropping.',)",,,1,test,1,0,1648
+"('The bike was looking like.',)",,,0,test,0,1,1649
+"('That shawl could stretch.',)",,,1,test,1,0,1660
+"('That shawl could resemble.',)",,,0,test,0,1,1661
+"('The projectors fade.',)",,,1,test,1,0,1670
+"('The projectors scared.',)",,,0,test,0,1,1671
+"('Those icicles vaporize.',)",,,1,test,1,0,1678
+"('Those icicles resembled.',)",,,0,test,0,1,1679
+"(""Some couches didn't chip."",)",,,1,test,1,0,1680
+"(""Some couches didn't scare."",)",,,0,test,0,1,1681
+"('The scarves shrank.',)",,,1,test,1,0,1692
+"('The scarves look like.',)",,,0,test,0,1,1693
+"(""Julia's brothers can't come here."",)",,,1,test,1,0,1704
+"(""Julia's brothers can't talk about."",)",,,0,test,0,1,1705
+"('A lot of people should reply.',)",,,1,test,1,0,1710
+"('A lot of people should escape from.',)",,,0,test,0,1,1711
+"('All couches drop.',)",,,1,test,1,0,1728
+"('All couches look like.',)",,,0,test,0,1,1729
+"(""Renee's mothers would chat."",)",,,1,test,1,0,1730
+"(""Renee's mothers would walk through."",)",,,0,test,0,1,1731
+"(""Stephanie's grandson hadn't woken up."",)",,,1,test,1,0,1742
+"(""Stephanie's grandson hadn't biked to."",)",,,0,test,0,1,1743
+"(""Connie's dermatologists are flirting."",)",,,1,test,1,0,1750
+"(""Connie's dermatologists are walking through."",)",,,0,test,0,1,1751
+"('A lot of ladies were telephoning.',)",,,1,test,1,0,1762
+"('A lot of ladies were finding.',)",,,0,test,0,1,1763
+"('Many tomatoes grew.',)",,,1,test,1,0,1764
+"('Many tomatoes resembled.',)",,,0,test,0,1,1765
+"(""Some cart isn't crashing."",)",,,1,test,1,0,1772
+"(""Some cart isn't scaring."",)",,,0,test,0,1,1773
+"(""Most children aren't competing."",)",,,1,test,1,0,1780
+"(""Most children aren't driving to."",)",,,0,test,0,1,1781
+"('This report wins.',)",,,1,test,1,0,1786
+"('This report disagreed with.',)",,,0,test,0,1,1787
+"('A lot of organizations struggled.',)",,,1,test,1,0,1820
+"('A lot of organizations talked about.',)",,,0,test,0,1,1821
+"(""That skirt can't shrink."",)",,,1,test,1,0,1842
+"(""That skirt can't scare."",)",,,0,test,0,1,1843
+"(""Those waitresses' guests screamed."",)",,,1,test,1,0,1848
+"(""Those waitresses' guests examine."",)",,,0,test,0,1,1849
+"(""Some tomatoes aren't going bad."",)",,,1,test,1,0,1854
+"(""Some tomatoes aren't looking like."",)",,,0,test,0,1,1855
+"('This box closed.',)",,,1,test,1,0,1886
+"('This box resembled.',)",,,0,test,0,1,1887
+"(""Donna's piano teachers cough."",)",,,1,test,1,0,1896
+"(""Donna's piano teachers reference."",)",,,0,test,0,1,1897
+"('Some bananas grow.',)",,,1,test,1,0,1900
+"('Some bananas resembled.',)",,,0,test,0,1,1901
+"('Some dancers had yawned.',)",,,1,test,1,0,1910
+"('Some dancers had found.',)",,,0,test,0,1,1911
+"(""Tara's oncologists haven't surrendered."",)",,,1,test,1,0,1914
+"(""Tara's oncologists haven't escaped from."",)",,,0,test,0,1,1915
+"(""Natalie's mothers struggle."",)",,,1,test,1,0,1916
+"(""Natalie's mothers talk about."",)",,,0,test,0,1,1917
+"('Colleen stands up.',)",,,1,test,1,0,1920
+"('Colleen reveals.',)",,,0,test,0,1,1921
+"(""Douglas's dermatologists fought."",)",,,1,test,1,0,1938
+"(""Douglas's dermatologists went to."",)",,,0,test,0,1,1939
+"(""Julie's hairdressers vanish."",)",,,1,test,1,0,1940
+"(""Julie's hairdressers concealed."",)",,,0,test,0,1,1941
+"('Heidi should bake.',)",,,1,test,1,0,1944
+"('Heidi should talk about.',)",,,0,test,0,1,1945
+"('Some doors could shut.',)",,,1,test,1,0,1946
+"('Some doors could resemble.',)",,,0,test,0,1,1947
+"(""Ruth shouldn't weep."",)",,,1,test,1,0,1948
+"(""Ruth shouldn't cure."",)",,,0,test,0,1,1949
+"(""Most grandmothers of Angela can't flirt."",)",,,1,test,1,0,1952
+"(""Most grandmothers of Angela can't bike to."",)",,,0,test,0,1,1953
+"('Lisa is exercising.',)",,,1,test,1,0,1962
+"('Lisa is concealing.',)",,,0,test,0,1,1963
+"(""Lissa hadn't learned."",)",,,1,test,1,0,1976
+"(""Lissa hadn't examined."",)",,,0,test,0,1,1977
+"(""The guest's sons change."",)",,,1,test,1,0,1982
+"(""The guest's sons complained about."",)",,,0,test,0,1,1983
+"(""The Borgias' lawyers date."",)",,,1,test,1,0,1994
+"(""The Borgias' lawyers referenced."",)",,,0,test,0,1,1995

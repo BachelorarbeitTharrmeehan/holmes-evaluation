@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('Travis is touring.',)",,,1,train,1,0,0
+"('Travis is revealing.',)",,,0,train,0,1,1
+"('Noah approached.',)",,,1,train,1,0,2
+"('Noah works with.',)",,,0,train,0,1,3
+"(""The Lutherans couldn't skate around."",)",,,1,train,1,0,4
+"(""The Lutherans couldn't disagree with."",)",,,0,train,0,1,5
+"(""A lot of teenagers haven't left."",)",,,1,train,1,0,6
+"(""A lot of teenagers haven't arrived at."",)",,,0,train,0,1,7
+"('Renee could descend.',)",,,1,train,1,0,10
+"('Renee could flee from.',)",,,0,train,0,1,11
+"(""This student's supervisors descended."",)",,,1,train,1,0,12
+"(""This student's supervisors admired."",)",,,0,train,0,1,13
+"(""Karen's dentists buy."",)",,,1,train,1,0,14
+"(""Karen's dentists found."",)",,,0,train,0,1,15
+"('A lot of mothers of Steve observe.',)",,,1,train,1,0,16
+"('A lot of mothers of Steve talk to.',)",,,0,train,0,1,17
+"(""Tara's doctors have watched."",)",,,1,train,1,0,20
+"(""Tara's doctors have examined."",)",,,0,train,0,1,21
+"(""William wasn't helping."",)",,,1,train,1,0,22
+"(""William wasn't boasting about."",)",,,0,train,0,1,23
+"('Christopher climbed up.',)",,,1,train,1,0,24
+"('Christopher walks through.',)",,,0,train,0,1,25
+"('That guy remembers.',)",,,1,train,1,0,26
+"('That guy looked like.',)",,,0,train,0,1,27
+"('Nancy sold.',)",,,1,train,1,0,28
+"('Nancy argued about.',)",,,0,train,0,1,29
+"('Jodi has run around.',)",,,1,train,1,0,30
+"('Jodi has biked to.',)",,,0,train,0,1,31
+"(""Anne hasn't climbed down."",)",,,1,train,1,0,32
+"(""Anne hasn't found."",)",,,0,train,0,1,33
+"('Kathleen helped.',)",,,1,train,1,0,34
+"('Kathleen resembles.',)",,,0,train,0,1,35
+"('The brothers of April ascend.',)",,,1,train,1,0,38
+"('The brothers of April look like.',)",,,0,train,0,1,39
+"(""Holly's plumbers sold."",)",,,1,train,1,0,42
+"(""Holly's plumbers admired."",)",,,0,train,0,1,43
+"('Some boy watches.',)",,,1,train,1,0,44
+"('Some boy fired.',)",,,0,train,0,1,45
+"('The children see.',)",,,1,train,1,0,48
+"('The children admire.',)",,,0,train,0,1,49
+"('Liam should pass.',)",,,1,train,1,0,50
+"('Liam should go to.',)",,,0,train,0,1,51
+"(""Kendra isn't attacking."",)",,,1,train,1,0,52
+"(""Bill's wife saw."",)",,,1,dev,1,0,18
+"(""Bill's wife returns to."",)",,,0,dev,0,1,19
+"(""Marie isn't climbing down."",)",,,1,dev,1,0,36
+"(""Marie isn't lifting."",)",,,0,dev,0,1,37
+"(""Kathleen wouldn't approach."",)",,,1,dev,1,0,40
+"(""Kathleen wouldn't drop by."",)",,,0,dev,0,1,41
+"('Mark approached.',)",,,1,dev,1,0,70
+"('Mark escaped from.',)",,,0,dev,0,1,71
+"('Edward passes.',)",,,1,dev,1,0,88
+"('Edward arrived at.',)",,,0,dev,0,1,89
+"('Helen was approaching.',)",,,1,dev,1,0,134
+"('Helen was talking to.',)",,,0,dev,0,1,135
+"('Florence will visit.',)",,,1,dev,1,0,196
+"('Florence will escape from.',)",,,0,dev,0,1,197
+"('Nina descended.',)",,,1,dev,1,0,200
+"('Nina resembled.',)",,,0,dev,0,1,201
+"(""Mary won't investigate."",)",,,1,dev,1,0,202
+"(""Mary won't resemble."",)",,,0,dev,0,1,203
+"('This grandmother of Brenda cleaned.',)",,,1,dev,1,0,208
+"('This grandmother of Brenda dislikes.',)",,,0,dev,0,1,209
+"('Randolf approaches.',)",,,1,dev,1,0,216
+"('Randolf scares.',)",,,0,dev,0,1,217
+"(""Cynthia's daughters helped."",)",,,1,dev,1,0,222
+"(""Cynthia's daughters return to."",)",,,0,dev,0,1,223
+"('Karen tours.',)",,,1,dev,1,0,252
+"('Karen drove to.',)",,,0,dev,0,1,253
+"(""Diane hasn't approached."",)",,,1,dev,1,0,266
+"(""Diane hasn't fired."",)",,,0,dev,0,1,267
+"('Elaine had approached.',)",,,1,dev,1,0,276
+"('Elaine had cured.',)",,,0,dev,0,1,277
+"(""Connie's contractor hasn't toured."",)",,,1,dev,1,0,292
+"(""Connie's contractor hasn't fled from."",)",,,0,dev,0,1,293
+"(""Debra couldn't buy."",)",,,1,dev,1,0,294
+"(""Debra couldn't care for."",)",,,0,dev,0,1,295
+"('Suzanne had cleaned.',)",,,1,dev,1,0,310
+"('Suzanne had concealed.',)",,,0,dev,0,1,311
+"('Those hospitals buy.',)",,,1,dev,1,0,322
+"('Those hospitals liked.',)",,,0,dev,0,1,323
+"(""Ronald's employees run around."",)",,,1,dev,1,0,334
+"(""Ronald's employees fire."",)",,,0,dev,0,1,335
+"('Bradley visits.',)",,,1,dev,1,0,370
+"('Bradley examines.',)",,,0,dev,0,1,371
+"('Monet climbs up.',)",,,1,dev,1,0,384
+"('Monet fled from.',)",,,0,dev,0,1,385
+"('Those granddaughters of Timothy do remember.',)",,,1,dev,1,0,406
+"('Those granddaughters of Timothy do scare.',)",,,0,dev,0,1,407
+"('Carrie descended.',)",,,1,dev,1,0,466
+"('Carrie bikes to.',)",,,0,dev,0,1,467
+"(""Sarah's lawyers can't descend."",)",,,1,dev,1,0,508
+"(""Sarah's lawyers can't bike to."",)",,,0,dev,0,1,509
+"('Todd had cleaned.',)",,,1,dev,1,0,530
+"('Todd had argued about.',)",,,0,dev,0,1,531
+"(""Most adults hadn't helped."",)",,,1,dev,1,0,566
+"(""Most adults hadn't talked about."",)",,,0,dev,0,1,567
+"('Wendy did remember.',)",,,1,dev,1,0,592
+"('Wendy did care for.',)",,,0,dev,0,1,593
+"(""Dan's brothers clean."",)",,,1,dev,1,0,600
+"(""Dan's brothers boasted about."",)",,,0,dev,0,1,601
+"(""Diana's partners descend."",)",,,1,dev,1,0,610
+"(""Diana's partners went to."",)",,,0,dev,0,1,611
+"('Larry observes.',)",,,1,dev,1,0,622
+"('Larry scared.',)",,,0,dev,0,1,623
+"(""Eric's French teachers had climbed down."",)",,,1,dev,1,0,688
+"(""Eric's French teachers had examined."",)",,,0,dev,0,1,689
+"(""Becky's best friend ascended."",)",,,1,dev,1,0,728
+"(""Becky's best friend listened to."",)",,,0,dev,0,1,729
+"('Kendra tours.',)",,,1,dev,1,0,738
+"('Kendra reveals.',)",,,0,dev,0,1,739
+"('Homer ascended.',)",,,1,dev,1,0,744
+"('Homer admires.',)",,,0,dev,0,1,745
+"(""Andrew hasn't left."",)",,,1,dev,1,0,754
+"(""Andrew hasn't resembled."",)",,,0,dev,0,1,755
+"('Maria visits.',)",,,1,dev,1,0,756
+"('Maria biked to.',)",,,0,dev,0,1,757
+"('Spain forgot.',)",,,1,dev,1,0,790
+"('Spain talked to.',)",,,0,dev,0,1,791
+"('Adam had watched.',)",,,1,dev,1,0,874
+"('Adam had lifted.',)",,,0,dev,0,1,875
+"('Erin observes.',)",,,1,dev,1,0,876
+"('Erin respects.',)",,,0,dev,0,1,877
+"(""Sabrina wouldn't remember."",)",,,1,dev,1,0,890
+"(""Sabrina wouldn't look like."",)",,,0,dev,0,1,891
+"('Naomi approached.',)",,,1,dev,1,0,912
+"('Naomi resembled.',)",,,0,dev,0,1,913
+"(""Many guys weren't selling."",)",,,1,dev,1,0,944
+"(""Many guys weren't looking like."",)",,,0,dev,0,1,945
+"('Susan sells.',)",,,1,dev,1,0,958
+"('Susan escapes from.',)",,,0,dev,0,1,959
+"(""Every actress shouldn't know."",)",,,1,dev,1,0,966
+"(""Every actress shouldn't lift."",)",,,0,dev,0,1,967
+"('Bill buys.',)",,,1,dev,1,0,986
+"('Bill walks through.',)",,,0,dev,0,1,987
+"('Sally climbed up.',)",,,1,dev,1,0,1070
+"('Sally drove to.',)",,,0,dev,0,1,1071
+"('Sabrina is investigating.',)",,,1,dev,1,0,1082
+"('Sabrina is concealing.',)",,,0,dev,0,1,1083
+"('Charles visited.',)",,,1,dev,1,0,1106
+"('Charles arrived at.',)",,,0,dev,0,1,1107
+"(""Anna's contractor was passing."",)",,,1,dev,1,0,1116
+"(""Anna's contractor was going to."",)",,,0,dev,0,1,1117
+"(""Adam's tutors visit."",)",,,1,dev,1,0,1170
+"(""Adam's tutors listen to."",)",,,0,dev,0,1,1171
+"('Actors approach.',)",,,1,dev,1,0,1204
+"('Actors cared for.',)",,,0,dev,0,1,1205
+"(""Those students' sisters have visited."",)",,,1,dev,1,0,1212
+"(""Those students' sisters have concealed."",)",,,0,dev,0,1,1213
+"('Many schools forget.',)",,,1,dev,1,0,1232
+"('Many schools scared.',)",,,0,dev,0,1,1233
+"('Lucille investigated.',)",,,1,dev,1,0,1284
+"('Lucille goes to.',)",,,0,dev,0,1,1285
+"(""Noah's contractors didn't watch."",)",,,1,dev,1,0,1294
+"(""Noah's contractors didn't cure."",)",,,0,dev,0,1,1295
+"(""Candice's employee has observed."",)",,,1,dev,1,0,1298
+"(""Candice's employee has walked through."",)",,,0,dev,0,1,1299
+"(""Bruce's nephews run around."",)",,,1,dev,1,0,1326
+"(""Bruce's nephews escaped from."",)",,,0,dev,0,1,1327
+"('Some nephews of the girl descended.',)",,,1,dev,1,0,1338
+"('Some nephews of the girl drove to.',)",,,0,dev,0,1,1339
+"(""Some guys weren't ascending."",)",,,1,dev,1,0,1344
+"(""Some guys weren't curing."",)",,,0,dev,0,1,1345
+"(""Becky's podiatrist tours."",)",,,1,dev,1,0,1346
+"(""Becky's podiatrist flees from."",)",,,0,dev,0,1,1347
+"('Travis climbs down.',)",,,1,dev,1,0,1362
+"('Travis goes to.',)",,,0,dev,0,1,1363
+"('Lawrence remembers.',)",,,1,dev,1,0,1370
+"('Lawrence concealed.',)",,,0,dev,0,1,1371
+"('Andrea investigated.',)",,,1,dev,1,0,1384
+"('Andrea dropped by.',)",,,0,dev,0,1,1385
+"(""Winston Churchill's doctor loves."",)",,,1,dev,1,0,1392
+"(""Winston Churchill's doctor escapes from."",)",,,0,dev,0,1,1393
+"(""Deborah's supervisors help."",)",,,1,dev,1,0,1426
+"(""Deborah's supervisors cared for."",)",,,0,dev,0,1,1427
+"(""Andrea's granddaughter hadn't passed."",)",,,1,dev,1,0,1438
+"(""Andrea's granddaughter hadn't talked about."",)",,,0,dev,0,1,1439
+"(""Carolyn's guests have skated around."",)",,,1,dev,1,0,1442
+"(""Carolyn's guests have disagreed with."",)",,,0,dev,0,1,1443
+"('These ladies remembered.',)",,,1,dev,1,0,1446
+"('These ladies arrived at.',)",,,0,dev,0,1,1447
+"(""Those girls weren't observing."",)",,,1,dev,1,0,1448
+"(""Those girls weren't scaring."",)",,,0,dev,0,1,1449
+"('Debra watched.',)",,,1,dev,1,0,1452
+"('Debra revealed.',)",,,0,dev,0,1,1453
+"('Most women love.',)",,,1,dev,1,0,1468
+"('Most women find.',)",,,0,dev,0,1,1469
+"(""Karen isn't approaching."",)",,,1,dev,1,0,1472
+"(""Karen isn't biking to."",)",,,0,dev,0,1,1473
+"('Todd climbs down.',)",,,1,dev,1,0,1494
+"('Todd walked through.',)",,,0,dev,0,1,1495
+"(""Joseph's classmates know."",)",,,1,dev,1,0,1508
+"(""Joseph's classmates resembled."",)",,,0,dev,0,1,1509
+"('Theodore is climbing up.',)",,,1,dev,1,0,1536
+"('Theodore is going to.',)",,,0,dev,0,1,1537
+"('Victoria has left.',)",,,1,dev,1,0,1550
+"('Victoria has gone to.',)",,,0,dev,0,1,1551
+"(""Amy shouldn't clean."",)",,,1,dev,1,0,1570
+"(""Amy shouldn't drop by."",)",,,0,dev,0,1,1571
+"('Kirsten might visit.',)",,,1,dev,1,0,1588
+"('Kirsten might find.',)",,,0,dev,0,1,1589
+"(""James hasn't left."",)",,,1,dev,1,0,1646
+"(""James hasn't disliked."",)",,,0,dev,0,1,1647
+"('Every mother of Melinda ascends.',)",,,1,dev,1,0,1650
+"('Every mother of Melinda likes.',)",,,0,dev,0,1,1651
+"('Alicia is running around.',)",,,1,dev,1,0,1666
+"('Alicia is finding.',)",,,0,dev,0,1,1667
+"(""Kathleen's brothers didn't ascend."",)",,,1,dev,1,0,1684
+"(""Kathleen's brothers didn't complain about."",)",,,0,dev,0,1,1685
+"('Laurie approached.',)",,,1,dev,1,0,1726
+"('Laurie talks about.',)",,,0,dev,0,1,1727
+"('Allison has observed.',)",,,1,dev,1,0,1732
+"('Allison has scared.',)",,,0,dev,0,1,1733
+"('Rachelle sees.',)",,,1,dev,1,0,1734
+"('Rachelle wears.',)",,,0,dev,0,1,1735
+"(""Boys' mentee exited."",)",,,1,dev,1,0,1764
+"(""Boys' mentee talks about."",)",,,0,dev,0,1,1765
+"('The doctors could remember.',)",,,1,dev,1,0,1802
+"('The doctors could care for.',)",,,0,dev,0,1,1803
+"(""Some daughter of Ronald won't sell."",)",,,1,dev,1,0,1814
+"(""Some daughter of Ronald won't admire."",)",,,0,dev,0,1,1815
+"(""Deanna can't pass."",)",,,1,dev,1,0,1846
+"(""Deanna can't look like."",)",,,0,dev,0,1,1847
+"('Helen can climb up.',)",,,1,dev,1,0,1852
+"('Helen can look like.',)",,,0,dev,0,1,1853
+"('A lot of daughters of Erin descend.',)",,,1,dev,1,0,1856
+"('A lot of daughters of Erin arrived at.',)",,,0,dev,0,1,1857
+"('Those customers attacked.',)",,,1,dev,1,0,1878
+"('Those customers respected.',)",,,0,dev,0,1,1879
+"('All waiters clean.',)",,,1,dev,1,0,1908
+"('All waiters listened to.',)",,,0,dev,0,1,1909
+"('Hamsters climb up.',)",,,1,dev,1,0,1940
+"('Hamsters look like.',)",,,0,dev,0,1,1941
+"(""Larry can't skate around."",)",,,1,dev,1,0,1942
+"(""Larry can't bike to."",)",,,0,dev,0,1,1943
+"(""This customer's electrician won't visit."",)",,,1,dev,1,0,1950
+"(""This customer's electrician won't go to."",)",,,0,dev,0,1,1951
+"('Laura explored.',)",,,1,dev,1,0,1982
+"('Laura biked to.',)",,,0,dev,0,1,1983
+"(""Jill's French teacher had observed."",)",,,1,dev,1,0,1988
+"(""Jill's French teacher had looked like."",)",,,0,dev,0,1,1989
+"('All waiters had toured.',)",,,1,dev,1,0,1992
+"('All waiters had resembled.',)",,,0,dev,0,1,1993
+"(""Rhonda's employees hadn't run around."",)",,,1,test,1,0,8
+"(""Rhonda's employees hadn't boasted about."",)",,,0,test,0,1,9
+"(""Diana hadn't watched."",)",,,1,test,1,0,46
+"(""Diana hadn't talked to."",)",,,0,test,0,1,47
+"('Heather ascends.',)",,,1,test,1,0,56
+"('Heather concealed.',)",,,0,test,0,1,57
+"(""Lucille's contractors had ascended."",)",,,1,test,1,0,68
+"(""Lucille's contractors had boasted about."",)",,,0,test,0,1,69
+"('David ascends.',)",,,1,test,1,0,74
+"('David escaped from.',)",,,0,test,0,1,75
+"('Jason has explored.',)",,,1,test,1,0,76
+"('Jason has driven to.',)",,,0,test,0,1,77
+"(""Sabrina's boss sells."",)",,,1,test,1,0,90
+"(""Sabrina's boss escapes from."",)",,,0,test,0,1,91
+"(""The patient's guests wouldn't see."",)",,,1,test,1,0,96
+"(""The patient's guests wouldn't boast about."",)",,,0,test,0,1,97
+"('Jane had explored.',)",,,1,test,1,0,106
+"('Jane had admired.',)",,,0,test,0,1,107
+"(""Tiffany's students sell."",)",,,1,test,1,0,116
+"(""Tiffany's students look like."",)",,,0,test,0,1,117
+"(""Some son of Carol hadn't sold."",)",,,1,test,1,0,124
+"(""Some son of Carol hadn't sounded like."",)",,,0,test,0,1,125
+"(""Denise's grandmothers attack."",)",,,1,test,1,0,148
+"(""Denise's grandmothers work with."",)",,,0,test,0,1,149
+"('A pedestrian is touring.',)",,,1,test,1,0,152
+"('A pedestrian is going to.',)",,,0,test,0,1,153
+"(""Lisa's contractors pass."",)",,,1,test,1,0,166
+"(""Lisa's contractors conceal."",)",,,0,test,0,1,167
+"(""Paul's handymen know."",)",,,1,test,1,0,210
+"(""Paul's handymen flee from."",)",,,0,test,0,1,211
+"('Monet investigated.',)",,,1,test,1,0,218
+"('Monet works with.',)",,,0,test,0,1,219
+"('Beth leaves.',)",,,1,test,1,0,248
+"('Beth references.',)",,,0,test,0,1,249
+"('Victoria has attacked.',)",,,1,test,1,0,250
+"('Victoria has fired.',)",,,0,test,0,1,251
+"('Travis had observed.',)",,,1,test,1,0,262
+"('Travis had worked with.',)",,,0,test,0,1,263
+"(""Gerald's brothers remember."",)",,,1,test,1,0,268
+"(""Gerald's brothers went to."",)",,,0,test,0,1,269
+"(""Bradley hadn't passed."",)",,,1,test,1,0,300
+"(""Bradley hadn't argued about."",)",,,0,test,0,1,301
+"(""Rachel's girlfriend ascends."",)",,,1,test,1,0,308
+"(""Rachel's girlfriend dropped by."",)",,,0,test,0,1,309
+"('Rose buys.',)",,,1,test,1,0,312
+"('Rose resembles.',)",,,0,test,0,1,313
+"('Kevin investigates.',)",,,1,test,1,0,332
+"('Kevin boasts about.',)",,,0,test,0,1,333
+"(""Wayne's ex-wife bought."",)",,,1,test,1,0,336
+"(""Wayne's ex-wife disagreed with."",)",,,0,test,0,1,337
+"('Jennifer ran around.',)",,,1,test,1,0,338
+"('Jennifer goes to.',)",,,0,test,0,1,339
+"('This child observes.',)",,,1,test,1,0,350
+"('This child disagrees with.',)",,,0,test,0,1,351
+"('Stacey attacked.',)",,,1,test,1,0,356
+"('Stacey wears.',)",,,0,test,0,1,357
+"(""Kristen's piano teachers had climbed up."",)",,,1,test,1,0,358
+"(""Kristen's piano teachers had revealed."",)",,,0,test,0,1,359
+"('Margaret exits.',)",,,1,test,1,0,360
+"('Margaret dislikes.',)",,,0,test,0,1,361
+"('Connie climbs up.',)",,,1,test,1,0,366
+"('Connie talked to.',)",,,0,test,0,1,367
+"(""Catherine wasn't watching."",)",,,1,test,1,0,368
+"(""Catherine wasn't admiring."",)",,,0,test,0,1,369
+"('Sandra cleans.',)",,,1,test,1,0,372
+"('Sandra liked.',)",,,0,test,0,1,373
+"(""Lissa hadn't skated around."",)",,,1,test,1,0,380
+"(""Lissa hadn't complained about."",)",,,0,test,0,1,381
+"('Every actor is exiting.',)",,,1,test,1,0,382
+"('Every actor is lifting.',)",,,0,test,0,1,383
+"(""Suzanne's mentees were investigating."",)",,,1,test,1,0,386
+"(""Suzanne's mentees were driving to."",)",,,0,test,0,1,387
+"('A cashier skated around.',)",,,1,test,1,0,388
+"('A cashier worked with.',)",,,0,test,0,1,389
+"('Every teenager skates around.',)",,,1,test,1,0,408
+"('Every teenager looked like.',)",,,0,test,0,1,409
+"('Mary would investigate.',)",,,1,test,1,0,410
+"('Mary would complain about.',)",,,0,test,0,1,411
+"(""Alice's classmates ascended."",)",,,1,test,1,0,412
+"(""Alice's classmates went to."",)",,,0,test,0,1,413
+"(""Andrew's plumber wasn't watching."",)",,,1,test,1,0,418
+"(""Andrew's plumber wasn't firing."",)",,,0,test,0,1,419
+"('Lucille loved.',)",,,1,test,1,0,420
+"('Lucille dislikes.',)",,,0,test,0,1,421
+"('Valerie cleaned.',)",,,1,test,1,0,428
+"('Valerie drops by.',)",,,0,test,0,1,429
+"(""Julia's podiatrists forget."",)",,,1,test,1,0,432
+"(""Julia's podiatrists respect."",)",,,0,test,0,1,433
+"('Some actors help.',)",,,1,test,1,0,440
+"('Some actors reference.',)",,,0,test,0,1,441
+"('Gregory was running around.',)",,,1,test,1,0,474
+"('Gregory was boasting about.',)",,,0,test,0,1,475
+"(""Guy's doctors investigate."",)",,,1,test,1,0,486
+"(""Guy's doctors complain about."",)",,,0,test,0,1,487
+"('Catherine had explored.',)",,,1,test,1,0,488
+"('Catherine had examined.',)",,,0,test,0,1,489
+"(""Marla's cousin did love."",)",,,1,test,1,0,500
+"(""Marla's cousin did wear."",)",,,0,test,0,1,501
+"('Patrick approaches.',)",,,1,test,1,0,532
+"('Patrick cures.',)",,,0,test,0,1,533
+"(""Carol's supervisors have observed."",)",,,1,test,1,0,544
+"(""Carol's supervisors have concealed."",)",,,0,test,0,1,545
+"(""Charles's hairdresser is investigating."",)",,,1,test,1,0,564
+"(""Charles's hairdresser is biking to."",)",,,0,test,0,1,565
+"('Those people remember.',)",,,1,test,1,0,568
+"('Those people complained about.',)",,,0,test,0,1,569
+"('The Impressionists love.',)",,,1,test,1,0,580
+"('The Impressionists care for.',)",,,0,test,0,1,581
+"('The cashier had seen.',)",,,1,test,1,0,588
+"('The cashier had examined.',)",,,0,test,0,1,589
+"('Tina climbed up.',)",,,1,test,1,0,596
+"('Tina fired.',)",,,0,test,0,1,597
+"('Heather might investigate.',)",,,1,test,1,0,602
+"('Heather might argue about.',)",,,0,test,0,1,603
+"('Rachel climbs down.',)",,,1,test,1,0,626
+"('Rachel resembled.',)",,,0,test,0,1,627
+"('Craig remembers.',)",,,1,test,1,0,642
+"('Craig found.',)",,,0,test,0,1,643
+"('The schools forget.',)",,,1,test,1,0,644
+"('The schools conceal.',)",,,0,test,0,1,645
+"('A lot of waitresses climb down.',)",,,1,test,1,0,648
+"('A lot of waitresses talked about.',)",,,0,test,0,1,649
+"(""Tara's ex-girlfriends do visit."",)",,,1,test,1,0,662
+"(""Tara's ex-girlfriends do lift."",)",,,0,test,0,1,663
+"(""Tammy's piano teachers forget."",)",,,1,test,1,0,668
+"(""Tammy's piano teachers conceal."",)",,,0,test,0,1,669
+"('Marla ascended.',)",,,1,test,1,0,670
+"('Marla drove to.',)",,,0,test,0,1,671
+"('Rachelle approached.',)",,,1,test,1,0,676
+"('Rachelle resembles.',)",,,0,test,0,1,677
+"(""Bill hadn't watched."",)",,,1,test,1,0,678
+"(""Bill hadn't worked with."",)",,,0,test,0,1,679
+"(""Pamela's podiatrists were visiting."",)",,,1,test,1,0,690
+"(""Pamela's podiatrists were examining."",)",,,0,test,0,1,691
+"('Caroline attacks.',)",,,1,test,1,0,694
+"('Caroline listened to.',)",,,0,test,0,1,695
+"('Bruce passed.',)",,,1,test,1,0,700
+"('Bruce concealed.',)",,,0,test,0,1,701
+"('A woman toured.',)",,,1,test,1,0,706
+"('A woman resembles.',)",,,0,test,0,1,707
+"('Catherine skated around.',)",,,1,test,1,0,714
+"('Catherine listened to.',)",,,0,test,0,1,715
+"('Emily would pass.',)",,,1,test,1,0,732
+"('Emily would argue about.',)",,,0,test,0,1,733
+"(""Cynthia doesn't climb down."",)",,,1,test,1,0,740
+"(""Cynthia doesn't reference."",)",,,0,test,0,1,741
+"(""Tammy's grandsons observe."",)",,,1,test,1,0,768
+"(""Tammy's grandsons concealed."",)",,,0,test,0,1,769
+"(""Nicole's grandmothers were ascending."",)",,,1,test,1,0,782
+"(""Nicole's grandmothers were looking like."",)",,,0,test,0,1,783
+"(""Guy's oncologists had attacked."",)",,,1,test,1,0,824
+"(""Guy's oncologists had dropped by."",)",,,0,test,0,1,825
+"('A lot of women did observe.',)",,,1,test,1,0,826
+"('A lot of women did talk about.',)",,,0,test,0,1,827
+"('Some friends of those guys buy.',)",,,1,test,1,0,834
+"('Some friends of those guys complained about.',)",,,0,test,0,1,835
+"('These boys skate around.',)",,,1,test,1,0,854
+"('These boys argued about.',)",,,0,test,0,1,855
+"('The committee bought.',)",,,1,test,1,0,860
+"('The committee boasted about.',)",,,0,test,0,1,861
+"('Scott passes.',)",,,1,test,1,0,870
+"('Scott sounded like.',)",,,0,test,0,1,871
+"(""Stephen wasn't watching."",)",,,1,test,1,0,880
+"(""Stephen wasn't finding."",)",,,0,test,0,1,881
+"(""Linda's mentee loves."",)",,,1,test,1,0,882
+"(""Linda's mentee complained about."",)",,,0,test,0,1,883
+"(""Nancy's boss could exit."",)",,,1,test,1,0,886
+"(""Nancy's boss could complain about."",)",,,0,test,0,1,887
+"('Holly attacks.',)",,,1,test,1,0,898
+"('Holly lifts.',)",,,0,test,0,1,899
+"(""Many teenagers' sister doesn't skate around."",)",,,1,test,1,0,910
+"(""Many teenagers' sister doesn't cure."",)",,,0,test,0,1,911
+"('Most friends of Ann bought.',)",,,1,test,1,0,946
+"('Most friends of Ann talked about.',)",,,0,test,0,1,947
+"('Some actress has observed.',)",,,1,test,1,0,954
+"('Some actress has concealed.',)",,,0,test,0,1,955
+"('Every teacher investigates.',)",,,1,test,1,0,984
+"('Every teacher wears.',)",,,0,test,0,1,985
+"('Karla ran around.',)",,,1,test,1,0,1002
+"('Karla worked with.',)",,,0,test,0,1,1003
+"('Elaine sells.',)",,,1,test,1,0,1010
+"('Elaine cured.',)",,,0,test,0,1,1011
+"('Sara is helping.',)",,,1,test,1,0,1020
+"('Sara is going to.',)",,,0,test,0,1,1021
+"('Kathleen has visited.',)",,,1,test,1,0,1024
+"('Kathleen has worn.',)",,,0,test,0,1,1025
+"(""Florence's daughter could love."",)",,,1,test,1,0,1050
+"(""Florence's daughter could lift."",)",,,0,test,0,1,1051
+"(""Some driver can't clean."",)",,,1,test,1,0,1056
+"(""Some driver can't walk through."",)",,,0,test,0,1,1057
+"(""Christopher's mentors exit."",)",,,1,test,1,0,1058
+"(""Christopher's mentors worked with."",)",,,0,test,0,1,1059
+"(""Vanessa's cousins leave."",)",,,1,test,1,0,1062
+"(""Vanessa's cousins complained about."",)",,,0,test,0,1,1063
+"(""The Borgias hadn't sold."",)",,,1,test,1,0,1068
+"(""The Borgias hadn't arrived at."",)",,,0,test,0,1,1069
+"('Bruce does approach.',)",,,1,test,1,0,1078
+"('Bruce does reveal.',)",,,0,test,0,1,1079
+"(""Clyde's French teacher isn't investigating."",)",,,1,test,1,0,1080
+"(""Clyde's French teacher isn't arriving at."",)",,,0,test,0,1,1081
+"('Many senators should explore.',)",,,1,test,1,0,1128
+"('Many senators should examine.',)",,,0,test,0,1,1129
+"('Those fathers of Maria skate around.',)",,,1,test,1,0,1132
+"('Those fathers of Maria cured.',)",,,0,test,0,1,1133
+"('Heidi sees.',)",,,1,test,1,0,1144
+"('Heidi complains about.',)",,,0,test,0,1,1145
+"(""Some guy wasn't passing."",)",,,1,test,1,0,1148
+"(""Some guy wasn't admiring."",)",,,0,test,0,1,1149
+"('Jerry sells.',)",,,1,test,1,0,1156
+"('Jerry disagrees with.',)",,,0,test,0,1,1157
+"(""Bethany's grandfathers climb up."",)",,,1,test,1,0,1166
+"(""Bethany's grandfathers admired."",)",,,0,test,0,1,1167
+"('Todd had run around.',)",,,1,test,1,0,1172
+"('Todd had resembled.',)",,,0,test,0,1,1173
+"('Frank was passing.',)",,,1,test,1,0,1180
+"('Frank was boasting about.',)",,,0,test,0,1,1181
+"(""Every grandmother of Ruth wasn't visiting."",)",,,1,test,1,0,1190
+"(""Every grandmother of Ruth wasn't escaping from."",)",,,0,test,0,1,1191
+"(""Jodi's brothers watch."",)",,,1,test,1,0,1198
+"(""Jodi's brothers sounded like."",)",,,0,test,0,1,1199
+"('Wayne sees.',)",,,1,test,1,0,1220
+"('Wayne respected.',)",,,0,test,0,1,1221
+"('These ladies descend.',)",,,1,test,1,0,1222
+"('These ladies fired.',)",,,0,test,0,1,1223
+"(""Most teenagers haven't climbed down."",)",,,1,test,1,0,1228
+"(""Most teenagers haven't disliked."",)",,,0,test,0,1,1229
+"('Robert might climb down.',)",,,1,test,1,0,1238
+"('Robert might conceal.',)",,,0,test,0,1,1239
+"('Julia climbed up.',)",,,1,test,1,0,1240
+"('Julia cared for.',)",,,0,test,0,1,1241
+"(""Mark's nieces tour."",)",,,1,test,1,0,1242
+"(""Mark's nieces admire."",)",,,0,test,0,1,1243
+"('Guys have helped.',)",,,1,test,1,0,1246
+"('Guys have disagreed with.',)",,,0,test,0,1,1247
+"(""That doctor wasn't cleaning."",)",,,1,test,1,0,1248
+"(""That doctor wasn't dropping by."",)",,,0,test,0,1,1249
+"('This friend of Derek knows.',)",,,1,test,1,0,1272
+"('This friend of Derek went to.',)",,,0,test,0,1,1273
+"('Robert visited.',)",,,1,test,1,0,1280
+"('Robert revealed.',)",,,0,test,0,1,1281
+"('Those women love.',)",,,1,test,1,0,1286
+"('Those women care for.',)",,,0,test,0,1,1287
+"('Some cousin of Janice could run around.',)",,,1,test,1,0,1300
+"('Some cousin of Janice could listen to.',)",,,0,test,0,1,1301
+"(""Most waiters hadn't seen."",)",,,1,test,1,0,1306
+"(""Most waiters hadn't fired."",)",,,0,test,0,1,1307
+"('Erin investigates.',)",,,1,test,1,0,1320
+"('Erin complained about.',)",,,0,test,0,1,1321
+"('Ella exits.',)",,,1,test,1,0,1322
+"('Ella concealed.',)",,,0,test,0,1,1323
+"('Sonia will observe.',)",,,1,test,1,0,1334
+"('Sonia will resemble.',)",,,0,test,0,1,1335
+"('Tammy passed.',)",,,1,test,1,0,1336
+"('Tammy respected.',)",,,0,test,0,1,1337
+"('Christine passed.',)",,,1,test,1,0,1348
+"('Christine resembled.',)",,,0,test,0,1,1349
+"(""A boy's dermatologist buys."",)",,,1,test,1,0,1354
+"(""A boy's dermatologist returned to."",)",,,0,test,0,1,1355
+"('Grandsons of Samuel clean.',)",,,1,test,1,0,1378
+"('Grandsons of Samuel fire.',)",,,0,test,0,1,1379
+"(""Omar hasn't helped."",)",,,1,test,1,0,1388
+"(""Omar hasn't fired."",)",,,0,test,0,1,1389
+"('These guys bought.',)",,,1,test,1,0,1394
+"('These guys concealed.',)",,,0,test,0,1,1395
+"(""Every teenager isn't descending."",)",,,1,test,1,0,1396
+"(""Every teenager isn't dropping by."",)",,,0,test,0,1,1397
+"(""Tiffany's mentor hadn't helped."",)",,,1,test,1,0,1398
+"(""Tiffany's mentor hadn't looked like."",)",,,0,test,0,1,1399
+"(""Those brothers of Robert haven't ascended."",)",,,1,test,1,0,1404
+"(""Those brothers of Robert haven't complained about."",)",,,0,test,0,1,1405
+"('Roger knows.',)",,,1,test,1,0,1406
+"('Roger looked like.',)",,,0,test,0,1,1407
+"(""Brenda's electricians see."",)",,,1,test,1,0,1410
+"(""Brenda's electricians dislike."",)",,,0,test,0,1,1411
+"(""Ellen wasn't investigating."",)",,,1,test,1,0,1428
+"(""Ellen wasn't complaining about."",)",,,0,test,0,1,1429
+"('Judy will watch.',)",,,1,test,1,0,1456
+"('Judy will reveal.',)",,,0,test,0,1,1457
+"('Most men explore.',)",,,1,test,1,0,1458
+"('Most men escaped from.',)",,,0,test,0,1,1459
+"(""Nicole's sons do buy."",)",,,1,test,1,0,1460
+"(""Nicole's sons do arrive at."",)",,,0,test,0,1,1461
+"('Douglas approached.',)",,,1,test,1,0,1466
+"('Douglas boasts about.',)",,,0,test,0,1,1467
+"('Paul had sold.',)",,,1,test,1,0,1476
+"('Paul had fired.',)",,,0,test,0,1,1477
+"(""Melanie's cousin had known."",)",,,1,test,1,0,1480
+"(""Melanie's cousin had gone to."",)",,,0,test,0,1,1481
+"(""Grandmothers of Christopher aren't visiting."",)",,,1,test,1,0,1482
+"(""Grandmothers of Christopher aren't concealing."",)",,,0,test,0,1,1483
+"(""Bruce's podiatrists weren't descending."",)",,,1,test,1,0,1484
+"(""Bruce's podiatrists weren't scaring."",)",,,0,test,0,1,1485
+"('This adult is approaching.',)",,,1,test,1,0,1486
+"('This adult is driving to.',)",,,0,test,0,1,1487
+"('These nephews of Amanda had exited.',)",,,1,test,1,0,1510
+"('These nephews of Amanda had complained about.',)",,,0,test,0,1,1511
+"('That waiter skated around.',)",,,1,test,1,0,1514
+"('That waiter dropped by.',)",,,0,test,0,1,1515
+"('Jason toured.',)",,,1,test,1,0,1516
+"('Jason concealed.',)",,,0,test,0,1,1517
+"('The Borgias have exited.',)",,,1,test,1,0,1520
+"('The Borgias have fired.',)",,,0,test,0,1,1521
+"('Natalie forgot.',)",,,1,test,1,0,1524
+"('Natalie concealed.',)",,,0,test,0,1,1525
+"(""Carol hasn't exited."",)",,,1,test,1,0,1526
+"(""Carol hasn't disliked."",)",,,0,test,0,1,1527
+"(""Kristin's partners climb down."",)",,,1,test,1,0,1530
+"(""Kristin's partners drive to."",)",,,0,test,0,1,1531
+"(""Carolyn's mentee can investigate."",)",,,1,test,1,0,1552
+"(""Carolyn's mentee can argue about."",)",,,0,test,0,1,1553
+"(""Kristin's son cleans."",)",,,1,test,1,0,1566
+"(""Kristin's son respected."",)",,,0,test,0,1,1567
+"(""Jesus's colleague did investigate."",)",,,1,test,1,0,1582
+"(""Jesus's colleague did go to."",)",,,0,test,0,1,1583
+"('Linda climbed down.',)",,,1,test,1,0,1584
+"('Linda finds.',)",,,0,test,0,1,1585
+"(""Dawn's dermatologists can explore."",)",,,1,test,1,0,1586
+"(""Dawn's dermatologists can lift."",)",,,0,test,0,1,1587
+"('All teachers are exploring.',)",,,1,test,1,0,1600
+"('All teachers are complaining about.',)",,,0,test,0,1,1601
+"(""Julie's colleagues leave."",)",,,1,test,1,0,1614
+"(""Julie's colleagues complained about."",)",,,0,test,0,1,1615
+"(""Janice's piano teacher explores."",)",,,1,test,1,0,1618
+"(""Janice's piano teacher scared."",)",,,0,test,0,1,1619
+"(""Some woman isn't selling."",)",,,1,test,1,0,1620
+"(""Some woman isn't wearing."",)",,,0,test,0,1,1621
+"(""A customer hasn't forgotten."",)",,,1,test,1,0,1624
+"(""A customer hasn't gone to."",)",,,0,test,0,1,1625
+"(""That patient's supervisors remember."",)",,,1,test,1,0,1628
+"(""That patient's supervisors cured."",)",,,0,test,0,1,1629
+"(""Becca's partners clean."",)",,,1,test,1,0,1630
+"(""Becca's partners find."",)",,,0,test,0,1,1631
+"('John descended.',)",,,1,test,1,0,1648
+"('John listened to.',)",,,0,test,0,1,1649
+"(""Lawrence's contractor remembers."",)",,,1,test,1,0,1678
+"(""Lawrence's contractor drives to."",)",,,0,test,0,1,1679
+"(""Janice couldn't know."",)",,,1,test,1,0,1680
+"(""Janice couldn't go to."",)",,,0,test,0,1,1681
+"('Valerie did forget.',)",,,1,test,1,0,1702
+"('Valerie did talk about.',)",,,0,test,0,1,1703
+"('Alexander would help.',)",,,1,test,1,0,1706
+"('Alexander would admire.',)",,,0,test,0,1,1707
+"('Keith sold.',)",,,1,test,1,0,1714
+"('Keith dislikes.',)",,,0,test,0,1,1715
+"(""Sheila's teacher climbed up."",)",,,1,test,1,0,1716
+"(""Sheila's teacher returned to."",)",,,0,test,0,1,1717
+"(""Michael's dermatologists left."",)",,,1,test,1,0,1718
+"(""Michael's dermatologists admired."",)",,,0,test,0,1,1719
+"('Gary is approaching.',)",,,1,test,1,0,1730
+"('Gary is concealing.',)",,,0,test,0,1,1731
+"('These schools help.',)",,,1,test,1,0,1736
+"('These schools looked like.',)",,,0,test,0,1,1737
+"('A guest is cleaning.',)",,,1,test,1,0,1774
+"('A guest is concealing.',)",,,0,test,0,1,1775
+"('The mothers of Kristin exit.',)",,,1,test,1,0,1780
+"('The mothers of Kristin care for.',)",,,0,test,0,1,1781
+"('Some nephew of Christine does leave.',)",,,1,test,1,0,1782
+"('Some nephew of Christine does reference.',)",,,0,test,0,1,1783
+"('Tamara tours.',)",,,1,test,1,0,1788
+"('Tamara returned to.',)",,,0,test,0,1,1789
+"('Most daughters of Todd attack.',)",,,1,test,1,0,1794
+"('Most daughters of Todd wore.',)",,,0,test,0,1,1795
+"('Denise skates around.',)",,,1,test,1,0,1798
+"('Denise finds.',)",,,0,test,0,1,1799
+"(""Melissa isn't exploring."",)",,,1,test,1,0,1812
+"(""Melissa isn't firing."",)",,,0,test,0,1,1813
+"('This grandfather of this cashier forgets.',)",,,1,test,1,0,1818
+"('This grandfather of this cashier biked to.',)",,,0,test,0,1,1819
+"('A lot of doctors visit.',)",,,1,test,1,0,1824
+"('A lot of doctors cared for.',)",,,0,test,0,1,1825
+"('Mary ran around.',)",,,1,test,1,0,1830
+"('Mary complained about.',)",,,0,test,0,1,1831
+"('Benjamin had explored.',)",,,1,test,1,0,1834
+"('Benjamin had concealed.',)",,,0,test,0,1,1835
+"(""Michael's ex-girlfriends watch."",)",,,1,test,1,0,1838
+"(""Michael's ex-girlfriends look like."",)",,,0,test,0,1,1839
+"('Maria ascends.',)",,,1,test,1,0,1840
+"('Maria conceals.',)",,,0,test,0,1,1841
+"('Every boy observes.',)",,,1,test,1,0,1882
+"('Every boy worked with.',)",,,0,test,0,1,1883
+"(""Bruce's senator didn't climb up."",)",,,1,test,1,0,1904
+"(""Bruce's senator didn't reference."",)",,,0,test,0,1,1905
+"('Tonya buys.',)",,,1,test,1,0,1918
+"('Tonya talked about.',)",,,0,test,0,1,1919
+"(""Many nieces of Rebecca weren't buying."",)",,,1,test,1,0,1922
+"(""Many nieces of Rebecca weren't biking to."",)",,,0,test,0,1,1923
+"(""Paula isn't observing."",)",,,1,test,1,0,1932
+"(""Paula isn't scaring."",)",,,0,test,0,1,1933
+"(""James's hairdresser investigates."",)",,,1,test,1,0,1936
+"(""James's hairdresser cares for."",)",,,0,test,0,1,1937
+"('Kevin cleans.',)",,,1,test,1,0,1952
+"('Kevin escaped from.',)",,,0,test,0,1,1953
+"('A lot of actresses could forget.',)",,,1,test,1,0,1954
+"('A lot of actresses could boast about.',)",,,0,test,0,1,1955
+"(""Ronald's piano teacher hadn't known."",)",,,1,test,1,0,1980
+"(""Ronald's piano teacher hadn't driven to."",)",,,0,test,0,1,1981
+"('Omar sells.',)",,,1,test,1,0,1994
+"('Omar conceals.',)",,,0,test,0,1,1995
+"('Theodore was running around.',)",,,1,test,1,0,1998
+"('Theodore was firing.',)",,,0,test,0,1,1999

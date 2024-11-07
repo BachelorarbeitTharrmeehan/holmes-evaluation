@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('Donald can imagine those college campuses are boring themselves.',)",,,1,train,1,0,0
+"('Donald can imagine those college campuses are boring himself.',)",,,0,train,0,1,1
+"('Gerald was explaining Patricia was revealing herself.',)",,,1,train,1,0,2
+"('Gerald was explaining Patricia was revealing himself.',)",,,0,train,0,1,3
+"('Mark imagines Erin might admire herself.',)",,,1,train,1,0,4
+"('Mark imagines Erin might admire himself.',)",,,0,train,0,1,5
+"(""A lot of doctors hadn't imagined Denise notices herself."",)",,,1,train,1,0,8
+"(""A lot of doctors hadn't imagined Denise notices themselves."",)",,,0,train,0,1,9
+"(""Valerie doesn't think Russell sounds like himself."",)",,,1,train,1,0,14
+"(""Valerie doesn't think Russell sounds like herself."",)",,,0,train,0,1,15
+"(""Craig hasn't thought Jessica praised herself."",)",,,1,train,1,0,16
+"(""Craig hasn't thought Jessica praised himself."",)",,,0,train,0,1,17
+"(""Holly would say some slope didn't irritate itself."",)",,,1,train,1,0,18
+"(""Holly would say some slope didn't irritate herself."",)",,,0,train,0,1,19
+"(""Sally wouldn't explain Rodney confused himself."",)",,,1,train,1,0,20
+"(""Sally wouldn't explain Rodney confused herself."",)",,,0,train,0,1,21
+"(""The dancer said Jeffrey doesn't find himself."",)",,,1,train,1,0,22
+"(""The dancer said Jeffrey doesn't find herself."",)",,,0,train,0,1,23
+"('Beverly had said Homer was concealing himself.',)",,,1,train,1,0,24
+"('Beverly had said Homer was concealing herself.',)",,,0,train,0,1,25
+"(""Those waitresses say Curtis hadn't alarmed himself."",)",,,1,train,1,0,28
+"(""Those waitresses say Curtis hadn't alarmed themselves."",)",,,0,train,0,1,29
+"('Guy does explain Judy argued about herself.',)",,,1,train,1,0,30
+"('Guy does explain Judy argued about himself.',)",,,0,train,0,1,31
+"('James says Kayla helped herself.',)",,,1,train,1,0,32
+"('James says Kayla helped himself.',)",,,0,train,0,1,33
+"(""Joel can't explain some girl can't visit herself."",)",,,1,train,1,0,34
+"(""Joel can't explain some girl can't visit himself."",)",,,0,train,0,1,35
+"(""Victoria thinks Harvard University isn't firing itself."",)",,,1,train,1,0,36
+"(""Victoria thinks Harvard University isn't firing herself."",)",,,0,train,0,1,37
+"('Alice has said Craig did upset himself.',)",,,1,train,1,0,38
+"('Alice has said Craig did upset herself.',)",,,0,train,0,1,39
+"('Allison has imagined Christopher had concealed himself.',)",,,1,train,1,0,40
+"('Allison has imagined Christopher had concealed herself.',)",,,0,train,0,1,41
+"('Jerry said the rabbit had annoyed itself.',)",,,1,train,1,0,42
+"('Jerry said the rabbit had annoyed himself.',)",,,0,train,0,1,43
+"(""Rodney is saying Renee hadn't fled from herself."",)",,,1,train,1,0,44
+"(""Rodney is saying Renee hadn't fled from himself."",)",,,0,train,0,1,45
+"(""Many patients aren't saying Roger kisses himself."",)",,,1,train,1,0,46
+"(""Many patients aren't saying Roger kisses themselves."",)",,,0,train,0,1,47
+"('Rachel explains Matt thinks about himself.',)",,,1,train,1,0,48
+"('Rachel explains Matt thinks about herself.',)",,,0,train,0,1,49
+"(""The children weren't imagining Anna knows herself."",)",,,1,train,1,0,50
+"('Gary imagined most reports upset themselves.',)",,,1,dev,1,0,6
+"('Gary imagined most reports upset himself.',)",,,0,dev,0,1,7
+"('The Borgias explain Scott had talked to himself.',)",,,1,dev,1,0,12
+"('The Borgias explain Scott had talked to themselves.',)",,,0,dev,0,1,13
+"(""The Clintons say Christine wouldn't care for herself."",)",,,1,dev,1,0,132
+"(""The Clintons say Christine wouldn't care for themselves."",)",,,0,dev,0,1,133
+"(""Stephanie hasn't said James reveals himself."",)",,,1,dev,1,0,220
+"(""Stephanie hasn't said James reveals herself."",)",,,0,dev,0,1,221
+"(""Leslie explained Edward shouldn't praise himself."",)",,,1,dev,1,0,222
+"(""Leslie explained Edward shouldn't praise herself."",)",,,0,dev,0,1,223
+"(""Bill should explain the customers couldn't care for themselves."",)",,,1,dev,1,0,232
+"(""Bill should explain the customers couldn't care for himself."",)",,,0,dev,0,1,233
+"(""Some cashiers say Randolf won't help himself."",)",,,1,dev,1,0,242
+"(""Some cashiers say Randolf won't help themselves."",)",,,0,dev,0,1,243
+"(""Wendy won't say Douglas finds himself."",)",,,1,dev,1,0,248
+"(""Wendy won't say Douglas finds herself."",)",,,0,dev,0,1,249
+"(""Joel isn't imagining Regina should think about herself."",)",,,1,dev,1,0,258
+"(""Joel isn't imagining Regina should think about himself."",)",,,0,dev,0,1,259
+"('Guys think every mushroom had irritated itself.',)",,,1,dev,1,0,270
+"('Guys think every mushroom had irritated themselves.',)",,,0,dev,0,1,271
+"(""Laurie will say bananas haven't annoyed themselves."",)",,,1,dev,1,0,272
+"(""Laurie will say bananas haven't annoyed herself."",)",,,0,dev,0,1,273
+"('Candice had said a lot of adults have approached themselves.',)",,,1,dev,1,0,286
+"('Candice had said a lot of adults have approached herself.',)",,,0,dev,0,1,287
+"('All actors say Kirsten has disliked herself.',)",,,1,dev,1,0,288
+"('All actors say Kirsten has disliked themselves.',)",,,0,dev,0,1,289
+"(""James wasn't imagining Sharon hasn't respected herself."",)",,,1,dev,1,0,314
+"(""James wasn't imagining Sharon hasn't respected himself."",)",,,0,dev,0,1,315
+"('Sandra is thinking this guy was concealing himself.',)",,,1,dev,1,0,336
+"('Sandra is thinking this guy was concealing herself.',)",,,0,dev,0,1,337
+"('Roger is explaining Gina could think about herself.',)",,,1,dev,1,0,346
+"('Roger is explaining Gina could think about himself.',)",,,0,dev,0,1,347
+"('Sandra is thinking Matt notices himself.',)",,,1,dev,1,0,352
+"('Sandra is thinking Matt notices herself.',)",,,0,dev,0,1,353
+"(""Gerald was thinking photographs aren't hurting themselves."",)",,,1,dev,1,0,362
+"(""Gerald was thinking photographs aren't hurting himself."",)",,,0,dev,0,1,363
+"('Keith imagines the Lutherans have fired themselves.',)",,,1,dev,1,0,410
+"('Keith imagines the Lutherans have fired himself.',)",,,0,dev,0,1,411
+"(""Some teenagers aren't saying Judy conceals herself."",)",,,1,dev,1,0,452
+"(""Some teenagers aren't saying Judy conceals themselves."",)",,,0,dev,0,1,453
+"('Daniel might imagine Heather concealed herself.',)",,,1,dev,1,0,546
+"('Daniel might imagine Heather concealed himself.',)",,,0,dev,0,1,547
+"('The man explained Elizabeth kisses herself.',)",,,1,dev,1,0,556
+"('The man explained Elizabeth kisses himself.',)",,,0,dev,0,1,557
+"('Marla explains teachers are confusing themselves.',)",,,1,dev,1,0,570
+"('Marla explains teachers are confusing herself.',)",,,0,dev,0,1,571
+"('Elaine said Travis cared for himself.',)",,,1,dev,1,0,580
+"('Elaine said Travis cared for herself.',)",,,0,dev,0,1,581
+"(""Sally was saying Bradley hadn't seen himself."",)",,,1,dev,1,0,648
+"(""Sally was saying Bradley hadn't seen herself."",)",,,0,dev,0,1,649
+"('Kirsten thinks Stephen has sounded like himself.',)",,,1,dev,1,0,650
+"('Kirsten thinks Stephen has sounded like herself.',)",,,0,dev,0,1,651
+"('This man should think Samantha hugs herself.',)",,,1,dev,1,0,662
+"('This man should think Samantha hugs himself.',)",,,0,dev,0,1,663
+"(""The Borgias think Andrea hasn't revealed herself."",)",,,1,dev,1,0,680
+"(""The Borgias think Andrea hasn't revealed themselves."",)",,,0,dev,0,1,681
+"('Larry explained Helen talks about herself.',)",,,1,dev,1,0,704
+"('Larry explained Helen talks about himself.',)",,,0,dev,0,1,705
+"(""The girl has imagined those waiters weren't disagreeing with themselves."",)",,,1,dev,1,0,706
+"(""The girl has imagined those waiters weren't disagreeing with herself."",)",,,0,dev,0,1,707
+"('That woman is explaining Thomas healed himself.',)",,,1,dev,1,0,720
+"('That woman is explaining Thomas healed herself.',)",,,0,dev,0,1,721
+"('Connie thought the Clintons worked with themselves.',)",,,1,dev,1,0,744
+"('Connie thought the Clintons worked with herself.',)",,,0,dev,0,1,745
+"('Theodore might imagine many trucks had irritated themselves.',)",,,1,dev,1,0,766
+"('Theodore might imagine many trucks had irritated himself.',)",,,0,dev,0,1,767
+"(""Jason isn't thinking Tanya should remember herself."",)",,,1,dev,1,0,772
+"(""Jason isn't thinking Tanya should remember himself."",)",,,0,dev,0,1,773
+"('Sandra thought that pepper bored itself.',)",,,1,dev,1,0,790
+"('Sandra thought that pepper bored herself.',)",,,0,dev,0,1,791
+"('Elizabeth had imagined a lot of patients disgusted themselves.',)",,,1,dev,1,0,830
+"('Elizabeth had imagined a lot of patients disgusted herself.',)",,,0,dev,0,1,831
+"(""Alan isn't imagining Spain boasts about itself."",)",,,1,dev,1,0,836
+"(""Alan isn't imagining Spain boasts about himself."",)",,,0,dev,0,1,837
+"('Sharon says these cars had shocked themselves.',)",,,1,dev,1,0,886
+"('Sharon says these cars had shocked herself.',)",,,0,dev,0,1,887
+"('Patrick thinks Becky had forgotten herself.',)",,,1,dev,1,0,888
+"('Patrick thinks Becky had forgotten himself.',)",,,0,dev,0,1,889
+"('Frank explains those waitresses observed themselves.',)",,,1,dev,1,0,900
+"('Frank explains those waitresses observed himself.',)",,,0,dev,0,1,901
+"('Adults explain Bruce had kissed himself.',)",,,1,dev,1,0,914
+"('Adults explain Bruce had kissed themselves.',)",,,0,dev,0,1,915
+"('Rachelle was thinking that company forgot itself.',)",,,1,dev,1,0,930
+"('Rachelle was thinking that company forgot herself.',)",,,0,dev,0,1,931
+"('The Impressionists say Chad sounds like himself.',)",,,1,dev,1,0,946
+"('The Impressionists say Chad sounds like themselves.',)",,,0,dev,0,1,947
+"(""Alice wasn't imagining Patrick had hidden himself."",)",,,1,dev,1,0,982
+"(""Alice wasn't imagining Patrick had hidden herself."",)",,,0,dev,0,1,983
+"(""Most waiters haven't explained Mark should stun himself."",)",,,1,dev,1,0,1026
+"(""Most waiters haven't explained Mark should stun themselves."",)",,,0,dev,0,1,1027
+"('Danielle imagined some beef can stun itself.',)",,,1,dev,1,0,1038
+"('Danielle imagined some beef can stun herself.',)",,,0,dev,0,1,1039
+"(""Richard says Katherine wasn't boring herself."",)",,,1,dev,1,0,1052
+"(""Richard says Katherine wasn't boring himself."",)",,,0,dev,0,1,1053
+"('These guests imagine Carlos was stunning himself.',)",,,1,dev,1,0,1058
+"('These guests imagine Carlos was stunning themselves.',)",,,0,dev,0,1,1059
+"('Those cashiers imagine a man has forgotten himself.',)",,,1,dev,1,0,1074
+"('Those cashiers imagine a man has forgotten themselves.',)",,,0,dev,0,1,1075
+"('Those students imagine a print disgusted itself.',)",,,1,dev,1,0,1130
+"('Those students imagine a print disgusted themselves.',)",,,0,dev,0,1,1131
+"(""Andrew was thinking those adults shouldn't criticize themselves."",)",,,1,dev,1,0,1136
+"(""Andrew was thinking those adults shouldn't criticize himself."",)",,,0,dev,0,1,1137
+"('Catherine had explained Carl fires himself.',)",,,1,dev,1,0,1158
+"('Catherine had explained Carl fires herself.',)",,,0,dev,0,1,1159
+"('Marie says the Impressionists had healed themselves.',)",,,1,dev,1,0,1164
+"('Marie says the Impressionists had healed herself.',)",,,0,dev,0,1,1165
+"('Brenda will imagine Thomas has fled from himself.',)",,,1,dev,1,0,1198
+"('Brenda will imagine Thomas has fled from herself.',)",,,0,dev,0,1,1199
+"(""Mark hasn't said Christine is thinking about herself."",)",,,1,dev,1,0,1208
+"(""Mark hasn't said Christine is thinking about himself."",)",,,0,dev,0,1,1209
+"('Those pedestrians explain James has discovered himself.',)",,,1,dev,1,0,1240
+"('Those pedestrians explain James has discovered themselves.',)",,,0,dev,0,1,1241
+"('Sandra should think those hospitals will talk to themselves.',)",,,1,dev,1,0,1260
+"('Sandra should think those hospitals will talk to herself.',)",,,0,dev,0,1,1261
+"(""Heidi thinks Larry wouldn't escape from himself."",)",,,1,dev,1,0,1266
+"(""Heidi thinks Larry wouldn't escape from herself."",)",,,0,dev,0,1,1267
+"('Most boys imagine Connie argued about herself.',)",,,1,dev,1,0,1272
+"('Most boys imagine Connie argued about themselves.',)",,,0,dev,0,1,1273
+"(""Edward says Denise wouldn't conceal herself."",)",,,1,dev,1,0,1308
+"(""Edward says Denise wouldn't conceal himself."",)",,,0,dev,0,1,1309
+"(""Veronica had said Charles hasn't concealed himself."",)",,,1,dev,1,0,1312
+"(""Veronica had said Charles hasn't concealed herself."",)",,,0,dev,0,1,1313
+"('The Clintons say every dancer kisses herself.',)",,,1,dev,1,0,1332
+"('The Clintons say every dancer kisses themselves.',)",,,0,dev,0,1,1333
+"(""Valerie thinks these eyes hadn't shocked themselves."",)",,,1,dev,1,0,1342
+"(""Valerie thinks these eyes hadn't shocked herself."",)",,,0,dev,0,1,1343
+"('Mark could say these teachers are firing themselves.',)",,,1,dev,1,0,1344
+"('Mark could say these teachers are firing himself.',)",,,0,dev,0,1,1345
+"('Anne was imagining the public park hurt itself.',)",,,1,dev,1,0,1358
+"('Anne was imagining the public park hurt herself.',)",,,0,dev,0,1,1359
+"(""Grace hadn't said a projector does worry itself."",)",,,1,dev,1,0,1386
+"(""Grace hadn't said a projector does worry herself."",)",,,0,dev,0,1,1387
+"('Dawn thinks that bicycle might bother itself.',)",,,1,dev,1,0,1400
+"('Dawn thinks that bicycle might bother herself.',)",,,0,dev,0,1,1401
+"(""Walter can't imagine Elizabeth appreciated herself."",)",,,1,dev,1,0,1426
+"(""Walter can't imagine Elizabeth appreciated himself."",)",,,0,dev,0,1,1427
+"('Some customers say Martin has disliked himself.',)",,,1,dev,1,0,1468
+"('Some customers say Martin has disliked themselves.',)",,,0,dev,0,1,1469
+"(""Rachel thinks some guests wouldn't return to themselves."",)",,,1,dev,1,0,1478
+"(""Rachel thinks some guests wouldn't return to herself."",)",,,0,dev,0,1,1479
+"(""Some adults explain Anne shouldn't reveal herself."",)",,,1,dev,1,0,1486
+"(""Some adults explain Anne shouldn't reveal themselves."",)",,,0,dev,0,1,1487
+"('Randolf had imagined Alicia cared for herself.',)",,,1,dev,1,0,1488
+"('Randolf had imagined Alicia cared for himself.',)",,,0,dev,0,1,1489
+"('David had explained this girl was noticing herself.',)",,,1,dev,1,0,1528
+"('David had explained this girl was noticing himself.',)",,,0,dev,0,1,1529
+"('Many customers think Holly did work with herself.',)",,,1,dev,1,0,1534
+"('Many customers think Holly did work with themselves.',)",,,0,dev,0,1,1535
+"('Some cashiers think a dancer had found herself.',)",,,1,dev,1,0,1586
+"('Some cashiers think a dancer had found themselves.',)",,,0,dev,0,1,1587
+"('All senators are explaining some dancer had discussed herself.',)",,,1,dev,1,0,1596
+"('All senators are explaining some dancer had discussed themselves.',)",,,0,dev,0,1,1597
+"('Waitresses imagine Julia was astounding herself.',)",,,1,dev,1,0,1608
+"('Waitresses imagine Julia was astounding themselves.',)",,,0,dev,0,1,1609
+"(""Michelle hadn't explained Aaron won't notice himself."",)",,,1,dev,1,0,1620
+"(""Michelle hadn't explained Aaron won't notice herself."",)",,,0,dev,0,1,1621
+"(""Many students should think Brett hasn't left himself."",)",,,1,dev,1,0,1672
+"(""Many students should think Brett hasn't left themselves."",)",,,0,dev,0,1,1673
+"('Bethany explained Stephen cures himself.',)",,,1,dev,1,0,1698
+"('Bethany explained Stephen cures herself.',)",,,0,dev,0,1,1699
+"(""Richard isn't saying Holly was stunning herself."",)",,,1,dev,1,0,1730
+"(""Richard isn't saying Holly was stunning himself."",)",,,0,dev,0,1,1731
+"(""Timothy wouldn't imagine Carol criticizes herself."",)",,,1,dev,1,0,1746
+"(""Timothy wouldn't imagine Carol criticizes himself."",)",,,0,dev,0,1,1747
+"(""Theresa has thought Curtis hadn't talked to himself."",)",,,1,dev,1,0,1760
+"(""Theresa has thought Curtis hadn't talked to herself."",)",,,0,dev,0,1,1761
+"('Kristen imagines the ladies should listen to themselves.',)",,,1,dev,1,0,1782
+"('Kristen imagines the ladies should listen to herself.',)",,,0,dev,0,1,1783
+"('Valerie is imagining Mitchell insulted himself.',)",,,1,dev,1,0,1794
+"('Valerie is imagining Mitchell insulted herself.',)",,,0,dev,0,1,1795
+"('Judy thought Martin criticizes himself.',)",,,1,dev,1,0,1800
+"('Judy thought Martin criticizes herself.',)",,,0,dev,0,1,1801
+"(""Susan can think most socks weren't shocking themselves."",)",,,1,dev,1,0,1824
+"(""Susan can think most socks weren't shocking herself."",)",,,0,dev,0,1,1825
+"('Anna is saying the association has astounded itself.',)",,,1,dev,1,0,1840
+"('Anna is saying the association has astounded herself.',)",,,0,dev,0,1,1841
+"('Lisa is thinking that carriage irritated itself.',)",,,1,dev,1,0,1860
+"('Lisa is thinking that carriage irritated herself.',)",,,0,dev,0,1,1861
+"('William thinks Tanya boycotts herself.',)",,,1,dev,1,0,1872
+"('William thinks Tanya boycotts himself.',)",,,0,dev,0,1,1873
+"(""William wasn't explaining those spotlights haven't irritated themselves."",)",,,1,dev,1,0,1876
+"(""William wasn't explaining those spotlights haven't irritated himself."",)",,,0,dev,0,1,1877
+"(""Allison hadn't imagined Dennis doesn't leave himself."",)",,,1,dev,1,0,1888
+"(""Allison hadn't imagined Dennis doesn't leave herself."",)",,,0,dev,0,1,1889
+"(""Tara had explained the guy isn't revealing himself."",)",,,1,dev,1,0,1930
+"(""Tara had explained the guy isn't revealing herself."",)",,,0,dev,0,1,1931
+"('Elizabeth will think the Clintons have discussed themselves.',)",,,1,dev,1,0,1932
+"('Elizabeth will think the Clintons have discussed herself.',)",,,0,dev,0,1,1933
+"(""The Clintons hadn't explained Gregory isn't finding himself."",)",,,1,dev,1,0,1952
+"(""The Clintons hadn't explained Gregory isn't finding themselves."",)",,,0,dev,0,1,1953
+"(""Jodi imagines the Impressionists haven't visited themselves."",)",,,1,dev,1,0,1954
+"(""Jodi imagines the Impressionists haven't visited herself."",)",,,0,dev,0,1,1955
+"('The Impressionists think Homer is hiding himself.',)",,,1,dev,1,0,1974
+"('The Impressionists think Homer is hiding themselves.',)",,,0,dev,0,1,1975
+"('Grace can explain most libraries discussed themselves.',)",,,1,dev,1,0,1982
+"('Grace can explain most libraries discussed herself.',)",,,0,dev,0,1,1983
+"('Jennifer is saying Carl revealed himself.',)",,,1,dev,1,0,1996
+"('Jennifer is saying Carl revealed herself.',)",,,0,dev,0,1,1997
+"(""Alicia hasn't said Benjamin isn't curing himself."",)",,,1,dev,1,0,1998
+"(""Alicia hasn't said Benjamin isn't curing herself."",)",,,0,dev,0,1,1999
+"(""Edward didn't think some teachers weren't discussing themselves."",)",,,1,test,1,0,10
+"(""Edward didn't think some teachers weren't discussing himself."",)",,,0,test,0,1,11
+"('The Impressionists think that window distracted itself.',)",,,1,test,1,0,26
+"('The Impressionists think that window distracted themselves.',)",,,0,test,0,1,27
+"(""Every actress imagines Raymond shouldn't care for himself."",)",,,1,test,1,0,60
+"(""Every actress imagines Raymond shouldn't care for herself."",)",,,0,test,0,1,61
+"('Erin says Scott is kissing himself.',)",,,1,test,1,0,72
+"('Erin says Scott is kissing herself.',)",,,0,test,0,1,73
+"('Rebecca thought Rodney will praise himself.',)",,,1,test,1,0,74
+"('Rebecca thought Rodney will praise herself.',)",,,0,test,0,1,75
+"(""Some dancers explain Sonia didn't distract herself."",)",,,1,test,1,0,78
+"(""Some dancers explain Sonia didn't distract themselves."",)",,,0,test,0,1,79
+"('John has said April loved herself.',)",,,1,test,1,0,82
+"('John has said April loved himself.',)",,,0,test,0,1,83
+"('Meredith was explaining Steven returns to himself.',)",,,1,test,1,0,94
+"('Meredith was explaining Steven returns to herself.',)",,,0,test,0,1,95
+"('Some men say Alexander praises himself.',)",,,1,test,1,0,100
+"('Some men say Alexander praises themselves.',)",,,0,test,0,1,101
+"(""Raymond is saying Becky isn't talking about herself."",)",,,1,test,1,0,108
+"(""Raymond is saying Becky isn't talking about himself."",)",,,0,test,0,1,109
+"(""Becky wasn't saying Robert cares for himself."",)",,,1,test,1,0,116
+"(""Becky wasn't saying Robert cares for herself."",)",,,0,test,0,1,117
+"(""Paul doesn't explain Renee wasn't revealing herself."",)",,,1,test,1,0,136
+"(""Paul doesn't explain Renee wasn't revealing himself."",)",,,0,test,0,1,137
+"(""The woman wasn't explaining Curtis concealed himself."",)",,,1,test,1,0,140
+"(""The woman wasn't explaining Curtis concealed herself."",)",,,0,test,0,1,141
+"(""Janice hadn't thought Jeffrey was concealing himself."",)",,,1,test,1,0,142
+"(""Janice hadn't thought Jeffrey was concealing herself."",)",,,0,test,0,1,143
+"('Those senators think Patricia talked to herself.',)",,,1,test,1,0,164
+"('Those senators think Patricia talked to themselves.',)",,,0,test,0,1,165
+"(""John is thinking Melissa hasn't impressed herself."",)",,,1,test,1,0,172
+"(""John is thinking Melissa hasn't impressed himself."",)",,,0,test,0,1,173
+"(""Anna is imagining Roger hasn't argued about himself."",)",,,1,test,1,0,188
+"(""Anna is imagining Roger hasn't argued about herself."",)",,,0,test,0,1,189
+"('Wayne had imagined adults could escape from themselves.',)",,,1,test,1,0,192
+"('Wayne had imagined adults could escape from himself.',)",,,0,test,0,1,193
+"('Julie imagined some banks might admire themselves.',)",,,1,test,1,0,198
+"('Julie imagined some banks might admire herself.',)",,,0,test,0,1,199
+"(""Sonia hadn't imagined Carlos revealed himself."",)",,,1,test,1,0,200
+"(""Sonia hadn't imagined Carlos revealed herself."",)",,,0,test,0,1,201
+"(""Deborah couldn't imagine Liam criticized himself."",)",,,1,test,1,0,204
+"(""Deborah couldn't imagine Liam criticized herself."",)",,,0,test,0,1,205
+"(""Wendy hasn't imagined some customers had criticized themselves."",)",,,1,test,1,0,228
+"(""Wendy hasn't imagined some customers had criticized herself."",)",,,0,test,0,1,229
+"('Alexander explains some cilantro should bother itself.',)",,,1,test,1,0,234
+"('Alexander explains some cilantro should bother himself.',)",,,0,test,0,1,235
+"(""April hadn't imagined Peter wasn't hugging himself."",)",,,1,test,1,0,236
+"(""April hadn't imagined Peter wasn't hugging herself."",)",,,0,test,0,1,237
+"('Diana thought Steve could discuss himself.',)",,,1,test,1,0,276
+"('Diana thought Steve could discuss herself.',)",,,0,test,0,1,277
+"('Chad says Florence flees from herself.',)",,,1,test,1,0,278
+"('Chad says Florence flees from himself.',)",,,0,test,0,1,279
+"('Raymond thinks Carrie did boast about herself.',)",,,1,test,1,0,282
+"('Raymond thinks Carrie did boast about himself.',)",,,0,test,0,1,283
+"(""Alexander hadn't thought Dawn hadn't talked about herself."",)",,,1,test,1,0,316
+"(""Alexander hadn't thought Dawn hadn't talked about himself."",)",,,0,test,0,1,317
+"(""Rebecca wasn't imagining the school won't admire itself."",)",,,1,test,1,0,338
+"(""Rebecca wasn't imagining the school won't admire herself."",)",,,0,test,0,1,339
+"(""Holly had imagined the museum can't talk to itself."",)",,,1,test,1,0,348
+"(""Holly had imagined the museum can't talk to herself."",)",,,0,test,0,1,349
+"('Kirsten explains these cafes hurt themselves.',)",,,1,test,1,0,356
+"('Kirsten explains these cafes hurt herself.',)",,,0,test,0,1,357
+"('Barbara thought Travis was visiting himself.',)",,,1,test,1,0,366
+"('Barbara thought Travis was visiting herself.',)",,,0,test,0,1,367
+"('Heather is explaining Liam hires himself.',)",,,1,test,1,0,374
+"('Heather is explaining Liam hires herself.',)",,,0,test,0,1,375
+"('Dennis would say Brenda insults herself.',)",,,1,test,1,0,378
+"('Dennis would say Brenda insults himself.',)",,,0,test,0,1,379
+"(""The teenagers hadn't explained Steve isn't visiting himself."",)",,,1,test,1,0,404
+"(""The teenagers hadn't explained Steve isn't visiting themselves."",)",,,0,test,0,1,405
+"('A lot of waiters explain Victoria forgets herself.',)",,,1,test,1,0,418
+"('A lot of waiters explain Victoria forgets themselves.',)",,,0,test,0,1,419
+"(""Wendy isn't saying the guests hadn't described themselves."",)",,,1,test,1,0,426
+"(""Wendy isn't saying the guests hadn't described herself."",)",,,0,test,0,1,427
+"(""Many guys say Alicia isn't noticing herself."",)",,,1,test,1,0,436
+"(""Many guys say Alicia isn't noticing themselves."",)",,,0,test,0,1,437
+"('Kenneth was thinking Teresa should insult herself.',)",,,1,test,1,0,438
+"('Kenneth was thinking Teresa should insult himself.',)",,,0,test,0,1,439
+"(""These girls imagine Carl won't research himself."",)",,,1,test,1,0,440
+"(""These girls imagine Carl won't research themselves."",)",,,0,test,0,1,441
+"(""James imagines banks haven't described themselves."",)",,,1,test,1,0,448
+"(""James imagines banks haven't described himself."",)",,,0,test,0,1,449
+"(""Most ladies say Nicole won't admire herself."",)",,,1,test,1,0,454
+"(""Most ladies say Nicole won't admire themselves."",)",,,0,test,0,1,455
+"('Debra had said Kenneth criticized himself.',)",,,1,test,1,0,472
+"('Debra had said Kenneth criticized herself.',)",,,0,test,0,1,473
+"(""The waiters didn't explain Sabrina talked about herself."",)",,,1,test,1,0,484
+"(""The waiters didn't explain Sabrina talked about themselves."",)",,,0,test,0,1,485
+"('Melanie explains Carlos heals himself.',)",,,1,test,1,0,486
+"('Melanie explains Carlos heals herself.',)",,,0,test,0,1,487
+"('Homer explains Regina kissed herself.',)",,,1,test,1,0,492
+"('Homer explains Regina kissed himself.',)",,,0,test,0,1,493
+"('The Clintons imagine Aaron has revealed himself.',)",,,1,test,1,0,494
+"('The Clintons imagine Aaron has revealed themselves.',)",,,0,test,0,1,495
+"('Sarah thinks an eye scares itself.',)",,,1,test,1,0,502
+"('Sarah thinks an eye scares herself.',)",,,0,test,0,1,503
+"(""Liam was explaining these companies haven't forgotten themselves."",)",,,1,test,1,0,516
+"(""Liam was explaining these companies haven't forgotten himself."",)",,,0,test,0,1,517
+"('Erin is explaining Craig should scare himself.',)",,,1,test,1,0,528
+"('Erin is explaining Craig should scare herself.',)",,,0,test,0,1,529
+"('Kimberley thought Rodney researched himself.',)",,,1,test,1,0,532
+"('Kimberley thought Rodney researched herself.',)",,,0,test,0,1,533
+"('Curtis imagined Brenda talked about herself.',)",,,1,test,1,0,540
+"('Curtis imagined Brenda talked about himself.',)",,,0,test,0,1,541
+"('Stephanie would think this legislature could hire itself.',)",,,1,test,1,0,542
+"('Stephanie would think this legislature could hire herself.',)",,,0,test,0,1,543
+"('John explained Samantha concealed herself.',)",,,1,test,1,0,578
+"('John explained Samantha concealed himself.',)",,,0,test,0,1,579
+"('Irene imagined many adults listened to themselves.',)",,,1,test,1,0,598
+"('Irene imagined many adults listened to herself.',)",,,0,test,0,1,599
+"(""This actress thought those cashiers hadn't talked to themselves."",)",,,1,test,1,0,600
+"(""This actress thought those cashiers hadn't talked to herself."",)",,,0,test,0,1,601
+"(""Mark hasn't thought Ellen had cured herself."",)",,,1,test,1,0,610
+"(""Mark hasn't thought Ellen had cured himself."",)",,,0,test,0,1,611
+"(""Amelia didn't say Mitchell knows himself."",)",,,1,test,1,0,614
+"(""Amelia didn't say Mitchell knows herself."",)",,,0,test,0,1,615
+"(""Roger isn't explaining Nina hadn't worked with herself."",)",,,1,test,1,0,618
+"(""Roger isn't explaining Nina hadn't worked with himself."",)",,,0,test,0,1,619
+"(""Jennifer shouldn't explain the customers discussed themselves."",)",,,1,test,1,0,622
+"(""Jennifer shouldn't explain the customers discussed herself."",)",,,0,test,0,1,623
+"('Sandra explains Craig is thinking about himself.',)",,,1,test,1,0,626
+"('Sandra explains Craig is thinking about herself.',)",,,0,test,0,1,627
+"('Brian is imagining Becca watches herself.',)",,,1,test,1,0,644
+"('Brian is imagining Becca watches himself.',)",,,0,test,0,1,645
+"(""Eva isn't imagining Gary discovered himself."",)",,,1,test,1,0,652
+"(""Eva isn't imagining Gary discovered herself."",)",,,0,test,0,1,653
+"(""Many cashiers say Sally hasn't investigated herself."",)",,,1,test,1,0,658
+"(""Many cashiers say Sally hasn't investigated themselves."",)",,,0,test,0,1,659
+"('Benjamin said Stacy was listening to herself.',)",,,1,test,1,0,672
+"('Benjamin said Stacy was listening to himself.',)",,,0,test,0,1,673
+"(""Rebecca doesn't think every hospital fired itself."",)",,,1,test,1,0,676
+"(""Rebecca doesn't think every hospital fired herself."",)",,,0,test,0,1,677
+"(""Benjamin wasn't thinking Andrea has cared for herself."",)",,,1,test,1,0,690
+"(""Benjamin wasn't thinking Andrea has cared for himself."",)",,,0,test,0,1,691
+"(""The lady didn't imagine Matt could cure himself."",)",,,1,test,1,0,696
+"(""The lady didn't imagine Matt could cure herself."",)",,,0,test,0,1,697
+"('Aaron should imagine those girls should leave themselves.',)",,,1,test,1,0,698
+"('Aaron should imagine those girls should leave himself.',)",,,0,test,0,1,699
+"('Karla had thought some senators might reveal themselves.',)",,,1,test,1,0,708
+"('Karla had thought some senators might reveal herself.',)",,,0,test,0,1,709
+"(""Craig won't think every lady returns to herself."",)",,,1,test,1,0,722
+"(""Craig won't think every lady returns to himself."",)",,,0,test,0,1,723
+"(""All girls aren't explaining Jodi has fired herself."",)",,,1,test,1,0,748
+"(""All girls aren't explaining Jodi has fired themselves."",)",,,0,test,0,1,749
+"(""Linda wasn't thinking Scott researched himself."",)",,,1,test,1,0,754
+"(""Linda wasn't thinking Scott researched herself."",)",,,0,test,0,1,755
+"(""Tammy wasn't saying Dennis isn't boasting about himself."",)",,,1,test,1,0,770
+"(""Tammy wasn't saying Dennis isn't boasting about herself."",)",,,0,test,0,1,771
+"(""The lady thinks this broccoli hadn't disgusted itself."",)",,,1,test,1,0,774
+"(""The lady thinks this broccoli hadn't disgusted herself."",)",,,0,test,0,1,775
+"(""Noah might say all teachers hadn't sounded like themselves."",)",,,1,test,1,0,776
+"(""Noah might say all teachers hadn't sounded like himself."",)",,,0,test,0,1,777
+"('Carolyn was imagining that report annoyed itself.',)",,,1,test,1,0,778
+"('Carolyn was imagining that report annoyed herself.',)",,,0,test,0,1,779
+"(""Jodi did explain the museums can't disgust themselves."",)",,,1,test,1,0,788
+"(""Jodi did explain the museums can't disgust herself."",)",,,0,test,0,1,789
+"('A lot of dancers say Theodore has hated himself.',)",,,1,test,1,0,798
+"('A lot of dancers say Theodore has hated themselves.',)",,,0,test,0,1,799
+"(""Candice wouldn't say Curtis escapes from himself."",)",,,1,test,1,0,804
+"(""Candice wouldn't say Curtis escapes from herself."",)",,,0,test,0,1,805
+"('Patricia explains the Impressionists have concealed themselves.',)",,,1,test,1,0,820
+"('Patricia explains the Impressionists have concealed herself.',)",,,0,test,0,1,821
+"(""Randolf isn't thinking Melissa disagrees with herself."",)",,,1,test,1,0,828
+"(""Randolf isn't thinking Melissa disagrees with himself."",)",,,0,test,0,1,829
+"(""Walter wasn't thinking some waiters have disagreed with themselves."",)",,,1,test,1,0,842
+"(""Walter wasn't thinking some waiters have disagreed with himself."",)",,,0,test,0,1,843
+"('Margaret explains the Impressionists questioned themselves.',)",,,1,test,1,0,844
+"('Margaret explains the Impressionists questioned herself.',)",,,0,test,0,1,845
+"('Most waiters imagine Diana hid herself.',)",,,1,test,1,0,850
+"('Most waiters imagine Diana hid themselves.',)",,,0,test,0,1,851
+"('Dan imagines Rhonda will forget herself.',)",,,1,test,1,0,852
+"('Dan imagines Rhonda will forget himself.',)",,,0,test,0,1,853
+"(""Most doctors imagine Omar doesn't complain about himself."",)",,,1,test,1,0,854
+"(""Most doctors imagine Omar doesn't complain about themselves."",)",,,0,test,0,1,855
+"('William does think Jill disturbed herself.',)",,,1,test,1,0,866
+"('William does think Jill disturbed himself.',)",,,0,test,0,1,867
+"('Alan is explaining Sheila is talking about herself.',)",,,1,test,1,0,870
+"('Alan is explaining Sheila is talking about himself.',)",,,0,test,0,1,871
+"(""Many guests thought Barbara isn't upsetting herself."",)",,,1,test,1,0,880
+"(""Many guests thought Barbara isn't upsetting themselves."",)",,,0,test,0,1,881
+"('Sabrina did explain Craig bored himself.',)",,,1,test,1,0,882
+"('Sabrina did explain Craig bored herself.',)",,,0,test,0,1,883
+"('Sandra has said Mitchell referenced himself.',)",,,1,test,1,0,896
+"('Sandra has said Mitchell referenced herself.',)",,,0,test,0,1,897
+"('Lisa could imagine this grocery store is scaring itself.',)",,,1,test,1,0,908
+"('Lisa could imagine this grocery store is scaring herself.',)",,,0,test,0,1,909
+"('Judy can imagine these lights had disgusted themselves.',)",,,1,test,1,0,916
+"('Judy can imagine these lights had disgusted herself.',)",,,0,test,0,1,917
+"(""Bradley wasn't thinking Marie knows herself."",)",,,1,test,1,0,918
+"(""Bradley wasn't thinking Marie knows himself."",)",,,0,test,0,1,919
+"(""Brian isn't thinking Victoria thinks about herself."",)",,,1,test,1,0,934
+"(""Brian isn't thinking Victoria thinks about himself."",)",,,0,test,0,1,935
+"('Gary is thinking Gina investigated herself.',)",,,1,test,1,0,942
+"('Gary is thinking Gina investigated himself.',)",,,0,test,0,1,943
+"(""The Borgias were imagining this water hadn't hurt itself."",)",,,1,test,1,0,944
+"(""The Borgias were imagining this water hadn't hurt themselves."",)",,,0,test,0,1,945
+"('Elaine thinks the commentary disgusted itself.',)",,,1,test,1,0,958
+"('Elaine thinks the commentary disgusted herself.',)",,,0,test,0,1,959
+"(""Russell isn't thinking Ann had attacked herself."",)",,,1,test,1,0,960
+"(""Russell isn't thinking Ann had attacked himself."",)",,,0,test,0,1,961
+"('Some girls explain Jill could observe herself.',)",,,1,test,1,0,974
+"('Some girls explain Jill could observe themselves.',)",,,0,test,0,1,975
+"('Jane is saying Jerry discusses himself.',)",,,1,test,1,0,984
+"('Jane is saying Jerry discusses herself.',)",,,0,test,0,1,985
+"(""Karen wasn't imagining all hills hadn't disturbed themselves."",)",,,1,test,1,0,1004
+"(""Karen wasn't imagining all hills hadn't disturbed herself."",)",,,0,test,0,1,1005
+"('Those people imagined this high school is embarrassing itself.',)",,,1,test,1,0,1006
+"('Those people imagined this high school is embarrassing themselves.',)",,,0,test,0,1,1007
+"(""Holly isn't explaining Marcus will hurt himself."",)",,,1,test,1,0,1024
+"(""Holly isn't explaining Marcus will hurt herself."",)",,,0,test,0,1,1025
+"('All guys imagine Alexander forgot himself.',)",,,1,test,1,0,1050
+"('All guys imagine Alexander forgot themselves.',)",,,0,test,0,1,1051
+"('Jill has imagined Patrick referenced himself.',)",,,1,test,1,0,1094
+"('Jill has imagined Patrick referenced herself.',)",,,0,test,0,1,1095
+"('Thomas said Debra has boasted about herself.',)",,,1,test,1,0,1104
+"('Thomas said Debra has boasted about himself.',)",,,0,test,0,1,1105
+"(""Jeffrey explained Catherine isn't boring herself."",)",,,1,test,1,0,1106
+"(""Jeffrey explained Catherine isn't boring himself."",)",,,0,test,0,1,1107
+"('Tiffany explained Robert was helping himself.',)",,,1,test,1,0,1108
+"('Tiffany explained Robert was helping herself.',)",,,0,test,0,1,1109
+"('Becca has imagined a spotlight upset itself.',)",,,1,test,1,0,1132
+"('Becca has imagined a spotlight upset herself.',)",,,0,test,0,1,1133
+"(""Martin does say most actors haven't upset themselves."",)",,,1,test,1,0,1134
+"(""Martin does say most actors haven't upset himself."",)",,,0,test,0,1,1135
+"(""Phillip doesn't think Tiffany forgot herself."",)",,,1,test,1,0,1144
+"(""Phillip doesn't think Tiffany forgot himself."",)",,,0,test,0,1,1145
+"(""Those cashiers think Rebecca doesn't respect herself."",)",,,1,test,1,0,1148
+"(""Those cashiers think Rebecca doesn't respect themselves."",)",,,0,test,0,1,1149
+"('Dana explained Randolf describes himself.',)",,,1,test,1,0,1160
+"('Dana explained Randolf describes herself.',)",,,0,test,0,1,1161
+"(""All people say Elizabeth doesn't love herself."",)",,,1,test,1,0,1168
+"(""All people say Elizabeth doesn't love themselves."",)",,,0,test,0,1,1169
+"('Craig imagines Deanna likes herself.',)",,,1,test,1,0,1170
+"('Craig imagines Deanna likes himself.',)",,,0,test,0,1,1171
+"(""A lady could explain Brett wasn't appreciating himself."",)",,,1,test,1,0,1174
+"(""A lady could explain Brett wasn't appreciating herself."",)",,,0,test,0,1,1175
+"('Those women think Jill fires herself.',)",,,1,test,1,0,1186
+"('Those women think Jill fires themselves.',)",,,0,test,0,1,1187
+"('Every dancer was thinking Paul researches himself.',)",,,1,test,1,0,1190
+"('Every dancer was thinking Paul researches herself.',)",,,0,test,0,1,1191
+"(""Donna said drivers haven't complained about themselves."",)",,,1,test,1,0,1194
+"(""Donna said drivers haven't complained about herself."",)",,,0,test,0,1,1195
+"(""Charles wasn't imagining Wendy couldn't hide herself."",)",,,1,test,1,0,1216
+"(""Charles wasn't imagining Wendy couldn't hide himself."",)",,,0,test,0,1,1217
+"('Todd had said Carrie is firing herself.',)",,,1,test,1,0,1218
+"('Todd had said Carrie is firing himself.',)",,,0,test,0,1,1219
+"(""George hadn't thought the print scares itself."",)",,,1,test,1,0,1226
+"(""George hadn't thought the print scares himself."",)",,,0,test,0,1,1227
+"('Jeffrey is saying Candice has fled from herself.',)",,,1,test,1,0,1234
+"('Jeffrey is saying Candice has fled from himself.',)",,,0,test,0,1,1235
+"(""Liam hadn't said Kristin hadn't healed herself."",)",,,1,test,1,0,1236
+"(""Liam hadn't said Kristin hadn't healed himself."",)",,,0,test,0,1,1237
+"(""Emily isn't imagining Bill investigates himself."",)",,,1,test,1,0,1246
+"(""Emily isn't imagining Bill investigates herself."",)",,,0,test,0,1,1247
+"(""Some teenagers hadn't imagined Susan hasn't returned to herself."",)",,,1,test,1,0,1248
+"(""Some teenagers hadn't imagined Susan hasn't returned to themselves."",)",,,0,test,0,1,1249
+"('Many waiters explain Carmen could bother herself.',)",,,1,test,1,0,1282
+"('Many waiters explain Carmen could bother themselves.',)",,,0,test,0,1,1283
+"('Victoria says some school praises itself.',)",,,1,test,1,0,1284
+"('Victoria says some school praises herself.',)",,,0,test,0,1,1285
+"(""Angela has said this dog shouldn't shock itself."",)",,,1,test,1,0,1286
+"(""Angela has said this dog shouldn't shock herself."",)",,,0,test,0,1,1287
+"('This waitress can think Gary was discussing himself.',)",,,1,test,1,0,1296
+"('This waitress can think Gary was discussing herself.',)",,,0,test,0,1,1297
+"(""Victoria wasn't explaining those men remembered themselves."",)",,,1,test,1,0,1318
+"(""Victoria wasn't explaining those men remembered herself."",)",,,0,test,0,1,1319
+"(""William can't explain Helen does reference herself."",)",,,1,test,1,0,1324
+"(""William can't explain Helen does reference himself."",)",,,0,test,0,1,1325
+"('Melissa has imagined Gerald can flee from himself.',)",,,1,test,1,0,1328
+"('Melissa has imagined Gerald can flee from herself.',)",,,0,test,0,1,1329
+"('Travis explains these stories disagreed with themselves.',)",,,1,test,1,0,1348
+"('Travis explains these stories disagreed with himself.',)",,,0,test,0,1,1349
+"(""Daniel isn't thinking most libraries were irritating themselves."",)",,,1,test,1,0,1352
+"(""Daniel isn't thinking most libraries were irritating himself."",)",,,0,test,0,1,1353
+"('Andrew says Margaret listened to herself.',)",,,1,test,1,0,1364
+"('Andrew says Margaret listened to himself.',)",,,0,test,0,1,1365
+"(""A lot of waitresses imagine Elizabeth hasn't cared for herself."",)",,,1,test,1,0,1366
+"(""A lot of waitresses imagine Elizabeth hasn't cared for themselves."",)",,,0,test,0,1,1367
+"('These girls imagine Tonya knows herself.',)",,,1,test,1,0,1372
+"('These girls imagine Tonya knows themselves.',)",,,0,test,0,1,1373
+"(""Melissa isn't imagining Craig isn't worrying himself."",)",,,1,test,1,0,1374
+"(""Melissa isn't imagining Craig isn't worrying herself."",)",,,0,test,0,1,1375
+"('Catherine thought most adults revealed themselves.',)",,,1,test,1,0,1396
+"('Catherine thought most adults revealed herself.',)",,,0,test,0,1,1397
+"(""Ann has explained a print won't upset itself."",)",,,1,test,1,0,1402
+"(""Ann has explained a print won't upset herself."",)",,,0,test,0,1,1403
+"(""Waiters think Tonya doesn't research herself."",)",,,1,test,1,0,1434
+"(""Waiters think Tonya doesn't research themselves."",)",,,0,test,0,1,1435
+"('Becky is explaining Rodney has thought about himself.',)",,,1,test,1,0,1442
+"('Becky is explaining Rodney has thought about herself.',)",,,0,test,0,1,1443
+"('Dawn thought Ronald talks about himself.',)",,,1,test,1,0,1444
+"('Dawn thought Ronald talks about herself.',)",,,0,test,0,1,1445
+"(""Brenda was thinking David isn't curing himself."",)",,,1,test,1,0,1446
+"(""Brenda was thinking David isn't curing herself."",)",,,0,test,0,1,1447
+"('Teachers explain Chad has observed himself.',)",,,1,test,1,0,1454
+"('Teachers explain Chad has observed themselves.',)",,,0,test,0,1,1455
+"('All customers have said Larry would attack himself.',)",,,1,test,1,0,1456
+"('All customers have said Larry would attack themselves.',)",,,0,test,0,1,1457
+"('Martin imagined Suzanne would sound like herself.',)",,,1,test,1,0,1462
+"('Martin imagined Suzanne would sound like himself.',)",,,0,test,0,1,1463
+"(""Joel hadn't explained Alicia hires herself."",)",,,1,test,1,0,1464
+"(""Joel hadn't explained Alicia hires himself."",)",,,0,test,0,1,1465
+"(""Martin was explaining some university can't listen to itself."",)",,,1,test,1,0,1480
+"(""Martin was explaining some university can't listen to himself."",)",,,0,test,0,1,1481
+"('Wayne said associations aggravated themselves.',)",,,1,test,1,0,1494
+"('Wayne said associations aggravated himself.',)",,,0,test,0,1,1495
+"('A lot of girls do explain Rose left herself.',)",,,1,test,1,0,1496
+"('A lot of girls do explain Rose left themselves.',)",,,0,test,0,1,1497
+"('The children were saying Matt insulted himself.',)",,,1,test,1,0,1500
+"('The children were saying Matt insulted themselves.',)",,,0,test,0,1,1501
+"('These adults imagined Amanda hides herself.',)",,,1,test,1,0,1508
+"('These adults imagined Amanda hides themselves.',)",,,0,test,0,1,1509
+"(""Martin imagines Rhonda hadn't cured herself."",)",,,1,test,1,0,1512
+"(""Martin imagines Rhonda hadn't cured himself."",)",,,0,test,0,1,1513
+"(""Wendy said Spain isn't discussing itself."",)",,,1,test,1,0,1514
+"(""Wendy said Spain isn't discussing herself."",)",,,0,test,0,1,1515
+"('Some ladies say Jill conceals herself.',)",,,1,test,1,0,1550
+"('Some ladies say Jill conceals themselves.',)",,,0,test,0,1,1551
+"(""Kenneth explained Veronica wasn't observing herself."",)",,,1,test,1,0,1570
+"(""Kenneth explained Veronica wasn't observing himself."",)",,,0,test,0,1,1571
+"('A lot of boys thought some light shocked itself.',)",,,1,test,1,0,1576
+"('A lot of boys thought some light shocked themselves.',)",,,0,test,0,1,1577
+"(""Joel thought Sharon hadn't boycotted herself."",)",,,1,test,1,0,1578
+"(""Joel thought Sharon hadn't boycotted himself."",)",,,0,test,0,1,1579
+"('Alan had thought Beth discusses herself.',)",,,1,test,1,0,1582
+"('Alan had thought Beth discusses himself.',)",,,0,test,0,1,1583
+"('Rodney is imagining Jane remembered herself.',)",,,1,test,1,0,1590
+"('Rodney is imagining Jane remembered himself.',)",,,0,test,0,1,1591
+"(""Florence isn't imagining a lot of turtles have embarrassed themselves."",)",,,1,test,1,0,1592
+"(""Florence isn't imagining a lot of turtles have embarrassed herself."",)",,,0,test,0,1,1593
+"('Erin says Lawrence discusses himself.',)",,,1,test,1,0,1606
+"('Erin says Lawrence discusses herself.',)",,,0,test,0,1,1607
+"('Ruth explained many dogs have shocked themselves.',)",,,1,test,1,0,1618
+"('Ruth explained many dogs have shocked herself.',)",,,0,test,0,1,1619
+"(""Kendra has imagined Spain wasn't talking about itself."",)",,,1,test,1,0,1628
+"(""Kendra has imagined Spain wasn't talking about herself."",)",,,0,test,0,1,1629
+"('Homer had explained Kayla knew herself.',)",,,1,test,1,0,1634
+"('Homer had explained Kayla knew himself.',)",,,0,test,0,1,1635
+"('Valerie could say Brian fired himself.',)",,,1,test,1,0,1638
+"('Valerie could say Brian fired herself.',)",,,0,test,0,1,1639
+"('Amy explains Douglas was firing himself.',)",,,1,test,1,0,1642
+"('Amy explains Douglas was firing herself.',)",,,0,test,0,1,1643
+"('Larry imagined Lisa praised herself.',)",,,1,test,1,0,1654
+"('Larry imagined Lisa praised himself.',)",,,0,test,0,1,1655
+"('Guy explained universities had argued about themselves.',)",,,1,test,1,0,1656
+"('Guy explained universities had argued about himself.',)",,,0,test,0,1,1657
+"(""Deborah imagined Jerry doesn't visit himself."",)",,,1,test,1,0,1666
+"(""Deborah imagined Jerry doesn't visit herself."",)",,,0,test,0,1,1667
+"(""Gina hadn't explained a lot of actresses hadn't discovered themselves."",)",,,1,test,1,0,1670
+"(""Gina hadn't explained a lot of actresses hadn't discovered herself."",)",,,0,test,0,1,1671
+"('Dawn imagined Eric healed himself.',)",,,1,test,1,0,1680
+"('Dawn imagined Eric healed herself.',)",,,0,test,0,1,1681
+"(""Christina hadn't said every apple isn't disgusting itself."",)",,,1,test,1,0,1702
+"(""Christina hadn't said every apple isn't disgusting herself."",)",,,0,test,0,1,1703
+"('Those teenagers think Lori astounded herself.',)",,,1,test,1,0,1710
+"('Those teenagers think Lori astounded themselves.',)",,,0,test,0,1,1711
+"(""Some boy doesn't think Renee wasn't observing herself."",)",,,1,test,1,0,1766
+"(""Some boy doesn't think Renee wasn't observing himself."",)",,,0,test,0,1,1767
+"('A lot of people explain some pie can impress itself.',)",,,1,test,1,0,1780
+"('A lot of people explain some pie can impress themselves.',)",,,0,test,0,1,1781
+"('These people think Kirsten described herself.',)",,,1,test,1,0,1806
+"('These people think Kirsten described themselves.',)",,,0,test,0,1,1807
+"('Kristen would explain Richard knows himself.',)",,,1,test,1,0,1818
+"('Kristen would explain Richard knows herself.',)",,,0,test,0,1,1819
+"(""Dan wasn't thinking Rose might approach herself."",)",,,1,test,1,0,1832
+"(""Dan wasn't thinking Rose might approach himself."",)",,,0,test,0,1,1833
+"('Laura should say Gary heals himself.',)",,,1,test,1,0,1834
+"('Laura should say Gary heals herself.',)",,,0,test,0,1,1835
+"(""Clyde hadn't thought all hamsters had disgusted themselves."",)",,,1,test,1,0,1846
+"(""Clyde hadn't thought all hamsters had disgusted himself."",)",,,0,test,0,1,1847
+"(""Patrick hadn't said Florence hasn't investigated herself."",)",,,1,test,1,0,1866
+"(""Patrick hadn't said Florence hasn't investigated himself."",)",,,0,test,0,1,1867
+"(""Elizabeth might explain this guy wasn't concealing himself."",)",,,1,test,1,0,1884
+"(""Elizabeth might explain this guy wasn't concealing herself."",)",,,0,test,0,1,1885
+"('Paul did imagine Barbara referenced herself.',)",,,1,test,1,0,1890
+"('Paul did imagine Barbara referenced himself.',)",,,0,test,0,1,1891
+"(""These teachers imagine Jane doesn't alarm herself."",)",,,1,test,1,0,1892
+"(""These teachers imagine Jane doesn't alarm themselves."",)",,,0,test,0,1,1893
+"('A lot of guests explain Gary was arguing about himself.',)",,,1,test,1,0,1896
+"('A lot of guests explain Gary was arguing about themselves.',)",,,0,test,0,1,1897
+"(""Tina hasn't thought Andrew couldn't care for himself."",)",,,1,test,1,0,1908
+"(""Tina hasn't thought Andrew couldn't care for herself."",)",,,0,test,0,1,1909
+"('Vincent says that documentary could alarm itself.',)",,,1,test,1,0,1910
+"('Vincent says that documentary could alarm himself.',)",,,0,test,0,1,1911
+"('Emily had thought Joseph astounded himself.',)",,,1,test,1,0,1912
+"('Emily had thought Joseph astounded herself.',)",,,0,test,0,1,1913
+"('These patients think the lamp was worrying itself.',)",,,1,test,1,0,1918
+"('These patients think the lamp was worrying themselves.',)",,,0,test,0,1,1919
+"('A lot of teenagers say Kristin thinks about herself.',)",,,1,test,1,0,1920
+"('A lot of teenagers say Kristin thinks about themselves.',)",,,0,test,0,1,1921
+"(""Stephanie thought these glasses shouldn't confuse themselves."",)",,,1,test,1,0,1928
+"(""Stephanie thought these glasses shouldn't confuse herself."",)",,,0,test,0,1,1929
+"(""Larry isn't explaining those waitresses haven't loved themselves."",)",,,1,test,1,0,1968
+"(""Larry isn't explaining those waitresses haven't loved himself."",)",,,0,test,0,1,1969
+"(""Natalie couldn't think Benjamin wasn't complaining about himself."",)",,,1,test,1,0,1976
+"(""Natalie couldn't think Benjamin wasn't complaining about herself."",)",,,0,test,0,1,1977
+"(""A lot of boys explain Barbara doesn't notice herself."",)",,,1,test,1,0,1984
+"(""A lot of boys explain Barbara doesn't notice themselves."",)",,,0,test,0,1,1985
+"('Many doctors think Rose leaves herself.',)",,,1,test,1,0,1988
+"('Many doctors think Rose leaves themselves.',)",,,0,test,0,1,1989

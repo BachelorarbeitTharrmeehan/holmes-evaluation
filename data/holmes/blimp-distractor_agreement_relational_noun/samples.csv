@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"(""A niece of most senators hasn't descended most slopes."",)",,,1,train,1,0,0
+"(""A niece of most senators haven't descended most slopes."",)",,,0,train,0,1,1
+"(""The sketch of those trucks hasn't hurt Alan."",)",,,1,train,1,0,2
+"(""The sketch of those trucks haven't hurt Alan."",)",,,0,train,0,1,3
+"(""A sketch of lights doesn't appear."",)",,,1,train,1,0,8
+"(""A sketch of lights don't appear."",)",,,0,train,0,1,9
+"('The movies about Galileo were astounding Melanie.',)",,,1,train,1,0,10
+"('The movies about Galileo was astounding Melanie.',)",,,0,train,0,1,11
+"('A cousin of a lot of dancers anticipates Naomi to aggravate Angela.',)",,,1,train,1,0,12
+"('A cousin of a lot of dancers anticipate Naomi to aggravate Angela.',)",,,0,train,0,1,13
+"('The pamphlets about Galileo are winning.',)",,,1,train,1,0,16
+"('The pamphlets about Galileo is winning.',)",,,0,train,0,1,17
+"('The daughter of those senators works with Patrick.',)",,,1,train,1,0,18
+"('The daughter of those senators work with Patrick.',)",,,0,train,0,1,19
+"(""A story about the Balkans doesn't irritate a person."",)",,,1,train,1,0,20
+"(""A story about the Balkans don't irritate a person."",)",,,0,train,0,1,21
+"('The sisters of Timothy judge Randolf to weep.',)",,,1,train,1,0,22
+"('The sisters of Timothy judges Randolf to weep.',)",,,0,train,0,1,23
+"('A nephew of senators is wanting to murmur.',)",,,1,train,1,0,26
+"('A nephew of senators were wanting to murmur.',)",,,0,train,0,1,27
+"('The prints of that high school are impressing Helen.',)",,,1,train,1,0,28
+"('The prints of that high school was impressing Helen.',)",,,0,train,0,1,29
+"('A report about the Impressionists has won.',)",,,1,train,1,0,30
+"('A report about the Impressionists have won.',)",,,0,train,0,1,31
+"('The mothers of Mary seem to shrink.',)",,,1,train,1,0,34
+"('The mothers of Mary seems to shrink.',)",,,0,train,0,1,35
+"('The books about Winston Churchill do look like paintings.',)",,,1,train,1,0,36
+"('The books about Winston Churchill does look like paintings.',)",,,0,train,0,1,37
+"('The friends of every person do fix some cups.',)",,,1,train,1,0,44
+"('The friends of every person does fix some cups.',)",,,0,train,0,1,45
+"('The commentaries about music do disgust Kayla.',)",,,1,train,1,0,48
+"('The commentaries about music does disgust Kayla.',)",,,0,train,0,1,49
+"('The grandfathers of Diana drink.',)",,,1,train,1,0,50
+"('The grandfathers of Diana drinks.',)",,,0,train,0,1,51
+"(""The daughters of Wayne don't exit art galleries."",)",,,1,train,1,0,52
+"(""The daughters of Wayne doesn't exit art galleries."",)",,,0,train,0,1,53
+"(""A granddaughter of the Impressionists wasn't lifting a convertible."",)",,,1,train,1,0,56
+"(""A granddaughter of the Impressionists aren't lifting a convertible."",)",,,0,train,0,1,57
+"('The reports about art are scaring Melissa.',)",,,1,train,1,0,60
+"('The reports about art was scaring Melissa.',)",,,0,train,0,1,61
+"(""A brochure about the Balkans doesn't impress Erin."",)",,,1,train,1,0,62
+"(""A brochure about the Balkans don't impress Erin."",)",,,0,train,0,1,63
+"(""The report about the Impressionists hasn't sounded like Joel."",)",,,1,train,1,0,66
+"(""A movie about the Impressionists hasn't scared Harvard University."",)",,,1,dev,1,0,14
+"(""A movie about the Impressionists haven't scared Harvard University."",)",,,0,dev,0,1,15
+"('The sketches of some dancer do bore these girls.',)",,,1,dev,1,0,38
+"('The sketches of some dancer does bore these girls.',)",,,0,dev,0,1,39
+"('The daughter of most actresses is observing Christina.',)",,,1,dev,1,0,40
+"('The daughter of most actresses were observing Christina.',)",,,0,dev,0,1,41
+"(""A story about the Lutherans hasn't won."",)",,,1,dev,1,0,42
+"(""A story about the Lutherans haven't won."",)",,,0,dev,0,1,43
+"('A father of guys was passing most college campuses.',)",,,1,dev,1,0,46
+"('A father of guys are passing most college campuses.',)",,,0,dev,0,1,47
+"('The pamphlets about art aggravate Sherry.',)",,,1,dev,1,0,54
+"('The pamphlets about art aggravates Sherry.',)",,,0,dev,0,1,55
+"('The sons of Victoria long to waste away.',)",,,1,dev,1,0,64
+"('The sons of Victoria longs to waste away.',)",,,0,dev,0,1,65
+"('The painting of a lot of sweaters resembles some drawings.',)",,,1,dev,1,0,76
+"('The painting of a lot of sweaters resemble some drawings.',)",,,0,dev,0,1,77
+"('The mothers of Cheryl do bake.',)",,,1,dev,1,0,98
+"('The mothers of Cheryl does bake.',)",,,0,dev,0,1,99
+"('The nieces of Rachel discover this nose.',)",,,1,dev,1,0,118
+"('The nieces of Rachel discovers this nose.',)",,,0,dev,0,1,119
+"('The father of many pedestrians washes.',)",,,1,dev,1,0,122
+"('The father of many pedestrians wash.',)",,,0,dev,0,1,123
+"(""The show about the Borgias hasn't annoyed Mark."",)",,,1,dev,1,0,176
+"(""The show about the Borgias haven't annoyed Mark."",)",,,0,dev,0,1,177
+"(""The brochures about Winston Churchill don't win."",)",,,1,dev,1,0,178
+"(""The brochures about Winston Churchill doesn't win."",)",,,0,dev,0,1,179
+"(""The reports about politics don't stun libraries."",)",,,1,dev,1,0,194
+"(""The reports about politics doesn't stun libraries."",)",,,0,dev,0,1,195
+"('A story about the Impressionists bothers Scott.',)",,,1,dev,1,0,202
+"('A story about the Impressionists bother Scott.',)",,,0,dev,0,1,203
+"(""The commentary about the Clintons hasn't irritated Cindy."",)",,,1,dev,1,0,206
+"(""The commentary about the Clintons haven't irritated Cindy."",)",,,0,dev,0,1,207
+"(""A commentary about the Balkans hasn't alarmed many ladies."",)",,,1,dev,1,0,216
+"(""A commentary about the Balkans haven't alarmed many ladies."",)",,,0,dev,0,1,217
+"(""The print of all teenagers doesn't look like this photograph."",)",,,1,dev,1,0,234
+"(""The print of all teenagers don't look like this photograph."",)",,,0,dev,0,1,235
+"('The grandson of a lot of customers is cleaning a restaurant.',)",,,1,dev,1,0,250
+"('The grandson of a lot of customers were cleaning a restaurant.',)",,,0,dev,0,1,251
+"('The grandmother of a lot of dancers replies.',)",,,1,dev,1,0,268
+"('The grandmother of a lot of dancers reply.',)",,,0,dev,0,1,269
+"(""The newspaper article about the Borgias doesn't worry Carl."",)",,,1,dev,1,0,284
+"(""The newspaper article about the Borgias don't worry Carl."",)",,,0,dev,0,1,285
+"('The newspaper article about the Borgias distracts Diana.',)",,,1,dev,1,0,292
+"('The newspaper article about the Borgias distract Diana.',)",,,0,dev,0,1,293
+"(""The movies about science weren't distracting Stephanie."",)",,,1,dev,1,0,296
+"(""The movies about science wasn't distracting Stephanie."",)",,,0,dev,0,1,297
+"('A pamphlet about the Great Lakes irritates Emily.',)",,,1,dev,1,0,314
+"('A pamphlet about the Great Lakes irritate Emily.',)",,,0,dev,0,1,315
+"(""The pictures of Erin don't embarrass Eric."",)",,,1,dev,1,0,322
+"(""The pictures of Erin doesn't embarrass Eric."",)",,,0,dev,0,1,323
+"('The daughters of Christine do study.',)",,,1,dev,1,0,332
+"('The daughters of Christine does study.',)",,,0,dev,0,1,333
+"('The paintings of every sketch do look like Erin.',)",,,1,dev,1,0,354
+"('The paintings of every sketch does look like Erin.',)",,,0,dev,0,1,355
+"('The photograph of some pies does impress Tonya.',)",,,1,dev,1,0,356
+"('The photograph of some pies do impress Tonya.',)",,,0,dev,0,1,357
+"('The grandfather of boys falls.',)",,,1,dev,1,0,384
+"('The grandfather of boys fall.',)",,,0,dev,0,1,385
+"('The grandmothers of Claire are criticizing Jesus.',)",,,1,dev,1,0,392
+"('The grandmothers of Claire was criticizing Jesus.',)",,,0,dev,0,1,393
+"('The essays about Harvard University do astound Phillip.',)",,,1,dev,1,0,410
+"('The essays about Harvard University does astound Phillip.',)",,,0,dev,0,1,411
+"(""The grandsons of Lawrence aren't regretting Andrea doubts Allison does stand up."",)",,,1,dev,1,0,412
+"(""The grandsons of Lawrence wasn't regretting Andrea doubts Allison does stand up."",)",,,0,dev,0,1,413
+"(""A nephew of those drivers doesn't paint."",)",,,1,dev,1,0,438
+"(""A nephew of those drivers don't paint."",)",,,0,dev,0,1,439
+"(""A sketch of all ladies doesn't vanish."",)",,,1,dev,1,0,444
+"(""A sketch of all ladies don't vanish."",)",,,0,dev,0,1,445
+"('A report about the Impressionists confuses Stacey.',)",,,1,dev,1,0,472
+"('A report about the Impressionists confuse Stacey.',)",,,0,dev,0,1,473
+"('The brother of those girls is talking.',)",,,1,dev,1,0,478
+"('The brother of those girls are talking.',)",,,0,dev,0,1,479
+"('The granddaughters of Thomas have messed up this high school.',)",,,1,dev,1,0,506
+"('The granddaughters of Thomas has messed up this high school.',)",,,0,dev,0,1,507
+"('The pamphlets about Galileo are wasting away.',)",,,1,dev,1,0,528
+"('The pamphlets about Galileo is wasting away.',)",,,0,dev,0,1,529
+"('The nieces of some boy are wasting away.',)",,,1,dev,1,0,546
+"('The nieces of some boy is wasting away.',)",,,0,dev,0,1,547
+"('The daughters of Galileo were needing to lift the stairs.',)",,,1,dev,1,0,566
+"('The daughters of Galileo was needing to lift the stairs.',)",,,0,dev,0,1,567
+"('The grandmother of the Impressionists was getting fired.',)",,,1,dev,1,0,608
+"('The grandmother of the Impressionists were getting fired.',)",,,0,dev,0,1,609
+"('A book about the Borgias is disgusting these committees.',)",,,1,dev,1,0,612
+"('A book about the Borgias were disgusting these committees.',)",,,0,dev,0,1,613
+"('The books about Jesus have wasted away.',)",,,1,dev,1,0,640
+"('The books about Jesus has wasted away.',)",,,0,dev,0,1,641
+"('The commentaries about Harvard University aggravate Cindy.',)",,,1,dev,1,0,644
+"('The commentaries about Harvard University aggravates Cindy.',)",,,0,dev,0,1,645
+"('The paintings of some skirt do bore Tanya.',)",,,1,dev,1,0,660
+"('The paintings of some skirt does bore Tanya.',)",,,0,dev,0,1,661
+"(""The pamphlets about art don't irritate Alice."",)",,,1,dev,1,0,680
+"(""The pamphlets about art doesn't irritate Alice."",)",,,0,dev,0,1,681
+"('The show about the Balkans is worrying Stacey.',)",,,1,dev,1,0,718
+"('The show about the Balkans were worrying Stacey.',)",,,0,dev,0,1,719
+"('The pictures of some mouth distract a university.',)",,,1,dev,1,0,742
+"('The pictures of some mouth distracts a university.',)",,,0,dev,0,1,743
+"('An essay about the Borgias does scare some waiter.',)",,,1,dev,1,0,814
+"('An essay about the Borgias do scare some waiter.',)",,,0,dev,0,1,815
+"(""The books about Monet aren't vanishing."",)",,,1,dev,1,0,880
+"(""The books about Monet wasn't vanishing."",)",,,0,dev,0,1,881
+"('The prints of Denise look like most drawings.',)",,,1,dev,1,0,920
+"('The prints of Denise looks like most drawings.',)",,,0,dev,0,1,921
+"('The newspaper articles about Monet were boring Robert.',)",,,1,dev,1,0,922
+"('The newspaper articles about Monet was boring Robert.',)",,,0,dev,0,1,923
+"(""The reports about Galileo aren't falling."",)",,,1,dev,1,0,966
+"(""The reports about Galileo isn't falling."",)",,,0,dev,0,1,967
+"('The shows about Galileo do disturb some university.',)",,,1,dev,1,0,992
+"('The shows about Galileo does disturb some university.',)",,,0,dev,0,1,993
+"('A painting of those bikes is scaring Laura.',)",,,1,dev,1,0,998
+"('A painting of those bikes are scaring Laura.',)",,,0,dev,0,1,999
+"('The pictures of this picture have vanished.',)",,,1,dev,1,0,1002
+"('The pictures of this picture has vanished.',)",,,0,dev,0,1,1003
+"('The photograph of actresses does hurt Cynthia.',)",,,1,dev,1,0,1010
+"('The photograph of actresses do hurt Cynthia.',)",,,0,dev,0,1,1011
+"('The commentaries about art bother Galileo.',)",,,1,dev,1,0,1030
+"('The commentaries about art bothers Galileo.',)",,,0,dev,0,1,1031
+"('The brochures about literature are impressing Ellen.',)",,,1,dev,1,0,1050
+"('The brochures about literature is impressing Ellen.',)",,,0,dev,0,1,1051
+"('The grandfathers of Charles have escaped.',)",,,1,dev,1,0,1064
+"('The grandfathers of Charles has escaped.',)",,,0,dev,0,1,1065
+"('A painting of some forks does hurt Randolf.',)",,,1,dev,1,0,1094
+"('A painting of some forks do hurt Randolf.',)",,,0,dev,0,1,1095
+"(""The stories about Spain don't bore a lot of pedestrians."",)",,,1,dev,1,0,1096
+"(""The stories about Spain doesn't bore a lot of pedestrians."",)",,,0,dev,0,1,1097
+"('The prints of Naomi do irritate Tiffany.',)",,,1,dev,1,0,1112
+"('The prints of Naomi does irritate Tiffany.',)",,,0,dev,0,1,1113
+"(""A show about the Clintons doesn't astound Homer."",)",,,1,dev,1,0,1132
+"(""A show about the Clintons don't astound Homer."",)",,,0,dev,0,1,1133
+"('The reports about travel were distracting that child.',)",,,1,dev,1,0,1150
+"('The reports about travel is distracting that child.',)",,,0,dev,0,1,1151
+"('The drawing of most actresses does worry Andrea.',)",,,1,dev,1,0,1174
+"('The drawing of most actresses do worry Andrea.',)",,,0,dev,0,1,1175
+"('The story about the Borgias has alarmed all banks.',)",,,1,dev,1,0,1210
+"('The story about the Borgias have alarmed all banks.',)",,,0,dev,0,1,1211
+"('The essays about Jesus are irritating Brett.',)",,,1,dev,1,0,1228
+"('The essays about Jesus is irritating Brett.',)",,,0,dev,0,1,1229
+"('The brother of children yells.',)",,,1,dev,1,0,1244
+"('The brother of children yell.',)",,,0,dev,0,1,1245
+"('The grandson of the Impressionists has ordered Tara to reference Veronica.',)",,,1,dev,1,0,1256
+"('The grandson of the Impressionists have ordered Tara to reference Veronica.',)",,,0,dev,0,1,1257
+"('The commentaries about Spain distract that patient.',)",,,1,dev,1,0,1274
+"('The commentaries about Spain distracts that patient.',)",,,0,dev,0,1,1275
+"(""The nephews of Paula aren't forgetting who respond."",)",,,1,dev,1,0,1300
+"(""The nephews of Paula wasn't forgetting who respond."",)",,,0,dev,0,1,1301
+"('A brochure about the Impressionists distracts Holly.',)",,,1,dev,1,0,1330
+"('A brochure about the Impressionists distract Holly.',)",,,0,dev,0,1,1331
+"('The drawings of Donna resemble the photograph.',)",,,1,dev,1,0,1350
+"('The drawings of Donna resembles the photograph.',)",,,0,dev,0,1,1351
+"(""A nephew of many students hasn't expected the guys to blink."",)",,,1,dev,1,0,1352
+"(""A nephew of many students haven't expected the guys to blink."",)",,,0,dev,0,1,1353
+"(""The paintings of that report haven't stunned the actor."",)",,,1,dev,1,0,1356
+"(""The paintings of that report hasn't stunned the actor."",)",,,0,dev,0,1,1357
+"('A grandmother of most women exists.',)",,,1,dev,1,0,1450
+"('A grandmother of most women exist.',)",,,0,dev,0,1,1451
+"('A story about the Clintons was shocking Brenda.',)",,,1,dev,1,0,1464
+"('A story about the Clintons are shocking Brenda.',)",,,0,dev,0,1,1465
+"('The grandson of all adults has worried Walter.',)",,,1,dev,1,0,1512
+"('The grandson of all adults have worried Walter.',)",,,0,dev,0,1,1513
+"('A cousin of these guys fails to break this skateboard.',)",,,1,dev,1,0,1530
+"('A cousin of these guys fail to break this skateboard.',)",,,0,dev,0,1,1531
+"('The newspaper article about the Lutherans does shock Theodore.',)",,,1,dev,1,0,1552
+"('The newspaper article about the Lutherans do shock Theodore.',)",,,0,dev,0,1,1553
+"(""The pictures of Vincent don't bore Mary."",)",,,1,dev,1,0,1624
+"(""The pictures of Vincent doesn't bore Mary."",)",,,0,dev,0,1,1625
+"('The prints of this drawing look like Stacy.',)",,,1,dev,1,0,1654
+"('The prints of this drawing looks like Stacy.',)",,,0,dev,0,1,1655
+"('A photograph of some restaurants alarms Alan.',)",,,1,dev,1,0,1662
+"('A photograph of some restaurants alarm Alan.',)",,,0,dev,0,1,1663
+"('The fathers of Grace have yelled.',)",,,1,dev,1,0,1672
+"('The fathers of Grace has yelled.',)",,,0,dev,0,1,1673
+"('A granddaughter of most teenagers boycotts all legislatures.',)",,,1,dev,1,0,1676
+"('A granddaughter of most teenagers boycott all legislatures.',)",,,0,dev,0,1,1677
+"(""The books about Spain haven't aggravated Tiffany."",)",,,1,dev,1,0,1718
+"(""The books about Spain hasn't aggravated Tiffany."",)",,,0,dev,0,1,1719
+"('The pictures of Carrie resemble some sketch.',)",,,1,dev,1,0,1806
+"('The pictures of Carrie resembles some sketch.',)",,,0,dev,0,1,1807
+"(""The report about the Clintons doesn't impress some lady."",)",,,1,dev,1,0,1814
+"(""The report about the Clintons don't impress some lady."",)",,,0,dev,0,1,1815
+"('The photographs of a painting have looked like many couches.',)",,,1,dev,1,0,1850
+"('The photographs of a painting has looked like many couches.',)",,,0,dev,0,1,1851
+"('The paintings of Eva do impress Kristen.',)",,,1,dev,1,0,1870
+"('The paintings of Eva does impress Kristen.',)",,,0,dev,0,1,1871
+"('The essay about the Balkans does alarm Charles.',)",,,1,dev,1,0,1886
+"('The essay about the Balkans do alarm Charles.',)",,,0,dev,0,1,1887
+"(""A brother of many adults doesn't fail to bake."",)",,,1,dev,1,0,1896
+"(""A brother of many adults don't fail to bake."",)",,,0,dev,0,1,1897
+"(""The sketch of eyes hasn't appeared."",)",,,1,dev,1,0,1920
+"(""The sketch of eyes haven't appeared."",)",,,0,dev,0,1,1921
+"('A grandfather of these ladies does lie.',)",,,1,dev,1,0,1950
+"('A grandfather of these ladies do lie.',)",,,0,dev,0,1,1951
+"('The nephews of Alan exercise.',)",,,1,dev,1,0,1960
+"('The nephews of Alan exercises.',)",,,0,dev,0,1,1961
+"(""The commentaries about Monet aren't astounding Travis."",)",,,1,dev,1,0,1962
+"(""The commentaries about Monet isn't astounding Travis."",)",,,0,dev,0,1,1963
+"('The stories about Spain aggravate Carl.',)",,,1,dev,1,0,1990
+"('The stories about Spain aggravates Carl.',)",,,0,dev,0,1,1991
+"(""The drawings of Guy weren't scaring Bruce."",)",,,1,dev,1,0,1992
+"(""The drawings of Guy wasn't scaring Bruce."",)",,,0,dev,0,1,1993
+"(""A cousin of some teachers hasn't attacked the Borgias."",)",,,1,dev,1,0,1998
+"(""A cousin of some teachers haven't attacked the Borgias."",)",,,0,dev,0,1,1999
+"('A newspaper article about the Borgias has disagreed with Marcus.',)",,,1,test,1,0,4
+"('A newspaper article about the Borgias have disagreed with Marcus.',)",,,0,test,0,1,5
+"('The niece of most guests has cleaned every college campus.',)",,,1,test,1,0,6
+"('The niece of most guests have cleaned every college campus.',)",,,0,test,0,1,7
+"(""The daughter of the Lutherans hasn't argued about that waitress."",)",,,1,test,1,0,24
+"(""The daughter of the Lutherans haven't argued about that waitress."",)",,,0,test,0,1,25
+"('The grandsons of Douglas chuckle.',)",,,1,test,1,0,32
+"('The grandsons of Douglas chuckles.',)",,,0,test,0,1,33
+"('The granddaughters of Walter have boasted about a teenager.',)",,,1,test,1,0,58
+"('The granddaughters of Walter has boasted about a teenager.',)",,,0,test,0,1,59
+"(""The print of all tomatoes hasn't shocked Barbara."",)",,,1,test,1,0,92
+"(""The print of all tomatoes haven't shocked Barbara."",)",,,0,test,0,1,93
+"(""The report about the Impressionists doesn't disagree with Rose."",)",,,1,test,1,0,110
+"(""The report about the Impressionists don't disagree with Rose."",)",,,0,test,0,1,111
+"('A daughter of a lot of waiters speaks up.',)",,,1,test,1,0,116
+"('A daughter of a lot of waiters speak up.',)",,,0,test,0,1,117
+"('The essays about Spain were disgusting Laurie.',)",,,1,test,1,0,120
+"('The essays about Spain is disgusting Laurie.',)",,,0,test,0,1,121
+"('The book about the Lutherans does sound like Guy.',)",,,1,test,1,0,132
+"('The book about the Lutherans do sound like Guy.',)",,,0,test,0,1,133
+"('The cousins of Martin are worrying that guest.',)",,,1,test,1,0,156
+"('The cousins of Martin is worrying that guest.',)",,,0,test,0,1,157
+"('The commentary about the Impressionists hurts Joel.',)",,,1,test,1,0,162
+"('The commentary about the Impressionists hurt Joel.',)",,,0,test,0,1,163
+"('The brochures about Galileo were vanishing.',)",,,1,test,1,0,170
+"('The brochures about Galileo was vanishing.',)",,,0,test,0,1,171
+"('The picture of many college campuses does look like drawings.',)",,,1,test,1,0,174
+"('The picture of many college campuses do look like drawings.',)",,,0,test,0,1,175
+"('A daughter of these actors does dare Randolf to discover this mountain.',)",,,1,test,1,0,196
+"('A daughter of these actors do dare Randolf to discover this mountain.',)",,,0,test,0,1,197
+"(""The essays about Jesus weren't shocking Monet."",)",,,1,test,1,0,200
+"(""The essays about Jesus wasn't shocking Monet."",)",,,0,test,0,1,201
+"('The commentaries about politics do distract Carol.',)",,,1,test,1,0,204
+"('The commentaries about politics does distract Carol.',)",,,0,test,0,1,205
+"(""A drawing of many peppers doesn't hurt Lisa."",)",,,1,test,1,0,208
+"(""A drawing of many peppers don't hurt Lisa."",)",,,0,test,0,1,209
+"('The pictures of Walter do disturb Mary.',)",,,1,test,1,0,218
+"('The pictures of Walter does disturb Mary.',)",,,0,test,0,1,219
+"('The book about the Lutherans wastes away.',)",,,1,test,1,0,220
+"('The book about the Lutherans waste away.',)",,,0,test,0,1,221
+"('A pamphlet about the Lutherans does alarm Nicole.',)",,,1,test,1,0,224
+"('A pamphlet about the Lutherans do alarm Nicole.',)",,,0,test,0,1,225
+"(""The picture of the shirts isn't astounding Frank."",)",,,1,test,1,0,228
+"(""The picture of the shirts weren't astounding Frank."",)",,,0,test,0,1,229
+"('The fathers of Anne depart.',)",,,1,test,1,0,230
+"('The fathers of Anne departs.',)",,,0,test,0,1,231
+"(""The nieces of Ellen do regret some guy isn't spinning around."",)",,,1,test,1,0,238
+"(""The nieces of Ellen does regret some guy isn't spinning around."",)",,,0,test,0,1,239
+"(""The grandmothers of James don't boycott the lake."",)",,,1,test,1,0,248
+"(""The grandmothers of James doesn't boycott the lake."",)",,,0,test,0,1,249
+"(""The movies about Monet aren't impressing a driver."",)",,,1,test,1,0,254
+"(""The movies about Monet wasn't impressing a driver."",)",,,0,test,0,1,255
+"(""A brother of most drivers doesn't study."",)",,,1,test,1,0,258
+"(""A brother of most drivers don't study."",)",,,0,test,0,1,259
+"('The photographs of Marie are boring Winston Churchill.',)",,,1,test,1,0,270
+"('The photographs of Marie is boring Winston Churchill.',)",,,0,test,0,1,271
+"('The newspaper articles about Jesus resemble some drawing.',)",,,1,test,1,0,280
+"('The newspaper articles about Jesus resembles some drawing.',)",,,0,test,0,1,281
+"(""The movie about the Impressionists isn't annoying every guy."",)",,,1,test,1,0,302
+"(""The movie about the Impressionists weren't annoying every guy."",)",,,0,test,0,1,303
+"('The drawings of Carlos were upsetting the Clintons.',)",,,1,test,1,0,308
+"('The drawings of Carlos is upsetting the Clintons.',)",,,0,test,0,1,309
+"('A photograph of unicycles does upset Vincent.',)",,,1,test,1,0,320
+"('A photograph of unicycles do upset Vincent.',)",,,0,test,0,1,321
+"(""The documentary about the Impressionists wasn't astounding Cynthia."",)",,,1,test,1,0,326
+"(""The documentary about the Impressionists aren't astounding Cynthia."",)",,,0,test,0,1,327
+"(""The sisters of Bradley aren't neglecting to astound Anne."",)",,,1,test,1,0,358
+"(""The sisters of Bradley isn't neglecting to astound Anne."",)",,,0,test,0,1,359
+"(""A mother of all senators doesn't find Thomas."",)",,,1,test,1,0,360
+"(""A mother of all senators don't find Thomas."",)",,,0,test,0,1,361
+"(""A niece of these waiters hasn't bothered to disturb Carol."",)",,,1,test,1,0,362
+"(""A niece of these waiters haven't bothered to disturb Carol."",)",,,0,test,0,1,363
+"(""The grandson of some waiters doesn't lie."",)",,,1,test,1,0,374
+"(""The grandson of some waiters don't lie."",)",,,0,test,0,1,375
+"(""The show about current events hasn't astounded Rachelle."",)",,,1,test,1,0,380
+"(""The show about current events haven't astounded Rachelle."",)",,,0,test,0,1,381
+"('The prints of some teenager do hurt Naomi.',)",,,1,test,1,0,382
+"('The prints of some teenager does hurt Naomi.',)",,,0,test,0,1,383
+"('The prints of Deborah were annoying the patients.',)",,,1,test,1,0,402
+"('The prints of Deborah was annoying the patients.',)",,,0,test,0,1,403
+"(""The friends of Jill aren't explaining most waiters hadn't urged Renee to play."",)",,,1,test,1,0,408
+"(""The friends of Jill wasn't explaining most waiters hadn't urged Renee to play."",)",,,0,test,0,1,409
+"(""The story about the Borgias wasn't shocking the actress."",)",,,1,test,1,0,422
+"(""The story about the Borgias weren't shocking the actress."",)",,,0,test,0,1,423
+"(""The book about the Impressionists doesn't disagree."",)",,,1,test,1,0,434
+"(""The book about the Impressionists don't disagree."",)",,,0,test,0,1,435
+"(""The paintings of Melanie don't exist."",)",,,1,test,1,0,446
+"(""The paintings of Melanie doesn't exist."",)",,,0,test,0,1,447
+"('The cousins of William whisper.',)",,,1,test,1,0,466
+"('The cousins of William whispers.',)",,,0,test,0,1,467
+"(""The documentaries about music don't hurt Lucille."",)",,,1,test,1,0,492
+"(""The documentaries about music doesn't hurt Lucille."",)",,,0,test,0,1,493
+"('The brothers of Bill hate Timothy.',)",,,1,test,1,0,494
+"('The brothers of Bill hates Timothy.',)",,,0,test,0,1,495
+"(""The photograph of all patients isn't bothering the customer."",)",,,1,test,1,0,514
+"(""The photograph of all patients aren't bothering the customer."",)",,,0,test,0,1,515
+"(""The daughter of some waiters wasn't sneezing."",)",,,1,test,1,0,534
+"(""The daughter of some waiters aren't sneezing."",)",,,0,test,0,1,535
+"('The drawings of a movie theater embarrass Candice.',)",,,1,test,1,0,550
+"('The drawings of a movie theater embarrasses Candice.',)",,,0,test,0,1,551
+"(""A son of all drivers hasn't concealed who is lifting the apples."",)",,,1,test,1,0,572
+"(""A son of all drivers haven't concealed who is lifting the apples."",)",,,0,test,0,1,573
+"('The prints of Rachel have impressed Kendra.',)",,,1,test,1,0,578
+"('The prints of Rachel has impressed Kendra.',)",,,0,test,0,1,579
+"(""The newspaper articles about art don't distract Joel."",)",,,1,test,1,0,590
+"(""The newspaper articles about art doesn't distract Joel."",)",,,0,test,0,1,591
+"('The paintings of Beverly have disgusted that woman.',)",,,1,test,1,0,592
+"('The paintings of Beverly has disgusted that woman.',)",,,0,test,0,1,593
+"('The pamphlets about Monet disappear.',)",,,1,test,1,0,622
+"('The pamphlets about Monet disappears.',)",,,0,test,0,1,623
+"('The grandfathers of Bethany have compelled that organization to like Steven.',)",,,1,test,1,0,630
+"('The grandfathers of Bethany has compelled that organization to like Steven.',)",,,0,test,0,1,631
+"(""The commentary about the Balkans hasn't stunned Wendy."",)",,,1,test,1,0,652
+"(""The commentary about the Balkans haven't stunned Wendy."",)",,,0,test,0,1,653
+"(""The grandmothers of Gary aren't managing to shock many teenagers."",)",,,1,test,1,0,662
+"(""The grandmothers of Gary isn't managing to shock many teenagers."",)",,,0,test,0,1,663
+"('The prints of Erin were confusing every company.',)",,,1,test,1,0,668
+"('The prints of Erin is confusing every company.',)",,,0,test,0,1,669
+"(""The sons of Beverly don't fail to buy those mushrooms."",)",,,1,test,1,0,672
+"(""The sons of Beverly doesn't fail to buy those mushrooms."",)",,,0,test,0,1,673
+"('The mother of the Impressionists swallows.',)",,,1,test,1,0,684
+"('The mother of the Impressionists swallow.',)",,,0,test,0,1,685
+"(""The movies about Harvard University haven't astounded Kevin."",)",,,1,test,1,0,694
+"(""The movies about Harvard University hasn't astounded Kevin."",)",,,0,test,0,1,695
+"(""The granddaughters of every customer don't fire a waitress."",)",,,1,test,1,0,696
+"(""The granddaughters of every customer doesn't fire a waitress."",)",,,0,test,0,1,697
+"('A print of the dresses astounds Regina.',)",,,1,test,1,0,702
+"('A print of the dresses astound Regina.',)",,,0,test,0,1,703
+"('A pamphlet about the Borgias aggravates most hospitals.',)",,,1,test,1,0,704
+"('A pamphlet about the Borgias aggravate most hospitals.',)",,,0,test,0,1,705
+"('The drawing of the carriages astounds Anne.',)",,,1,test,1,0,710
+"('The drawing of the carriages astound Anne.',)",,,0,test,0,1,711
+"(""A granddaughter of the Impressionists isn't revealing the cake."",)",,,1,test,1,0,720
+"(""A granddaughter of the Impressionists weren't revealing the cake."",)",,,0,test,0,1,721
+"(""The story about the Great Lakes hasn't shocked Beverly."",)",,,1,test,1,0,722
+"(""The story about the Great Lakes haven't shocked Beverly."",)",,,0,test,0,1,723
+"(""The sketches of that hair aren't hurting Martin."",)",,,1,test,1,0,736
+"(""The sketches of that hair wasn't hurting Martin."",)",,,0,test,0,1,737
+"('A sister of the men was breaking the wheelbarrows.',)",,,1,test,1,0,748
+"('A sister of the men were breaking the wheelbarrows.',)",,,0,test,0,1,749
+"('The grandmothers of Roger are compromising.',)",,,1,test,1,0,760
+"('The grandmothers of Roger is compromising.',)",,,0,test,0,1,761
+"(""The shows about Monet don't confuse Andrea."",)",,,1,test,1,0,764
+"(""The shows about Monet doesn't confuse Andrea."",)",,,0,test,0,1,765
+"('The plays about Spain do irritate this guest.',)",,,1,test,1,0,768
+"('The plays about Spain does irritate this guest.',)",,,0,test,0,1,769
+"(""A nephew of many people doesn't bake."",)",,,1,test,1,0,772
+"(""A nephew of many people don't bake."",)",,,0,test,0,1,773
+"(""The sister of all teenagers doesn't lift a lot of skirts."",)",,,1,test,1,0,774
+"(""The sister of all teenagers don't lift a lot of skirts."",)",,,0,test,0,1,775
+"('The grandfather of the Clintons responds.',)",,,1,test,1,0,782
+"('The grandfather of the Clintons respond.',)",,,0,test,0,1,783
+"('The sisters of Alan do win.',)",,,1,test,1,0,796
+"('The sisters of Alan does win.',)",,,0,test,0,1,797
+"('A movie about the Balkans bothers most boys.',)",,,1,test,1,0,824
+"('A movie about the Balkans bother most boys.',)",,,0,test,0,1,825
+"('The movie about the Balkans does aggravate Bethany.',)",,,1,test,1,0,828
+"('The movie about the Balkans do aggravate Bethany.',)",,,0,test,0,1,829
+"('A newspaper article about the Impressionists does annoy Larry.',)",,,1,test,1,0,838
+"('A newspaper article about the Impressionists do annoy Larry.',)",,,0,test,0,1,839
+"(""The grandsons of Tiffany haven't required Lisa's brother to irritate this association."",)",,,1,test,1,0,846
+"(""The grandsons of Tiffany hasn't required Lisa's brother to irritate this association."",)",,,0,test,0,1,847
+"(""The nieces of that lady don't ascertain all legislatures to testify."",)",,,1,test,1,0,868
+"(""The nieces of that lady doesn't ascertain all legislatures to testify."",)",,,0,test,0,1,869
+"('A drawing of all steps was looking like that drawing.',)",,,1,test,1,0,870
+"('A drawing of all steps are looking like that drawing.',)",,,0,test,0,1,871
+"(""The nieces of Angela don't annoy Carl."",)",,,1,test,1,0,872
+"(""The nieces of Angela doesn't annoy Carl."",)",,,0,test,0,1,873
+"('The stories about music have stunned Elizabeth.',)",,,1,test,1,0,874
+"('The stories about music has stunned Elizabeth.',)",,,0,test,0,1,875
+"('The newspaper articles about Monet disappear.',)",,,1,test,1,0,876
+"('The newspaper articles about Monet disappears.',)",,,0,test,0,1,877
+"(""The book about the Impressionists doesn't vanish."",)",,,1,test,1,0,882
+"(""The book about the Impressionists don't vanish."",)",,,0,test,0,1,883
+"('The movie about the Great Lakes distracts Florence.',)",,,1,test,1,0,900
+"('The movie about the Great Lakes distract Florence.',)",,,0,test,0,1,901
+"('A drawing of a lot of carts has embarrassed many museums.',)",,,1,test,1,0,902
+"('A drawing of a lot of carts have embarrassed many museums.',)",,,0,test,0,1,903
+"('The paintings of Joel were looking like all prints.',)",,,1,test,1,0,904
+"('The paintings of Joel was looking like all prints.',)",,,0,test,0,1,905
+"(""The paintings of this broccoli don't stun Roger."",)",,,1,test,1,0,916
+"(""The paintings of this broccoli doesn't stun Roger."",)",,,0,test,0,1,917
+"('The essays about science do disgust that legislature.',)",,,1,test,1,0,926
+"('The essays about science does disgust that legislature.',)",,,0,test,0,1,927
+"('The commentaries about music stun those companies.',)",,,1,test,1,0,948
+"('The commentaries about music stuns those companies.',)",,,0,test,0,1,949
+"('The mothers of Monica were attacking Victoria.',)",,,1,test,1,0,960
+"('The mothers of Monica is attacking Victoria.',)",,,0,test,0,1,961
+"(""The grandmother of a lot of actresses wasn't discovering who hadn't responded."",)",,,1,test,1,0,964
+"(""The grandmother of a lot of actresses weren't discovering who hadn't responded."",)",,,0,test,0,1,965
+"('The reports about literature do impress Omar.',)",,,1,test,1,0,968
+"('The reports about literature does impress Omar.',)",,,0,test,0,1,969
+"('A commentary about the Borgias was boring Colleen.',)",,,1,test,1,0,970
+"('A commentary about the Borgias are boring Colleen.',)",,,0,test,0,1,971
+"(""The mother of the Impressionists doesn't annoy Dan."",)",,,1,test,1,0,974
+"(""The mother of the Impressionists don't annoy Dan."",)",,,0,test,0,1,975
+"(""The paintings of Danielle weren't aggravating Galileo."",)",,,1,test,1,0,980
+"(""The paintings of Danielle isn't aggravating Galileo."",)",,,0,test,0,1,981
+"('The pamphlets about Monet have sounded like public parks.',)",,,1,test,1,0,996
+"('The pamphlets about Monet has sounded like public parks.',)",,,0,test,0,1,997
+"('The print of those projectors confuses Tara.',)",,,1,test,1,0,1004
+"('The print of those projectors confuse Tara.',)",,,0,test,0,1,1005
+"('A commentary about the Clintons does irritate Marla.',)",,,1,test,1,0,1008
+"('A commentary about the Clintons do irritate Marla.',)",,,0,test,0,1,1009
+"('The mothers of Joel have attacked Bethany.',)",,,1,test,1,0,1016
+"('The mothers of Joel has attacked Bethany.',)",,,0,test,0,1,1017
+"('The brother of those adults does forget Kristen.',)",,,1,test,1,0,1026
+"('The brother of those adults do forget Kristen.',)",,,0,test,0,1,1027
+"('The book about the Clintons does disturb the hospital.',)",,,1,test,1,0,1032
+"('The book about the Clintons do disturb the hospital.',)",,,0,test,0,1,1033
+"(""The movie about the Balkans isn't irritating Tammy."",)",,,1,test,1,0,1036
+"(""The movie about the Balkans aren't irritating Tammy."",)",,,0,test,0,1,1037
+"('The fathers of George were scanning that report.',)",,,1,test,1,0,1038
+"('The fathers of George was scanning that report.',)",,,0,test,0,1,1039
+"(""The sister of all cashiers forces Andrea's best friend to cry."",)",,,1,test,1,0,1044
+"(""The sister of all cashiers force Andrea's best friend to cry."",)",,,0,test,0,1,1045
+"(""The paintings of a gate haven't worried that hospital."",)",,,1,test,1,0,1052
+"(""The paintings of a gate hasn't worried that hospital."",)",,,0,test,0,1,1053
+"('The pamphlets about Harvard University upset Dennis.',)",,,1,test,1,0,1090
+"('The pamphlets about Harvard University upsets Dennis.',)",,,0,test,0,1,1091
+"(""The mother of those teenagers hasn't screamed."",)",,,1,test,1,0,1092
+"(""The mother of those teenagers haven't screamed."",)",,,0,test,0,1,1093
+"(""A newspaper article about the Impressionists hasn't disappeared."",)",,,1,test,1,0,1100
+"(""A newspaper article about the Impressionists haven't disappeared."",)",,,0,test,0,1,1101
+"(""The granddaughters of Bill don't spin around."",)",,,1,test,1,0,1110
+"(""The granddaughters of Bill doesn't spin around."",)",,,0,test,0,1,1111
+"('The documentaries about Spain do disgust Sally.',)",,,1,test,1,0,1114
+"('The documentaries about Spain does disgust Sally.',)",,,0,test,0,1,1115
+"(""A mother of a lot of drivers wasn't requiring every legislature to appreciate some high school."",)",,,1,test,1,0,1126
+"(""A mother of a lot of drivers weren't requiring every legislature to appreciate some high school."",)",,,0,test,0,1,1127
+"('The grandfathers of Carmen do oblige every museum to debate.',)",,,1,test,1,0,1142
+"('The grandfathers of Carmen does oblige every museum to debate.',)",,,0,test,0,1,1143
+"('The pamphlet about the Clintons vanishes.',)",,,1,test,1,0,1146
+"('The pamphlet about the Clintons vanish.',)",,,0,test,0,1,1147
+"('The son of all actresses fails to fall apart.',)",,,1,test,1,0,1148
+"('The son of all actresses fail to fall apart.',)",,,0,test,0,1,1149
+"('The brother of some girls is going fishing.',)",,,1,test,1,0,1182
+"('The brother of some girls were going fishing.',)",,,0,test,0,1,1183
+"('The newspaper article about the Lutherans was annoying waitresses.',)",,,1,test,1,0,1184
+"('The newspaper article about the Lutherans are annoying waitresses.',)",,,0,test,0,1,1185
+"(""The granddaughters of Dawn weren't arguing about Pamela."",)",,,1,test,1,0,1192
+"(""The granddaughters of Dawn wasn't arguing about Pamela."",)",,,0,test,0,1,1193
+"('The essay about the Great Lakes confuses Brett.',)",,,1,test,1,0,1202
+"('The essay about the Great Lakes confuse Brett.',)",,,0,test,0,1,1203
+"(""The nephew of most cashiers wasn't talking."",)",,,1,test,1,0,1220
+"(""The nephew of most cashiers aren't talking."",)",,,0,test,0,1,1221
+"('A niece of a lot of cashiers implores Matt to ascend a lot of steps.',)",,,1,test,1,0,1226
+"('A niece of a lot of cashiers implore Matt to ascend a lot of steps.',)",,,0,test,0,1,1227
+"(""The pictures of Leslie haven't bored Debra."",)",,,1,test,1,0,1242
+"(""The pictures of Leslie hasn't bored Debra."",)",,,0,test,0,1,1243
+"('The stories about Jesus win.',)",,,1,test,1,0,1246
+"('The stories about Jesus wins.',)",,,0,test,0,1,1247
+"(""A son of most doctors wasn't looking to insult Suzanne."",)",,,1,test,1,0,1266
+"(""A son of most doctors aren't looking to insult Suzanne."",)",,,0,test,0,1,1267
+"(""A nephew of ladies doesn't see."",)",,,1,test,1,0,1292
+"(""A nephew of ladies don't see."",)",,,0,test,0,1,1293
+"('A drawing of the Borgias was upsetting Regina.',)",,,1,test,1,0,1312
+"('A drawing of the Borgias were upsetting Regina.',)",,,0,test,0,1,1313
+"('The paintings of a coat do disgust Dana.',)",,,1,test,1,0,1314
+"('The paintings of a coat does disgust Dana.',)",,,0,test,0,1,1315
+"('The documentaries about science hurt a lot of guys.',)",,,1,test,1,0,1322
+"('The documentaries about science hurts a lot of guys.',)",,,0,test,0,1,1323
+"(""A brother of those patients doesn't eat."",)",,,1,test,1,0,1342
+"(""A brother of those patients don't eat."",)",,,0,test,0,1,1343
+"(""The shows about Galileo don't distract all patients."",)",,,1,test,1,0,1348
+"(""The shows about Galileo doesn't distract all patients."",)",,,0,test,0,1,1349
+"('A daughter of the Lutherans was referencing Rodney.',)",,,1,test,1,0,1358
+"('A daughter of the Lutherans are referencing Rodney.',)",,,0,test,0,1,1359
+"(""The shows about Monet aren't hurting these cashiers."",)",,,1,test,1,0,1376
+"(""The shows about Monet wasn't hurting these cashiers."",)",,,0,test,0,1,1377
+"(""The book about the Impressionists hasn't aggravated Tanya."",)",,,1,test,1,0,1378
+"(""The book about the Impressionists haven't aggravated Tanya."",)",,,0,test,0,1,1379
+"('The grandsons of Victoria have blinked.',)",,,1,test,1,0,1380
+"('The grandsons of Victoria has blinked.',)",,,0,test,0,1,1381
+"(""The grandmothers of Peter weren't imagining that adult hugged Mary."",)",,,1,test,1,0,1408
+"(""The grandmothers of Peter wasn't imagining that adult hugged Mary."",)",,,0,test,0,1,1409
+"('A nephew of the patients has blinked.',)",,,1,test,1,0,1410
+"('A nephew of the patients have blinked.',)",,,0,test,0,1,1411
+"('A book about current events impresses Becky.',)",,,1,test,1,0,1412
+"('A book about current events impress Becky.',)",,,0,test,0,1,1413
+"(""The grandfathers of Heidi don't plan to shock Randolf."",)",,,1,test,1,0,1414
+"(""The grandfathers of Heidi doesn't plan to shock Randolf."",)",,,0,test,0,1,1415
+"(""A sister of all girls doesn't implore Diana to fall asleep."",)",,,1,test,1,0,1420
+"(""A sister of all girls don't implore Diana to fall asleep."",)",,,0,test,0,1,1421
+"('The books about Monet disappear.',)",,,1,test,1,0,1434
+"('The books about Monet disappears.',)",,,0,test,0,1,1435
+"('The plays about art annoy a senator.',)",,,1,test,1,0,1438
+"('The plays about art annoys a senator.',)",,,0,test,0,1,1439
+"(""The granddaughters of Eva have explained these libraries aren't tempting Carolyn to reveal Ellen."",)",,,1,test,1,0,1442
+"(""The granddaughters of Eva has explained these libraries aren't tempting Carolyn to reveal Ellen."",)",,,0,test,0,1,1443
+"(""The stories about travel weren't alarming Rodney."",)",,,1,test,1,0,1470
+"(""The stories about travel wasn't alarming Rodney."",)",,,0,test,0,1,1471
+"(""A sister of many boys doesn't appear to clash."",)",,,1,test,1,0,1476
+"(""A sister of many boys don't appear to clash."",)",,,0,test,0,1,1477
+"('A grandson of these men presses Omar to listen to Clyde.',)",,,1,test,1,0,1482
+"('A grandson of these men press Omar to listen to Clyde.',)",,,0,test,0,1,1483
+"('The sketches of chicken astound Veronica.',)",,,1,test,1,0,1486
+"('The sketches of chicken astounds Veronica.',)",,,0,test,0,1,1487
+"(""A painting of some carriages wasn't scaring David."",)",,,1,test,1,0,1494
+"(""A painting of some carriages weren't scaring David."",)",,,0,test,0,1,1495
+"(""The pamphlet about current events doesn't worry a university."",)",,,1,test,1,0,1496
+"(""The pamphlet about current events don't worry a university."",)",,,0,test,0,1,1497
+"(""The grandfathers of Meredith aren't scanning the commentaries."",)",,,1,test,1,0,1510
+"(""The grandfathers of Meredith wasn't scanning the commentaries."",)",,,0,test,0,1,1511
+"(""The grandfather of the Lutherans doesn't investigate what are benefiting."",)",,,1,test,1,0,1514
+"(""The grandfather of the Lutherans don't investigate what are benefiting."",)",,,0,test,0,1,1515
+"(""The books about Spain don't bore doctors."",)",,,1,test,1,0,1524
+"(""The books about Spain doesn't bore doctors."",)",,,0,test,0,1,1525
+"('The documentaries about Galileo do scare John.',)",,,1,test,1,0,1532
+"('The documentaries about Galileo does scare John.',)",,,0,test,0,1,1533
+"('The nieces of James have murmured.',)",,,1,test,1,0,1540
+"('The nieces of James has murmured.',)",,,0,test,0,1,1541
+"('A pamphlet about current events does shock Brian.',)",,,1,test,1,0,1544
+"('A pamphlet about current events do shock Brian.',)",,,0,test,0,1,1545
+"('The drawings of a photograph have looked like the woman.',)",,,1,test,1,0,1558
+"('The drawings of a photograph has looked like the woman.',)",,,0,test,0,1,1559
+"(""The brothers of Travis weren't revealing Melanie."",)",,,1,test,1,0,1564
+"(""The brothers of Travis isn't revealing Melanie."",)",,,0,test,0,1,1565
+"('The niece of the waiters does concur.',)",,,1,test,1,0,1596
+"('The niece of the waiters do concur.',)",,,0,test,0,1,1597
+"(""The prints of every painting haven't looked like a rabbit."",)",,,1,test,1,0,1608
+"(""The prints of every painting hasn't looked like a rabbit."",)",,,0,test,0,1,1609
+"(""The pamphlets about travel weren't embarrassing a bank."",)",,,1,test,1,0,1642
+"(""The pamphlets about travel wasn't embarrassing a bank."",)",,,0,test,0,1,1643
+"('The commentaries about Winston Churchill have shocked Kimberley.',)",,,1,test,1,0,1650
+"('The commentaries about Winston Churchill has shocked Kimberley.',)",,,0,test,0,1,1651
+"('The pictures of some car astound James.',)",,,1,test,1,0,1698
+"('The pictures of some car astounds James.',)",,,0,test,0,1,1699
+"(""A print of all high schools hasn't distracted Kevin."",)",,,1,test,1,0,1700
+"(""A print of all high schools haven't distracted Kevin."",)",,,0,test,0,1,1701
+"(""The brother of all women hasn't walked through that hill."",)",,,1,test,1,0,1704
+"(""The brother of all women haven't walked through that hill."",)",,,0,test,0,1,1705
+"(""A story about the Balkans wasn't embarrassing Ella."",)",,,1,test,1,0,1706
+"(""A story about the Balkans aren't embarrassing Ella."",)",,,0,test,0,1,1707
+"('The pictures of some hat were scaring Marcus.',)",,,1,test,1,0,1724
+"('The pictures of some hat is scaring Marcus.',)",,,0,test,0,1,1725
+"('A father of a lot of ladies heals Meredith.',)",,,1,test,1,0,1736
+"('A father of a lot of ladies heal Meredith.',)",,,0,test,0,1,1737
+"(""The documentary about the Balkans hasn't confused April."",)",,,1,test,1,0,1740
+"(""The documentary about the Balkans haven't confused April."",)",,,0,test,0,1,1741
+"(""A nephew of these senators hasn't scared Sally."",)",,,1,test,1,0,1754
+"(""A nephew of these senators haven't scared Sally."",)",,,0,test,0,1,1755
+"('The granddaughter of all senators leaves Eric.',)",,,1,test,1,0,1764
+"('The granddaughter of all senators leave Eric.',)",,,0,test,0,1,1765
+"(""The niece of the Clintons isn't talking about all libraries."",)",,,1,test,1,0,1766
+"(""The niece of the Clintons weren't talking about all libraries."",)",,,0,test,0,1,1767
+"('The print of those gloves does resemble some sketch.',)",,,1,test,1,0,1782
+"('The print of those gloves do resemble some sketch.',)",,,0,test,0,1,1783
+"('The pamphlets about art were scaring the Lutherans.',)",,,1,test,1,0,1788
+"('The pamphlets about art was scaring the Lutherans.',)",,,0,test,0,1,1789
+"('The sketches of some bird have upset Beverly.',)",,,1,test,1,0,1790
+"('The sketches of some bird has upset Beverly.',)",,,0,test,0,1,1791
+"(""The fathers of Rhonda aren't spurring Lawrence's plumbers to complain about Lawrence."",)",,,1,test,1,0,1794
+"(""The fathers of Rhonda wasn't spurring Lawrence's plumbers to complain about Lawrence."",)",,,0,test,0,1,1795
+"('The mothers of a customer have continued to hide this box.',)",,,1,test,1,0,1796
+"('The mothers of a customer has continued to hide this box.',)",,,0,test,0,1,1797
+"('The sketch of these pictures alarms April.',)",,,1,test,1,0,1798
+"('The sketch of these pictures alarm April.',)",,,0,test,0,1,1799
+"('The niece of some men is advising Barbara to climb up hills.',)",,,1,test,1,0,1804
+"('The niece of some men were advising Barbara to climb up hills.',)",,,0,test,0,1,1805
+"('The sister of a lot of drivers responds.',)",,,1,test,1,0,1808
+"('The sister of a lot of drivers respond.',)",,,0,test,0,1,1809
+"('A friend of these teenagers is training.',)",,,1,test,1,0,1824
+"('A friend of these teenagers are training.',)",,,0,test,0,1,1825
+"('A friend of the customers has pressed Stephen to fire James.',)",,,1,test,1,0,1826
+"('A friend of the customers have pressed Stephen to fire James.',)",,,0,test,0,1,1827
+"('A picture of many drivers does alarm Samantha.',)",,,1,test,1,0,1842
+"('A picture of many drivers do alarm Samantha.',)",,,0,test,0,1,1843
+"(""The nephews of Cynthia don't shout."",)",,,1,test,1,0,1848
+"(""The nephews of Cynthia doesn't shout."",)",,,0,test,0,1,1849
+"(""The photograph of some movie theaters isn't alarming a lot of museums."",)",,,1,test,1,0,1864
+"(""The photograph of some movie theaters weren't alarming a lot of museums."",)",,,0,test,0,1,1865
+"('A newspaper article about the Borgias vanishes.',)",,,1,test,1,0,1872
+"('A newspaper article about the Borgias vanish.',)",,,0,test,0,1,1873
+"(""The nephews of Edward aren't running around a grocery store."",)",,,1,test,1,0,1882
+"(""The nephews of Edward wasn't running around a grocery store."",)",,,0,test,0,1,1883
+"('The niece of a lot of actresses is appreciating Clyde.',)",,,1,test,1,0,1884
+"('The niece of a lot of actresses were appreciating Clyde.',)",,,0,test,0,1,1885
+"(""The fathers of Patricia haven't anticipated Irene to flee from Becca."",)",,,1,test,1,0,1888
+"(""The fathers of Patricia hasn't anticipated Irene to flee from Becca."",)",,,0,test,0,1,1889
+"('A father of those waiters has appeared to help Ronald.',)",,,1,test,1,0,1906
+"('A father of those waiters have appeared to help Ronald.',)",,,0,test,0,1,1907
+"('The brochure about the Clintons aggravates every museum.',)",,,1,test,1,0,1908
+"('The brochure about the Clintons aggravate every museum.',)",,,0,test,0,1,1909
+"(""A print of a lot of senators hasn't confused Denise."",)",,,1,test,1,0,1926
+"(""A print of a lot of senators haven't confused Denise."",)",,,0,test,0,1,1927
+"('The nephews of Beverly are urging Spain to surrender.',)",,,1,test,1,0,1940
+"('The nephews of Beverly is urging Spain to surrender.',)",,,0,test,0,1,1941
+"('The commentary about current events annoys Kirsten.',)",,,1,test,1,0,1954
+"('The commentary about current events annoy Kirsten.',)",,,0,test,0,1,1955
+"('The sketches of some window worry Stephanie.',)",,,1,test,1,0,1958
+"('The sketches of some window worries Stephanie.',)",,,0,test,0,1,1959
+"(""The cousins of Jason haven't realized who believed Cindy to research some college campuses."",)",,,1,test,1,0,1964
+"(""The cousins of Jason hasn't realized who believed Cindy to research some college campuses."",)",,,0,test,0,1,1965
+"('The pamphlets about Jesus are appearing.',)",,,1,test,1,0,1966
+"('The pamphlets about Jesus is appearing.',)",,,0,test,0,1,1967
+"('The mother of most drivers has praised Veronica.',)",,,1,test,1,0,1976
+"('The mother of most drivers have praised Veronica.',)",,,0,test,0,1,1977
+"('The newspaper articles about Winston Churchill win.',)",,,1,test,1,0,1988
+"('The newspaper articles about Winston Churchill wins.',)",,,0,test,0,1,1989

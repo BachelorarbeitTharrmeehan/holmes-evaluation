@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('Every fish was there astounding Sally.',)",,,1,train,1,0,2
+"('There was every fish astounding Sally.',)",,,0,train,0,1,3
+"('Every documentary is there annoying Anna.',)",,,1,train,1,0,6
+"('There is every documentary annoying Anna.',)",,,0,train,0,1,7
+"('Each screen is there alarming Tara.',)",,,1,train,1,0,14
+"('There is each screen alarming Tara.',)",,,0,train,0,1,15
+"(""Most universities weren't there hurting this child."",)",,,1,train,1,0,16
+"(""There weren't most universities hurting this child."",)",,,0,train,0,1,17
+"('Each book is there disturbing Margaret.',)",,,1,train,1,0,18
+"('There is each book disturbing Margaret.',)",,,0,train,0,1,19
+"('Most shows about the Great Lakes are there distracting Lisa.',)",,,1,train,1,0,26
+"('There are most shows about the Great Lakes distracting Lisa.',)",,,0,train,0,1,27
+"('Most nephews of Irene were there telephoning.',)",,,1,train,1,0,28
+"('There were most nephews of Irene telephoning.',)",,,0,train,0,1,29
+"('Every story was there hurting Judy.',)",,,1,train,1,0,32
+"('There was every story hurting Judy.',)",,,0,train,0,1,33
+"(""Most computers weren't there alarming Sabrina."",)",,,1,train,1,0,36
+"(""There weren't most computers alarming Sabrina."",)",,,0,train,0,1,37
+"(""Every computer wasn't there shocking that actress."",)",,,1,train,1,0,38
+"(""There wasn't every computer shocking that actress."",)",,,0,train,0,1,39
+"(""Most reports aren't there disappearing."",)",,,1,train,1,0,40
+"(""There aren't most reports disappearing."",)",,,0,train,0,1,41
+"('Each university was there worrying.',)",,,1,train,1,0,42
+"('There was each university worrying.',)",,,0,train,0,1,43
+"(""Every popsicle isn't there wasting away."",)",,,1,train,1,0,44
+"(""There isn't every popsicle wasting away."",)",,,0,train,0,1,45
+"(""All granddaughters of Donald weren't there confusing this doctor."",)",,,1,train,1,0,46
+"(""There weren't all granddaughters of Donald confusing this doctor."",)",,,0,train,0,1,47
+"(""Every coat wasn't there twirling."",)",,,1,train,1,0,50
+"(""There wasn't every coat twirling."",)",,,0,train,0,1,51
+"(""Each essay isn't there embarrassing Kenneth."",)",,,1,train,1,0,54
+"(""There isn't each essay embarrassing Kenneth."",)",,,0,train,0,1,55
+"('All dancers are there talking to Pamela.',)",,,1,train,1,0,60
+"('There are all dancers talking to Pamela.',)",,,0,train,0,1,61
+"(""Most sisters of Veronica weren't there clashing."",)",,,1,train,1,0,62
+"(""There weren't most sisters of Veronica clashing."",)",,,0,train,0,1,63
+"('All lights are there distracting Sarah.',)",,,1,train,1,0,64
+"('There are all lights distracting Sarah.',)",,,0,train,0,1,65
+"(""All daughters of these teachers weren't there messing up pants."",)",,,1,train,1,0,66
+"(""There weren't all daughters of these teachers messing up pants."",)",,,0,train,0,1,67
+"(""Every casserole isn't there looking like a lot of sketches."",)",,,1,train,1,0,68
+"(""There isn't every casserole looking like a lot of sketches."",)",,,0,train,0,1,69
+"('Each picture is there appearing.',)",,,1,train,1,0,72
+"(""All sisters of Roger weren't there going to this school."",)",,,1,dev,1,0,4
+"(""There weren't all sisters of Roger going to this school."",)",,,0,dev,0,1,5
+"(""Every newspaper article wasn't there wasting away."",)",,,1,dev,1,0,10
+"(""There wasn't every newspaper article wasting away."",)",,,0,dev,0,1,11
+"(""Most cars weren't there scaring Kendra."",)",,,1,dev,1,0,48
+"(""There weren't most cars scaring Kendra."",)",,,0,dev,0,1,49
+"('All bikes are there embarrassing Brian.',)",,,1,dev,1,0,52
+"('There are all bikes embarrassing Brian.',)",,,0,dev,0,1,53
+"('Most boys are there divorcing.',)",,,1,dev,1,0,132
+"('There are most boys divorcing.',)",,,0,dev,0,1,133
+"('Each casserole is there alarming Anne.',)",,,1,dev,1,0,142
+"('There is each casserole alarming Anne.',)",,,0,dev,0,1,143
+"(""All windows aren't there alarming a committee."",)",,,1,dev,1,0,154
+"(""There aren't all windows alarming a committee."",)",,,0,dev,0,1,155
+"(""Every doctor wasn't there existing."",)",,,1,dev,1,0,156
+"(""There wasn't every doctor existing."",)",,,0,dev,0,1,157
+"('Most libraries were there boring Sally.',)",,,1,dev,1,0,172
+"('There were most libraries boring Sally.',)",,,0,dev,0,1,173
+"('Most waiters were there worrying Carla.',)",,,1,dev,1,0,184
+"('There were most waiters worrying Carla.',)",,,0,dev,0,1,185
+"('All waiters are there fleeing from Eva.',)",,,1,dev,1,0,220
+"('There are all waiters fleeing from Eva.',)",,,0,dev,0,1,221
+"('Each jacket is there existing.',)",,,1,dev,1,0,234
+"('There is each jacket existing.',)",,,0,dev,0,1,235
+"('Each banana was there astounding Candice.',)",,,1,dev,1,0,266
+"('There was each banana astounding Candice.',)",,,0,dev,0,1,267
+"(""All movies weren't there winning."",)",,,1,dev,1,0,292
+"(""There weren't all movies winning."",)",,,0,dev,0,1,293
+"(""All movies about the Borgias weren't there winning."",)",,,1,dev,1,0,342
+"(""There weren't all movies about the Borgias winning."",)",,,0,dev,0,1,343
+"('Most snakes are there disappearing.',)",,,1,dev,1,0,354
+"('There are most snakes disappearing.',)",,,0,dev,0,1,355
+"(""All cats weren't there irritating Lawrence."",)",,,1,dev,1,0,362
+"(""There weren't all cats irritating Lawrence."",)",,,0,dev,0,1,363
+"('Most pies are there shocking Brett.',)",,,1,dev,1,0,368
+"('There are most pies shocking Brett.',)",,,0,dev,0,1,369
+"(""Most wheelbarrows weren't there disturbing Brenda."",)",,,1,dev,1,0,370
+"(""There weren't most wheelbarrows disturbing Brenda."",)",,,0,dev,0,1,371
+"('All drawings of every box were there existing.',)",,,1,dev,1,0,384
+"('There were all drawings of every box existing.',)",,,0,dev,0,1,385
+"(""Every unicycle isn't there impressing Sabrina."",)",,,1,dev,1,0,388
+"(""There isn't every unicycle impressing Sabrina."",)",,,0,dev,0,1,389
+"(""Each mirror wasn't there wasting away."",)",,,1,dev,1,0,390
+"(""There wasn't each mirror wasting away."",)",,,0,dev,0,1,391
+"('Most shows about art are there scaring Samuel.',)",,,1,dev,1,0,424
+"('There are most shows about art scaring Samuel.',)",,,0,dev,0,1,425
+"('Each school is there discovering every lamp to brighten.',)",,,1,dev,1,0,488
+"('There is each school discovering every lamp to brighten.',)",,,0,dev,0,1,489
+"('Each photograph was there stunning Amelia.',)",,,1,dev,1,0,508
+"('There was each photograph stunning Amelia.',)",,,0,dev,0,1,509
+"(""All icicles aren't there disappearing."",)",,,1,dev,1,0,518
+"(""There aren't all icicles disappearing."",)",,,0,dev,0,1,519
+"('All grandsons of Aaron were there disappearing.',)",,,1,dev,1,0,524
+"('There were all grandsons of Aaron disappearing.',)",,,0,dev,0,1,525
+"(""Each play about the Lutherans isn't there bothering Deanna."",)",,,1,dev,1,0,550
+"(""There isn't each play about the Lutherans bothering Deanna."",)",,,0,dev,0,1,551
+"(""All movie theaters aren't there impressing libraries."",)",,,1,dev,1,0,624
+"(""There aren't all movie theaters impressing libraries."",)",,,0,dev,0,1,625
+"(""Most stairs weren't there appearing."",)",,,1,dev,1,0,640
+"(""There weren't most stairs appearing."",)",,,0,dev,0,1,641
+"('All peppers are there existing.',)",,,1,dev,1,0,642
+"('There are all peppers existing.',)",,,0,dev,0,1,643
+"('All reports about the Borgias are there aggravating some organizations.',)",,,1,dev,1,0,658
+"('There are all reports about the Borgias aggravating some organizations.',)",,,0,dev,0,1,659
+"(""All slopes weren't there distracting Sonia."",)",,,1,dev,1,0,664
+"(""There weren't all slopes distracting Sonia."",)",,,0,dev,0,1,665
+"(""Every grandfather of Jeffrey isn't there hurting Ruth."",)",,,1,dev,1,0,696
+"(""There isn't every grandfather of Jeffrey hurting Ruth."",)",,,0,dev,0,1,697
+"(""Each senator was there obligating Diana's partners to argue."",)",,,1,dev,1,0,706
+"(""There was each senator obligating Diana's partners to argue."",)",,,0,dev,0,1,707
+"('All schools were there praising Peter.',)",,,1,dev,1,0,730
+"('There were all schools praising Peter.',)",,,0,dev,0,1,731
+"(""Every father of Walter wasn't there littering."",)",,,1,dev,1,0,764
+"(""There wasn't every father of Walter littering."",)",,,0,dev,0,1,765
+"('Every pedestrian is there obligating some cashier to examine that newspaper article.',)",,,1,dev,1,0,784
+"('There is every pedestrian obligating some cashier to examine that newspaper article.',)",,,0,dev,0,1,785
+"(""Each mushroom wasn't there embarrassing the dancers."",)",,,1,dev,1,0,818
+"(""There wasn't each mushroom embarrassing the dancers."",)",,,0,dev,0,1,819
+"('All documentaries about the Great Lakes are there scaring Allison.',)",,,1,dev,1,0,826
+"('There are all documentaries about the Great Lakes scaring Allison.',)",,,0,dev,0,1,827
+"('Every play about Winston Churchill is there stunning this boy.',)",,,1,dev,1,0,834
+"('There is every play about Winston Churchill stunning this boy.',)",,,0,dev,0,1,835
+"(""Every library isn't there failing to break every vase."",)",,,1,dev,1,0,846
+"(""There isn't every library failing to break every vase."",)",,,0,dev,0,1,847
+"('Each car is there accelerating.',)",,,1,dev,1,0,848
+"('There is each car accelerating.',)",,,0,dev,0,1,849
+"(""Each lady isn't there helping Danielle."",)",,,1,dev,1,0,856
+"(""There isn't each lady helping Danielle."",)",,,0,dev,0,1,857
+"('All movie theaters were there distracting Becky.',)",,,1,dev,1,0,874
+"('There were all movie theaters distracting Becky.',)",,,0,dev,0,1,875
+"('All granddaughters of Christine were there forgetting who bother those ladies.',)",,,1,dev,1,0,896
+"('There were all granddaughters of Christine forgetting who bother those ladies.',)",,,0,dev,0,1,897
+"(""Most patients are there motivating Jerry's cousins to kiss Kimberley."",)",,,1,dev,1,0,910
+"(""There are most patients motivating Jerry's cousins to kiss Kimberley."",)",,,0,dev,0,1,911
+"(""All prints of a lot of boys aren't there embarrassing this woman."",)",,,1,dev,1,0,916
+"(""There aren't all prints of a lot of boys embarrassing this woman."",)",,,0,dev,0,1,917
+"(""Most newspaper articles weren't there stunning Allison."",)",,,1,dev,1,0,932
+"(""There weren't most newspaper articles stunning Allison."",)",,,0,dev,0,1,933
+"(""Each actress wasn't there arguing about Jerry."",)",,,1,dev,1,0,950
+"(""There wasn't each actress arguing about Jerry."",)",,,0,dev,0,1,951
+"(""All pictures of Candice weren't there boring Benjamin."",)",,,1,dev,1,0,964
+"(""There weren't all pictures of Candice boring Benjamin."",)",,,0,dev,0,1,965
+"(""Every movie wasn't there worrying these girls."",)",,,1,dev,1,0,1030
+"(""There wasn't every movie worrying these girls."",)",,,0,dev,0,1,1031
+"(""Every newspaper article isn't there impressing all hospitals."",)",,,1,dev,1,0,1042
+"(""There isn't every newspaper article impressing all hospitals."",)",,,0,dev,0,1,1043
+"(""All art galleries aren't there alarming Martin."",)",,,1,dev,1,0,1046
+"(""There aren't all art galleries alarming Martin."",)",,,0,dev,0,1,1047
+"('All glasses are there dropping.',)",,,1,dev,1,0,1084
+"('There are all glasses dropping.',)",,,0,dev,0,1,1085
+"(""Every actor wasn't there arriving at every grocery store."",)",,,1,dev,1,0,1108
+"(""There wasn't every actor arriving at every grocery store."",)",,,0,dev,0,1,1109
+"('Each face was there appearing.',)",,,1,dev,1,0,1174
+"('There was each face appearing.',)",,,0,dev,0,1,1175
+"(""All girls aren't there regretting Julie falls."",)",,,1,dev,1,0,1180
+"(""There aren't all girls regretting Julie falls."",)",,,0,dev,0,1,1181
+"('All universities were there listening to Travis.',)",,,1,dev,1,0,1186
+"('There were all universities listening to Travis.',)",,,0,dev,0,1,1187
+"(""Most mothers of Samuel aren't there learning."",)",,,1,dev,1,0,1188
+"(""There aren't most mothers of Samuel learning."",)",,,0,dev,0,1,1189
+"(""Each boy isn't there failing to irritate Robert."",)",,,1,dev,1,0,1200
+"(""There isn't each boy failing to irritate Robert."",)",,,0,dev,0,1,1201
+"(""Most plays aren't there boring Martha."",)",,,1,dev,1,0,1218
+"(""There aren't most plays boring Martha."",)",,,0,dev,0,1,1219
+"(""Most carriages weren't there impressing Patricia."",)",,,1,dev,1,0,1226
+"(""There weren't most carriages impressing Patricia."",)",,,0,dev,0,1,1227
+"('Most restaurants were there upsetting Theresa.',)",,,1,dev,1,0,1230
+"('There were most restaurants upsetting Theresa.',)",,,0,dev,0,1,1231
+"(""Each skateboard isn't there vanishing."",)",,,1,dev,1,0,1236
+"(""There isn't each skateboard vanishing."",)",,,0,dev,0,1,1237
+"(""Each drawing of these forks wasn't there embarrassing Marie."",)",,,1,dev,1,0,1246
+"(""There wasn't each drawing of these forks embarrassing Marie."",)",,,0,dev,0,1,1247
+"(""All lights aren't there stunning James."",)",,,1,dev,1,0,1274
+"(""There aren't all lights stunning James."",)",,,0,dev,0,1,1275
+"(""Every screen isn't there wasting away."",)",,,1,dev,1,0,1294
+"(""There isn't every screen wasting away."",)",,,0,dev,0,1,1295
+"(""All cakes weren't there appearing."",)",,,1,dev,1,0,1310
+"(""There weren't all cakes appearing."",)",,,0,dev,0,1,1311
+"('All movies are there irritating Alicia.',)",,,1,dev,1,0,1354
+"('There are all movies irritating Alicia.',)",,,0,dev,0,1,1355
+"('All drawings were there distracting Brett.',)",,,1,dev,1,0,1378
+"('There were all drawings distracting Brett.',)",,,0,dev,0,1,1379
+"('Each popsicle is there falling.',)",,,1,dev,1,0,1422
+"('There is each popsicle falling.',)",,,0,dev,0,1,1423
+"(""All reports about Galileo weren't there hurting Catherine."",)",,,1,dev,1,0,1436
+"(""There weren't all reports about Galileo hurting Catherine."",)",,,0,dev,0,1,1437
+"(""All cars aren't there impressing David."",)",,,1,dev,1,0,1448
+"(""There aren't all cars impressing David."",)",,,0,dev,0,1,1449
+"(""All doors weren't there aggravating Kendra."",)",,,1,dev,1,0,1482
+"(""There weren't all doors aggravating Kendra."",)",,,0,dev,0,1,1483
+"(""All windows aren't there vanishing."",)",,,1,dev,1,0,1500
+"(""There aren't all windows vanishing."",)",,,0,dev,0,1,1501
+"('Every grocery store was there wasting away.',)",,,1,dev,1,0,1518
+"('There was every grocery store wasting away.',)",,,0,dev,0,1,1519
+"('Every photograph of Erin is there confusing Michelle.',)",,,1,dev,1,0,1532
+"('There is every photograph of Erin confusing Michelle.',)",,,0,dev,0,1,1533
+"('Most books were there irritating all girls.',)",,,1,dev,1,0,1560
+"('There were most books irritating all girls.',)",,,0,dev,0,1,1561
+"('Every shoe is there appearing.',)",,,1,dev,1,0,1572
+"('There is every shoe appearing.',)",,,0,dev,0,1,1573
+"('Every gate is there hurting Eric.',)",,,1,dev,1,0,1628
+"('There is every gate hurting Eric.',)",,,0,dev,0,1,1629
+"('Every sister of Lawrence was there considering Christopher to go to every hill.',)",,,1,dev,1,0,1656
+"('There was every sister of Lawrence considering Christopher to go to every hill.',)",,,0,dev,0,1,1657
+"('Every picture of Heidi was there distracting Catherine.',)",,,1,dev,1,0,1678
+"('There was every picture of Heidi distracting Catherine.',)",,,0,dev,0,1,1679
+"(""Every essay about Winston Churchill wasn't there annoying Larry."",)",,,1,dev,1,0,1684
+"(""There wasn't every essay about Winston Churchill annoying Larry."",)",,,0,dev,0,1,1685
+"(""Most cups aren't there upsetting Phillip."",)",,,1,dev,1,0,1728
+"(""There aren't most cups upsetting Phillip."",)",,,0,dev,0,1,1729
+"(""All books about the Balkans aren't there astounding Angela."",)",,,1,dev,1,0,1730
+"(""There aren't all books about the Balkans astounding Angela."",)",,,0,dev,0,1,1731
+"('Each movie about the Impressionists is there bothering Cheryl.',)",,,1,dev,1,0,1732
+"('There is each movie about the Impressionists bothering Cheryl.',)",,,0,dev,0,1,1733
+"(""Every painting of Stephen wasn't there stunning that guy."",)",,,1,dev,1,0,1748
+"(""There wasn't every painting of Stephen stunning that guy."",)",,,0,dev,0,1,1749
+"('Each shirt was there boring Linda.',)",,,1,dev,1,0,1764
+"('There was each shirt boring Linda.',)",,,0,dev,0,1,1765
+"('Every niece of Beth is there looking like some drawings.',)",,,1,dev,1,0,1786
+"('There is every niece of Beth looking like some drawings.',)",,,0,dev,0,1,1787
+"(""Every hospital wasn't there protesting."",)",,,1,dev,1,0,1800
+"(""There wasn't every hospital protesting."",)",,,0,dev,0,1,1801
+"(""Every father of Anne wasn't there thinking about who discovers who is scratching."",)",,,1,dev,1,0,1818
+"(""There wasn't every father of Anne thinking about who discovers who is scratching."",)",,,0,dev,0,1,1819
+"('Every mountain was there confusing Tamara.',)",,,1,dev,1,0,1826
+"('There was every mountain confusing Tamara.',)",,,0,dev,0,1,1827
+"(""Each cucumber wasn't there confusing Monica."",)",,,1,dev,1,0,1832
+"(""There wasn't each cucumber confusing Monica."",)",,,0,dev,0,1,1833
+"('Every print was there stunning Danielle.',)",,,1,dev,1,0,1896
+"('There was every print stunning Danielle.',)",,,0,dev,0,1,1897
+"('Every child was there revealing who sells most skirts.',)",,,1,dev,1,0,1966
+"('There was every child revealing who sells most skirts.',)",,,0,dev,0,1,1967
+"('Most lights were there darkening.',)",,,1,dev,1,0,1972
+"('There were most lights darkening.',)",,,0,dev,0,1,1973
+"(""Most steps aren't there worrying all universities."",)",,,1,dev,1,0,1974
+"(""There aren't most steps worrying all universities."",)",,,0,dev,0,1,1975
+"('Most pictures were there looking like those photographs.',)",,,1,dev,1,0,1990
+"('There were most pictures looking like those photographs.',)",,,0,dev,0,1,1991
+"(""Most actors aren't there wearing this shoe."",)",,,1,dev,1,0,1998
+"(""There aren't most actors wearing this shoe."",)",,,0,dev,0,1,1999
+"(""All convertibles weren't there existing."",)",,,1,test,1,0,0
+"(""There weren't all convertibles existing."",)",,,0,test,0,1,1
+"('Each government was there hurting Rhonda.',)",,,1,test,1,0,8
+"('There was each government hurting Rhonda.',)",,,0,test,0,1,9
+"(""Every student wasn't there leaving Andrew."",)",,,1,test,1,0,12
+"(""There wasn't every student leaving Andrew."",)",,,0,test,0,1,13
+"('Each art gallery was there irritating a lot of committees.',)",,,1,test,1,0,20
+"('There was each art gallery irritating a lot of committees.',)",,,0,test,0,1,21
+"(""All students weren't there noticing some box."",)",,,1,test,1,0,22
+"(""There weren't all students noticing some box."",)",,,0,test,0,1,23
+"(""Each mother of a teenager isn't there asking Mark to scratch."",)",,,1,test,1,0,24
+"(""There isn't each mother of a teenager asking Mark to scratch."",)",,,0,test,0,1,25
+"('Each horse is there upsetting a lot of teachers.',)",,,1,test,1,0,30
+"('There is each horse upsetting a lot of teachers.',)",,,0,test,0,1,31
+"('Every plate is there embarrassing Richard.',)",,,1,test,1,0,34
+"('There is every plate embarrassing Richard.',)",,,0,test,0,1,35
+"('Most organizations are there compelling Claire to stretch.',)",,,1,test,1,0,56
+"('There are most organizations compelling Claire to stretch.',)",,,0,test,0,1,57
+"(""Every fork wasn't there appearing."",)",,,1,test,1,0,58
+"(""There wasn't every fork appearing."",)",,,0,test,0,1,59
+"(""Each drawing of Cheryl isn't there existing."",)",,,1,test,1,0,70
+"(""There isn't each drawing of Cheryl existing."",)",,,0,test,0,1,71
+"('Most dishes are there wasting away.',)",,,1,test,1,0,76
+"('There are most dishes wasting away.',)",,,0,test,0,1,77
+"('Every commentary about the Impressionists is there disgusting an actor.',)",,,1,test,1,0,110
+"('There is every commentary about the Impressionists disgusting an actor.',)",,,0,test,0,1,111
+"(""Every pepper isn't there scorching."",)",,,1,test,1,0,130
+"(""There isn't every pepper scorching."",)",,,0,test,0,1,131
+"('Each cart is there appearing.',)",,,1,test,1,0,134
+"('There is each cart appearing.',)",,,0,test,0,1,135
+"(""All bananas weren't there burning."",)",,,1,test,1,0,148
+"(""There weren't all bananas burning."",)",,,0,test,0,1,149
+"('Every guest was there visiting Ann.',)",,,1,test,1,0,150
+"('There was every guest visiting Ann.',)",,,0,test,0,1,151
+"('All icicles were there confusing this man.',)",,,1,test,1,0,176
+"('There were all icicles confusing this man.',)",,,0,test,0,1,177
+"('Most patients were there pressuring Ella to break a lot of dishes.',)",,,1,test,1,0,180
+"('There were most patients pressuring Ella to break a lot of dishes.',)",,,0,test,0,1,181
+"(""Most guys aren't there escaping."",)",,,1,test,1,0,188
+"(""There aren't most guys escaping."",)",,,0,test,0,1,189
+"('Each lake was there boring Marla.',)",,,1,test,1,0,200
+"('There was each lake boring Marla.',)",,,0,test,0,1,201
+"(""Each cake wasn't there vanishing."",)",,,1,test,1,0,204
+"(""There wasn't each cake vanishing."",)",,,0,test,0,1,205
+"('All icicles are there freezing.',)",,,1,test,1,0,208
+"('There are all icicles freezing.',)",,,0,test,0,1,209
+"('All windows are there opening.',)",,,1,test,1,0,210
+"('There are all windows opening.',)",,,0,test,0,1,211
+"('Each son of Heather is there kissing Carla.',)",,,1,test,1,0,218
+"('There is each son of Heather kissing Carla.',)",,,0,test,0,1,219
+"('Each light was there stunning Jason.',)",,,1,test,1,0,222
+"('There was each light stunning Jason.',)",,,0,test,0,1,223
+"(""Every light wasn't there worrying Peter."",)",,,1,test,1,0,224
+"(""There wasn't every light worrying Peter."",)",,,0,test,0,1,225
+"(""All photographs of some screen aren't there looking like most cars."",)",,,1,test,1,0,228
+"(""There aren't all photographs of some screen looking like most cars."",)",,,0,test,0,1,229
+"('Most mirrors are there hurting Alexander.',)",,,1,test,1,0,236
+"('There are most mirrors hurting Alexander.',)",,,0,test,0,1,237
+"('Most customers are there swallowing.',)",,,1,test,1,0,238
+"('There are most customers swallowing.',)",,,0,test,0,1,239
+"(""Most coats aren't there drying."",)",,,1,test,1,0,258
+"(""There aren't most coats drying."",)",,,0,test,0,1,259
+"(""Each pie isn't there upsetting Elaine."",)",,,1,test,1,0,278
+"(""There isn't each pie upsetting Elaine."",)",,,0,test,0,1,279
+"('All photographs of Theresa are there astounding Spain.',)",,,1,test,1,0,280
+"('There are all photographs of Theresa astounding Spain.',)",,,0,test,0,1,281
+"(""All scarves weren't there warping."",)",,,1,test,1,0,328
+"(""There weren't all scarves warping."",)",,,0,test,0,1,329
+"('Every girl is there cooking.',)",,,1,test,1,0,330
+"('There is every girl cooking.',)",,,0,test,0,1,331
+"('Every photograph of some candles was there scaring Benjamin.',)",,,1,test,1,0,332
+"('There was every photograph of some candles scaring Benjamin.',)",,,0,test,0,1,333
+"(""Most banks weren't there continuing to bore Travis."",)",,,1,test,1,0,350
+"(""There weren't most banks continuing to bore Travis."",)",,,0,test,0,1,351
+"(""Every guy isn't there yelling."",)",,,1,test,1,0,374
+"(""There isn't every guy yelling."",)",,,0,test,0,1,375
+"('Most rugs were there looking like some drawing.',)",,,1,test,1,0,380
+"('There were most rugs looking like some drawing.',)",,,0,test,0,1,381
+"(""Every convertible wasn't there boring Chad."",)",,,1,test,1,0,392
+"(""There wasn't every convertible boring Chad."",)",,,0,test,0,1,393
+"('All governments are there seeming to hug.',)",,,1,test,1,0,394
+"('There are all governments seeming to hug.',)",,,0,test,0,1,395
+"('All planes were there tipping over.',)",,,1,test,1,0,412
+"('There were all planes tipping over.',)",,,0,test,0,1,413
+"(""Most scarves aren't there folding."",)",,,1,test,1,0,418
+"(""There aren't most scarves folding."",)",,,0,test,0,1,419
+"('All fathers of Scott are there hiding away.',)",,,1,test,1,0,426
+"('There are all fathers of Scott hiding away.',)",,,0,test,0,1,427
+"(""Most pedestrians weren't there meeting."",)",,,1,test,1,0,446
+"(""There weren't most pedestrians meeting."",)",,,0,test,0,1,447
+"('Each senator is there astounding Grace.',)",,,1,test,1,0,452
+"('There is each senator astounding Grace.',)",,,0,test,0,1,453
+"(""Every horse wasn't there disappearing."",)",,,1,test,1,0,458
+"(""There wasn't every horse disappearing."",)",,,0,test,0,1,459
+"('Every glacier is there existing.',)",,,1,test,1,0,464
+"('There is every glacier existing.',)",,,0,test,0,1,465
+"('All fathers of Karla were there worrying.',)",,,1,test,1,0,472
+"('There were all fathers of Karla worrying.',)",,,0,test,0,1,473
+"('Every fish was there upsetting Jennifer.',)",,,1,test,1,0,480
+"('There was every fish upsetting Jennifer.',)",,,0,test,0,1,481
+"(""Every cup isn't there bothering Gerald."",)",,,1,test,1,0,492
+"(""There isn't every cup bothering Gerald."",)",,,0,test,0,1,493
+"('Most peppers were there going bad.',)",,,1,test,1,0,506
+"('There were most peppers going bad.',)",,,0,test,0,1,507
+"(""All waiters weren't there alarming Nina."",)",,,1,test,1,0,510
+"(""There weren't all waiters alarming Nina."",)",,,0,test,0,1,511
+"(""Most senators weren't there fighting."",)",,,1,test,1,0,526
+"(""There weren't most senators fighting."",)",,,0,test,0,1,527
+"(""All waiters aren't there yawning."",)",,,1,test,1,0,574
+"(""There aren't all waiters yawning."",)",,,0,test,0,1,575
+"('Most eggplants were there wasting away.',)",,,1,test,1,0,576
+"('There were most eggplants wasting away.',)",,,0,test,0,1,577
+"('Every unicycle was there turning.',)",,,1,test,1,0,582
+"('There was every unicycle turning.',)",,,0,test,0,1,583
+"('Every bike is there existing.',)",,,1,test,1,0,598
+"('There is every bike existing.',)",,,0,test,0,1,599
+"(""Each banana isn't there growing."",)",,,1,test,1,0,632
+"(""There isn't each banana growing."",)",,,0,test,0,1,633
+"('Each print of Amanda is there shocking some ladies.',)",,,1,test,1,0,636
+"('There is each print of Amanda shocking some ladies.',)",,,0,test,0,1,637
+"('Every chair was there astounding Jill.',)",,,1,test,1,0,662
+"('There was every chair astounding Jill.',)",,,0,test,0,1,663
+"('Each customer is there continuing to play.',)",,,1,test,1,0,694
+"('There is each customer continuing to play.',)",,,0,test,0,1,695
+"(""Every restaurant isn't there bothering Gregory."",)",,,1,test,1,0,698
+"(""There isn't every restaurant bothering Gregory."",)",,,0,test,0,1,699
+"('Every car was there appearing.',)",,,1,test,1,0,700
+"('There was every car appearing.',)",,,0,test,0,1,701
+"('Each guest is there exercising.',)",,,1,test,1,0,712
+"('There is each guest exercising.',)",,,0,test,0,1,713
+"('All waiters were there studying.',)",,,1,test,1,0,714
+"('There were all waiters studying.',)",,,0,test,0,1,715
+"('Each drawing was there astounding Larry.',)",,,1,test,1,0,752
+"('There was each drawing astounding Larry.',)",,,0,test,0,1,753
+"('Each turtle is there embarrassing Sharon.',)",,,1,test,1,0,754
+"('There is each turtle embarrassing Sharon.',)",,,0,test,0,1,755
+"('All bananas are there shocking Rose.',)",,,1,test,1,0,762
+"('There are all bananas shocking Rose.',)",,,0,test,0,1,763
+"(""All cousins of Brian aren't there sighing."",)",,,1,test,1,0,772
+"(""There aren't all cousins of Brian sighing."",)",,,0,test,0,1,773
+"(""Every actress wasn't there thinking Carolyn hides every student."",)",,,1,test,1,0,778
+"(""There wasn't every actress thinking Carolyn hides every student."",)",,,0,test,0,1,779
+"('All windows are there closing.',)",,,1,test,1,0,786
+"('There are all windows closing.',)",,,0,test,0,1,787
+"(""Most essays weren't there impressing Dan."",)",,,1,test,1,0,792
+"(""There weren't most essays impressing Dan."",)",,,0,test,0,1,793
+"('Every fork was there disturbing Phillip.',)",,,1,test,1,0,800
+"('There was every fork disturbing Phillip.',)",,,0,test,0,1,801
+"(""Every blouse wasn't there looking like most drawings."",)",,,1,test,1,0,806
+"(""There wasn't every blouse looking like most drawings."",)",,,0,test,0,1,807
+"(""Most doors weren't there existing."",)",,,1,test,1,0,810
+"(""There weren't most doors existing."",)",,,0,test,0,1,811
+"(""Most rugs aren't there distracting Wendy."",)",,,1,test,1,0,812
+"(""There aren't most rugs distracting Wendy."",)",,,0,test,0,1,813
+"(""All mothers of Monica aren't there grinning."",)",,,1,test,1,0,814
+"(""There aren't all mothers of Monica grinning."",)",,,0,test,0,1,815
+"(""All mushrooms weren't there boring a lot of guys."",)",,,1,test,1,0,836
+"(""There weren't all mushrooms boring a lot of guys."",)",,,0,test,0,1,837
+"(""All pictures weren't there embarrassing the Borgias."",)",,,1,test,1,0,842
+"(""There weren't all pictures embarrassing the Borgias."",)",,,0,test,0,1,843
+"(""Each shoe isn't there vanishing."",)",,,1,test,1,0,844
+"(""There isn't each shoe vanishing."",)",,,0,test,0,1,845
+"('Every sketch was there falling.',)",,,1,test,1,0,850
+"('There was every sketch falling.',)",,,0,test,0,1,851
+"(""All photographs of many glasses weren't there disturbing Craig."",)",,,1,test,1,0,858
+"(""There weren't all photographs of many glasses disturbing Craig."",)",,,0,test,0,1,859
+"('All students were there sighing.',)",,,1,test,1,0,860
+"('There were all students sighing.',)",,,0,test,0,1,861
+"('Every movie theater was there existing.',)",,,1,test,1,0,886
+"('There was every movie theater existing.',)",,,0,test,0,1,887
+"('Most pants were there loosening.',)",,,1,test,1,0,894
+"('There were most pants loosening.',)",,,0,test,0,1,895
+"(""All wheelbarrows aren't there disturbing Frank."",)",,,1,test,1,0,900
+"(""There aren't all wheelbarrows disturbing Frank."",)",,,0,test,0,1,901
+"('Every jacket is there annoying Nancy.',)",,,1,test,1,0,902
+"('There is every jacket annoying Nancy.',)",,,0,test,0,1,903
+"(""Each play about the Impressionists isn't there bothering Ella."",)",,,1,test,1,0,918
+"(""There isn't each play about the Impressionists bothering Ella."",)",,,0,test,0,1,919
+"('Every print was there irritating Tammy.',)",,,1,test,1,0,926
+"('There was every print irritating Tammy.',)",,,0,test,0,1,927
+"('All reports about Jesus are there disturbing every driver.',)",,,1,test,1,0,934
+"('There are all reports about Jesus disturbing every driver.',)",,,0,test,0,1,935
+"(""Most rivers aren't there freezing."",)",,,1,test,1,0,944
+"(""There aren't most rivers freezing."",)",,,0,test,0,1,945
+"(""All guests weren't there worrying those organizations."",)",,,1,test,1,0,954
+"(""There weren't all guests worrying those organizations."",)",,,0,test,0,1,955
+"('Each scarf was there impressing Florence.',)",,,1,test,1,0,960
+"('There was each scarf impressing Florence.',)",,,0,test,0,1,961
+"('All cars were there upsetting Beth.',)",,,1,test,1,0,962
+"('There were all cars upsetting Beth.',)",,,0,test,0,1,963
+"('Every sketch is there boring Brett.',)",,,1,test,1,0,970
+"('There is every sketch boring Brett.',)",,,0,test,0,1,971
+"(""All women weren't there needing those people to love Ronald."",)",,,1,test,1,0,974
+"(""There weren't all women needing those people to love Ronald."",)",,,0,test,0,1,975
+"(""Each child was there begging the guy's lawyer to study."",)",,,1,test,1,0,976
+"(""There was each child begging the guy's lawyer to study."",)",,,0,test,0,1,977
+"(""Most teachers aren't there driving to most college campuses."",)",,,1,test,1,0,978
+"(""There aren't most teachers driving to most college campuses."",)",,,0,test,0,1,979
+"('All cucumbers were there blackening.',)",,,1,test,1,0,980
+"('There were all cucumbers blackening.',)",,,0,test,0,1,981
+"(""Every print of Cynthia wasn't there disturbing Spain."",)",,,1,test,1,0,992
+"(""There wasn't every print of Cynthia disturbing Spain."",)",,,0,test,0,1,993
+"('Every public park was there confusing Denise.',)",,,1,test,1,0,996
+"('There was every public park confusing Denise.',)",,,0,test,0,1,997
+"(""Most mountains weren't there appearing."",)",,,1,test,1,0,1006
+"(""There weren't most mountains appearing."",)",,,0,test,0,1,1007
+"('Most peppers were there charring.',)",,,1,test,1,0,1008
+"('There were most peppers charring.',)",,,0,test,0,1,1009
+"('Every bank was there benefiting.',)",,,1,test,1,0,1014
+"('There was every bank benefiting.',)",,,0,test,0,1,1015
+"(""Every legislature wasn't there proving to approach Valerie."",)",,,1,test,1,0,1020
+"(""There wasn't every legislature proving to approach Valerie."",)",,,0,test,0,1,1021
+"('Each dog is there ascending these mountains.',)",,,1,test,1,0,1022
+"('There is each dog ascending these mountains.',)",,,0,test,0,1,1023
+"('Each person is there writing.',)",,,1,test,1,0,1034
+"('There is each person writing.',)",,,0,test,0,1,1035
+"(""All pictures aren't there impressing Mark."",)",,,1,test,1,0,1040
+"(""There aren't all pictures impressing Mark."",)",,,0,test,0,1,1041
+"('Most tomatoes were there worrying Brian.',)",,,1,test,1,0,1054
+"('There were most tomatoes worrying Brian.',)",,,0,test,0,1,1055
+"(""All cucumbers weren't there bothering some men."",)",,,1,test,1,0,1062
+"(""There weren't all cucumbers bothering some men."",)",,,0,test,0,1,1063
+"(""Each slope isn't there vanishing."",)",,,1,test,1,0,1068
+"(""There isn't each slope vanishing."",)",,,0,test,0,1,1069
+"(""Most birds aren't there bothering the girls."",)",,,1,test,1,0,1076
+"(""There aren't most birds bothering the girls."",)",,,0,test,0,1,1077
+"('All eyes were there confusing Bethany.',)",,,1,test,1,0,1090
+"('There were all eyes confusing Bethany.',)",,,0,test,0,1,1091
+"(""Each report about Monet wasn't there existing."",)",,,1,test,1,0,1116
+"(""There wasn't each report about Monet existing."",)",,,0,test,0,1,1117
+"(""All cucumbers weren't there going bad."",)",,,1,test,1,0,1120
+"(""There weren't all cucumbers going bad."",)",,,0,test,0,1,1121
+"(""Most photographs of that hair weren't there disgusting a lot of libraries."",)",,,1,test,1,0,1124
+"(""There weren't most photographs of that hair disgusting a lot of libraries."",)",,,0,test,0,1,1125
+"('Most stairs are there boring Alexander.',)",,,1,test,1,0,1126
+"('There are most stairs boring Alexander.',)",,,0,test,0,1,1127
+"('Each computer was there disgusting Tara.',)",,,1,test,1,0,1128
+"('There was each computer disgusting Tara.',)",,,0,test,0,1,1129
+"(""Every shawl isn't there disappearing."",)",,,1,test,1,0,1132
+"(""There isn't every shawl disappearing."",)",,,0,test,0,1,1133
+"('Each nose was there hurting some waitresses.',)",,,1,test,1,0,1142
+"('There was each nose hurting some waitresses.',)",,,0,test,0,1,1143
+"('Every commentary is there alarming many patients.',)",,,1,test,1,0,1152
+"('There is every commentary alarming many patients.',)",,,0,test,0,1,1153
+"('All actors were there forgetting about who drinks.',)",,,1,test,1,0,1154
+"('There were all actors forgetting about who drinks.',)",,,0,test,0,1,1155
+"(""All books weren't there confusing Omar."",)",,,1,test,1,0,1156
+"(""There weren't all books confusing Omar."",)",,,0,test,0,1,1157
+"('Every book is there scaring Kimberley.',)",,,1,test,1,0,1158
+"('There is every book scaring Kimberley.',)",,,0,test,0,1,1159
+"('Most women were there annoying Helen.',)",,,1,test,1,0,1178
+"('There were most women annoying Helen.',)",,,0,test,0,1,1179
+"('Every print of every girl was there stunning a lot of ladies.',)",,,1,test,1,0,1184
+"('There was every print of every girl stunning a lot of ladies.',)",,,0,test,0,1,1185
+"('Each newspaper article is there annoying a man.',)",,,1,test,1,0,1196
+"('There is each newspaper article annoying a man.',)",,,0,test,0,1,1197
+"(""Each cousin of Dennis isn't there murmuring."",)",,,1,test,1,0,1202
+"(""There isn't each cousin of Dennis murmuring."",)",,,0,test,0,1,1203
+"(""Most malls aren't there disappearing."",)",,,1,test,1,0,1224
+"(""There aren't most malls disappearing."",)",,,0,test,0,1,1225
+"(""Most friends of Grace aren't there discovering who bother Deborah."",)",,,1,test,1,0,1250
+"(""There aren't most friends of Grace discovering who bother Deborah."",)",,,0,test,0,1,1251
+"('All hospitals were there motivating every university to like Suzanne.',)",,,1,test,1,0,1256
+"('There were all hospitals motivating every university to like Suzanne.',)",,,0,test,0,1,1257
+"('All paintings of the waiters are there distracting Todd.',)",,,1,test,1,0,1262
+"('There are all paintings of the waiters distracting Todd.',)",,,0,test,0,1,1263
+"(""Every customer wasn't there helping April."",)",,,1,test,1,0,1278
+"(""There wasn't every customer helping April."",)",,,0,test,0,1,1279
+"(""Each car isn't there stunning Patricia."",)",,,1,test,1,0,1298
+"(""There isn't each car stunning Patricia."",)",,,0,test,0,1,1299
+"(""All mothers of Elaine weren't there hugging."",)",,,1,test,1,0,1304
+"(""There weren't all mothers of Elaine hugging."",)",,,0,test,0,1,1305
+"(""Every teacher wasn't there urging Emily's boyfriend to speak up."",)",,,1,test,1,0,1320
+"(""There wasn't every teacher urging Emily's boyfriend to speak up."",)",,,0,test,0,1,1321
+"(""All sisters of Stacey weren't there liking to mess up a restaurant."",)",,,1,test,1,0,1322
+"(""There weren't all sisters of Stacey liking to mess up a restaurant."",)",,,0,test,0,1,1323
+"('Most patients are there confusing a lot of waitresses.',)",,,1,test,1,0,1340
+"('There are most patients confusing a lot of waitresses.',)",,,0,test,0,1,1341
+"(""Every plate wasn't there irritating Samantha."",)",,,1,test,1,0,1342
+"(""There wasn't every plate irritating Samantha."",)",,,0,test,0,1,1343
+"('Every horse was there irritating Lawrence.',)",,,1,test,1,0,1352
+"('There was every horse irritating Lawrence.',)",,,0,test,0,1,1353
+"(""Each waiter is there investigating who could convince Jessica's cousins to sneeze."",)",,,1,test,1,0,1356
+"(""There is each waiter investigating who could convince Jessica's cousins to sneeze."",)",,,0,test,0,1,1357
+"('Every cup is there dropping.',)",,,1,test,1,0,1362
+"('There is every cup dropping.',)",,,0,test,0,1,1363
+"(""Every cousin of Cheryl wasn't there passing that mall."",)",,,1,test,1,0,1376
+"(""There wasn't every cousin of Cheryl passing that mall."",)",,,0,test,0,1,1377
+"('Each art gallery is there distracting Karla.',)",,,1,test,1,0,1382
+"('There is each art gallery distracting Karla.',)",,,0,test,0,1,1383
+"('Every school is there believing a lot of guests to hug Roger.',)",,,1,test,1,0,1384
+"('There is every school believing a lot of guests to hug Roger.',)",,,0,test,0,1,1385
+"('Each mirror is there chipping.',)",,,1,test,1,0,1388
+"('There is each mirror chipping.',)",,,0,test,0,1,1389
+"('Every school is there lying.',)",,,1,test,1,0,1398
+"('There is every school lying.',)",,,0,test,0,1,1399
+"('All actors were there criticizing Theresa.',)",,,1,test,1,0,1400
+"('There were all actors criticizing Theresa.',)",,,0,test,0,1,1401
+"(""Each slope wasn't there impressing Matt."",)",,,1,test,1,0,1406
+"(""There wasn't each slope impressing Matt."",)",,,0,test,0,1,1407
+"(""Most plates aren't there stunning Monet."",)",,,1,test,1,0,1430
+"(""There aren't most plates stunning Monet."",)",,,0,test,0,1,1431
+"(""Most turtles weren't there disappearing."",)",,,1,test,1,0,1458
+"(""There weren't most turtles disappearing."",)",,,0,test,0,1,1459
+"(""All cucumbers aren't there hurting that patient."",)",,,1,test,1,0,1460
+"(""There aren't all cucumbers hurting that patient."",)",,,0,test,0,1,1461
+"(""All essays aren't there bothering Natalie."",)",,,1,test,1,0,1464
+"(""There aren't all essays bothering Natalie."",)",,,0,test,0,1,1465
+"(""Each bike wasn't there confusing a lot of senators."",)",,,1,test,1,0,1484
+"(""There wasn't each bike confusing a lot of senators."",)",,,0,test,0,1,1485
+"(""Every father of Lucille isn't there refusing to lift every spotlight."",)",,,1,test,1,0,1492
+"(""There isn't every father of Lucille refusing to lift every spotlight."",)",,,0,test,0,1,1493
+"(""Each blouse wasn't there shrinking."",)",,,1,test,1,0,1498
+"(""There wasn't each blouse shrinking."",)",,,0,test,0,1,1499
+"(""Every cat isn't there falling."",)",,,1,test,1,0,1536
+"(""There isn't every cat falling."",)",,,0,test,0,1,1537
+"('Every cake was there appearing.',)",,,1,test,1,0,1544
+"('There was every cake appearing.',)",,,0,test,0,1,1545
+"('Each fork was there disappearing.',)",,,1,test,1,0,1548
+"('There was each fork disappearing.',)",,,0,test,0,1,1549
+"('Each newspaper article about travel is there scaring Samantha.',)",,,1,test,1,0,1552
+"('There is each newspaper article about travel scaring Samantha.',)",,,0,test,0,1,1553
+"(""All hospitals weren't there badgering Adam to compromise."",)",,,1,test,1,0,1556
+"(""There weren't all hospitals badgering Adam to compromise."",)",,,0,test,0,1,1557
+"(""Every book isn't there disturbing Brenda."",)",,,1,test,1,0,1578
+"(""There isn't every book disturbing Brenda."",)",,,0,test,0,1,1579
+"(""Each glacier wasn't there embarrassing Ella."",)",,,1,test,1,0,1586
+"(""There wasn't each glacier embarrassing Ella."",)",,,0,test,0,1,1587
+"(""Every woman wasn't there managing to alarm Denise."",)",,,1,test,1,0,1594
+"(""There wasn't every woman managing to alarm Denise."",)",,,0,test,0,1,1595
+"('Each guy was there happening to unfold.',)",,,1,test,1,0,1596
+"('There was each guy happening to unfold.',)",,,0,test,0,1,1597
+"(""Most mushrooms aren't there alarming Nancy."",)",,,1,test,1,0,1598
+"(""There aren't most mushrooms alarming Nancy."",)",,,0,test,0,1,1599
+"(""Most books weren't there annoying some boy."",)",,,1,test,1,0,1604
+"(""There weren't most books annoying some boy."",)",,,0,test,0,1,1605
+"('Most guys were there fixing a lot of windows.',)",,,1,test,1,0,1612
+"('There were most guys fixing a lot of windows.',)",,,0,test,0,1,1613
+"('All museums are there arguing.',)",,,1,test,1,0,1630
+"('There are all museums arguing.',)",,,0,test,0,1,1631
+"('Every report was there winning.',)",,,1,test,1,0,1642
+"('There was every report winning.',)",,,0,test,0,1,1643
+"('Most apples were there stunning Pamela.',)",,,1,test,1,0,1646
+"('There were most apples stunning Pamela.',)",,,0,test,0,1,1647
+"(""Most bananas aren't there charring."",)",,,1,test,1,0,1686
+"(""There aren't most bananas charring."",)",,,0,test,0,1,1687
+"('Each dancer was there muttering.',)",,,1,test,1,0,1694
+"('There was each dancer muttering.',)",,,0,test,0,1,1695
+"('Each adult was there boasting about Caroline.',)",,,1,test,1,0,1714
+"('There was each adult boasting about Caroline.',)",,,0,test,0,1,1715
+"('Most lights are there looking like photographs.',)",,,1,test,1,0,1724
+"('There are most lights looking like photographs.',)",,,0,test,0,1,1725
+"(""Every school wasn't there joking around."",)",,,1,test,1,0,1738
+"(""There wasn't every school joking around."",)",,,0,test,0,1,1739
+"('Most hospitals are there revealing who should hire those customers.',)",,,1,test,1,0,1756
+"('There are most hospitals revealing who should hire those customers.',)",,,0,test,0,1,1757
+"(""Most shoes weren't there disappearing."",)",,,1,test,1,0,1758
+"(""There weren't most shoes disappearing."",)",,,0,test,0,1,1759
+"(""Every play wasn't there embarrassing Robert."",)",,,1,test,1,0,1774
+"(""There wasn't every play embarrassing Robert."",)",,,0,test,0,1,1775
+"(""Each eye wasn't there shutting."",)",,,1,test,1,0,1784
+"(""There wasn't each eye shutting."",)",,,0,test,0,1,1785
+"('Most pictures are there falling.',)",,,1,test,1,0,1798
+"('There are most pictures falling.',)",,,0,test,0,1,1799
+"(""All closets weren't there embarrassing Leslie."",)",,,1,test,1,0,1812
+"(""There weren't all closets embarrassing Leslie."",)",,,0,test,0,1,1813
+"(""All books about science weren't there confusing Brenda."",)",,,1,test,1,0,1822
+"(""There weren't all books about science confusing Brenda."",)",,,0,test,0,1,1823
+"(""All commentaries about music weren't there alarming Joseph."",)",,,1,test,1,0,1828
+"(""There weren't all commentaries about music alarming Joseph."",)",,,0,test,0,1,1829
+"(""Each muffin isn't there disgusting Jesus."",)",,,1,test,1,0,1840
+"(""There isn't each muffin disgusting Jesus."",)",,,0,test,0,1,1841
+"(""Most malls weren't there disturbing the pedestrian."",)",,,1,test,1,0,1854
+"(""There weren't most malls disturbing the pedestrian."",)",,,0,test,0,1,1855
+"(""Every turtle wasn't there looking like that painting."",)",,,1,test,1,0,1860
+"(""There wasn't every turtle looking like that painting."",)",,,0,test,0,1,1861
+"('Each adult is there entreating this granddaughter of this senator to change.',)",,,1,test,1,0,1864
+"('There is each adult entreating this granddaughter of this senator to change.',)",,,0,test,0,1,1865
+"(""All mountains weren't there upsetting a company."",)",,,1,test,1,0,1890
+"(""There weren't all mountains upsetting a company."",)",,,0,test,0,1,1891
+"('Most guys are there learning who exists.',)",,,1,test,1,0,1902
+"('There are most guys learning who exists.',)",,,0,test,0,1,1903
+"('Most chairs were there stunning some school.',)",,,1,test,1,0,1918
+"('There were most chairs stunning some school.',)",,,0,test,0,1,1919
+"('All pedestrians are there winning.',)",,,1,test,1,0,1936
+"('There are all pedestrians winning.',)",,,0,test,0,1,1937
+"(""Most shawls aren't there alarming the hospital."",)",,,1,test,1,0,1940
+"(""There aren't most shawls alarming the hospital."",)",,,0,test,0,1,1941
+"(""Each couch isn't there wasting away."",)",,,1,test,1,0,1964
+"(""There isn't each couch wasting away."",)",,,0,test,0,1,1965
+"(""Each cashier wasn't there alarming Thomas."",)",,,1,test,1,0,1970
+"(""There wasn't each cashier alarming Thomas."",)",,,0,test,0,1,1971
+"('All rivers were there vaporizing.',)",,,1,test,1,0,1982
+"('There were all rivers vaporizing.',)",,,0,test,0,1,1983
+"(""Each movie theater isn't there stunning Jason."",)",,,1,test,1,0,1984
+"(""There isn't each movie theater stunning Jason."",)",,,0,test,0,1,1985
+"(""Most ladders aren't there irritating some dancer."",)",,,1,test,1,0,1994
+"(""There aren't most ladders irritating some dancer."",)",,,0,test,0,1,1995
+"(""Most vases aren't there wasting away."",)",,,1,test,1,0,1996
+"(""There aren't most vases wasting away."",)",,,0,test,0,1,1997

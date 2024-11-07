@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('This customer who had visited most children has worn some shoes.',)",,,1,train,1,0,0
+"('This customer who had visited most children have worn some shoes.',)",,,0,train,0,1,1
+"(""This boy that didn't question all guests has forgotten about what wasn't vaporizing."",)",,,1,train,1,0,2
+"(""This boy that didn't question all guests have forgotten about what wasn't vaporizing."",)",,,0,train,0,1,3
+"(""Boys that aren't disturbing Natalie suffer."",)",,,1,train,1,0,4
+"(""Boys that aren't disturbing Natalie suffers."",)",,,0,train,0,1,5
+"('Some customers who irritates Amelia do persuade Galileo to come here.',)",,,1,train,1,0,6
+"('Some customers who irritates Amelia does persuade Galileo to come here.',)",,,0,train,0,1,7
+"('Many children that had questioned this government do cooperate.',)",,,1,train,1,0,8
+"('Many children that had questioned this government does cooperate.',)",,,0,train,0,1,9
+"(""All pedestrians that wouldn't shock William read."",)",,,1,train,1,0,12
+"(""All pedestrians that wouldn't shock William reads."",)",,,0,train,0,1,13
+"('The girl who had visited most guests is curing a woman.',)",,,1,train,1,0,14
+"('The girl who had visited most guests were curing a woman.',)",,,0,train,0,1,15
+"(""Those guys that hid Kenneth explain Rhonda won't skate around a lot of restaurants."",)",,,1,train,1,0,16
+"(""Those guys that hid Kenneth explains Rhonda won't skate around a lot of restaurants."",)",,,0,train,0,1,17
+"('Some mushroom that will bother the Lutherans has upset Regina.',)",,,1,train,1,0,20
+"('Some mushroom that will bother the Lutherans have upset Regina.',)",,,0,train,0,1,21
+"(""The girl who doesn't annoy these adults works with Kristin."",)",,,1,train,1,0,22
+"(""The girl who doesn't annoy these adults work with Kristin."",)",,,0,train,0,1,23
+"('Some legislature that alarmed the pedestrians has needed Sandra to blink.',)",,,1,train,1,0,24
+"('Some legislature that alarmed the pedestrians have needed Sandra to blink.',)",,,0,train,0,1,25
+"(""The waitress who was upsetting these associations doesn't admire this cat."",)",,,1,train,1,0,28
+"(""The waitress who was upsetting these associations don't admire this cat."",)",,,0,train,0,1,29
+"('Actors who embarrasses Brad long to surrender.',)",,,1,train,1,0,30
+"('Actors who embarrasses Brad longs to surrender.',)",,,0,train,0,1,31
+"('That guy that respects those doctors praises some newspaper article.',)",,,1,train,1,0,32
+"('That guy that respects those doctors praise some newspaper article.',)",,,0,train,0,1,33
+"('Some lady that sells some hospitals encourages Vanessa to move.',)",,,1,train,1,0,36
+"('Some lady that sells some hospitals encourage Vanessa to move.',)",,,0,train,0,1,37
+"('These guys who annoys a committee were interacting.',)",,,1,train,1,0,38
+"('These guys who annoys a committee was interacting.',)",,,0,train,0,1,39
+"(""Many universities that weren't praising Carla don't talk about a driver."",)",,,1,train,1,0,40
+"(""Many universities that weren't praising Carla doesn't talk about a driver."",)",,,0,train,0,1,41
+"(""Some adults that are fleeing from Curtis weren't waving."",)",,,1,train,1,0,42
+"(""Some adults that are fleeing from Curtis isn't waving."",)",,,0,train,0,1,43
+"('This cashier that should disturb those girls has spun around.',)",,,1,train,1,0,44
+"('This cashier that should disturb those girls have spun around.',)",,,0,train,0,1,45
+"(""Every association that didn't praise a lot of men badgers Beth to hate Kristin."",)",,,1,train,1,0,46
+"(""Every association that didn't praise a lot of men badger Beth to hate Kristin."",)",,,0,train,0,1,47
+"('Some patients who dislike Kendra negotiate.',)",,,1,train,1,0,48
+"('Some patients who dislike Kendra negotiates.',)",,,0,train,0,1,49
+"(""A senator who saw the Lutherans doesn't observe Dennis."",)",,,1,train,1,0,50
+"(""The drawing that can't look like most sketches isn't looking like Elaine."",)",,,1,dev,1,0,26
+"(""The drawing that can't look like most sketches aren't looking like Elaine."",)",,,0,dev,0,1,27
+"(""Every committee that didn't appreciate those men wasn't surrendering."",)",,,1,dev,1,0,52
+"(""Every committee that didn't appreciate those men weren't surrendering."",)",,,0,dev,0,1,53
+"('Some dancer that liked all girls cries.',)",,,1,dev,1,0,54
+"('Some dancer that liked all girls cry.',)",,,0,dev,0,1,55
+"('This actress who fired adults is touring the bank.',)",,,1,dev,1,0,58
+"('This actress who fired adults were touring the bank.',)",,,0,dev,0,1,59
+"(""A lot of customers that upset Melissa haven't admired some cafes."",)",,,1,dev,1,0,60
+"(""A lot of customers that upset Melissa hasn't admired some cafes."",)",,,0,dev,0,1,61
+"(""Many dancers that had disliked Leslie weren't exploring some museums."",)",,,1,dev,1,0,90
+"(""Many dancers that had disliked Leslie isn't exploring some museums."",)",,,0,dev,0,1,91
+"(""A lot of waiters who didn't dislike Katherine press Pamela to nod."",)",,,1,dev,1,0,126
+"(""A lot of waiters who didn't dislike Katherine presses Pamela to nod."",)",,,0,dev,0,1,127
+"('That customer that helped the waiters investigates a library.',)",,,1,dev,1,0,140
+"('That customer that helped the waiters investigate a library.',)",,,0,dev,0,1,141
+"('Many universities that confused that guy were intending to change.',)",,,1,dev,1,0,188
+"('Many universities that confused that guy was intending to change.',)",,,0,dev,0,1,189
+"(""Most students who weren't shocking that school do retaliate."",)",,,1,dev,1,0,208
+"(""Most students who weren't shocking that school does retaliate."",)",,,0,dev,0,1,209
+"(""Most guests who weren't alarming the legislature weren't negotiating."",)",,,1,dev,1,0,214
+"(""Most guests who weren't alarming the legislature isn't negotiating."",)",,,0,dev,0,1,215
+"(""Many children that visit Alan do reveal what hasn't irritated every student."",)",,,1,dev,1,0,218
+"(""Many children that visit Alan does reveal what hasn't irritated every student."",)",,,0,dev,0,1,219
+"(""This waitress that wouldn't disturb the drivers approves."",)",,,1,dev,1,0,220
+"(""This waitress that wouldn't disturb the drivers approve."",)",,,0,dev,0,1,221
+"(""This adult who would alarm these dancers doesn't perform."",)",,,1,dev,1,0,224
+"(""This adult who would alarm these dancers don't perform."",)",,,0,dev,0,1,225
+"(""Every wheelbarrow that isn't astounding those governments has moved."",)",,,1,dev,1,0,254
+"(""Every wheelbarrow that isn't astounding those governments have moved."",)",,,0,dev,0,1,255
+"(""Some pedestrians who are hurting Benjamin haven't complained."",)",,,1,dev,1,0,272
+"(""Some pedestrians who are hurting Benjamin hasn't complained."",)",,,0,dev,0,1,273
+"('This cashier who admires the Borgias spins around.',)",,,1,dev,1,0,286
+"('This cashier who admires the Borgias spin around.',)",,,0,dev,0,1,287
+"('That waitress who respects those schools is joking around.',)",,,1,dev,1,0,292
+"('That waitress who respects those schools are joking around.',)",,,0,dev,0,1,293
+"(""Those lakes that can't stun every museum aren't hurting the Clintons."",)",,,1,dev,1,0,296
+"(""Those lakes that can't stun every museum wasn't hurting the Clintons."",)",,,0,dev,0,1,297
+"('Some senator who is bothering those waiters is forcing Carolyn to aggravate Peter.',)",,,1,dev,1,0,298
+"('Some senator who is bothering those waiters were forcing Carolyn to aggravate Peter.',)",,,0,dev,0,1,299
+"('Most waitresses who concealed Laura spur Martin to aggravate Kevin.',)",,,1,dev,1,0,318
+"('Most waitresses who concealed Laura spurs Martin to aggravate Kevin.',)",,,0,dev,0,1,319
+"(""Patients who couldn't skate around every bank have succeeded."",)",,,1,dev,1,0,338
+"(""Patients who couldn't skate around every bank has succeeded."",)",,,0,dev,0,1,339
+"(""Every lady who isn't hugging the patients isn't examining many essays."",)",,,1,dev,1,0,370
+"(""Every lady who isn't hugging the patients weren't examining many essays."",)",,,0,dev,0,1,371
+"('Those pedestrians that bother Becca have complained.',)",,,1,dev,1,0,376
+"('Those pedestrians that bother Becca has complained.',)",,,0,dev,0,1,377
+"('This university that embarrassed museums forgets who left Andrew.',)",,,1,dev,1,0,382
+"('This university that embarrassed museums forget who left Andrew.',)",,,0,dev,0,1,383
+"('Customers that were fleeing from Emily were arguing about this student.',)",,,1,dev,1,0,396
+"('Customers that were fleeing from Emily was arguing about this student.',)",,,0,dev,0,1,397
+"(""A government that is impressing the universities investigates what hadn't warped."",)",,,1,dev,1,0,416
+"(""A government that is impressing the universities investigate what hadn't warped."",)",,,0,dev,0,1,417
+"('The teenager who forgets the actors sees.',)",,,1,dev,1,0,454
+"('The teenager who forgets the actors see.',)",,,0,dev,0,1,455
+"(""Many teachers who shouldn't respect Jane murmur."",)",,,1,dev,1,0,462
+"(""Many teachers who shouldn't respect Jane murmurs."",)",,,0,dev,0,1,463
+"(""Every customer who doesn't discover those convertibles is appearing."",)",,,1,dev,1,0,466
+"(""Every customer who doesn't discover those convertibles were appearing."",)",,,0,dev,0,1,467
+"(""Customers that hadn't disliked Holly haven't blinked."",)",,,1,dev,1,0,482
+"(""Customers that hadn't disliked Holly hasn't blinked."",)",,,0,dev,0,1,483
+"(""Many ladies who aren't insulting Veronica don't beg these women's sisters to run around this river."",)",,,1,dev,1,0,506
+"(""Many ladies who aren't insulting Veronica doesn't beg these women's sisters to run around this river."",)",,,0,dev,0,1,507
+"('A lot of patients who annoys that person have sneezed.',)",,,1,dev,1,0,524
+"('A lot of patients who annoys that person has sneezed.',)",,,0,dev,0,1,525
+"(""Ladies who respect Irene haven't threatened to win."",)",,,1,dev,1,0,592
+"(""Ladies who respect Irene hasn't threatened to win."",)",,,0,dev,0,1,593
+"('A print that looks like most drawings does look like Veronica.',)",,,1,dev,1,0,690
+"('A print that looks like most drawings do look like Veronica.',)",,,0,dev,0,1,691
+"(""Most horses that aren't boring Elizabeth come here."",)",,,1,dev,1,0,696
+"(""Most horses that aren't boring Elizabeth comes here."",)",,,0,dev,0,1,697
+"(""Every teenager that appreciated all pedestrians doesn't clean some museum."",)",,,1,dev,1,0,700
+"(""Every teenager that appreciated all pedestrians don't clean some museum."",)",,,0,dev,0,1,701
+"('These drivers that had left Benjamin write.',)",,,1,dev,1,0,710
+"('These drivers that had left Benjamin writes.',)",,,0,dev,0,1,711
+"('This bird that found those hamsters hides.',)",,,1,dev,1,0,714
+"('This bird that found those hamsters hide.',)",,,0,dev,0,1,715
+"('Waiters that cured Erin are talking to Alan.',)",,,1,dev,1,0,740
+"('Waiters that cured Erin is talking to Alan.',)",,,0,dev,0,1,741
+"(""Many boys that haven't hidden Teresa weren't wishing to work with this adult."",)",,,1,dev,1,0,742
+"(""Many boys that haven't hidden Teresa wasn't wishing to work with this adult."",)",,,0,dev,0,1,743
+"(""These teenagers who were talking about Elaine don't insult Gerald."",)",,,1,dev,1,0,748
+"(""These teenagers who were talking about Elaine doesn't insult Gerald."",)",,,0,dev,0,1,749
+"(""A lot of waiters that wouldn't conceal Patrick do anticipate a lot of couches to drop."",)",,,1,dev,1,0,792
+"(""A lot of waiters that wouldn't conceal Patrick does anticipate a lot of couches to drop."",)",,,0,dev,0,1,793
+"('The customer who walked through the banks has spurred the Clintons to fire Janet.',)",,,1,dev,1,0,828
+"('The customer who walked through the banks have spurred the Clintons to fire Janet.',)",,,0,dev,0,1,829
+"(""Some ladies who haven't irritated Beverly kiss Sara."",)",,,1,dev,1,0,834
+"(""Some ladies who haven't irritated Beverly kisses Sara."",)",,,0,dev,0,1,835
+"(""Most teachers who aren't thinking about every company do conspire."",)",,,1,dev,1,0,866
+"(""Most teachers who aren't thinking about every company does conspire."",)",,,0,dev,0,1,867
+"(""Every senator who couldn't conceal many actors has changed."",)",,,1,dev,1,0,888
+"(""Every senator who couldn't conceal many actors have changed."",)",,,0,dev,0,1,889
+"('A government that stunned many waiters was reacting.',)",,,1,dev,1,0,932
+"('A government that stunned many waiters were reacting.',)",,,0,dev,0,1,933
+"(""That actress that buys most jackets doesn't hurt Brad."",)",,,1,dev,1,0,936
+"(""That actress that buys most jackets don't hurt Brad."",)",,,0,dev,0,1,937
+"('A lot of waiters that sounded like Beth exercise.',)",,,1,dev,1,0,964
+"('A lot of waiters that sounded like Beth exercises.',)",,,0,dev,0,1,965
+"('Some organization that helps a lot of customers likes Edward.',)",,,1,dev,1,0,994
+"('Some organization that helps a lot of customers like Edward.',)",,,0,dev,0,1,995
+"(""This boy who could investigate the Clintons isn't talking."",)",,,1,dev,1,0,996
+"(""This boy who could investigate the Clintons aren't talking."",)",,,0,dev,0,1,997
+"('Ladies that aggravates Wayne have intended to sneeze.',)",,,1,dev,1,0,1006
+"('Ladies that aggravates Wayne has intended to sneeze.',)",,,0,dev,0,1,1007
+"(""A lot of schools that liked Edward weren't buying fish."",)",,,1,dev,1,0,1026
+"(""A lot of schools that liked Edward isn't buying fish."",)",,,0,dev,0,1,1027
+"(""Most actresses that shouldn't conceal Kayla have sounded like Teresa."",)",,,1,dev,1,0,1030
+"(""Most actresses that shouldn't conceal Kayla has sounded like Teresa."",)",,,0,dev,0,1,1031
+"('Those legislatures that are disturbing Randolf do commission Christopher to explain everything.',)",,,1,dev,1,0,1068
+"('Those legislatures that are disturbing Randolf does commission Christopher to explain everything.',)",,,0,dev,0,1,1069
+"('Some dancer who would disgust all adults sneezes.',)",,,1,dev,1,0,1106
+"('Some dancer who would disgust all adults sneeze.',)",,,0,dev,0,1,1107
+"(""Those teenagers that weren't finding Kristen anticipate every couch to crack."",)",,,1,dev,1,0,1114
+"(""Those teenagers that weren't finding Kristen anticipates every couch to crack."",)",,,0,dev,0,1,1115
+"(""A guest that isn't discussing all schools respects the hill."",)",,,1,dev,1,0,1116
+"(""A guest that isn't discussing all schools respect the hill."",)",,,0,dev,0,1,1117
+"('That brochure that does irritate companies was upsetting Naomi.',)",,,1,dev,1,0,1130
+"('That brochure that does irritate companies were upsetting Naomi.',)",,,0,dev,0,1,1131
+"('That waitress that cared for a lot of patients tours the college campus.',)",,,1,dev,1,0,1168
+"('That waitress that cared for a lot of patients tour the college campus.',)",,,0,dev,0,1,1169
+"('A waiter that had confused the committees proves to have this glass.',)",,,1,dev,1,0,1176
+"('A waiter that had confused the committees prove to have this glass.',)",,,0,dev,0,1,1177
+"('Many students who attacked Jesus have revealed Debra.',)",,,1,dev,1,0,1182
+"('Many students who attacked Jesus has revealed Debra.',)",,,0,dev,0,1,1183
+"(""The waiter that hadn't disturbed all waiters tours this closet."",)",,,1,dev,1,0,1250
+"(""The waiter that hadn't disturbed all waiters tour this closet."",)",,,0,dev,0,1,1251
+"('This dancer who loves women hides away.',)",,,1,dev,1,0,1254
+"('This dancer who loves women hide away.',)",,,0,dev,0,1,1255
+"(""Every patient that did discover movies doesn't win."",)",,,1,dev,1,0,1260
+"(""Every patient that did discover movies don't win."",)",,,0,dev,0,1,1261
+"('Some organization that is admiring all women does declare Melinda to nod.',)",,,1,dev,1,0,1284
+"('Some organization that is admiring all women do declare Melinda to nod.',)",,,0,dev,0,1,1285
+"('These museums that had upset Angela motivate Claire to fall asleep.',)",,,1,dev,1,0,1348
+"('These museums that had upset Angela motivates Claire to fall asleep.',)",,,0,dev,0,1,1349
+"(""A guest who couldn't hug the men goes fishing."",)",,,1,dev,1,0,1360
+"(""A guest who couldn't hug the men go fishing."",)",,,0,dev,0,1,1361
+"(""Every lady who shouldn't exit the schools does manage to mutter."",)",,,1,dev,1,0,1366
+"(""Every lady who shouldn't exit the schools do manage to mutter."",)",,,0,dev,0,1,1367
+"(""Customers that astound Ronald don't get fired."",)",,,1,dev,1,0,1368
+"(""Customers that astound Ronald doesn't get fired."",)",,,0,dev,0,1,1369
+"(""Every student who wasn't revealing the Impressionists doesn't drink."",)",,,1,dev,1,0,1374
+"(""Every student who wasn't revealing the Impressionists don't drink."",)",,,0,dev,0,1,1375
+"(""Every patient who heals some birds hasn't broken computers."",)",,,1,dev,1,0,1400
+"(""Every patient who heals some birds haven't broken computers."",)",,,0,dev,0,1,1401
+"('All drivers that loved Alan do attack Melanie.',)",,,1,dev,1,0,1424
+"('All drivers that loved Alan does attack Melanie.',)",,,0,dev,0,1,1425
+"(""Some boy who has appreciated many actors isn't departing."",)",,,1,dev,1,0,1464
+"(""Some boy who has appreciated many actors aren't departing."",)",,,0,dev,0,1,1465
+"(""These guys who watch some actress haven't persuaded drivers to work hard."",)",,,1,dev,1,0,1466
+"(""These guys who watch some actress hasn't persuaded drivers to work hard."",)",,,0,dev,0,1,1467
+"(""Every waiter that couldn't observe patients doesn't complain about those dancers."",)",,,1,dev,1,0,1480
+"(""Every waiter that couldn't observe patients don't complain about those dancers."",)",,,0,dev,0,1,1481
+"('The dancer who did aggravate the guys was coming here.',)",,,1,dev,1,0,1504
+"('The dancer who did aggravate the guys are coming here.',)",,,0,dev,0,1,1505
+"('Most boys that boasted about Mary bike to those schools.',)",,,1,dev,1,0,1534
+"('Most boys that boasted about Mary bikes to those schools.',)",,,0,dev,0,1,1535
+"(""The ladies who will impress Connie don't cry."",)",,,1,dev,1,0,1538
+"(""The ladies who will impress Connie doesn't cry."",)",,,0,dev,0,1,1539
+"(""The patient that fired a lot of guests hasn't hunted."",)",,,1,dev,1,0,1572
+"(""The patient that fired a lot of guests haven't hunted."",)",,,0,dev,0,1,1573
+"('Some pedestrians that listen to Dana do run around the hills.',)",,,1,dev,1,0,1588
+"('Some pedestrians that listen to Dana does run around the hills.',)",,,0,dev,0,1,1589
+"(""These companies that hadn't worried Wendy listen to most guests."",)",,,1,dev,1,0,1594
+"(""These companies that hadn't worried Wendy listens to most guests."",)",,,0,dev,0,1,1595
+"(""All girls who hadn't disgusted some actor weren't skated around many rivers."",)",,,1,dev,1,0,1616
+"(""All girls who hadn't disgusted some actor wasn't skated around many rivers."",)",,,0,dev,0,1,1617
+"('Most guys that confuse the government have succeeded.',)",,,1,dev,1,0,1622
+"('Most guys that confuse the government has succeeded.',)",,,0,dev,0,1,1623
+"('Some guest who discussed those ladies is watching Elaine.',)",,,1,dev,1,0,1650
+"('Some guest who discussed those ladies are watching Elaine.',)",,,0,dev,0,1,1651
+"(""That government that wasn't upsetting many organizations does change."",)",,,1,dev,1,0,1732
+"(""That government that wasn't upsetting many organizations do change."",)",,,0,dev,0,1,1733
+"('Some teenagers who have insulted Alexander exercise.',)",,,1,dev,1,0,1746
+"('Some teenagers who have insulted Alexander exercises.',)",,,0,dev,0,1,1747
+"('Every adult that was visiting the Lutherans does scream.',)",,,1,dev,1,0,1750
+"('Every adult that was visiting the Lutherans do scream.',)",,,0,dev,0,1,1751
+"('Some teenagers that irritated the boy reply.',)",,,1,dev,1,0,1754
+"('Some teenagers that irritated the boy replies.',)",,,0,dev,0,1,1755
+"(""The legislature that wasn't astounding all actresses hopes to boast."",)",,,1,dev,1,0,1764
+"(""The legislature that wasn't astounding all actresses hope to boast."",)",,,0,dev,0,1,1765
+"(""Most companies that dislike Tanya don't pressure every pedestrian to care for Paul."",)",,,1,dev,1,0,1770
+"(""Most companies that dislike Tanya doesn't pressure every pedestrian to care for Paul."",)",,,0,dev,0,1,1771
+"(""Children who would reference this driver advise Karen's daughters to hate these essays."",)",,,1,dev,1,0,1798
+"(""Children who would reference this driver advises Karen's daughters to hate these essays."",)",,,0,dev,0,1,1799
+"('Many actors who would cure Steve fail to spin around.',)",,,1,dev,1,0,1808
+"('Many actors who would cure Steve fails to spin around.',)",,,0,dev,0,1,1809
+"('Guys who flee from Alice have cleaned shoes.',)",,,1,dev,1,0,1846
+"('Guys who flee from Alice has cleaned shoes.',)",,,0,dev,0,1,1847
+"(""Most doctors who hate Lori haven't yawned."",)",,,1,dev,1,0,1858
+"(""Most doctors who hate Lori hasn't yawned."",)",,,0,dev,0,1,1859
+"('Most companies that discussed Brenda prefer a lot of jackets to warp.',)",,,1,dev,1,0,1890
+"('Most companies that discussed Brenda prefers a lot of jackets to warp.',)",,,0,dev,0,1,1891
+"(""Some association that isn't upsetting all governments attempts to donate."",)",,,1,dev,1,0,1916
+"(""Some association that isn't upsetting all governments attempt to donate."",)",,,0,dev,0,1,1917
+"('A customer that loved waiters urges Curtis to murmur.',)",,,1,dev,1,0,1938
+"('A customer that loved waiters urge Curtis to murmur.',)",,,0,dev,0,1,1939
+"(""The doctor that does care for people isn't climbing up a lot of hills."",)",,,1,dev,1,0,1952
+"(""The doctor that does care for people aren't climbing up a lot of hills."",)",,,0,dev,0,1,1953
+"('A lot of schools that have concealed Adam worry.',)",,,1,test,1,0,10
+"('A lot of schools that have concealed Adam worries.',)",,,0,test,0,1,11
+"('A doctor who researched the Clintons waves.',)",,,1,test,1,0,18
+"('A doctor who researched the Clintons wave.',)",,,0,test,0,1,19
+"(""The waiter who isn't disturbing many boys writes."",)",,,1,test,1,0,34
+"(""The waiter who isn't disturbing many boys write."",)",,,0,test,0,1,35
+"('All adults who hire Bruce ascend some slope.',)",,,1,test,1,0,56
+"('All adults who hire Bruce ascends some slope.',)",,,0,test,0,1,57
+"('A school that could hate these actors testifies.',)",,,1,test,1,0,62
+"('A school that could hate these actors testify.',)",,,0,test,0,1,63
+"('Those ladies who were thinking about Emily break every car.',)",,,1,test,1,0,64
+"('Those ladies who were thinking about Emily breaks every car.',)",,,0,test,0,1,65
+"('Most actors that were stunning Steven do heal Jerry.',)",,,1,test,1,0,66
+"('Most actors that were stunning Steven does heal Jerry.',)",,,0,test,0,1,67
+"('This guy that saw people cares for Claire.',)",,,1,test,1,0,68
+"('This guy that saw people care for Claire.',)",,,0,test,0,1,69
+"('A lot of students that can flee from Samantha think about libraries.',)",,,1,test,1,0,72
+"('A lot of students that can flee from Samantha thinks about libraries.',)",,,0,test,0,1,73
+"(""That lady that hasn't aggravated most ladies does concur."",)",,,1,test,1,0,92
+"(""That lady that hasn't aggravated most ladies do concur."",)",,,0,test,0,1,93
+"('The university that had a lot of unicycles alarms Rebecca.',)",,,1,test,1,0,108
+"('The university that had a lot of unicycles alarm Rebecca.',)",,,0,test,0,1,109
+"(""That library that couldn't listen to these actresses hasn't assembled."",)",,,1,test,1,0,112
+"(""That library that couldn't listen to these actresses haven't assembled."",)",,,0,test,0,1,113
+"('Every waiter who would visit some banks conceals who assemble.',)",,,1,test,1,0,118
+"('Every waiter who would visit some banks conceal who assemble.',)",,,0,test,0,1,119
+"('Many glasses that did hurt David do look like most pictures.',)",,,1,test,1,0,122
+"('Many glasses that did hurt David does look like most pictures.',)",,,0,test,0,1,123
+"(""Teenagers who haven't left Tara do implore Joseph's French teacher to alarm the museum."",)",,,1,test,1,0,128
+"(""Teenagers who haven't left Tara does implore Joseph's French teacher to alarm the museum."",)",,,0,test,0,1,129
+"('The teachers who have distracted a library have clashed.',)",,,1,test,1,0,134
+"('The teachers who have distracted a library has clashed.',)",,,0,test,0,1,135
+"(""Every teenager that didn't admire those waiters wasn't studying."",)",,,1,test,1,0,144
+"(""Every teenager that didn't admire those waiters aren't studying."",)",,,0,test,0,1,145
+"('Every university that bothered many actors loves Caroline.',)",,,1,test,1,0,152
+"('Every university that bothered many actors love Caroline.',)",,,0,test,0,1,153
+"(""That photograph that isn't looking like all tomatoes does look like some prints."",)",,,1,test,1,0,156
+"(""That photograph that isn't looking like all tomatoes do look like some prints."",)",,,0,test,0,1,157
+"('Waiters that knew Wayne walk through this movie theater.',)",,,1,test,1,0,158
+"('Waiters that knew Wayne walks through this movie theater.',)",,,0,test,0,1,159
+"('Actors who revealed Richard have compromised.',)",,,1,test,1,0,170
+"('Actors who revealed Richard has compromised.',)",,,0,test,0,1,171
+"(""This guy who won't upset universities prods Regina to study."",)",,,1,test,1,0,174
+"(""This guy who won't upset universities prod Regina to study."",)",,,0,test,0,1,175
+"(""The ladies who knew Brett aren't exercising."",)",,,1,test,1,0,176
+"(""The ladies who knew Brett wasn't exercising."",)",,,0,test,0,1,177
+"(""Some boy that won't reveal these hospitals does persuade Christopher to speak up."",)",,,1,test,1,0,196
+"(""Some boy that won't reveal these hospitals do persuade Christopher to speak up."",)",,,0,test,0,1,197
+"(""All patients who kiss Craig don't require Theodore to appreciate the pedestrians."",)",,,1,test,1,0,206
+"(""All patients who kiss Craig doesn't require Theodore to appreciate the pedestrians."",)",,,0,test,0,1,207
+"('Most senators who would praise Maria need to learn.',)",,,1,test,1,0,226
+"('Most senators who would praise Maria needs to learn.',)",,,0,test,0,1,227
+"('This doctor that discusses cashiers cheers.',)",,,1,test,1,0,232
+"('This doctor that discusses cashiers cheer.',)",,,0,test,0,1,233
+"(""A lot of banks that referenced Omar weren't appearing to examine every commentary."",)",,,1,test,1,0,234
+"(""A lot of banks that referenced Omar wasn't appearing to examine every commentary."",)",,,0,test,0,1,235
+"(""A lot of pedestrians that remember Kristen haven't dared Tonya's mothers to work hard."",)",,,1,test,1,0,236
+"(""A lot of pedestrians that remember Kristen hasn't dared Tonya's mothers to work hard."",)",,,0,test,0,1,237
+"(""All children who had bored Randolf were persuading Rhonda's tutor to reveal Alan."",)",,,1,test,1,0,240
+"(""All children who had bored Randolf is persuading Rhonda's tutor to reveal Alan."",)",,,0,test,0,1,241
+"(""Many guys who disturb Nicole haven't proposed to retaliate."",)",,,1,test,1,0,258
+"(""Many guys who disturb Nicole hasn't proposed to retaliate."",)",,,0,test,0,1,259
+"(""Guests who aren't stunning Sara know who isn't laughing."",)",,,1,test,1,0,270
+"(""Guests who aren't stunning Sara knows who isn't laughing."",)",,,0,test,0,1,271
+"('Those senators who respected Brian approach those ladies.',)",,,1,test,1,0,280
+"('Those senators who respected Brian approaches those ladies.',)",,,0,test,0,1,281
+"(""This lady who hadn't hugged the Borgias thinks Teresa hasn't shrugged."",)",,,1,test,1,0,314
+"(""This lady who hadn't hugged the Borgias think Teresa hasn't shrugged."",)",,,0,test,0,1,315
+"('Every lady who hurt these waitresses kisses Linda.',)",,,1,test,1,0,320
+"('Every lady who hurt these waitresses kiss Linda.',)",,,0,test,0,1,321
+"(""Every organization that hadn't appreciated malls wasn't confusing some dancers."",)",,,1,test,1,0,334
+"(""Every organization that hadn't appreciated malls aren't confusing some dancers."",)",,,0,test,0,1,335
+"(""That cashier who hadn't respected many waitresses requires Naomi's partners to cook."",)",,,1,test,1,0,344
+"(""That cashier who hadn't respected many waitresses require Naomi's partners to cook."",)",,,0,test,0,1,345
+"(""A waitress who wasn't embarrassing many associations has respected Adam."",)",,,1,test,1,0,348
+"(""A waitress who wasn't embarrassing many associations have respected Adam."",)",,,0,test,0,1,349
+"(""These guests who aren't stunning Scott cope."",)",,,1,test,1,0,358
+"(""These guests who aren't stunning Scott copes."",)",,,0,test,0,1,359
+"('A lot of actresses who have remembered the bank do fight.',)",,,1,test,1,0,362
+"('A lot of actresses who have remembered the bank does fight.',)",,,0,test,0,1,363
+"('This adult who scares all guests telephones.',)",,,1,test,1,0,388
+"('This adult who scares all guests telephone.',)",,,0,test,0,1,389
+"('A driver that works with all children litters.',)",,,1,test,1,0,398
+"('A driver that works with all children litter.',)",,,0,test,0,1,399
+"(""A lot of teenagers that weren't embarrassing Clyde haven't fled from Diane."",)",,,1,test,1,0,402
+"(""A lot of teenagers that weren't embarrassing Clyde hasn't fled from Diane."",)",,,0,test,0,1,403
+"(""These companies that have disgusted Clyde haven't worked with Brett."",)",,,1,test,1,0,420
+"(""These companies that have disgusted Clyde hasn't worked with Brett."",)",,,0,test,0,1,421
+"('A waitress who impressed some governments thinks about who should describe this woman.',)",,,1,test,1,0,426
+"('A waitress who impressed some governments think about who should describe this woman.',)",,,0,test,0,1,427
+"(""This dancer who isn't disgusting those cashiers does practice."",)",,,1,test,1,0,430
+"(""This dancer who isn't disgusting those cashiers do practice."",)",,,0,test,0,1,431
+"('Many patients that knew Steven were threatening to grow.',)",,,1,test,1,0,460
+"('Many patients that knew Steven was threatening to grow.',)",,,0,test,0,1,461
+"('This actor that cured those cashiers paints.',)",,,1,test,1,0,470
+"('This actor that cured those cashiers paint.',)",,,0,test,0,1,471
+"('This boy that respected these students practices.',)",,,1,test,1,0,472
+"('This boy that respected these students practice.',)",,,0,test,0,1,473
+"('A lot of senators who had disturbed Ellen profit.',)",,,1,test,1,0,486
+"('A lot of senators who had disturbed Ellen profits.',)",,,0,test,0,1,487
+"(""This legislature that hadn't embarrassed associations appreciates the Balkans."",)",,,1,test,1,0,492
+"(""This legislature that hadn't embarrassed associations appreciate the Balkans."",)",,,0,test,0,1,493
+"('Students who describe Liam are prodding Brenda to break those computers.',)",,,1,test,1,0,496
+"('Students who describe Liam is prodding Brenda to break those computers.',)",,,0,test,0,1,497
+"('These libraries that knew Anne do entreat Sabrina to fall.',)",,,1,test,1,0,508
+"('These libraries that knew Anne does entreat Sabrina to fall.',)",,,0,test,0,1,509
+"('A lot of pedestrians that visited Cheryl salute.',)",,,1,test,1,0,522
+"('A lot of pedestrians that visited Cheryl salutes.',)",,,0,test,0,1,523
+"(""Most students that hadn't disliked Ruth haven't sneezed."",)",,,1,test,1,0,528
+"(""Most students that hadn't disliked Ruth hasn't sneezed."",)",,,0,test,0,1,529
+"(""Some children that are scaring that association don't react."",)",,,1,test,1,0,548
+"(""Some children that are scaring that association doesn't react."",)",,,0,test,0,1,549
+"('A dancer that will admire those rabbits wakes up.',)",,,1,test,1,0,550
+"('A dancer that will admire those rabbits wake up.',)",,,0,test,0,1,551
+"(""This driver who hasn't referenced these actors blinks."",)",,,1,test,1,0,556
+"(""This driver who hasn't referenced these actors blink."",)",,,0,test,0,1,557
+"(""An actor that could conceal all adults hasn't shouted."",)",,,1,test,1,0,562
+"(""An actor that could conceal all adults haven't shouted."",)",,,0,test,0,1,563
+"(""Some libraries that hadn't remembered Rachel do answer."",)",,,1,test,1,0,622
+"(""Some libraries that hadn't remembered Rachel does answer."",)",,,0,test,0,1,623
+"(""A legislature that wouldn't respect some drivers yearns to remember Rebecca."",)",,,1,test,1,0,624
+"(""A legislature that wouldn't respect some drivers yearn to remember Rebecca."",)",,,0,test,0,1,625
+"('Organizations that argued about literature aggravate Candice.',)",,,1,test,1,0,626
+"('Organizations that argued about literature aggravates Candice.',)",,,0,test,0,1,627
+"(""Some patients that discussed Lucille don't die."",)",,,1,test,1,0,628
+"(""Some patients that discussed Lucille doesn't die."",)",,,0,test,0,1,629
+"(""All drivers who can like that adult aren't discovering Melinda."",)",,,1,test,1,0,658
+"(""All drivers who can like that adult isn't discovering Melinda."",)",,,0,test,0,1,659
+"('Some guy who notices those students wakes up.',)",,,1,test,1,0,666
+"('Some guy who notices those students wake up.',)",,,0,test,0,1,667
+"('A lot of ladies that are disgusting Rachel were wearing every glove.',)",,,1,test,1,0,680
+"('A lot of ladies that are disgusting Rachel is wearing every glove.',)",,,0,test,0,1,681
+"('Some driver that embarrassed these governments figures out who notice those gates.',)",,,1,test,1,0,730
+"('Some driver that embarrassed these governments figure out who notice those gates.',)",,,0,test,0,1,731
+"('All libraries that were aggravating a legislature joke around.',)",,,1,test,1,0,746
+"('All libraries that were aggravating a legislature jokes around.',)",,,0,test,0,1,747
+"('A guy that references a lot of customers proves to shatter.',)",,,1,test,1,0,762
+"('A guy that references a lot of customers prove to shatter.',)",,,0,test,0,1,763
+"(""This lady that hasn't thought about some fish isn't breaking some wheelbarrows."",)",,,1,test,1,0,764
+"(""This lady that hasn't thought about some fish aren't breaking some wheelbarrows."",)",,,0,test,0,1,765
+"('Some committee that was disturbing those committees helps Veronica.',)",,,1,test,1,0,768
+"('Some committee that was disturbing those committees help Veronica.',)",,,0,test,0,1,769
+"('A teenager that approaches a lot of men scratches.',)",,,1,test,1,0,784
+"('A teenager that approaches a lot of men scratch.',)",,,0,test,0,1,785
+"('A company that concealed all cashiers forgets about what shrank.',)",,,1,test,1,0,796
+"('A company that concealed all cashiers forget about what shrank.',)",,,0,test,0,1,797
+"(""These ladies that were bothering Eric don't complain."",)",,,1,test,1,0,816
+"(""These ladies that were bothering Eric doesn't complain."",)",,,0,test,0,1,817
+"('Most museums that had described Gary want the Clintons to vanish.',)",,,1,test,1,0,818
+"('Most museums that had described Gary wants the Clintons to vanish.',)",,,0,test,0,1,819
+"(""The universities that weren't describing Donald haven't asked a lot of nieces of Andrew to waste away."",)",,,1,test,1,0,822
+"(""The universities that weren't describing Donald hasn't asked a lot of nieces of Andrew to waste away."",)",,,0,test,0,1,823
+"('The customers who respected Angela dislike Deanna.',)",,,1,test,1,0,840
+"('The customers who respected Angela dislikes Deanna.',)",,,0,test,0,1,841
+"(""Those pedestrians that could listen to Lissa don't think those customers pass college campuses."",)",,,1,test,1,0,842
+"(""Those pedestrians that could listen to Lissa doesn't think those customers pass college campuses."",)",,,0,test,0,1,843
+"(""Every cashier who wasn't visiting those senators salutes."",)",,,1,test,1,0,846
+"(""Every cashier who wasn't visiting those senators salute."",)",,,0,test,0,1,847
+"('That teacher that is alarming the museums cooperates.',)",,,1,test,1,0,848
+"('That teacher that is alarming the museums cooperate.',)",,,0,test,0,1,849
+"('This customer who has praised all ladies criticizes Rhonda.',)",,,1,test,1,0,850
+"('This customer who has praised all ladies criticize Rhonda.',)",,,0,test,0,1,851
+"(""That senator who wasn't boring all customers doubts Joel forgot about who isn't complaining."",)",,,1,test,1,0,856
+"(""That senator who wasn't boring all customers doubt Joel forgot about who isn't complaining."",)",,,0,test,0,1,857
+"(""These girls who couldn't visit Rodney weren't sighing."",)",,,1,test,1,0,862
+"(""These girls who couldn't visit Rodney wasn't sighing."",)",,,0,test,0,1,863
+"('Children who approached the boy are coughing.',)",,,1,test,1,0,868
+"('Children who approached the boy is coughing.',)",,,0,test,0,1,869
+"('These dancers that sound like Debra run around this art gallery.',)",,,1,test,1,0,872
+"('These dancers that sound like Debra runs around this art gallery.',)",,,0,test,0,1,873
+"(""These guests that didn't discuss every senator cure Amy."",)",,,1,test,1,0,884
+"(""These guests that didn't discuss every senator cures Amy."",)",,,0,test,0,1,885
+"('Most dogs that disturbed Vincent do fall asleep.',)",,,1,test,1,0,886
+"('Most dogs that disturbed Vincent does fall asleep.',)",,,0,test,0,1,887
+"('All actors that exit this bank are competing.',)",,,1,test,1,0,904
+"('All actors that exit this bank is competing.',)",,,0,test,0,1,905
+"(""All senators who return to Sonia haven't obligated Martha to love Kimberley."",)",,,1,test,1,0,924
+"(""All senators who return to Sonia hasn't obligated Martha to love Kimberley."",)",,,0,test,0,1,925
+"(""The guest that isn't talking to most guests is practicing."",)",,,1,test,1,0,928
+"(""The guest that isn't talking to most guests are practicing."",)",,,0,test,0,1,929
+"('Most actors who have hurt Dan skate around a hill.',)",,,1,test,1,0,930
+"('Most actors who have hurt Dan skates around a hill.',)",,,0,test,0,1,931
+"(""This girl that returned to the students hasn't hunted."",)",,,1,test,1,0,948
+"(""This girl that returned to the students haven't hunted."",)",,,0,test,0,1,949
+"('This teacher who bothered the guests drops by the hospitals.',)",,,1,test,1,0,952
+"('This teacher who bothered the guests drop by the hospitals.',)",,,0,test,0,1,953
+"('A pedestrian who is worrying the Impressionists wins.',)",,,1,test,1,0,954
+"('A pedestrian who is worrying the Impressionists win.',)",,,0,test,0,1,955
+"('Some guys who dislike Janet neglect to bother Steve.',)",,,1,test,1,0,960
+"('Some guys who dislike Janet neglects to bother Steve.',)",,,0,test,0,1,961
+"('All ladies that are thinking about this organization have hired Homer.',)",,,1,test,1,0,968
+"('All ladies that are thinking about this organization has hired Homer.',)",,,0,test,0,1,969
+"('That teacher that attacked these students forgets who cried.',)",,,1,test,1,0,970
+"('That teacher that attacked these students forget who cried.',)",,,0,test,0,1,971
+"(""Those universities that can't remember that lady do prod Tammy to fall asleep."",)",,,1,test,1,0,980
+"(""Those universities that can't remember that lady does prod Tammy to fall asleep."",)",,,0,test,0,1,981
+"(""This adult who didn't astound the doctors gets fired."",)",,,1,test,1,0,988
+"(""This adult who didn't astound the doctors get fired."",)",,,0,test,0,1,989
+"('A lot of patients that were stunning Donna are encouraging Mark to nod.',)",,,1,test,1,0,990
+"('A lot of patients that were stunning Donna is encouraging Mark to nod.',)",,,0,test,0,1,991
+"(""The dancer who hasn't embarrassed those guests conceals many gloves."",)",,,1,test,1,0,1004
+"(""The dancer who hasn't embarrassed those guests conceal many gloves."",)",,,0,test,0,1,1005
+"(""All waiters who left the guy aren't shouting."",)",,,1,test,1,0,1012
+"(""All waiters who left the guy wasn't shouting."",)",,,0,test,0,1,1013
+"(""Boys that had questioned Marla don't skate around these malls."",)",,,1,test,1,0,1018
+"(""Boys that had questioned Marla doesn't skate around these malls."",)",,,0,test,0,1,1019
+"(""The organization that does know most actors reveals who hasn't kissed Anna."",)",,,1,test,1,0,1020
+"(""The organization that does know most actors reveal who hasn't kissed Anna."",)",,,0,test,0,1,1021
+"(""Many waitresses who aren't kissing Jennifer cook."",)",,,1,test,1,0,1040
+"(""Many waitresses who aren't kissing Jennifer cooks."",)",,,0,test,0,1,1041
+"(""These waiters that aren't scaring Emily escape from that adult."",)",,,1,test,1,0,1044
+"(""These waiters that aren't scaring Emily escapes from that adult."",)",,,0,test,0,1,1045
+"('Some waitress that left the hospitals neglects to talk to Larry.',)",,,1,test,1,0,1054
+"('Some waitress that left the hospitals neglect to talk to Larry.',)",,,0,test,0,1,1055
+"('Those boys that might reference Bruce work hard.',)",,,1,test,1,0,1058
+"('Those boys that might reference Bruce works hard.',)",,,0,test,0,1,1059
+"(""Some association that listens to the waiters doesn't chat."",)",,,1,test,1,0,1060
+"(""Some association that listens to the waiters don't chat."",)",,,0,test,0,1,1061
+"(""Girls that disagreed with Guy aren't preferring Leslie to skate around the hill."",)",,,1,test,1,0,1064
+"(""Girls that disagreed with Guy wasn't preferring Leslie to skate around the hill."",)",,,0,test,0,1,1065
+"(""That adult that dislikes those men isn't arriving at that hill."",)",,,1,test,1,0,1078
+"(""That adult that dislikes those men weren't arriving at that hill."",)",,,0,test,0,1,1079
+"('The waiter who does heal some actors messes up those pants.',)",,,1,test,1,0,1086
+"('The waiter who does heal some actors mess up those pants.',)",,,0,test,0,1,1087
+"(""Some pedestrian that couldn't bother all waitresses paints."",)",,,1,test,1,0,1090
+"(""Some pedestrian that couldn't bother all waitresses paint."",)",,,0,test,0,1,1091
+"(""All boys who hadn't hugged Eva were smiling."",)",,,1,test,1,0,1100
+"(""All boys who hadn't hugged Eva is smiling."",)",,,0,test,0,1,1101
+"('A lot of schools that upset Susan have begged Timothy to fire Suzanne.',)",,,1,test,1,0,1102
+"('A lot of schools that upset Susan has begged Timothy to fire Suzanne.',)",,,0,test,0,1,1103
+"('Those patients who are firing Judy have badgered Melissa to hurt Brad.',)",,,1,test,1,0,1122
+"('Those patients who are firing Judy has badgered Melissa to hurt Brad.',)",,,0,test,0,1,1123
+"('Many libraries that scared Edward conceal Dana.',)",,,1,test,1,0,1128
+"('Many libraries that scared Edward conceals Dana.',)",,,0,test,0,1,1129
+"('Those associations that had the library are approving.',)",,,1,test,1,0,1132
+"('Those associations that had the library is approving.',)",,,0,test,0,1,1133
+"('The ladies who aggravated this association were chatting.',)",,,1,test,1,0,1134
+"('The ladies who aggravated this association is chatting.',)",,,0,test,0,1,1135
+"(""A lot of teenagers who irritated Dawn haven't muttered."",)",,,1,test,1,0,1142
+"(""A lot of teenagers who irritated Dawn hasn't muttered."",)",,,0,test,0,1,1143
+"('A girl that did upset some people has fixed every plane.',)",,,1,test,1,0,1144
+"('A girl that did upset some people have fixed every plane.',)",,,0,test,0,1,1145
+"(""Many pedestrians that scared this committee weren't debating."",)",,,1,test,1,0,1150
+"(""Many pedestrians that scared this committee wasn't debating."",)",,,0,test,0,1,1151
+"('This driver that praises most ladies has practiced.',)",,,1,test,1,0,1198
+"('This driver that praises most ladies have practiced.',)",,,0,test,0,1,1199
+"('Many schools that embarrassed some government have referenced Paul.',)",,,1,test,1,0,1226
+"('Many schools that embarrassed some government has referenced Paul.',)",,,0,test,0,1,1227
+"(""These prints that looked like a turtle don't hurt William."",)",,,1,test,1,0,1236
+"(""These prints that looked like a turtle doesn't hurt William."",)",,,0,test,0,1,1237
+"(""Some waitress that isn't listening to these customers prevents those photographs from wasting away."",)",,,1,test,1,0,1240
+"(""Some waitress that isn't listening to these customers prevent those photographs from wasting away."",)",,,0,test,0,1,1241
+"(""This teacher who can't take scarves is embarrassing Leslie."",)",,,1,test,1,0,1242
+"(""This teacher who can't take scarves were embarrassing Leslie."",)",,,0,test,0,1,1243
+"('Some boys that were praising Eric chuckle.',)",,,1,test,1,0,1256
+"('Some boys that were praising Eric chuckles.',)",,,0,test,0,1,1257
+"(""Some doctors who had argued about Aaron don't refuse to resemble some prints."",)",,,1,test,1,0,1258
+"(""Some doctors who had argued about Aaron doesn't refuse to resemble some prints."",)",,,0,test,0,1,1259
+"('Senators who will insult Deanna conceal those teachers.',)",,,1,test,1,0,1262
+"('Senators who will insult Deanna conceals those teachers.',)",,,0,test,0,1,1263
+"(""Those cashiers who discovered Tara weren't discovering what are moving."",)",,,1,test,1,0,1264
+"(""Those cashiers who discovered Tara wasn't discovering what are moving."",)",,,0,test,0,1,1265
+"(""The committee that hadn't talked about some women learns who can't believe Ellen to answer."",)",,,1,test,1,0,1268
+"(""The committee that hadn't talked about some women learn who can't believe Ellen to answer."",)",,,0,test,0,1,1269
+"(""That government that had fired the men urges Homer's French teachers to fire Melinda."",)",,,1,test,1,0,1278
+"(""That government that had fired the men urge Homer's French teachers to fire Melinda."",)",,,0,test,0,1,1279
+"(""A lot of paintings that aren't looking like some carriage stun Omar."",)",,,1,test,1,0,1282
+"(""A lot of paintings that aren't looking like some carriage stuns Omar."",)",,,0,test,0,1,1283
+"(""Some patient who can't exit these museums continues to weep."",)",,,1,test,1,0,1298
+"(""Some patient who can't exit these museums continue to weep."",)",,,0,test,0,1,1299
+"('Those boys that worry Dana refuse to correspond.',)",,,1,test,1,0,1316
+"('Those boys that worry Dana refuses to correspond.',)",,,0,test,0,1,1317
+"(""Most hospitals that aggravate every organization haven't worked hard."",)",,,1,test,1,0,1328
+"(""Most hospitals that aggravate every organization hasn't worked hard."",)",,,0,test,0,1,1329
+"(""Some senator who hadn't disliked the actors drives to a lot of rivers."",)",,,1,test,1,0,1330
+"(""Some senator who hadn't disliked the actors drive to a lot of rivers."",)",,,0,test,0,1,1331
+"(""The customer who hadn't visited all men researches that library."",)",,,1,test,1,0,1336
+"(""The customer who hadn't visited all men research that library."",)",,,0,test,0,1,1337
+"('Every pedestrian who should sound like a lot of guests was exiting this glacier.',)",,,1,test,1,0,1338
+"('Every pedestrian who should sound like a lot of guests were exiting this glacier.',)",,,0,test,0,1,1339
+"('That horse that finds many cats falls asleep.',)",,,1,test,1,0,1346
+"('That horse that finds many cats fall asleep.',)",,,0,test,0,1,1347
+"('These drivers that criticize Janice do wake up.',)",,,1,test,1,0,1354
+"('These drivers that criticize Janice does wake up.',)",,,0,test,0,1,1355
+"(""Children who argue about Lawrence haven't dared Dawn to weep."",)",,,1,test,1,0,1358
+"(""Children who argue about Lawrence hasn't dared Dawn to weep."",)",,,0,test,0,1,1359
+"(""Most pedestrians who had known Alice weren't entreating a lot of doctors to salute."",)",,,1,test,1,0,1362
+"(""Most pedestrians who had known Alice isn't entreating a lot of doctors to salute."",)",,,0,test,0,1,1363
+"(""The pedestrian who didn't appreciate actresses isn't weeping."",)",,,1,test,1,0,1376
+"(""The pedestrian who didn't appreciate actresses aren't weeping."",)",,,0,test,0,1,1377
+"(""This patient that isn't finding these women doesn't learn."",)",,,1,test,1,0,1380
+"(""This patient that isn't finding these women don't learn."",)",,,0,test,0,1,1381
+"('All teachers that helped Jason disturb Regina.',)",,,1,test,1,0,1392
+"('All teachers that helped Jason disturbs Regina.',)",,,0,test,0,1,1393
+"(""The actresses who haven't healed Tonya die."",)",,,1,test,1,0,1412
+"(""The actresses who haven't healed Tonya dies."",)",,,0,test,0,1,1413
+"(""Universities that shouldn't distract Karla have embarrassed Lucille."",)",,,1,test,1,0,1426
+"(""Universities that shouldn't distract Karla has embarrassed Lucille."",)",,,0,test,0,1,1427
+"('That committee that disgusted many patients reacts.',)",,,1,test,1,0,1428
+"('That committee that disgusted many patients react.',)",,,0,test,0,1,1429
+"(""Many dancers who won't return to Samuel escape from some person."",)",,,1,test,1,0,1438
+"(""Many dancers who won't return to Samuel escapes from some person."",)",,,0,test,0,1,1439
+"('The school that irritated the libraries has responded.',)",,,1,test,1,0,1440
+"('The school that irritated the libraries have responded.',)",,,0,test,0,1,1441
+"('Most guests that insulted Charles do realize who had sung.',)",,,1,test,1,0,1450
+"('Most guests that insulted Charles does realize who had sung.',)",,,0,test,0,1,1451
+"(""The senators who haven't known Tara heal Naomi."",)",,,1,test,1,0,1452
+"(""The senators who haven't known Tara heals Naomi."",)",,,0,test,0,1,1453
+"('This dancer who boasts about all drivers was planning to bake.',)",,,1,test,1,0,1458
+"('This dancer who boasts about all drivers are planning to bake.',)",,,0,test,0,1,1459
+"('Many teenagers that hate Noah ascertain that mushroom to rot.',)",,,1,test,1,0,1472
+"('Many teenagers that hate Noah ascertains that mushroom to rot.',)",,,0,test,0,1,1473
+"('Many actresses who did find Lori surrender.',)",,,1,test,1,0,1486
+"('Many actresses who did find Lori surrenders.',)",,,0,test,0,1,1487
+"('The hospital that loves those senators does approve.',)",,,1,test,1,0,1488
+"('The hospital that loves those senators do approve.',)",,,0,test,0,1,1489
+"(""Committees that were admiring Charles haven't commissioned those customers to sit down."",)",,,1,test,1,0,1502
+"(""Committees that were admiring Charles hasn't commissioned those customers to sit down."",)",,,0,test,0,1,1503
+"('Some dancers that were leaving Scott need to return to Gregory.',)",,,1,test,1,0,1512
+"('Some dancers that were leaving Scott needs to return to Gregory.',)",,,0,test,0,1,1513
+"(""A lot of boys who hadn't visited Denise don't heal Rebecca."",)",,,1,test,1,0,1564
+"(""A lot of boys who hadn't visited Denise doesn't heal Rebecca."",)",,,0,test,0,1,1565
+"('A university that would love these guests was joking around.',)",,,1,test,1,0,1590
+"('A university that would love these guests are joking around.',)",,,0,test,0,1,1591
+"(""Some waiter who sees all hospitals isn't talking about Nicole."",)",,,1,test,1,0,1606
+"(""Some waiter who sees all hospitals aren't talking about Nicole."",)",,,0,test,0,1,1607
+"('A lot of libraries that impress Ronald do joke around.',)",,,1,test,1,0,1612
+"('A lot of libraries that impress Ronald does joke around.',)",,,0,test,0,1,1613
+"(""Many customers that alarm Alexander encourage Steven's grandmothers to flee from Sonia."",)",,,1,test,1,0,1628
+"(""Many customers that alarm Alexander encourages Steven's grandmothers to flee from Sonia."",)",,,0,test,0,1,1629
+"(""All cashiers that had embarrassed Dennis don't protest."",)",,,1,test,1,0,1640
+"(""All cashiers that had embarrassed Dennis doesn't protest."",)",,,0,test,0,1,1641
+"('Many ladies who could hug Lori examine most books.',)",,,1,test,1,0,1646
+"('Many ladies who could hug Lori examines most books.',)",,,0,test,0,1,1647
+"('That actor that argued about many cashiers has motivated those universities to criticize customers.',)",,,1,test,1,0,1654
+"('That actor that argued about many cashiers have motivated those universities to criticize customers.',)",,,0,test,0,1,1655
+"(""That cup that hadn't scared many teachers has upset Eva."",)",,,1,test,1,0,1656
+"(""That cup that hadn't scared many teachers have upset Eva."",)",,,0,test,0,1,1657
+"(""Some legislature that could know some guests wasn't reacting."",)",,,1,test,1,0,1672
+"(""Some legislature that could know some guests aren't reacting."",)",,,0,test,0,1,1673
+"('The bank that should discuss a lot of women urges Aaron to attack Deborah.',)",,,1,test,1,0,1682
+"('The bank that should discuss a lot of women urge Aaron to attack Deborah.',)",,,0,test,0,1,1683
+"(""Many customers who couldn't find Timothy long to hunt."",)",,,1,test,1,0,1686
+"(""Many customers who couldn't find Timothy longs to hunt."",)",,,0,test,0,1,1687
+"('All organizations that praised Diane do boast about these newspaper articles.',)",,,1,test,1,0,1712
+"('All organizations that praised Diane does boast about these newspaper articles.',)",,,0,test,0,1,1713
+"(""That boy that references all patients hasn't shrugged."",)",,,1,test,1,0,1722
+"(""That boy that references all patients haven't shrugged."",)",,,0,test,0,1,1723
+"(""A girl who is listening to actresses doesn't joke around."",)",,,1,test,1,0,1724
+"(""A girl who is listening to actresses don't joke around."",)",,,0,test,0,1,1725
+"('The senators that did scare every legislature propose to get a job.',)",,,1,test,1,0,1730
+"('The senators that did scare every legislature proposes to get a job.',)",,,0,test,0,1,1731
+"(""This adult that hadn't stunned a lot of drivers doesn't upset Martha."",)",,,1,test,1,0,1756
+"(""This adult that hadn't stunned a lot of drivers don't upset Martha."",)",,,0,test,0,1,1757
+"(""A waitress that couldn't bring many birds has escaped."",)",,,1,test,1,0,1766
+"(""A waitress that couldn't bring many birds have escaped."",)",,,0,test,0,1,1767
+"(""Some senator who hadn't approached a lot of guys hasn't sat down."",)",,,1,test,1,0,1772
+"(""Some senator who hadn't approached a lot of guys haven't sat down."",)",,,0,test,0,1,1773
+"('The actor that had watched many teenagers litters.',)",,,1,test,1,0,1782
+"('The actor that had watched many teenagers litter.',)",,,0,test,0,1,1783
+"(""Some customers who were upsetting the association don't convince Keith to read."",)",,,1,test,1,0,1786
+"(""Some customers who were upsetting the association doesn't convince Keith to read."",)",,,0,test,0,1,1787
+"('A lot of dishes that had worried Kayla resemble the photograph.',)",,,1,test,1,0,1790
+"('A lot of dishes that had worried Kayla resembles the photograph.',)",,,0,test,0,1,1791
+"(""Some legislature that can't distract a lot of universities does think about who sang."",)",,,1,test,1,0,1812
+"(""Some legislature that can't distract a lot of universities do think about who sang."",)",,,0,test,0,1,1813
+"('These patients that upset Diana explore the mountain.',)",,,1,test,1,0,1814
+"('These patients that upset Diana explores the mountain.',)",,,0,test,0,1,1815
+"('A doctor that investigated these adults reveals all children.',)",,,1,test,1,0,1824
+"('A doctor that investigated these adults reveal all children.',)",,,0,test,0,1,1825
+"('Many patients who saw Wayne have complained.',)",,,1,test,1,0,1826
+"('Many patients who saw Wayne has complained.',)",,,0,test,0,1,1827
+"('Those dancers that find Dennis walk through a public park.',)",,,1,test,1,0,1834
+"('Those dancers that find Dennis walks through a public park.',)",,,0,test,0,1,1835
+"('That cashier who finds a lot of girls has tried to drive to some closet.',)",,,1,test,1,0,1866
+"('That cashier who finds a lot of girls have tried to drive to some closet.',)",,,0,test,0,1,1867
+"('The companies that did remember John do look to char.',)",,,1,test,1,0,1870
+"('The companies that did remember John does look to char.',)",,,0,test,0,1,1871
+"(""That school that isn't alarming a lot of universities has planned to resemble a photograph."",)",,,1,test,1,0,1872
+"(""That school that isn't alarming a lot of universities have planned to resemble a photograph."",)",,,0,test,0,1,1873
+"('All doctors who praised Natalie have complained.',)",,,1,test,1,0,1884
+"('All doctors who praised Natalie has complained.',)",,,0,test,0,1,1885
+"('The students that bothers Deanna do regret many carriages did drop.',)",,,1,test,1,0,1894
+"('The students that bothers Deanna does regret many carriages did drop.',)",,,0,test,0,1,1895
+"(""A hospital that isn't bothering men ascertains Debra to drop by this art gallery."",)",,,1,test,1,0,1896
+"(""A hospital that isn't bothering men ascertain Debra to drop by this art gallery."",)",,,0,test,0,1,1897
+"('Most adults who bored Melissa were escaping.',)",,,1,test,1,0,1898
+"('Most adults who bored Melissa was escaping.',)",,,0,test,0,1,1899
+"(""The actors that haven't referenced Lori prevent every senator from listening to Renee."",)",,,1,test,1,0,1900
+"(""The actors that haven't referenced Lori prevents every senator from listening to Renee."",)",,,0,test,0,1,1901
+"('Some committee that did aggravate all associations is competing.',)",,,1,test,1,0,1946
+"('Some committee that did aggravate all associations are competing.',)",,,0,test,0,1,1947
+"('Some company that confused the Borgias does declare Susan to praise Michelle.',)",,,1,test,1,0,1966
+"('Some company that confused the Borgias do declare Susan to praise Michelle.',)",,,0,test,0,1,1967
+"('That dancer who praised these dancers doubts all children consider Wayne to hire Steve.',)",,,1,test,1,0,1968
+"('That dancer who praised these dancers doubt all children consider Wayne to hire Steve.',)",,,0,test,0,1,1969
+"('That teenager who is kissing most cashiers breaks many planes.',)",,,1,test,1,0,1984
+"('That teenager who is kissing most cashiers break many planes.',)",,,0,test,0,1,1985
+"(""These teenagers who aren't revealing Tina are concurring."",)",,,1,test,1,0,1998
+"(""These teenagers who aren't revealing Tina is concurring."",)",,,0,test,0,1,1999

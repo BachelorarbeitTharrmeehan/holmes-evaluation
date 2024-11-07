@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"(""Who aren't most hospitals that hadn't talked about most waitresses alarming?"",)",,,1,train,1,0,0
+"(""Who aren't most waitresses alarming most hospitals that hadn't talked about?"",)",,,0,train,0,1,1
+"(""Who hasn't this sister of these dancers who shocked Cheryl attacked?"",)",,,1,train,1,0,2
+"(""Who hasn't Cheryl attacked this sister of these dancers who shocked?"",)",,,0,train,0,1,3
+"(""Who should Lawrence's lawyers who have scared some grandsons of Janice hate?"",)",,,1,train,1,0,4
+"(""Who should some grandsons of Janice hate Lawrence's lawyers who have scared?"",)",,,0,train,0,1,5
+"(""Who hadn't some driver who would fire Jennifer's colleague embarrassed?"",)",,,1,train,1,0,6
+"(""Who hadn't Jennifer's colleague embarrassed some driver who would fire?"",)",,,0,train,0,1,7
+"(""Who couldn't nephews of Victoria that did conceal Carmen observe?"",)",,,1,train,1,0,10
+"(""Who couldn't Carmen observe nephews of Victoria that did conceal?"",)",,,0,train,0,1,11
+"(""Who wouldn't all mothers of Florence who disturbed Katherine forget?"",)",,,1,train,1,0,12
+"(""Who wouldn't Katherine forget all mothers of Florence who disturbed?"",)",,,0,train,0,1,13
+"(""Who weren't these people that had hated the dancers admiring?"",)",,,1,train,1,0,16
+"(""Who weren't the dancers admiring these people that had hated?"",)",,,0,train,0,1,17
+"(""Who did this actor that wouldn't astound Anna's dentists disturb?"",)",,,1,train,1,0,18
+"(""Who did Anna's dentists disturb this actor that wouldn't astound?"",)",,,0,train,0,1,19
+"(""Who was Gary's lawyer who could respect Tonya approaching?"",)",,,1,train,1,0,20
+"(""Who was Tonya approaching Gary's lawyer who could respect?"",)",,,0,train,0,1,21
+"(""What can't a guest who would like some actor argue about?"",)",,,1,train,1,0,24
+"(""What can't some actor argue about a guest who would like?"",)",,,0,train,0,1,25
+"(""Who wasn't that actor's father who can't bore Samuel healing?"",)",,,1,train,1,0,26
+"(""Who wasn't Samuel healing that actor's father who can't bore?"",)",,,0,train,0,1,27
+"(""Who is Bill's nephew that won't attack Janice listening to?"",)",,,1,train,1,0,30
+"(""Who is Janice listening to Bill's nephew that won't attack?"",)",,,0,train,0,1,31
+"(""Who is that cashier who knew that actress's podiatrist thinking about?"",)",,,1,train,1,0,32
+"(""Who is that actress's podiatrist thinking about that cashier who knew?"",)",,,0,train,0,1,33
+"(""Who isn't the cousin of Craig that wasn't talking to Kathleen confusing?"",)",,,1,train,1,0,34
+"(""Who isn't Kathleen confusing the cousin of Craig that wasn't talking to?"",)",,,0,train,0,1,35
+"(""Who hadn't a brother of Renee who was upsetting these actresses' grandmothers described?"",)",,,1,train,1,0,36
+"(""Who hadn't these actresses' grandmothers described a brother of Renee who was upsetting?"",)",,,0,train,0,1,37
+"(""Who hadn't Lissa's piano teachers who wouldn't return to Meredith's employee cared for?"",)",,,1,train,1,0,44
+"(""Who hadn't Meredith's employee cared for Lissa's piano teachers who wouldn't return to?"",)",,,0,train,0,1,45
+"(""What does Cynthia's grandmother who won't love a patient conceal?"",)",,,1,train,1,0,46
+"(""What does a patient conceal Cynthia's grandmother who won't love?"",)",,,0,train,0,1,47
+"(""Who couldn't a lot of cousins of many actors that were watching this guest observe?"",)",,,1,train,1,0,48
+"(""Who couldn't this guest observe a lot of cousins of many actors that were watching?"",)",,,0,train,0,1,49
+"('Who are a lot of universities that were talking to a lot of students astounding?',)",,,1,train,1,0,50
+"('Who are a lot of students astounding a lot of universities that were talking to?',)",,,0,train,0,1,51
+"(""Who might Emily's French teachers that weren't watching every senator's associates love?"",)",,,1,train,1,0,52
+"(""Who might every senator's associates love Emily's French teachers that weren't watching?"",)",,,0,train,0,1,53
+"(""Who can't senators that should visit Regina's supervisor kiss?"",)",,,1,train,1,0,54
+"(""Who can't Regina's supervisor kiss senators that should visit?"",)",,,0,train,0,1,55
+"('Who had some ladies that had hired Omar returned to?',)",,,1,train,1,0,56
+"(""Who haven't Edward's plumbers that had listened to Tonya's daughters questioned?"",)",,,1,dev,1,0,22
+"(""Who haven't Tonya's daughters questioned Edward's plumbers that had listened to?"",)",,,0,dev,0,1,23
+"(""Who was Andrew's ex-wife who isn't insulting Kevin approaching?"",)",,,1,dev,1,0,28
+"(""Who was Kevin approaching Andrew's ex-wife who isn't insulting?"",)",,,0,dev,0,1,29
+"(""What can't a lot of fathers of Monet that liked Anne admire?"",)",,,1,dev,1,0,40
+"(""What can't Anne admire a lot of fathers of Monet that liked?"",)",,,0,dev,0,1,41
+"(""Who had Joel's dermatologists who did flee from some libraries listened to?"",)",,,1,dev,1,0,42
+"(""Who had some libraries listened to Joel's dermatologists who did flee from?"",)",,,0,dev,0,1,43
+"(""What weren't Janice's ex-boyfriends that discovered all dancers discovering?"",)",,,1,dev,1,0,80
+"(""What weren't all dancers discovering Janice's ex-boyfriends that discovered?"",)",,,0,dev,0,1,81
+"(""Who hadn't a lot of waiters that hadn't insulted Vincent listened to?"",)",,,1,dev,1,0,102
+"(""Who hadn't Vincent listened to a lot of waiters that hadn't insulted?"",)",,,0,dev,0,1,103
+"(""Who were Tonya's colleagues who were investigating some ladies discussing?"",)",,,1,dev,1,0,136
+"(""Who were some ladies discussing Tonya's colleagues who were investigating?"",)",,,0,dev,0,1,137
+"(""Who aren't all men who investigated nephews of Lori kissing?"",)",,,1,dev,1,0,142
+"(""Who aren't nephews of Lori kissing all men who investigated?"",)",,,0,dev,0,1,143
+"(""Who weren't Anna's colleagues who haven't revealed Janice's supervisors boring?"",)",,,1,dev,1,0,162
+"(""Who weren't Janice's supervisors boring Anna's colleagues who haven't revealed?"",)",,,0,dev,0,1,163
+"(""What does that guy's spouse that shouldn't forget Theodore like?"",)",,,1,dev,1,0,166
+"(""What does Theodore like that guy's spouse that shouldn't forget?"",)",,,0,dev,0,1,167
+"('Who could some guests who talked to these doctors shock?',)",,,1,dev,1,0,172
+"('Who could these doctors shock some guests who talked to?',)",,,0,dev,0,1,173
+"(""Who didn't Linda's mentor that hasn't referenced Amanda reveal?"",)",,,1,dev,1,0,176
+"(""Who didn't Amanda reveal Linda's mentor that hasn't referenced?"",)",,,0,dev,0,1,177
+"(""Who aren't all guys that can see those hospitals scaring?"",)",,,1,dev,1,0,180
+"(""Who aren't those hospitals scaring all guys that can see?"",)",,,0,dev,0,1,181
+"(""Who isn't this child who might work with a nephew of a lot of actors complaining about?"",)",,,1,dev,1,0,182
+"(""Who isn't a nephew of a lot of actors complaining about this child who might work with?"",)",,,0,dev,0,1,183
+"(""Who is Rachelle's brother who has approached that woman helping?"",)",,,1,dev,1,0,190
+"(""Who is that woman helping Rachelle's brother who has approached?"",)",,,0,dev,0,1,191
+"(""Who weren't these grandmothers of Roger that don't bore Michelle's handymen questioning?"",)",,,1,dev,1,0,198
+"(""Who weren't Michelle's handymen questioning these grandmothers of Roger that don't bore?"",)",,,0,dev,0,1,199
+"(""Who isn't the child that couldn't upset Laura attacking?"",)",,,1,dev,1,0,212
+"(""Who isn't Laura attacking the child that couldn't upset?"",)",,,0,dev,0,1,213
+"(""Who had some cousins of Stephanie that forgot Anne's employee thought about?"",)",,,1,dev,1,0,294
+"(""Who had Anne's employee thought about some cousins of Stephanie that forgot?"",)",,,0,dev,0,1,295
+"(""Who haven't Claire's friends that worked with Mitchell's granddaughters hated?"",)",,,1,dev,1,0,316
+"(""Who haven't Mitchell's granddaughters hated Claire's friends that worked with?"",)",,,0,dev,0,1,317
+"(""What aren't the grandsons of Travis who are healing a lot of nieces of that guest concealing?"",)",,,1,dev,1,0,358
+"(""What aren't a lot of nieces of that guest concealing the grandsons of Travis who are healing?"",)",,,0,dev,0,1,359
+"(""Who wasn't every grandfather of this actor who isn't worrying some student discussing?"",)",,,1,dev,1,0,410
+"(""Who wasn't some student discussing every grandfather of this actor who isn't worrying?"",)",,,0,dev,0,1,411
+"(""Who isn't Stephanie's boyfriend who approached Rachel admiring?"",)",,,1,dev,1,0,450
+"(""Who isn't Rachel admiring Stephanie's boyfriend who approached?"",)",,,0,dev,0,1,451
+"(""Who weren't Bethany's cousins that are praising Jacqueline's colleagues annoying?"",)",,,1,dev,1,0,452
+"(""Who weren't Jacqueline's colleagues annoying Bethany's cousins that are praising?"",)",,,0,dev,0,1,453
+"(""Who don't Amy's grandfathers who healed Randolf's lawyers describe?"",)",,,1,dev,1,0,462
+"(""Who don't Randolf's lawyers describe Amy's grandfathers who healed?"",)",,,0,dev,0,1,463
+"(""Who won't Jodi's students who shouldn't love Tamara admire?"",)",,,1,dev,1,0,478
+"(""Who won't Tamara admire Jodi's students who shouldn't love?"",)",,,0,dev,0,1,479
+"(""Who hadn't these boys that are confusing Brad left?"",)",,,1,dev,1,0,508
+"(""Who hadn't Brad left these boys that are confusing?"",)",,,0,dev,0,1,509
+"(""What shouldn't Galileo's hairdresser who flees from Marla conceal?"",)",,,1,dev,1,0,524
+"(""What shouldn't Marla conceal Galileo's hairdresser who flees from?"",)",,,0,dev,0,1,525
+"(""Who have these sisters of Steven that haven't hated Barbara's fathers known?"",)",,,1,dev,1,0,558
+"(""Who have Barbara's fathers known these sisters of Steven that haven't hated?"",)",,,0,dev,0,1,559
+"(""Who did many ladies' girlfriend that wouldn't kiss those nephews of the senator investigate?"",)",,,1,dev,1,0,580
+"(""Who did those nephews of the senator investigate many ladies' girlfriend that wouldn't kiss?"",)",,,0,dev,0,1,581
+"(""Who are Larry's hairdressers that haven't hated Samuel's students impressing?"",)",,,1,dev,1,0,584
+"(""Who are Samuel's students impressing Larry's hairdressers that haven't hated?"",)",,,0,dev,0,1,585
+"(""Who are Joel's sisters that hadn't argued about a lot of actresses hurting?"",)",,,1,dev,1,0,586
+"(""Who are a lot of actresses hurting Joel's sisters that hadn't argued about?"",)",,,0,dev,0,1,587
+"(""Who hadn't Curtis's ex-husband who was talking about Leslie listened to?"",)",,,1,dev,1,0,590
+"(""Who hadn't Leslie listened to Curtis's ex-husband who was talking about?"",)",,,0,dev,0,1,591
+"(""Who aren't these banks that haven't referenced the Clintons upsetting?"",)",,,1,dev,1,0,626
+"(""Who aren't the Clintons upsetting these banks that haven't referenced?"",)",,,0,dev,0,1,627
+"(""Who wouldn't Renee's grandmother that hasn't disturbed Heather praise?"",)",,,1,dev,1,0,636
+"(""Who wouldn't Heather praise Renee's grandmother that hasn't disturbed?"",)",,,0,dev,0,1,637
+"(""Who weren't Jodi's supervisors who can't distract all committees describing?"",)",,,1,dev,1,0,642
+"(""Who weren't all committees describing Jodi's supervisors who can't distract?"",)",,,0,dev,0,1,643
+"(""Who hadn't Sharon's father who hadn't worried Christina disgusted?"",)",,,1,dev,1,0,670
+"(""Who hadn't Christina disgusted Sharon's father who hadn't worried?"",)",,,0,dev,0,1,671
+"(""Who wasn't every girl that wasn't referencing this man arguing about?"",)",,,1,dev,1,0,678
+"(""Who wasn't this man arguing about every girl that wasn't referencing?"",)",,,0,dev,0,1,679
+"(""Who were Winston Churchill's supervisors that aren't worrying many nephews of Adam praising?"",)",,,1,dev,1,0,682
+"(""Who were many nephews of Adam praising Winston Churchill's supervisors that aren't worrying?"",)",,,0,dev,0,1,683
+"(""Who would Gregory's plumber that listens to Elizabeth's grandson aggravate?"",)",,,1,dev,1,0,710
+"(""Who would Elizabeth's grandson aggravate Gregory's plumber that listens to?"",)",,,0,dev,0,1,711
+"(""Who has Carmen's plumber that has hugged Caroline's mother praised?"",)",,,1,dev,1,0,732
+"(""Who has Caroline's mother praised Carmen's plumber that has hugged?"",)",,,0,dev,0,1,733
+"('Who has that adult who irritated Rhonda left?',)",,,1,dev,1,0,740
+"('Who has Rhonda left that adult who irritated?',)",,,0,dev,0,1,741
+"(""Who does the cashier who can't listen to Deborah's French teacher escape from?"",)",,,1,dev,1,0,758
+"(""Who does Deborah's French teacher escape from the cashier who can't listen to?"",)",,,0,dev,0,1,759
+"(""Who were these cashiers' mothers who thought about the Lutherans talking to?"",)",,,1,dev,1,0,782
+"(""Who were the Lutherans talking to these cashiers' mothers who thought about?"",)",,,0,dev,0,1,783
+"(""Who weren't Galileo's teachers that disagreed with Christine's contractors observing?"",)",,,1,dev,1,0,800
+"(""Who weren't Christine's contractors observing Galileo's teachers that disagreed with?"",)",,,0,dev,0,1,801
+"(""Who has Erin's best friend who hadn't boasted about Vanessa described?"",)",,,1,dev,1,0,804
+"(""Who has Vanessa described Erin's best friend who hadn't boasted about?"",)",,,0,dev,0,1,805
+"(""Who shouldn't the pedestrian's senator that shouldn't appreciate Dan approach?"",)",,,1,dev,1,0,826
+"(""Who shouldn't Dan approach the pedestrian's senator that shouldn't appreciate?"",)",,,0,dev,0,1,827
+"(""What has Janice's mentor that hadn't found Tamara complained about?"",)",,,1,dev,1,0,830
+"(""What has Tamara complained about Janice's mentor that hadn't found?"",)",,,0,dev,0,1,831
+"(""Who had every guy's father that cured Debra fired?"",)",,,1,dev,1,0,834
+"(""Who had Debra fired every guy's father that cured?"",)",,,0,dev,0,1,835
+"(""What wasn't the customers' grandfather that hasn't appreciated Valerie's niece curing?"",)",,,1,dev,1,0,858
+"(""What wasn't Valerie's niece curing the customers' grandfather that hasn't appreciated?"",)",,,0,dev,0,1,859
+"(""Who haven't those waitresses who were shocking most actresses' partners kissed?"",)",,,1,dev,1,0,890
+"(""Who haven't most actresses' partners kissed those waitresses who were shocking?"",)",,,0,dev,0,1,891
+"(""Who shouldn't all brothers of Stacey who have hugged Douglas work with?"",)",,,1,dev,1,0,892
+"(""Who shouldn't Douglas work with all brothers of Stacey who have hugged?"",)",,,0,dev,0,1,893
+"(""What hasn't some cousin of Jesus that flees from some student fled from?"",)",,,1,dev,1,0,894
+"(""What hasn't some student fled from some cousin of Jesus that flees from?"",)",,,0,dev,0,1,895
+"(""Who were Elizabeth's nephews that don't help Elizabeth's classmates hurting?"",)",,,1,dev,1,0,946
+"(""Who were Elizabeth's classmates hurting Elizabeth's nephews that don't help?"",)",,,0,dev,0,1,947
+"(""Who hadn't the students who had alarmed Marie alarmed?"",)",,,1,dev,1,0,978
+"(""Who hadn't Marie alarmed the students who had alarmed?"",)",,,0,dev,0,1,979
+"(""Who had that teacher's teacher that references Lori disturbed?"",)",,,1,dev,1,0,1058
+"(""Who had Lori disturbed that teacher's teacher that references?"",)",,,0,dev,0,1,1059
+"(""Who hasn't that cashier who was upsetting Jerry worried?"",)",,,1,dev,1,0,1072
+"(""Who hasn't Jerry worried that cashier who was upsetting?"",)",,,0,dev,0,1,1073
+"(""Who wasn't a niece of Raymond who disturbed Marcus's friend confusing?"",)",,,1,dev,1,0,1080
+"(""Who wasn't Marcus's friend confusing a niece of Raymond who disturbed?"",)",,,0,dev,0,1,1081
+"(""Who were Rachelle's guests who disliked a lot of daughters of Heather leaving?"",)",,,1,dev,1,0,1120
+"(""Who were a lot of daughters of Heather leaving Rachelle's guests who disliked?"",)",,,0,dev,0,1,1121
+"(""Who isn't the girl's ex-boyfriend that stunned Paula hiring?"",)",,,1,dev,1,0,1142
+"(""Who isn't Paula hiring the girl's ex-boyfriend that stunned?"",)",,,0,dev,0,1,1143
+"(""Who isn't Joseph's French teacher that bored that cousin of Kimberley approaching?"",)",,,1,dev,1,0,1194
+"(""Who isn't that cousin of Kimberley approaching Joseph's French teacher that bored?"",)",,,0,dev,0,1,1195
+"(""Who weren't Peter's contractors that weren't kissing most nieces of Janet escaping from?"",)",,,1,dev,1,0,1224
+"(""Who weren't most nieces of Janet escaping from Peter's contractors that weren't kissing?"",)",,,0,dev,0,1,1225
+"(""Who hasn't that waiter who has embarrassed a committee impressed?"",)",,,1,dev,1,0,1244
+"(""Who hasn't a committee impressed that waiter who has embarrassed?"",)",,,0,dev,0,1,1245
+"(""Who was Jodi's ex-boyfriend who astounded Caroline hurting?"",)",,,1,dev,1,0,1264
+"(""Who was Caroline hurting Jodi's ex-boyfriend who astounded?"",)",,,0,dev,0,1,1265
+"(""Who can't many men who should shock Scott find?"",)",,,1,dev,1,0,1272
+"(""Who can't Scott find many men who should shock?"",)",,,0,dev,0,1,1273
+"(""Who had those actors who weren't concealing Heidi talked to?"",)",,,1,dev,1,0,1302
+"(""Who had Heidi talked to those actors who weren't concealing?"",)",,,0,dev,0,1,1303
+"(""Who are some girl's senators that shouldn't approach Lisa's ex-wives discovering?"",)",,,1,dev,1,0,1310
+"(""Who are Lisa's ex-wives discovering some girl's senators that shouldn't approach?"",)",,,0,dev,0,1,1311
+"('Who might the banks that were firing the Clintons annoy?',)",,,1,dev,1,0,1332
+"('Who might the Clintons annoy the banks that were firing?',)",,,0,dev,0,1,1333
+"(""What shouldn't Richard's senator that respects Rachel's granddaughters think about?"",)",,,1,dev,1,0,1352
+"(""What shouldn't Rachel's granddaughters think about Richard's senator that respects?"",)",,,0,dev,0,1,1353
+"(""Who was that girl who scares Phillip's sister listening to?"",)",,,1,dev,1,0,1366
+"(""Who was Phillip's sister listening to that girl who scares?"",)",,,0,dev,0,1,1367
+"('Who might those grandmothers of Randolf that could upset Margaret complain about?',)",,,1,dev,1,0,1412
+"('Who might Margaret complain about those grandmothers of Randolf that could upset?',)",,,0,dev,0,1,1413
+"(""What isn't Janice's ex-boyfriend who doesn't argue about Carrie appreciating?"",)",,,1,dev,1,0,1452
+"(""What isn't Carrie appreciating Janice's ex-boyfriend who doesn't argue about?"",)",,,0,dev,0,1,1453
+"(""What won't Heather's senators that weren't curing some actress discover?"",)",,,1,dev,1,0,1460
+"(""What won't some actress discover Heather's senators that weren't curing?"",)",,,0,dev,0,1,1461
+"(""Who weren't Brenda's mothers who are upsetting all students questioning?"",)",,,1,dev,1,0,1474
+"(""Who weren't all students questioning Brenda's mothers who are upsetting?"",)",,,0,dev,0,1,1475
+"(""Who has Christine's grandfather that will disturb Stacy observed?"",)",,,1,dev,1,0,1478
+"(""Who has Stacy observed Christine's grandfather that will disturb?"",)",,,0,dev,0,1,1479
+"(""Who aren't Jerry's partners that would argue about a lot of boys visiting?"",)",,,1,dev,1,0,1494
+"(""Who aren't a lot of boys visiting Jerry's partners that would argue about?"",)",,,0,dev,0,1,1495
+"(""Who weren't Jane's piano teachers who knew some nieces of the boy observing?"",)",,,1,dev,1,0,1498
+"(""Who weren't some nieces of the boy observing Jane's piano teachers who knew?"",)",,,0,dev,0,1,1499
+"(""Who hasn't every nephew of Joseph who wasn't describing Omar remembered?"",)",,,1,dev,1,0,1502
+"(""Who hasn't Omar remembered every nephew of Joseph who wasn't describing?"",)",,,0,dev,0,1,1503
+"(""Who wasn't these guests' partner who hasn't attacked Elizabeth boasting about?"",)",,,1,dev,1,0,1574
+"(""Who wasn't Elizabeth boasting about these guests' partner who hasn't attacked?"",)",,,0,dev,0,1,1575
+"(""Who hadn't Margaret's sister who helped Naomi annoyed?"",)",,,1,dev,1,0,1582
+"(""Who hadn't Naomi annoyed Margaret's sister who helped?"",)",,,0,dev,0,1,1583
+"(""What aren't Clyde's classmates who were escaping from those doctors noticing?"",)",,,1,dev,1,0,1598
+"(""What aren't those doctors noticing Clyde's classmates who were escaping from?"",)",,,0,dev,0,1,1599
+"(""Who aren't Theresa's contractors that couldn't aggravate Deborah's sisters disagreeing with?"",)",,,1,dev,1,0,1602
+"(""Who aren't Deborah's sisters disagreeing with Theresa's contractors that couldn't aggravate?"",)",,,0,dev,0,1,1603
+"(""Who aren't Scott's contractors that had confused April's fathers impressing?"",)",,,1,dev,1,0,1636
+"(""Who aren't April's fathers impressing Scott's contractors that had confused?"",)",,,0,dev,0,1,1637
+"(""Who could John's boss who hugs Laurie discover?"",)",,,1,dev,1,0,1644
+"(""Who could Laurie discover John's boss who hugs?"",)",,,0,dev,0,1,1645
+"(""Who haven't Dan's friends that weren't alarming those schools talked to?"",)",,,1,dev,1,0,1654
+"(""Who haven't those schools talked to Dan's friends that weren't alarming?"",)",,,0,dev,0,1,1655
+"(""Who don't this doctor's bosses who have talked to Rachelle's daughters find?"",)",,,1,dev,1,0,1688
+"(""Who don't Rachelle's daughters find this doctor's bosses who have talked to?"",)",,,0,dev,0,1,1689
+"(""Who can some boys' student that watched Homer's handymen shock?"",)",,,1,dev,1,0,1700
+"(""Who can Homer's handymen shock some boys' student that watched?"",)",,,0,dev,0,1,1701
+"(""Who hasn't John's girlfriend that healed Colleen loved?"",)",,,1,dev,1,0,1754
+"(""Who hasn't Colleen loved John's girlfriend that healed?"",)",,,0,dev,0,1,1755
+"(""Who had Alexander's friend who had investigated Roger approached?"",)",,,1,dev,1,0,1768
+"(""Who had Roger approached Alexander's friend who had investigated?"",)",,,0,dev,0,1,1769
+"(""Who were the brothers of Tracy who hadn't loved Douglas's podiatrists confusing?"",)",,,1,dev,1,0,1774
+"(""Who were Douglas's podiatrists confusing the brothers of Tracy who hadn't loved?"",)",,,0,dev,0,1,1775
+"(""Who wasn't some grandson of every dancer that has cared for Melissa healing?"",)",,,1,dev,1,0,1844
+"(""Who wasn't Melissa healing some grandson of every dancer that has cared for?"",)",,,0,dev,0,1,1845
+"(""Who can't David's dentist that hasn't talked about Margaret's handyman reveal?"",)",,,1,dev,1,0,1846
+"(""Who can't Margaret's handyman reveal David's dentist that hasn't talked about?"",)",,,0,dev,0,1,1847
+"(""Who haven't Kathleen's ex-wives who would think about all art galleries scared?"",)",,,1,dev,1,0,1858
+"(""Who haven't all art galleries scared Kathleen's ex-wives who would think about?"",)",,,0,dev,0,1,1859
+"(""Who could this doctor that has listened to this guest's supervisors astound?"",)",,,1,dev,1,0,1866
+"(""Who could this guest's supervisors astound this doctor that has listened to?"",)",,,0,dev,0,1,1867
+"('Who did this waiter who is leaving every dancer hate?',)",,,1,dev,1,0,1870
+"('Who did every dancer hate this waiter who is leaving?',)",,,0,dev,0,1,1871
+"(""Who couldn't every driver who cured Sandra escape from?"",)",,,1,dev,1,0,1880
+"(""Who couldn't Sandra escape from every driver who cured?"",)",,,0,dev,0,1,1881
+"(""Who hadn't a lot of granddaughters of all dancers who weren't leaving this girl's cousin fired?"",)",,,1,dev,1,0,1934
+"(""Who hadn't this girl's cousin fired a lot of granddaughters of all dancers who weren't leaving?"",)",,,0,dev,0,1,1935
+"(""Who hadn't Florence's girlfriend who alarmed Deanna healed?"",)",,,1,dev,1,0,1970
+"(""Who hadn't Deanna healed Florence's girlfriend who alarmed?"",)",,,0,dev,0,1,1971
+"(""Who hadn't Rodney's ex-boyfriend who could cure Amy hidden?"",)",,,1,dev,1,0,1984
+"(""Who hadn't Amy hidden Rodney's ex-boyfriend who could cure?"",)",,,0,dev,0,1,1985
+"(""Who might a lot of patients who couldn't annoy men know?"",)",,,1,dev,1,0,1986
+"(""Who might men know a lot of patients who couldn't annoy?"",)",,,0,dev,0,1,1987
+"(""Who had Kristen's tutor that didn't admire Nancy's students cared for?"",)",,,1,dev,1,0,1988
+"(""Who had Nancy's students cared for Kristen's tutor that didn't admire?"",)",,,0,dev,0,1,1989
+"(""Who haven't these fathers of Gerald who impressed Deborah's tutors loved?"",)",,,1,test,1,0,8
+"(""Who haven't Deborah's tutors loved these fathers of Gerald who impressed?"",)",,,0,test,0,1,9
+"(""Who couldn't some teacher's piano teachers that were criticizing a movie about politics upset?"",)",,,1,test,1,0,14
+"(""Who couldn't a movie about politics upset some teacher's piano teachers that were criticizing?"",)",,,0,test,0,1,15
+"(""Who hadn't Steven's brothers who had seen Daniel found?"",)",,,1,test,1,0,38
+"(""Who hadn't Daniel found Steven's brothers who had seen?"",)",,,0,test,0,1,39
+"(""Who isn't Diana's partner that isn't distracting Melinda finding?"",)",,,1,test,1,0,64
+"(""Who isn't Melinda finding Diana's partner that isn't distracting?"",)",,,0,test,0,1,65
+"('Who would that university that appreciates those schools irritate?',)",,,1,test,1,0,70
+"('Who would those schools irritate that university that appreciates?',)",,,0,test,0,1,71
+"(""Who are Gina's best friends that are boasting about the customers hugging?"",)",,,1,test,1,0,84
+"(""Who are the customers hugging Gina's best friends that are boasting about?"",)",,,0,test,0,1,85
+"(""Who weren't these pedestrians that were distracting some doctors disagreeing with?"",)",,,1,test,1,0,110
+"(""Who weren't some doctors disagreeing with these pedestrians that were distracting?"",)",,,0,test,0,1,111
+"(""Who hasn't Karen's hairdresser that would fire Tara concealed?"",)",,,1,test,1,0,130
+"(""Who hasn't Tara concealed Karen's hairdresser that would fire?"",)",,,0,test,0,1,131
+"(""Who hasn't a granddaughter of Andrea that visits Martha astounded?"",)",,,1,test,1,0,140
+"(""Who hasn't Martha astounded a granddaughter of Andrea that visits?"",)",,,0,test,0,1,141
+"(""What wasn't Kevin's mentee that hates William appreciating?"",)",,,1,test,1,0,146
+"(""What wasn't William appreciating Kevin's mentee that hates?"",)",,,0,test,0,1,147
+"(""What had Melinda's podiatrist that hasn't complained about Marcus's dentists praised?"",)",,,1,test,1,0,152
+"(""What had Marcus's dentists praised Melinda's podiatrist that hasn't complained about?"",)",,,0,test,0,1,153
+"(""Who hadn't some pedestrians who disagreed with Tonya's sister scared?"",)",,,1,test,1,0,178
+"(""Who hadn't Tonya's sister scared some pedestrians who disagreed with?"",)",,,0,test,0,1,179
+"(""Who won't Travis's French teacher that hasn't upset a teenager's plumber approach?"",)",,,1,test,1,0,184
+"(""Who won't a teenager's plumber approach Travis's French teacher that hasn't upset?"",)",,,0,test,0,1,185
+"(""What wasn't this waitress who discovered Nina referencing?"",)",,,1,test,1,0,208
+"(""What wasn't Nina referencing this waitress who discovered?"",)",,,0,test,0,1,209
+"(""Who aren't Natalie's electricians that criticized Carolyn's colleagues disturbing?"",)",,,1,test,1,0,220
+"(""Who aren't Carolyn's colleagues disturbing Natalie's electricians that criticized?"",)",,,0,test,0,1,221
+"(""Who could every museum that hadn't hurt all ladies scare?"",)",,,1,test,1,0,242
+"(""Who could all ladies scare every museum that hadn't hurt?"",)",,,0,test,0,1,243
+"(""Who isn't every cashier's plumber who did stun Craig noticing?"",)",,,1,test,1,0,246
+"(""Who isn't Craig noticing every cashier's plumber who did stun?"",)",,,0,test,0,1,247
+"(""Who hadn't a lot of students' lawyers that investigated William forgotten?"",)",,,1,test,1,0,262
+"(""Who hadn't William forgotten a lot of students' lawyers that investigated?"",)",,,0,test,0,1,263
+"(""Who are Sheila's granddaughters that hadn't admired Douglas's handymen investigating?"",)",,,1,test,1,0,276
+"(""Who are Douglas's handymen investigating Sheila's granddaughters that hadn't admired?"",)",,,0,test,0,1,277
+"(""Who aren't Roger's partners who respected the art galleries aggravating?"",)",,,1,test,1,0,278
+"(""Who aren't the art galleries aggravating Roger's partners who respected?"",)",,,0,test,0,1,279
+"(""Who weren't this cashier's sons who might hide Tracy's guests working with?"",)",,,1,test,1,0,290
+"(""Who weren't Tracy's guests working with this cashier's sons who might hide?"",)",,,0,test,0,1,291
+"(""Who haven't a woman's senators who did attack Kristin's grandsons thought about?"",)",,,1,test,1,0,300
+"(""Who haven't Kristin's grandsons thought about a woman's senators who did attack?"",)",,,0,test,0,1,301
+"(""Who are most drivers who hadn't approached those customers talking about?"",)",,,1,test,1,0,302
+"(""Who are those customers talking about most drivers who hadn't approached?"",)",,,0,test,0,1,303
+"(""Who wasn't Teresa's dentist that admires Cindy arguing about?"",)",,,1,test,1,0,304
+"(""Who wasn't Cindy arguing about Teresa's dentist that admires?"",)",,,0,test,0,1,305
+"(""Who does Craig's boss that kissed Tamara distract?"",)",,,1,test,1,0,324
+"(""Who does Tamara distract Craig's boss that kissed?"",)",,,0,test,0,1,325
+"(""What weren't doctors who have discovered those sons of David praising?"",)",,,1,test,1,0,328
+"(""What weren't those sons of David praising doctors who have discovered?"",)",,,0,test,0,1,329
+"(""Who won't most teachers that talked about Elizabeth's ex-boyfriends hug?"",)",,,1,test,1,0,338
+"(""Who won't Elizabeth's ex-boyfriends hug most teachers that talked about?"",)",,,0,test,0,1,339
+"(""What couldn't a waitress's French teachers that would find George discover?"",)",,,1,test,1,0,346
+"(""What couldn't George discover a waitress's French teachers that would find?"",)",,,0,test,0,1,347
+"(""Who had Sabrina's friend that hadn't worked with Stephen's grandson worked with?"",)",,,1,test,1,0,356
+"(""Who had Stephen's grandson worked with Sabrina's friend that hadn't worked with?"",)",,,0,test,0,1,357
+"(""What will Martin's lawyers that should appreciate Kristen's oncologist leave?"",)",,,1,test,1,0,374
+"(""What will Kristen's oncologist leave Martin's lawyers that should appreciate?"",)",,,0,test,0,1,375
+"(""Who didn't every teenager who listens to Lucille see?"",)",,,1,test,1,0,380
+"(""Who didn't Lucille see every teenager who listens to?"",)",,,0,test,0,1,381
+"(""Who hadn't the Clintons' cousins that didn't find Diane questioned?"",)",,,1,test,1,0,412
+"(""Who hadn't Diane questioned the Clintons' cousins that didn't find?"",)",,,0,test,0,1,413
+"(""Who hadn't those waiters' podiatrist that isn't talking about some ladies alarmed?"",)",,,1,test,1,0,420
+"(""Who hadn't some ladies alarmed those waiters' podiatrist that isn't talking about?"",)",,,0,test,0,1,421
+"(""What isn't that father of Carlos who hadn't forgotten Renee referencing?"",)",,,1,test,1,0,422
+"(""What isn't Renee referencing that father of Carlos who hadn't forgotten?"",)",,,0,test,0,1,423
+"(""Who wasn't every teacher who has distracted Carol's sister revealing?"",)",,,1,test,1,0,424
+"(""Who wasn't Carol's sister revealing every teacher who has distracted?"",)",,,0,test,0,1,425
+"(""Who hadn't Janice's hairdresser who has referenced Todd's granddaughters criticized?"",)",,,1,test,1,0,436
+"(""Who hadn't Todd's granddaughters criticized Janice's hairdresser who has referenced?"",)",,,0,test,0,1,437
+"(""Who isn't that person that had questioned Marla praising?"",)",,,1,test,1,0,460
+"(""Who isn't Marla praising that person that had questioned?"",)",,,0,test,0,1,461
+"(""Who wasn't a student's granddaughter who had cared for Steve's colleague observing?"",)",,,1,test,1,0,466
+"(""Who wasn't Steve's colleague observing a student's granddaughter who had cared for?"",)",,,0,test,0,1,467
+"(""Who can Keith's dermatologist who complained about Christopher distract?"",)",,,1,test,1,0,500
+"(""Who can Christopher distract Keith's dermatologist who complained about?"",)",,,0,test,0,1,501
+"('Who can these dancers that do upset Judy question?',)",,,1,test,1,0,504
+"('Who can Judy question these dancers that do upset?',)",,,0,test,0,1,505
+"(""Who might Alan's brothers who disgusted Sandra's electrician hire?"",)",,,1,test,1,0,512
+"(""Who might Sandra's electrician hire Alan's brothers who disgusted?"",)",,,0,test,0,1,513
+"(""Who were these teachers' ex-girlfriends who weren't listening to a teenager's sons worrying?"",)",,,1,test,1,0,514
+"(""Who were a teenager's sons worrying these teachers' ex-girlfriends who weren't listening to?"",)",,,0,test,0,1,515
+"(""Who doesn't some legislature that had irritated Natalie's son alarm?"",)",,,1,test,1,0,516
+"(""Who doesn't Natalie's son alarm some legislature that had irritated?"",)",,,0,test,0,1,517
+"(""Who haven't those nephews of Edward that have watched Beth's dermatologists worked with?"",)",,,1,test,1,0,518
+"(""Who haven't Beth's dermatologists worked with those nephews of Edward that have watched?"",)",,,0,test,0,1,519
+"(""Who weren't Timothy's nephews that have discovered those forks confusing?"",)",,,1,test,1,0,522
+"(""Who weren't those forks confusing Timothy's nephews that have discovered?"",)",,,0,test,0,1,523
+"(""Who didn't the son of the Clintons that visited Angela's nieces admire?"",)",,,1,test,1,0,528
+"(""Who didn't Angela's nieces admire the son of the Clintons that visited?"",)",,,0,test,0,1,529
+"(""Who hadn't Cindy's mentee that would shock Irene praised?"",)",,,1,test,1,0,530
+"(""Who hadn't Irene praised Cindy's mentee that would shock?"",)",,,0,test,0,1,531
+"(""Who will Leslie's niece that was disturbing Renee's nephew hug?"",)",,,1,test,1,0,532
+"(""Who will Renee's nephew hug Leslie's niece that was disturbing?"",)",,,0,test,0,1,533
+"(""Who wasn't a lady that conceals some patient's nephew discussing?"",)",,,1,test,1,0,536
+"(""Who wasn't some patient's nephew discussing a lady that conceals?"",)",,,0,test,0,1,537
+"(""Who would every woman that can't praise Carlos embarrass?"",)",,,1,test,1,0,542
+"(""Who would Carlos embarrass every woman that can't praise?"",)",,,0,test,0,1,543
+"(""What hadn't Craig's oncologist who describes Lori's colleague insulted?"",)",,,1,test,1,0,546
+"(""What hadn't Lori's colleague insulted Craig's oncologist who describes?"",)",,,0,test,0,1,547
+"(""Who isn't Brad's ex-husband that should listen to Cynthia questioning?"",)",,,1,test,1,0,548
+"(""Who isn't Cynthia questioning Brad's ex-husband that should listen to?"",)",,,0,test,0,1,549
+"(""Who hadn't the Impressionists' senators who saw Richard worried?"",)",,,1,test,1,0,554
+"(""Who hadn't Richard worried the Impressionists' senators who saw?"",)",,,0,test,0,1,555
+"(""Who weren't all men who talked to Stephanie's handymen visiting?"",)",,,1,test,1,0,582
+"(""Who weren't Stephanie's handymen visiting all men who talked to?"",)",,,0,test,0,1,583
+"(""Who would Sarah's grandfather who notices Laura dislike?"",)",,,1,test,1,0,602
+"(""Who would Laura dislike Sarah's grandfather who notices?"",)",,,0,test,0,1,603
+"(""Who might this lady that respected Tracy's colleagues leave?"",)",,,1,test,1,0,608
+"(""Who might Tracy's colleagues leave this lady that respected?"",)",,,0,test,0,1,609
+"(""Who aren't these men's partners who worried Judy's nieces boring?"",)",,,1,test,1,0,610
+"(""Who aren't Judy's nieces boring these men's partners who worried?"",)",,,0,test,0,1,611
+"(""Who does these teachers' girlfriend that isn't kissing Sabrina hurt?"",)",,,1,test,1,0,620
+"(""Who does Sabrina hurt these teachers' girlfriend that isn't kissing?"",)",,,0,test,0,1,621
+"(""Who hadn't many cashiers' hairdresser who hasn't hired Connie revealed?"",)",,,1,test,1,0,646
+"(""Who hadn't Connie revealed many cashiers' hairdresser who hasn't hired?"",)",,,0,test,0,1,647
+"(""Who aren't some drivers who aren't hurting a lot of friends of Noah admiring?"",)",,,1,test,1,0,652
+"(""Who aren't a lot of friends of Noah admiring some drivers who aren't hurting?"",)",,,0,test,0,1,653
+"(""Who did the waiter who hasn't insulted Liam leave?"",)",,,1,test,1,0,656
+"(""Who did Liam leave the waiter who hasn't insulted?"",)",,,0,test,0,1,657
+"(""Who do a lot of senators who hadn't criticized most patients confuse?"",)",,,1,test,1,0,664
+"(""Who do most patients confuse a lot of senators who hadn't criticized?"",)",,,0,test,0,1,665
+"(""Who was Susan's best friend that could sound like that daughter of Andrea investigating?"",)",,,1,test,1,0,666
+"(""Who was that daughter of Andrea investigating Susan's best friend that could sound like?"",)",,,0,test,0,1,667
+"(""Who weren't some guests' brothers that can't distract many pedestrians insulting?"",)",,,1,test,1,0,676
+"(""Who weren't many pedestrians insulting some guests' brothers that can't distract?"",)",,,0,test,0,1,677
+"(""Who were Colleen's friends who could criticize Sherry's piano teachers hugging?"",)",,,1,test,1,0,716
+"(""Who were Sherry's piano teachers hugging Colleen's friends who could criticize?"",)",,,0,test,0,1,717
+"('Who would the driver who annoyed most universities talk to?',)",,,1,test,1,0,728
+"('Who would most universities talk to the driver who annoyed?',)",,,0,test,0,1,729
+"(""Who haven't Brad's friends who shouldn't question a lot of teachers fled from?"",)",,,1,test,1,0,748
+"(""Who haven't a lot of teachers fled from Brad's friends who shouldn't question?"",)",,,0,test,0,1,749
+"(""Who will every son of a patient that hadn't visited a lot of senators alarm?"",)",,,1,test,1,0,754
+"(""Who will a lot of senators alarm every son of a patient that hadn't visited?"",)",,,0,test,0,1,755
+"(""What has Jeffrey's contractor who was referencing Thomas respected?"",)",,,1,test,1,0,768
+"(""What has Thomas respected Jeffrey's contractor who was referencing?"",)",,,0,test,0,1,769
+"(""Who was some guy that is referencing Barbara's son talking to?"",)",,,1,test,1,0,774
+"(""Who was Barbara's son talking to some guy that is referencing?"",)",,,0,test,0,1,775
+"(""What had Donna's doctor who admired Katherine argued about?"",)",,,1,test,1,0,784
+"(""What had Katherine argued about Donna's doctor who admired?"",)",,,0,test,0,1,785
+"(""Who had most cashiers' husband that has known Alicia's handyman criticized?"",)",,,1,test,1,0,794
+"(""Who had Alicia's handyman criticized most cashiers' husband that has known?"",)",,,0,test,0,1,795
+"(""Who has Martha's grandfather who embarrassed Tanya upset?"",)",,,1,test,1,0,810
+"(""Who has Tanya upset Martha's grandfather who embarrassed?"",)",,,0,test,0,1,811
+"(""Who have Gerald's sons who weren't firing some granddaughters of Deborah seen?"",)",,,1,test,1,0,820
+"(""Who have some granddaughters of Deborah seen Gerald's sons who weren't firing?"",)",,,0,test,0,1,821
+"(""Who doesn't Claire's doctor that referenced Martin discuss?"",)",,,1,test,1,0,828
+"(""Who doesn't Martin discuss Claire's doctor that referenced?"",)",,,0,test,0,1,829
+"(""Who is Heather's grandmother who questions some customer's partner questioning?"",)",,,1,test,1,0,836
+"(""Who is some customer's partner questioning Heather's grandmother who questions?"",)",,,0,test,0,1,837
+"(""Who hadn't the men's piano teacher that upset Kendra listened to?"",)",,,1,test,1,0,850
+"(""Who hadn't Kendra listened to the men's piano teacher that upset?"",)",,,0,test,0,1,851
+"(""What was these teenagers' mentor that wasn't insulting Brenda talking about?"",)",,,1,test,1,0,864
+"(""What was Brenda talking about these teenagers' mentor that wasn't insulting?"",)",,,0,test,0,1,865
+"(""What doesn't Veronica's ex-girlfriend who insulted Charles flee from?"",)",,,1,test,1,0,874
+"(""What doesn't Charles flee from Veronica's ex-girlfriend who insulted?"",)",,,0,test,0,1,875
+"(""Who have all cousins of Elizabeth who can argue about the teachers' dermatologists confused?"",)",,,1,test,1,0,882
+"(""Who have the teachers' dermatologists confused all cousins of Elizabeth who can argue about?"",)",,,0,test,0,1,883
+"(""Who can't Lucille's grandsons that hadn't cared for Stacy admire?"",)",,,1,test,1,0,886
+"(""Who can't Stacy admire Lucille's grandsons that hadn't cared for?"",)",,,0,test,0,1,887
+"(""Who aren't a lot of patients that haven't respected Noah's sisters talking to?"",)",,,1,test,1,0,888
+"(""Who aren't Noah's sisters talking to a lot of patients that haven't respected?"",)",,,0,test,0,1,889
+"(""Who don't the adult's grandsons who knew the patients notice?"",)",,,1,test,1,0,902
+"(""Who don't the patients notice the adult's grandsons who knew?"",)",,,0,test,0,1,903
+"(""Who couldn't Heather's teachers who aren't leaving Curtis's sons forget?"",)",,,1,test,1,0,904
+"(""Who couldn't Curtis's sons forget Heather's teachers who aren't leaving?"",)",,,0,test,0,1,905
+"(""Who should Julia's associates who forgot Martha work with?"",)",,,1,test,1,0,916
+"(""Who should Martha work with Julia's associates who forgot?"",)",,,0,test,0,1,917
+"(""Who didn't Naomi's mentee that insults Veronica's mentor disturb?"",)",,,1,test,1,0,930
+"(""Who didn't Veronica's mentor disturb Naomi's mentee that insults?"",)",,,0,test,0,1,931
+"(""Who should Jane's dermatologist who has fired Rachelle find?"",)",,,1,test,1,0,934
+"(""Who should Rachelle find Jane's dermatologist who has fired?"",)",,,0,test,0,1,935
+"(""Who hasn't some lady who hired Curtis's friend fled from?"",)",,,1,test,1,0,976
+"(""Who hasn't Curtis's friend fled from some lady who hired?"",)",,,0,test,0,1,977
+"(""Who haven't Helen's nieces who don't criticize the hospitals concealed?"",)",,,1,test,1,0,1000
+"(""Who haven't the hospitals concealed Helen's nieces who don't criticize?"",)",,,0,test,0,1,1001
+"(""Who can many doctors' supervisor that hadn't known all grandsons of Erin care for?"",)",,,1,test,1,0,1004
+"(""Who can all grandsons of Erin care for many doctors' supervisor that hadn't known?"",)",,,0,test,0,1,1005
+"(""Who was a grandmother of a pedestrian that isn't noticing Brian healing?"",)",,,1,test,1,0,1006
+"(""Who was Brian healing a grandmother of a pedestrian that isn't noticing?"",)",,,0,test,0,1,1007
+"(""Who hasn't an adult who would investigate Ellen referenced?"",)",,,1,test,1,0,1010
+"(""Who hasn't Ellen referenced an adult who would investigate?"",)",,,0,test,0,1,1011
+"(""Who hadn't Melanie's nephews who are hiding Carlos observed?"",)",,,1,test,1,0,1012
+"(""Who hadn't Carlos observed Melanie's nephews who are hiding?"",)",,,0,test,0,1,1013
+"(""Who won't some adult that should hire Denise bore?"",)",,,1,test,1,0,1014
+"(""Who won't Denise bore some adult that should hire?"",)",,,0,test,0,1,1015
+"(""Who hadn't Carmen's friend who talked to Pamela complained about?"",)",,,1,test,1,0,1024
+"(""Who hadn't Pamela complained about Carmen's friend who talked to?"",)",,,0,test,0,1,1025
+"(""What weren't women who do love Travis's piano teachers arguing about?"",)",,,1,test,1,0,1026
+"(""What weren't Travis's piano teachers arguing about women who do love?"",)",,,0,test,0,1,1027
+"(""Who hasn't Carmen's wife who listened to Tiffany cared for?"",)",,,1,test,1,0,1038
+"(""Who hasn't Tiffany cared for Carmen's wife who listened to?"",)",,,0,test,0,1,1039
+"(""Who have most adults that aren't disagreeing with all adults described?"",)",,,1,test,1,0,1050
+"(""Who have all adults described most adults that aren't disagreeing with?"",)",,,0,test,0,1,1051
+"('Who has the guest who approached Karla appreciated?',)",,,1,test,1,0,1052
+"('Who has Karla appreciated the guest who approached?',)",,,0,test,0,1,1053
+"(""What will Florence's granddaughters that weren't admiring Steven reference?"",)",,,1,test,1,0,1054
+"(""What will Steven reference Florence's granddaughters that weren't admiring?"",)",,,0,test,0,1,1055
+"(""Who hasn't Emily's friend who alarmed the grandmother of Sally seen?"",)",,,1,test,1,0,1060
+"(""Who hasn't the grandmother of Sally seen Emily's friend who alarmed?"",)",,,0,test,0,1,1061
+"(""Who hadn't Samuel's associate who listens to Carol respected?"",)",,,1,test,1,0,1078
+"(""Who hadn't Carol respected Samuel's associate who listens to?"",)",,,0,test,0,1,1079
+"(""Who hasn't Joseph's student that saw a teacher cared for?"",)",,,1,test,1,0,1098
+"(""Who hasn't a teacher cared for Joseph's student that saw?"",)",,,0,test,0,1,1099
+"('Who should those children who are kissing Ronald hurt?',)",,,1,test,1,0,1106
+"('Who should Ronald hurt those children who are kissing?',)",,,0,test,0,1,1107
+"('Who did all patients who investigated Susan aggravate?',)",,,1,test,1,0,1114
+"('Who did Susan aggravate all patients who investigated?',)",,,0,test,0,1,1115
+"(""Who hasn't a driver who can't bother Sarah argued about?"",)",,,1,test,1,0,1116
+"(""Who hasn't Sarah argued about a driver who can't bother?"",)",,,0,test,0,1,1117
+"(""Who can't Ann's niece who had boasted about the friend of Kathleen discuss?"",)",,,1,test,1,0,1122
+"(""Who can't the friend of Kathleen discuss Ann's niece who had boasted about?"",)",,,0,test,0,1,1123
+"(""Who could every actor that doesn't notice this actor aggravate?"",)",,,1,test,1,0,1124
+"(""Who could this actor aggravate every actor that doesn't notice?"",)",,,0,test,0,1,1125
+"(""Who can these students that weren't distracting every woman's boss scare?"",)",,,1,test,1,0,1134
+"(""Who can every woman's boss scare these students that weren't distracting?"",)",,,0,test,0,1,1135
+"(""Who haven't those documentaries about Jesus that weren't distracting a lot of sisters of Gerald sounded like?"",)",,,1,test,1,0,1136
+"(""Who haven't a lot of sisters of Gerald sounded like those documentaries about Jesus that weren't distracting?"",)",,,0,test,0,1,1137
+"(""Who weren't Sheila's guests that embarrassed Florence's fathers impressing?"",)",,,1,test,1,0,1164
+"(""Who weren't Florence's fathers impressing Sheila's guests that embarrassed?"",)",,,0,test,0,1,1165
+"(""Who don't those actors who were worrying cashiers notice?"",)",,,1,test,1,0,1174
+"(""Who don't cashiers notice those actors who were worrying?"",)",,,0,test,0,1,1175
+"(""Who hasn't Janet's partner who had disgusted Kayla talked about?"",)",,,1,test,1,0,1192
+"(""Who hasn't Kayla talked about Janet's partner who had disgusted?"",)",,,0,test,0,1,1193
+"(""Who didn't Anna's doctors who are watching Amy love?"",)",,,1,test,1,0,1204
+"(""Who didn't Amy love Anna's doctors who are watching?"",)",,,0,test,0,1,1205
+"(""Who couldn't those brothers of William who discussed Samuel fire?"",)",,,1,test,1,0,1214
+"(""Who couldn't Samuel fire those brothers of William who discussed?"",)",,,0,test,0,1,1215
+"(""Who couldn't Adam's best friends that distracted Rodney's handymen dislike?"",)",,,1,test,1,0,1216
+"(""Who couldn't Rodney's handymen dislike Adam's best friends that distracted?"",)",,,0,test,0,1,1217
+"(""What won't Mary's niece who is referencing Charles's niece leave?"",)",,,1,test,1,0,1218
+"(""What won't Charles's niece leave Mary's niece who is referencing?"",)",,,0,test,0,1,1219
+"(""Who had Christine's tutor that wouldn't know most grandsons of most doctors remembered?"",)",,,1,test,1,0,1220
+"(""Who had most grandsons of most doctors remembered Christine's tutor that wouldn't know?"",)",,,0,test,0,1,1221
+"(""Who should these dancers who worked with Jane's colleague irritate?"",)",,,1,test,1,0,1234
+"(""Who should Jane's colleague irritate these dancers who worked with?"",)",,,0,test,0,1,1235
+"(""Who hasn't Anne's doctor that hires Todd sounded like?"",)",,,1,test,1,0,1254
+"(""Who hasn't Todd sounded like Anne's doctor that hires?"",)",,,0,test,0,1,1255
+"(""Who hadn't men's dermatologist that is firing some guy listened to?"",)",,,1,test,1,0,1256
+"(""Who hadn't some guy listened to men's dermatologist that is firing?"",)",,,0,test,0,1,1257
+"(""Who had all fathers of a boy that do disturb Bruce's supervisors distracted?"",)",,,1,test,1,0,1260
+"(""Who had Bruce's supervisors distracted all fathers of a boy that do disturb?"",)",,,0,test,0,1,1261
+"(""Who had every lady's piano teachers who shouldn't flee from Daniel stunned?"",)",,,1,test,1,0,1268
+"(""Who had Daniel stunned every lady's piano teachers who shouldn't flee from?"",)",,,0,test,0,1,1269
+"(""Who shouldn't every sister of Frank that noticed all vases bore?"",)",,,1,test,1,0,1282
+"(""Who shouldn't all vases bore every sister of Frank that noticed?"",)",,,0,test,0,1,1283
+"('Who have many shows about travel that have hurt all ladies disagreed with?',)",,,1,test,1,0,1318
+"('Who have all ladies disagreed with many shows about travel that have hurt?',)",,,0,test,0,1,1319
+"(""What haven't those cashiers that have complained about cashiers found?"",)",,,1,test,1,0,1322
+"(""What haven't cashiers found those cashiers that have complained about?"",)",,,0,test,0,1,1323
+"('Who would a bird that found Marla find?',)",,,1,test,1,0,1324
+"('Who would Marla find a bird that found?',)",,,0,test,0,1,1325
+"(""What didn't some man's dentists who hadn't praised Carrie insult?"",)",,,1,test,1,0,1330
+"(""What didn't Carrie insult some man's dentists who hadn't praised?"",)",,,0,test,0,1,1331
+"(""Who are David's colleagues who have complained about some sisters of Florence working with?"",)",,,1,test,1,0,1336
+"(""Who are some sisters of Florence working with David's colleagues who have complained about?"",)",,,0,test,0,1,1337
+"(""Who would Carolyn's ex-husband who hasn't escaped from the Borgias attack?"",)",,,1,test,1,0,1338
+"(""Who would the Borgias attack Carolyn's ex-husband who hasn't escaped from?"",)",,,0,test,0,1,1339
+"(""What isn't Emily's handyman who noticed Jane curing?"",)",,,1,test,1,0,1344
+"(""What isn't Jane curing Emily's handyman who noticed?"",)",,,0,test,0,1,1345
+"(""Who wouldn't a guest who should impress Claire conceal?"",)",,,1,test,1,0,1346
+"(""Who wouldn't Claire conceal a guest who should impress?"",)",,,0,test,0,1,1347
+"(""Who wasn't Leslie's grandfather who hasn't hurt this boy criticizing?"",)",,,1,test,1,0,1350
+"(""Who wasn't this boy criticizing Leslie's grandfather who hasn't hurt?"",)",,,0,test,0,1,1351
+"(""Who do Rebecca's daughters who liked Patricia's bosses complain about?"",)",,,1,test,1,0,1356
+"(""Who do Patricia's bosses complain about Rebecca's daughters who liked?"",)",,,0,test,0,1,1357
+"(""Who haven't Cynthia's daughters who aren't referencing Tara's nephews remembered?"",)",,,1,test,1,0,1360
+"(""Who haven't Tara's nephews remembered Cynthia's daughters who aren't referencing?"",)",,,0,test,0,1,1361
+"(""Who hadn't Marcus's nieces that impressed Dan complained about?"",)",,,1,test,1,0,1368
+"(""Who hadn't Dan complained about Marcus's nieces that impressed?"",)",,,0,test,0,1,1369
+"(""Who was Todd's dermatologist that was healing Daniel irritating?"",)",,,1,test,1,0,1378
+"(""Who was Daniel irritating Todd's dermatologist that was healing?"",)",,,0,test,0,1,1379
+"('Who did this child that will hide some senator hurt?',)",,,1,test,1,0,1380
+"('Who did some senator hurt this child that will hide?',)",,,0,test,0,1,1381
+"(""Who has Amy's granddaughter that bored Bethany impressed?"",)",,,1,test,1,0,1384
+"(""Who has Bethany impressed Amy's granddaughter that bored?"",)",,,0,test,0,1,1385
+"(""Who isn't Liam's mentee who respects Lisa curing?"",)",,,1,test,1,0,1396
+"(""Who isn't Lisa curing Liam's mentee who respects?"",)",,,0,test,0,1,1397
+"(""Who hadn't Ella's electricians who concealed many waiters' doctor thought about?"",)",,,1,test,1,0,1406
+"(""Who hadn't many waiters' doctor thought about Ella's electricians who concealed?"",)",,,0,test,0,1,1407
+"(""Who are some people who weren't kissing most teenagers listening to?"",)",,,1,test,1,0,1414
+"(""Who are most teenagers listening to some people who weren't kissing?"",)",,,0,test,0,1,1415
+"(""Who did Becca's classmate that forgot every movie about the Lutherans irritate?"",)",,,1,test,1,0,1420
+"(""Who did every movie about the Lutherans irritate Becca's classmate that forgot?"",)",,,0,test,0,1,1421
+"(""Who has some son of James that didn't leave Keith disturbed?"",)",,,1,test,1,0,1424
+"(""Who has Keith disturbed some son of James that didn't leave?"",)",,,0,test,0,1,1425
+"(""What should Angela's supervisors that are hiding Laurie's supervisors return to?"",)",,,1,test,1,0,1446
+"(""What should Laurie's supervisors return to Angela's supervisors that are hiding?"",)",,,0,test,0,1,1447
+"(""Who hadn't Cheryl's piano teachers who could dislike Veronica irritated?"",)",,,1,test,1,0,1458
+"(""Who hadn't Veronica irritated Cheryl's piano teachers who could dislike?"",)",,,0,test,0,1,1459
+"(""Who doesn't Lawrence's contractor who can embarrass every driver boast about?"",)",,,1,test,1,0,1466
+"(""Who doesn't every driver boast about Lawrence's contractor who can embarrass?"",)",,,0,test,0,1,1467
+"(""Who is Margaret's dentist that will irritate Matt listening to?"",)",,,1,test,1,0,1468
+"(""Who is Matt listening to Margaret's dentist that will irritate?"",)",,,0,test,0,1,1469
+"(""Who haven't senators who won't disturb a lot of teenagers alarmed?"",)",,,1,test,1,0,1470
+"(""Who haven't a lot of teenagers alarmed senators who won't disturb?"",)",,,0,test,0,1,1471
+"(""Who don't Mary's grandsons that sounded like the students complain about?"",)",,,1,test,1,0,1476
+"(""Who don't the students complain about Mary's grandsons that sounded like?"",)",,,0,test,0,1,1477
+"(""Who aren't every guest's oncologists who might argue about granddaughters of this driver escaping from?"",)",,,1,test,1,0,1484
+"(""Who aren't granddaughters of this driver escaping from every guest's oncologists who might argue about?"",)",,,0,test,0,1,1485
+"(""Who can't Kirsten's colleague who wasn't shocking Jessica's granddaughters insult?"",)",,,1,test,1,0,1486
+"(""Who can't Jessica's granddaughters insult Kirsten's colleague who wasn't shocking?"",)",,,0,test,0,1,1487
+"(""Who did this father of Ruth who has concealed Anna's French teachers fire?"",)",,,1,test,1,0,1492
+"(""Who did Anna's French teachers fire this father of Ruth who has concealed?"",)",,,0,test,0,1,1493
+"(""Who wasn't an adult's dermatologist who returned to Daniel finding?"",)",,,1,test,1,0,1496
+"(""Who wasn't Daniel finding an adult's dermatologist who returned to?"",)",,,0,test,0,1,1497
+"(""Who hadn't Florence's employees who hadn't cured Heidi's contractors seen?"",)",,,1,test,1,0,1516
+"(""Who hadn't Heidi's contractors seen Florence's employees who hadn't cured?"",)",,,0,test,0,1,1517
+"('Who have senators who remembered the mountains stunned?',)",,,1,test,1,0,1520
+"('Who have the mountains stunned senators who remembered?',)",,,0,test,0,1,1521
+"(""Who didn't a lot of men who hadn't hugged Samantha insult?"",)",,,1,test,1,0,1524
+"(""Who didn't Samantha insult a lot of men who hadn't hugged?"",)",,,0,test,0,1,1525
+"(""Who had that dancer's guest that approached Tiffany admired?"",)",,,1,test,1,0,1528
+"(""Who had Tiffany admired that dancer's guest that approached?"",)",,,0,test,0,1,1529
+"('Who will that adult that embarrassed Denise complain about?',)",,,1,test,1,0,1530
+"('Who will Denise complain about that adult that embarrassed?',)",,,0,test,0,1,1531
+"(""Who does Gerald's spouse that praised Andrea aggravate?"",)",,,1,test,1,0,1556
+"(""Who does Andrea aggravate Gerald's spouse that praised?"",)",,,0,test,0,1,1557
+"(""What wasn't this child who shouldn't sound like Lucille finding?"",)",,,1,test,1,0,1560
+"(""What wasn't Lucille finding this child who shouldn't sound like?"",)",,,0,test,0,1,1561
+"(""Who aren't most doctors who hadn't complained about most daughters of Lissa approaching?"",)",,,1,test,1,0,1572
+"(""Who aren't most daughters of Lissa approaching most doctors who hadn't complained about?"",)",,,0,test,0,1,1573
+"(""Who had Nina's lawyer that won't appreciate every waiter bored?"",)",,,1,test,1,0,1580
+"(""Who had every waiter bored Nina's lawyer that won't appreciate?"",)",,,0,test,0,1,1581
+"(""Who had this child's podiatrist who doesn't impress Alan noticed?"",)",,,1,test,1,0,1586
+"(""Who had Alan noticed this child's podiatrist who doesn't impress?"",)",,,0,test,0,1,1587
+"(""Who had a lot of drivers' teacher that did notice Linda watched?"",)",,,1,test,1,0,1600
+"(""Who had Linda watched a lot of drivers' teacher that did notice?"",)",,,0,test,0,1,1601
+"(""Who have these grandfathers of some doctor that aren't revealing photographs upset?"",)",,,1,test,1,0,1616
+"(""Who have photographs upset these grandfathers of some doctor that aren't revealing?"",)",,,0,test,0,1,1617
+"(""Who are the Borgias' handymen who hadn't admired that waiter's nephews firing?"",)",,,1,test,1,0,1624
+"(""Who are that waiter's nephews firing the Borgias' handymen who hadn't admired?"",)",,,0,test,0,1,1625
+"('Who had these adults that disagreed with these pedestrians attacked?',)",,,1,test,1,0,1650
+"('Who had these pedestrians attacked these adults that disagreed with?',)",,,0,test,0,1,1651
+"(""Who weren't Mary's ex-husbands who fired Kenneth's French teachers disgusting?"",)",,,1,test,1,0,1670
+"(""Who weren't Kenneth's French teachers disgusting Mary's ex-husbands who fired?"",)",,,0,test,0,1,1671
+"('Who has the teenager that will find Kirsten annoyed?',)",,,1,test,1,0,1714
+"('Who has Kirsten annoyed the teenager that will find?',)",,,0,test,0,1,1715
+"(""What doesn't Richard's guest who thought about Ronald reveal?"",)",,,1,test,1,0,1720
+"(""What doesn't Ronald reveal Richard's guest who thought about?"",)",,,0,test,0,1,1721
+"('Who was every teacher that disliked Beth watching?',)",,,1,test,1,0,1722
+"('Who was Beth watching every teacher that disliked?',)",,,0,test,0,1,1723
+"('What has every man that has healed a mother of Anna healed?',)",,,1,test,1,0,1726
+"('What has a mother of Anna healed every man that has healed?',)",,,0,test,0,1,1727
+"(""Who doesn't Jerry's partner who hadn't alarmed Theresa escape from?"",)",,,1,test,1,0,1740
+"(""Who doesn't Theresa escape from Jerry's partner who hadn't alarmed?"",)",,,0,test,0,1,1741
+"(""What won't Joel's hairdresser that didn't describe the doctors dislike?"",)",,,1,test,1,0,1758
+"(""What won't the doctors dislike Joel's hairdresser that didn't describe?"",)",,,0,test,0,1,1759
+"(""Who was Maria's spouse who wouldn't praise Becca hiding?"",)",,,1,test,1,0,1762
+"(""Who was Becca hiding Maria's spouse who wouldn't praise?"",)",,,0,test,0,1,1763
+"(""Who have most fathers of Jill who haven't found some waiters' best friends worked with?"",)",,,1,test,1,0,1764
+"(""Who have some waiters' best friends worked with most fathers of Jill who haven't found?"",)",,,0,test,0,1,1765
+"(""Who had this sister of Stephen that isn't finding Charles talked to?"",)",,,1,test,1,0,1778
+"(""Who had Charles talked to this sister of Stephen that isn't finding?"",)",,,0,test,0,1,1779
+"(""Who would Carmen's sister that worked with these teachers disagree with?"",)",,,1,test,1,0,1786
+"(""Who would these teachers disagree with Carmen's sister that worked with?"",)",,,0,test,0,1,1787
+"(""Who has Marie's ex-boyfriend that disagrees with Rose's electrician worried?"",)",,,1,test,1,0,1788
+"(""Who has Rose's electrician worried Marie's ex-boyfriend that disagrees with?"",)",,,0,test,0,1,1789
+"(""Who will many brothers of Vanessa that had revealed Amelia's plumbers watch?"",)",,,1,test,1,0,1808
+"(""Who will Amelia's plumbers watch many brothers of Vanessa that had revealed?"",)",,,0,test,0,1,1809
+"(""Who might Gina's brother who isn't disturbing Vincent's ex-boyfriend see?"",)",,,1,test,1,0,1810
+"(""Who might Vincent's ex-boyfriend see Gina's brother who isn't disturbing?"",)",,,0,test,0,1,1811
+"(""What hadn't mothers of Jane that had discovered a nephew of Maria concealed?"",)",,,1,test,1,0,1818
+"(""What hadn't a nephew of Maria concealed mothers of Jane that had discovered?"",)",,,0,test,0,1,1819
+"(""What would a lot of brothers of Brenda that won't flee from George's ex-girlfriend disagree with?"",)",,,1,test,1,0,1822
+"(""What would George's ex-girlfriend disagree with a lot of brothers of Brenda that won't flee from?"",)",,,0,test,0,1,1823
+"(""Who shouldn't every association that wasn't annoying Kayla's ex-husbands alarm?"",)",,,1,test,1,0,1828
+"(""Who shouldn't Kayla's ex-husbands alarm every association that wasn't annoying?"",)",,,0,test,0,1,1829
+"(""Who have Rhonda's lawyers who criticized a lot of schools worked with?"",)",,,1,test,1,0,1854
+"(""Who have a lot of schools worked with Rhonda's lawyers who criticized?"",)",,,0,test,0,1,1855
+"(""Who hadn't Daniel's electrician who observed Sharon healed?"",)",,,1,test,1,0,1856
+"(""Who hadn't Sharon healed Daniel's electrician who observed?"",)",,,0,test,0,1,1857
+"(""Who were Florence's students that had worked with some granddaughters of Tamara escaping from?"",)",,,1,test,1,0,1868
+"(""Who were some granddaughters of Tamara escaping from Florence's students that had worked with?"",)",,,0,test,0,1,1869
+"(""Who can't the Clintons' dermatologists that do disturb Deborah's sister forget?"",)",,,1,test,1,0,1884
+"(""Who can't Deborah's sister forget the Clintons' dermatologists that do disturb?"",)",,,0,test,0,1,1885
+"(""Who will Julie's lawyer that will irritate Donald's dentist work with?"",)",,,1,test,1,0,1892
+"(""Who will Donald's dentist work with Julie's lawyer that will irritate?"",)",,,0,test,0,1,1893
+"('Who might every son of Lisa who astounded Julie help?',)",,,1,test,1,0,1894
+"('Who might Julie help every son of Lisa who astounded?',)",,,0,test,0,1,1895
+"(""What will Stephanie's daughters who admired Lawrence discover?"",)",,,1,test,1,0,1898
+"(""What will Lawrence discover Stephanie's daughters who admired?"",)",,,0,test,0,1,1899
+"(""Who won't Sonia's mentor who couldn't alarm Liam's mentee hug?"",)",,,1,test,1,0,1946
+"(""Who won't Liam's mentee hug Sonia's mentor who couldn't alarm?"",)",,,0,test,0,1,1947
+"(""Who are Carla's dentists that hadn't disliked every girl's sisters concealing?"",)",,,1,test,1,0,1956
+"(""Who are every girl's sisters concealing Carla's dentists that hadn't disliked?"",)",,,0,test,0,1,1957
+"(""Who didn't a lot of brothers of Patrick who can't hug Leslie worry?"",)",,,1,test,1,0,1958
+"(""Who didn't Leslie worry a lot of brothers of Patrick who can't hug?"",)",,,0,test,0,1,1959
+"(""What had most teachers' handyman who has admired the Borgias described?"",)",,,1,test,1,0,1960
+"(""What had the Borgias described most teachers' handyman who has admired?"",)",,,0,test,0,1,1961
+"(""What could those actors that don't dislike Nina's mother criticize?"",)",,,1,test,1,0,1966
+"(""What could Nina's mother criticize those actors that don't dislike?"",)",,,0,test,0,1,1967
+"(""Who were the dancers that should respect Denise's partners distracting?"",)",,,1,test,1,0,1974
+"(""Who were Denise's partners distracting the dancers that should respect?"",)",,,0,test,0,1,1975
+"(""Who shouldn't that government that forgot a lot of waiters astound?"",)",,,1,test,1,0,1994
+"(""Who shouldn't a lot of waiters astound that government that forgot?"",)",,,0,test,0,1,1995
+"(""Who have Vincent's students who are hiring these patients cured?"",)",,,1,test,1,0,1998
+"(""Who have these patients cured Vincent's students who are hiring?"",)",,,0,test,0,1,1999

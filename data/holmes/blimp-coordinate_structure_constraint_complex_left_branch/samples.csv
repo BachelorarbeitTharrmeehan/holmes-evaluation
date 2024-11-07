@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('Whose restaurants is Clyde exiting and Amelia talking about?',)",,,1,train,1,0,2
+"('Whose is Clyde exiting restaurants and Amelia talking about?',)",,,0,train,0,1,3
+"('What lights could Spain sell and Andrea discover?',)",,,1,train,1,0,6
+"('What could Spain sell lights and Andrea discover?',)",,,0,train,0,1,7
+"('What paintings has Melissa looked like and Erin revealed?',)",,,1,train,1,0,8
+"('What has Melissa looked like paintings and Erin revealed?',)",,,0,train,0,1,9
+"('Which carriages has Melanie found and Diana revealed?',)",,,1,train,1,0,10
+"('Which has Melanie found carriages and Diana revealed?',)",,,0,train,0,1,11
+"('What schools were many cars embarrassing and Daniel driving to?',)",,,1,train,1,0,20
+"('What were many cars embarrassing schools and Daniel driving to?',)",,,0,train,0,1,21
+"('What cafes could some teenager skate around and a lot of committees conceal?',)",,,1,train,1,0,22
+"('What could some teenager skate around cafes and a lot of committees conceal?',)",,,0,train,0,1,23
+"('What lakes had Elaine escaped from and Gary thought about?',)",,,1,train,1,0,24
+"('What had Elaine escaped from lakes and Gary thought about?',)",,,0,train,0,1,25
+"('What mountains is Aaron lifting and that woman insulting?',)",,,1,train,1,0,26
+"('What is Aaron lifting mountains and that woman insulting?',)",,,0,train,0,1,27
+"('Which children had Phillip worried and Dawn disturbed?',)",,,1,train,1,0,28
+"('Which had Phillip worried children and Dawn disturbed?',)",,,0,train,0,1,29
+"('Whose closets can drivers arrive at and Heidi walk through?',)",,,1,train,1,0,30
+"('Whose can drivers arrive at closets and Heidi walk through?',)",,,0,train,0,1,31
+"('Which students has Steve hired and Monet hated?',)",,,1,train,1,0,32
+"('Which has Steve hired students and Monet hated?',)",,,0,train,0,1,33
+"('Which libraries had those waiters lifted and Alicia explored?',)",,,1,train,1,0,36
+"('Which had those waiters lifted libraries and Alicia explored?',)",,,0,train,0,1,37
+"('Which students does Leslie kiss and Kendra visit?',)",,,1,train,1,0,40
+"('Which does Leslie kiss students and Kendra visit?',)",,,0,train,0,1,41
+"('Which teachers did Veronica work with and the rivers bore?',)",,,1,train,1,0,42
+"('Which did Veronica work with teachers and the rivers bore?',)",,,0,train,0,1,43
+"('What adults is Jodi curing and Karen returning to?',)",,,1,train,1,0,44
+"('What is Jodi curing adults and Karen returning to?',)",,,0,train,0,1,45
+"('What slopes had Lori descended and Carlos climbed down?',)",,,1,train,1,0,48
+"('What had Lori descended slopes and Carlos climbed down?',)",,,0,train,0,1,49
+"('Which women could Emily criticize and Christine notice?',)",,,1,train,1,0,50
+"('Which could Emily criticize women and Christine notice?',)",,,0,train,0,1,51
+"('Which lakes had most girls biked to and most drivers described?',)",,,1,train,1,0,52
+"('Which had most girls biked to lakes and most drivers described?',)",,,0,train,0,1,53
+"('Which teeth is Samuel fixing and Grace selling?',)",,,1,train,1,0,56
+"('Which is Samuel fixing teeth and Grace selling?',)",,,0,train,0,1,57
+"('What cashiers is Ellen shocking and the waitresses boring?',)",,,1,train,1,0,60
+"('What is Ellen shocking cashiers and the waitresses boring?',)",,,0,train,0,1,61
+"('Which doctors is Angela hugging and Paula admiring?',)",,,1,train,1,0,62
+"('Which is Angela hugging doctors and Paula admiring?',)",,,0,train,0,1,63
+"('Which men does Theresa describe and every coat worry?',)",,,1,train,1,0,64
+"('What senators was Alicia approaching and some teachers scaring?',)",,,1,dev,1,0,0
+"('What was Alicia approaching senators and some teachers scaring?',)",,,0,dev,0,1,1
+"('Which teenagers had Tamara hired and Grace fired?',)",,,1,dev,1,0,4
+"('Which had Tamara hired teenagers and Grace fired?',)",,,0,dev,0,1,5
+"('What offspring has William stunned and Melinda escaped from?',)",,,1,dev,1,0,12
+"('What has William stunned offspring and Melinda escaped from?',)",,,0,dev,0,1,13
+"('What alumni might some socks shock and Denise appreciate?',)",,,1,dev,1,0,14
+"('What might some socks shock alumni and Denise appreciate?',)",,,0,dev,0,1,15
+"('Which girls is the dress irritating and the Lutherans revealing?',)",,,1,dev,1,0,16
+"('Which is the dress irritating girls and the Lutherans revealing?',)",,,0,dev,0,1,17
+"('Which children has Valerie approached and Sonia hurt?',)",,,1,dev,1,0,38
+"('Which has Valerie approached children and Sonia hurt?',)",,,0,dev,0,1,39
+"('Which men had some museums known and some waitress listened to?',)",,,1,dev,1,0,76
+"('Which had some museums known men and some waitress listened to?',)",,,0,dev,0,1,77
+"('Which actresses is Donna boring and Denise alarming?',)",,,1,dev,1,0,100
+"('Which is Donna boring actresses and Denise alarming?',)",,,0,dev,0,1,101
+"('What companies was music astounding and David disturbing?',)",,,1,dev,1,0,138
+"('What was music astounding companies and David disturbing?',)",,,0,dev,0,1,139
+"('Which boys was Noah praising and a child approaching?',)",,,1,dev,1,0,144
+"('Which was Noah praising boys and a child approaching?',)",,,0,dev,0,1,145
+"('Whose windows do most doctors break and Melissa lift?',)",,,1,dev,1,0,150
+"('Whose do most doctors break windows and Melissa lift?',)",,,0,dev,0,1,151
+"('What students could some senator boast about and Eric cure?',)",,,1,dev,1,0,172
+"('What could some senator boast about students and Eric cure?',)",,,0,dev,0,1,173
+"('Which guests had Galileo forgotten and Kevin distracted?',)",,,1,dev,1,0,178
+"('Which had Galileo forgotten guests and Kevin distracted?',)",,,0,dev,0,1,179
+"('Whose plays has an adult examined and George sounded like?',)",,,1,dev,1,0,186
+"('Whose has an adult examined plays and George sounded like?',)",,,0,dev,0,1,187
+"('Which movie theaters has Gregory exited and Joseph left?',)",,,1,dev,1,0,190
+"('Which has Gregory exited movie theaters and Joseph left?',)",,,0,dev,0,1,191
+"('What alumni has the student distracted and Diana appreciated?',)",,,1,dev,1,0,194
+"('What has the student distracted alumni and Diana appreciated?',)",,,0,dev,0,1,195
+"('Whose ladders has the lady ascended and Lawrence revealed?',)",,,1,dev,1,0,196
+"('Whose has the lady ascended ladders and Lawrence revealed?',)",,,0,dev,0,1,197
+"('What people does every vase disturb and every hill scare?',)",,,1,dev,1,0,212
+"('What does every vase disturb people and every hill scare?',)",,,0,dev,0,1,213
+"('Which pedestrians was Connie questioning and Leslie distracting?',)",,,1,dev,1,0,216
+"('Which was Connie questioning pedestrians and Leslie distracting?',)",,,0,dev,0,1,217
+"('Which governments were all public parks stunning and Christina aggravating?',)",,,1,dev,1,0,218
+"('Which were all public parks stunning governments and Christina aggravating?',)",,,0,dev,0,1,219
+"('Whose carts were the Impressionists hiding and Martin fixing?',)",,,1,dev,1,0,238
+"('Whose were the Impressionists hiding carts and Martin fixing?',)",,,0,dev,0,1,239
+"('Which committees had Thomas questioned and Douglas worried?',)",,,1,dev,1,0,300
+"('Which had Thomas questioned committees and Douglas worried?',)",,,0,dev,0,1,301
+"('Whose malls had Monica toured and Teresa fled from?',)",,,1,dev,1,0,306
+"('Whose had Monica toured malls and Teresa fled from?',)",,,0,dev,0,1,307
+"('What schools was Holly boycotting and Derek touring?',)",,,1,dev,1,0,316
+"('What was Holly boycotting schools and Derek touring?',)",,,0,dev,0,1,317
+"('Which stories does Lawrence reference and that actress research?',)",,,1,dev,1,0,334
+"('Which does Lawrence reference stories and that actress research?',)",,,0,dev,0,1,335
+"('Whose lakes was Eva walking through and these dancers exploring?',)",,,1,dev,1,0,442
+"('Whose was Eva walking through lakes and these dancers exploring?',)",,,0,dev,0,1,443
+"('Which women has Adam investigated and Elaine scared?',)",,,1,dev,1,0,468
+"('Which has Adam investigated women and Elaine scared?',)",,,0,dev,0,1,469
+"('What women was Regina discussing and some spinach distracting?',)",,,1,dev,1,0,482
+"('What was Regina discussing women and some spinach distracting?',)",,,0,dev,0,1,483
+"('Which children has the teenager disliked and Sally bothered?',)",,,1,dev,1,0,498
+"('Which has the teenager disliked children and Sally bothered?',)",,,0,dev,0,1,499
+"('Whose documentaries were a lot of teachers examining and Travis talking about?',)",,,1,dev,1,0,528
+"('Whose were a lot of teachers examining documentaries and Travis talking about?',)",,,0,dev,0,1,529
+"('What adults does Mitchell escape from and Julia appreciate?',)",,,1,dev,1,0,556
+"('What does Mitchell escape from adults and Julia appreciate?',)",,,0,dev,0,1,557
+"('Which essays did those men disagree with and Deanna conceal?',)",,,1,dev,1,0,592
+"('Which did those men disagree with essays and Deanna conceal?',)",,,0,dev,0,1,593
+"('Which trucks has Leslie taken and Kirsten revealed?',)",,,1,dev,1,0,594
+"('Which has Leslie taken trucks and Kirsten revealed?',)",,,0,dev,0,1,595
+"('What drivers will Ella conceal and that library remember?',)",,,1,dev,1,0,596
+"('What will Ella conceal drivers and that library remember?',)",,,0,dev,0,1,597
+"('Which commentaries had Pamela examined and Frank complained about?',)",,,1,dev,1,0,646
+"('Which had Pamela examined commentaries and Frank complained about?',)",,,0,dev,0,1,647
+"('What teachers will that icicle disturb and Bethany notice?',)",,,1,dev,1,0,694
+"('What will that icicle disturb teachers and Bethany notice?',)",,,0,dev,0,1,695
+"('Which boys were some customers working with and some student insulting?',)",,,1,dev,1,0,706
+"('Which were some customers working with boys and some student insulting?',)",,,0,dev,0,1,707
+"('Which carts has Monica broken and some school concealed?',)",,,1,dev,1,0,712
+"('Which has Monica broken carts and some school concealed?',)",,,0,dev,0,1,713
+"('What patients can Irene hate and Galileo conceal?',)",,,1,dev,1,0,724
+"('What can Irene hate patients and Galileo conceal?',)",,,0,dev,0,1,725
+"('What eyes might Maria have and Brett clean?',)",,,1,dev,1,0,728
+"('What might Maria have eyes and Brett clean?',)",,,0,dev,0,1,729
+"('What offspring is Stephen describing and some waiter observing?',)",,,1,dev,1,0,734
+"('What is Stephen describing offspring and some waiter observing?',)",,,0,dev,0,1,735
+"('Which dancers did the Impressionists alarm and Larry astound?',)",,,1,dev,1,0,746
+"('Which did the Impressionists alarm dancers and Larry astound?',)",,,0,dev,0,1,747
+"('Which dancers has John loved and some print looked like?',)",,,1,dev,1,0,774
+"('Which has John loved dancers and some print looked like?',)",,,0,dev,0,1,775
+"('What girls is this teenager confusing and Richard kissing?',)",,,1,dev,1,0,782
+"('What is this teenager confusing girls and Richard kissing?',)",,,0,dev,0,1,783
+"('What pedestrians will Theresa insult and Carol care for?',)",,,1,dev,1,0,784
+"('What will Theresa insult pedestrians and Carol care for?',)",,,0,dev,0,1,785
+"('Whose museums did Sonia bike to and Florence boycott?',)",,,1,dev,1,0,798
+"('Whose did Sonia bike to museums and Florence boycott?',)",,,0,dev,0,1,799
+"('What chairs might Timothy break and Karen reveal?',)",,,1,dev,1,0,828
+"('What might Timothy break chairs and Karen reveal?',)",,,0,dev,0,1,829
+"('Whose college campuses might Rhonda mess up and many organizations sell?',)",,,1,dev,1,0,830
+"('Whose might Rhonda mess up college campuses and many organizations sell?',)",,,0,dev,0,1,831
+"('What hospitals are a lot of cashiers fleeing from and Susan questioning?',)",,,1,dev,1,0,854
+"('What are a lot of cashiers fleeing from hospitals and Susan questioning?',)",,,0,dev,0,1,855
+"('Which trucks is every driver breaking and every sketch looking like?',)",,,1,dev,1,0,862
+"('Which is every driver breaking trucks and every sketch looking like?',)",,,0,dev,0,1,863
+"('What horses was Paul hiding and Lawrence thinking about?',)",,,1,dev,1,0,914
+"('What was Paul hiding horses and Lawrence thinking about?',)",,,0,dev,0,1,915
+"('What patients had Beth sounded like and Veronica found?',)",,,1,dev,1,0,918
+"('What had Beth sounded like patients and Veronica found?',)",,,0,dev,0,1,919
+"('What customers could a fish aggravate and that cashier heal?',)",,,1,dev,1,0,974
+"('What could a fish aggravate customers and that cashier heal?',)",,,0,dev,0,1,975
+"('Which actors was Mary noticing and the child watching?',)",,,1,dev,1,0,978
+"('Which was Mary noticing actors and the child watching?',)",,,0,dev,0,1,979
+"('Which actresses is the glass distracting and Kevin watching?',)",,,1,dev,1,0,988
+"('Which is the glass distracting actresses and Kevin watching?',)",,,0,dev,0,1,989
+"('What hospitals will Roger flee from and Timothy respect?',)",,,1,dev,1,0,1008
+"('What will Roger flee from hospitals and Timothy respect?',)",,,0,dev,0,1,1009
+"('Whose pamphlets was Dennis describing and Ann boasting about?',)",,,1,dev,1,0,1014
+"('Whose was Dennis describing pamphlets and Ann boasting about?',)",,,0,dev,0,1,1015
+"('Whose theses could Jill reveal and Omar hate?',)",,,1,dev,1,0,1050
+"('Whose could Jill reveal theses and Omar hate?',)",,,0,dev,0,1,1051
+"('Which men was Andrea discussing and Ella concealing?',)",,,1,dev,1,0,1078
+"('Which was Andrea discussing men and Ella concealing?',)",,,0,dev,0,1,1079
+"('What children has Aaron known and Kendra worked with?',)",,,1,dev,1,0,1082
+"('What has Aaron known children and Kendra worked with?',)",,,0,dev,0,1,1083
+"('Which boys will Rachel discuss and some sock shock?',)",,,1,dev,1,0,1098
+"('Which will Rachel discuss boys and some sock shock?',)",,,0,dev,0,1,1099
+"('What teenagers would most slopes bore and Galileo talk to?',)",,,1,dev,1,0,1100
+"('What would most slopes bore teenagers and Galileo talk to?',)",,,0,dev,0,1,1101
+"('What hills had some adult climbed down and Aaron climbed up?',)",,,1,dev,1,0,1108
+"('What had some adult climbed down hills and Aaron climbed up?',)",,,0,dev,0,1,1109
+"('Whose art galleries would Walter criticize and Becca escape from?',)",,,1,dev,1,0,1126
+"('Whose would Walter criticize art galleries and Becca escape from?',)",,,0,dev,0,1,1127
+"('Whose oases should the waitresses walk through and Patrick sell?',)",,,1,dev,1,0,1154
+"('Whose should the waitresses walk through oases and Patrick sell?',)",,,0,dev,0,1,1155
+"('What cashiers does some university disturb and Kayla disturb?',)",,,1,dev,1,0,1164
+"('What does some university disturb cashiers and Kayla disturb?',)",,,0,dev,0,1,1165
+"('Which customers has Beth fled from and Guy complained about?',)",,,1,dev,1,0,1182
+"('Which has Beth fled from customers and Guy complained about?',)",,,0,dev,0,1,1183
+"('What carts would Brian sell and Heather reveal?',)",,,1,dev,1,0,1194
+"('What would Brian sell carts and Heather reveal?',)",,,0,dev,0,1,1195
+"('Whose banks had Ella disgusted and George arrived at?',)",,,1,dev,1,0,1204
+"('Whose had Ella disgusted banks and George arrived at?',)",,,0,dev,0,1,1205
+"('What mountains has every cashier explored and Scott disliked?',)",,,1,dev,1,0,1206
+"('What has every cashier explored mountains and Scott disliked?',)",,,0,dev,0,1,1207
+"('What ladders would Debra ascend and Judy discover?',)",,,1,dev,1,0,1214
+"('What would Debra ascend ladders and Judy discover?',)",,,0,dev,0,1,1215
+"('What deer might Jane heal and the man bring?',)",,,1,dev,1,0,1238
+"('What might Jane heal deer and the man bring?',)",,,0,dev,0,1,1239
+"('What men had many essays disagreed with and Helen bored?',)",,,1,dev,1,0,1302
+"('What had many essays disagreed with men and Helen bored?',)",,,0,dev,0,1,1303
+"('Which pictures has Craig discovered and some closet looked like?',)",,,1,dev,1,0,1330
+"('Which has Craig discovered pictures and some closet looked like?',)",,,0,dev,0,1,1331
+"('Which waiters are these teachers referencing and these scarves astounding?',)",,,1,dev,1,0,1358
+"('Which are these teachers referencing waiters and these scarves astounding?',)",,,0,dev,0,1,1359
+"('What offspring are the teachers discussing and a restaurant boring?',)",,,1,dev,1,0,1388
+"('What are the teachers discussing offspring and a restaurant boring?',)",,,0,dev,0,1,1389
+"('Which banks was Marcus investigating and Alicia appreciating?',)",,,1,dev,1,0,1394
+"('Which was Marcus investigating banks and Alicia appreciating?',)",,,0,dev,0,1,1395
+"('What students should Curtis approach and Alexander approach?',)",,,1,dev,1,0,1400
+"('What should Curtis approach students and Alexander approach?',)",,,0,dev,0,1,1401
+"('What wheelbarrows could Allison break and Renee lift?',)",,,1,dev,1,0,1404
+"('What could Allison break wheelbarrows and Renee lift?',)",,,0,dev,0,1,1405
+"('Which waitresses have most actors disagreed with and Matt talked about?',)",,,1,dev,1,0,1412
+"('Which have most actors disagreed with waitresses and Matt talked about?',)",,,0,dev,0,1,1413
+"('Which brochures was Ellen appreciating and Helen revealing?',)",,,1,dev,1,0,1448
+"('Which was Ellen appreciating brochures and Helen revealing?',)",,,0,dev,0,1,1449
+"('What schools had Sarah criticized and Tammy seen?',)",,,1,dev,1,0,1484
+"('What had Sarah criticized schools and Tammy seen?',)",,,0,dev,0,1,1485
+"('Whose hospitals should every customer return to and some sock look like?',)",,,1,dev,1,0,1488
+"('Whose should every customer return to hospitals and some sock look like?',)",,,0,dev,0,1,1489
+"('Which scarves was Sarah wearing and Julia taking?',)",,,1,dev,1,0,1522
+"('Which was Sarah wearing scarves and Julia taking?',)",,,0,dev,0,1,1523
+"('Whose hills is that guest ascending and Adam walking through?',)",,,1,dev,1,0,1554
+"('Whose is that guest ascending hills and Adam walking through?',)",,,0,dev,0,1,1555
+"('What ladies was Janet hurting and Randolf approaching?',)",,,1,dev,1,0,1564
+"('What was Janet hurting ladies and Randolf approaching?',)",,,0,dev,0,1,1565
+"('What dresses might Peter have and Cynthia see?',)",,,1,dev,1,0,1566
+"('What might Peter have dresses and Cynthia see?',)",,,0,dev,0,1,1567
+"('Which teeth was Renee cleaning and Helen fixing?',)",,,1,dev,1,0,1618
+"('Which was Renee cleaning teeth and Helen fixing?',)",,,0,dev,0,1,1619
+"('Whose newspaper articles were these teenagers disagreeing with and every waitress noticing?',)",,,1,dev,1,0,1630
+"('Whose were these teenagers disagreeing with newspaper articles and every waitress noticing?',)",,,0,dev,0,1,1631
+"('What teenagers had Angela talked about and Bruce forgotten?',)",,,1,dev,1,0,1648
+"('What had Angela talked about teenagers and Bruce forgotten?',)",,,0,dev,0,1,1649
+"('What newspaper articles was the essay disagreeing with and Eva referencing?',)",,,1,dev,1,0,1662
+"('What was the essay disagreeing with newspaper articles and Eva referencing?',)",,,0,dev,0,1,1663
+"('Which steps was Gina climbing down and Walter finding?',)",,,1,dev,1,0,1674
+"('Which was Gina climbing down steps and Walter finding?',)",,,0,dev,0,1,1675
+"('Which paintings have the cars looked like and Deborah thought about?',)",,,1,dev,1,0,1696
+"('Which have the cars looked like paintings and Deborah thought about?',)",,,0,dev,0,1,1697
+"('What oases was Emily driving to and Cindy describing?',)",,,1,dev,1,0,1732
+"('What was Emily driving to oases and Cindy describing?',)",,,0,dev,0,1,1733
+"('Whose windows might Sharon break and Colleen reveal?',)",,,1,dev,1,0,1744
+"('Whose might Sharon break windows and Colleen reveal?',)",,,0,dev,0,1,1745
+"('What children does Lucille leave and Kendra approach?',)",,,1,dev,1,0,1826
+"('What does Lucille leave children and Kendra approach?',)",,,0,dev,0,1,1827
+"('Whose convertibles had Julia thought about and Victoria looked like?',)",,,1,dev,1,0,1872
+"('Whose had Julia thought about convertibles and Victoria looked like?',)",,,0,dev,0,1,1873
+"('Which men do these committees stun and Valerie remember?',)",,,1,dev,1,0,1898
+"('Which do these committees stun men and Valerie remember?',)",,,0,dev,0,1,1899
+"('What governments was Tamara boycotting and Nancy questioning?',)",,,1,dev,1,0,1926
+"('What was Tamara boycotting governments and Nancy questioning?',)",,,0,dev,0,1,1927
+"('What alumni had Noah hired and Alan thought about?',)",,,1,dev,1,0,1946
+"('What had Noah hired alumni and Alan thought about?',)",,,0,dev,0,1,1947
+"('What guys could those girls flee from and a lot of socks bore?',)",,,1,test,1,0,18
+"('What could those girls flee from guys and a lot of socks bore?',)",,,0,test,0,1,19
+"('Which analyses can Heidi dislike and Melissa think about?',)",,,1,test,1,0,34
+"('Which can Heidi dislike analyses and Melissa think about?',)",,,0,test,0,1,35
+"('Which men might Regina work with and that waiter cure?',)",,,1,test,1,0,46
+"('Which might Regina work with men and that waiter cure?',)",,,0,test,0,1,47
+"('Whose mice can Julia bring and Brett notice?',)",,,1,test,1,0,54
+"('Whose can Julia bring mice and Brett notice?',)",,,0,test,0,1,55
+"('Which girls was Tara kissing and Alice thinking about?',)",,,1,test,1,0,58
+"('Which was Tara kissing girls and Alice thinking about?',)",,,0,test,0,1,59
+"('Which customers was Stacey curing and these pedestrians complaining about?',)",,,1,test,1,0,66
+"('Which was Stacey curing customers and these pedestrians complaining about?',)",,,0,test,0,1,67
+"('What guests had Donna concealed and some lady appreciated?',)",,,1,test,1,0,68
+"('What had Donna concealed guests and some lady appreciated?',)",,,0,test,0,1,69
+"('Whose hospitals can Gregory tour and Douglas irritate?',)",,,1,test,1,0,86
+"('Whose can Gregory tour hospitals and Douglas irritate?',)",,,0,test,0,1,87
+"('Whose pants will Margaret wear and Donald lift?',)",,,1,test,1,0,88
+"('Whose will Margaret wear pants and Donald lift?',)",,,0,test,0,1,89
+"('What actresses could Monet talk to and some schools impress?',)",,,1,test,1,0,102
+"('What could Monet talk to actresses and some schools impress?',)",,,0,test,0,1,103
+"('Whose organizations was Rachel worrying and some river disturbing?',)",,,1,test,1,0,104
+"('Whose was Rachel worrying organizations and some river disturbing?',)",,,0,test,0,1,105
+"('Which malls has Denise cleaned and Dan brought?',)",,,1,test,1,0,114
+"('Which has Denise cleaned malls and Dan brought?',)",,,0,test,0,1,115
+"('Which art galleries will Vanessa arrive at and Kimberley insult?',)",,,1,test,1,0,126
+"('Which will Vanessa arrive at art galleries and Kimberley insult?',)",,,0,test,0,1,127
+"('What customers has Gregory forgotten and the teenager kissed?',)",,,1,test,1,0,132
+"('What has Gregory forgotten customers and the teenager kissed?',)",,,0,test,0,1,133
+"('What men has Samuel annoyed and Cynthia observed?',)",,,1,test,1,0,140
+"('What has Samuel annoyed men and Cynthia observed?',)",,,0,test,0,1,141
+"('What students has Stacey appreciated and Anne discussed?',)",,,1,test,1,0,156
+"('What has Stacey appreciated students and Anne discussed?',)",,,0,test,0,1,157
+"('What actors could Barbara attack and Melinda talk to?',)",,,1,test,1,0,202
+"('What could Barbara attack actors and Melinda talk to?',)",,,0,test,0,1,203
+"('Whose gates is Steven discovering and some painting looking like?',)",,,1,test,1,0,220
+"('Whose is Steven discovering gates and some painting looking like?',)",,,0,test,0,1,221
+"('What couches could Dan lift and Margaret have?',)",,,1,test,1,0,232
+"('What could Dan lift couches and Margaret have?',)",,,0,test,0,1,233
+"('Whose synopses might most dancers sound like and Scott discuss?',)",,,1,test,1,0,234
+"('Whose might most dancers sound like synopses and Scott discuss?',)",,,0,test,0,1,235
+"('What movies was Steven arguing about and Stacey thinking about?',)",,,1,test,1,0,246
+"('What was Steven arguing about movies and Stacey thinking about?',)",,,0,test,0,1,247
+"('What schools would some teacher clean and Jessica upset?',)",,,1,test,1,0,256
+"('What would some teacher clean schools and Jessica upset?',)",,,0,test,0,1,257
+"('Which guys is Jacqueline concealing and Sarah watching?',)",,,1,test,1,0,264
+"('Which is Jacqueline concealing guys and Sarah watching?',)",,,0,test,0,1,265
+"('Whose plates was Russell breaking and Joel fixing?',)",,,1,test,1,0,296
+"('Whose was Russell breaking plates and Joel fixing?',)",,,0,test,0,1,297
+"('What children had Grace cared for and those couches astounded?',)",,,1,test,1,0,298
+"('What had Grace cared for children and those couches astounded?',)",,,0,test,0,1,299
+"('Which senators was Sally helping and those carts annoying?',)",,,1,test,1,0,302
+"('Which was Sally helping senators and those carts annoying?',)",,,0,test,0,1,303
+"('Whose drawings does Diane buy and some pedestrians notice?',)",,,1,test,1,0,332
+"('Whose does Diane buy drawings and some pedestrians notice?',)",,,0,test,0,1,333
+"('Which ladies has Rose sounded like and a lot of actors revealed?',)",,,1,test,1,0,350
+"('Which has Rose sounded like ladies and a lot of actors revealed?',)",,,0,test,0,1,351
+"('Whose plays did Monet praise and that guest hate?',)",,,1,test,1,0,352
+"('Whose did Monet praise plays and that guest hate?',)",,,0,test,0,1,353
+"('Which ladies was Walter worrying and the patient referencing?',)",,,1,test,1,0,364
+"('Which was Walter worrying ladies and the patient referencing?',)",,,0,test,0,1,365
+"('Whose horses is Benjamin finding and Jacqueline selling?',)",,,1,test,1,0,376
+"('Whose is Benjamin finding horses and Jacqueline selling?',)",,,0,test,0,1,377
+"('What senators will some newspaper article sound like and Grace praise?',)",,,1,test,1,0,382
+"('What will some newspaper article sound like senators and Grace praise?',)",,,0,test,0,1,383
+"('Which glaciers was Tina researching and this guest concealing?',)",,,1,test,1,0,396
+"('Which was Tina researching glaciers and this guest concealing?',)",,,0,test,0,1,397
+"('What hats does Craig sell and Valerie reveal?',)",,,1,test,1,0,402
+"('What does Craig sell hats and Valerie reveal?',)",,,0,test,0,1,403
+"('What lakes can Kevin have and the Lutherans exit?',)",,,1,test,1,0,404
+"('What can Kevin have lakes and the Lutherans exit?',)",,,0,test,0,1,405
+"('Which slopes is Laura hiding and Lissa looking like?',)",,,1,test,1,0,410
+"('Which is Laura hiding slopes and Lissa looking like?',)",,,0,test,0,1,411
+"('Which hospitals should Martin exit and Ellen research?',)",,,1,test,1,0,438
+"('Which should Martin exit hospitals and Ellen research?',)",,,0,test,0,1,439
+"('Which photographs should Danielle look like and George find?',)",,,1,test,1,0,440
+"('Which should Danielle look like photographs and George find?',)",,,0,test,0,1,441
+"('What unicycles was Kristin breaking and that waitress cleaning?',)",,,1,test,1,0,444
+"('What was Kristin breaking unicycles and that waitress cleaning?',)",,,0,test,0,1,445
+"('Which children could a play disagree with and a girl cure?',)",,,1,test,1,0,448
+"('Which could a play disagree with children and a girl cure?',)",,,0,test,0,1,449
+"('Which malls might Randolf clean and this museum discuss?',)",,,1,test,1,0,454
+"('Which might Randolf clean malls and this museum discuss?',)",,,0,test,0,1,455
+"('Whose hamsters had Carol healed and many cashiers concealed?',)",,,1,test,1,0,458
+"('Whose had Carol healed hamsters and many cashiers concealed?',)",,,0,test,0,1,459
+"('Which ladies had Joel astounded and some dogs stunned?',)",,,1,test,1,0,474
+"('Which had Joel astounded ladies and some dogs stunned?',)",,,0,test,0,1,475
+"('Which waiters have those snakes irritated and a lot of customers revealed?',)",,,1,test,1,0,486
+"('Which have those snakes irritated waiters and a lot of customers revealed?',)",,,0,test,0,1,487
+"('Which cucumbers was Vincent concealing and Claire noticing?',)",,,1,test,1,0,500
+"('Which was Vincent concealing cucumbers and Claire noticing?',)",,,0,test,0,1,501
+"('Whose reports does Tamara praise and a guest conceal?',)",,,1,test,1,0,508
+"('Whose does Tamara praise reports and a guest conceal?',)",,,0,test,0,1,509
+"('Whose books did Noah hate and Tina think about?',)",,,1,test,1,0,518
+"('Whose did Noah hate books and Tina think about?',)",,,0,test,0,1,519
+"('What students could Bradley hurt and the companies hire?',)",,,1,test,1,0,522
+"('What could Bradley hurt students and the companies hire?',)",,,0,test,0,1,523
+"('Which alumni is Beth questioning and Florence helping?',)",,,1,test,1,0,524
+"('Which is Beth questioning alumni and Florence helping?',)",,,0,test,0,1,525
+"('What slopes might Heather ascend and Brad hide?',)",,,1,test,1,0,538
+"('What might Heather ascend slopes and Brad hide?',)",,,0,test,0,1,539
+"('What ladies had that legislature talked to and Phillip known?',)",,,1,test,1,0,550
+"('What had that legislature talked to ladies and Phillip known?',)",,,0,test,0,1,551
+"('Which steps has Steven ascended and some doctor descended?',)",,,1,test,1,0,560
+"('Which has Steven ascended steps and some doctor descended?',)",,,0,test,0,1,561
+"('What adults could Scott insult and Douglas reference?',)",,,1,test,1,0,566
+"('What could Scott insult adults and Douglas reference?',)",,,0,test,0,1,567
+"('What children have the Impressionists disagreed with and Peter worked with?',)",,,1,test,1,0,568
+"('What have the Impressionists disagreed with children and Peter worked with?',)",,,0,test,0,1,569
+"('Whose commentaries has Harvard University described and Amy sounded like?',)",,,1,test,1,0,576
+"('Whose has Harvard University described commentaries and Amy sounded like?',)",,,0,test,0,1,577
+"('Which boys had Carrie hugged and Marcus shocked?',)",,,1,test,1,0,598
+"('Which had Carrie hugged boys and Marcus shocked?',)",,,0,test,0,1,599
+"('What women has Veronica respected and some cashier hidden?',)",,,1,test,1,0,602
+"('What has Veronica respected women and some cashier hidden?',)",,,0,test,0,1,603
+"('Which cats has Kevin brought and Liam brought?',)",,,1,test,1,0,604
+"('Which has Kevin brought cats and Liam brought?',)",,,0,test,0,1,605
+"('Which screens had Cindy noticed and Gerald thought about?',)",,,1,test,1,0,630
+"('Which had Cindy noticed screens and Gerald thought about?',)",,,0,test,0,1,631
+"('Which alumni is Leslie arguing about and Aaron investigating?',)",,,1,test,1,0,632
+"('Which is Leslie arguing about alumni and Aaron investigating?',)",,,0,test,0,1,633
+"('What ladies was Barbara astounding and Wayne hurting?',)",,,1,test,1,0,650
+"('What was Barbara astounding ladies and Wayne hurting?',)",,,0,test,0,1,651
+"('What actresses is Homer concealing and the cafe impressing?',)",,,1,test,1,0,652
+"('What is Homer concealing actresses and the cafe impressing?',)",,,0,test,0,1,653
+"('Which paralyses had Christopher argued about and Monica complained about?',)",,,1,test,1,0,658
+"('Which had Christopher argued about paralyses and Monica complained about?',)",,,0,test,0,1,659
+"('Which lakes is Debra arriving at and some man admiring?',)",,,1,test,1,0,660
+"('Which is Debra arriving at lakes and some man admiring?',)",,,0,test,0,1,661
+"('What couches is Michael breaking and Galileo discovering?',)",,,1,test,1,0,662
+"('What is Michael breaking couches and Galileo discovering?',)",,,0,test,0,1,663
+"('What pamphlets are the plays disagreeing with and this museum concealing?',)",,,1,test,1,0,692
+"('What are the plays disagreeing with pamphlets and this museum concealing?',)",,,0,test,0,1,693
+"('Which boys does every driver talk to and Carolyn appreciate?',)",,,1,test,1,0,708
+"('Which does every driver talk to boys and Carolyn appreciate?',)",,,0,test,0,1,709
+"('Which malls can Aaron take and that doctor return to?',)",,,1,test,1,0,742
+"('Which can Aaron take malls and that doctor return to?',)",,,0,test,0,1,743
+"('What college campuses has some actress bought and Michael described?',)",,,1,test,1,0,758
+"('What has some actress bought college campuses and Michael described?',)",,,0,test,0,1,759
+"('Which women had Randolf investigated and these pedestrians watched?',)",,,1,test,1,0,772
+"('Which had Randolf investigated women and these pedestrians watched?',)",,,0,test,0,1,773
+"('Which guests had all horses found and some spotlight bothered?',)",,,1,test,1,0,780
+"('Which had all horses found guests and some spotlight bothered?',)",,,0,test,0,1,781
+"('What closets will Rose describe and Peter dislike?',)",,,1,test,1,0,796
+"('What will Rose describe closets and Peter dislike?',)",,,0,test,0,1,797
+"('What guys did Bill insult and Vanessa fire?',)",,,1,test,1,0,810
+"('What did Bill insult guys and Vanessa fire?',)",,,0,test,0,1,811
+"('Whose organizations had Mitchell thought about and every dancer scared?',)",,,1,test,1,0,818
+"('Whose had Mitchell thought about organizations and every dancer scared?',)",,,0,test,0,1,819
+"('Whose glasses is Samantha lifting and Thomas breaking?',)",,,1,test,1,0,826
+"('Whose is Samantha lifting glasses and Thomas breaking?',)",,,0,test,0,1,827
+"('Which prints has Rachel looked like and Martha lifted?',)",,,1,test,1,0,834
+"('Which has Rachel looked like prints and Martha lifted?',)",,,0,test,0,1,835
+"('What patients had Jason found and Douglas criticized?',)",,,1,test,1,0,840
+"('What had Jason found patients and Douglas criticized?',)",,,0,test,0,1,841
+"('What reports did Rose hate and James find?',)",,,1,test,1,0,842
+"('What did Rose hate reports and James find?',)",,,0,test,0,1,843
+"('What boys were those senators investigating and a lot of spotlights shocking?',)",,,1,test,1,0,848
+"('What were those senators investigating boys and a lot of spotlights shocking?',)",,,0,test,0,1,849
+"('What oases is Mark fleeing from and Christina finding?',)",,,1,test,1,0,850
+"('What is Mark fleeing from oases and Christina finding?',)",,,0,test,0,1,851
+"('Whose commentaries are those actors scanning and Regina discovering?',)",,,1,test,1,0,872
+"('Whose are those actors scanning commentaries and Regina discovering?',)",,,0,test,0,1,873
+"('Which students did this sweater aggravate and Deborah sound like?',)",,,1,test,1,0,876
+"('Which did this sweater aggravate students and Deborah sound like?',)",,,0,test,0,1,877
+"('What stimuli is Emily hiding and Dana discovering?',)",,,1,test,1,0,878
+"('What is Emily hiding stimuli and Dana discovering?',)",,,0,test,0,1,879
+"('What hills has Rhonda left and Sally appreciated?',)",,,1,test,1,0,884
+"('What has Rhonda left hills and Sally appreciated?',)",,,0,test,0,1,885
+"('Whose high schools had David escaped from and Gregory revealed?',)",,,1,test,1,0,894
+"('Whose had David escaped from high schools and Gregory revealed?',)",,,0,test,0,1,895
+"('Whose museums has Eva bothered and all pies embarrassed?',)",,,1,test,1,0,900
+"('Whose has Eva bothered museums and all pies embarrassed?',)",,,0,test,0,1,901
+"('Which students has Becca returned to and men complained about?',)",,,1,test,1,0,910
+"('Which has Becca returned to students and men complained about?',)",,,0,test,0,1,911
+"('Whose drawings can Jacqueline look like and Candice admire?',)",,,1,test,1,0,912
+"('Whose can Jacqueline look like drawings and Candice admire?',)",,,0,test,0,1,913
+"('Whose plays is Roger concealing and a lot of reports disagreeing with?',)",,,1,test,1,0,940
+"('Whose is Roger concealing plays and a lot of reports disagreeing with?',)",,,0,test,0,1,941
+"('What pamphlets has Marie researched and Roger lifted?',)",,,1,test,1,0,944
+"('What has Marie researched pamphlets and Roger lifted?',)",,,0,test,0,1,945
+"('Which students has Ruth questioned and Katherine watched?',)",,,1,test,1,0,946
+"('Which has Ruth questioned students and Katherine watched?',)",,,0,test,0,1,947
+"('Which waitresses can these men hurt and the adult find?',)",,,1,test,1,0,948
+"('Which can these men hurt waitresses and the adult find?',)",,,0,test,0,1,949
+"('What forks was Ella finding and Steven cleaning?',)",,,1,test,1,0,952
+"('What was Ella finding forks and Steven cleaning?',)",,,0,test,0,1,953
+"('Whose cups could Jacqueline mess up and most banks have?',)",,,1,test,1,0,960
+"('Whose could Jacqueline mess up cups and most banks have?',)",,,0,test,0,1,961
+"('Which movie theaters has Walter skated around and Vincent bought?',)",,,1,test,1,0,966
+"('Which has Walter skated around movie theaters and Vincent bought?',)",,,0,test,0,1,967
+"('Which grocery stores is Kendra revealing and Sheila lifting?',)",,,1,test,1,0,970
+"('Which is Kendra revealing grocery stores and Sheila lifting?',)",,,0,test,0,1,971
+"('Which slopes could Leslie descend and Tiffany conceal?',)",,,1,test,1,0,1004
+"('Which could Leslie descend slopes and Tiffany conceal?',)",,,0,test,0,1,1005
+"('What pedestrians does Samuel flee from and Rebecca question?',)",,,1,test,1,0,1020
+"('What does Samuel flee from pedestrians and Rebecca question?',)",,,0,test,0,1,1021
+"('What steps is this teacher climbing down and Gerald climbing up?',)",,,1,test,1,0,1028
+"('What is this teacher climbing down steps and Gerald climbing up?',)",,,0,test,0,1,1029
+"('What actresses has Debra hurt and that pedestrian aggravated?',)",,,1,test,1,0,1030
+"('What has Debra hurt actresses and that pedestrian aggravated?',)",,,0,test,0,1,1031
+"('What books had Theodore praised and the woman boasted about?',)",,,1,test,1,0,1048
+"('What had Theodore praised books and the woman boasted about?',)",,,0,test,0,1,1049
+"('Which banks was Barbara biking to and a cashier insulting?',)",,,1,test,1,0,1056
+"('Which was Barbara biking to banks and a cashier insulting?',)",,,0,test,0,1,1057
+"('What schools had Carl talked about and Helen thought about?',)",,,1,test,1,0,1066
+"('What had Carl talked about schools and Helen thought about?',)",,,0,test,0,1,1067
+"('Which slopes has Rodney climbed down and the person bought?',)",,,1,test,1,0,1070
+"('Which has Rodney climbed down slopes and the person bought?',)",,,0,test,0,1,1071
+"('Which teenagers was literature aggravating and Bradley returning to?',)",,,1,test,1,0,1074
+"('Which was literature aggravating teenagers and Bradley returning to?',)",,,0,test,0,1,1075
+"('Which trucks was Adam admiring and the cashier revealing?',)",,,1,test,1,0,1084
+"('Which was Adam admiring trucks and the cashier revealing?',)",,,0,test,0,1,1085
+"('What actresses can Tonya hate and Lisa watch?',)",,,1,test,1,0,1094
+"('What can Tonya hate actresses and Lisa watch?',)",,,0,test,0,1,1095
+"('What teachers has that boy investigated and Vincent helped?',)",,,1,test,1,0,1096
+"('What has that boy investigated teachers and Vincent helped?',)",,,0,test,0,1,1097
+"('What slopes might the dancers admire and Cheryl descend?',)",,,1,test,1,0,1112
+"('What might the dancers admire slopes and Cheryl descend?',)",,,0,test,0,1,1113
+"('What slopes would Catherine ascend and pedestrians reveal?',)",,,1,test,1,0,1118
+"('What would Catherine ascend slopes and pedestrians reveal?',)",,,0,test,0,1,1119
+"('What gloves had Connie messed up and Curtis lifted?',)",,,1,test,1,0,1120
+"('What had Connie messed up gloves and Curtis lifted?',)",,,0,test,0,1,1121
+"('What waitresses might the men listen to and Rachelle work with?',)",,,1,test,1,0,1124
+"('What might the men listen to waitresses and Rachelle work with?',)",,,0,test,0,1,1125
+"('Whose oases had Laurie visited and April insulted?',)",,,1,test,1,0,1142
+"('Whose had Laurie visited oases and April insulted?',)",,,0,test,0,1,1143
+"('What waitresses had Carmen hurt and Teresa worked with?',)",,,1,test,1,0,1144
+"('What had Carmen hurt waitresses and Teresa worked with?',)",,,0,test,0,1,1145
+"('Which students will Meredith worry and Danielle talk about?',)",,,1,test,1,0,1152
+"('Which will Meredith worry students and Danielle talk about?',)",,,0,test,0,1,1153
+"('What wheelbarrows was Mary breaking and that print looking like?',)",,,1,test,1,0,1156
+"('What was Mary breaking wheelbarrows and that print looking like?',)",,,0,test,0,1,1157
+"('What public parks does Chad return to and Holly arrive at?',)",,,1,test,1,0,1176
+"('What does Chad return to public parks and Holly arrive at?',)",,,0,test,0,1,1177
+"('Whose college campuses has Kenneth dropped by and Wayne driven to?',)",,,1,test,1,0,1178
+"('Whose has Kenneth dropped by college campuses and Wayne driven to?',)",,,0,test,0,1,1179
+"('Which cashiers had Heather praised and Nancy revealed?',)",,,1,test,1,0,1184
+"('Which had Heather praised cashiers and Nancy revealed?',)",,,0,test,0,1,1185
+"('What cashiers has Erin cured and Stacey left?',)",,,1,test,1,0,1186
+"('What has Erin cured cashiers and Stacey left?',)",,,0,test,0,1,1187
+"('Which students has Bruce listened to and Andrea attacked?',)",,,1,test,1,0,1202
+"('Which has Bruce listened to students and Andrea attacked?',)",,,0,test,0,1,1203
+"('Whose paralyses was Denise complaining about and Andrea researching?',)",,,1,test,1,0,1208
+"('Whose was Denise complaining about paralyses and Andrea researching?',)",,,0,test,0,1,1209
+"('Whose legislatures are these couches confusing and Emily boycotting?',)",,,1,test,1,0,1220
+"('Whose are these couches confusing legislatures and Emily boycotting?',)",,,0,test,0,1,1221
+"('Which glaciers had Amanda boycotted and Sara sold?',)",,,1,test,1,0,1224
+"('Which had Amanda boycotted glaciers and Sara sold?',)",,,0,test,0,1,1225
+"('What waiters had Leslie helped and a lot of drawings confused?',)",,,1,test,1,0,1228
+"('What had Leslie helped waiters and a lot of drawings confused?',)",,,0,test,0,1,1229
+"('Which people was the convertible annoying and Bruce attacking?',)",,,1,test,1,0,1230
+"('Which was the convertible annoying people and Bruce attacking?',)",,,0,test,0,1,1231
+"('What children should Dennis care for and Alice astound?',)",,,1,test,1,0,1232
+"('What should Dennis care for children and Alice astound?',)",,,0,test,0,1,1233
+"('Whose rabbits will those ladies cure and Lawrence hide?',)",,,1,test,1,0,1234
+"('Whose will those ladies cure rabbits and Lawrence hide?',)",,,0,test,0,1,1235
+"('What wheelbarrows is Claire fixing and David admiring?',)",,,1,test,1,0,1240
+"('What is Claire fixing wheelbarrows and David admiring?',)",,,0,test,0,1,1241
+"('Whose governments had Kristin thought about and most lights irritated?',)",,,1,test,1,0,1244
+"('Whose had Kristin thought about governments and most lights irritated?',)",,,0,test,0,1,1245
+"('Whose movie theaters can those waitresses drive to and Galileo drive to?',)",,,1,test,1,0,1254
+"('Whose can those waitresses drive to movie theaters and Galileo drive to?',)",,,0,test,0,1,1255
+"('Which girls does Timothy escape from and Beth reveal?',)",,,1,test,1,0,1256
+"('Which does Timothy escape from girls and Beth reveal?',)",,,0,test,0,1,1257
+"('Which carriages does Tina notice and that company like?',)",,,1,test,1,0,1258
+"('Which does Tina notice carriages and that company like?',)",,,0,test,0,1,1259
+"('Which boys might Tina annoy and every drawing impress?',)",,,1,test,1,0,1268
+"('Which might Tina annoy boys and every drawing impress?',)",,,0,test,0,1,1269
+"('Which patients does Grace know and Laurie upset?',)",,,1,test,1,0,1274
+"('Which does Grace know patients and Laurie upset?',)",,,0,test,0,1,1275
+"('Which guests are the couches upsetting and Nina thinking about?',)",,,1,test,1,0,1276
+"('Which are the couches upsetting guests and Nina thinking about?',)",,,0,test,0,1,1277
+"('Which college campuses had Russell exited and Mary messed up?',)",,,1,test,1,0,1310
+"('Which had Russell exited college campuses and Mary messed up?',)",,,0,test,0,1,1311
+"('Whose college campuses would Debra discuss and Peter reveal?',)",,,1,test,1,0,1318
+"('Whose would Debra discuss college campuses and Peter reveal?',)",,,0,test,0,1,1319
+"('Which offspring is Edward working with and all gates impressing?',)",,,1,test,1,0,1320
+"('Which is Edward working with offspring and all gates impressing?',)",,,0,test,0,1,1321
+"('Whose oases has Helen skated around and Kendra found?',)",,,1,test,1,0,1324
+"('Whose has Helen skated around oases and Kendra found?',)",,,0,test,0,1,1325
+"('Whose hills has Rhonda arrived at and Todd sounded like?',)",,,1,test,1,0,1346
+"('Whose has Rhonda arrived at hills and Todd sounded like?',)",,,0,test,0,1,1347
+"('Whose glaciers was Stephen driving to and Monica describing?',)",,,1,test,1,0,1350
+"('Whose was Stephen driving to glaciers and Monica describing?',)",,,0,test,0,1,1351
+"('What women was Paula discussing and some government arguing about?',)",,,1,test,1,0,1398
+"('What was Paula discussing women and some government arguing about?',)",,,0,test,0,1,1399
+"('What senators would a mall irritate and James flee from?',)",,,1,test,1,0,1406
+"('What would a mall irritate senators and James flee from?',)",,,0,test,0,1,1407
+"('Which people will Laura listen to and Meredith embarrass?',)",,,1,test,1,0,1414
+"('Which will Laura listen to people and Meredith embarrass?',)",,,0,test,0,1,1415
+"('Whose hills has Clyde visited and Rachelle toured?',)",,,1,test,1,0,1416
+"('Whose has Clyde visited hills and Rachelle toured?',)",,,0,test,0,1,1417
+"('Which men could Gina hug and Guy conceal?',)",,,1,test,1,0,1426
+"('Which could Gina hug men and Guy conceal?',)",,,0,test,0,1,1427
+"('Which carriages was every boy hiding and these guys breaking?',)",,,1,test,1,0,1428
+"('Which was every boy hiding carriages and these guys breaking?',)",,,0,test,0,1,1429
+"('What children is Robert listening to and Ruth alarming?',)",,,1,test,1,0,1436
+"('What is Robert listening to children and Ruth alarming?',)",,,0,test,0,1,1437
+"('Which people has Teresa astounded and Connie disliked?',)",,,1,test,1,0,1438
+"('Which has Teresa astounded people and Connie disliked?',)",,,0,test,0,1,1439
+"('Which sketches can Christopher look like and Nancy take?',)",,,1,test,1,0,1444
+"('Which can Christopher look like sketches and Nancy take?',)",,,0,test,0,1,1445
+"('What syntheses has Marla boasted about and Becca argued about?',)",,,1,test,1,0,1458
+"('What has Marla boasted about syntheses and Becca argued about?',)",,,0,test,0,1,1459
+"('What offspring can Eric investigate and these ladies appreciate?',)",,,1,test,1,0,1462
+"('What can Eric investigate offspring and these ladies appreciate?',)",,,0,test,0,1,1463
+"('Which hamsters was Stephen hiding and Tiffany discovering?',)",,,1,test,1,0,1466
+"('Which was Stephen hiding hamsters and Tiffany discovering?',)",,,0,test,0,1,1467
+"('What patients should Judy aggravate and every waitress criticize?',)",,,1,test,1,0,1472
+"('What should Judy aggravate patients and every waitress criticize?',)",,,0,test,0,1,1473
+"('Whose oases does Larry bike to and James appreciate?',)",,,1,test,1,0,1504
+"('Whose does Larry bike to oases and James appreciate?',)",,,0,test,0,1,1505
+"('Whose cafes has Kristen toured and Charles brought?',)",,,1,test,1,0,1510
+"('Whose has Kristen toured cafes and Charles brought?',)",,,0,test,0,1,1511
+"('Whose mouths had Daniel brought and some adults thought about?',)",,,1,test,1,0,1540
+"('Whose had Daniel brought mouths and some adults thought about?',)",,,0,test,0,1,1541
+"('What prints had Chad looked like and Kevin researched?',)",,,1,test,1,0,1552
+"('What had Chad looked like prints and Kevin researched?',)",,,0,test,0,1,1553
+"('What students has Ruth fled from and Bethany fired?',)",,,1,test,1,0,1576
+"('What has Ruth fled from students and Bethany fired?',)",,,0,test,0,1,1577
+"('What students is Mitchell revealing and Liam hugging?',)",,,1,test,1,0,1580
+"('What is Mitchell revealing students and Liam hugging?',)",,,0,test,0,1,1581
+"('What pictures had Veronica lifted and Leslie cleaned?',)",,,1,test,1,0,1584
+"('What had Veronica lifted pictures and Leslie cleaned?',)",,,0,test,0,1,1585
+"('What museums had Martin alarmed and Kenneth gone to?',)",,,1,test,1,0,1586
+"('What had Martin alarmed museums and Kenneth gone to?',)",,,0,test,0,1,1587
+"('Which people had Rachelle cared for and Deanna discovered?',)",,,1,test,1,0,1588
+"('Which had Rachelle cared for people and Deanna discovered?',)",,,0,test,0,1,1589
+"('Which boys should Stacy conceal and a turtle stun?',)",,,1,test,1,0,1590
+"('Which should Stacy conceal boys and a turtle stun?',)",,,0,test,0,1,1591
+"('What associations have these women aggravated and Kirsten shocked?',)",,,1,test,1,0,1596
+"('What have these women aggravated associations and Kirsten shocked?',)",,,0,test,0,1,1597
+"('Which slopes was Martha climbing up and these girls taking?',)",,,1,test,1,0,1606
+"('Which was Martha climbing up slopes and these girls taking?',)",,,0,test,0,1,1607
+"('Which movie theaters had most senators biked to and every student toured?',)",,,1,test,1,0,1634
+"('Which had most senators biked to movie theaters and every student toured?',)",,,0,test,0,1,1635
+"('What women can Michelle hurt and Renee aggravate?',)",,,1,test,1,0,1636
+"('What can Michelle hurt women and Renee aggravate?',)",,,0,test,0,1,1637
+"('What associations has Rebecca annoyed and all teachers embarrassed?',)",,,1,test,1,0,1638
+"('What has Rebecca annoyed associations and all teachers embarrassed?',)",,,0,test,0,1,1639
+"('Which offspring had all doors disturbed and Brett insulted?',)",,,1,test,1,0,1650
+"('Which had all doors disturbed offspring and Brett insulted?',)",,,0,test,0,1,1651
+"('Whose tomatoes could Brad hide and Renee hide?',)",,,1,test,1,0,1652
+"('Whose could Brad hide tomatoes and Renee hide?',)",,,0,test,0,1,1653
+"('Which mountains is Melanie biking to and Amelia touring?',)",,,1,test,1,0,1654
+"('Which is Melanie biking to mountains and Amelia touring?',)",,,0,test,0,1,1655
+"('Whose documentaries was this pedestrian examining and Debra discovering?',)",,,1,test,1,0,1668
+"('Whose was this pedestrian examining documentaries and Debra discovering?',)",,,0,test,0,1,1669
+"('What doctors should Sabrina hate and Edward praise?',)",,,1,test,1,0,1672
+"('What should Sabrina hate doctors and Edward praise?',)",,,0,test,0,1,1673
+"('Which newspaper articles had Rodney insulted and Steve concealed?',)",,,1,test,1,0,1676
+"('Which had Rodney insulted newspaper articles and Steve concealed?',)",,,0,test,0,1,1677
+"('What people did most guests disagree with and Marla hate?',)",,,1,test,1,0,1682
+"('What did most guests disagree with people and Marla hate?',)",,,0,test,0,1,1683
+"('What ladders does Maria like and Jodi discover?',)",,,1,test,1,0,1692
+"('What does Maria like ladders and Jodi discover?',)",,,0,test,0,1,1693
+"('Which adults had Tina attacked and Kendra insulted?',)",,,1,test,1,0,1694
+"('Which had Tina attacked adults and Kendra insulted?',)",,,0,test,0,1,1695
+"('Which gates did this girl think about and the painting look like?',)",,,1,test,1,0,1706
+"('Which did this girl think about gates and the painting look like?',)",,,0,test,0,1,1707
+"('Which customers had a lot of mushrooms embarrassed and this fish impressed?',)",,,1,test,1,0,1734
+"('Which had a lot of mushrooms embarrassed customers and this fish impressed?',)",,,0,test,0,1,1735
+"('Which associations does Michael distract and many teachers research?',)",,,1,test,1,0,1740
+"('Which does Michael distract associations and many teachers research?',)",,,0,test,0,1,1741
+"('Which paintings could Keith take and every gate resemble?',)",,,1,test,1,0,1746
+"('Which could Keith take paintings and every gate resemble?',)",,,0,test,0,1,1747
+"('Which movies had Amy referenced and Scott forgotten?',)",,,1,test,1,0,1762
+"('Which had Amy referenced movies and Scott forgotten?',)",,,0,test,0,1,1763
+"('Which banks was James boycotting and Jill appreciating?',)",,,1,test,1,0,1764
+"('Which was James boycotting banks and Jill appreciating?',)",,,0,test,0,1,1765
+"('Which restaurants does Stacy criticize and a man escape from?',)",,,1,test,1,0,1782
+"('Which does Stacy criticize restaurants and a man escape from?',)",,,0,test,0,1,1783
+"('What ladders could Stacy descend and Sharon hide?',)",,,1,test,1,0,1784
+"('What could Stacy descend ladders and Sharon hide?',)",,,0,test,0,1,1785
+"('Whose hospitals had Monet toured and Elizabeth impressed?',)",,,1,test,1,0,1788
+"('Whose had Monet toured hospitals and Elizabeth impressed?',)",,,0,test,0,1,1789
+"('Which libraries had those guests driven to and Amelia scared?',)",,,1,test,1,0,1830
+"('Which had those guests driven to libraries and Amelia scared?',)",,,0,test,0,1,1831
+"('What jackets was the painting looking like and Sally thinking about?',)",,,1,test,1,0,1846
+"('What was the painting looking like jackets and Sally thinking about?',)",,,0,test,0,1,1847
+"('Whose newspaper articles are some committees discussing and Melissa taking?',)",,,1,test,1,0,1866
+"('Whose are some committees discussing newspaper articles and Melissa taking?',)",,,0,test,0,1,1867
+"('What customers are most trucks confusing and some organizations hiring?',)",,,1,test,1,0,1876
+"('What are most trucks confusing customers and some organizations hiring?',)",,,0,test,0,1,1877
+"('What adults would Colleen like and Michael hire?',)",,,1,test,1,0,1880
+"('What would Colleen like adults and Michael hire?',)",,,0,test,0,1,1881
+"('Which slopes had a dancer climbed down and a lot of public parks looked like?',)",,,1,test,1,0,1900
+"('Which had a dancer climbed down slopes and a lot of public parks looked like?',)",,,0,test,0,1,1901
+"('Which women does the museum upset and Liam reveal?',)",,,1,test,1,0,1908
+"('Which does the museum upset women and Liam reveal?',)",,,0,test,0,1,1909
+"('What children should Wayne aggravate and Guy attack?',)",,,1,test,1,0,1962
+"('What should Wayne aggravate children and Guy attack?',)",,,0,test,0,1,1963
+"('What books are all patients disagreeing with and these guests examining?',)",,,1,test,1,0,1964
+"('What are all patients disagreeing with books and these guests examining?',)",,,0,test,0,1,1965
+"('What schools has Natalie biked to and Tanya annoyed?',)",,,1,test,1,0,1990
+"('What has Natalie biked to schools and Tanya annoyed?',)",,,0,test,0,1,1991
+"('Whose hospitals had Rachel explored and Tina messed up?',)",,,1,test,1,0,1994
+"('Whose had Rachel explored hospitals and Tina messed up?',)",,,0,test,0,1,1995
+"('Whose companies was some painting upsetting and Adam discovering?',)",,,1,test,1,0,1996
+"('Whose was some painting upsetting companies and Adam discovering?',)",,,0,test,0,1,1997

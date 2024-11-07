@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('Every association figured out that most drivers that forfeit investigated Irene.',)",,,1,train,1,0,0
+"('Every association figured out who most drivers that forfeit investigated Irene.',)",,,0,train,0,1,1
+"(""Jodi was learning that a library that hadn't communicated was working with Randolf."",)",,,1,train,1,0,4
+"(""Jodi was learning who a library that hadn't communicated was working with Randolf."",)",,,0,train,0,1,5
+"(""Tamara had figured out that most governments that had fired these guests won't have a window."",)",,,1,train,1,0,10
+"(""Tamara had figured out what most governments that had fired these guests won't have a window."",)",,,0,train,0,1,11
+"(""Adam isn't forgetting that many actors that did buy a snake should pass the high school."",)",,,1,train,1,0,12
+"(""Adam isn't forgetting what many actors that did buy a snake should pass the high school."",)",,,0,train,0,1,13
+"('Melinda investigated that this girl that looked like those drawings might attack Cindy.',)",,,1,train,1,0,14
+"('Melinda investigated who this girl that looked like those drawings might attack Cindy.',)",,,0,train,0,1,15
+"(""Mark concealed that a lot of drawings that weren't irritating Beverly stunned Derek."",)",,,1,train,1,0,20
+"(""Mark concealed who a lot of drawings that weren't irritating Beverly stunned Derek."",)",,,0,train,0,1,21
+"(""Martin is revealing that the pictures that hadn't stunned Nina shock Curtis."",)",,,1,train,1,0,22
+"(""Martin is revealing who the pictures that hadn't stunned Nina shock Curtis."",)",,,0,train,0,1,23
+"('Eva discovered that all pedestrians that have performed upset Candice.',)",,,1,train,1,0,28
+"('Eva discovered who all pedestrians that have performed upset Candice.',)",,,0,train,0,1,29
+"('Wayne remembered that every child that talks about Tina escapes from Alan.',)",,,1,train,1,0,30
+"('Wayne remembered who every child that talks about Tina escapes from Alan.',)",,,0,train,0,1,31
+"(""Stephen reveals that all children that haven't spun around might astound Jesus."",)",,,1,train,1,0,34
+"(""Stephen reveals who all children that haven't spun around might astound Jesus."",)",,,0,train,0,1,35
+"('All doctors were forgetting that some guest that questions Monet explores lakes.',)",,,1,train,1,0,36
+"('All doctors were forgetting what some guest that questions Monet explores lakes.',)",,,0,train,0,1,37
+"(""Anne wouldn't forget that this doctor that had thought about the cilantro disagrees with Beth."",)",,,1,train,1,0,40
+"(""Anne wouldn't forget who this doctor that had thought about the cilantro disagrees with Beth."",)",,,0,train,0,1,41
+"(""Some teenager hasn't learned that some socks that are falling were hurting Becca."",)",,,1,train,1,0,42
+"(""Some teenager hasn't learned who some socks that are falling were hurting Becca."",)",,,0,train,0,1,43
+"('Ann does remember that those skirts that annoyed Kayla stun Dan.',)",,,1,train,1,0,44
+"('Ann does remember who those skirts that annoyed Kayla stun Dan.',)",,,0,train,0,1,45
+"('William discovered that many actresses that annoy Donald skated around the rivers.',)",,,1,train,1,0,46
+"('William discovered what many actresses that annoy Donald skated around the rivers.',)",,,0,train,0,1,47
+"('Many banks had revealed that every woman that sits down fired Benjamin.',)",,,1,train,1,0,52
+"('Many banks had revealed who every woman that sits down fired Benjamin.',)",,,0,train,0,1,53
+"('David had learned that all actresses that escaped conceal George.',)",,,1,train,1,0,54
+"('David had learned who all actresses that escaped conceal George.',)",,,0,train,0,1,55
+"('Many hospitals figure out that some doctor that describes the guy flees from Kirsten.',)",,,1,train,1,0,56
+"('Many hospitals figure out who some doctor that describes the guy flees from Kirsten.',)",,,0,train,0,1,57
+"(""Many men reveal that some driver that painted hadn't arrived at some river."",)",,,1,train,1,0,58
+"(""Many men reveal what some driver that painted hadn't arrived at some river."",)",,,0,train,0,1,59
+"(""The legislatures hadn't realized that most actors that flirted didn't arrive at those malls."",)",,,1,train,1,0,60
+"(""The legislatures hadn't realized what most actors that flirted didn't arrive at those malls."",)",,,0,train,0,1,61
+"(""Robert reveals that every guy that hasn't sighed was annoying Alice."",)",,,1,train,1,0,62
+"(""Robert reveals who every guy that hasn't sighed was annoying Alice."",)",,,0,train,0,1,63
+"('Those actors realize that some waiter that had healed Anne works with Timothy.',)",,,1,train,1,0,68
+"('Nicole reveals that this fish that has fallen asleep finds these adults.',)",,,1,dev,1,0,32
+"('Nicole reveals who this fish that has fallen asleep finds these adults.',)",,,0,dev,0,1,33
+"(""A child didn't realize that a lot of waiters that should confer were referencing Rodney."",)",,,1,dev,1,0,38
+"(""A child didn't realize who a lot of waiters that should confer were referencing Rodney."",)",,,0,dev,0,1,39
+"(""Linda wasn't forgetting that a woman that was getting fired likes every sketch."",)",,,1,dev,1,0,50
+"(""Linda wasn't forgetting what a woman that was getting fired likes every sketch."",)",,,0,dev,0,1,51
+"(""All guys hadn't learned that the pedestrian that scratched did return to Winston Churchill."",)",,,1,dev,1,0,64
+"(""All guys hadn't learned who the pedestrian that scratched did return to Winston Churchill."",)",,,0,dev,0,1,65
+"(""Peter concealed that some adult that hasn't worried Jane boasts about Walter."",)",,,1,dev,1,0,70
+"(""Peter concealed who some adult that hasn't worried Jane boasts about Walter."",)",,,0,dev,0,1,71
+"(""These legislatures know that the person that remembers Thomas hasn't broken some window."",)",,,1,dev,1,0,74
+"(""These legislatures know what the person that remembers Thomas hasn't broken some window."",)",,,0,dev,0,1,75
+"(""Judy isn't discovering that some guy that does change watched Amy."",)",,,1,dev,1,0,98
+"(""Judy isn't discovering who some guy that does change watched Amy."",)",,,0,dev,0,1,99
+"('Brad learned that the legislature that responds criticizes Lawrence.',)",,,1,dev,1,0,104
+"('Brad learned who the legislature that responds criticizes Lawrence.',)",,,0,dev,0,1,105
+"('The Impressionists learn that some woman that researches the Borgias had approached some people.',)",,,1,dev,1,0,146
+"('The Impressionists learn who some woman that researches the Borgias had approached some people.',)",,,0,dev,0,1,147
+"(""That girl hasn't realized that some committee that hadn't profited listens to Nicole."",)",,,1,dev,1,0,210
+"(""That girl hasn't realized who some committee that hadn't profited listens to Nicole."",)",,,0,dev,0,1,211
+"(""Erin discovered that that customer that won't chuckle had praised Kimberley."",)",,,1,dev,1,0,222
+"(""Erin discovered who that customer that won't chuckle had praised Kimberley."",)",,,0,dev,0,1,223
+"(""Those pedestrians realize that some alumni that weren't negotiating can't admire these guests."",)",,,1,dev,1,0,232
+"(""Those pedestrians realize who some alumni that weren't negotiating can't admire these guests."",)",,,0,dev,0,1,233
+"(""These pedestrians remember that all teachers that haven't dropped by malls should criticize Alicia."",)",,,1,dev,1,0,236
+"(""These pedestrians remember who all teachers that haven't dropped by malls should criticize Alicia."",)",,,0,dev,0,1,237
+"(""Becca wasn't discovering that the dress that disturbed some hospital had impressed Irene."",)",,,1,dev,1,0,288
+"(""Becca wasn't discovering who the dress that disturbed some hospital had impressed Irene."",)",,,0,dev,0,1,289
+"(""Donna hasn't investigated that these cars that existed bother some guests."",)",,,1,dev,1,0,296
+"(""Donna hasn't investigated who these cars that existed bother some guests."",)",,,0,dev,0,1,297
+"(""Steve won't know that these men that have collaborated hadn't worked with Margaret."",)",,,1,dev,1,0,310
+"(""Steve won't know who these men that have collaborated hadn't worked with Margaret."",)",,,0,dev,0,1,311
+"(""These men haven't forgotten that this waiter that cooked can help Amy."",)",,,1,dev,1,0,320
+"(""These men haven't forgotten who this waiter that cooked can help Amy."",)",,,0,dev,0,1,321
+"(""Helen investigates that every cactus that does impress Anna hasn't distracted Janice."",)",,,1,dev,1,0,326
+"(""Helen investigates who every cactus that does impress Anna hasn't distracted Janice."",)",,,0,dev,0,1,327
+"(""This waitress is realizing that customers that were discovering Curtis aren't describing all plays."",)",,,1,dev,1,0,336
+"(""This waitress is realizing what customers that were discovering Curtis aren't describing all plays."",)",,,0,dev,0,1,337
+"(""Wendy discovered that most people that listen to Susan wouldn't argue about Irene."",)",,,1,dev,1,0,350
+"(""Wendy discovered who most people that listen to Susan wouldn't argue about Irene."",)",,,0,dev,0,1,351
+"('Alexander had remembered that a waitress that is hiring this doctor bought some restaurants.',)",,,1,dev,1,0,380
+"('Alexander had remembered what a waitress that is hiring this doctor bought some restaurants.',)",,,0,dev,0,1,381
+"(""Cheryl knew that the hospital that hadn't existed isn't hiring many boys."",)",,,1,dev,1,0,418
+"(""Cheryl knew who the hospital that hadn't existed isn't hiring many boys."",)",,,0,dev,0,1,419
+"('Margaret has forgotten that all dancers that had cleaned some college campuses can hire Barbara.',)",,,1,dev,1,0,428
+"('Margaret has forgotten who all dancers that had cleaned some college campuses can hire Barbara.',)",,,0,dev,0,1,429
+"(""Regina was realizing that this actress that wasn't murmuring had known Jason."",)",,,1,dev,1,0,458
+"(""Regina was realizing who this actress that wasn't murmuring had known Jason."",)",,,0,dev,0,1,459
+"('Joseph realized that that book that disturbed Sabrina disturbed a teenager.',)",,,1,dev,1,0,468
+"('Joseph realized who that book that disturbed Sabrina disturbed a teenager.',)",,,0,dev,0,1,469
+"(""Winston Churchill investigates that that legislature that hadn't worried hadn't referenced an adult."",)",,,1,dev,1,0,478
+"(""Winston Churchill investigates who that legislature that hadn't worried hadn't referenced an adult."",)",,,0,dev,0,1,479
+"('Christopher figures out that every picture that appears might look like Bradley.',)",,,1,dev,1,0,488
+"('Christopher figures out who every picture that appears might look like Bradley.',)",,,0,dev,0,1,489
+"(""Spain isn't realizing that a lot of women that haven't brought every report have worn many socks."",)",,,1,dev,1,0,524
+"(""Spain isn't realizing what a lot of women that haven't brought every report have worn many socks."",)",,,0,dev,0,1,525
+"(""Cheryl found out that all drawings that resemble some print won't look like that print."",)",,,1,dev,1,0,562
+"(""Cheryl found out what all drawings that resemble some print won't look like that print."",)",,,0,dev,0,1,563
+"('Veronica found out that most men that biked to the mountain kiss Becca.',)",,,1,dev,1,0,592
+"('Veronica found out who most men that biked to the mountain kiss Becca.',)",,,0,dev,0,1,593
+"(""Angela had remembered that most people that can't respect Elizabeth are finding Regina."",)",,,1,dev,1,0,600
+"(""Angela had remembered who most people that can't respect Elizabeth are finding Regina."",)",,,0,dev,0,1,601
+"(""Suzanne realizes that every adult that is falling asleep hasn't investigated Ronald."",)",,,1,dev,1,0,616
+"(""Suzanne realizes who every adult that is falling asleep hasn't investigated Ronald."",)",,,0,dev,0,1,617
+"(""Diana won't conceal that some student that sighed boycotted some school."",)",,,1,dev,1,0,626
+"(""Diana won't conceal what some student that sighed boycotted some school."",)",,,0,dev,0,1,627
+"(""Some universities conceal that most actresses that cured Anna weren't walking through some mountain."",)",,,1,dev,1,0,644
+"(""Some universities conceal what most actresses that cured Anna weren't walking through some mountain."",)",,,0,dev,0,1,645
+"('Gary finds out that some guys that have written descended this mountain.',)",,,1,dev,1,0,646
+"('Gary finds out what some guys that have written descended this mountain.',)",,,0,dev,0,1,647
+"('Lucille learns that some child that was attacking Jesus had some art galleries.',)",,,1,dev,1,0,650
+"('Lucille learns what some child that was attacking Jesus had some art galleries.',)",,,0,dev,0,1,651
+"(""Theodore was learning that every deer that wasted away hasn't ascended some ladder."",)",,,1,dev,1,0,652
+"(""Theodore was learning what every deer that wasted away hasn't ascended some ladder."",)",,,0,dev,0,1,653
+"(""David discovers that most actresses that won't astound Raymond had complained about Gary."",)",,,1,dev,1,0,658
+"(""David discovers who most actresses that won't astound Raymond had complained about Gary."",)",,,0,dev,0,1,659
+"(""Margaret remembered that the offspring that murmured wouldn't like the cup."",)",,,1,dev,1,0,660
+"(""Margaret remembered what the offspring that murmured wouldn't like the cup."",)",,,0,dev,0,1,661
+"('Christopher is investigating that the patient that went fishing arrived at every hospital.',)",,,1,dev,1,0,662
+"('Christopher is investigating what the patient that went fishing arrived at every hospital.',)",,,0,dev,0,1,663
+"(""Denise will conceal that a waitress that studies hadn't exited these public parks."",)",,,1,dev,1,0,672
+"(""Denise will conceal what a waitress that studies hadn't exited these public parks."",)",,,0,dev,0,1,673
+"('A lot of women conceal that feet that exist were stunning Stacey.',)",,,1,dev,1,0,686
+"('A lot of women conceal who feet that exist were stunning Stacey.',)",,,0,dev,0,1,687
+"('Tara reveals that the driver that is referencing Stacey returns to the Borgias.',)",,,1,dev,1,0,734
+"('Tara reveals who the driver that is referencing Stacey returns to the Borgias.',)",,,0,dev,0,1,735
+"('The actors discover that some forks that had tipped over annoy these libraries.',)",,,1,dev,1,0,754
+"('The actors discover what some forks that had tipped over annoy these libraries.',)",,,0,dev,0,1,755
+"(""Sarah can't find out that some hamster that disgusts Lucille impresses libraries."",)",,,1,dev,1,0,776
+"(""Sarah can't find out what some hamster that disgusts Lucille impresses libraries."",)",,,0,dev,0,1,777
+"('Scott reveals that a lot of waitresses that were driving to some museum observe all teenagers.',)",,,1,dev,1,0,782
+"('Scott reveals who a lot of waitresses that were driving to some museum observe all teenagers.',)",,,0,dev,0,1,783
+"('Gregory knows that sketches that might disappear look like that bird.',)",,,1,dev,1,0,798
+"('Gregory knows what sketches that might disappear look like that bird.',)",,,0,dev,0,1,799
+"(""That boy investigates that a boy that was examining a lot of essays hadn't cured Nicole."",)",,,1,dev,1,0,834
+"(""That boy investigates who a boy that was examining a lot of essays hadn't cured Nicole."",)",,,0,dev,0,1,835
+"(""The companies realize that these girls that weren't insulting some pedestrian talk to John."",)",,,1,dev,1,0,862
+"(""The companies realize who these girls that weren't insulting some pedestrian talk to John."",)",,,0,dev,0,1,863
+"('Sandra investigates that the doctor that departed admires Rebecca.',)",,,1,dev,1,0,886
+"('Sandra investigates who the doctor that departed admires Rebecca.',)",,,0,dev,0,1,887
+"(""Heidi remembers that most waitresses that hadn't learned conceal Dana."",)",,,1,dev,1,0,890
+"(""Heidi remembers who most waitresses that hadn't learned conceal Dana."",)",,,0,dev,0,1,891
+"('Christina might learn that a lot of teenagers that climbed down all hills are upsetting Daniel.',)",,,1,dev,1,0,908
+"('Christina might learn who a lot of teenagers that climbed down all hills are upsetting Daniel.',)",,,0,dev,0,1,909
+"(""Allison finds out that the actresses that alarmed Irene weren't wearing some shirt."",)",,,1,dev,1,0,936
+"(""Allison finds out what the actresses that alarmed Irene weren't wearing some shirt."",)",,,0,dev,0,1,937
+"('Those libraries were forgetting that some hat that wrinkled shocked a patient.',)",,,1,dev,1,0,938
+"('Those libraries were forgetting who some hat that wrinkled shocked a patient.',)",,,0,dev,0,1,939
+"(""The Lutherans know that that pedestrian that hasn't cooked cures Janice."",)",,,1,dev,1,0,946
+"(""The Lutherans know who that pedestrian that hasn't cooked cures Janice."",)",,,0,dev,0,1,947
+"('Phillip does discover that the person that attacks Diana examines these stories.',)",,,1,dev,1,0,1048
+"('Phillip does discover what the person that attacks Diana examines these stories.',)",,,0,dev,0,1,1049
+"('Lisa knew that the men that bother Jesus saw every mountain.',)",,,1,dev,1,0,1078
+"('Lisa knew what the men that bother Jesus saw every mountain.',)",,,0,dev,0,1,1079
+"('The actors know that a museum that did surrender knows Derek.',)",,,1,dev,1,0,1106
+"('The actors know who a museum that did surrender knows Derek.',)",,,0,dev,0,1,1107
+"('The Borgias conceal that all fish that appeared have climbed down some slope.',)",,,1,dev,1,0,1128
+"('The Borgias conceal what all fish that appeared have climbed down some slope.',)",,,0,dev,0,1,1129
+"(""David learned that this student that wasn't approaching Christine had talked about Donald."",)",,,1,dev,1,0,1146
+"(""David learned who this student that wasn't approaching Christine had talked about Donald."",)",,,0,dev,0,1,1147
+"(""Deanna learned that those shawls that disgust Jill didn't hurt Karen."",)",,,1,dev,1,0,1158
+"(""Deanna learned who those shawls that disgust Jill didn't hurt Karen."",)",,,0,dev,0,1,1159
+"(""Charles forgets that some actors that weren't cleaning the cup will approach Eva."",)",,,1,dev,1,0,1172
+"(""Charles forgets who some actors that weren't cleaning the cup will approach Eva."",)",,,0,dev,0,1,1173
+"(""The customer figured out that this teacher that performs hadn't noticed the sketch."",)",,,1,dev,1,0,1228
+"(""The customer figured out what this teacher that performs hadn't noticed the sketch."",)",,,0,dev,0,1,1229
+"(""A lot of museums investigate that this child that shouts can't notice some lake."",)",,,1,dev,1,0,1248
+"(""A lot of museums investigate what this child that shouts can't notice some lake."",)",,,0,dev,0,1,1249
+"(""These hospitals remember that some driver that will praise Rodney hadn't dropped by a museum."",)",,,1,dev,1,0,1268
+"(""These hospitals remember what some driver that will praise Rodney hadn't dropped by a museum."",)",,,0,dev,0,1,1269
+"(""Banks don't realize that the rice that has distracted Charles alarms Scott."",)",,,1,dev,1,0,1296
+"(""Banks don't realize who the rice that has distracted Charles alarms Scott."",)",,,0,dev,0,1,1297
+"(""Some adults investigate that those offspring that didn't clean some glass haven't forgotten most doctors."",)",,,1,dev,1,0,1324
+"(""Some adults investigate who those offspring that didn't clean some glass haven't forgotten most doctors."",)",,,0,dev,0,1,1325
+"(""Irene was investigating that these guests that wash aren't running around that restaurant."",)",,,1,dev,1,0,1326
+"(""Irene was investigating what these guests that wash aren't running around that restaurant."",)",,,0,dev,0,1,1327
+"(""Nicole hasn't investigated that doctors that do remember those movie theaters aren't cleaning every vase."",)",,,1,dev,1,0,1330
+"(""Nicole hasn't investigated what doctors that do remember those movie theaters aren't cleaning every vase."",)",,,0,dev,0,1,1331
+"(""Tonya realized that most alumni that had practiced weren't running around the high school."",)",,,1,dev,1,0,1362
+"(""Tonya realized what most alumni that had practiced weren't running around the high school."",)",,,0,dev,0,1,1363
+"(""Naomi wasn't learning that every waitress that hasn't compromised examines some commentaries."",)",,,1,dev,1,0,1364
+"(""Naomi wasn't learning what every waitress that hasn't compromised examines some commentaries."",)",,,0,dev,0,1,1365
+"('All drivers would discover that this teacher that disagrees with a lot of students saw the cafes.',)",,,1,dev,1,0,1388
+"('All drivers would discover what this teacher that disagrees with a lot of students saw the cafes.',)",,,0,dev,0,1,1389
+"(""Sabrina wasn't remembering that this alumnus that weeps knows Karen."",)",,,1,dev,1,0,1418
+"(""Sabrina wasn't remembering who this alumnus that weeps knows Karen."",)",,,0,dev,0,1,1419
+"('Pedestrians forget that some senators that negotiated cure a lot of actors.',)",,,1,dev,1,0,1424
+"('Pedestrians forget who some senators that negotiated cure a lot of actors.',)",,,0,dev,0,1,1425
+"(""These senators forget that some lady that isn't forfeiting would remember the men."",)",,,1,dev,1,0,1434
+"(""These senators forget who some lady that isn't forfeiting would remember the men."",)",,,0,dev,0,1,1435
+"('Theresa had realized that many patients that were training talk about Theodore.',)",,,1,dev,1,0,1442
+"('Theresa had realized who many patients that were training talk about Theodore.',)",,,0,dev,0,1,1443
+"(""A customer will learn that a student that didn't concur arrives at these banks."",)",,,1,dev,1,0,1456
+"(""A customer will learn what a student that didn't concur arrives at these banks."",)",,,0,dev,0,1,1457
+"(""Children know that all documentaries that were bothering Martin won't sound like every essay."",)",,,1,dev,1,0,1468
+"(""Children know what all documentaries that were bothering Martin won't sound like every essay."",)",,,0,dev,0,1,1469
+"(""Mitchell wouldn't investigate that most offspring that alarm a lot of companies had sold this skateboard."",)",,,1,dev,1,0,1490
+"(""Mitchell wouldn't investigate what most offspring that alarm a lot of companies had sold this skateboard."",)",,,0,dev,0,1,1491
+"(""Universities realized that a foot that was stunning George hadn't alarmed Travis."",)",,,1,dev,1,0,1528
+"(""Universities realized who a foot that was stunning George hadn't alarmed Travis."",)",,,0,dev,0,1,1529
+"(""The guest can remember that those actors that wouldn't hide away have noticed Harvard University."",)",,,1,dev,1,0,1540
+"(""The guest can remember what those actors that wouldn't hide away have noticed Harvard University."",)",,,0,dev,0,1,1541
+"('Erin had forgotten that all alumni that lifted water conceal these lamps.',)",,,1,dev,1,0,1542
+"('Erin had forgotten what all alumni that lifted water conceal these lamps.',)",,,0,dev,0,1,1543
+"('Many doctors conceal that that bank that worries Rhonda had hated some waitress.',)",,,1,dev,1,0,1544
+"('Many doctors conceal who that bank that worries Rhonda had hated some waitress.',)",,,0,dev,0,1,1545
+"(""Regina shouldn't learn that these boys that dislike a lot of essays left Bruce."",)",,,1,dev,1,0,1634
+"(""Regina shouldn't learn who these boys that dislike a lot of essays left Bruce."",)",,,0,dev,0,1,1635
+"(""Irene would find out that every child that is scaring Tracy hasn't observed Deborah."",)",,,1,dev,1,0,1666
+"(""Irene would find out who every child that is scaring Tracy hasn't observed Deborah."",)",,,0,dev,0,1,1667
+"(""Renee hasn't revealed that a child that has distracted Gary will hug Becky."",)",,,1,dev,1,0,1688
+"(""Renee hasn't revealed who a child that has distracted Gary will hug Becky."",)",,,0,dev,0,1,1689
+"('Claire knew that that student that approached Keith had broken many chairs.',)",,,1,dev,1,0,1708
+"('Claire knew what that student that approached Keith had broken many chairs.',)",,,0,dev,0,1,1709
+"(""Dennis hadn't revealed that a patient that might alarm Amy works with Laurie."",)",,,1,dev,1,0,1724
+"(""Dennis hadn't revealed who a patient that might alarm Amy works with Laurie."",)",,,0,dev,0,1,1725
+"(""Raymond doesn't discover that this adult that wasn't stretching has forgotten every man."",)",,,1,dev,1,0,1730
+"(""Raymond doesn't discover who this adult that wasn't stretching has forgotten every man."",)",,,0,dev,0,1,1731
+"(""Nancy remembered that some guy that wasn't talking to Denise heals Brenda."",)",,,1,dev,1,0,1748
+"(""Nancy remembered who some guy that wasn't talking to Denise heals Brenda."",)",,,0,dev,0,1,1749
+"(""Rachelle shouldn't figure out that the actress that sang reveals Sally."",)",,,1,dev,1,0,1752
+"(""Rachelle shouldn't figure out who the actress that sang reveals Sally."",)",,,0,dev,0,1,1753
+"(""This pedestrian isn't discovering that this waiter that won't wear these shawls might dislike Peter."",)",,,1,dev,1,0,1814
+"(""This pedestrian isn't discovering who this waiter that won't wear these shawls might dislike Peter."",)",,,0,dev,0,1,1815
+"(""Kenneth would discover that a person that bothered Katherine wouldn't bike to a lot of college campuses."",)",,,1,dev,1,0,1834
+"(""Kenneth would discover what a person that bothered Katherine wouldn't bike to a lot of college campuses."",)",,,0,dev,0,1,1835
+"(""Colleen hadn't found out that a lot of brochures that wouldn't disgust Meredith would disagree with Dan."",)",,,1,dev,1,0,1838
+"(""Colleen hadn't found out who a lot of brochures that wouldn't disgust Meredith would disagree with Dan."",)",,,0,dev,0,1,1839
+"('Jodi had figured out that these men that met kiss Heather.',)",,,1,dev,1,0,1868
+"('Jodi had figured out who these men that met kiss Heather.',)",,,0,dev,0,1,1869
+"(""Brenda isn't remembering that some legislatures that might cope hadn't talked to Jane."",)",,,1,dev,1,0,1880
+"(""Brenda isn't remembering who some legislatures that might cope hadn't talked to Jane."",)",,,0,dev,0,1,1881
+"('All customers reveal that that offspring that fell asleep cleans some glasses.',)",,,1,dev,1,0,1900
+"('All customers reveal what that offspring that fell asleep cleans some glasses.',)",,,0,dev,0,1,1901
+"(""Girls discover that most drivers that could slump over hadn't dropped by movie theaters."",)",,,1,dev,1,0,1926
+"(""Girls discover what most drivers that could slump over hadn't dropped by movie theaters."",)",,,0,dev,0,1,1927
+"(""Many companies find out that some men that had negotiated aren't working with Marie."",)",,,1,dev,1,0,1938
+"(""Many companies find out who some men that had negotiated aren't working with Marie."",)",,,0,dev,0,1,1939
+"(""Those boys find out that a legislature that was reacting hasn't criticized Claire."",)",,,1,dev,1,0,1962
+"(""Those boys find out who a legislature that was reacting hasn't criticized Claire."",)",,,0,dev,0,1,1963
+"('Kathleen was revealing that this actress that can sit down was skated around this museum.',)",,,1,test,1,0,2
+"('Kathleen was revealing what this actress that can sit down was skated around this museum.',)",,,0,test,0,1,3
+"('Drivers remembered that those hospitals that should waste away are listening to Angela.',)",,,1,test,1,0,6
+"('Drivers remembered who those hospitals that should waste away are listening to Angela.',)",,,0,test,0,1,7
+"(""Every cashier wouldn't investigate that some birds that weren't distracting Steve broke some unicycles."",)",,,1,test,1,0,8
+"(""Every cashier wouldn't investigate what some birds that weren't distracting Steve broke some unicycles."",)",,,0,test,0,1,9
+"('Most cashiers conceal that most guys that can run around a cafe had skated around those banks.',)",,,1,test,1,0,16
+"('Most cashiers conceal what most guys that can run around a cafe had skated around those banks.',)",,,0,test,0,1,17
+"('Martin had remembered that this man that sold most eyes hides the coat.',)",,,1,test,1,0,18
+"('Martin had remembered what this man that sold most eyes hides the coat.',)",,,0,test,0,1,19
+"(""Those students aren't learning that that library that cooperates hasn't looked like a print."",)",,,1,test,1,0,24
+"(""Those students aren't learning what that library that cooperates hasn't looked like a print."",)",,,0,test,0,1,25
+"(""Joseph discovered that a woman that couldn't discuss Sabrina approached the dancer."",)",,,1,test,1,0,26
+"(""Joseph discovered who a woman that couldn't discuss Sabrina approached the dancer."",)",,,0,test,0,1,27
+"('Steven is realizing that the waitresses that had departed might sell every photograph.',)",,,1,test,1,0,48
+"('Steven is realizing what the waitresses that had departed might sell every photograph.',)",,,0,test,0,1,49
+"('A school realizes that a waiter that was grinning skates around these cafes.',)",,,1,test,1,0,66
+"('A school realizes what a waiter that was grinning skates around these cafes.',)",,,0,test,0,1,67
+"('Peter learns that all women that reply attack Benjamin.',)",,,1,test,1,0,72
+"('Peter learns who all women that reply attack Benjamin.',)",,,0,test,0,1,73
+"('Christina forgot that all plays that win worry Dana.',)",,,1,test,1,0,76
+"('Christina forgot who all plays that win worry Dana.',)",,,0,test,0,1,77
+"('All adults learn that many cashiers that baked were touring every restaurant.',)",,,1,test,1,0,84
+"('All adults learn what many cashiers that baked were touring every restaurant.',)",,,0,test,0,1,85
+"('Carlos was remembering that some doctor that cures Steven explores every river.',)",,,1,test,1,0,88
+"('Carlos was remembering what some doctor that cures Steven explores every river.',)",,,0,test,0,1,89
+"('Dana is realizing that those paintings that had irritated Suzanne look like all paintings.',)",,,1,test,1,0,94
+"('Dana is realizing what those paintings that had irritated Suzanne look like all paintings.',)",,,0,test,0,1,95
+"('Brian investigated that some guests that did play have brought some college campus.',)",,,1,test,1,0,102
+"('Brian investigated what some guests that did play have brought some college campus.',)",,,0,test,0,1,103
+"(""Larry investigates that this teenager that has bought a convertible shouldn't clean this nose."",)",,,1,test,1,0,110
+"(""Larry investigates what this teenager that has bought a convertible shouldn't clean this nose."",)",,,0,test,0,1,111
+"(""Some customer investigates that this boy that hasn't washed was buying every light."",)",,,1,test,1,0,122
+"(""Some customer investigates what this boy that hasn't washed was buying every light."",)",,,0,test,0,1,123
+"('Christopher had concealed that the women that complain praise Holly.',)",,,1,test,1,0,128
+"('Christopher had concealed who the women that complain praise Holly.',)",,,0,test,0,1,129
+"(""Elizabeth revealed that a woman that fell asleep hasn't driven to that lake."",)",,,1,test,1,0,130
+"(""Elizabeth revealed what a woman that fell asleep hasn't driven to that lake."",)",,,0,test,0,1,131
+"('Rachel revealed that waitresses that have wasted away were arriving at a restaurant.',)",,,1,test,1,0,134
+"('Rachel revealed what waitresses that have wasted away were arriving at a restaurant.',)",,,0,test,0,1,135
+"('That student reveals that many dancers that are visiting those women complain about Lissa.',)",,,1,test,1,0,140
+"('That student reveals who many dancers that are visiting those women complain about Lissa.',)",,,0,test,0,1,141
+"('Bruce forgets that all girls that dated attacked Samantha.',)",,,1,test,1,0,150
+"('Bruce forgets who all girls that dated attacked Samantha.',)",,,0,test,0,1,151
+"('A waitress had learned that every plate that drops bores Jason.',)",,,1,test,1,0,164
+"('A waitress had learned who every plate that drops bores Jason.',)",,,0,test,0,1,165
+"('The library should find out that all alumni that do concur wore every shoe.',)",,,1,test,1,0,176
+"('The library should find out what all alumni that do concur wore every shoe.',)",,,0,test,0,1,177
+"(""Judy forgets that those eggplants that hadn't disgusted Amy won't disturb Judy."",)",,,1,test,1,0,184
+"(""Judy forgets who those eggplants that hadn't disgusted Amy won't disturb Judy."",)",,,0,test,0,1,185
+"('All children know that this girl that brought this river descends some slopes.',)",,,1,test,1,0,188
+"('All children know what this girl that brought this river descends some slopes.',)",,,0,test,0,1,189
+"(""Peter realizes that the school that wasn't looking like a lot of pictures described Bradley."",)",,,1,test,1,0,190
+"(""Peter realizes who the school that wasn't looking like a lot of pictures described Bradley."",)",,,0,test,0,1,191
+"('The customers learn that those children that had sighed insult Donna.',)",,,1,test,1,0,192
+"('The customers learn who those children that had sighed insult Donna.',)",,,0,test,0,1,193
+"(""Melinda hadn't revealed that all universities that approved have listened to Melissa."",)",,,1,test,1,0,194
+"(""Melinda hadn't revealed who all universities that approved have listened to Melissa."",)",,,0,test,0,1,195
+"('All drivers investigate that men that do conspire criticize Stacy.',)",,,1,test,1,0,198
+"('All drivers investigate who men that do conspire criticize Stacy.',)",,,0,test,0,1,199
+"(""Robert reveals that that hospital that disgusts Ronald doesn't stun those girls."",)",,,1,test,1,0,208
+"(""Robert reveals who that hospital that disgusts Ronald doesn't stun those girls."",)",,,0,test,0,1,209
+"(""The person is remembering that those offspring that don't perform aren't attacking Noah."",)",,,1,test,1,0,226
+"(""The person is remembering who those offspring that don't perform aren't attacking Noah."",)",,,0,test,0,1,227
+"(""Becca hasn't figured out that a mouse that is wasting away hadn't distracted Craig."",)",,,1,test,1,0,230
+"(""Becca hasn't figured out who a mouse that is wasting away hadn't distracted Craig."",)",,,0,test,0,1,231
+"(""Christine concealed that those bananas that upset Sandra hadn't aggravated Lawrence."",)",,,1,test,1,0,240
+"(""Christine concealed who those bananas that upset Sandra hadn't aggravated Lawrence."",)",,,0,test,0,1,241
+"(""Matt isn't learning that these people that discover the senator can heal Sherry."",)",,,1,test,1,0,244
+"(""Matt isn't learning who these people that discover the senator can heal Sherry."",)",,,0,test,0,1,245
+"(""Matt couldn't figure out that ladies that were embracing sell water."",)",,,1,test,1,0,246
+"(""Matt couldn't figure out what ladies that were embracing sell water."",)",,,0,test,0,1,247
+"(""Many drivers can remember that most cashiers that protest weren't investigating Ruth."",)",,,1,test,1,0,250
+"(""Many drivers can remember who most cashiers that protest weren't investigating Ruth."",)",,,0,test,0,1,251
+"('Galileo has learned that every cashier that should shrug was investigating Jane.',)",,,1,test,1,0,252
+"('Galileo has learned who every cashier that should shrug was investigating Jane.',)",,,0,test,0,1,253
+"(""Kenneth isn't concealing that this girl that couldn't bake investigates some doctor."",)",,,1,test,1,0,254
+"(""Kenneth isn't concealing who this girl that couldn't bake investigates some doctor."",)",,,0,test,0,1,255
+"('Raymond is remembering that some universities that scared Kristen discussed Stacy.',)",,,1,test,1,0,260
+"('Raymond is remembering who some universities that scared Kristen discussed Stacy.',)",,,0,test,0,1,261
+"(""Roger hadn't found out that many actors that existed haven't dropped by those rivers."",)",,,1,test,1,0,286
+"(""Roger hadn't found out what many actors that existed haven't dropped by those rivers."",)",,,0,test,0,1,287
+"('Tara found out that this public park that might hurt Carol had impressed Claire.',)",,,1,test,1,0,298
+"('Tara found out who this public park that might hurt Carol had impressed Claire.',)",,,0,test,0,1,299
+"(""The students reveal that some diagnosis that couldn't annoy those teenagers will hurt all actresses."",)",,,1,test,1,0,306
+"(""The students reveal who some diagnosis that couldn't annoy those teenagers will hurt all actresses."",)",,,0,test,0,1,307
+"('All schools learn that all men that have suffered remembered Nina.',)",,,1,test,1,0,330
+"('All schools learn who all men that have suffered remembered Nina.',)",,,0,test,0,1,331
+"('Valerie knew that those books that exist were upsetting those waiters.',)",,,1,test,1,0,332
+"('Valerie knew who those books that exist were upsetting those waiters.',)",,,0,test,0,1,333
+"(""A lot of adults realize that those children that shouldn't hate these actors had that window."",)",,,1,test,1,0,340
+"(""A lot of adults realize what those children that shouldn't hate these actors had that window."",)",,,0,test,0,1,341
+"(""Adam revealed that every child that isn't talking to Alice has a cucumber."",)",,,1,test,1,0,364
+"(""Adam revealed what every child that isn't talking to Alice has a cucumber."",)",,,0,test,0,1,365
+"(""Kristen would find out that some parentheses that have stunned Veronica hadn't disgusted Christina."",)",,,1,test,1,0,368
+"(""Kristen would find out who some parentheses that have stunned Veronica hadn't disgusted Christina."",)",,,0,test,0,1,369
+"(""Robert revealed that all cats that will disappear shouldn't irritate Dana."",)",,,1,test,1,0,394
+"(""Robert revealed who all cats that will disappear shouldn't irritate Dana."",)",,,0,test,0,1,395
+"('That actress finds out that some person that could scare Russell knows Tara.',)",,,1,test,1,0,410
+"('That actress finds out who some person that could scare Russell knows Tara.',)",,,0,test,0,1,411
+"('Lissa can remember that the guys that have laughed will dislike John.',)",,,1,test,1,0,414
+"('Lissa can remember who the guys that have laughed will dislike John.',)",,,0,test,0,1,415
+"('Margaret is revealing that these customers that disgust Deborah help Melanie.',)",,,1,test,1,0,416
+"('Margaret is revealing who these customers that disgust Deborah help Melanie.',)",,,0,test,0,1,417
+"(""Mary discovered that many children that hurt Kayla couldn't wear most shawls."",)",,,1,test,1,0,422
+"(""Mary discovered what many children that hurt Kayla couldn't wear most shawls."",)",,,0,test,0,1,423
+"(""These senators hadn't learned that some boy that benefits had watched Carrie."",)",,,1,test,1,0,442
+"(""These senators hadn't learned who some boy that benefits had watched Carrie."",)",,,0,test,0,1,443
+"('Every university is figuring out that guys that waste away had biked to the mountains.',)",,,1,test,1,0,454
+"('Every university is figuring out what guys that waste away had biked to the mountains.',)",,,0,test,0,1,455
+"(""That pedestrian hadn't realized that the plate that disappeared did embarrass the patient."",)",,,1,test,1,0,462
+"(""That pedestrian hadn't realized who the plate that disappeared did embarrass the patient."",)",,,0,test,0,1,463
+"('Carmen might realize that this teenager that cried examined a newspaper article.',)",,,1,test,1,0,498
+"('Carmen might realize what this teenager that cried examined a newspaper article.',)",,,0,test,0,1,499
+"('Frank revealed that some thesis that had disappeared insulted Anne.',)",,,1,test,1,0,506
+"('Frank revealed who some thesis that had disappeared insulted Anne.',)",,,0,test,0,1,507
+"(""Most legislatures remember that that dancer that isn't revealing Alexander hadn't driven to a bank."",)",,,1,test,1,0,510
+"(""Most legislatures remember what that dancer that isn't revealing Alexander hadn't driven to a bank."",)",,,0,test,0,1,511
+"(""Scott doesn't reveal that the guys that haven't written haven't cured Daniel."",)",,,1,test,1,0,530
+"(""Scott doesn't reveal who the guys that haven't written haven't cured Daniel."",)",,,0,test,0,1,531
+"(""Some pedestrian learns that every pie that hadn't distracted Tina scares Tiffany."",)",,,1,test,1,0,534
+"(""Some pedestrian learns who every pie that hadn't distracted Tina scares Tiffany."",)",,,0,test,0,1,535
+"('Cheryl finds out that the children that vanish hugged Carol.',)",,,1,test,1,0,572
+"('Cheryl finds out who the children that vanish hugged Carol.',)",,,0,test,0,1,573
+"(""Matt knew that most children that are escaping from Monet aren't looking like a lot of drawings."",)",,,1,test,1,0,576
+"(""Matt knew what most children that are escaping from Monet aren't looking like a lot of drawings."",)",,,0,test,0,1,577
+"(""David isn't finding out that that plate that disappears bothered the Borgias."",)",,,1,test,1,0,582
+"(""David isn't finding out who that plate that disappears bothered the Borgias."",)",,,0,test,0,1,583
+"(""These actors find out that many ladies that forfeit aren't descending some slopes."",)",,,1,test,1,0,606
+"(""These actors find out what many ladies that forfeit aren't descending some slopes."",)",,,0,test,0,1,607
+"('Danielle investigated that all girls that observe Michelle had forgotten the reports.',)",,,1,test,1,0,608
+"('Danielle investigated what all girls that observe Michelle had forgotten the reports.',)",,,0,test,0,1,609
+"('Carl has forgotten that every alumnus that works with Carol had returned to Debra.',)",,,1,test,1,0,610
+"('Carl has forgotten who every alumnus that works with Carol had returned to Debra.',)",,,0,test,0,1,611
+"(""Lisa hadn't realized that glaciers that exist weren't scaring the students."",)",,,1,test,1,0,620
+"(""Lisa hadn't realized who glaciers that exist weren't scaring the students."",)",,,0,test,0,1,621
+"(""Judy did discover that this picture that wasn't bothering Noah looked like most hills."",)",,,1,test,1,0,622
+"(""Judy did discover what this picture that wasn't bothering Noah looked like most hills."",)",,,0,test,0,1,623
+"(""Those governments didn't conceal that those guys that could escape won't respect Andrea."",)",,,1,test,1,0,668
+"(""Those governments didn't conceal who those guys that could escape won't respect Andrea."",)",,,0,test,0,1,669
+"(""Melanie should figure out that some alumnus that hasn't wept was exploring some lakes."",)",,,1,test,1,0,682
+"(""Melanie should figure out what some alumnus that hasn't wept was exploring some lakes."",)",,,0,test,0,1,683
+"(""The actors figure out that every guy that had concurred hadn't left some hospital."",)",,,1,test,1,0,694
+"(""The actors figure out what every guy that had concurred hadn't left some hospital."",)",,,0,test,0,1,695
+"(""These adults reveal that that offspring that hasn't found this casserole doesn't drop by every glacier."",)",,,1,test,1,0,698
+"(""These adults reveal what that offspring that hasn't found this casserole doesn't drop by every glacier."",)",,,0,test,0,1,699
+"(""Judy hasn't forgotten that that adult that is falling asleep irritated a museum."",)",,,1,test,1,0,732
+"(""Judy hasn't forgotten what that adult that is falling asleep irritated a museum."",)",,,0,test,0,1,733
+"(""Some teenagers don't figure out that this university that worried had worked with the Borgias."",)",,,1,test,1,0,736
+"(""Some teenagers don't figure out who this university that worried had worked with the Borgias."",)",,,0,test,0,1,737
+"('Most ladies investigate that waitresses that have explained everything care for the waitresses.',)",,,1,test,1,0,738
+"('Most ladies investigate who waitresses that have explained everything care for the waitresses.',)",,,0,test,0,1,739
+"('Jodi realized that that customer that criticizes Adam works with Lissa.',)",,,1,test,1,0,770
+"('Jodi realized who that customer that criticizes Adam works with Lissa.',)",,,0,test,0,1,771
+"('Eric remembered that those universities that alarm April talk to Kayla.',)",,,1,test,1,0,804
+"('Eric remembered who those universities that alarm April talk to Kayla.',)",,,0,test,0,1,805
+"(""Students aren't realizing that most men that don't paint went to that mountain."",)",,,1,test,1,0,808
+"(""Students aren't realizing what most men that don't paint went to that mountain."",)",,,0,test,0,1,809
+"(""Customers hadn't remembered that the ladies that aren't grinning were researching the Clintons."",)",,,1,test,1,0,810
+"(""Customers hadn't remembered who the ladies that aren't grinning were researching the Clintons."",)",,,0,test,0,1,811
+"(""Karen isn't remembering that the actor that has come here is hiring Mary."",)",,,1,test,1,0,812
+"(""Karen isn't remembering who the actor that has come here is hiring Mary."",)",,,0,test,0,1,813
+"('Erin has revealed that every senator that would question Larry skates around some hill.',)",,,1,test,1,0,814
+"('Erin has revealed what every senator that would question Larry skates around some hill.',)",,,0,test,0,1,815
+"(""Karen hadn't revealed that every pedestrian that joked around had approached Brian."",)",,,1,test,1,0,816
+"(""Karen hadn't revealed who every pedestrian that joked around had approached Brian."",)",,,0,test,0,1,817
+"(""This adult has forgotten that most cashiers that hadn't remembered Jessica have some muffin."",)",,,1,test,1,0,828
+"(""This adult has forgotten what most cashiers that hadn't remembered Jessica have some muffin."",)",,,0,test,0,1,829
+"('Some universities discover that all books that had appeared were impressing many girls.',)",,,1,test,1,0,842
+"('Some universities discover who all books that had appeared were impressing many girls.',)",,,0,test,0,1,843
+"('Steve was revealing that a lot of girls that conferred reveal some dancers.',)",,,1,test,1,0,844
+"('Steve was revealing who a lot of girls that conferred reveal some dancers.',)",,,0,test,0,1,845
+"(""Claire figured out that this man that hadn't explained everything had loved Beth."",)",,,1,test,1,0,846
+"(""Claire figured out who this man that hadn't explained everything had loved Beth."",)",,,0,test,0,1,847
+"(""A lot of waiters investigate that trucks that weren't disturbing Randolf distract Douglas."",)",,,1,test,1,0,850
+"(""A lot of waiters investigate who trucks that weren't disturbing Randolf distract Douglas."",)",,,0,test,0,1,851
+"('Kayla had remembered that some man that disturbs the actor researched some river.',)",,,1,test,1,0,856
+"('Kayla had remembered what some man that disturbs the actor researched some river.',)",,,0,test,0,1,857
+"('Rachel learned that this girl that embarrassed Jessica leaves Victoria.',)",,,1,test,1,0,874
+"('Rachel learned who this girl that embarrassed Jessica leaves Victoria.',)",,,0,test,0,1,875
+"('Catherine reveals that this car that could impress Jesus worries some waiter.',)",,,1,test,1,0,878
+"('Catherine reveals who this car that could impress Jesus worries some waiter.',)",,,0,test,0,1,879
+"(""Holly concealed that a lot of ladies that did litter can't climb down many mountains."",)",,,1,test,1,0,896
+"(""Holly concealed what a lot of ladies that did litter can't climb down many mountains."",)",,,0,test,0,1,897
+"(""Every association doesn't investigate that a coat that disgusted Carol resembles every photograph."",)",,,1,test,1,0,902
+"(""Every association doesn't investigate what a coat that disgusted Carol resembles every photograph."",)",,,0,test,0,1,903
+"(""Those men reveal that that customer that hasn't cried won't argue about Jesus."",)",,,1,test,1,0,912
+"(""Those men reveal who that customer that hasn't cried won't argue about Jesus."",)",,,0,test,0,1,913
+"(""Some university shouldn't figure out that some cashiers that returned to Sharon arrive at the college campuses."",)",,,1,test,1,0,940
+"(""Some university shouldn't figure out what some cashiers that returned to Sharon arrive at the college campuses."",)",,,0,test,0,1,941
+"('Some customers will forget that a patient that had trained had fixed that dish.',)",,,1,test,1,0,944
+"('Some customers will forget what a patient that had trained had fixed that dish.',)",,,0,test,0,1,945
+"(""Every customer forgets that the student that wasn't leaving had broken all trucks."",)",,,1,test,1,0,950
+"(""Every customer forgets what the student that wasn't leaving had broken all trucks."",)",,,0,test,0,1,951
+"('All ladies forget that a guy that sighs listens to Colleen.',)",,,1,test,1,0,954
+"('All ladies forget who a guy that sighs listens to Colleen.',)",,,0,test,0,1,955
+"(""Sharon wouldn't realize that a lot of boys that don't benefit think about a commentary."",)",,,1,test,1,0,956
+"(""Sharon wouldn't realize what a lot of boys that don't benefit think about a commentary."",)",,,0,test,0,1,957
+"(""Elaine can't forget that the girls that hadn't known Russell wouldn't fire a guest."",)",,,1,test,1,0,958
+"(""Elaine can't forget who the girls that hadn't known Russell wouldn't fire a guest."",)",,,0,test,0,1,959
+"(""Sherry won't reveal that a person that couldn't distract every doctor helped all people."",)",,,1,test,1,0,968
+"(""Sherry won't reveal who a person that couldn't distract every doctor helped all people."",)",,,0,test,0,1,969
+"('These doctors investigate that these horses that annoy some school climb up the hill.',)",,,1,test,1,0,972
+"('These doctors investigate what these horses that annoy some school climb up the hill.',)",,,0,test,0,1,973
+"(""Steven can find out that associations that didn't confer admire Janet."",)",,,1,test,1,0,1010
+"(""Steven can find out who associations that didn't confer admire Janet."",)",,,0,test,0,1,1011
+"('Melissa knows that some offspring that negotiates messed up the forks.',)",,,1,test,1,0,1012
+"('Melissa knows what some offspring that negotiates messed up the forks.',)",,,0,test,0,1,1013
+"(""Sharon does investigate that these men that have exited those museums hadn't sounded like Sandra."",)",,,1,test,1,0,1020
+"(""Sharon does investigate who these men that have exited those museums hadn't sounded like Sandra."",)",,,0,test,0,1,1021
+"('Some companies reveal that all lice that break the unicycles stun Mary.',)",,,1,test,1,0,1056
+"('Some companies reveal who all lice that break the unicycles stun Mary.',)",,,0,test,0,1,1057
+"(""Clyde did know that these pedestrians that impress every guest haven't appreciated Rodney."",)",,,1,test,1,0,1060
+"(""Clyde did know who these pedestrians that impress every guest haven't appreciated Rodney."",)",,,0,test,0,1,1061
+"('Some waiters are investigating that some alumni that climbed up some ladder revealed that spinach.',)",,,1,test,1,0,1074
+"('Some waiters are investigating what some alumni that climbed up some ladder revealed that spinach.',)",,,0,test,0,1,1075
+"(""This senator had investigated that these dresses that weren't scaring Leslie disturb Chad."",)",,,1,test,1,0,1082
+"(""This senator had investigated who these dresses that weren't scaring Leslie disturb Chad."",)",,,0,test,0,1,1083
+"(""Richard discovers that the fungus that disappeared wasn't annoying those senators."",)",,,1,test,1,0,1088
+"(""Richard discovers who the fungus that disappeared wasn't annoying those senators."",)",,,0,test,0,1,1089
+"('The actresses forget that some person that has waved can think about a lot of high schools.',)",,,1,test,1,0,1102
+"('The actresses forget what some person that has waved can think about a lot of high schools.',)",,,0,test,0,1,1103
+"(""Sally concealed that the pedestrians that haven't broken many cars skated around many glaciers."",)",,,1,test,1,0,1104
+"(""Sally concealed what the pedestrians that haven't broken many cars skated around many glaciers."",)",,,0,test,0,1,1105
+"(""Cindy learns that the guy that hasn't stretched heals Carlos."",)",,,1,test,1,0,1118
+"(""Cindy learns who the guy that hasn't stretched heals Carlos."",)",,,0,test,0,1,1119
+"('Some dancers forget that a lot of skateboards that tipped over annoy Andrew.',)",,,1,test,1,0,1124
+"('Some dancers forget who a lot of skateboards that tipped over annoy Andrew.',)",,,0,test,0,1,1125
+"('Vincent does investigate that this waiter that has explained everything leaves Raymond.',)",,,1,test,1,0,1126
+"('Vincent does investigate who this waiter that has explained everything leaves Raymond.',)",,,0,test,0,1,1127
+"('Many governments discover that some guy that gets a job drives to the mall.',)",,,1,test,1,0,1130
+"('Many governments discover what some guy that gets a job drives to the mall.',)",,,0,test,0,1,1131
+"('Sharon would remember that this glove that scared many committees is distracting Stacy.',)",,,1,test,1,0,1138
+"('Sharon would remember who this glove that scared many committees is distracting Stacy.',)",,,0,test,0,1,1139
+"(""Randolf hasn't learned that a lot of pedestrians that haven't sat down aren't cleaning some rug."",)",,,1,test,1,0,1140
+"(""Randolf hasn't learned what a lot of pedestrians that haven't sat down aren't cleaning some rug."",)",,,0,test,0,1,1141
+"(""Barbara had remembered that this analysis that alarmed this customer hadn't praised Laura."",)",,,1,test,1,0,1142
+"(""Barbara had remembered who this analysis that alarmed this customer hadn't praised Laura."",)",,,0,test,0,1,1143
+"(""Tammy conceals that the driver that shouldn't conceal those slopes works with these adults."",)",,,1,test,1,0,1160
+"(""Tammy conceals who the driver that shouldn't conceal those slopes works with these adults."",)",,,0,test,0,1,1161
+"('Every association conceals that most actresses that break every window left Tammy.',)",,,1,test,1,0,1174
+"('Every association conceals who most actresses that break every window left Tammy.',)",,,0,test,0,1,1175
+"('Sarah has learned that that alumnus that had died scanned documentaries.',)",,,1,test,1,0,1182
+"('Sarah has learned what that alumnus that had died scanned documentaries.',)",,,0,test,0,1,1183
+"(""Marie hadn't investigated that some ladies that weren't concealing Amanda work with Ellen."",)",,,1,test,1,0,1206
+"(""Marie hadn't investigated who some ladies that weren't concealing Amanda work with Ellen."",)",,,0,test,0,1,1207
+"(""That association concealed that guys that hadn't vanished drop by some high school."",)",,,1,test,1,0,1216
+"(""That association concealed what guys that hadn't vanished drop by some high school."",)",,,0,test,0,1,1217
+"(""Phillip wasn't finding out that some guest that wasn't wasting away loves Vanessa."",)",,,1,test,1,0,1230
+"(""Phillip wasn't finding out who some guest that wasn't wasting away loves Vanessa."",)",,,0,test,0,1,1231
+"('Carol conceals that every child that had bothered Theresa wears a skirt.',)",,,1,test,1,0,1232
+"('Carol conceals what every child that had bothered Theresa wears a skirt.',)",,,0,test,0,1,1233
+"(""Lissa finds out that all birds that aren't leaving have descended those steps."",)",,,1,test,1,0,1234
+"(""Lissa finds out what all birds that aren't leaving have descended those steps."",)",,,0,test,0,1,1235
+"(""Tanya hadn't found out that those drivers that reacted kiss every senator."",)",,,1,test,1,0,1246
+"(""Tanya hadn't found out who those drivers that reacted kiss every senator."",)",,,0,test,0,1,1247
+"(""Debra does investigate that this beef that embarrasses Curtis hasn't resembled the photograph."",)",,,1,test,1,0,1256
+"(""Debra does investigate what this beef that embarrasses Curtis hasn't resembled the photograph."",)",,,0,test,0,1,1257
+"(""Wendy was remembering that many banks that can't cooperate were boasting about art."",)",,,1,test,1,0,1266
+"(""Wendy was remembering what many banks that can't cooperate were boasting about art."",)",,,0,test,0,1,1267
+"('Frank found out that that driver that disturbs Samantha hugs Kenneth.',)",,,1,test,1,0,1270
+"('Frank found out who that driver that disturbs Samantha hugs Kenneth.',)",,,0,test,0,1,1271
+"(""Some schools learn that most students that haven't criticized Cynthia hide all dogs."",)",,,1,test,1,0,1274
+"(""Some schools learn what most students that haven't criticized Cynthia hide all dogs."",)",,,0,test,0,1,1275
+"('A lot of ladies remember that most organizations that have lied argue about Randolf.',)",,,1,test,1,0,1278
+"('A lot of ladies remember who most organizations that have lied argue about Randolf.',)",,,0,test,0,1,1279
+"(""All companies reveal that the rice that will disappear hadn't alarmed Janice."",)",,,1,test,1,0,1284
+"(""All companies reveal who the rice that will disappear hadn't alarmed Janice."",)",,,0,test,0,1,1285
+"(""Anne hasn't investigated that all teenagers that disagreed would resemble pictures."",)",,,1,test,1,0,1286
+"(""Anne hasn't investigated what all teenagers that disagreed would resemble pictures."",)",,,0,test,0,1,1287
+"('These actors figure out that those doctors that are walking through all high schools had gone to every library.',)",,,1,test,1,0,1290
+"('These actors figure out what those doctors that are walking through all high schools had gone to every library.',)",,,0,test,0,1,1291
+"('Amy discovers that these hills that disappear had confused the patients.',)",,,1,test,1,0,1292
+"('Amy discovers who these hills that disappear had confused the patients.',)",,,0,test,0,1,1293
+"(""Ruth wasn't revealing that some child that hasn't disappeared questions Ann."",)",,,1,test,1,0,1304
+"(""Ruth wasn't revealing who some child that hasn't disappeared questions Ann."",)",,,0,test,0,1,1305
+"(""Connie hadn't found out that the guy that comes here listens to Anne."",)",,,1,test,1,0,1310
+"(""Connie hadn't found out who the guy that comes here listens to Anne."",)",,,0,test,0,1,1311
+"(""Stacey discovered that most teenagers that aggravate the woman aren't confusing Brett."",)",,,1,test,1,0,1318
+"(""Stacey discovered who most teenagers that aggravate the woman aren't confusing Brett."",)",,,0,test,0,1,1319
+"(""Carl reveals that a pedestrian that wastes away hadn't sold every lamp."",)",,,1,test,1,0,1320
+"(""Carl reveals what a pedestrian that wastes away hadn't sold every lamp."",)",,,0,test,0,1,1321
+"('Some actor had investigated that many alumni that research the Clintons approach every teacher.',)",,,1,test,1,0,1370
+"('Some actor had investigated who many alumni that research the Clintons approach every teacher.',)",,,0,test,0,1,1371
+"('The Lutherans find out that those grocery stores that impressed Curtis have astounded Tamara.',)",,,1,test,1,0,1378
+"('The Lutherans find out who those grocery stores that impressed Curtis have astounded Tamara.',)",,,0,test,0,1,1379
+"(""Edward would learn that some patients that praised Alice haven't concealed Ellen."",)",,,1,test,1,0,1386
+"(""Edward would learn who some patients that praised Alice haven't concealed Ellen."",)",,,0,test,0,1,1387
+"(""Many adults realize that most theses that have boasted weren't referencing Margaret."",)",,,1,test,1,0,1390
+"(""Many adults realize who most theses that have boasted weren't referencing Margaret."",)",,,0,test,0,1,1391
+"(""Sally learns that some actors that go fishing aren't fixing all carts."",)",,,1,test,1,0,1412
+"(""Sally learns what some actors that go fishing aren't fixing all carts."",)",,,0,test,0,1,1413
+"(""Many banks aren't realizing that this man that shouldn't hide away had bought a lot of college campuses."",)",,,1,test,1,0,1432
+"(""Many banks aren't realizing what this man that shouldn't hide away had bought a lot of college campuses."",)",,,0,test,0,1,1433
+"(""That waiter conceals that some dancers that left Jodi haven't cleaned some eggplants."",)",,,1,test,1,0,1466
+"(""That waiter conceals what some dancers that left Jodi haven't cleaned some eggplants."",)",,,0,test,0,1,1467
+"(""Renee hadn't remembered that that doctor that can sell many pants ascended those ladders."",)",,,1,test,1,0,1470
+"(""Renee hadn't remembered what that doctor that can sell many pants ascended those ladders."",)",,,0,test,0,1,1471
+"('Tanya finds out that the plays that disagree alarm Dennis.',)",,,1,test,1,0,1472
+"('Tanya finds out who the plays that disagree alarm Dennis.',)",,,0,test,0,1,1473
+"('Steve knew that some pedestrians that might tour those hospitals astounded Becca.',)",,,1,test,1,0,1488
+"('Steve knew who some pedestrians that might tour those hospitals astounded Becca.',)",,,0,test,0,1,1489
+"('A lot of associations remember that a lot of wheelbarrows that scare Gary distract these customers.',)",,,1,test,1,0,1492
+"('A lot of associations remember who a lot of wheelbarrows that scare Gary distract these customers.',)",,,0,test,0,1,1493
+"(""Florence wasn't learning that some coats that have wasted away are irritating Andrew."",)",,,1,test,1,0,1494
+"(""Florence wasn't learning who some coats that have wasted away are irritating Andrew."",)",,,0,test,0,1,1495
+"('The universities do know that the teachers that exercise upset Victoria.',)",,,1,test,1,0,1496
+"('The universities do know who the teachers that exercise upset Victoria.',)",,,0,test,0,1,1497
+"('Some women remember that some patient that escapes toured malls.',)",,,1,test,1,0,1500
+"('Some women remember what some patient that escapes toured malls.',)",,,0,test,0,1,1501
+"('Keith revealed that some alumnus that yells boycotts a restaurant.',)",,,1,test,1,0,1508
+"('Keith revealed what some alumnus that yells boycotts a restaurant.',)",,,0,test,0,1,1509
+"('A lot of cashiers should forget that patients that might embarrass Laurie ascend stairs.',)",,,1,test,1,0,1512
+"('A lot of cashiers should forget what patients that might embarrass Laurie ascend stairs.',)",,,0,test,0,1,1513
+"(""Girls conceal that the dog that appears hadn't climbed up that slope."",)",,,1,test,1,0,1514
+"(""Girls conceal what the dog that appears hadn't climbed up that slope."",)",,,0,test,0,1,1515
+"(""Lissa was learning that every teenager that couldn't walk through some movie theater hadn't observed Catherine."",)",,,1,test,1,0,1516
+"(""Lissa was learning who every teenager that couldn't walk through some movie theater hadn't observed Catherine."",)",,,0,test,0,1,1517
+"('These committees remember that a lot of teachers that had replied run around every closet.',)",,,1,test,1,0,1526
+"('These committees remember what a lot of teachers that had replied run around every closet.',)",,,0,test,0,1,1527
+"('Catherine investigates that that pedestrian that has walked through all college campuses kissed Bethany.',)",,,1,test,1,0,1532
+"('Catherine investigates who that pedestrian that has walked through all college campuses kissed Bethany.',)",,,0,test,0,1,1533
+"(""Victoria isn't discovering that a man that arrived at a restaurant is watching Victoria."",)",,,1,test,1,0,1552
+"(""Victoria isn't discovering who a man that arrived at a restaurant is watching Victoria."",)",,,0,test,0,1,1553
+"(""Many customers forget that those senators that grinned weren't insulting Naomi."",)",,,1,test,1,0,1600
+"(""Many customers forget who those senators that grinned weren't insulting Naomi."",)",,,0,test,0,1,1601
+"('Michelle discovers that all girls that could appreciate Victoria did visit Tamara.',)",,,1,test,1,0,1602
+"('Michelle discovers who all girls that could appreciate Victoria did visit Tamara.',)",,,0,test,0,1,1603
+"(""Sara hasn't concealed that that college campus that could vanish annoys Naomi."",)",,,1,test,1,0,1608
+"(""Sara hasn't concealed who that college campus that could vanish annoys Naomi."",)",,,0,test,0,1,1609
+"('Universities figure out that women that wear this shirt had sold vases.',)",,,1,test,1,0,1614
+"('Universities figure out what women that wear this shirt had sold vases.',)",,,0,test,0,1,1615
+"('All customers discover that waitresses that spun around hid the convertible.',)",,,1,test,1,0,1620
+"('All customers discover what waitresses that spun around hid the convertible.',)",,,0,test,0,1,1621
+"('Elizabeth is figuring out that that driver that should go fishing does help the patients.',)",,,1,test,1,0,1624
+"('Elizabeth is figuring out who that driver that should go fishing does help the patients.',)",,,0,test,0,1,1625
+"(""Sarah discovers that this pedestrian that resembles a print couldn't escape from David."",)",,,1,test,1,0,1628
+"(""Sarah discovers who this pedestrian that resembles a print couldn't escape from David."",)",,,0,test,0,1,1629
+"('Benjamin knows that those men that shocks Jodi go to that hill.',)",,,1,test,1,0,1632
+"('Benjamin knows what those men that shocks Jodi go to that hill.',)",,,0,test,0,1,1633
+"(""All actors learn that this species that hasn't fallen should hurt Beth."",)",,,1,test,1,0,1636
+"(""All actors learn who this species that hasn't fallen should hurt Beth."",)",,,0,test,0,1,1637
+"(""Jennifer conceals that a teacher that can't nod explores the high school."",)",,,1,test,1,0,1642
+"(""Jennifer conceals what a teacher that can't nod explores the high school."",)",,,0,test,0,1,1643
+"(""Gregory did forget that an offspring that has written hadn't noticed gloves."",)",,,1,test,1,0,1646
+"(""Gregory did forget what an offspring that has written hadn't noticed gloves."",)",,,0,test,0,1,1647
+"(""A lot of women can conceal that many pedestrians that haven't remembered Ann have broken many carts."",)",,,1,test,1,0,1650
+"(""A lot of women can conceal what many pedestrians that haven't remembered Ann have broken many carts."",)",,,0,test,0,1,1651
+"('Most children find out that some governments that listened to Homer talked to Kevin.',)",,,1,test,1,0,1654
+"('Most children find out who some governments that listened to Homer talked to Kevin.',)",,,0,test,0,1,1655
+"(""Michelle hadn't realized that that waiter that lifted every bicycle would reveal the steak."",)",,,1,test,1,0,1680
+"(""Michelle hadn't realized what that waiter that lifted every bicycle would reveal the steak."",)",,,0,test,0,1,1681
+"(""Some women find out that every dancer that had returned to Tracy didn't wear some shirt."",)",,,1,test,1,0,1694
+"(""Some women find out what every dancer that had returned to Tracy didn't wear some shirt."",)",,,0,test,0,1,1695
+"('Jill forgets that the organization that works hard admired these hills.',)",,,1,test,1,0,1696
+"('Jill forgets what the organization that works hard admired these hills.',)",,,0,test,0,1,1697
+"(""Kendra is learning that some dancers that haven't baked shouldn't insult Tamara."",)",,,1,test,1,0,1700
+"(""Kendra is learning who some dancers that haven't baked shouldn't insult Tamara."",)",,,0,test,0,1,1701
+"(""Gina wasn't discovering that those pies that fall astound Tina."",)",,,1,test,1,0,1710
+"(""Gina wasn't discovering who those pies that fall astound Tina."",)",,,0,test,0,1,1711
+"(""Julie isn't investigating that many senators that can go to some cafe biked to the schools."",)",,,1,test,1,0,1722
+"(""Julie isn't investigating what many senators that can go to some cafe biked to the schools."",)",,,0,test,0,1,1723
+"(""Margaret isn't finding out that many waiters that hadn't stretched listen to many women."",)",,,1,test,1,0,1726
+"(""Margaret isn't finding out who many waiters that hadn't stretched listen to many women."",)",,,0,test,0,1,1727
+"(""Janice was forgetting that every guest that explores some grocery store doesn't climb down most slopes."",)",,,1,test,1,0,1774
+"(""Janice was forgetting what every guest that explores some grocery store doesn't climb down most slopes."",)",,,0,test,0,1,1775
+"('Gary might conceal that this woman that got fired has every muffin.',)",,,1,test,1,0,1788
+"('Gary might conceal what this woman that got fired has every muffin.',)",,,0,test,0,1,1789
+"(""Rodney hasn't learned that all actors that shouldn't sound like Martin hadn't noticed Theodore."",)",,,1,test,1,0,1794
+"(""Rodney hasn't learned who all actors that shouldn't sound like Martin hadn't noticed Theodore."",)",,,0,test,0,1,1795
+"('These customers know that some teacher that leaves kissed Chad.',)",,,1,test,1,0,1816
+"('These customers know who some teacher that leaves kissed Chad.',)",,,0,test,0,1,1817
+"('Many teenagers discovered that all cashiers that coughed hugged this patient.',)",,,1,test,1,0,1820
+"('Many teenagers discovered who all cashiers that coughed hugged this patient.',)",,,0,test,0,1,1821
+"(""Laura isn't figuring out that these jackets that appeared shouldn't scare Marcus."",)",,,1,test,1,0,1824
+"(""Laura isn't figuring out who these jackets that appeared shouldn't scare Marcus."",)",,,0,test,0,1,1825
+"('Caroline realized that a teenager that embarrassed George admires Deanna.',)",,,1,test,1,0,1830
+"('Caroline realized who a teenager that embarrassed George admires Deanna.',)",,,0,test,0,1,1831
+"(""Chad hasn't found out that a cashier that hasn't sat down is irritating Ann."",)",,,1,test,1,0,1840
+"(""Chad hasn't found out who a cashier that hasn't sat down is irritating Ann."",)",,,0,test,0,1,1841
+"('Every girl forgot that this man that runs around a lot of libraries might pass the museum.',)",,,1,test,1,0,1842
+"('Every girl forgot what this man that runs around a lot of libraries might pass the museum.',)",,,0,test,0,1,1843
+"('Committees realize that the cashiers that are investigating that bank did clean a college campus.',)",,,1,test,1,0,1848
+"('Committees realize what the cashiers that are investigating that bank did clean a college campus.',)",,,0,test,0,1,1849
+"(""Thomas had concealed that some alumni that weren't slumping over aren't cleaning this tomato."",)",,,1,test,1,0,1914
+"(""Thomas had concealed what some alumni that weren't slumping over aren't cleaning this tomato."",)",,,0,test,0,1,1915
+"('Some governments know that this patient that is driving to some hospitals was helping the Clintons.',)",,,1,test,1,0,1928
+"('Some governments know who this patient that is driving to some hospitals was helping the Clintons.',)",,,0,test,0,1,1929
+"(""Todd couldn't find out that this lady that can forget Amanda messes up most banks."",)",,,1,test,1,0,1942
+"(""Todd couldn't find out what this lady that can forget Amanda messes up most banks."",)",,,0,test,0,1,1943
+"(""That museum shouldn't conceal that this boy that won't perform is finding Karla."",)",,,1,test,1,0,1950
+"(""That museum shouldn't conceal who this boy that won't perform is finding Karla."",)",,,0,test,0,1,1951
+"(""These boys couldn't conceal that some woman that disliked Catherine disagrees with Alexander."",)",,,1,test,1,0,1972
+"(""These boys couldn't conceal who some woman that disliked Catherine disagrees with Alexander."",)",,,0,test,0,1,1973
+"(""Nina hasn't figured out that those ladies that were divorcing clean these movie theaters."",)",,,1,test,1,0,1978
+"(""Nina hasn't figured out what those ladies that were divorcing clean these movie theaters."",)",,,0,test,0,1,1979
+"(""Anne figures out that the actress that shouldn't speak up isn't bringing a lot of casseroles."",)",,,1,test,1,0,1988
+"(""Anne figures out what the actress that shouldn't speak up isn't bringing a lot of casseroles."",)",,,0,test,0,1,1989
+"(""Derek discovered that all offspring that should react weren't insulting Sandra."",)",,,1,test,1,0,1990
+"(""Derek discovered who all offspring that should react weren't insulting Sandra."",)",,,0,test,0,1,1991

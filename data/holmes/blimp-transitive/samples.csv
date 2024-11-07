@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('Some turtles alarm Kimberley.',)",,,1,train,1,0,0
+"('Some turtles come here Kimberley.',)",,,0,train,0,1,1
+"('Diane watched Alan.',)",,,1,train,1,0,2
+"('Diane screamed Alan.',)",,,0,train,0,1,3
+"('This cousin of Theodore buys some mushroom.',)",,,1,train,1,0,4
+"('This cousin of Theodore wept some mushroom.',)",,,0,train,0,1,5
+"('Rhonda was arguing about this nephew of Dana.',)",,,1,train,1,0,6
+"('Rhonda was going fishing this nephew of Dana.',)",,,0,train,0,1,7
+"(""A lot of actresses' nieces have toured that art gallery."",)",,,1,train,1,0,8
+"(""A lot of actresses' nieces have coped that art gallery."",)",,,0,train,0,1,9
+"('Debra wears many skirts.',)",,,1,train,1,0,10
+"('Debra slumps over many skirts.',)",,,0,train,0,1,11
+"(""Chad's daughters embarrasses Erin's girlfriend."",)",,,1,train,1,0,12
+"(""Chad's daughters screamed Erin's girlfriend."",)",,,0,train,0,1,13
+"('Elaine criticized Jill.',)",,,1,train,1,0,14
+"('Elaine shrugs Jill.',)",,,0,train,0,1,15
+"('The pedestrians question some people.',)",,,1,train,1,0,16
+"('The pedestrians wave some people.',)",,,0,train,0,1,17
+"('Vanessa has gone to a lot of college campuses.',)",,,1,train,1,0,18
+"('Vanessa has smiled a lot of college campuses.',)",,,0,train,0,1,19
+"('Those committees listened to Kristen.',)",,,1,train,1,0,20
+"('Those committees react Kristen.',)",,,0,train,0,1,21
+"(""Theresa shouldn't scan this essay."",)",,,1,train,1,0,24
+"(""Theresa shouldn't murmur this essay."",)",,,0,train,0,1,25
+"(""Donna talked about Anna's friends."",)",,,1,train,1,0,34
+"(""Donna replies Anna's friends."",)",,,0,train,0,1,35
+"('Many sisters of some guest forget Eva.',)",,,1,train,1,0,36
+"('Many sisters of some guest murmured Eva.',)",,,0,train,0,1,37
+"('Bill explores the bank.',)",,,1,train,1,0,44
+"('Bill wept the bank.',)",,,0,train,0,1,45
+"('These grandmothers of Rebecca remembered Angela.',)",,,1,train,1,0,46
+"('These grandmothers of Rebecca flirted Angela.',)",,,0,train,0,1,47
+"('Many universities describe Samantha.',)",,,1,train,1,0,48
+"('Many universities reacted Samantha.',)",,,0,train,0,1,49
+"('A lot of grandmothers of Melanie go to the mall.',)",,,1,train,1,0,50
+"('A lot of grandmothers of Melanie murmured the mall.',)",,,0,train,0,1,51
+"(""Stacy's cousins haven't scanned many drivers' oncologists."",)",,,1,train,1,0,52
+"(""Stacy's cousins haven't concurred many drivers' oncologists."",)",,,0,train,0,1,53
+"('Christopher researched most public parks.',)",,,1,train,1,0,56
+"('Christopher suffered most public parks.',)",,,0,train,0,1,57
+"('Melinda explores those closets.',)",,,1,train,1,0,58
+"('Melinda slumped over those closets.',)",,,0,train,0,1,59
+"('Most nieces of Jacqueline worry Phillip.',)",,,1,train,1,0,60
+"(""Andrea's ex-husbands toured this art gallery."",)",,,1,dev,1,0,26
+"(""Andrea's ex-husbands cry this art gallery."",)",,,0,dev,0,1,27
+"(""Grace is investigating a lot of girls' ex-wife."",)",,,1,dev,1,0,32
+"(""Grace is going fishing a lot of girls' ex-wife."",)",,,0,dev,0,1,33
+"(""Ella's tutor can't fire every adult."",)",,,1,dev,1,0,54
+"(""Ella's tutor can't talk every adult."",)",,,0,dev,0,1,55
+"(""Amy's cousins distracts a lot of women."",)",,,1,dev,1,0,72
+"(""Amy's cousins reply a lot of women."",)",,,0,dev,0,1,73
+"('The Clintons heal Kimberley.',)",,,1,dev,1,0,90
+"('The Clintons retaliated Kimberley.',)",,,0,dev,0,1,91
+"('Beth will embarrass Eric.',)",,,1,dev,1,0,100
+"('Beth will concur Eric.',)",,,0,dev,0,1,101
+"('That brother of Michael revealed many mushrooms.',)",,,1,dev,1,0,120
+"('That brother of Michael goes fishing many mushrooms.',)",,,0,dev,0,1,121
+"('Cousins of Stephanie run around all art galleries.',)",,,1,dev,1,0,124
+"('Cousins of Stephanie mutter all art galleries.',)",,,0,dev,0,1,125
+"('These drivers questioned sons of Janice.',)",,,1,dev,1,0,126
+"('These drivers confer sons of Janice.',)",,,0,dev,0,1,127
+"('All grandmothers of Debra run around some art galleries.',)",,,1,dev,1,0,134
+"('All grandmothers of Debra fall some art galleries.',)",,,0,dev,0,1,135
+"(""Jerry wasn't escaping from a waitress."",)",,,1,dev,1,0,136
+"(""Jerry wasn't crying a waitress."",)",,,0,dev,0,1,137
+"(""Guy's daughters talk to Jesus."",)",,,1,dev,1,0,142
+"(""Guy's daughters complained Jesus."",)",,,0,dev,0,1,143
+"(""Jacqueline's sons hated the Borgias."",)",,,1,dev,1,0,162
+"(""Jacqueline's sons communicated the Borgias."",)",,,0,dev,0,1,163
+"('A lot of photographs have alarmed some pedestrians.',)",,,1,dev,1,0,174
+"('A lot of photographs have fallen some pedestrians.',)",,,0,dev,0,1,175
+"('Fathers of Amelia distract many teachers.',)",,,1,dev,1,0,242
+"('Fathers of Amelia disagreed many teachers.',)",,,0,dev,0,1,243
+"(""Anne's wife revealed Julie."",)",,,1,dev,1,0,262
+"(""Anne's wife complained Julie."",)",,,0,dev,0,1,263
+"('This waitress had praised these guys.',)",,,1,dev,1,0,264
+"('This waitress had gone fishing these guys.',)",,,0,dev,0,1,265
+"(""The Lutherans' boyfriend shouldn't stun Joseph's nephews."",)",,,1,dev,1,0,304
+"(""The Lutherans' boyfriend shouldn't concur Joseph's nephews."",)",,,0,dev,0,1,305
+"('Some grandson of Frank works with Jeffrey.',)",,,1,dev,1,0,360
+"('Some grandson of Frank suffers Jeffrey.',)",,,0,dev,0,1,361
+"('Katherine criticizes Tonya.',)",,,1,dev,1,0,364
+"('Katherine jokes around Tonya.',)",,,0,dev,0,1,365
+"(""Katherine's ex-boyfriends respected Jason's bosses."",)",,,1,dev,1,0,376
+"(""Katherine's ex-boyfriends chat Jason's bosses."",)",,,0,dev,0,1,377
+"(""Kayla's students haven't skated around the museums."",)",,,1,dev,1,0,380
+"(""Kayla's students haven't screamed the museums."",)",,,0,dev,0,1,381
+"(""Homer had hired Brian's grandson."",)",,,1,dev,1,0,424
+"(""Homer had nodded Brian's grandson."",)",,,0,dev,0,1,425
+"('Most drawings of Amelia look like those art galleries.',)",,,1,dev,1,0,460
+"('Most drawings of Amelia fell those art galleries.',)",,,0,dev,0,1,461
+"(""Gina's tutor hasn't disagreed with Amelia."",)",,,1,dev,1,0,474
+"(""Gina's tutor hasn't cried Amelia."",)",,,0,dev,0,1,475
+"('Tracy cared for waiters.',)",,,1,dev,1,0,478
+"('Tracy sighed waiters.',)",,,0,dev,0,1,479
+"('Ann ascends these mountains.',)",,,1,dev,1,0,492
+"('Ann shouts these mountains.',)",,,0,dev,0,1,493
+"(""These projectors haven't bored Jessica."",)",,,1,dev,1,0,502
+"(""These projectors haven't fallen Jessica."",)",,,0,dev,0,1,503
+"('Homer cleans many banks.',)",,,1,dev,1,0,534
+"('Homer murmurs many banks.',)",,,0,dev,0,1,535
+"(""Most lakes haven't astounded Heather."",)",,,1,dev,1,0,552
+"(""Most lakes haven't fallen Heather."",)",,,0,dev,0,1,553
+"(""Katherine's doctors can't break a lot of wheelbarrows."",)",,,1,dev,1,0,564
+"(""Katherine's doctors can't wave a lot of wheelbarrows."",)",,,0,dev,0,1,565
+"('Dana explores the closet.',)",,,1,dev,1,0,566
+"('Dana muttered the closet.',)",,,0,dev,0,1,567
+"(""Beverly disagrees with this guest's ex-boyfriend."",)",,,1,dev,1,0,570
+"(""Beverly screams this guest's ex-boyfriend."",)",,,0,dev,0,1,571
+"('Organizations are taking most libraries.',)",,,1,dev,1,0,592
+"('Organizations are responding most libraries.',)",,,0,dev,0,1,593
+"(""Ellen described every teenager's partner."",)",,,1,dev,1,0,594
+"(""Ellen cried every teenager's partner."",)",,,0,dev,0,1,595
+"(""Vanessa knows Amanda's granddaughter."",)",,,1,dev,1,0,616
+"(""Vanessa cried Amanda's granddaughter."",)",,,0,dev,0,1,617
+"(""Jerry doesn't fire Susan."",)",,,1,dev,1,0,644
+"(""Jerry doesn't shout Susan."",)",,,0,dev,0,1,645
+"(""That boy's cousins are attacking Gerald."",)",,,1,dev,1,0,668
+"(""That boy's cousins are communicating Gerald."",)",,,0,dev,0,1,669
+"('Granddaughters of Aaron embarrass Samantha.',)",,,1,dev,1,0,682
+"('Granddaughters of Aaron responded Samantha.',)",,,0,dev,0,1,683
+"(""Deborah's hairdressers have alarmed Martha."",)",,,1,dev,1,0,694
+"(""Deborah's hairdressers have wept Martha."",)",,,0,dev,0,1,695
+"(""Laura's teachers had healed Sabrina."",)",,,1,dev,1,0,710
+"(""Laura's teachers had wept Sabrina."",)",,,0,dev,0,1,711
+"('Martin has messed up some movie theaters.',)",,,1,dev,1,0,766
+"('Martin has waved some movie theaters.',)",,,0,dev,0,1,767
+"(""Pamela's lawyers weren't leaving Cheryl."",)",,,1,dev,1,0,784
+"(""Pamela's lawyers weren't falling Cheryl."",)",,,0,dev,0,1,785
+"(""Lisa couldn't attack Bill's mentees."",)",,,1,dev,1,0,854
+"(""Lisa couldn't weep Bill's mentees."",)",,,0,dev,0,1,855
+"('Kathleen visited Carlos.',)",,,1,dev,1,0,866
+"('Kathleen lies Carlos.',)",,,0,dev,0,1,867
+"('A picture looks like a mirror.',)",,,1,dev,1,0,874
+"('A picture falls a mirror.',)",,,0,dev,0,1,875
+"(""Most hospitals help Meredith's grandmothers."",)",,,1,dev,1,0,902
+"(""Most hospitals joke around Meredith's grandmothers."",)",,,0,dev,0,1,903
+"('Melinda does heal Melissa.',)",,,1,dev,1,0,944
+"('Melinda does slump over Melissa.',)",,,0,dev,0,1,945
+"('Most nieces of Beverly have investigated many customers.',)",,,1,dev,1,0,1026
+"('Most nieces of Beverly have competed many customers.',)",,,0,dev,0,1,1027
+"('Every organization admired some steak.',)",,,1,dev,1,0,1028
+"('Every organization lied some steak.',)",,,0,dev,0,1,1029
+"(""Carlos argued about Brett's electricians."",)",,,1,dev,1,0,1032
+"(""Carlos litters Brett's electricians."",)",,,0,dev,0,1,1033
+"(""Martha's dermatologist leaves Katherine."",)",,,1,dev,1,0,1056
+"(""Martha's dermatologist chuckled Katherine."",)",,,0,dev,0,1,1057
+"(""Colleen's cousins aren't selling some glove."",)",,,1,dev,1,0,1064
+"(""Colleen's cousins aren't compromising some glove."",)",,,0,dev,0,1,1065
+"('Laurie had known Katherine.',)",,,1,dev,1,0,1092
+"('Laurie had blinked Katherine.',)",,,0,dev,0,1,1093
+"(""Winston Churchill's employees observe Theodore."",)",,,1,dev,1,0,1096
+"(""Winston Churchill's employees smile Theodore."",)",,,0,dev,0,1,1097
+"(""Melissa hadn't hurt Anna."",)",,,1,dev,1,0,1098
+"(""Melissa hadn't waved Anna."",)",,,0,dev,0,1,1099
+"(""Mark's mothers haven't messed up some gloves."",)",,,1,dev,1,0,1100
+"(""Mark's mothers haven't fallen some gloves."",)",,,0,dev,0,1,1101
+"('Nicole admired Cindy.',)",,,1,dev,1,0,1104
+"('Nicole compromised Cindy.',)",,,0,dev,0,1,1105
+"(""Steve hasn't talked about most nephews of Laura."",)",,,1,dev,1,0,1112
+"(""Steve hasn't gone fishing most nephews of Laura."",)",,,0,dev,0,1,1113
+"('Most doctors thought about Joseph.',)",,,1,dev,1,0,1116
+"('Most doctors grin Joseph.',)",,,0,dev,0,1,1117
+"('Laurie breaks this carriage.',)",,,1,dev,1,0,1124
+"('Laurie smiles this carriage.',)",,,0,dev,0,1,1125
+"('Kevin sounds like Katherine.',)",,,1,dev,1,0,1154
+"('Kevin fell asleep Katherine.',)",,,0,dev,0,1,1155
+"('Jacqueline was astounding some boys.',)",,,1,dev,1,0,1160
+"('Jacqueline was escaping some boys.',)",,,0,dev,0,1,1161
+"(""Jacqueline did know Donna's daughters."",)",,,1,dev,1,0,1170
+"(""Jacqueline did fall asleep Donna's daughters."",)",,,0,dev,0,1,1171
+"('These nephews of Donald skate around all museums.',)",,,1,dev,1,0,1196
+"('These nephews of Donald shrug all museums.',)",,,0,dev,0,1,1197
+"(""The beef isn't annoying Teresa."",)",,,1,dev,1,0,1220
+"(""The beef isn't falling Teresa."",)",,,0,dev,0,1,1221
+"('All fathers of Dawn investigate the senator.',)",,,1,dev,1,0,1222
+"('All fathers of Dawn lied the senator.',)",,,0,dev,0,1,1223
+"(""Rachel's tutors worry children."",)",,,1,dev,1,0,1224
+"(""Rachel's tutors sighed children."",)",,,0,dev,0,1,1225
+"(""The pedestrians' boss kisses Rhonda's associate."",)",,,1,dev,1,0,1240
+"(""The pedestrians' boss negotiates Rhonda's associate."",)",,,0,dev,0,1,1241
+"(""Those dancers haven't looked like those pictures."",)",,,1,dev,1,0,1258
+"(""Those dancers haven't come here those pictures."",)",,,0,dev,0,1,1259
+"('This sister of Paul has all schools.',)",,,1,dev,1,0,1274
+"('This sister of Paul compromises all schools.',)",,,0,dev,0,1,1275
+"(""Jacqueline's French teacher had hated Cheryl's mother."",)",,,1,dev,1,0,1292
+"(""Jacqueline's French teacher had disagreed Cheryl's mother."",)",,,0,dev,0,1,1293
+"('All guys buy that box.',)",,,1,dev,1,0,1296
+"('All guys testify that box.',)",,,0,dev,0,1,1297
+"(""Tina won't remember Bill."",)",,,1,dev,1,0,1342
+"(""Tina won't smile Bill."",)",,,0,dev,0,1,1343
+"(""Naomi didn't conceal Candice."",)",,,1,dev,1,0,1352
+"(""Naomi didn't speak up Candice."",)",,,0,dev,0,1,1353
+"(""Nicole cured Jacqueline's brother."",)",,,1,dev,1,0,1400
+"(""Nicole shrugs Jacqueline's brother."",)",,,0,dev,0,1,1401
+"('Vincent argued about the cousin of James.',)",,,1,dev,1,0,1410
+"('Vincent testifies the cousin of James.',)",,,0,dev,0,1,1411
+"('A hospital talked about friends of Keith.',)",,,1,dev,1,0,1506
+"('A hospital conferred friends of Keith.',)",,,0,dev,0,1,1507
+"('This teacher disturbs Suzanne.',)",,,1,dev,1,0,1534
+"('This teacher compromised Suzanne.',)",,,0,dev,0,1,1535
+"('Nina attacks Marla.',)",,,1,dev,1,0,1544
+"('Nina died Marla.',)",,,0,dev,0,1,1545
+"('Some university distracts Kathleen.',)",,,1,dev,1,0,1552
+"('Some university struggles Kathleen.',)",,,0,dev,0,1,1553
+"('Many guys aggravates Beth.',)",,,1,dev,1,0,1562
+"('Many guys competed Beth.',)",,,0,dev,0,1,1563
+"('A guy has criticized most daughters of Benjamin.',)",,,1,dev,1,0,1568
+"('A guy has slumped over most daughters of Benjamin.',)",,,0,dev,0,1,1569
+"(""Lissa does boast about a lady's cousins."",)",,,1,dev,1,0,1570
+"(""Lissa does lie a lady's cousins."",)",,,0,dev,0,1,1571
+"('Karen might notice Michael.',)",,,1,dev,1,0,1576
+"('Karen might go fishing Michael.',)",,,0,dev,0,1,1577
+"('Pamela hurt Derek.',)",,,1,dev,1,0,1628
+"('Pamela boasts Derek.',)",,,0,dev,0,1,1629
+"(""Some man's employee has hated Sharon."",)",,,1,dev,1,0,1688
+"(""Some man's employee has come here Sharon."",)",,,0,dev,0,1,1689
+"(""Valerie's mothers haven't admired Janet's contractor."",)",,,1,dev,1,0,1702
+"(""Valerie's mothers haven't interacted Janet's contractor."",)",,,0,dev,0,1,1703
+"(""Some book has sounded like some senator's nephews."",)",,,1,dev,1,0,1738
+"(""Some book has disagreed some senator's nephews."",)",,,0,dev,0,1,1739
+"('Becca had criticized the glaciers.',)",,,1,dev,1,0,1748
+"('Becca had died the glaciers.',)",,,0,dev,0,1,1749
+"('Elizabeth sounds like Emily.',)",,,1,dev,1,0,1758
+"('Elizabeth screamed Emily.',)",,,0,dev,0,1,1759
+"('Beverly arrives at many rivers.',)",,,1,dev,1,0,1818
+"('Beverly nodded many rivers.',)",,,0,dev,0,1,1819
+"(""The story hadn't disagreed with these actresses."",)",,,1,dev,1,0,1888
+"(""The story hadn't disagreed these actresses."",)",,,0,dev,0,1,1889
+"('Stephen finds all guests.',)",,,1,dev,1,0,1902
+"('Stephen suffered all guests.',)",,,0,dev,0,1,1903
+"('Curtis will help a man.',)",,,1,dev,1,0,1920
+"('Curtis will grin a man.',)",,,0,dev,0,1,1921
+"(""Samuel's students arrive at all glaciers."",)",,,1,dev,1,0,1924
+"(""Samuel's students competed all glaciers."",)",,,0,dev,0,1,1925
+"(""Rebecca didn't respect the hill."",)",,,1,dev,1,0,1934
+"(""Rebecca didn't litter the hill."",)",,,0,dev,0,1,1935
+"('Many computers distract that niece of Martin.',)",,,1,dev,1,0,1938
+"('Many computers fall that niece of Martin.',)",,,0,dev,0,1,1939
+"('Regina bought that truck.',)",,,1,dev,1,0,1978
+"('Regina concurs that truck.',)",,,0,dev,0,1,1979
+"(""That documentary about Winston Churchill scares Alexander's dentist."",)",,,1,dev,1,0,1994
+"(""That documentary about Winston Churchill disagreed Alexander's dentist."",)",,,0,dev,0,1,1995
+"(""Most pedestrians' father might climb up the slope."",)",,,1,test,1,0,22
+"(""Most pedestrians' father might murmur the slope."",)",,,0,test,0,1,23
+"(""A lot of girls' son hadn't insulted Jerry."",)",,,1,test,1,0,28
+"(""A lot of girls' son hadn't sighed Jerry."",)",,,0,test,0,1,29
+"(""Denise has escaped from Marie's grandsons."",)",,,1,test,1,0,30
+"(""Denise has fallen Marie's grandsons."",)",,,0,test,0,1,31
+"(""The truck hadn't astounded a bank."",)",,,1,test,1,0,38
+"(""The truck hadn't fallen a bank."",)",,,0,test,0,1,39
+"(""April's mentees weren't kissing Matt's nephews."",)",,,1,test,1,0,40
+"(""April's mentees weren't chuckling Matt's nephews."",)",,,0,test,0,1,41
+"(""Phillip isn't observing Winston Churchill."",)",,,1,test,1,0,42
+"(""Phillip isn't grinning Winston Churchill."",)",,,0,test,0,1,43
+"(""Some mother of Diane wasn't distracting a lot of students' ex-girlfriends."",)",,,1,test,1,0,62
+"(""Some mother of Diane wasn't coming here a lot of students' ex-girlfriends."",)",,,0,test,0,1,63
+"(""Monet hadn't examined most commentaries."",)",,,1,test,1,0,68
+"(""Monet hadn't wept most commentaries."",)",,,0,test,0,1,69
+"('Many actresses escape from Cynthia.',)",,,1,test,1,0,70
+"('Many actresses weep Cynthia.',)",,,0,test,0,1,71
+"(""Carmen's father isn't cleaning a lot of cups."",)",,,1,test,1,0,76
+"(""Carmen's father isn't waving a lot of cups."",)",,,0,test,0,1,77
+"(""Rose couldn't like Liam's employees."",)",,,1,test,1,0,78
+"(""Rose couldn't go fishing Liam's employees."",)",,,0,test,0,1,79
+"(""Daniel's ex-husband resembles a lot of prints of actresses."",)",,,1,test,1,0,80
+"(""Daniel's ex-husband compromises a lot of prints of actresses."",)",,,0,test,0,1,81
+"(""Phillip's senators alarm the driver."",)",,,1,test,1,0,84
+"(""Phillip's senators shouted the driver."",)",,,0,test,0,1,85
+"(""Phillip knows Jill's senator."",)",,,1,test,1,0,94
+"(""Phillip reacts Jill's senator."",)",,,0,test,0,1,95
+"(""Every cashier astounded Barbara's nieces."",)",,,1,test,1,0,106
+"(""Every cashier boasts Barbara's nieces."",)",,,0,test,0,1,107
+"('Michelle praises Bradley.',)",,,1,test,1,0,118
+"('Michelle testifies Bradley.',)",,,0,test,0,1,119
+"(""This teacher's plumbers can't skate around many movie theaters."",)",,,1,test,1,0,122
+"(""This teacher's plumbers can't clash many movie theaters."",)",,,0,test,0,1,123
+"(""Customers' ex-girlfriends bike to the Great Lakes."",)",,,1,test,1,0,132
+"(""Customers' ex-girlfriends escape the Great Lakes."",)",,,0,test,0,1,133
+"('A carriage upsets Amanda.',)",,,1,test,1,0,166
+"('A carriage fell Amanda.',)",,,0,test,0,1,167
+"(""Carolyn's grandfathers ran around these grocery stores."",)",,,1,test,1,0,176
+"(""Carolyn's grandfathers conspired these grocery stores."",)",,,0,test,0,1,177
+"(""The son of Diana wouldn't buy most sweaters."",)",,,1,test,1,0,184
+"(""The son of Diana wouldn't complain most sweaters."",)",,,0,test,0,1,185
+"('Laura talks to Carrie.',)",,,1,test,1,0,188
+"('Laura chuckled Carrie.',)",,,0,test,0,1,189
+"(""Some rabbits hadn't shocked John's hairdresser."",)",,,1,test,1,0,204
+"(""Some rabbits hadn't come here John's hairdresser."",)",,,0,test,0,1,205
+"('Russell runs around a lot of closets.',)",,,1,test,1,0,206
+"('Russell falls a lot of closets.',)",,,0,test,0,1,207
+"('Kimberley will care for Cynthia.',)",,,1,test,1,0,212
+"('Kimberley will smile Cynthia.',)",,,0,test,0,1,213
+"('Allison is discussing every brother of Jane.',)",,,1,test,1,0,220
+"('Allison is nodding every brother of Jane.',)",,,0,test,0,1,221
+"('Some children are talking about Amy.',)",,,1,test,1,0,236
+"('Some children are going fishing Amy.',)",,,0,test,0,1,237
+"(""Every woman's classmate broke a lot of chairs."",)",,,1,test,1,0,246
+"(""Every woman's classmate works hard a lot of chairs."",)",,,0,test,0,1,247
+"(""Tiffany's contractors watch the father of Kristen."",)",,,1,test,1,0,248
+"(""Tiffany's contractors confer the father of Kristen."",)",,,0,test,0,1,249
+"(""Angela hasn't aggravated the senator's piano teachers."",)",,,1,test,1,0,254
+"(""Angela hasn't come here the senator's piano teachers."",)",,,0,test,0,1,255
+"('A mountain shocks Walter.',)",,,1,test,1,0,256
+"('A mountain fell Walter.',)",,,0,test,0,1,257
+"('Lisa is aggravating Liam.',)",,,1,test,1,0,268
+"('Lisa is muttering Liam.',)",,,0,test,0,1,269
+"(""Richard would reference Phillip's tutor."",)",,,1,test,1,0,274
+"(""Richard would scream Phillip's tutor."",)",,,0,test,0,1,275
+"('These children discuss a dancer.',)",,,1,test,1,0,284
+"('These children shouted a dancer.',)",,,0,test,0,1,285
+"(""Gary boasted about Mitchell's ex-wife."",)",,,1,test,1,0,290
+"(""Gary works hard Mitchell's ex-wife."",)",,,0,test,0,1,291
+"('Naomi has boycotted some glaciers.',)",,,1,test,1,0,292
+"('Naomi has joked around some glaciers.',)",,,0,test,0,1,293
+"(""Mary escapes from many boys' doctors."",)",,,1,test,1,0,298
+"(""Mary shrugged many boys' doctors."",)",,,0,test,0,1,299
+"(""This teacher's partners stunned Walter."",)",,,1,test,1,0,302
+"(""This teacher's partners fall Walter."",)",,,0,test,0,1,303
+"(""Many documentaries about Winston Churchill had disagreed with Kevin's dermatologist."",)",,,1,test,1,0,312
+"(""Many documentaries about Winston Churchill had disagreed Kevin's dermatologist."",)",,,0,test,0,1,313
+"(""Tina's ex-wife hid Walter."",)",,,1,test,1,0,318
+"(""Tina's ex-wife compromised Walter."",)",,,0,test,0,1,319
+"('Many brothers of Monica attack that guy.',)",,,1,test,1,0,320
+"('Many brothers of Monica complained that guy.',)",,,0,test,0,1,321
+"(""Some college campus hadn't irritated Sonia."",)",,,1,test,1,0,322
+"(""Some college campus hadn't fallen Sonia."",)",,,0,test,0,1,323
+"('Every driver can discover Amy.',)",,,1,test,1,0,324
+"('Every driver can concur Amy.',)",,,0,test,0,1,325
+"(""Tonya disagrees with some people's associate."",)",,,1,test,1,0,332
+"(""Tonya boasted some people's associate."",)",,,0,test,0,1,333
+"(""A waiter couldn't clean that glass."",)",,,1,test,1,0,336
+"(""A waiter couldn't speak up that glass."",)",,,0,test,0,1,337
+"('Most drawings of Dawn would stun many cousins of most ladies.',)",,,1,test,1,0,354
+"('Most drawings of Dawn would fall many cousins of most ladies.',)",,,0,test,0,1,355
+"(""Ella's cousin wasn't stunning the Impressionists."",)",,,1,test,1,0,356
+"(""Ella's cousin wasn't shrugging the Impressionists."",)",,,0,test,0,1,357
+"('Chad knows Brett.',)",,,1,test,1,0,386
+"('Chad falls Brett.',)",,,0,test,0,1,387
+"(""Stephen's best friend hadn't remembered Spain."",)",,,1,test,1,0,388
+"(""Stephen's best friend hadn't sighed Spain."",)",,,0,test,0,1,389
+"(""Every waiter's brother explores some hill."",)",,,1,test,1,0,390
+"(""Every waiter's brother goes fishing some hill."",)",,,0,test,0,1,391
+"('Vincent hated William.',)",,,1,test,1,0,394
+"('Vincent grinned William.',)",,,0,test,0,1,395
+"('Bradley messed up some library.',)",,,1,test,1,0,400
+"('Bradley smiles some library.',)",,,0,test,0,1,401
+"(""Some woman's oncologist will discuss Gary."",)",,,1,test,1,0,406
+"(""Some woman's oncologist will lie Gary."",)",,,0,test,0,1,407
+"('A picture of Keith looks like all convertibles.',)",,,1,test,1,0,418
+"('A picture of Keith fell all convertibles.',)",,,0,test,0,1,419
+"('Beef shocks some grandmother of the Clintons.',)",,,1,test,1,0,422
+"('Beef fell some grandmother of the Clintons.',)",,,0,test,0,1,423
+"('That school had bothered the grandmother of Galileo.',)",,,1,test,1,0,428
+"('That school had responded the grandmother of Galileo.',)",,,0,test,0,1,429
+"(""Many teenagers had fled from Jerry's wife."",)",,,1,test,1,0,434
+"(""Many teenagers had negotiated Jerry's wife."",)",,,0,test,0,1,435
+"('Gerald would flee from many nephews of Ellen.',)",,,1,test,1,0,444
+"('Gerald would nod many nephews of Ellen.',)",,,0,test,0,1,445
+"('Connie attacks Karen.',)",,,1,test,1,0,452
+"('Connie jokes around Karen.',)",,,0,test,0,1,453
+"(""Carla isn't praising many books about the Great Lakes."",)",,,1,test,1,0,456
+"(""Carla isn't talking many books about the Great Lakes."",)",,,0,test,0,1,457
+"(""Kristen won't love Kimberley."",)",,,1,test,1,0,482
+"(""Kristen won't fall asleep Kimberley."",)",,,0,test,0,1,483
+"('All grandsons of Stacy walk through some art gallery.',)",,,1,test,1,0,510
+"('All grandsons of Stacy cried some art gallery.',)",,,0,test,0,1,511
+"(""Cindy's podiatrists cleaned most public parks."",)",,,1,test,1,0,520
+"(""Cindy's podiatrists cooperated most public parks."",)",,,0,test,0,1,521
+"('Ella examines a nephew of some customers.',)",,,1,test,1,0,540
+"('Ella chuckled a nephew of some customers.',)",,,0,test,0,1,541
+"('Most grandfathers of Gregory think about some fish.',)",,,1,test,1,0,550
+"('Most grandfathers of Gregory slumped over some fish.',)",,,0,test,0,1,551
+"(""All women's plumbers aren't fixing this bicycle."",)",,,1,test,1,0,554
+"(""All women's plumbers aren't crying this bicycle."",)",,,0,test,0,1,555
+"(""Linda's nieces attack Carla."",)",,,1,test,1,0,556
+"(""Linda's nieces compete Carla."",)",,,0,test,0,1,557
+"(""A lot of ladies shouldn't appreciate Julia."",)",,,1,test,1,0,562
+"(""A lot of ladies shouldn't scream Julia."",)",,,0,test,0,1,563
+"(""A government doesn't respect dancers."",)",,,1,test,1,0,572
+"(""A government doesn't negotiate dancers."",)",,,0,test,0,1,573
+"('Michael boasted about Anna.',)",,,1,test,1,0,582
+"('Michael muttered Anna.',)",,,0,test,0,1,583
+"(""James wasn't wearing this sock."",)",,,1,test,1,0,598
+"(""James wasn't blinking this sock."",)",,,0,test,0,1,599
+"('That granddaughter of Becky criticizes the teenager.',)",,,1,test,1,0,692
+"('That granddaughter of Becky sighs the teenager.',)",,,0,test,0,1,693
+"(""Joel's grandfathers flee from the boy's father."",)",,,1,test,1,0,702
+"(""Joel's grandfathers coped the boy's father."",)",,,0,test,0,1,703
+"(""Diane couldn't lift this print."",)",,,1,test,1,0,706
+"(""Diane couldn't fall this print."",)",,,0,test,0,1,707
+"(""Janice won't dislike Jennifer."",)",,,1,test,1,0,716
+"(""Janice won't weep Jennifer."",)",,,0,test,0,1,717
+"(""Tammy's associates go to this high school."",)",,,1,test,1,0,740
+"(""Tammy's associates flirt this high school."",)",,,0,test,0,1,741
+"(""The grandson of Valerie wasn't hiding Stephanie."",)",,,1,test,1,0,746
+"(""The grandson of Valerie wasn't shouting Stephanie."",)",,,0,test,0,1,747
+"('Those women do research some university.',)",,,1,test,1,0,776
+"('Those women do concur some university.',)",,,0,test,0,1,777
+"('Monica climbs up some slope.',)",,,1,test,1,0,796
+"('Monica escaped some slope.',)",,,0,test,0,1,797
+"(""Sherry shouldn't tour some bank."",)",,,1,test,1,0,804
+"(""Sherry shouldn't litter some bank."",)",,,0,test,0,1,805
+"(""That actor's partner questions Homer."",)",,,1,test,1,0,808
+"(""That actor's partner cried Homer."",)",,,0,test,0,1,809
+"('Some adult finds some bicycle.',)",,,1,test,1,0,810
+"('Some adult went fishing some bicycle.',)",,,0,test,0,1,811
+"('Most fish can astound Paula.',)",,,1,test,1,0,848
+"('Most fish can escape Paula.',)",,,0,test,0,1,849
+"('These customers complain about a lady.',)",,,1,test,1,0,864
+"('These customers disagreed a lady.',)",,,0,test,0,1,865
+"('Michelle aggravated Gregory.',)",,,1,test,1,0,868
+"('Michelle blinks Gregory.',)",,,0,test,0,1,869
+"('A lot of customers fix all cups.',)",,,1,test,1,0,878
+"('A lot of customers fell all cups.',)",,,0,test,0,1,879
+"(""Many waitresses' ex-wives have observed all drivers."",)",,,1,test,1,0,882
+"(""Many waitresses' ex-wives have conspired all drivers."",)",,,0,test,0,1,883
+"(""Douglas's plumber is passing a mall."",)",,,1,test,1,0,890
+"(""Douglas's plumber is coming here a mall."",)",,,0,test,0,1,891
+"(""Connie's dermatologist kissed Monica's plumbers."",)",,,1,test,1,0,896
+"(""Connie's dermatologist nods Monica's plumbers."",)",,,0,test,0,1,897
+"(""Sonia's hairdresser messed up all schools."",)",,,1,test,1,0,906
+"(""Sonia's hairdresser struggles all schools."",)",,,0,test,0,1,907
+"(""The dancer wouldn't talk about Heather's boss."",)",,,1,test,1,0,920
+"(""The dancer wouldn't escape Heather's boss."",)",,,0,test,0,1,921
+"('Barbara loved most mothers of Beth.',)",,,1,test,1,0,922
+"('Barbara screams most mothers of Beth.',)",,,0,test,0,1,923
+"(""Christopher's dermatologist will notice Liam."",)",,,1,test,1,0,928
+"(""Christopher's dermatologist will fall asleep Liam."",)",,,0,test,0,1,929
+"(""Every cashier had kissed Sally's dermatologist."",)",,,1,test,1,0,932
+"(""Every cashier had cried Sally's dermatologist."",)",,,0,test,0,1,933
+"('Those rabbits confuse Carla.',)",,,1,test,1,0,946
+"('Those rabbits fell Carla.',)",,,0,test,0,1,947
+"(""Dawn visits every teacher's senator."",)",,,1,test,1,0,948
+"(""Dawn slumps over every teacher's senator."",)",,,0,test,0,1,949
+"(""Alicia wasn't climbing down the stairs."",)",,,1,test,1,0,952
+"(""Alicia wasn't blinking the stairs."",)",,,0,test,0,1,953
+"(""Matt's teacher would drive to that grocery store."",)",,,1,test,1,0,962
+"(""Matt's teacher would slump over that grocery store."",)",,,0,test,0,1,963
+"(""Kenneth won't praise Wayne."",)",,,1,test,1,0,976
+"(""Kenneth won't cry Wayne."",)",,,0,test,0,1,977
+"('Tamara will disturb all grandfathers of most ladies.',)",,,1,test,1,0,992
+"('Tamara will nod all grandfathers of most ladies.',)",,,0,test,0,1,993
+"(""Deborah's best friend couldn't go to some hill."",)",,,1,test,1,0,996
+"(""Deborah's best friend couldn't speak up some hill."",)",,,0,test,0,1,997
+"(""Eva has shocked James's grandsons."",)",,,1,test,1,0,998
+"(""Eva has cried James's grandsons."",)",,,0,test,0,1,999
+"(""Amy had known a lot of students' lawyer."",)",,,1,test,1,0,1006
+"(""Amy had escaped a lot of students' lawyer."",)",,,0,test,0,1,1007
+"('Stacy fixed that window.',)",,,1,test,1,0,1008
+"('Stacy lied that window.',)",,,0,test,0,1,1009
+"(""That driver's ex-girlfriend sounds like Chad."",)",,,1,test,1,0,1010
+"(""That driver's ex-girlfriend littered Chad."",)",,,0,test,0,1,1011
+"(""Susan couldn't respect Christine."",)",,,1,test,1,0,1034
+"(""Susan couldn't murmur Christine."",)",,,0,test,0,1,1035
+"(""Richard hadn't investigated Sheila."",)",,,1,test,1,0,1038
+"(""Richard hadn't chuckled Sheila."",)",,,0,test,0,1,1039
+"(""Noah's associates have taken some birds."",)",,,1,test,1,0,1052
+"(""Noah's associates have littered some birds."",)",,,0,test,0,1,1053
+"(""These customers had loved Melissa's teachers."",)",,,1,test,1,0,1062
+"(""These customers had compromised Melissa's teachers."",)",,,0,test,0,1,1063
+"(""Lissa's grandfathers hadn't distracted James."",)",,,1,test,1,0,1082
+"(""Lissa's grandfathers hadn't blinked James."",)",,,0,test,0,1,1083
+"(""Melanie shouldn't hurt Patrick."",)",,,1,test,1,0,1118
+"(""Melanie shouldn't shout Patrick."",)",,,0,test,0,1,1119
+"(""Valerie attacks Matt's boyfriend."",)",,,1,test,1,0,1136
+"(""Valerie died Matt's boyfriend."",)",,,0,test,0,1,1137
+"('Melissa was visiting Travis.',)",,,1,test,1,0,1142
+"('Melissa was blinking Travis.',)",,,0,test,0,1,1143
+"('Lisa brought the scarves.',)",,,1,test,1,0,1144
+"('Lisa grins the scarves.',)",,,0,test,0,1,1145
+"('George climbed down many mountains.',)",,,1,test,1,0,1148
+"('George struggles many mountains.',)",,,0,test,0,1,1149
+"(""The student's contractor was cleaning all spotlights."",)",,,1,test,1,0,1156
+"(""The student's contractor was laughing all spotlights."",)",,,0,test,0,1,1157
+"('These sons of Danielle worry Adam.',)",,,1,test,1,0,1158
+"('These sons of Danielle fall asleep Adam.',)",,,0,test,0,1,1159
+"(""Sharon's oncologists have boasted about Sara's son."",)",,,1,test,1,0,1180
+"(""Sharon's oncologists have coped Sara's son."",)",,,0,test,0,1,1181
+"('Wendy can fix some forks.',)",,,1,test,1,0,1184
+"('Wendy can shrug some forks.',)",,,0,test,0,1,1185
+"(""Walter's grandsons skate around some glacier."",)",,,1,test,1,0,1188
+"(""Walter's grandsons react some glacier."",)",,,0,test,0,1,1189
+"('All dancers did bike to the rivers.',)",,,1,test,1,0,1210
+"('All dancers did nod the rivers.',)",,,0,test,0,1,1211
+"('Alan had returned to Joel.',)",,,1,test,1,0,1216
+"('Alan had shrugged Joel.',)",,,0,test,0,1,1217
+"(""Rachel saw Jill's tutor."",)",,,1,test,1,0,1228
+"(""Rachel lied Jill's tutor."",)",,,0,test,0,1,1229
+"(""Renee's lawyer fires Benjamin."",)",,,1,test,1,0,1230
+"(""Renee's lawyer suffers Benjamin."",)",,,0,test,0,1,1231
+"('This guest had referenced some sister of Irene.',)",,,1,test,1,0,1236
+"('This guest had smiled some sister of Irene.',)",,,0,test,0,1,1237
+"(""Linda wouldn't boycott every organization."",)",,,1,test,1,0,1242
+"(""Linda wouldn't slump over every organization."",)",,,0,test,0,1,1243
+"(""That granddaughter of Rachel couldn't exit those public parks."",)",,,1,test,1,0,1246
+"(""That granddaughter of Rachel couldn't chuckle those public parks."",)",,,0,test,0,1,1247
+"(""Regina's nephew had exited some libraries."",)",,,1,test,1,0,1248
+"(""Regina's nephew had screamed some libraries."",)",,,0,test,0,1,1249
+"(""Connie won't exit these college campuses."",)",,,1,test,1,0,1270
+"(""Connie won't speak up these college campuses."",)",,,0,test,0,1,1271
+"('Sally had worked with a teacher.',)",,,1,test,1,0,1286
+"('Sally had shrugged a teacher.',)",,,0,test,0,1,1287
+"('Most cashiers resemble every sketch of Helen.',)",,,1,test,1,0,1300
+"('Most cashiers grin every sketch of Helen.',)",,,0,test,0,1,1301
+"('Jessica appreciates science.',)",,,1,test,1,0,1302
+"('Jessica came here science.',)",,,0,test,0,1,1303
+"(""This projector alarms all waiters' husband."",)",,,1,test,1,0,1364
+"(""This projector falls all waiters' husband."",)",,,0,test,0,1,1365
+"(""This shoe scared Vincent's handymen."",)",,,1,test,1,0,1372
+"(""This shoe fell Vincent's handymen."",)",,,0,test,0,1,1373
+"('Some prints have annoyed Scott.',)",,,1,test,1,0,1382
+"('Some prints have fallen Scott.',)",,,0,test,0,1,1383
+"(""That apple hasn't disgusted Natalie."",)",,,1,test,1,0,1384
+"(""That apple hasn't rotted Natalie."",)",,,0,test,0,1,1385
+"(""Chad's niece isn't cleaning some hat."",)",,,1,test,1,0,1398
+"(""Chad's niece isn't littering some hat."",)",,,0,test,0,1,1399
+"(""A son of this guest couldn't examine Kenneth's niece."",)",,,1,test,1,0,1404
+"(""A son of this guest couldn't joke around Kenneth's niece."",)",,,0,test,0,1,1405
+"('Some hamsters embarrass most actors.',)",,,1,test,1,0,1418
+"('Some hamsters came here most actors.',)",,,0,test,0,1,1419
+"('Sonia skated around those malls.',)",,,1,test,1,0,1420
+"('Sonia compromises those malls.',)",,,0,test,0,1,1421
+"('The girl forgot Omar.',)",,,1,test,1,0,1436
+"('The girl murmured Omar.',)",,,0,test,0,1,1437
+"('The convertible distracts a committee.',)",,,1,test,1,0,1458
+"('The convertible fell a committee.',)",,,0,test,0,1,1459
+"('Angela will worry these daughters of Michelle.',)",,,1,test,1,0,1474
+"('Angela will come here these daughters of Michelle.',)",,,0,test,0,1,1475
+"('Many organizations worry Susan.',)",,,1,test,1,0,1484
+"('Many organizations compete Susan.',)",,,0,test,0,1,1485
+"('Matt arrived at a lot of hospitals.',)",,,1,test,1,0,1486
+"('Matt littered a lot of hospitals.',)",,,0,test,0,1,1487
+"(""Bradley's nieces fix every unicycle."",)",,,1,test,1,0,1488
+"(""Bradley's nieces negotiated every unicycle."",)",,,0,test,0,1,1489
+"(""Joel argued about Christopher's students."",)",,,1,test,1,0,1496
+"(""Joel sighed Christopher's students."",)",,,0,test,0,1,1497
+"('Those horses have bothered Sandra.',)",,,1,test,1,0,1510
+"('Those horses have fallen Sandra.',)",,,0,test,0,1,1511
+"('A waiter remembers Jill.',)",,,1,test,1,0,1512
+"('A waiter testifies Jill.',)",,,0,test,0,1,1513
+"(""Sonia's mothers weren't boycotting this association."",)",,,1,test,1,0,1514
+"(""Sonia's mothers weren't nodding this association."",)",,,0,test,0,1,1515
+"('Many nieces of Alicia praise Paula.',)",,,1,test,1,0,1516
+"('Many nieces of Alicia struggle Paula.',)",,,0,test,0,1,1517
+"('Janice forgets Donna.',)",,,1,test,1,0,1520
+"('Janice smiles Donna.',)",,,0,test,0,1,1521
+"('Raymond had seen most rivers.',)",,,1,test,1,0,1524
+"('Raymond had gone fishing most rivers.',)",,,0,test,0,1,1525
+"('All nieces of Beverly conceal that granddaughter of Janet.',)",,,1,test,1,0,1538
+"('All nieces of Beverly talked that granddaughter of Janet.',)",,,0,test,0,1,1539
+"('Paintings look like most sketches.',)",,,1,test,1,0,1540
+"('Paintings fell most sketches.',)",,,0,test,0,1,1541
+"(""Danielle's oncologist arrives at a restaurant."",)",,,1,test,1,0,1546
+"(""Danielle's oncologist boasted a restaurant."",)",,,0,test,0,1,1547
+"(""Wayne wasn't going to that high school."",)",,,1,test,1,0,1566
+"(""Wayne wasn't complaining that high school."",)",,,0,test,0,1,1567
+"(""Beth hasn't argued about Jeffrey."",)",,,1,test,1,0,1584
+"(""Beth hasn't gone fishing Jeffrey."",)",,,0,test,0,1,1585
+"('Kristin wore some hat.',)",,,1,test,1,0,1588
+"('Kristin lies some hat.',)",,,0,test,0,1,1589
+"(""Phillip's nieces watch Kendra."",)",,,1,test,1,0,1618
+"(""Phillip's nieces compromise Kendra."",)",,,0,test,0,1,1619
+"(""That customer's doctors are buying that photograph of a carriage."",)",,,1,test,1,0,1622
+"(""That customer's doctors are communicating that photograph of a carriage."",)",,,0,test,0,1,1623
+"(""Paul's sisters heal Deborah."",)",,,1,test,1,0,1624
+"(""Paul's sisters escaped Deborah."",)",,,0,test,0,1,1625
+"(""Every skateboard hasn't disturbed Adam."",)",,,1,test,1,0,1626
+"(""Every skateboard hasn't fallen Adam."",)",,,0,test,0,1,1627
+"('Meredith visits many adults.',)",,,1,test,1,0,1636
+"('Meredith falls many adults.',)",,,0,test,0,1,1637
+"('These pedestrians talked to Renee.',)",,,1,test,1,0,1644
+"('These pedestrians testified Renee.',)",,,0,test,0,1,1645
+"(""Danielle's employee shouldn't notice that pedestrian."",)",,,1,test,1,0,1650
+"(""Danielle's employee shouldn't nod that pedestrian."",)",,,0,test,0,1,1651
+"('All fathers of Stacy reference Keith.',)",,,1,test,1,0,1652
+"('All fathers of Stacy chatted Keith.',)",,,0,test,0,1,1653
+"('Some drawing of these dishes can look like Ruth.',)",,,1,test,1,0,1662
+"('Some drawing of these dishes can fall Ruth.',)",,,0,test,0,1,1663
+"(""Most pedestrians shouldn't research Nancy's husband."",)",,,1,test,1,0,1670
+"(""Most pedestrians shouldn't cry Nancy's husband."",)",,,0,test,0,1,1671
+"(""All brothers of Regina remember Phillip's friends."",)",,,1,test,1,0,1684
+"(""All brothers of Regina negotiate Phillip's friends."",)",,,0,test,0,1,1685
+"(""The Lutherans kiss Victoria's associate."",)",,,1,test,1,0,1692
+"(""The Lutherans mutter Victoria's associate."",)",,,0,test,0,1,1693
+"('This bicycle bored Maria.',)",,,1,test,1,0,1700
+"('This bicycle falls Maria.',)",,,0,test,0,1,1701
+"(""Renee hasn't revealed women."",)",,,1,test,1,0,1704
+"(""Renee hasn't wept women."",)",,,0,test,0,1,1705
+"(""Mary's piano teacher hugged Gina's partner."",)",,,1,test,1,0,1712
+"(""Mary's piano teacher responds Gina's partner."",)",,,0,test,0,1,1713
+"(""Wayne's students went to the grocery store."",)",,,1,test,1,0,1718
+"(""Wayne's students murmur the grocery store."",)",,,0,test,0,1,1719
+"(""Kenneth's plumbers wouldn't appreciate the dancer."",)",,,1,test,1,0,1730
+"(""Kenneth's plumbers wouldn't disagree the dancer."",)",,,0,test,0,1,1731
+"(""Gina's students know Jerry."",)",,,1,test,1,0,1752
+"(""Gina's students collaborated Jerry."",)",,,0,test,0,1,1753
+"(""Patricia's ex-boyfriend has toured a grocery store."",)",,,1,test,1,0,1756
+"(""Patricia's ex-boyfriend has fallen asleep a grocery store."",)",,,0,test,0,1,1757
+"('This boy watched Nicole.',)",,,1,test,1,0,1760
+"('This boy grinned Nicole.',)",,,0,test,0,1,1761
+"('Most cars alarmed Galileo.',)",,,1,test,1,0,1784
+"('Most cars fall Galileo.',)",,,0,test,0,1,1785
+"('Some person annoyed this patient.',)",,,1,test,1,0,1786
+"('Some person wept this patient.',)",,,0,test,0,1,1787
+"(""Carrie's mentee isn't ascending every ladder."",)",,,1,test,1,0,1790
+"(""Carrie's mentee isn't concurring every ladder."",)",,,0,test,0,1,1791
+"(""Some car hasn't bothered Carmen's hairdressers."",)",,,1,test,1,0,1792
+"(""Some car hasn't fallen Carmen's hairdressers."",)",,,0,test,0,1,1793
+"(""The Borgias hadn't shocked all granddaughters of Kathleen."",)",,,1,test,1,0,1798
+"(""The Borgias hadn't disagreed all granddaughters of Kathleen."",)",,,0,test,0,1,1799
+"('All brothers of Melanie bike to Harvard University.',)",,,1,test,1,0,1806
+"('All brothers of Melanie grin Harvard University.',)",,,0,test,0,1,1807
+"(""A lot of drivers weren't admiring Dana."",)",,,1,test,1,0,1812
+"(""A lot of drivers weren't conspiring Dana."",)",,,0,test,0,1,1813
+"(""A lot of teachers' mothers climb down all hills."",)",,,1,test,1,0,1822
+"(""A lot of teachers' mothers littered all hills."",)",,,0,test,0,1,1823
+"(""Galileo kissed that doctor's daughter."",)",,,1,test,1,0,1834
+"(""Galileo spoke up that doctor's daughter."",)",,,0,test,0,1,1835
+"('Rachel was driving to most museums.',)",,,1,test,1,0,1838
+"('Rachel was lying most museums.',)",,,0,test,0,1,1839
+"(""Wendy couldn't disgust Scott."",)",,,1,test,1,0,1840
+"(""Wendy couldn't concur Scott."",)",,,0,test,0,1,1841
+"(""This child researched some woman's students."",)",,,1,test,1,0,1848
+"(""This child weeps some woman's students."",)",,,0,test,0,1,1849
+"(""All drivers conceal Paul's French teachers."",)",,,1,test,1,0,1876
+"(""All drivers fall Paul's French teachers."",)",,,0,test,0,1,1877
+"(""Lori isn't breaking some bicycle."",)",,,1,test,1,0,1880
+"(""Lori isn't grinning some bicycle."",)",,,0,test,0,1,1881
+"(""Stacey's oncologist hasn't seen a lot of mothers of Gerald."",)",,,1,test,1,0,1890
+"(""Stacey's oncologist hasn't blinked a lot of mothers of Gerald."",)",,,0,test,0,1,1891
+"(""That daughter of Becca shouldn't arrive at this high school."",)",,,1,test,1,0,1896
+"(""That daughter of Becca shouldn't blink this high school."",)",,,0,test,0,1,1897
+"(""The government can't bother Gregory's dentists."",)",,,1,test,1,0,1908
+"(""The government can't respond Gregory's dentists."",)",,,0,test,0,1,1909
+"('A print distracted Jennifer.',)",,,1,test,1,0,1928
+"('A print fell Jennifer.',)",,,0,test,0,1,1929
+"('Dan will explore the high school.',)",,,1,test,1,0,1930
+"('Dan will smile the high school.',)",,,0,test,0,1,1931
+"(""Vincent's plumbers clean this skirt."",)",,,1,test,1,0,1968
+"(""Vincent's plumbers die this skirt."",)",,,0,test,0,1,1969
+"('Curtis wore those sweaters.',)",,,1,test,1,0,1972
+"('Curtis concurs those sweaters.',)",,,0,test,0,1,1973

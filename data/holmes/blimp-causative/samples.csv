@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('Benjamin would wrinkle every scarf.',)",,,1,train,1,0,8
+"('Benjamin would fall every scarf.',)",,,0,train,0,1,9
+"('Most students hide away sisters of Gerald.',)",,,1,train,1,0,10
+"('Most students wept sisters of Gerald.',)",,,0,train,0,1,11
+"(""Phillip isn't hiding away Monica."",)",,,1,train,1,0,14
+"(""Phillip isn't departing Monica."",)",,,0,train,0,1,15
+"('Alan twirls that dress.',)",,,1,train,1,0,16
+"('Alan existed that dress.',)",,,0,train,0,1,17
+"('Dawn had condensed ice.',)",,,1,train,1,0,18
+"('Dawn had existed ice.',)",,,0,train,0,1,19
+"(""Most guys hide away David's friends."",)",,,1,train,1,0,20
+"(""Most guys divorced David's friends."",)",,,0,train,0,1,21
+"('Kimberley had slowed every skateboard.',)",,,1,train,1,0,24
+"('Kimberley had rusted every skateboard.',)",,,0,train,0,1,25
+"('All doctors fray gloves.',)",,,1,train,1,0,26
+"('All doctors waste away gloves.',)",,,0,train,0,1,27
+"(""Winston Churchill hasn't rolled most trucks."",)",,,1,train,1,0,28
+"(""Winston Churchill hasn't wasted away most trucks."",)",,,0,train,0,1,29
+"('Kevin dropped some chair.',)",,,1,train,1,0,30
+"('Kevin existed some chair.',)",,,0,train,0,1,31
+"('Many customers trains Bethany.',)",,,1,train,1,0,34
+"('Many customers cheered Bethany.',)",,,0,train,0,1,35
+"(""Waiters wake up Beverly's dentists."",)",,,1,train,1,0,38
+"(""Waiters clashed Beverly's dentists."",)",,,0,train,0,1,39
+"('A lot of customers shrink the skirts.',)",,,1,train,1,0,44
+"('A lot of customers fell the skirts.',)",,,0,train,0,1,45
+"(""Some guests reunite Rachelle's teachers."",)",,,1,train,1,0,46
+"(""Some guests whisper Rachelle's teachers."",)",,,0,train,0,1,47
+"(""A teenager couldn't turn a plane."",)",,,1,train,1,0,50
+"(""A teenager couldn't exist a plane."",)",,,0,train,0,1,51
+"(""David isn't drying many blouses."",)",,,1,train,1,0,52
+"(""David isn't falling many blouses."",)",,,0,train,0,1,53
+"('Benjamin was folding a blouse.',)",,,1,train,1,0,54
+"('Benjamin was existing a blouse.',)",,,0,train,0,1,55
+"(""A man hadn't healed Carol."",)",,,1,train,1,0,56
+"(""A man hadn't protested Carol."",)",,,0,train,0,1,57
+"('Carol heals a customer.',)",,,1,train,1,0,64
+"('Carol waved a customer.',)",,,0,train,0,1,65
+"(""Dennis isn't evaporating a lot of glaciers."",)",,,1,train,1,0,72
+"(""Dennis isn't falling a lot of glaciers."",)",,,0,train,0,1,73
+"(""Douglas trained Wendy's hairdresser."",)",,,1,train,1,0,76
+"(""Douglas escapes Wendy's hairdresser."",)",,,0,train,0,1,77
+"('Andrea chipped some screen.',)",,,1,train,1,0,80
+"('Raymond was stretching that shirt.',)",,,1,dev,1,0,6
+"('Raymond was vanishing that shirt.',)",,,0,dev,0,1,7
+"('Michael had wrinkled many blouses.',)",,,1,dev,1,0,12
+"('Michael had existed many blouses.',)",,,0,dev,0,1,13
+"('Curtis dropped some dishes.',)",,,1,dev,1,0,40
+"('Curtis wasted away some dishes.',)",,,0,dev,0,1,41
+"('Those ladies close some gates.',)",,,1,dev,1,0,70
+"('Those ladies fell some gates.',)",,,0,dev,0,1,71
+"(""Alicia stretched Jill's cousins."",)",,,1,dev,1,0,112
+"(""Alicia nodded Jill's cousins."",)",,,0,dev,0,1,113
+"('Gerald stretches Diane.',)",,,1,dev,1,0,118
+"('Gerald salutes Diane.',)",,,0,dev,0,1,119
+"('Travis did bake some fish.',)",,,1,dev,1,0,170
+"('Travis did exist some fish.',)",,,0,dev,0,1,171
+"(""Jeffrey isn't assembling these mothers of Holly."",)",,,1,dev,1,0,172
+"(""Jeffrey isn't whispering these mothers of Holly."",)",,,0,dev,0,1,173
+"(""Benjamin wasn't crashing all cars."",)",,,1,dev,1,0,182
+"(""Benjamin wasn't vanishing all cars."",)",,,0,dev,0,1,183
+"('Carolyn loosened the skirts.',)",,,1,dev,1,0,204
+"('Carolyn appeared the skirts.',)",,,0,dev,0,1,205
+"('Anna had flattened coats.',)",,,1,dev,1,0,248
+"('Anna had disappeared coats.',)",,,0,dev,0,1,249
+"(""Deborah can't dry most scarves."",)",,,1,dev,1,0,258
+"(""Deborah can't fall most scarves."",)",,,0,dev,0,1,259
+"(""Veronica isn't ripening that apple."",)",,,1,dev,1,0,270
+"(""Veronica isn't existing that apple."",)",,,0,dev,0,1,271
+"(""The child can't crash every truck."",)",,,1,dev,1,0,302
+"(""The child can't disappear every truck."",)",,,0,dev,0,1,303
+"('Guys were burning that cilantro.',)",,,1,dev,1,0,318
+"('Guys were wasting away that cilantro.',)",,,0,dev,0,1,319
+"('A lot of teenagers stop some carriages.',)",,,1,dev,1,0,388
+"('A lot of teenagers appear some carriages.',)",,,0,dev,0,1,389
+"('Many teachers wake up the Clintons.',)",,,1,dev,1,0,398
+"('Many teachers kissed the Clintons.',)",,,0,dev,0,1,399
+"(""Carrie isn't charring muffins."",)",,,1,dev,1,0,436
+"(""Carrie isn't wasting away muffins."",)",,,0,dev,0,1,437
+"(""Colleen hadn't wrinkled these scarves."",)",,,1,dev,1,0,498
+"(""Colleen hadn't vanished these scarves."",)",,,0,dev,0,1,499
+"(""Rodney didn't worry Danielle's oncologists."",)",,,1,dev,1,0,556
+"(""Rodney didn't murmur Danielle's oncologists."",)",,,0,dev,0,1,557
+"(""Chad can't chip some cart."",)",,,1,dev,1,0,586
+"(""Chad can't waste away some cart."",)",,,0,dev,0,1,587
+"(""April hadn't flattened the glove."",)",,,1,dev,1,0,598
+"(""April hadn't fallen the glove."",)",,,0,dev,0,1,599
+"('Rhonda is twisting many scarves.',)",,,1,dev,1,0,600
+"('Rhonda is disappearing many scarves.',)",,,0,dev,0,1,601
+"(""Danielle's teacher can break some carriage."",)",,,1,dev,1,0,602
+"(""Danielle's teacher can exist some carriage."",)",,,0,dev,0,1,603
+"(""Monica isn't marrying Wayne's teachers."",)",,,1,dev,1,0,640
+"(""Monica isn't grinning Wayne's teachers."",)",,,0,dev,0,1,641
+"('Jesus moved Steve.',)",,,1,dev,1,0,642
+"('Jesus got fired Steve.',)",,,0,dev,0,1,643
+"('Matt unfolded that blouse.',)",,,1,dev,1,0,650
+"('Matt existed that blouse.',)",,,0,dev,0,1,651
+"(""Marie hadn't brightened those screens."",)",,,1,dev,1,0,664
+"(""Marie hadn't appeared those screens."",)",,,0,dev,0,1,665
+"(""Amanda would spin around the student's oncologists."",)",,,1,dev,1,0,680
+"(""Amanda would compromise the student's oncologists."",)",,,0,dev,0,1,681
+"(""This teenager couldn't train Monet."",)",,,1,dev,1,0,712
+"(""This teenager couldn't drink Monet."",)",,,0,dev,0,1,713
+"(""Veronica won't twist the dress."",)",,,1,dev,1,0,720
+"(""Veronica won't vanish the dress."",)",,,0,dev,0,1,721
+"('Jennifer flings open the box.',)",,,1,dev,1,0,732
+"('Jennifer disappeared the box.',)",,,0,dev,0,1,733
+"('Ellen slowed a bicycle.',)",,,1,dev,1,0,746
+"('Ellen vanishes a bicycle.',)",,,0,dev,0,1,747
+"(""Chad hasn't ripened a mushroom."",)",,,1,dev,1,0,752
+"(""Chad hasn't wasted away a mushroom."",)",,,0,dev,0,1,753
+"(""Most dancers hide away Craig's bosses."",)",,,1,dev,1,0,764
+"(""Most dancers weep Craig's bosses."",)",,,0,dev,0,1,765
+"(""A lot of cashiers had changed Rachelle's boyfriend."",)",,,1,dev,1,0,808
+"(""A lot of cashiers had muttered Rachelle's boyfriend."",)",,,0,dev,0,1,809
+"('These actresses steer some trucks.',)",,,1,dev,1,0,812
+"('These actresses fell some trucks.',)",,,0,dev,0,1,813
+"('Chad healed Larry.',)",,,1,dev,1,0,832
+"('Chad compromises Larry.',)",,,0,dev,0,1,833
+"(""Some guests stretch Wendy's colleagues."",)",,,1,dev,1,0,836
+"(""Some guests worked hard Wendy's colleagues."",)",,,0,dev,0,1,837
+"('Stephanie is healing Ann.',)",,,1,dev,1,0,870
+"('Stephanie is yawning Ann.',)",,,0,dev,0,1,871
+"(""Russell was stretching Randolf's daughters."",)",,,1,dev,1,0,878
+"(""Russell was slumping over Randolf's daughters."",)",,,0,dev,0,1,879
+"('The actors stopped these bicycles.',)",,,1,dev,1,0,884
+"('The actors fall these bicycles.',)",,,0,dev,0,1,885
+"('Susan burns that cilantro.',)",,,1,dev,1,0,890
+"('Susan falls that cilantro.',)",,,0,dev,0,1,891
+"(""All girls aren't hiding Jeffrey."",)",,,1,dev,1,0,896
+"(""All girls aren't waving Jeffrey."",)",,,0,dev,0,1,897
+"('William scorches pasta.',)",,,1,dev,1,0,906
+"('William disappears pasta.',)",,,0,dev,0,1,907
+"(""Tonya can't break these forks."",)",,,1,dev,1,0,918
+"(""Tonya can't fall apart these forks."",)",,,0,dev,0,1,919
+"(""These people train Elizabeth's nieces."",)",,,1,dev,1,0,944
+"(""These people boast Elizabeth's nieces."",)",,,0,dev,0,1,945
+"(""Larry won't heal Daniel."",)",,,1,dev,1,0,946
+"(""Larry won't cough Daniel."",)",,,0,dev,0,1,947
+"('A lot of senators have broken cars.',)",,,1,dev,1,0,994
+"('A lot of senators have rusted cars.',)",,,0,dev,0,1,995
+"(""The teacher wasn't breaking that dish."",)",,,1,dev,1,0,1000
+"(""The teacher wasn't slipping that dish."",)",,,0,dev,0,1,1001
+"('Barbara was melting the lake.',)",,,1,dev,1,0,1106
+"('Barbara was vanishing the lake.',)",,,0,dev,0,1,1107
+"(""Jessica doesn't burn some steak."",)",,,1,dev,1,0,1122
+"(""Jessica doesn't appear some steak."",)",,,0,dev,0,1,1123
+"(""Jane has hidden Regina's electricians."",)",,,1,dev,1,0,1130
+"(""Jane has gotten fired Regina's electricians."",)",,,0,dev,0,1,1131
+"('Brett warped this dress.',)",,,1,dev,1,0,1132
+"('Brett wastes away this dress.',)",,,0,dev,0,1,1133
+"(""Jerry hadn't cracked a lot of forks."",)",,,1,dev,1,0,1182
+"(""Jerry hadn't disappeared a lot of forks."",)",,,0,dev,0,1,1183
+"(""A girl hasn't burned that muffin."",)",,,1,dev,1,0,1186
+"(""A girl hasn't disappeared that muffin."",)",,,0,dev,0,1,1187
+"('Paula ripened the pepper.',)",,,1,dev,1,0,1192
+"('Paula wasted away the pepper.',)",,,0,dev,0,1,1193
+"(""The Impressionists stand up Timothy's French teachers."",)",,,1,dev,1,0,1206
+"(""The Impressionists cooperate Timothy's French teachers."",)",,,0,dev,0,1,1207
+"('Benjamin worries Allison.',)",,,1,dev,1,0,1232
+"('Benjamin bakes Allison.',)",,,0,dev,0,1,1233
+"(""Scott isn't closing some window."",)",,,1,dev,1,0,1316
+"(""Scott isn't existing some window."",)",,,0,dev,0,1,1317
+"('All patients flung open some doors.',)",,,1,dev,1,0,1350
+"('All patients vanish some doors.',)",,,0,dev,0,1,1351
+"(""The Impressionists stretch Beverly's friends."",)",,,1,dev,1,0,1354
+"(""The Impressionists answered Beverly's friends."",)",,,0,dev,0,1,1355
+"(""Monet couldn't dry some scarves."",)",,,1,dev,1,0,1392
+"(""Monet couldn't appear some scarves."",)",,,0,dev,0,1,1393
+"('The boy shrank that hat.',)",,,1,dev,1,0,1394
+"('The boy appeared that hat.',)",,,0,dev,0,1,1395
+"(""Walter stretched every student's contractor."",)",,,1,dev,1,0,1396
+"(""Walter littered every student's contractor."",)",,,0,dev,0,1,1397
+"('Many guys open those windows.',)",,,1,dev,1,0,1398
+"('Many guys vanish those windows.',)",,,0,dev,0,1,1399
+"('Judy loosens a shoe.',)",,,1,dev,1,0,1402
+"('Judy existed a shoe.',)",,,0,dev,0,1,1403
+"('These actresses brighten all spotlights.',)",,,1,dev,1,0,1416
+"('These actresses disappear all spotlights.',)",,,0,dev,0,1,1417
+"(""Sally hasn't flung open many eyes."",)",,,1,dev,1,0,1432
+"(""Sally hasn't fallen many eyes."",)",,,0,dev,0,1,1433
+"('Samuel was assembling the Impressionists.',)",,,1,dev,1,0,1438
+"('Samuel was learning the Impressionists.',)",,,0,dev,0,1,1439
+"('Laura might grow bananas.',)",,,1,dev,1,0,1492
+"('Laura might fall bananas.',)",,,0,dev,0,1,1493
+"(""Maria wouldn't break some bikes."",)",,,1,dev,1,0,1500
+"(""Maria wouldn't fall apart some bikes."",)",,,0,dev,0,1,1501
+"('Jennifer unfolds some blouse.',)",,,1,dev,1,0,1520
+"('Jennifer disappeared some blouse.',)",,,0,dev,0,1,1521
+"(""Dennis worries some patients' granddaughter."",)",,,1,dev,1,0,1532
+"(""Dennis complains some patients' granddaughter."",)",,,0,dev,0,1,1533
+"('Kristen hid away Vincent.',)",,,1,dev,1,0,1546
+"('Kristen speaks up Vincent.',)",,,0,dev,0,1,1547
+"('Donna scorches some pasta.',)",,,1,dev,1,0,1558
+"('Donna falls some pasta.',)",,,0,dev,0,1,1559
+"('Jacqueline was reuniting some legislature.',)",,,1,dev,1,0,1576
+"('Jacqueline was protesting some legislature.',)",,,0,dev,0,1,1577
+"('Jennifer warped some shoes.',)",,,1,dev,1,0,1578
+"('Jennifer disappeared some shoes.',)",,,0,dev,0,1,1579
+"('Jodi stood up Grace.',)",,,1,dev,1,0,1598
+"('Jodi performs Grace.',)",,,0,dev,0,1,1599
+"('Rachel changes Suzanne.',)",,,1,dev,1,0,1618
+"('Rachel testifies Suzanne.',)",,,0,dev,0,1,1619
+"('Frank is evaporating some lakes.',)",,,1,dev,1,0,1640
+"('Frank is existing some lakes.',)",,,0,dev,0,1,1641
+"('Alicia will hide away Russell.',)",,,1,dev,1,0,1678
+"('Alicia will explain everything Russell.',)",,,0,dev,0,1,1679
+"('Leslie had chipped the screens.',)",,,1,dev,1,0,1692
+"('Leslie had vanished the screens.',)",,,0,dev,0,1,1693
+"(""Heidi isn't sitting down Pamela."",)",,,1,dev,1,0,1710
+"(""Heidi isn't saluting Pamela."",)",,,0,dev,0,1,1711
+"('Carol condenses a river.',)",,,1,dev,1,0,1720
+"('Carol existed a river.',)",,,0,dev,0,1,1721
+"(""Every senator hadn't flung open a lot of closets."",)",,,1,dev,1,0,1732
+"(""Every senator hadn't wasted away a lot of closets."",)",,,0,dev,0,1,1733
+"('Cynthia loosens that blouse.',)",,,1,dev,1,0,1744
+"('Cynthia appeared that blouse.',)",,,0,dev,0,1,1745
+"('Tracy dimmed all screens.',)",,,1,dev,1,0,1760
+"('Tracy wasted away all screens.',)",,,0,dev,0,1,1761
+"('The Borgias burn a lot of bananas.',)",,,1,dev,1,0,1772
+"('The Borgias fall a lot of bananas.',)",,,0,dev,0,1,1773
+"('These women grow tomatoes.',)",,,1,dev,1,0,1782
+"('These women vanish tomatoes.',)",,,0,dev,0,1,1783
+"(""Some teacher can't bake those casseroles."",)",,,1,dev,1,0,1824
+"(""Some teacher can't exist those casseroles."",)",,,0,dev,0,1,1825
+"(""Melanie shouldn't crack this skateboard."",)",,,1,dev,1,0,1828
+"(""Melanie shouldn't disappear this skateboard."",)",,,0,dev,0,1,1829
+"(""Colleen doesn't shut gates."",)",,,1,dev,1,0,1848
+"(""Colleen doesn't exist gates."",)",,,0,dev,0,1,1849
+"('Becky was tipping over every vase.',)",,,1,dev,1,0,1854
+"('Becky was disappearing every vase.',)",,,0,dev,0,1,1855
+"('Carl folded these shawls.',)",,,1,dev,1,0,1856
+"('Carl wasted away these shawls.',)",,,0,dev,0,1,1857
+"('Heidi is shrinking those socks.',)",,,1,dev,1,0,1866
+"('Heidi is wasting away those socks.',)",,,0,dev,0,1,1867
+"('Denise chipped a wheelbarrow.',)",,,1,dev,1,0,1886
+"('Denise appeared a wheelbarrow.',)",,,0,dev,0,1,1887
+"('April breaks every cup.',)",,,1,dev,1,0,1918
+"('April disappears every cup.',)",,,0,dev,0,1,1919
+"('Bruce was accelerating many carts.',)",,,1,dev,1,0,1928
+"('Bruce was rusting many carts.',)",,,0,dev,0,1,1929
+"('Liam is stopping some carriage.',)",,,1,dev,1,0,1960
+"('Liam is slipping some carriage.',)",,,0,dev,0,1,1961
+"('Aaron breaks the glass.',)",,,1,test,1,0,0
+"('Aaron appeared the glass.',)",,,0,test,0,1,1
+"('April had dropped the truck.',)",,,1,test,1,0,2
+"('April had existed the truck.',)",,,0,test,0,1,3
+"(""All actors train Tonya's brothers."",)",,,1,test,1,0,4
+"(""All actors appeared Tonya's brothers."",)",,,0,test,0,1,5
+"('Rodney was moving Victoria.',)",,,1,test,1,0,22
+"('Rodney was sighing Victoria.',)",,,0,test,0,1,23
+"('The Borgias crash a lot of unicycles.',)",,,1,test,1,0,32
+"('The Borgias existed a lot of unicycles.',)",,,0,test,0,1,33
+"('Katherine grew some apples.',)",,,1,test,1,0,36
+"('Katherine went bad some apples.',)",,,0,test,0,1,37
+"(""Noah hasn't shattered a mirror."",)",,,1,test,1,0,42
+"(""Noah hasn't fallen a mirror."",)",,,0,test,0,1,43
+"('Lissa shuts the door.',)",,,1,test,1,0,48
+"('Lissa wasted away the door.',)",,,0,test,0,1,49
+"('Many actors evaporate a lot of glaciers.',)",,,1,test,1,0,58
+"('Many actors disappeared a lot of glaciers.',)",,,0,test,0,1,59
+"('Natalie has assembled a hospital.',)",,,1,test,1,0,60
+"('Natalie has debated a hospital.',)",,,0,test,0,1,61
+"('Stacy twirled a sweater.',)",,,1,test,1,0,62
+"('Stacy wasted away a sweater.',)",,,0,test,0,1,63
+"('Cheryl had trained Tara.',)",,,1,test,1,0,66
+"('Cheryl had murmured Tara.',)",,,0,test,0,1,67
+"('This guest shattered a plane.',)",,,1,test,1,0,68
+"('This guest exists a plane.',)",,,0,test,0,1,69
+"('A lot of women fade those lights.',)",,,1,test,1,0,74
+"('A lot of women vanished those lights.',)",,,0,test,0,1,75
+"(""Colleen wouldn't drop some truck."",)",,,1,test,1,0,78
+"(""Colleen wouldn't slip some truck."",)",,,0,test,0,1,79
+"('Bethany had frayed jackets.',)",,,1,test,1,0,98
+"('Bethany had wasted away jackets.',)",,,0,test,0,1,99
+"('Julie wrinkled every shawl.',)",,,1,test,1,0,104
+"('Julie wastes away every shawl.',)",,,0,test,0,1,105
+"(""Heidi isn't blackening some cake."",)",,,1,test,1,0,124
+"(""Heidi isn't existing some cake."",)",,,0,test,0,1,125
+"('Gina wakes up Ellen.',)",,,1,test,1,0,148
+"('Gina complained Ellen.',)",,,0,test,0,1,149
+"(""William's plumbers hide every photograph."",)",,,1,test,1,0,154
+"(""William's plumbers vanished every photograph."",)",,,0,test,0,1,155
+"('Deanna wakes up Kirsten.',)",,,1,test,1,0,164
+"('Deanna chuckles Kirsten.',)",,,0,test,0,1,165
+"('Rachel had turned this carriage.',)",,,1,test,1,0,192
+"('Rachel had disappeared this carriage.',)",,,0,test,0,1,193
+"(""Nina isn't burning some casserole."",)",,,1,test,1,0,200
+"(""Nina isn't vanishing some casserole."",)",,,0,test,0,1,201
+"('Adam will melt these rivers.',)",,,1,test,1,0,234
+"('Adam will vanish these rivers.',)",,,0,test,0,1,235
+"('Brett has melted some icicles.',)",,,1,test,1,0,240
+"('Brett has vanished some icicles.',)",,,0,test,0,1,241
+"('Naomi had twisted most hats.',)",,,1,test,1,0,246
+"('Naomi had fallen most hats.',)",,,0,test,0,1,247
+"('Most teenagers had warped a scarf.',)",,,1,test,1,0,252
+"('Most teenagers had disappeared a scarf.',)",,,0,test,0,1,253
+"('The Lutherans tighten those shoes.',)",,,1,test,1,0,256
+"('The Lutherans disappeared those shoes.',)",,,0,test,0,1,257
+"('The teachers freeze all lakes.',)",,,1,test,1,0,272
+"('The teachers waste away all lakes.',)",,,0,test,0,1,273
+"('John has loosened many hats.',)",,,1,test,1,0,276
+"('John has disappeared many hats.',)",,,0,test,0,1,277
+"(""Alexander wouldn't wash all women's grandfathers."",)",,,1,test,1,0,280
+"(""Alexander wouldn't cheer all women's grandfathers."",)",,,0,test,0,1,281
+"(""Stacy's classmates heal Julia's employee."",)",,,1,test,1,0,282
+"(""Stacy's classmates slumped over Julia's employee."",)",,,0,test,0,1,283
+"('Many girls bake many cakes.',)",,,1,test,1,0,292
+"('Many girls appeared many cakes.',)",,,0,test,0,1,293
+"('All customers slow some cars.',)",,,1,test,1,0,310
+"('All customers appear some cars.',)",,,0,test,0,1,311
+"('Gina rolls that wheelbarrow.',)",,,1,test,1,0,314
+"('Gina existed that wheelbarrow.',)",,,0,test,0,1,315
+"('The Borgias shrank some blouse.',)",,,1,test,1,0,328
+"('The Borgias vanished some blouse.',)",,,0,test,0,1,329
+"('Christina chipped glasses.',)",,,1,test,1,0,332
+"('Christina vanished glasses.',)",,,0,test,0,1,333
+"('Carla accelerates every skateboard.',)",,,1,test,1,0,338
+"('Carla disappeared every skateboard.',)",,,0,test,0,1,339
+"(""Sarah doesn't benefit the Clintons."",)",,,1,test,1,0,340
+"(""Sarah doesn't meet the Clintons."",)",,,0,test,0,1,341
+"('Emily woke up a grandmother of Alice.',)",,,1,test,1,0,348
+"('Emily wastes away a grandmother of Alice.',)",,,0,test,0,1,349
+"('All stairs had worried Paul.',)",,,1,test,1,0,372
+"('All stairs had eaten Paul.',)",,,0,test,0,1,373
+"('The Borgias trains a waiter.',)",,,1,test,1,0,374
+"('The Borgias whispered a waiter.',)",,,0,test,0,1,375
+"('Steven has chipped computers.',)",,,1,test,1,0,376
+"('Steven has fallen apart computers.',)",,,0,test,0,1,377
+"(""Diane heals Carla's associates."",)",,,1,test,1,0,408
+"(""Diane met Carla's associates."",)",,,0,test,0,1,409
+"('Alicia shatters that mirror.',)",,,1,test,1,0,410
+"('Alicia vanishes that mirror.',)",,,0,test,0,1,411
+"('Every student shrank this scarf.',)",,,1,test,1,0,418
+"('Every student disappeared this scarf.',)",,,0,test,0,1,419
+"('Michael worried this museum.',)",,,1,test,1,0,432
+"('Michael testified this museum.',)",,,0,test,0,1,433
+"('Maria cracks this bike.',)",,,1,test,1,0,438
+"('Maria falls apart this bike.',)",,,0,test,0,1,439
+"('A waitress chipped every cart.',)",,,1,test,1,0,450
+"('A waitress vanished every cart.',)",,,0,test,0,1,451
+"('Gina cracks every cup.',)",,,1,test,1,0,470
+"('Gina falls every cup.',)",,,0,test,0,1,471
+"('Brenda trained Kirsten.',)",,,1,test,1,0,492
+"('Brenda shrugs Kirsten.',)",,,0,test,0,1,493
+"('All cashiers blacken many eggplants.',)",,,1,test,1,0,506
+"('All cashiers fall many eggplants.',)",,,0,test,0,1,507
+"(""Some waitresses haven't shut all closets."",)",,,1,test,1,0,510
+"(""Some waitresses haven't vanished all closets."",)",,,0,test,0,1,511
+"('Homer is tightening those gloves.',)",,,1,test,1,0,512
+"('Homer is existing those gloves.',)",,,0,test,0,1,513
+"('Carla will maneuver every plane.',)",,,1,test,1,0,520
+"('Carla will fall apart every plane.',)",,,0,test,0,1,521
+"('Heidi had baked this pie.',)",,,1,test,1,0,528
+"('Heidi had fallen this pie.',)",,,0,test,0,1,529
+"('The Impressionists bake all tomatoes.',)",,,1,test,1,0,542
+"('The Impressionists fall all tomatoes.',)",,,0,test,0,1,543
+"('Many guys change the guys.',)",,,1,test,1,0,564
+"('Many guys talk the guys.',)",,,0,test,0,1,565
+"(""These eggplants were worrying many women's father."",)",,,1,test,1,0,568
+"(""These eggplants were studying many women's father."",)",,,0,test,0,1,569
+"('Allison stretched those socks.',)",,,1,test,1,0,572
+"('Allison vanished those socks.',)",,,0,test,0,1,573
+"('Samuel soaked a lot of glasses.',)",,,1,test,1,0,576
+"('Samuel appeared a lot of glasses.',)",,,0,test,0,1,577
+"('Some children flatten many skirts.',)",,,1,test,1,0,594
+"('Some children disappeared many skirts.',)",,,0,test,0,1,595
+"('Kimberley could loosen these skirts.',)",,,1,test,1,0,634
+"('Kimberley could vanish these skirts.',)",,,0,test,0,1,635
+"(""Suzanne isn't evaporating a lake."",)",,,1,test,1,0,638
+"(""Suzanne isn't appearing a lake."",)",,,0,test,0,1,639
+"('Men fling open some gates.',)",,,1,test,1,0,646
+"('Men exist some gates.',)",,,0,test,0,1,647
+"('Carolyn is drying that shawl.',)",,,1,test,1,0,656
+"('Carolyn is existing that shawl.',)",,,0,test,0,1,657
+"(""Frank didn't condense some water."",)",,,1,test,1,0,670
+"(""Frank didn't vanish some water."",)",,,0,test,0,1,671
+"('Most senators benefit a lot of grandsons of the ladies.',)",,,1,test,1,0,702
+"('Most senators confer a lot of grandsons of the ladies.',)",,,0,test,0,1,703
+"(""Some cashier hadn't burned that pasta."",)",,,1,test,1,0,704
+"(""Some cashier hadn't appeared that pasta."",)",,,0,test,0,1,705
+"('Donna did vaporize the popsicle.',)",,,1,test,1,0,710
+"('Donna did exist the popsicle.',)",,,0,test,0,1,711
+"('Helen evaporates some lake.',)",,,1,test,1,0,716
+"('Helen appeared some lake.',)",,,0,test,0,1,717
+"('Raymond had dried all socks.',)",,,1,test,1,0,724
+"('Raymond had disappeared all socks.',)",,,0,test,0,1,725
+"(""Brenda hadn't crumpled every shoe."",)",,,1,test,1,0,744
+"(""Brenda hadn't wasted away every shoe."",)",,,0,test,0,1,745
+"('Keith condensed that water.',)",,,1,test,1,0,754
+"('Keith falls that water.',)",,,0,test,0,1,755
+"('Tammy had loosened all jackets.',)",,,1,test,1,0,774
+"('Tammy had vanished all jackets.',)",,,0,test,0,1,775
+"('Those boys roll all cars.',)",,,1,test,1,0,788
+"('Those boys appeared all cars.',)",,,0,test,0,1,789
+"('Kathleen is darkening that lamp.',)",,,1,test,1,0,792
+"('Kathleen is appearing that lamp.',)",,,0,test,0,1,793
+"('Gina can fray many dresses.',)",,,1,test,1,0,794
+"('Gina can fall many dresses.',)",,,0,test,0,1,795
+"('Elaine had accelerated all bikes.',)",,,1,test,1,0,804
+"('Elaine had appeared all bikes.',)",,,0,test,0,1,805
+"('Paula is twisting the hats.',)",,,1,test,1,0,820
+"('Paula is vanishing the hats.',)",,,0,test,0,1,821
+"(""Kayla isn't worrying a lot of customers."",)",,,1,test,1,0,828
+"(""Kayla isn't cooking a lot of customers."",)",,,0,test,0,1,829
+"('All customers have grown some banana.',)",,,1,test,1,0,848
+"('All customers have fallen some banana.',)",,,0,test,0,1,849
+"('Russell has broken every plane.',)",,,1,test,1,0,854
+"('Russell has existed every plane.',)",,,0,test,0,1,855
+"('Jennifer twirls some scarf.',)",,,1,test,1,0,872
+"('Jennifer appears some scarf.',)",,,0,test,0,1,873
+"('Brian had condensed some ice cream.',)",,,1,test,1,0,876
+"('Brian had wasted away some ice cream.',)",,,0,test,0,1,877
+"('Carlos hides the girl.',)",,,1,test,1,0,888
+"('Carlos falls the girl.',)",,,0,test,0,1,889
+"('William is tipping over a lot of cups.',)",,,1,test,1,0,914
+"('William is slipping a lot of cups.',)",,,0,test,0,1,915
+"('Most dancers had stopped every convertible.',)",,,1,test,1,0,932
+"('Most dancers had slipped every convertible.',)",,,0,test,0,1,933
+"('Sara frayed the blouses.',)",,,1,test,1,0,942
+"('Sara existed the blouses.',)",,,0,test,0,1,943
+"(""Chad wakes up Jennifer's guest."",)",,,1,test,1,0,952
+"(""Chad fell asleep Jennifer's guest."",)",,,0,test,0,1,953
+"(""Derek hadn't hidden Angela."",)",,,1,test,1,0,962
+"(""Derek hadn't muttered Angela."",)",,,0,test,0,1,963
+"('Rose opened all gates.',)",,,1,test,1,0,974
+"('Rose disappeared all gates.',)",,,0,test,0,1,975
+"(""Eva shouldn't steer the cars."",)",,,1,test,1,0,992
+"(""Eva shouldn't waste away the cars."",)",,,0,test,0,1,993
+"('Some customer sits down every waiter.',)",,,1,test,1,0,1006
+"('Some customer struggles every waiter.',)",,,0,test,0,1,1007
+"('Anne twisted every hat.',)",,,1,test,1,0,1010
+"('Anne vanishes every hat.',)",,,0,test,0,1,1011
+"(""Teresa isn't flattening scarves."",)",,,1,test,1,0,1016
+"(""Teresa isn't appearing scarves."",)",,,0,test,0,1,1017
+"('These boys wrinkle the gloves.',)",,,1,test,1,0,1034
+"('These boys vanished the gloves.',)",,,0,test,0,1,1035
+"('The Clintons break that dish.',)",,,1,test,1,0,1042
+"('The Clintons fell that dish.',)",,,0,test,0,1,1043
+"(""Gina wasn't scorching that pepper."",)",,,1,test,1,0,1078
+"(""Gina wasn't vanishing that pepper."",)",,,0,test,0,1,1079
+"(""Kimberley hadn't stretched most skirts."",)",,,1,test,1,0,1084
+"(""Kimberley hadn't disappeared most skirts."",)",,,0,test,0,1,1085
+"('These women crash some unicycles.',)",,,1,test,1,0,1090
+"('These women rust some unicycles.',)",,,0,test,0,1,1091
+"('Amy has rolled the truck.',)",,,1,test,1,0,1096
+"('Amy has appeared the truck.',)",,,0,test,0,1,1097
+"('Vanessa freezes some water.',)",,,1,test,1,0,1112
+"('Vanessa disappears some water.',)",,,0,test,0,1,1113
+"('Eva grew this pepper.',)",,,1,test,1,0,1116
+"('Eva falls this pepper.',)",,,0,test,0,1,1117
+"('Jacqueline baked the cilantro.',)",,,1,test,1,0,1144
+"('Jacqueline wasted away the cilantro.',)",,,0,test,0,1,1145
+"('Dana stretched Melinda.',)",,,1,test,1,0,1146
+"('Dana shrugged Melinda.',)",,,0,test,0,1,1147
+"(""A lot of teenagers benefit Susan's French teachers."",)",,,1,test,1,0,1152
+"(""A lot of teenagers went fishing Susan's French teachers."",)",,,0,test,0,1,1153
+"('All adults stop the convertibles.',)",,,1,test,1,0,1158
+"('All adults vanished the convertibles.',)",,,0,test,0,1,1159
+"('Rodney brightened some screens.',)",,,1,test,1,0,1172
+"('Rodney wasted away some screens.',)",,,0,test,0,1,1173
+"('Randolf rolls this bike.',)",,,1,test,1,0,1176
+"('Randolf rusts this bike.',)",,,0,test,0,1,1177
+"('Deanna charred this spinach.',)",,,1,test,1,0,1188
+"('Deanna falls this spinach.',)",,,0,test,0,1,1189
+"(""Claire didn't fold the gloves."",)",,,1,test,1,0,1190
+"(""Claire didn't vanish the gloves."",)",,,0,test,0,1,1191
+"('Kristin was maneuvering the convertible.',)",,,1,test,1,0,1196
+"('Kristin was appearing the convertible.',)",,,0,test,0,1,1197
+"('Some teenager crumpled every scarf.',)",,,1,test,1,0,1222
+"('Some teenager disappears every scarf.',)",,,0,test,0,1,1223
+"('Catherine moved the teacher.',)",,,1,test,1,0,1226
+"('Catherine approves the teacher.',)",,,0,test,0,1,1227
+"('The people unfold a lot of jackets.',)",,,1,test,1,0,1242
+"('The people appear a lot of jackets.',)",,,0,test,0,1,1243
+"('The waitress washes Regina.',)",,,1,test,1,0,1248
+"('The waitress went fishing Regina.',)",,,0,test,0,1,1249
+"('Andrea burns chicken.',)",,,1,test,1,0,1250
+"('Andrea exists chicken.',)",,,0,test,0,1,1251
+"('Most doctors are melting this river.',)",,,1,test,1,0,1256
+"('Most doctors are disappearing this river.',)",,,0,test,0,1,1257
+"('Michael grows every tomato.',)",,,1,test,1,0,1260
+"('Michael goes bad every tomato.',)",,,0,test,0,1,1261
+"('The Impressionists broke this couch.',)",,,1,test,1,0,1270
+"('The Impressionists existed this couch.',)",,,0,test,0,1,1271
+"('A lot of senators hid Edward.',)",,,1,test,1,0,1286
+"('A lot of senators saw Edward.',)",,,0,test,0,1,1287
+"(""These fish worry that driver's grandmother."",)",,,1,test,1,0,1296
+"(""These fish sang that driver's grandmother."",)",,,0,test,0,1,1297
+"('Those teenagers steer those convertibles.',)",,,1,test,1,0,1298
+"('Those teenagers slipped those convertibles.',)",,,0,test,0,1,1299
+"(""Every man hadn't reunited some women."",)",,,1,test,1,0,1306
+"(""Every man hadn't screamed some women."",)",,,0,test,0,1,1307
+"('Mary had loosened the dress.',)",,,1,test,1,0,1310
+"('Mary had wasted away the dress.',)",,,0,test,0,1,1311
+"(""Tara wasn't shattering that bike."",)",,,1,test,1,0,1320
+"(""Tara wasn't rusting that bike."",)",,,0,test,0,1,1321
+"(""Scott won't tighten most sweaters."",)",,,1,test,1,0,1324
+"(""Scott won't exist most sweaters."",)",,,0,test,0,1,1325
+"('Stacy darkens some candle.',)",,,1,test,1,0,1328
+"('Stacy appeared some candle.',)",,,0,test,0,1,1329
+"('Raymond would crumple hats.',)",,,1,test,1,0,1344
+"('Raymond would exist hats.',)",,,0,test,0,1,1345
+"('The Impressionists dim many spotlights.',)",,,1,test,1,0,1360
+"('The Impressionists fell many spotlights.',)",,,0,test,0,1,1361
+"('Jesus does loosen a jacket.',)",,,1,test,1,0,1372
+"('Jesus does waste away a jacket.',)",,,0,test,0,1,1373
+"(""Deborah isn't freezing these lakes."",)",,,1,test,1,0,1374
+"(""Deborah isn't vanishing these lakes."",)",,,0,test,0,1,1375
+"(""Eva's niece is healing some guests' supervisors."",)",,,1,test,1,0,1386
+"(""Eva's niece is compromising some guests' supervisors."",)",,,0,test,0,1,1387
+"(""Tina hasn't crumpled blouses."",)",,,1,test,1,0,1400
+"(""Tina hasn't appeared blouses."",)",,,0,test,0,1,1401
+"('That child ripens this pepper.',)",,,1,test,1,0,1406
+"('That child disappears this pepper.',)",,,0,test,0,1,1407
+"('Homer tipped over the mirrors.',)",,,1,test,1,0,1410
+"('Homer fell apart the mirrors.',)",,,0,test,0,1,1411
+"(""Rachel isn't assembling the company."",)",,,1,test,1,0,1418
+"(""Rachel isn't joking around the company."",)",,,0,test,0,1,1419
+"('The actresses burn a lot of peppers.',)",,,1,test,1,0,1422
+"('The actresses vanish a lot of peppers.',)",,,0,test,0,1,1423
+"('Some teachers fold a lot of dresses.',)",,,1,test,1,0,1434
+"('Some teachers wasted away a lot of dresses.',)",,,0,test,0,1,1435
+"(""Some adults were benefiting Samuel's grandfathers."",)",,,1,test,1,0,1442
+"(""Some adults were retaliating Samuel's grandfathers."",)",,,0,test,0,1,1443
+"(""Pamela hasn't darkened those lamps."",)",,,1,test,1,0,1444
+"(""Pamela hasn't existed those lamps."",)",,,0,test,0,1,1445
+"(""Gary had changed Brad's bosses."",)",,,1,test,1,0,1450
+"(""Gary had negotiated Brad's bosses."",)",,,0,test,0,1,1451
+"('All patients brighten spotlights.',)",,,1,test,1,0,1454
+"('All patients fell spotlights.',)",,,0,test,0,1,1455
+"(""Andrew hadn't twirled a lot of skirts."",)",,,1,test,1,0,1464
+"(""Andrew hadn't existed a lot of skirts."",)",,,0,test,0,1,1465
+"(""Connie wasn't stretching Alan."",)",,,1,test,1,0,1476
+"(""Connie wasn't shouting Alan."",)",,,0,test,0,1,1477
+"('Every doctor shrinks that dress.',)",,,1,test,1,0,1488
+"('Every doctor falls that dress.',)",,,0,test,0,1,1489
+"('Randolf tips over this window.',)",,,1,test,1,0,1494
+"('Randolf fell this window.',)",,,0,test,0,1,1495
+"('Leslie grows a pepper.',)",,,1,test,1,0,1496
+"('Leslie existed a pepper.',)",,,0,test,0,1,1497
+"(""Theodore's sister was selling this truck."",)",,,1,test,1,0,1504
+"(""Theodore's sister was slipping this truck."",)",,,0,test,0,1,1505
+"(""Heidi hasn't wrinkled every blouse."",)",,,1,test,1,0,1512
+"(""Heidi hasn't wasted away every blouse."",)",,,0,test,0,1,1513
+"(""Carrie isn't stopping this carriage."",)",,,1,test,1,0,1540
+"(""Carrie isn't slipping this carriage."",)",,,0,test,0,1,1541
+"(""Joseph doesn't move Russell."",)",,,1,test,1,0,1566
+"(""Joseph doesn't shrug Russell."",)",,,0,test,0,1,1567
+"('Ella was accelerating some carriage.',)",,,1,test,1,0,1568
+"('Ella was falling apart some carriage.',)",,,0,test,0,1,1569
+"('Stacey shrinks a shawl.',)",,,1,test,1,0,1574
+"('Stacey disappeared a shawl.',)",,,0,test,0,1,1575
+"('That boy had opened some gates.',)",,,1,test,1,0,1614
+"('That boy had wasted away some gates.',)",,,0,test,0,1,1615
+"('Kristin had shattered those skateboards.',)",,,1,test,1,0,1616
+"('Kristin had disappeared those skateboards.',)",,,0,test,0,1,1617
+"('This pedestrian brightens every screen.',)",,,1,test,1,0,1620
+"('This pedestrian wasted away every screen.',)",,,0,test,0,1,1621
+"('Pamela soaks every dress.',)",,,1,test,1,0,1636
+"('Pamela vanished every dress.',)",,,0,test,0,1,1637
+"('The dancers wrinkle the shawls.',)",,,1,test,1,0,1642
+"('The dancers fall the shawls.',)",,,0,test,0,1,1643
+"('The Clintons brighten these spotlights.',)",,,1,test,1,0,1644
+"('The Clintons vanish these spotlights.',)",,,0,test,0,1,1645
+"('Those doctors steered a skateboard.',)",,,1,test,1,0,1648
+"('Those doctors existed a skateboard.',)",,,0,test,0,1,1649
+"('Pamela should flatten some scarf.',)",,,1,test,1,0,1650
+"('Pamela should exist some scarf.',)",,,0,test,0,1,1651
+"(""The child hadn't hidden Alice."",)",,,1,test,1,0,1662
+"(""The child hadn't donated Alice."",)",,,0,test,0,1,1663
+"('These guests had stretched this dress.',)",,,1,test,1,0,1664
+"('These guests had fallen this dress.',)",,,0,test,0,1,1665
+"('A lot of senators freeze all icicles.',)",,,1,test,1,0,1684
+"('A lot of senators fall all icicles.',)",,,0,test,0,1,1685
+"(""Janet hasn't broken every car."",)",,,1,test,1,0,1690
+"(""Janet hasn't disappeared every car."",)",,,0,test,0,1,1691
+"(""Sabrina wasn't spinning around this man."",)",,,1,test,1,0,1716
+"(""Sabrina wasn't speaking up this man."",)",,,0,test,0,1,1717
+"('The driver is drying many scarves.',)",,,1,test,1,0,1718
+"('The driver is appearing many scarves.',)",,,0,test,0,1,1719
+"('Sonia dries some scarf.',)",,,1,test,1,0,1724
+"('Sonia wasted away some scarf.',)",,,0,test,0,1,1725
+"('A lot of adults break this computer.',)",,,1,test,1,0,1728
+"('A lot of adults vanished this computer.',)",,,0,test,0,1,1729
+"('Sally might accelerate the cart.',)",,,1,test,1,0,1754
+"('Sally might disappear the cart.',)",,,0,test,0,1,1755
+"('Travis had loosened every shirt.',)",,,1,test,1,0,1756
+"('Travis had existed every shirt.',)",,,0,test,0,1,1757
+"('James is dropping this mirror.',)",,,1,test,1,0,1758
+"('James is vanishing this mirror.',)",,,0,test,0,1,1759
+"(""Cheryl's piano teachers are breaking the chairs."",)",,,1,test,1,0,1796
+"(""Cheryl's piano teachers are disappearing the chairs."",)",,,0,test,0,1,1797
+"('Some pedestrian shrinks this glove.',)",,,1,test,1,0,1808
+"('Some pedestrian existed this glove.',)",,,0,test,0,1,1809
+"('Richard would freeze this ice.',)",,,1,test,1,0,1810
+"('Richard would waste away this ice.',)",,,0,test,0,1,1811
+"(""Melinda stands up Kirsten's son."",)",,,1,test,1,0,1826
+"(""Melinda smiles Kirsten's son."",)",,,0,test,0,1,1827
+"('Irene was hurting Tamara.',)",,,1,test,1,0,1830
+"('Irene was explaining everything Tamara.',)",,,0,test,0,1,1831
+"('These teenagers move these wheelbarrows.',)",,,1,test,1,0,1836
+"('These teenagers fell apart these wheelbarrows.',)",,,0,test,0,1,1837
+"('Patrick warped this shoe.',)",,,1,test,1,0,1842
+"('Patrick disappeared this shoe.',)",,,0,test,0,1,1843
+"(""Janice isn't evaporating that icicle."",)",,,1,test,1,0,1850
+"(""Janice isn't appearing that icicle."",)",,,0,test,0,1,1851
+"(""Some customers weren't benefiting the girls."",)",,,1,test,1,0,1862
+"(""Some customers weren't crying the girls."",)",,,0,test,0,1,1863
+"('Denise should open the gate.',)",,,1,test,1,0,1872
+"('Denise should vanish the gate.',)",,,0,test,0,1,1873
+"('Monica fades every candle.',)",,,1,test,1,0,1874
+"('Monica wastes away every candle.',)",,,0,test,0,1,1875
+"('That grandfather of the Clintons has healed Omar.',)",,,1,test,1,0,1880
+"('That grandfather of the Clintons has gotten fired Omar.',)",,,0,test,0,1,1881
+"('Rachelle has stood up Amanda.',)",,,1,test,1,0,1884
+"('Rachelle has drunk Amanda.',)",,,0,test,0,1,1885
+"('Students spun around Derek.',)",,,1,test,1,0,1900
+"('Students compromised Derek.',)",,,0,test,0,1,1901
+"(""Christopher hadn't shrunk a shoe."",)",,,1,test,1,0,1924
+"(""Christopher hadn't fallen a shoe."",)",,,0,test,0,1,1925
+"('Chad slows the cart.',)",,,1,test,1,0,1938
+"('Chad disappears the cart.',)",,,0,test,0,1,1939
+"(""Anna wasn't benefiting a lot of students."",)",,,1,test,1,0,1942
+"(""Anna wasn't sighing a lot of students."",)",,,0,test,0,1,1943
+"('Laura scorched some eggplant.',)",,,1,test,1,0,1946
+"('Laura wastes away some eggplant.',)",,,0,test,0,1,1947
+"('Aaron stood up Elizabeth.',)",,,1,test,1,0,1948
+"('Aaron cheers Elizabeth.',)",,,0,test,0,1,1949
+"(""The Borgias trains that doctor's handyman."",)",,,1,test,1,0,1966
+"(""The Borgias swallowed that doctor's handyman."",)",,,0,test,0,1,1967
+"(""Naomi hadn't twisted a shirt."",)",,,1,test,1,0,1972
+"(""Naomi hadn't wasted away a shirt."",)",,,0,test,0,1,1973
+"(""Janet hasn't flung open some eye."",)",,,1,test,1,0,1980
+"(""Janet hasn't existed some eye."",)",,,0,test,0,1,1981
+"('Monet ripens the cilantro.',)",,,1,test,1,0,1984
+"('Monet appears the cilantro.',)",,,0,test,0,1,1985
+"('Steven ripened these peppers.',)",,,1,test,1,0,1986
+"('Steven existed these peppers.',)",,,0,test,0,1,1987
+"(""Jessica hadn't burned this banana."",)",,,1,test,1,0,1988
+"(""Jessica hadn't wasted away this banana."",)",,,0,test,0,1,1989
+"(""Some pedestrian hasn't tightened this shirt."",)",,,1,test,1,0,1994
+"(""Some pedestrian hasn't appeared this shirt."",)",,,0,test,0,1,1995

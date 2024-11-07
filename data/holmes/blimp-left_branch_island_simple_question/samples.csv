@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('Whose museums had Dana alarmed?',)",,,1,train,1,0,0
+"('Whose had Dana alarmed museums?',)",,,0,train,0,1,1
+"('Whose hat should Tonya wear?',)",,,1,train,1,0,2
+"('Whose should Tonya wear hat?',)",,,0,train,0,1,3
+"('What bicycle was Rebecca noticing?',)",,,1,train,1,0,6
+"('What was Rebecca noticing bicycle?',)",,,0,train,0,1,7
+"('Which senator should Jesus visit?',)",,,1,train,1,0,8
+"('Which should Jesus visit senator?',)",,,0,train,0,1,9
+"('What fish is a person healing?',)",,,1,train,1,0,10
+"('What is a person healing fish?',)",,,0,train,0,1,11
+"('What waiter has James hurt?',)",,,1,train,1,0,14
+"('What has James hurt waiter?',)",,,0,train,0,1,15
+"('Which adult was Larry distracting?',)",,,1,train,1,0,16
+"('Which was Larry distracting adult?',)",,,0,train,0,1,17
+"('What waitresses has Monica approached?',)",,,1,train,1,0,18
+"('What has Monica approached waitresses?',)",,,0,train,0,1,19
+"('What senator is a truck hurting?',)",,,1,train,1,0,22
+"('What is a truck hurting senator?',)",,,0,train,0,1,23
+"('Which newspaper articles can the student dislike?',)",,,1,train,1,0,26
+"('Which can the student dislike newspaper articles?',)",,,0,train,0,1,27
+"('Which oasis has Diane dropped by?',)",,,1,train,1,0,28
+"('Which has Diane dropped by oasis?',)",,,0,train,0,1,29
+"('What unicycles would Galileo take?',)",,,1,train,1,0,36
+"('What would Galileo take unicycles?',)",,,0,train,0,1,37
+"('What paralysis will Amy discover?',)",,,1,train,1,0,38
+"('What will Amy discover paralysis?',)",,,0,train,0,1,39
+"('Which woman could Jesus heal?',)",,,1,train,1,0,40
+"('Which could Jesus heal woman?',)",,,0,train,0,1,41
+"('What patient can this guest reference?',)",,,1,train,1,0,42
+"('What can this guest reference patient?',)",,,0,train,0,1,43
+"('Which waiter could Amelia talk about?',)",,,1,train,1,0,44
+"('Which could Amelia talk about waiter?',)",,,0,train,0,1,45
+"('Which library is Kristen thinking about?',)",,,1,train,1,0,46
+"('Which is Kristen thinking about library?',)",,,0,train,0,1,47
+"('What actress could Adam argue about?',)",,,1,train,1,0,50
+"('What could Adam argue about actress?',)",,,0,train,0,1,51
+"('Which pedestrians had a lot of teachers forgotten?',)",,,1,train,1,0,52
+"('Which had a lot of teachers forgotten pedestrians?',)",,,0,train,0,1,53
+"('Which horses does Marcus hide?',)",,,1,train,1,0,54
+"('Which does Marcus hide horses?',)",,,0,train,0,1,55
+"('Which bikes is John fixing?',)",,,1,train,1,0,60
+"('Which is John fixing bikes?',)",,,0,train,0,1,61
+"('Which movies would Laura hate?',)",,,1,train,1,0,62
+"('What dancers should Kristen respect?',)",,,1,dev,1,0,12
+"('What should Kristen respect dancers?',)",,,0,dev,0,1,13
+"('What doctors will Chad kiss?',)",,,1,dev,1,0,32
+"('What will Chad kiss doctors?',)",,,0,dev,0,1,33
+"('Whose thesis was Donna appreciating?',)",,,1,dev,1,0,34
+"('Whose was Donna appreciating thesis?',)",,,0,dev,0,1,35
+"('Which book could John bring?',)",,,1,dev,1,0,48
+"('Which could John bring book?',)",,,0,dev,0,1,49
+"('Which guys has Colleen cared for?',)",,,1,dev,1,0,58
+"('Which has Colleen cared for guys?',)",,,0,dev,0,1,59
+"('Which closets should Colleen appreciate?',)",,,1,dev,1,0,78
+"('Which should Colleen appreciate closets?',)",,,0,dev,0,1,79
+"('Which women has Harvard University fired?',)",,,1,dev,1,0,102
+"('Which has Harvard University fired women?',)",,,0,dev,0,1,103
+"('Which child would Samantha confuse?',)",,,1,dev,1,0,118
+"('Which would Samantha confuse child?',)",,,0,dev,0,1,119
+"('What malls has Dawn driven to?',)",,,1,dev,1,0,126
+"('What has Dawn driven to malls?',)",,,0,dev,0,1,127
+"('Which men is Ellen distracting?',)",,,1,dev,1,0,182
+"('Which is Ellen distracting men?',)",,,0,dev,0,1,183
+"('Whose screens can a man break?',)",,,1,dev,1,0,192
+"('Whose can a man break screens?',)",,,0,dev,0,1,193
+"('What libraries had Stephen cleaned?',)",,,1,dev,1,0,200
+"('What had Stephen cleaned libraries?',)",,,0,dev,0,1,201
+"('Which girl were some boys disagreeing with?',)",,,1,dev,1,0,220
+"('Which were some boys disagreeing with girl?',)",,,0,dev,0,1,221
+"('Which children has Scott questioned?',)",,,1,dev,1,0,234
+"('Which has Scott questioned children?',)",,,0,dev,0,1,235
+"('What cashier does Carlos hug?',)",,,1,dev,1,0,292
+"('What does Carlos hug cashier?',)",,,0,dev,0,1,293
+"('What teenager is Liam talking about?',)",,,1,dev,1,0,308
+"('What is Liam talking about teenager?',)",,,0,dev,0,1,309
+"('Which lady has Claire seen?',)",,,1,dev,1,0,310
+"('Which has Claire seen lady?',)",,,0,dev,0,1,311
+"('Which high schools was Carol exiting?',)",,,1,dev,1,0,320
+"('Which was Carol exiting high schools?',)",,,0,dev,0,1,321
+"('Whose hospitals did Galileo walk through?',)",,,1,dev,1,0,328
+"('Whose did Galileo walk through hospitals?',)",,,0,dev,0,1,329
+"('What women should Mary hire?',)",,,1,dev,1,0,352
+"('What should Mary hire women?',)",,,0,dev,0,1,353
+"('Whose river can Laura pass?',)",,,1,dev,1,0,360
+"('Whose can Laura pass river?',)",,,0,dev,0,1,361
+"('Whose newspaper articles has the child referenced?',)",,,1,dev,1,0,366
+"('Whose has the child referenced newspaper articles?',)",,,0,dev,0,1,367
+"('Which lady were some banks talking to?',)",,,1,dev,1,0,460
+"('Which were some banks talking to lady?',)",,,0,dev,0,1,461
+"('Whose slope did Cindy ascend?',)",,,1,dev,1,0,470
+"('Whose did Cindy ascend slope?',)",,,0,dev,0,1,471
+"('Which students has some essay embarrassed?',)",,,1,dev,1,0,506
+"('Which has some essay embarrassed students?',)",,,0,dev,0,1,507
+"('Which waitresses might Sharon flee from?',)",,,1,dev,1,0,510
+"('Which might Sharon flee from waitresses?',)",,,0,dev,0,1,511
+"('What offspring was Lawrence watching?',)",,,1,dev,1,0,518
+"('What was Lawrence watching offspring?',)",,,0,dev,0,1,519
+"('Which shoes was Craig thinking about?',)",,,1,dev,1,0,526
+"('Which was Craig thinking about shoes?',)",,,0,dev,0,1,527
+"('What documentary is Dennis researching?',)",,,1,dev,1,0,548
+"('What is Dennis researching documentary?',)",,,0,dev,0,1,549
+"('Which oasis should Emily criticize?',)",,,1,dev,1,0,560
+"('Which should Emily criticize oasis?',)",,,0,dev,0,1,561
+"('What universities would Victoria investigate?',)",,,1,dev,1,0,592
+"('What would Victoria investigate universities?',)",,,0,dev,0,1,593
+"('What actors has every guy worked with?',)",,,1,dev,1,0,602
+"('What has every guy worked with actors?',)",,,0,dev,0,1,603
+"('Whose glacier was Debra skated around?',)",,,1,dev,1,0,606
+"('Whose was Debra skated around glacier?',)",,,0,dev,0,1,607
+"('Which bread had most adults bought?',)",,,1,dev,1,0,616
+"('Which had most adults bought bread?',)",,,0,dev,0,1,617
+"('Whose bank could waitresses sound like?',)",,,1,dev,1,0,632
+"('Whose could waitresses sound like bank?',)",,,0,dev,0,1,633
+"('What closets has Stephen escaped from?',)",,,1,dev,1,0,644
+"('What has Stephen escaped from closets?',)",,,0,dev,0,1,645
+"('What woman have students hurt?',)",,,1,dev,1,0,646
+"('What have students hurt woman?',)",,,0,dev,0,1,647
+"('Whose sweaters does Ronald sell?',)",,,1,dev,1,0,692
+"('Whose does Ronald sell sweaters?',)",,,0,dev,0,1,693
+"('What actors has Tiffany bored?',)",,,1,dev,1,0,718
+"('What has Tiffany bored actors?',)",,,0,dev,0,1,719
+"('What child does Ella argue about?',)",,,1,dev,1,0,726
+"('What does Ella argue about child?',)",,,0,dev,0,1,727
+"('What guests was Tiffany appreciating?',)",,,1,dev,1,0,728
+"('What was Tiffany appreciating guests?',)",,,0,dev,0,1,729
+"('Which pedestrian had some icicle embarrassed?',)",,,1,dev,1,0,760
+"('Which had some icicle embarrassed pedestrian?',)",,,0,dev,0,1,761
+"('What sweater has Elizabeth discovered?',)",,,1,dev,1,0,798
+"('What has Elizabeth discovered sweater?',)",,,0,dev,0,1,799
+"('Whose dish has Samantha fixed?',)",,,1,dev,1,0,806
+"('Whose has Samantha fixed dish?',)",,,0,dev,0,1,807
+"('Which actress have these schools forgotten?',)",,,1,dev,1,0,856
+"('Which have these schools forgotten actress?',)",,,0,dev,0,1,857
+"('Which teachers was Kevin hugging?',)",,,1,dev,1,0,902
+"('Which was Kevin hugging teachers?',)",,,0,dev,0,1,903
+"('What men would those guests insult?',)",,,1,dev,1,0,952
+"('What would those guests insult men?',)",,,0,dev,0,1,953
+"('What company can Carmen stun?',)",,,1,dev,1,0,964
+"('What can Carmen stun company?',)",,,0,dev,0,1,965
+"('Which birds is Emily lifting?',)",,,1,dev,1,0,1000
+"('Which is Emily lifting birds?',)",,,0,dev,0,1,1001
+"('Which senators was Carolyn healing?',)",,,1,dev,1,0,1002
+"('Which was Carolyn healing senators?',)",,,0,dev,0,1,1003
+"('Which actress would Alicia bother?',)",,,1,dev,1,0,1026
+"('Which would Alicia bother actress?',)",,,0,dev,0,1,1027
+"('What waitress will Vanessa aggravate?',)",,,1,dev,1,0,1110
+"('What will Vanessa aggravate waitress?',)",,,0,dev,0,1,1111
+"('What waiter did most children disgust?',)",,,1,dev,1,0,1120
+"('What did most children disgust waiter?',)",,,0,dev,0,1,1121
+"('Which pants have the Lutherans messed up?',)",,,1,dev,1,0,1156
+"('Which have the Lutherans messed up pants?',)",,,0,dev,0,1,1157
+"('What gloves were all teachers buying?',)",,,1,dev,1,0,1158
+"('What were all teachers buying gloves?',)",,,0,dev,0,1,1159
+"('What guest would those guests conceal?',)",,,1,dev,1,0,1222
+"('What would those guests conceal guest?',)",,,0,dev,0,1,1223
+"('What museum is Elizabeth visiting?',)",,,1,dev,1,0,1224
+"('What is Elizabeth visiting museum?',)",,,0,dev,0,1,1225
+"('Whose mushrooms had Marla seen?',)",,,1,dev,1,0,1248
+"('Whose had Marla seen mushrooms?',)",,,0,dev,0,1,1249
+"('Whose convertibles has Sarah fixed?',)",,,1,dev,1,0,1260
+"('Whose has Sarah fixed convertibles?',)",,,0,dev,0,1,1261
+"('Whose slope had Samuel descended?',)",,,1,dev,1,0,1288
+"('Whose had Samuel descended slope?',)",,,0,dev,0,1,1289
+"('What alumni were a lot of patients disagreeing with?',)",,,1,dev,1,0,1296
+"('What were a lot of patients disagreeing with alumni?',)",,,0,dev,0,1,1297
+"('What hat was Regina wearing?',)",,,1,dev,1,0,1312
+"('What was Regina wearing hat?',)",,,0,dev,0,1,1313
+"('What senators had Aaron helped?',)",,,1,dev,1,0,1334
+"('What had Aaron helped senators?',)",,,0,dev,0,1,1335
+"('What boy had Alexander kissed?',)",,,1,dev,1,0,1346
+"('What had Alexander kissed boy?',)",,,0,dev,0,1,1347
+"('What women is every vase alarming?',)",,,1,dev,1,0,1364
+"('What is every vase alarming women?',)",,,0,dev,0,1,1365
+"('Which student had Irene sounded like?',)",,,1,dev,1,0,1380
+"('Which had Irene sounded like student?',)",,,0,dev,0,1,1381
+"('Which fork has Alexander cleaned?',)",,,1,dev,1,0,1402
+"('Which has Alexander cleaned fork?',)",,,0,dev,0,1,1403
+"('Whose sweaters have all teachers worn?',)",,,1,dev,1,0,1408
+"('Whose have all teachers worn sweaters?',)",,,0,dev,0,1,1409
+"('What movies had Carmen described?',)",,,1,dev,1,0,1422
+"('What had Carmen described movies?',)",,,0,dev,0,1,1423
+"('Which waitresses will this lady criticize?',)",,,1,dev,1,0,1484
+"('Which will this lady criticize waitresses?',)",,,0,dev,0,1,1485
+"('What doctor had Wayne hugged?',)",,,1,dev,1,0,1490
+"('What had Wayne hugged doctor?',)",,,0,dev,0,1,1491
+"('Whose hypotheses has Rachel argued about?',)",,,1,dev,1,0,1492
+"('Whose has Rachel argued about hypotheses?',)",,,0,dev,0,1,1493
+"('Which alumni has Julie known?',)",,,1,dev,1,0,1494
+"('Which has Julie known alumni?',)",,,0,dev,0,1,1495
+"('What girl would Judy conceal?',)",,,1,dev,1,0,1506
+"('What would Judy conceal girl?',)",,,0,dev,0,1,1507
+"('What cashier might that cake astound?',)",,,1,dev,1,0,1524
+"('What might that cake astound cashier?',)",,,0,dev,0,1,1525
+"('Which banks had Brenda passed?',)",,,1,dev,1,0,1562
+"('Which had Brenda passed banks?',)",,,0,dev,0,1,1563
+"('What driver have pictures aggravated?',)",,,1,dev,1,0,1574
+"('What have pictures aggravated driver?',)",,,0,dev,0,1,1575
+"('Which universities has Sarah investigated?',)",,,1,dev,1,0,1596
+"('Which has Sarah investigated universities?',)",,,0,dev,0,1,1597
+"('Which senators should Sally observe?',)",,,1,dev,1,0,1600
+"('Which should Sally observe senators?',)",,,0,dev,0,1,1601
+"('Which hills were a lot of boys lifting?',)",,,1,dev,1,0,1670
+"('Which were a lot of boys lifting hills?',)",,,0,dev,0,1,1671
+"('Which museums is Carol appreciating?',)",,,1,dev,1,0,1688
+"('Which is Carol appreciating museums?',)",,,0,dev,0,1,1689
+"('What picture had a bank looked like?',)",,,1,dev,1,0,1718
+"('What had a bank looked like picture?',)",,,0,dev,0,1,1719
+"('What girl can Janice approach?',)",,,1,dev,1,0,1720
+"('What can Janice approach girl?',)",,,0,dev,0,1,1721
+"('Which customers does John hate?',)",,,1,dev,1,0,1724
+"('Which does John hate customers?',)",,,0,dev,0,1,1725
+"('Which closet will Roger like?',)",,,1,dev,1,0,1774
+"('Which will Roger like closet?',)",,,0,dev,0,1,1775
+"('Which dancer were all guys questioning?',)",,,1,dev,1,0,1794
+"('Which were all guys questioning dancer?',)",,,0,dev,0,1,1795
+"('Whose phenomena had Nicole boasted about?',)",,,1,dev,1,0,1798
+"('Whose had Nicole boasted about phenomena?',)",,,0,dev,0,1,1799
+"('Which children had every committee distracted?',)",,,1,dev,1,0,1800
+"('Which had every committee distracted children?',)",,,0,dev,0,1,1801
+"('What slopes has Helen climbed down?',)",,,1,dev,1,0,1824
+"('What has Helen climbed down slopes?',)",,,0,dev,0,1,1825
+"('Whose committees can many eggplants disturb?',)",,,1,dev,1,0,1826
+"('Whose can many eggplants disturb committees?',)",,,0,dev,0,1,1827
+"('What senators had that driver disgusted?',)",,,1,dev,1,0,1870
+"('What had that driver disgusted senators?',)",,,0,dev,0,1,1871
+"('Which governments will Sandra confuse?',)",,,1,dev,1,0,1872
+"('Which will Sandra confuse governments?',)",,,0,dev,0,1,1873
+"('Which adult has Patricia respected?',)",,,1,dev,1,0,1884
+"('Which has Patricia respected adult?',)",,,0,dev,0,1,1885
+"('What public parks had the guys explored?',)",,,1,dev,1,0,1892
+"('What had the guys explored public parks?',)",,,0,dev,0,1,1893
+"('What people had Sherry hugged?',)",,,1,dev,1,0,1902
+"('What had Sherry hugged people?',)",,,0,dev,0,1,1903
+"('Whose high school will Raymond criticize?',)",,,1,dev,1,0,1904
+"('Whose will Raymond criticize high school?',)",,,0,dev,0,1,1905
+"('What person were the sketches astounding?',)",,,1,dev,1,0,1928
+"('What were the sketches astounding person?',)",,,0,dev,0,1,1929
+"('What alumni is Kathleen referencing?',)",,,1,dev,1,0,1944
+"('What is Kathleen referencing alumni?',)",,,0,dev,0,1,1945
+"('Which hospital is Anne touring?',)",,,1,dev,1,0,1990
+"('Which is Anne touring hospital?',)",,,0,dev,0,1,1991
+"('Which boy has the association worried?',)",,,1,dev,1,0,1996
+"('Which has the association worried boy?',)",,,0,dev,0,1,1997
+"('What movies is Renee concealing?',)",,,1,test,1,0,4
+"('What is Renee concealing movies?',)",,,0,test,0,1,5
+"('Which waiters has Thomas disliked?',)",,,1,test,1,0,20
+"('Which has Thomas disliked waiters?',)",,,0,test,0,1,21
+"('Which carriages might Alice break?',)",,,1,test,1,0,24
+"('Which might Alice break carriages?',)",,,0,test,0,1,25
+"('Which senators has Deborah observed?',)",,,1,test,1,0,30
+"('Which has Deborah observed senators?',)",,,0,test,0,1,31
+"('What adults do many drawings embarrass?',)",,,1,test,1,0,56
+"('What do many drawings embarrass adults?',)",,,0,test,0,1,57
+"('What carriage is Steve fixing?',)",,,1,test,1,0,66
+"('What is Steve fixing carriage?',)",,,0,test,0,1,67
+"('Which glove had an adult concealed?',)",,,1,test,1,0,72
+"('Which had an adult concealed glove?',)",,,0,test,0,1,73
+"('Which hill is Roger climbing down?',)",,,1,test,1,0,84
+"('Which is Roger climbing down hill?',)",,,0,test,0,1,85
+"('Which men has George questioned?',)",,,1,test,1,0,86
+"('Which has George questioned men?',)",,,0,test,0,1,87
+"('What teenagers was Monet visiting?',)",,,1,test,1,0,88
+"('What was Monet visiting teenagers?',)",,,0,test,0,1,89
+"('What teenager had Elaine complained about?',)",,,1,test,1,0,92
+"('What had Elaine complained about teenager?',)",,,0,test,0,1,93
+"('What customers might Benjamin work with?',)",,,1,test,1,0,94
+"('What might Benjamin work with customers?',)",,,0,test,0,1,95
+"('Which organizations has Laura upset?',)",,,1,test,1,0,98
+"('Which has Laura upset organizations?',)",,,0,test,0,1,99
+"('Which eyes might Jacqueline clean?',)",,,1,test,1,0,112
+"('Which might Jacqueline clean eyes?',)",,,0,test,0,1,113
+"('What high school does Melissa walk through?',)",,,1,test,1,0,114
+"('What does Melissa walk through high school?',)",,,0,test,0,1,115
+"('What museum can Theodore skate around?',)",,,1,test,1,0,120
+"('What can Theodore skate around museum?',)",,,0,test,0,1,121
+"('What patients have all chairs embarrassed?',)",,,1,test,1,0,124
+"('What have all chairs embarrassed patients?',)",,,0,test,0,1,125
+"('Which college campuses had Paula walked through?',)",,,1,test,1,0,128
+"('Which had Paula walked through college campuses?',)",,,0,test,0,1,129
+"('Whose ladders is Paul descending?',)",,,1,test,1,0,140
+"('Whose is Paul descending ladders?',)",,,0,test,0,1,141
+"('What woman had some bird annoyed?',)",,,1,test,1,0,142
+"('What had some bird annoyed woman?',)",,,0,test,0,1,143
+"('Which closet should Alexander run around?',)",,,1,test,1,0,160
+"('Which should Alexander run around closet?',)",,,0,test,0,1,161
+"('Which adult has Brad loved?',)",,,1,test,1,0,168
+"('Which has Brad loved adult?',)",,,0,test,0,1,169
+"('What cashiers does Sharon question?',)",,,1,test,1,0,214
+"('What does Sharon question cashiers?',)",,,0,test,0,1,215
+"('Which movies is Alan scanning?',)",,,1,test,1,0,222
+"('Which is Alan scanning movies?',)",,,0,test,0,1,223
+"('What hills should Kristen climb up?',)",,,1,test,1,0,230
+"('What should Kristen climb up hills?',)",,,0,test,0,1,231
+"('Whose library was every driver going to?',)",,,1,test,1,0,250
+"('Whose was every driver going to library?',)",,,0,test,0,1,251
+"('Whose public park will Winston Churchill go to?',)",,,1,test,1,0,254
+"('Whose will Winston Churchill go to public park?',)",,,0,test,0,1,255
+"('What adults could Galileo hate?',)",,,1,test,1,0,260
+"('What could Galileo hate adults?',)",,,0,test,0,1,261
+"('Whose hair had Derek seen?',)",,,1,test,1,0,268
+"('Whose had Derek seen hair?',)",,,0,test,0,1,269
+"('Which doctors is Meredith arguing about?',)",,,1,test,1,0,270
+"('Which is Meredith arguing about doctors?',)",,,0,test,0,1,271
+"('What senator had Margaret astounded?',)",,,1,test,1,0,274
+"('What had Margaret astounded senator?',)",,,0,test,0,1,275
+"('What man was Spain boring?',)",,,1,test,1,0,278
+"('What was Spain boring man?',)",,,0,test,0,1,279
+"('Which guests were a lot of guests disturbing?',)",,,1,test,1,0,294
+"('Which were a lot of guests disturbing guests?',)",,,0,test,0,1,295
+"('Which book is Natalie selling?',)",,,1,test,1,0,296
+"('Which is Natalie selling book?',)",,,0,test,0,1,297
+"('What paintings is Maria revealing?',)",,,1,test,1,0,304
+"('What is Maria revealing paintings?',)",,,0,test,0,1,305
+"('Whose photographs might those apples resemble?',)",,,1,test,1,0,306
+"('Whose might those apples resemble photographs?',)",,,0,test,0,1,307
+"('Whose hospital was Karen visiting?',)",,,1,test,1,0,318
+"('Whose was Karen visiting hospital?',)",,,0,test,0,1,319
+"('Which guests is Ella hiring?',)",,,1,test,1,0,326
+"('Which is Ella hiring guests?',)",,,0,test,0,1,327
+"('Which lake has Julia toured?',)",,,1,test,1,0,330
+"('Which has Julia toured lake?',)",,,0,test,0,1,331
+"('Which cashier is that painting shocking?',)",,,1,test,1,0,334
+"('Which is that painting shocking cashier?',)",,,0,test,0,1,335
+"('Which waitresses had those companies disgusted?',)",,,1,test,1,0,340
+"('Which had those companies disgusted waitresses?',)",,,0,test,0,1,341
+"('Which guys was Chad talking to?',)",,,1,test,1,0,362
+"('Which was Chad talking to guys?',)",,,0,test,0,1,363
+"('Which guest has Nancy listened to?',)",,,1,test,1,0,374
+"('Which has Nancy listened to guest?',)",,,0,test,0,1,375
+"('What customers has David investigated?',)",,,1,test,1,0,378
+"('What has David investigated customers?',)",,,0,test,0,1,379
+"('What glove did Paul wear?',)",,,1,test,1,0,386
+"('What did Paul wear glove?',)",,,0,test,0,1,387
+"('Which libraries had Julia described?',)",,,1,test,1,0,392
+"('Which had Julia described libraries?',)",,,0,test,0,1,393
+"('Which teenagers can Tonya annoy?',)",,,1,test,1,0,396
+"('Which can Tonya annoy teenagers?',)",,,0,test,0,1,397
+"('Whose libraries had every bank alarmed?',)",,,1,test,1,0,414
+"('Whose had every bank alarmed libraries?',)",,,0,test,0,1,415
+"('Whose skateboards was Stacey taking?',)",,,1,test,1,0,424
+"('Whose was Stacey taking skateboards?',)",,,0,test,0,1,425
+"('What cart did George fix?',)",,,1,test,1,0,426
+"('What did George fix cart?',)",,,0,test,0,1,427
+"('Whose book were the Impressionists concealing?',)",,,1,test,1,0,432
+"('Whose were the Impressionists concealing book?',)",,,0,test,0,1,433
+"('What malls has Ella biked to?',)",,,1,test,1,0,434
+"('What has Ella biked to malls?',)",,,0,test,0,1,435
+"('Whose thesis has Linda described?',)",,,1,test,1,0,450
+"('Whose has Linda described thesis?',)",,,0,test,0,1,451
+"('Which commentary was Ruth boasting about?',)",,,1,test,1,0,452
+"('Which was Ruth boasting about commentary?',)",,,0,test,0,1,453
+"('What customers will many cashiers talk about?',)",,,1,test,1,0,454
+"('What will many cashiers talk about customers?',)",,,0,test,0,1,455
+"('Which mushroom is Rachel finding?',)",,,1,test,1,0,468
+"('Which is Rachel finding mushroom?',)",,,0,test,0,1,469
+"('Whose hospitals were some stories astounding?',)",,,1,test,1,0,484
+"('Whose were some stories astounding hospitals?',)",,,0,test,0,1,485
+"('Which nucleus has this actor brought?',)",,,1,test,1,0,498
+"('Which has this actor brought nucleus?',)",,,0,test,0,1,499
+"('What pedestrian did Beverly insult?',)",,,1,test,1,0,554
+"('What did Beverly insult pedestrian?',)",,,0,test,0,1,555
+"('Which boys is Paula escaping from?',)",,,1,test,1,0,576
+"('Which is Paula escaping from boys?',)",,,0,test,0,1,577
+"('What teenagers has Amelia watched?',)",,,1,test,1,0,588
+"('What has Amelia watched teenagers?',)",,,0,test,0,1,589
+"('Which cashiers can Michelle listen to?',)",,,1,test,1,0,600
+"('Which can Michelle listen to cashiers?',)",,,0,test,0,1,601
+"('Whose steps is Elaine climbing up?',)",,,1,test,1,0,604
+"('Whose is Elaine climbing up steps?',)",,,0,test,0,1,605
+"('Which drivers was a skateboard disturbing?',)",,,1,test,1,0,626
+"('Which was a skateboard disturbing drivers?',)",,,0,test,0,1,627
+"('What reports did Ann scan?',)",,,1,test,1,0,638
+"('What did Ann scan reports?',)",,,0,test,0,1,639
+"('What drivers might Dana hurt?',)",,,1,test,1,0,652
+"('What might Dana hurt drivers?',)",,,0,test,0,1,653
+"('Which synopses was Helen boasting about?',)",,,1,test,1,0,658
+"('Which was Helen boasting about synopses?',)",,,0,test,0,1,659
+"('Which planes might Melanie like?',)",,,1,test,1,0,660
+"('Which might Melanie like planes?',)",,,0,test,0,1,661
+"('Whose books is Meredith examining?',)",,,1,test,1,0,690
+"('Whose is Meredith examining books?',)",,,0,test,0,1,691
+"('Which movie theaters had many boys respected?',)",,,1,test,1,0,700
+"('Which had many boys respected movie theaters?',)",,,0,test,0,1,701
+"('What guy would those lakes embarrass?',)",,,1,test,1,0,740
+"('What would those lakes embarrass guy?',)",,,0,test,0,1,741
+"('Which mountains is Denise climbing up?',)",,,1,test,1,0,742
+"('Which is Denise climbing up mountains?',)",,,0,test,0,1,743
+"('Which girls has Adam investigated?',)",,,1,test,1,0,746
+"('Which has Adam investigated girls?',)",,,0,test,0,1,747
+"('Which doctor did most universities dislike?',)",,,1,test,1,0,752
+"('Which did most universities dislike doctor?',)",,,0,test,0,1,753
+"('What actresses has Kristen concealed?',)",,,1,test,1,0,758
+"('What has Kristen concealed actresses?',)",,,0,test,0,1,759
+"('Whose plates has Kenneth cleaned?',)",,,1,test,1,0,764
+"('Whose has Kenneth cleaned plates?',)",,,0,test,0,1,765
+"('What banks was Grace escaping from?',)",,,1,test,1,0,782
+"('What was Grace escaping from banks?',)",,,0,test,0,1,783
+"('What child had Brett upset?',)",,,1,test,1,0,786
+"('What had Brett upset child?',)",,,0,test,0,1,787
+"('Which children has a senator worked with?',)",,,1,test,1,0,788
+"('Which has a senator worked with children?',)",,,0,test,0,1,789
+"('What men has Martin hired?',)",,,1,test,1,0,800
+"('What has Martin hired men?',)",,,0,test,0,1,801
+"('Which adult could Patricia talk about?',)",,,1,test,1,0,818
+"('Which could Patricia talk about adult?',)",,,0,test,0,1,819
+"('Which grocery stores is Sarah dropping by?',)",,,1,test,1,0,822
+"('Which is Sarah dropping by grocery stores?',)",,,0,test,0,1,823
+"('Whose movie might these movies disagree with?',)",,,1,test,1,0,838
+"('Whose might these movies disagree with movie?',)",,,0,test,0,1,839
+"('What dancer had Frank boasted about?',)",,,1,test,1,0,860
+"('What had Frank boasted about dancer?',)",,,0,test,0,1,861
+"('What hill had Ann dropped by?',)",,,1,test,1,0,866
+"('What had Ann dropped by hill?',)",,,0,test,0,1,867
+"('What hospital was Heather appreciating?',)",,,1,test,1,0,868
+"('What was Heather appreciating hospital?',)",,,0,test,0,1,869
+"('Whose pamphlets might Larry scan?',)",,,1,test,1,0,874
+"('Whose might Larry scan pamphlets?',)",,,0,test,0,1,875
+"('Whose hospital has Sabrina cleaned?',)",,,1,test,1,0,878
+"('Whose has Sabrina cleaned hospital?',)",,,0,test,0,1,879
+"('Which children could Margaret question?',)",,,1,test,1,0,892
+"('Which could Margaret question children?',)",,,0,test,0,1,893
+"('What children do these women cure?',)",,,1,test,1,0,898
+"('What do these women cure children?',)",,,0,test,0,1,899
+"('Which ladders has Sally ascended?',)",,,1,test,1,0,906
+"('Which has Sally ascended ladders?',)",,,0,test,0,1,907
+"('Which convertibles would Diana break?',)",,,1,test,1,0,912
+"('Which would Diana break convertibles?',)",,,0,test,0,1,913
+"('What cafes is Dennis appreciating?',)",,,1,test,1,0,928
+"('What is Dennis appreciating cafes?',)",,,0,test,0,1,929
+"('Whose banks has Jane biked to?',)",,,1,test,1,0,930
+"('Whose has Jane biked to banks?',)",,,0,test,0,1,931
+"('Whose movie theaters had Lisa explored?',)",,,1,test,1,0,936
+"('Whose had Lisa explored movie theaters?',)",,,0,test,0,1,937
+"('What bank was Martin returning to?',)",,,1,test,1,0,942
+"('What was Martin returning to bank?',)",,,0,test,0,1,943
+"('Whose pamphlets had Randolf disliked?',)",,,1,test,1,0,944
+"('Whose had Randolf disliked pamphlets?',)",,,0,test,0,1,945
+"('Which mouths has Stacey concealed?',)",,,1,test,1,0,954
+"('Which has Stacey concealed mouths?',)",,,0,test,0,1,955
+"('Which offspring did Florence leave?',)",,,1,test,1,0,956
+"('Which did Florence leave offspring?',)",,,0,test,0,1,957
+"('What cakes was Larry selling?',)",,,1,test,1,0,962
+"('What was Larry selling cakes?',)",,,0,test,0,1,963
+"('What shirt is Michelle wearing?',)",,,1,test,1,0,976
+"('What is Michelle wearing shirt?',)",,,0,test,0,1,977
+"('Whose high school had Brian skated around?',)",,,1,test,1,0,984
+"('Whose had Brian skated around high school?',)",,,0,test,0,1,985
+"('Whose teeth can Phillip clean?',)",,,1,test,1,0,1004
+"('Whose can Phillip clean teeth?',)",,,0,test,0,1,1005
+"('Whose rivers was Helen running around?',)",,,1,test,1,0,1008
+"('Whose was Helen running around rivers?',)",,,0,test,0,1,1009
+"('Which alumni has Craig helped?',)",,,1,test,1,0,1020
+"('Which has Craig helped alumni?',)",,,0,test,0,1,1021
+"('Whose synopsis had Irene complained about?',)",,,1,test,1,0,1028
+"('Whose had Irene complained about synopsis?',)",,,0,test,0,1,1029
+"('What fish had most sketches looked like?',)",,,1,test,1,0,1040
+"('What had most sketches looked like fish?',)",,,0,test,0,1,1041
+"('Which children has Karla observed?',)",,,1,test,1,0,1054
+"('Which has Karla observed children?',)",,,0,test,0,1,1055
+"('What report does Carolyn scan?',)",,,1,test,1,0,1066
+"('What does Carolyn scan report?',)",,,0,test,0,1,1067
+"('What actresses had Kirsten disgusted?',)",,,1,test,1,0,1076
+"('What had Kirsten disgusted actresses?',)",,,0,test,0,1,1077
+"('Which pedestrians has Mary loved?',)",,,1,test,1,0,1086
+"('Which has Mary loved pedestrians?',)",,,0,test,0,1,1087
+"('What teacher had Melanie investigated?',)",,,1,test,1,0,1088
+"('What had Melanie investigated teacher?',)",,,0,test,0,1,1089
+"('Which guest has a print astounded?',)",,,1,test,1,0,1092
+"('Which has a print astounded guest?',)",,,0,test,0,1,1093
+"('What hospitals is Andrea touring?',)",,,1,test,1,0,1098
+"('What is Andrea touring hospitals?',)",,,0,test,0,1,1099
+"('What movie theater was Eva fleeing from?',)",,,1,test,1,0,1118
+"('What was Eva fleeing from movie theater?',)",,,0,test,0,1,1119
+"('Whose deer had Benjamin cured?',)",,,1,test,1,0,1132
+"('Whose had Benjamin cured deer?',)",,,0,test,0,1,1133
+"('Whose mountains had Diana climbed up?',)",,,1,test,1,0,1152
+"('Whose had Diana climbed up mountains?',)",,,0,test,0,1,1153
+"('Which guy do all cashiers sound like?',)",,,1,test,1,0,1154
+"('Which do all cashiers sound like guy?',)",,,0,test,0,1,1155
+"('What associations was Carrie boycotting?',)",,,1,test,1,0,1162
+"('What was Carrie boycotting associations?',)",,,0,test,0,1,1163
+"('What dancer does every rug worry?',)",,,1,test,1,0,1166
+"('What does every rug worry dancer?',)",,,0,test,0,1,1167
+"('Whose rivers were a lot of boys running around?',)",,,1,test,1,0,1176
+"('Whose were a lot of boys running around rivers?',)",,,0,test,0,1,1177
+"('Which dancers has Ronald hated?',)",,,1,test,1,0,1178
+"('Which has Ronald hated dancers?',)",,,0,test,0,1,1179
+"('Which ladies does Heather describe?',)",,,1,test,1,0,1180
+"('Which does Heather describe ladies?',)",,,0,test,0,1,1181
+"('What pants would Laura wear?',)",,,1,test,1,0,1182
+"('What would Laura wear pants?',)",,,0,test,0,1,1183
+"('What driver had some patient watched?',)",,,1,test,1,0,1186
+"('What had some patient watched driver?',)",,,0,test,0,1,1187
+"('Which teenagers had every art gallery bored?',)",,,1,test,1,0,1188
+"('Which had every art gallery bored teenagers?',)",,,0,test,0,1,1189
+"('Whose gloves has James taken?',)",,,1,test,1,0,1196
+"('Whose has James taken gloves?',)",,,0,test,0,1,1197
+"('What libraries has Brett gone to?',)",,,1,test,1,0,1198
+"('What has Brett gone to libraries?',)",,,0,test,0,1,1199
+"('Which pedestrians can Wayne watch?',)",,,1,test,1,0,1202
+"('Which can Wayne watch pedestrians?',)",,,0,test,0,1,1203
+"('What association could current events disturb?',)",,,1,test,1,0,1208
+"('What could current events disturb association?',)",,,0,test,0,1,1209
+"('What senators could Tammy describe?',)",,,1,test,1,0,1216
+"('What could Tammy describe senators?',)",,,0,test,0,1,1217
+"('Which senators had Florence discussed?',)",,,1,test,1,0,1230
+"('Which had Florence discussed senators?',)",,,0,test,0,1,1231
+"('Which public parks do those actresses skate around?',)",,,1,test,1,0,1244
+"('Which do those actresses skate around public parks?',)",,,0,test,0,1,1245
+"('What essay had most doctors examined?',)",,,1,test,1,0,1262
+"('What had most doctors examined essay?',)",,,0,test,0,1,1263
+"('What pedestrian is Dennis hugging?',)",,,1,test,1,0,1278
+"('What is Dennis hugging pedestrian?',)",,,0,test,0,1,1279
+"('Whose grocery stores might Danielle escape from?',)",,,1,test,1,0,1300
+"('Whose might Danielle escape from grocery stores?',)",,,0,test,0,1,1301
+"('Which grocery stores has Jessica criticized?',)",,,1,test,1,0,1302
+"('Which has Jessica criticized grocery stores?',)",,,0,test,0,1,1303
+"('Which organization had Sara embarrassed?',)",,,1,test,1,0,1306
+"('Which had Sara embarrassed organization?',)",,,0,test,0,1,1307
+"('What teenagers is Monet approaching?',)",,,1,test,1,0,1316
+"('What is Monet approaching teenagers?',)",,,0,test,0,1,1317
+"('Which students were some people firing?',)",,,1,test,1,0,1318
+"('Which were some people firing students?',)",,,0,test,0,1,1319
+"('What hospitals has Carol run around?',)",,,1,test,1,0,1342
+"('What has Carol run around hospitals?',)",,,0,test,0,1,1343
+"('Which mall has Jodi skated around?',)",,,1,test,1,0,1356
+"('Which has Jodi skated around mall?',)",,,0,test,0,1,1357
+"('Which high schools had Eric returned to?',)",,,1,test,1,0,1358
+"('Which had Eric returned to high schools?',)",,,0,test,0,1,1359
+"('Which woman does the chicken disturb?',)",,,1,test,1,0,1382
+"('Which does the chicken disturb woman?',)",,,0,test,0,1,1383
+"('Which movie theater had Grace cleaned?',)",,,1,test,1,0,1392
+"('Which had Grace cleaned movie theater?',)",,,0,test,0,1,1393
+"('Which cafe has Debra toured?',)",,,1,test,1,0,1404
+"('Which has Debra toured cafe?',)",,,0,test,0,1,1405
+"('Which closet could Sheila pass?',)",,,1,test,1,0,1420
+"('Which could Sheila pass closet?',)",,,0,test,0,1,1421
+"('What glacier have all schools admired?',)",,,1,test,1,0,1434
+"('What have all schools admired glacier?',)",,,0,test,0,1,1435
+"('Which carriage had Cheryl broken?',)",,,1,test,1,0,1442
+"('Which had Cheryl broken carriage?',)",,,0,test,0,1,1443
+"('What oasis should Janet complain about?',)",,,1,test,1,0,1454
+"('What should Janet complain about oasis?',)",,,0,test,0,1,1455
+"('Which guests will the actors disagree with?',)",,,1,test,1,0,1466
+"('Which will the actors disagree with guests?',)",,,0,test,0,1,1467
+"('What girls has Stacy worked with?',)",,,1,test,1,0,1468
+"('What has Stacy worked with girls?',)",,,0,test,0,1,1469
+"('Which brochure might the Borgias insult?',)",,,1,test,1,0,1470
+"('Which might the Borgias insult brochure?',)",,,0,test,0,1,1471
+"('Which child is Becky working with?',)",,,1,test,1,0,1474
+"('Which is Becky working with child?',)",,,0,test,0,1,1475
+"('What actors have most tomatoes hurt?',)",,,1,test,1,0,1496
+"('What have most tomatoes hurt actors?',)",,,0,test,0,1,1497
+"('What movies has Peter criticized?',)",,,1,test,1,0,1518
+"('What has Peter criticized movies?',)",,,0,test,0,1,1519
+"('What committee has Brad investigated?',)",,,1,test,1,0,1530
+"('What has Brad investigated committee?',)",,,0,test,0,1,1531
+"('What mountains can Gary climb down?',)",,,1,test,1,0,1542
+"('What can Gary climb down mountains?',)",,,0,test,0,1,1543
+"('What driver were all schools insulting?',)",,,1,test,1,0,1544
+"('What were all schools insulting driver?',)",,,0,test,0,1,1545
+"('Which hospital did Alexander go to?',)",,,1,test,1,0,1556
+"('Which did Alexander go to hospital?',)",,,0,test,0,1,1557
+"('Which shoes has Omar cleaned?',)",,,1,test,1,0,1566
+"('Which has Omar cleaned shoes?',)",,,0,test,0,1,1567
+"('What fish has Susan cured?',)",,,1,test,1,0,1576
+"('What has Susan cured fish?',)",,,0,test,0,1,1577
+"('What thesis has the boy scanned?',)",,,1,test,1,0,1580
+"('What has the boy scanned thesis?',)",,,0,test,0,1,1581
+"('What bank would that student drop by?',)",,,1,test,1,0,1620
+"('What would that student drop by bank?',)",,,0,test,0,1,1621
+"('Which girl would Nina approach?',)",,,1,test,1,0,1640
+"('Which would Nina approach girl?',)",,,0,test,0,1,1641
+"('What ladder is Grace climbing down?',)",,,1,test,1,0,1646
+"('What is Grace climbing down ladder?',)",,,0,test,0,1,1647
+"('Whose public parks was that customer dropping by?',)",,,1,test,1,0,1648
+"('Whose was that customer dropping by public parks?',)",,,0,test,0,1,1649
+"('What library had Laurie walked through?',)",,,1,test,1,0,1658
+"('What had Laurie walked through library?',)",,,0,test,0,1,1659
+"('Which actors had Tiffany questioned?',)",,,1,test,1,0,1664
+"('Which had Tiffany questioned actors?',)",,,0,test,0,1,1665
+"('Which sock can these governments take?',)",,,1,test,1,0,1674
+"('Which can these governments take sock?',)",,,0,test,0,1,1675
+"('Which slope was Diana climbing up?',)",,,1,test,1,0,1676
+"('Which was Diana climbing up slope?',)",,,0,test,0,1,1677
+"('Which guy is Brenda questioning?',)",,,1,test,1,0,1706
+"('Which is Brenda questioning guy?',)",,,0,test,0,1,1707
+"('Which offspring has Brad talked about?',)",,,1,test,1,0,1710
+"('Which has Brad talked about offspring?',)",,,0,test,0,1,1711
+"('Which actress have these glasses bothered?',)",,,1,test,1,0,1714
+"('Which have these glasses bothered actress?',)",,,0,test,0,1,1715
+"('Whose companies have most hills scared?',)",,,1,test,1,0,1748
+"('Whose have most hills scared companies?',)",,,0,test,0,1,1749
+"('Whose government would that unicycle aggravate?',)",,,1,test,1,0,1752
+"('Whose would that unicycle aggravate government?',)",,,0,test,0,1,1753
+"('Whose eggplant had the waiter cleaned?',)",,,1,test,1,0,1766
+"('Whose had the waiter cleaned eggplant?',)",,,0,test,0,1,1767
+"('What slopes was Peter climbing down?',)",,,1,test,1,0,1768
+"('What was Peter climbing down slopes?',)",,,0,test,0,1,1769
+"('What movie was Adam scanning?',)",,,1,test,1,0,1776
+"('What was Adam scanning movie?',)",,,0,test,0,1,1777
+"('Whose banks was Donald researching?',)",,,1,test,1,0,1786
+"('Whose was Donald researching banks?',)",,,0,test,0,1,1787
+"('What rivers had April sounded like?',)",,,1,test,1,0,1790
+"('What had April sounded like rivers?',)",,,0,test,0,1,1791
+"('Which children have some people approached?',)",,,1,test,1,0,1792
+"('Which have some people approached children?',)",,,0,test,0,1,1793
+"('Which phenomena is Gregory researching?',)",,,1,test,1,0,1796
+"('Which is Gregory researching phenomena?',)",,,0,test,0,1,1797
+"('Whose college campuses did Vanessa drive to?',)",,,1,test,1,0,1816
+"('Whose did Vanessa drive to college campuses?',)",,,0,test,0,1,1817
+"('What glaciers had Naomi visited?',)",,,1,test,1,0,1832
+"('What had Naomi visited glaciers?',)",,,0,test,0,1,1833
+"('Which adults have the teachers disagreed with?',)",,,1,test,1,0,1834
+"('Which have the teachers disagreed with adults?',)",,,0,test,0,1,1835
+"('Which documentary has Valerie forgotten?',)",,,1,test,1,0,1838
+"('Which has Valerie forgotten documentary?',)",,,0,test,0,1,1839
+"('Which painting will Carol resemble?',)",,,1,test,1,0,1846
+"('Which will Carol resemble painting?',)",,,0,test,0,1,1847
+"('What birds has Homer bought?',)",,,1,test,1,0,1852
+"('What has Homer bought birds?',)",,,0,test,0,1,1853
+"('Which grocery stores was Thomas noticing?',)",,,1,test,1,0,1856
+"('Which was Thomas noticing grocery stores?',)",,,0,test,0,1,1857
+"('Which dancer was Larry approaching?',)",,,1,test,1,0,1858
+"('Which was Larry approaching dancer?',)",,,0,test,0,1,1859
+"('Which slope is James ascending?',)",,,1,test,1,0,1890
+"('Which is James ascending slope?',)",,,0,test,0,1,1891
+"('What college campus had this teacher explored?',)",,,1,test,1,0,1898
+"('What had this teacher explored college campus?',)",,,0,test,0,1,1899
+"('What bank was Karen biking to?',)",,,1,test,1,0,1908
+"('What was Karen biking to bank?',)",,,0,test,0,1,1909
+"('Which hamster had Elizabeth bought?',)",,,1,test,1,0,1910
+"('Which had Elizabeth bought hamster?',)",,,0,test,0,1,1911
+"('What school has Joseph criticized?',)",,,1,test,1,0,1926
+"('What has Joseph criticized school?',)",,,0,test,0,1,1927
+"('What girl does Heather listen to?',)",,,1,test,1,0,1932
+"('What does Heather listen to girl?',)",,,0,test,0,1,1933
+"('Which teenager would Beth investigate?',)",,,1,test,1,0,1934
+"('Which would Beth investigate teenager?',)",,,0,test,0,1,1935
+"('Which plate was Caroline finding?',)",,,1,test,1,0,1972
+"('Which was Caroline finding plate?',)",,,0,test,0,1,1973
+"('Which schools was Carl messing up?',)",,,1,test,1,0,1978
+"('Which was Carl messing up schools?',)",,,0,test,0,1,1979

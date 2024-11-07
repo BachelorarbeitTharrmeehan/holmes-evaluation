@@ -1,0 +1,7 @@
+control_task_type: NONE
+num_inputs: 1
+num_labels: 2
+num_probe_folds: 1
+probe_name: probe-blimp-left_branch_island_simple_question
+probe_task_type: SENTENCE
+probes_samples_path: general-probes/blimp-left_branch_island_simple_question/

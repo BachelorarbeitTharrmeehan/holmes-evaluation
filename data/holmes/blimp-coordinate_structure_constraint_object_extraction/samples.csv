@@ -1,0 +1,644 @@
+inputs,context,topic,org_label,set-0,string_label,label,id
+"('What do that legislature and Janice bother?',)",,,1,train,1,0,4
+"('What could that legislature bother and Janice?',)",,,0,train,0,1,5
+"('What were some museum and a lot of patients insulting?',)",,,1,train,1,0,6
+"('What is some museum insulting and a lot of patients?',)",,,0,train,0,1,7
+"('Who should Keith and Andrea climb up?',)",,,1,train,1,0,8
+"('Who might Keith climb up and Andrea?',)",,,0,train,0,1,9
+"('What are Rose and a picture scaring?',)",,,1,train,1,0,10
+"('What is Rose scaring and a picture?',)",,,0,train,0,1,11
+"('Who should that company and Caroline boast about?',)",,,1,train,1,0,12
+"('Who does that company boast about and Caroline?',)",,,0,train,0,1,13
+"('What had Jesus and Andrea arrived at?',)",,,1,train,1,0,18
+"('What had Jesus arrived at and Andrea?',)",,,0,train,0,1,19
+"('Who were Kristen and Melinda biking to?',)",,,1,train,1,0,20
+"('Who is Kristen biking to and Melinda?',)",,,0,train,0,1,21
+"('Who could Joel and this fish hurt?',)",,,1,train,1,0,24
+"('Who would Joel hurt and this fish?',)",,,0,train,0,1,25
+"('What have Brian and Galileo escaped from?',)",,,1,train,1,0,26
+"('What had Brian escaped from and Galileo?',)",,,0,train,0,1,27
+"('Who were some windows and Douglas aggravating?',)",,,1,train,1,0,28
+"('Who were some windows aggravating and Douglas?',)",,,0,train,0,1,29
+"('What were the turtle and Scott scaring?',)",,,1,train,1,0,30
+"('What was the turtle scaring and Scott?',)",,,0,train,0,1,31
+"('Who are Bruce and Ronald hugging?',)",,,1,train,1,0,32
+"('Who is Bruce hugging and Ronald?',)",,,0,train,0,1,33
+"('Who would a man and Victoria hate?',)",,,1,train,1,0,34
+"('Who can a man hate and Victoria?',)",,,0,train,0,1,35
+"('Who can Karen and Kimberley approach?',)",,,1,train,1,0,38
+"('Who should Karen approach and Kimberley?',)",,,0,train,0,1,39
+"('What had Russell and Douglas attacked?',)",,,1,train,1,0,40
+"('What had Russell attacked and Douglas?',)",,,0,train,0,1,41
+"('Who are Mitchell and most guys boycotting?',)",,,1,train,1,0,42
+"('Who is Mitchell boycotting and most guys?',)",,,0,train,0,1,43
+"('What can Julie and Veronica examine?',)",,,1,train,1,0,44
+"('What might Julie examine and Veronica?',)",,,0,train,0,1,45
+"('What can Sharon and most universities boast about?',)",,,1,train,1,0,46
+"('What did Sharon boast about and most universities?',)",,,0,train,0,1,47
+"('What did Caroline and Colleen kiss?',)",,,1,train,1,0,48
+"('What might Caroline kiss and Colleen?',)",,,0,train,0,1,49
+"('Who can Dawn and every actor question?',)",,,1,train,1,0,50
+"('Who should Dawn question and every actor?',)",,,0,train,0,1,51
+"('What will the report and those guys disagree with?',)",,,1,train,1,0,52
+"('What could the report disagree with and those guys?',)",,,0,train,0,1,53
+"('What had Ann and Nicole bought?',)",,,1,train,1,0,54
+"('Who were all men and Eric leaving?',)",,,1,dev,1,0,0
+"('Who were all men leaving and Eric?',)",,,0,dev,0,1,1
+"('Who will Elizabeth and Gregory cure?',)",,,1,dev,1,0,2
+"('Who could Elizabeth cure and Gregory?',)",,,0,dev,0,1,3
+"('What have Cindy and Valerie examined?',)",,,1,dev,1,0,78
+"('What had Cindy examined and Valerie?',)",,,0,dev,0,1,79
+"('What had Jane and Karen discussed?',)",,,1,dev,1,0,88
+"('What had Jane discussed and Karen?',)",,,0,dev,0,1,89
+"('What will Naomi and all students think about?',)",,,1,dev,1,0,120
+"('What did Naomi think about and all students?',)",,,0,dev,0,1,121
+"('What could Caroline and Eric have?',)",,,1,dev,1,0,138
+"('What does Caroline have and Eric?',)",,,0,dev,0,1,139
+"('What did Eva and Ella talk about?',)",,,1,dev,1,0,178
+"('What can Eva talk about and Ella?',)",,,0,dev,0,1,179
+"('What have Judy and Bradley observed?',)",,,1,dev,1,0,280
+"('What has Judy observed and Bradley?',)",,,0,dev,0,1,281
+"('Who are Colleen and Janet wearing?',)",,,1,dev,1,0,304
+"('Who was Colleen wearing and Janet?',)",,,0,dev,0,1,305
+"('Who have Theresa and Mark approached?',)",,,1,dev,1,0,320
+"('Who had Theresa approached and Mark?',)",,,0,dev,0,1,321
+"('Who have Ellen and the Impressionists examined?',)",,,1,dev,1,0,338
+"('Who has Ellen examined and the Impressionists?',)",,,0,dev,0,1,339
+"('Who have the dancer and George messed up?',)",,,1,dev,1,0,356
+"('Who had the dancer messed up and George?',)",,,0,dev,0,1,357
+"('Who have the waiters and the Lutherans cared for?',)",,,1,dev,1,0,380
+"('Who have the waiters cared for and the Lutherans?',)",,,0,dev,0,1,381
+"('Who are Donald and Noah lifting?',)",,,1,dev,1,0,382
+"('Who was Donald lifting and Noah?',)",,,0,dev,0,1,383
+"('What had Helen and some woman talked about?',)",,,1,dev,1,0,416
+"('What has Helen talked about and some woman?',)",,,0,dev,0,1,417
+"('What were Omar and Bill referencing?',)",,,1,dev,1,0,436
+"('What was Omar referencing and Bill?',)",,,0,dev,0,1,437
+"('What will Veronica and Denise conceal?',)",,,1,dev,1,0,440
+"('What might Veronica conceal and Denise?',)",,,0,dev,0,1,441
+"('What have Grace and Gary criticized?',)",,,1,dev,1,0,462
+"('What had Grace criticized and Gary?',)",,,0,dev,0,1,463
+"('Who had Marie and Marla researched?',)",,,1,dev,1,0,470
+"('Who has Marie researched and Marla?',)",,,0,dev,0,1,471
+"('Who are Jodi and many libraries insulting?',)",,,1,dev,1,0,506
+"('Who is Jodi insulting and many libraries?',)",,,0,dev,0,1,507
+"('Who are some painting and Janice aggravating?',)",,,1,dev,1,0,524
+"('Who is some painting aggravating and Janice?',)",,,0,dev,0,1,525
+"('What will the lady and Edward reveal?',)",,,1,dev,1,0,530
+"('What can the lady reveal and Edward?',)",,,0,dev,0,1,531
+"('What do Helen and Diana arrive at?',)",,,1,dev,1,0,548
+"('What could Helen arrive at and Diana?',)",,,0,dev,0,1,549
+"('What are Kirsten and Donna healing?',)",,,1,dev,1,0,568
+"('What was Kirsten healing and Donna?',)",,,0,dev,0,1,569
+"('What have Melinda and a woman hugged?',)",,,1,dev,1,0,626
+"('What has Melinda hugged and a woman?',)",,,0,dev,0,1,627
+"('What have Robert and some ladders annoyed?',)",,,1,dev,1,0,630
+"('What had Robert annoyed and some ladders?',)",,,0,dev,0,1,631
+"('What had Bruce and most teachers found?',)",,,1,dev,1,0,644
+"('What has Bruce found and most teachers?',)",,,0,dev,0,1,645
+"('Who are Noah and James lifting?',)",,,1,dev,1,0,648
+"('Who was Noah lifting and James?',)",,,0,dev,0,1,649
+"('What were Kenneth and some doctor concealing?',)",,,1,dev,1,0,664
+"('What is Kenneth concealing and some doctor?',)",,,0,dev,0,1,665
+"('What do Catherine and Walter conceal?',)",,,1,dev,1,0,674
+"('What will Catherine conceal and Walter?',)",,,0,dev,0,1,675
+"('Who had Kirsten and all actresses exited?',)",,,1,dev,1,0,688
+"('Who has Kirsten exited and all actresses?',)",,,0,dev,0,1,689
+"('What did Edward and Bruce break?',)",,,1,dev,1,0,716
+"('What did Edward break and Bruce?',)",,,0,dev,0,1,717
+"('What could Matt and waiters notice?',)",,,1,dev,1,0,718
+"('What will Matt notice and waiters?',)",,,0,dev,0,1,719
+"('Who do Christine and Elizabeth visit?',)",,,1,dev,1,0,724
+"('Who did Christine visit and Elizabeth?',)",,,0,dev,0,1,725
+"('What are Andrea and these mirrors disgusting?',)",,,1,dev,1,0,754
+"('What was Andrea disgusting and these mirrors?',)",,,0,dev,0,1,755
+"('What could Christine and all actors listen to?',)",,,1,dev,1,0,764
+"('What should Christine listen to and all actors?',)",,,0,dev,0,1,765
+"('Who had an actor and Renee arrived at?',)",,,1,dev,1,0,780
+"('Who had an actor arrived at and Renee?',)",,,0,dev,0,1,781
+"('What had Kimberley and Susan examined?',)",,,1,dev,1,0,804
+"('What had Kimberley examined and Susan?',)",,,0,dev,0,1,805
+"('Who do many actresses and those drivers sell?',)",,,1,dev,1,0,824
+"('Who will many actresses sell and those drivers?',)",,,0,dev,0,1,825
+"('Who have Angela and Eric kissed?',)",,,1,dev,1,0,882
+"('Who has Angela kissed and Eric?',)",,,0,dev,0,1,883
+"('What are Keith and Alexander discussing?',)",,,1,dev,1,0,892
+"('What was Keith discussing and Alexander?',)",,,0,dev,0,1,893
+"('Who were Eric and Alexander touring?',)",,,1,dev,1,0,900
+"('Who was Eric touring and Alexander?',)",,,0,dev,0,1,901
+"('Who had Sonia and Sarah approached?',)",,,1,dev,1,0,910
+"('Who had Sonia approached and Sarah?',)",,,0,dev,0,1,911
+"('What had Chad and Nancy toured?',)",,,1,dev,1,0,920
+"('What had Chad toured and Nancy?',)",,,0,dev,0,1,921
+"('What had Matt and Liam worn?',)",,,1,dev,1,0,932
+"('What has Matt worn and Liam?',)",,,0,dev,0,1,933
+"('What have Judy and this actress healed?',)",,,1,dev,1,0,942
+"('What has Judy healed and this actress?',)",,,0,dev,0,1,943
+"('What had Rachel and Jessica questioned?',)",,,1,dev,1,0,944
+"('What had Rachel questioned and Jessica?',)",,,0,dev,0,1,945
+"('Who have all patients and Michelle forgotten?',)",,,1,dev,1,0,948
+"('Who had all patients forgotten and Michelle?',)",,,0,dev,0,1,949
+"('What are Janice and the movie astounding?',)",,,1,dev,1,0,994
+"('What was Janice astounding and the movie?',)",,,0,dev,0,1,995
+"('Who have this teacher and Brett seen?',)",,,1,dev,1,0,1056
+"('Who has this teacher seen and Brett?',)",,,0,dev,0,1,1057
+"('Who had Andrew and many bananas looked like?',)",,,1,dev,1,0,1068
+"('Who had Andrew looked like and many bananas?',)",,,0,dev,0,1,1069
+"('Who might Jason and Beverly fix?',)",,,1,dev,1,0,1082
+"('Who could Jason fix and Beverly?',)",,,0,dev,0,1,1083
+"('What have Eva and Adam complained about?',)",,,1,dev,1,0,1084
+"('What had Eva complained about and Adam?',)",,,0,dev,0,1,1085
+"('What were this hamster and Bethany descending?',)",,,1,dev,1,0,1112
+"('What is this hamster descending and Bethany?',)",,,0,dev,0,1,1113
+"('What had Anne and some museum appreciated?',)",,,1,dev,1,0,1124
+"('What has Anne appreciated and some museum?',)",,,0,dev,0,1,1125
+"('Who could Randolf and Cynthia ascend?',)",,,1,dev,1,0,1126
+"('Who could Randolf ascend and Cynthia?',)",,,0,dev,0,1,1127
+"('Who were that mirror and a lot of drawings disgusting?',)",,,1,dev,1,0,1128
+"('Who is that mirror disgusting and a lot of drawings?',)",,,0,dev,0,1,1129
+"('Who had Michael and Randolf observed?',)",,,1,dev,1,0,1140
+"('Who has Michael observed and Randolf?',)",,,0,dev,0,1,1141
+"('What had Homer and Thomas remembered?',)",,,1,dev,1,0,1146
+"('What had Homer remembered and Thomas?',)",,,0,dev,0,1,1147
+"('Who can Gary and Brad leave?',)",,,1,dev,1,0,1158
+"('Who might Gary leave and Brad?',)",,,0,dev,0,1,1159
+"('What were Gary and Dana curing?',)",,,1,dev,1,0,1176
+"('What was Gary curing and Dana?',)",,,0,dev,0,1,1177
+"('What are Laurie and Elizabeth bringing?',)",,,1,dev,1,0,1180
+"('What was Laurie bringing and Elizabeth?',)",,,0,dev,0,1,1181
+"('Who had the Lutherans and Sherry bought?',)",,,1,dev,1,0,1184
+"('Who have the Lutherans bought and Sherry?',)",,,0,dev,0,1,1185
+"('Who have Emily and Rebecca researched?',)",,,1,dev,1,0,1186
+"('Who had Emily researched and Rebecca?',)",,,0,dev,0,1,1187
+"('Who were Ruth and some child examining?',)",,,1,dev,1,0,1192
+"('Who is Ruth examining and some child?',)",,,0,dev,0,1,1193
+"('Who were Eric and Derek bringing?',)",,,1,dev,1,0,1218
+"('Who was Eric bringing and Derek?',)",,,0,dev,0,1,1219
+"('Who have Jerry and Walter walked through?',)",,,1,dev,1,0,1226
+"('Who had Jerry walked through and Walter?',)",,,0,dev,0,1,1227
+"('Who have this documentary and Kevin hurt?',)",,,1,dev,1,0,1308
+"('Who has this documentary hurt and Kevin?',)",,,0,dev,0,1,1309
+"('Who could every essay and Sally disturb?',)",,,1,dev,1,0,1312
+"('Who might every essay disturb and Sally?',)",,,0,dev,0,1,1313
+"('Who have Brian and Kevin hidden?',)",,,1,dev,1,0,1320
+"('Who has Brian hidden and Kevin?',)",,,0,dev,0,1,1321
+"('Who were the plane and a bird worrying?',)",,,1,dev,1,0,1348
+"('Who is the plane worrying and a bird?',)",,,0,dev,0,1,1349
+"('What were Andrea and Cynthia taking?',)",,,1,dev,1,0,1350
+"('What was Andrea taking and Cynthia?',)",,,0,dev,0,1,1351
+"('What were Beverly and Brenda hiring?',)",,,1,dev,1,0,1368
+"('What was Beverly hiring and Brenda?',)",,,0,dev,0,1,1369
+"('Who can Amy and Ella break?',)",,,1,dev,1,0,1402
+"('Who might Amy break and Ella?',)",,,0,dev,0,1,1403
+"('What had Gerald and the customers remembered?',)",,,1,dev,1,0,1438
+"('What has Gerald remembered and the customers?',)",,,0,dev,0,1,1439
+"('What will the Borgias and Craig resemble?',)",,,1,dev,1,0,1460
+"('What should the Borgias resemble and Craig?',)",,,0,dev,0,1,1461
+"('Who had Charles and Ann watched?',)",,,1,dev,1,0,1476
+"('Who had Charles watched and Ann?',)",,,0,dev,0,1,1477
+"('What have Larry and Homer hired?',)",,,1,dev,1,0,1480
+"('What had Larry hired and Homer?',)",,,0,dev,0,1,1481
+"('Who can Judy and Deborah descend?',)",,,1,dev,1,0,1536
+"('Who can Judy descend and Deborah?',)",,,0,dev,0,1,1537
+"('Who had Larry and Deborah exited?',)",,,1,dev,1,0,1570
+"('Who had Larry exited and Deborah?',)",,,0,dev,0,1,1571
+"('Who were some drivers and Adam walking through?',)",,,1,dev,1,0,1584
+"('Who were some drivers walking through and Adam?',)",,,0,dev,0,1,1585
+"('Who could Julia and some restaurant scare?',)",,,1,dev,1,0,1650
+"('Who could Julia scare and some restaurant?',)",,,0,dev,0,1,1651
+"('What are Tamara and every guest descending?',)",,,1,dev,1,0,1668
+"('What is Tamara descending and every guest?',)",,,0,dev,0,1,1669
+"('What could all fish and grocery stores irritate?',)",,,1,dev,1,0,1696
+"('What did all fish irritate and grocery stores?',)",,,0,dev,0,1,1697
+"('Who have some bread and that waitress disturbed?',)",,,1,dev,1,0,1724
+"('Who had some bread disturbed and that waitress?',)",,,0,dev,0,1,1725
+"('Who are Marcus and Raymond wearing?',)",,,1,dev,1,0,1726
+"('Who was Marcus wearing and Raymond?',)",,,0,dev,0,1,1727
+"('Who might Bruce and the cashier irritate?',)",,,1,dev,1,0,1794
+"('Who could Bruce irritate and the cashier?',)",,,0,dev,0,1,1795
+"('Who have Larry and Catherine visited?',)",,,1,dev,1,0,1826
+"('Who has Larry visited and Catherine?',)",,,0,dev,0,1,1827
+"('Who did Claire and every man clean?',)",,,1,dev,1,0,1830
+"('Who can Claire clean and every man?',)",,,0,dev,0,1,1831
+"('What do Laura and Dawn bike to?',)",,,1,dev,1,0,1832
+"('What should Laura bike to and Dawn?',)",,,0,dev,0,1,1833
+"('Who had Christine and these pedestrians descended?',)",,,1,dev,1,0,1856
+"('Who had Christine descended and these pedestrians?',)",,,0,dev,0,1,1857
+"('What could Elaine and Cheryl climb up?',)",,,1,dev,1,0,1870
+"('What should Elaine climb up and Cheryl?',)",,,0,dev,0,1,1871
+"('What are Paula and Derek watching?',)",,,1,dev,1,0,1888
+"('What is Paula watching and Derek?',)",,,0,dev,0,1,1889
+"('Who are every boy and Rhonda researching?',)",,,1,dev,1,0,1890
+"('Who is every boy researching and Rhonda?',)",,,0,dev,0,1,1891
+"('Who will some cashiers and this girl break?',)",,,1,dev,1,0,1892
+"('Who could some cashiers break and this girl?',)",,,0,dev,0,1,1893
+"('Who are the gate and the gates annoying?',)",,,1,dev,1,0,1912
+"('Who was the gate annoying and the gates?',)",,,0,dev,0,1,1913
+"('What had Beth and Amy driven to?',)",,,1,dev,1,0,1926
+"('What had Beth driven to and Amy?',)",,,0,dev,0,1,1927
+"('What were those patients and Kayla examining?',)",,,1,dev,1,0,1928
+"('What were those patients examining and Kayla?',)",,,0,dev,0,1,1929
+"('Who have Roger and Cynthia broken?',)",,,1,dev,1,0,1982
+"('Who had Roger broken and Cynthia?',)",,,0,dev,0,1,1983
+"('Who did Linda and Steven explore?',)",,,1,dev,1,0,1990
+"('Who can Linda explore and Steven?',)",,,0,dev,0,1,1991
+"('Who should Denise and every adult boast about?',)",,,1,test,1,0,14
+"('Who will Denise boast about and every adult?',)",,,0,test,0,1,15
+"('What were the photograph and the prints looking like?',)",,,1,test,1,0,16
+"('What was the photograph looking like and the prints?',)",,,0,test,0,1,17
+"('Who might Beverly and those waitresses exit?',)",,,1,test,1,0,22
+"('Who does Beverly exit and those waitresses?',)",,,0,test,0,1,23
+"('What could Marcus and Cheryl clean?',)",,,1,test,1,0,36
+"('What did Marcus clean and Cheryl?',)",,,0,test,0,1,37
+"('What had the boys and the cashier observed?',)",,,1,test,1,0,60
+"('What have the boys observed and the cashier?',)",,,0,test,0,1,61
+"('Who could Jennifer and those convertibles hurt?',)",,,1,test,1,0,82
+"('Who will Jennifer hurt and those convertibles?',)",,,0,test,0,1,83
+"('What have the Lutherans and Cynthia referenced?',)",,,1,test,1,0,86
+"('What had the Lutherans referenced and Cynthia?',)",,,0,test,0,1,87
+"('Who had Keith and Aaron discovered?',)",,,1,test,1,0,94
+"('Who has Keith discovered and Aaron?',)",,,0,test,0,1,95
+"('Who were Adam and Lawrence exiting?',)",,,1,test,1,0,100
+"('Who is Adam exiting and Lawrence?',)",,,0,test,0,1,101
+"('Who are Jeffrey and drivers exploring?',)",,,1,test,1,0,104
+"('Who was Jeffrey exploring and drivers?',)",,,0,test,0,1,105
+"('What are carriages and most books stunning?',)",,,1,test,1,0,116
+"('What were carriages stunning and most books?',)",,,0,test,0,1,117
+"('What will those people and Mary remember?',)",,,1,test,1,0,122
+"('What did those people remember and Mary?',)",,,0,test,0,1,123
+"('Who have Gregory and Rachel worn?',)",,,1,test,1,0,134
+"('Who has Gregory worn and Rachel?',)",,,0,test,0,1,135
+"('Who were Karen and Liam hurting?',)",,,1,test,1,0,162
+"('Who was Karen hurting and Liam?',)",,,0,test,0,1,163
+"('What were Sharon and Aaron criticizing?',)",,,1,test,1,0,164
+"('What is Sharon criticizing and Aaron?',)",,,0,test,0,1,165
+"('What can Helen and Leslie boycott?',)",,,1,test,1,0,180
+"('What should Helen boycott and Leslie?',)",,,0,test,0,1,181
+"('Who might a person and Beth take?',)",,,1,test,1,0,186
+"('Who can a person take and Beth?',)",,,0,test,0,1,187
+"('Who are Gregory and Diane running around?',)",,,1,test,1,0,194
+"('Who is Gregory running around and Diane?',)",,,0,test,0,1,195
+"('Who could Karen and Karla respect?',)",,,1,test,1,0,218
+"('Who did Karen respect and Karla?',)",,,0,test,0,1,219
+"('What had Kenneth and Theresa admired?',)",,,1,test,1,0,220
+"('What has Kenneth admired and Theresa?',)",,,0,test,0,1,221
+"('Who have Mitchell and Carla known?',)",,,1,test,1,0,222
+"('Who had Mitchell known and Carla?',)",,,0,test,0,1,223
+"('What have pedestrians and Noah questioned?',)",,,1,test,1,0,230
+"('What have pedestrians questioned and Noah?',)",,,0,test,0,1,231
+"('Who have Tina and April remembered?',)",,,1,test,1,0,248
+"('Who had Tina remembered and April?',)",,,0,test,0,1,249
+"('What had Paul and Melissa broken?',)",,,1,test,1,0,268
+"('What had Paul broken and Melissa?',)",,,0,test,0,1,269
+"('Who have most teachers and Sharon worn?',)",,,1,test,1,0,282
+"('Who have most teachers worn and Sharon?',)",,,0,test,0,1,283
+"('What had Kristin and that government stunned?',)",,,1,test,1,0,284
+"('What has Kristin stunned and that government?',)",,,0,test,0,1,285
+"('What are Marie and Cindy messing up?',)",,,1,test,1,0,292
+"('What was Marie messing up and Cindy?',)",,,0,test,0,1,293
+"('Who have Suzanne and Lori broken?',)",,,1,test,1,0,294
+"('Who had Suzanne broken and Lori?',)",,,0,test,0,1,295
+"('Who could Raymond and Craig cure?',)",,,1,test,1,0,302
+"('Who did Raymond cure and Craig?',)",,,0,test,0,1,303
+"('Who would every teenager and the Lutherans flee from?',)",,,1,test,1,0,306
+"('Who will every teenager flee from and the Lutherans?',)",,,0,test,0,1,307
+"('What were Robert and Valerie disturbing?',)",,,1,test,1,0,308
+"('What is Robert disturbing and Valerie?',)",,,0,test,0,1,309
+"('Who had the adult and Jason boasted about?',)",,,1,test,1,0,316
+"('Who had the adult boasted about and Jason?',)",,,0,test,0,1,317
+"('Who had some women and a lot of customers hugged?',)",,,1,test,1,0,318
+"('Who have some women hugged and a lot of customers?',)",,,0,test,0,1,319
+"('What are the actress and a boy taking?',)",,,1,test,1,0,322
+"('What was the actress taking and a boy?',)",,,0,test,0,1,323
+"('What would Cheryl and James drive to?',)",,,1,test,1,0,324
+"('What did Cheryl drive to and James?',)",,,0,test,0,1,325
+"('Who had Julia and the ladies cleaned?',)",,,1,test,1,0,332
+"('Who has Julia cleaned and the ladies?',)",,,0,test,0,1,333
+"('What were Rebecca and Danielle disturbing?',)",,,1,test,1,0,340
+"('What was Rebecca disturbing and Danielle?',)",,,0,test,0,1,341
+"('What have Galileo and Jeffrey discovered?',)",,,1,test,1,0,342
+"('What has Galileo discovered and Jeffrey?',)",,,0,test,0,1,343
+"('Who were Carla and Elaine messing up?',)",,,1,test,1,0,352
+"('Who is Carla messing up and Elaine?',)",,,0,test,0,1,353
+"('What are Jane and Raymond listening to?',)",,,1,test,1,0,362
+"('What is Jane listening to and Raymond?',)",,,0,test,0,1,363
+"('What could Jane and these birds distract?',)",,,1,test,1,0,376
+"('What should Jane distract and these birds?',)",,,0,test,0,1,377
+"('What will Alice and these actors talk about?',)",,,1,test,1,0,396
+"('What will Alice talk about and these actors?',)",,,0,test,0,1,397
+"('Who have Judy and some driver hired?',)",,,1,test,1,0,398
+"('Who has Judy hired and some driver?',)",,,0,test,0,1,399
+"('What were Todd and Brenda investigating?',)",,,1,test,1,0,406
+"('What was Todd investigating and Brenda?',)",,,0,test,0,1,407
+"('Who have turtles and Donna climbed up?',)",,,1,test,1,0,430
+"('Who have turtles climbed up and Donna?',)",,,0,test,0,1,431
+"('Who have Susan and Florence arrived at?',)",,,1,test,1,0,434
+"('Who had Susan arrived at and Florence?',)",,,0,test,0,1,435
+"('Who would Susan and Caroline reference?',)",,,1,test,1,0,438
+"('Who does Susan reference and Caroline?',)",,,0,test,0,1,439
+"('Who were Jennifer and the waitress complaining about?',)",,,1,test,1,0,450
+"('Who is Jennifer complaining about and the waitress?',)",,,0,test,0,1,451
+"('What should Laurie and Bruce forget?',)",,,1,test,1,0,456
+"('What might Laurie forget and Bruce?',)",,,0,test,0,1,457
+"('What should Jacqueline and Walter reveal?',)",,,1,test,1,0,480
+"('What might Jacqueline reveal and Walter?',)",,,0,test,0,1,481
+"('What were Martha and a lot of guests breaking?',)",,,1,test,1,0,510
+"('What was Martha breaking and a lot of guests?',)",,,0,test,0,1,511
+"('What might that coat and Wendy stun?',)",,,1,test,1,0,528
+"('What can that coat stun and Wendy?',)",,,0,test,0,1,529
+"('Who are Steven and Brad climbing down?',)",,,1,test,1,0,536
+"('Who was Steven climbing down and Brad?',)",,,0,test,0,1,537
+"('Who have Thomas and Patrick hugged?',)",,,1,test,1,0,544
+"('Who has Thomas hugged and Patrick?',)",,,0,test,0,1,545
+"('What were Tamara and Heather appreciating?',)",,,1,test,1,0,552
+"('What was Tamara appreciating and Heather?',)",,,0,test,0,1,553
+"('What can William and Stephanie describe?',)",,,1,test,1,0,560
+"('What should William describe and Stephanie?',)",,,0,test,0,1,561
+"('Who are that actress and Maria escaping from?',)",,,1,test,1,0,562
+"('Who was that actress escaping from and Maria?',)",,,0,test,0,1,563
+"('What might Stephen and Sally describe?',)",,,1,test,1,0,564
+"('What can Stephen describe and Sally?',)",,,0,test,0,1,565
+"('What are Travis and Rhonda returning to?',)",,,1,test,1,0,566
+"('What is Travis returning to and Rhonda?',)",,,0,test,0,1,567
+"('What have every photograph and Marie stunned?',)",,,1,test,1,0,576
+"('What has every photograph stunned and Marie?',)",,,0,test,0,1,577
+"('What were Theresa and the students discussing?',)",,,1,test,1,0,580
+"('What was Theresa discussing and the students?',)",,,0,test,0,1,581
+"('Who will Bradley and Susan discover?',)",,,1,test,1,0,590
+"('Who should Bradley discover and Susan?',)",,,0,test,0,1,591
+"('What did Larry and George fix?',)",,,1,test,1,0,594
+"('What can Larry fix and George?',)",,,0,test,0,1,595
+"('What could Steven and Ellen resemble?',)",,,1,test,1,0,596
+"('What should Steven resemble and Ellen?',)",,,0,test,0,1,597
+"('Who had Suzanne and Rhonda returned to?',)",,,1,test,1,0,602
+"('Who had Suzanne returned to and Rhonda?',)",,,0,test,0,1,603
+"('What have Nicole and the Clintons cleaned?',)",,,1,test,1,0,624
+"('What has Nicole cleaned and the Clintons?',)",,,0,test,0,1,625
+"('Who are those patients and those cashiers disagreeing with?',)",,,1,test,1,0,646
+"('Who are those patients disagreeing with and those cashiers?',)",,,0,test,0,1,647
+"('Who have some stories and Douglas aggravated?',)",,,1,test,1,0,650
+"('Who had some stories aggravated and Douglas?',)",,,0,test,0,1,651
+"('What are those ladders and Valerie hurting?',)",,,1,test,1,0,654
+"('What are those ladders hurting and Valerie?',)",,,0,test,0,1,655
+"('What had Todd and Stephanie remembered?',)",,,1,test,1,0,680
+"('What has Todd remembered and Stephanie?',)",,,0,test,0,1,681
+"('Who have most screens and Omar embarrassed?',)",,,1,test,1,0,690
+"('Who had most screens embarrassed and Omar?',)",,,0,test,0,1,691
+"('What will Rachel and Matt break?',)",,,1,test,1,0,694
+"('What will Rachel break and Matt?',)",,,0,test,0,1,695
+"('Who were Naomi and April returning to?',)",,,1,test,1,0,714
+"('Who was Naomi returning to and April?',)",,,0,test,0,1,715
+"('Who could Brenda and these women run around?',)",,,1,test,1,0,720
+"('Who should Brenda run around and these women?',)",,,0,test,0,1,721
+"('What have Michael and Matt escaped from?',)",,,1,test,1,0,730
+"('What has Michael escaped from and Matt?',)",,,0,test,0,1,731
+"('What have the lamps and Becky impressed?',)",,,1,test,1,0,748
+"('What have the lamps impressed and Becky?',)",,,0,test,0,1,749
+"('Who should photographs and those paintings look like?',)",,,1,test,1,0,760
+"('Who do photographs look like and those paintings?',)",,,0,test,0,1,761
+"('What are Irene and Craig leaving?',)",,,1,test,1,0,762
+"('What is Irene leaving and Craig?',)",,,0,test,0,1,763
+"('What have Bethany and Kayla fled from?',)",,,1,test,1,0,778
+"('What had Bethany fled from and Kayla?',)",,,0,test,0,1,779
+"('Who have Katherine and Maria attacked?',)",,,1,test,1,0,794
+"('Who had Katherine attacked and Maria?',)",,,0,test,0,1,795
+"('What have Matt and Jennifer fired?',)",,,1,test,1,0,830
+"('What has Matt fired and Jennifer?',)",,,0,test,0,1,831
+"('What were Kristin and Larry approaching?',)",,,1,test,1,0,834
+"('What is Kristin approaching and Larry?',)",,,0,test,0,1,835
+"('Who were that movie and some report disagreeing with?',)",,,1,test,1,0,854
+"('Who was that movie disagreeing with and some report?',)",,,0,test,0,1,855
+"('What have all art galleries and that cashier bored?',)",,,1,test,1,0,858
+"('What have all art galleries bored and that cashier?',)",,,0,test,0,1,859
+"('What had Gerald and some dancer passed?',)",,,1,test,1,0,860
+"('What had Gerald passed and some dancer?',)",,,0,test,0,1,861
+"('Who are many people and Barbara firing?',)",,,1,test,1,0,864
+"('Who are many people firing and Barbara?',)",,,0,test,0,1,865
+"('What were Scott and Monica wearing?',)",,,1,test,1,0,878
+"('What is Scott wearing and Monica?',)",,,0,test,0,1,879
+"('What had the man and the doctor hidden?',)",,,1,test,1,0,880
+"('What has the man hidden and the doctor?',)",,,0,test,0,1,881
+"('Who should James and Brett help?',)",,,1,test,1,0,886
+"('Who could James help and Brett?',)",,,0,test,0,1,887
+"('What were Cheryl and Liam complaining about?',)",,,1,test,1,0,898
+"('What was Cheryl complaining about and Liam?',)",,,0,test,0,1,899
+"('What should Cheryl and museums astound?',)",,,1,test,1,0,902
+"('What might Cheryl astound and museums?',)",,,0,test,0,1,903
+"('What are Edward and Cynthia descending?',)",,,1,test,1,0,914
+"('What was Edward descending and Cynthia?',)",,,0,test,0,1,915
+"('Who could Irene and Matt buy?',)",,,1,test,1,0,918
+"('Who will Irene buy and Matt?',)",,,0,test,0,1,919
+"('Who do Amanda and many guests sound like?',)",,,1,test,1,0,928
+"('Who does Amanda sound like and many guests?',)",,,0,test,0,1,929
+"('Who had this senator and the turtle aggravated?',)",,,1,test,1,0,934
+"('Who has this senator aggravated and the turtle?',)",,,0,test,0,1,935
+"('What had Jesus and Kevin visited?',)",,,1,test,1,0,936
+"('What has Jesus visited and Kevin?',)",,,0,test,0,1,937
+"('Who were this cashier and Laurie biking to?',)",,,1,test,1,0,938
+"('Who was this cashier biking to and Laurie?',)",,,0,test,0,1,939
+"('Who are Deborah and every actress fixing?',)",,,1,test,1,0,940
+"('Who is Deborah fixing and every actress?',)",,,0,test,0,1,941
+"('Who should Carolyn and that popsicle bore?',)",,,1,test,1,0,950
+"('Who does Carolyn bore and that popsicle?',)",,,0,test,0,1,951
+"('Who did Samantha and Stacy boast about?',)",,,1,test,1,0,956
+"('Who should Samantha boast about and Stacy?',)",,,0,test,0,1,957
+"('What should Sabrina and Alice ascend?',)",,,1,test,1,0,966
+"('What did Sabrina ascend and Alice?',)",,,0,test,0,1,967
+"('Who are the bicycles and Eva embarrassing?',)",,,1,test,1,0,978
+"('Who are the bicycles embarrassing and Eva?',)",,,0,test,0,1,979
+"('What did most pedestrians and girls disagree with?',)",,,1,test,1,0,996
+"('What could most pedestrians disagree with and girls?',)",,,0,test,0,1,997
+"('Who do this waiter and most legislatures hire?',)",,,1,test,1,0,1000
+"('Who does this waiter hire and most legislatures?',)",,,0,test,0,1,1001
+"('What are Joel and Susan hiding?',)",,,1,test,1,0,1036
+"('What was Joel hiding and Susan?',)",,,0,test,0,1,1037
+"('What had Eric and some guests aggravated?',)",,,1,test,1,0,1038
+"('What had Eric aggravated and some guests?',)",,,0,test,0,1,1039
+"('What do Vincent and Christine think about?',)",,,1,test,1,0,1040
+"('What could Vincent think about and Christine?',)",,,0,test,0,1,1041
+"('Who are Phillip and Dana curing?',)",,,1,test,1,0,1042
+"('Who was Phillip curing and Dana?',)",,,0,test,0,1,1043
+"('Who should Bill and Rhonda return to?',)",,,1,test,1,0,1052
+"('Who will Bill return to and Rhonda?',)",,,0,test,0,1,1053
+"('Who would Carmen and Tracy leave?',)",,,1,test,1,0,1060
+"('Who should Carmen leave and Tracy?',)",,,0,test,0,1,1061
+"('Who have Monet and the senators sounded like?',)",,,1,test,1,0,1076
+"('Who has Monet sounded like and the senators?',)",,,0,test,0,1,1077
+"('Who were Veronica and Catherine running around?',)",,,1,test,1,0,1094
+"('Who is Veronica running around and Catherine?',)",,,0,test,0,1,1095
+"('What have Becca and those books impressed?',)",,,1,test,1,0,1096
+"('What has Becca impressed and those books?',)",,,0,test,0,1,1097
+"('What had Monet and Frank embarrassed?',)",,,1,test,1,0,1120
+"('What had Monet embarrassed and Frank?',)",,,0,test,0,1,1121
+"('Who have this candle and all students bored?',)",,,1,test,1,0,1136
+"('Who had this candle bored and all students?',)",,,0,test,0,1,1137
+"('Who are a pedestrian and Jennifer approaching?',)",,,1,test,1,0,1138
+"('Who is a pedestrian approaching and Jennifer?',)",,,0,test,0,1,1139
+"('Who might a lot of people and Kathleen climb down?',)",,,1,test,1,0,1150
+"('Who did a lot of people climb down and Kathleen?',)",,,0,test,0,1,1151
+"('What have Deanna and some man driven to?',)",,,1,test,1,0,1156
+"('What has Deanna driven to and some man?',)",,,0,test,0,1,1157
+"('What are Lisa and Naomi arriving at?',)",,,1,test,1,0,1162
+"('What is Lisa arriving at and Naomi?',)",,,0,test,0,1,1163
+"('What might Rhonda and the actor have?',)",,,1,test,1,0,1170
+"('What would Rhonda have and the actor?',)",,,0,test,0,1,1171
+"('What had Carrie and a senator kissed?',)",,,1,test,1,0,1172
+"('What had Carrie kissed and a senator?',)",,,0,test,0,1,1173
+"('What are Winston Churchill and cashiers worrying?',)",,,1,test,1,0,1174
+"('What was Winston Churchill worrying and cashiers?',)",,,0,test,0,1,1175
+"('What should Travis and Rachel boycott?',)",,,1,test,1,0,1190
+"('What will Travis boycott and Rachel?',)",,,0,test,0,1,1191
+"('Who can Katherine and travel worry?',)",,,1,test,1,0,1220
+"('Who could Katherine worry and travel?',)",,,0,test,0,1,1221
+"('Who have Linda and Mary discussed?',)",,,1,test,1,0,1238
+"('Who had Linda discussed and Mary?',)",,,0,test,0,1,1239
+"('Who had those mountains and Maria disgusted?',)",,,1,test,1,0,1242
+"('Who had those mountains disgusted and Maria?',)",,,0,test,0,1,1243
+"('What had Homer and Marla helped?',)",,,1,test,1,0,1258
+"('What had Homer helped and Marla?',)",,,0,test,0,1,1259
+"('What will most chairs and Nicole impress?',)",,,1,test,1,0,1260
+"('What did most chairs impress and Nicole?',)",,,0,test,0,1,1261
+"('What did companies and some museums praise?',)",,,1,test,1,0,1282
+"('What can companies praise and some museums?',)",,,0,test,0,1,1283
+"('What would that person and Marie reference?',)",,,1,test,1,0,1286
+"('What does that person reference and Marie?',)",,,0,test,0,1,1287
+"('Who did Ellen and Jodi insult?',)",,,1,test,1,0,1300
+"('Who will Ellen insult and Jodi?',)",,,0,test,0,1,1301
+"('What could Rose and Daniel run around?',)",,,1,test,1,0,1302
+"('What will Rose run around and Daniel?',)",,,0,test,0,1,1303
+"('Who would Marla and Aaron sell?',)",,,1,test,1,0,1304
+"('Who should Marla sell and Aaron?',)",,,0,test,0,1,1305
+"('Who are Brian and those boys passing?',)",,,1,test,1,0,1310
+"('Who was Brian passing and those boys?',)",,,0,test,0,1,1311
+"('What might Melanie and Roger sell?',)",,,1,test,1,0,1322
+"('What would Melanie sell and Roger?',)",,,0,test,0,1,1323
+"('What could Matt and Elaine drop by?',)",,,1,test,1,0,1328
+"('What can Matt drop by and Elaine?',)",,,0,test,0,1,1329
+"('Who can the woman and Nina talk about?',)",,,1,test,1,0,1338
+"('Who should the woman talk about and Nina?',)",,,0,test,0,1,1339
+"('What would every screen and that spotlight irritate?',)",,,1,test,1,0,1346
+"('What could every screen irritate and that spotlight?',)",,,0,test,0,1,1347
+"('What have those stories and all teachers disagreed with?',)",,,1,test,1,0,1372
+"('What had those stories disagreed with and all teachers?',)",,,0,test,0,1,1373
+"('What will Gary and girls fix?',)",,,1,test,1,0,1378
+"('What should Gary fix and girls?',)",,,0,test,0,1,1379
+"('What were Victoria and Stacy selling?',)",,,1,test,1,0,1386
+"('What is Victoria selling and Stacy?',)",,,0,test,0,1,1387
+"('What should Jerry and Tonya remember?',)",,,1,test,1,0,1390
+"('What can Jerry remember and Tonya?',)",,,0,test,0,1,1391
+"('Who would Guy and the girls argue about?',)",,,1,test,1,0,1396
+"('Who would Guy argue about and the girls?',)",,,0,test,0,1,1397
+"('What could Vincent and Curtis conceal?',)",,,1,test,1,0,1408
+"('What should Vincent conceal and Curtis?',)",,,0,test,0,1,1409
+"('Who were a lot of guests and Anne describing?',)",,,1,test,1,0,1426
+"('Who are a lot of guests describing and Anne?',)",,,0,test,0,1,1427
+"('What will Becca and Julia attack?',)",,,1,test,1,0,1430
+"('What might Becca attack and Julia?',)",,,0,test,0,1,1431
+"('Who had Tonya and Steven disliked?',)",,,1,test,1,0,1436
+"('Who has Tonya disliked and Steven?',)",,,0,test,0,1,1437
+"('What are Vincent and Jeffrey noticing?',)",,,1,test,1,0,1440
+"('What is Vincent noticing and Jeffrey?',)",,,0,test,0,1,1441
+"('What had Tara and Holly disliked?',)",,,1,test,1,0,1456
+"('What had Tara disliked and Holly?',)",,,0,test,0,1,1457
+"('Who were Ronald and Carol bothering?',)",,,1,test,1,0,1462
+"('Who was Ronald bothering and Carol?',)",,,0,test,0,1,1463
+"('What might the organization and Theresa criticize?',)",,,1,test,1,0,1470
+"('What can the organization criticize and Theresa?',)",,,0,test,0,1,1471
+"('Who are the customer and most associations criticizing?',)",,,1,test,1,0,1472
+"('Who is the customer criticizing and most associations?',)",,,0,test,0,1,1473
+"('What could Ronald and that driver escape from?',)",,,1,test,1,0,1484
+"('What should Ronald escape from and that driver?',)",,,0,test,0,1,1485
+"('What are Lawrence and Becca dropping by?',)",,,1,test,1,0,1490
+"('What was Lawrence dropping by and Becca?',)",,,0,test,0,1,1491
+"('What were some organizations and Meredith astounding?',)",,,1,test,1,0,1524
+"('What are some organizations astounding and Meredith?',)",,,0,test,0,1,1525
+"('What are Winston Churchill and Angela skated around?',)",,,1,test,1,0,1528
+"('What was Winston Churchill skated around and Angela?',)",,,0,test,0,1,1529
+"('Who do many actresses and all rivers resemble?',)",,,1,test,1,0,1550
+"('Who would many actresses resemble and all rivers?',)",,,0,test,0,1,1551
+"('Who have Craig and the Borgias hugged?',)",,,1,test,1,0,1558
+"('Who has Craig hugged and the Borgias?',)",,,0,test,0,1,1559
+"('What were Dawn and Patrick healing?',)",,,1,test,1,0,1566
+"('What is Dawn healing and Patrick?',)",,,0,test,0,1,1567
+"('What are Ellen and Curtis revealing?',)",,,1,test,1,0,1568
+"('What is Ellen revealing and Curtis?',)",,,0,test,0,1,1569
+"('Who are Monet and the waitresses praising?',)",,,1,test,1,0,1578
+"('Who is Monet praising and the waitresses?',)",,,0,test,0,1,1579
+"('What have Theresa and Thomas watched?',)",,,1,test,1,0,1590
+"('What had Theresa watched and Thomas?',)",,,0,test,0,1,1591
+"('What have Lisa and Edward bought?',)",,,1,test,1,0,1592
+"('What had Lisa bought and Edward?',)",,,0,test,0,1,1593
+"('Who are Elizabeth and Ella examining?',)",,,1,test,1,0,1596
+"('Who was Elizabeth examining and Ella?',)",,,0,test,0,1,1597
+"('What have William and Grace attacked?',)",,,1,test,1,0,1598
+"('What had William attacked and Grace?',)",,,0,test,0,1,1599
+"('Who have Samuel and Deborah argued about?',)",,,1,test,1,0,1600
+"('Who had Samuel argued about and Deborah?',)",,,0,test,0,1,1601
+"('Who have some lady and Florence examined?',)",,,1,test,1,0,1616
+"('Who has some lady examined and Florence?',)",,,0,test,0,1,1617
+"('What have Jason and Victoria walked through?',)",,,1,test,1,0,1632
+"('What had Jason walked through and Victoria?',)",,,0,test,0,1,1633
+"('Who had Helen and Melanie described?',)",,,1,test,1,0,1636
+"('Who had Helen described and Melanie?',)",,,0,test,0,1,1637
+"('Who have some muffins and Gary scared?',)",,,1,test,1,0,1646
+"('Who had some muffins scared and Gary?',)",,,0,test,0,1,1647
+"('Who were Chad and Gregory finding?',)",,,1,test,1,0,1654
+"('Who was Chad finding and Gregory?',)",,,0,test,0,1,1655
+"('What have Nina and Samuel passed?',)",,,1,test,1,0,1678
+"('What has Nina passed and Samuel?',)",,,0,test,0,1,1679
+"('What were Guy and Diane returning to?',)",,,1,test,1,0,1686
+"('What is Guy returning to and Diane?',)",,,0,test,0,1,1687
+"('Who were Judy and Bruce discovering?',)",,,1,test,1,0,1694
+"('Who was Judy discovering and Bruce?',)",,,0,test,0,1,1695
+"('What did a candle and some public park alarm?',)",,,1,test,1,0,1706
+"('What did a candle alarm and some public park?',)",,,0,test,0,1,1707
+"('Who were the doctor and Peter finding?',)",,,1,test,1,0,1718
+"('Who was the doctor finding and Peter?',)",,,0,test,0,1,1719
+"('What had Rachelle and every waitress left?',)",,,1,test,1,0,1728
+"('What had Rachelle left and every waitress?',)",,,0,test,0,1,1729
+"('Who have those ladies and Steve admired?',)",,,1,test,1,0,1734
+"('Who have those ladies admired and Steve?',)",,,0,test,0,1,1735
+"('What can Veronica and books hurt?',)",,,1,test,1,0,1736
+"('What should Veronica hurt and books?',)",,,0,test,0,1,1737
+"('Who would Michael and the patient take?',)",,,1,test,1,0,1754
+"('Who did Michael take and the patient?',)",,,0,test,0,1,1755
+"('What were Jane and Regina exiting?',)",,,1,test,1,0,1768
+"('What is Jane exiting and Regina?',)",,,0,test,0,1,1769
+"('Who had Jerry and some teacher fired?',)",,,1,test,1,0,1770
+"('Who has Jerry fired and some teacher?',)",,,0,test,0,1,1771
+"('Who are people and that waiter watching?',)",,,1,test,1,0,1786
+"('Who were people watching and that waiter?',)",,,0,test,0,1,1787
+"('Who had Christina and Scott discovered?',)",,,1,test,1,0,1790
+"('Who had Christina discovered and Scott?',)",,,0,test,0,1,1791
+"('What had some patient and Jason examined?',)",,,1,test,1,0,1808
+"('What had some patient examined and Jason?',)",,,0,test,0,1,1809
+"('What did Stephen and Carol research?',)",,,1,test,1,0,1828
+"('What can Stephen research and Carol?',)",,,0,test,0,1,1829
+"('What do all patients and that teacher exit?',)",,,1,test,1,0,1838
+"('What would all patients exit and that teacher?',)",,,0,test,0,1,1839
+"('What will Curtis and Laura hide?',)",,,1,test,1,0,1842
+"('What would Curtis hide and Laura?',)",,,0,test,0,1,1843
+"('What have Amanda and Clyde hired?',)",,,1,test,1,0,1852
+"('What had Amanda hired and Clyde?',)",,,0,test,0,1,1853
+"('Who would Lissa and Jennifer praise?',)",,,1,test,1,0,1854
+"('Who can Lissa praise and Jennifer?',)",,,0,test,0,1,1855
+"('Who have Dan and Sherry referenced?',)",,,1,test,1,0,1866
+"('Who had Dan referenced and Sherry?',)",,,0,test,0,1,1867
+"('What were Heidi and the pedestrian leaving?',)",,,1,test,1,0,1874
+"('What is Heidi leaving and the pedestrian?',)",,,0,test,0,1,1875
+"('Who have Walter and all boys argued about?',)",,,1,test,1,0,1886
+"('Who had Walter argued about and all boys?',)",,,0,test,0,1,1887
+"('What had a lot of cashiers and those rivers disgusted?',)",,,1,test,1,0,1898
+"('What have a lot of cashiers disgusted and those rivers?',)",,,0,test,0,1,1899
+"('What are Clyde and a person arriving at?',)",,,1,test,1,0,1900
+"('What was Clyde arriving at and a person?',)",,,0,test,0,1,1901
+"('What would Carla and a man conceal?',)",,,1,test,1,0,1902
+"('What would Carla conceal and a man?',)",,,0,test,0,1,1903
+"('What have Ella and John talked about?',)",,,1,test,1,0,1918
+"('What has Ella talked about and John?',)",,,0,test,0,1,1919
+"('Who do Martha and Vanessa clean?',)",,,1,test,1,0,1920
+"('Who might Martha clean and Vanessa?',)",,,0,test,0,1,1921
+"('Who are an actor and Monica referencing?',)",,,1,test,1,0,1950
+"('Who is an actor referencing and Monica?',)",,,0,test,0,1,1951
+"('What would Samuel and Nina flee from?',)",,,1,test,1,0,1962
+"('What can Samuel flee from and Nina?',)",,,0,test,0,1,1963
