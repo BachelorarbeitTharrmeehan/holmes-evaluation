@@ -14,6 +14,7 @@ def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
     temp_data = []
 
     for index, item in enumerate(df["modified_sentence"]):
+        item = item.replace("'", "")
         temp_data.append(
             {
                 "inputs": f"('{item}',)",
