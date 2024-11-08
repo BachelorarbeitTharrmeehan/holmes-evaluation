@@ -1,0 +1,24 @@
+batch_size: 16
+cache_folder: /holmes-evaluation/cache
+control_task_type: NONE
+device: cuda
+dropout: 0.2
+dump_id: /root/holmes-evaluation/results/holmes/blimp-causative/albert__albert-base-v2/full/NONE/643/0/0/version_0
+encoding: full
+fold: 0
+gpus: 1
+hidden_dim: 0
+input_dim: 768
+learning_rate: 0.001
+model_name: albert/albert-base-v2
+num_hidden_layers: 0
+num_labels: 2
+optimizer: !!python/name:torch.optim.adam.Adam ''
+probe_task_type: SENTENCE
+probe_type: linear
+result_folder: /root/holmes-evaluation/results/holmes
+sample_size: 643
+seed: 0
+training_steps: 60
+warmup_rate: 0.1
+warmup_steps: 6.0
