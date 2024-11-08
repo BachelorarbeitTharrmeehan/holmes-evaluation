@@ -14,10 +14,10 @@ def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
     temp_data = []
 
     for index, item in enumerate(df["modified_sentence"]):
-        item = item.replace("'", "")
+        escaped_item = item.replace("'", "\\'")
         temp_data.append(
             {
-                "inputs": f"('{item}',)",
+                "inputs": f"('{escaped_item}',)",
                 "context": "",
                 "topic": "",
                 "org_label": 0,
