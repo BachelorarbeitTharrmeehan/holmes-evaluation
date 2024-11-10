@@ -115,10 +115,25 @@ def load_model_dfs(models):
             f"./results/holmes/{selected_task}/{model_name}/full/NONE/**/**/0/done/preds.csv"
         )
         files = pd.concat([pd.read_csv(file) for file in path])
+
+        def modify_prediction(row):
+            if row["label"] == 0 and row["pred"] == 0:
+                return 1.0
+            elif row["label"] == 1 and row["pred"] == 1:
+                return 1.0
+            elif row["label"] == 0 and row["pred"] == 1:
+                return 0.0
+            elif row["label"] == 1 and row["pred"] == 0:
+                return 0.0
+            else:
+                return row["pred"]
+
+        files["modified_pred"] = files.apply(modify_prediction, axis=1)
+
         st.session_state.model = (
-            files.groupby("Unnamed: 0")["pred"].mean().reset_index()
+            files.groupby("Unnamed: 0")["modified_pred"].mean().reset_index()
         )
-        list_of_preds_dfs.append(st.session_state.model["pred"])
+        list_of_preds_dfs.append(st.session_state.model["modified_pred"])
 
     return list_of_preds_dfs
 
