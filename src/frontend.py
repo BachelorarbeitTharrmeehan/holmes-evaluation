@@ -42,6 +42,13 @@ def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
     return Backend(probing_task=f"{selected_task}", selected_models=selected_models)
 
 
+def get_subfield_and_phenomena(task):
+    leaderboard = pd.read_csv("./data/leaderboards/holmes.csv")
+    filtered_df = leaderboard[leaderboard["probing dataset"].str.contains(task)]
+    result_df = filtered_df[["linguistic subfield", "linguistic phenomena"]]
+    return result_df
+
+
 # Define the directory and task folders
 directory_path = "./data/holmes/"
 folders = [
@@ -52,8 +59,15 @@ folders = [
 
 # Sidebar for task selection
 st.sidebar.title("Navigation Bar")
-st.sidebar.write("Please choose a probing task here")
-selected_task = st.sidebar.selectbox("Choose a probing task", sorted(folders))
+selected_task = st.sidebar.selectbox(
+    "Please choose a probing task from here", sorted(folders)
+)
+st.sidebar.markdown(
+    f"**Linguistic Subfield:** {get_subfield_and_phenomena(selected_task).iloc[0]['linguistic subfield']}",
+)
+st.sidebar.markdown(
+    f"**Linguistic Phenomena:** {get_subfield_and_phenomena(selected_task).iloc[0]['linguistic phenomena']}"
+)
 st.session_state.selected_model = st.sidebar.multiselect(
     "Please select at most 4 models from here",
     default=["microsoft/deberta-v3-base", "albert/albert-base-v2"],
@@ -186,7 +200,7 @@ def calculate_end_percentages():
     }
 
     overall_percentages_formatted = {
-        model: "{:.2f}%".format(overall_percentages[model])
+        model: "{:.4f}%".format(100 * overall_percentages[model])
         for model in overall_percentages
     }
 
@@ -210,7 +224,7 @@ st.title("LLM Evaluation tool")
 
 if "df" not in st.session_state:
     st.write(
-        "Choose any input sentences you would like to edit for reevaluation. The chosen sentences will be fed to the probing classifier and the results will be placed."
+        "Choose any input sentences you would like to edit for reevaluation. The chosen sentences will be fed to the probing classifier and the results will be shown at the bottom."
     )
 
     # Call the update_task function to load the initial dataframe
@@ -230,6 +244,10 @@ edited_df = st.data_editor(
         "Label": st.column_config.Column(
             "Label",
             help="Here you can see the preannotated label aka the ground truth",
+        ),
+        "Aggregated Results": st.column_config.Column(
+            "Aggregated Results",
+            help="Here you are able to see the percentage of correct predictions over all models",
         ),
     },
 )
@@ -342,4 +360,4 @@ if st.session_state.clicked:
         st.bar_chart(chart_data, stack=False)
 
     else:
-        st.write("No changes detected.")
+        st.write("Please edit a sentence and its label to reevaluate.")
