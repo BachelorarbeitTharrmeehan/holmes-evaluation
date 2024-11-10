@@ -9,6 +9,19 @@ from pytorch_lightning import Trainer
 import glob
 
 
+def modify_prediction(row):
+    if row["label"] == 0 and row["pred"] == 0:
+        return 1.0
+    elif row["label"] == 1 and row["pred"] == 1:
+        return 1.0
+    elif row["label"] == 0 and row["pred"] == 1:
+        return 0.0
+    elif row["label"] == 1 and row["pred"] == 0:
+        return 0.0
+    else:
+        return row["pred"]
+
+
 def Backend(
     selected_models=["microsoft/deberta-v3-base"],
     probing_task="blimp-determiner_noun_agreement_with_adj_irregular_2",
@@ -72,7 +85,7 @@ def Backend(
             predictions = [
                 (
                     instance_input,
-                    pred,
+                    modify_prediction({"label": instance_label, "pred": pred}),
                     instance_label,
                     loss,
                 )

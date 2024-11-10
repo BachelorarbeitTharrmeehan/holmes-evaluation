@@ -13,8 +13,10 @@ st.set_page_config(layout="wide")
 def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
     temp_data = []
 
-    for index, item in enumerate(df["modified_sentence"]):
-        escaped_item = item.replace("'", "\\'")
+    for index, (sentence, modified_label) in enumerate(
+        zip(df["modified_sentence"], df["modified_label"])
+    ):
+        escaped_item = sentence.replace("'", "\\'")
         temp_data.append(
             {
                 "inputs": f"('{escaped_item}',)",
@@ -23,7 +25,7 @@ def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
                 "org_label": 0,
                 "set-0": "test",
                 "id": index,
-                "label": 0,
+                "label": modified_label,
             }
         )
 
@@ -217,7 +219,7 @@ if "df" not in st.session_state:
 
 edited_df = st.data_editor(
     st.session_state.df,
-    disabled=("Label", "Bart Base"),
+    disabled=st.session_state.selected_model + ["Aggregated Results"],
     hide_index=1,
     use_container_width=1,
     column_config={
@@ -238,7 +240,8 @@ percentages = st.dataframe(st.session_state.overall_percentages_df)
 def get_changed_rows_df(original_df, edited_df):
     changes = original_df[original_df["Sentence"] != edited_df["Sentence"]]
     changes["modified_sentence"] = edited_df.loc[changes.index, "Sentence"]
-    return changes[["Sentence", "modified_sentence"]]
+    changes["modified_label"] = edited_df.loc[changes.index, "Label"]
+    return changes[["Sentence", "modified_sentence", "Label", "modified_label"]]
 
 
 if "clicked" not in st.session_state:
@@ -286,8 +289,12 @@ if st.session_state.clicked:
         for model_name, model_df in model_predictions.items():
             # Rename columns and clean the DataFrame
             model_df = model_df.rename(
-                columns={"instance": "Sentence", "pred": f"{model_name} Prediction"}
-            ).drop(["label", "loss"], axis=1)
+                columns={
+                    "instance": "Sentence",
+                    "label": "Label",
+                    "pred": f"{model_name} Prediction",
+                }
+            ).drop(["loss"], axis=1)
 
             # Format the columns
             model_df["Sentence"] = model_df["Sentence"].map(
@@ -304,7 +311,14 @@ if st.session_state.clicked:
         if dfs_to_merge:
             combined_df = dfs_to_merge[0]
             for df in dfs_to_merge[1:]:
-                combined_df = combined_df.merge(df, on="Sentence", how="outer")
+                combined_df = combined_df.merge(
+                    df, on=["Sentence", "Label"], how="outer"
+                )
+
+            columns_order = ["Sentence", "Label"] + [
+                col for col in combined_df.columns if col not in ["Sentence", "Label"]
+            ]
+            combined_df = combined_df[columns_order]
 
             # Display the combined DataFrame
             st.write("Combined Model Predictions:")
@@ -316,7 +330,7 @@ if st.session_state.clicked:
 
         st.session_state.evaluated_df = combined_df
 
-        chart_data = combined_df.set_index("Sentence")
+        chart_data = combined_df.drop(["Label"], axis=1).set_index("Sentence")
         chart_data = chart_data.applymap(
             lambda x: float(x.strip("%")) / 100
             if isinstance(x, str) and "%" in x
