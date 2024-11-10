@@ -168,12 +168,6 @@ def update_task():
         average_results, axis=1
     )
 
-    # Get percentages
-    for model in st.session_state.selected_model + ["Aggregated Results"]:
-        st.session_state.df[model] = st.session_state.df[model].apply(
-            lambda x: "{:.2f}%".format(x * 100)
-        )
-
 
 def investigate_models():
     for i in st.session_state.selected_model:
@@ -183,9 +177,30 @@ def investigate_models():
         os.chdir("../extension/frontend/")
 
 
-# Button to load data for the selected task
+def calculate_end_percentages():
+    overall_percentages = {
+        model: (st.session_state.df[model].astype(float) / 100).mean() * 100
+        for model in st.session_state.selected_model + ["Aggregated Results"]
+    }
+
+    overall_percentages_formatted = {
+        model: "{:.2f}%".format(overall_percentages[model])
+        for model in overall_percentages
+    }
+
+    st.session_state.overall_percentages_df = pd.DataFrame(
+        overall_percentages_formatted, index=["Overall Percentage"]
+    )
+
+    for model in st.session_state.selected_model + ["Aggregated Results"]:
+        st.session_state.df[model] = st.session_state.df[model].apply(
+            lambda x: "{:.2f}%".format(x * 100)
+        )
+
+
 if st.sidebar.button("Load Task Data"):
     update_task()
+    calculate_end_percentages()
     # investigate_models()
 
 # Load data initially if not already loaded
@@ -198,6 +213,7 @@ if "df" not in st.session_state:
 
     # Call the update_task function to load the initial dataframe
     update_task()
+    calculate_end_percentages()
 
 edited_df = st.data_editor(
     st.session_state.df,
@@ -215,6 +231,8 @@ edited_df = st.data_editor(
         ),
     },
 )
+
+percentages = st.dataframe(st.session_state.overall_percentages_df)
 
 
 def get_changed_rows_df(original_df, edited_df):
