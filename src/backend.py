@@ -28,14 +28,14 @@ def Backend(
 ):
     all_model_predictions = {}
 
+    probe_frame = data_loading.load_probe_file(
+        f"./data/holmes/{probing_task}/modified_samples.csv",
+        CONTROL_TASK_TYPES.NONE,
+    )
+
     for model in selected_models:
         # Load model and dataset
         base_model = data_loading.load_model(model, CONTROL_TASK_TYPES.NONE, "full")
-        probe_frame = data_loading.load_probe_file(
-            f"./data/holmes/{probing_task}/modified_samples.csv",
-            CONTROL_TASK_TYPES.NONE,
-        )
-
         probing_frames = data_loading.load_folds(
             probe_frame=probe_frame,
             base_model=base_model,
@@ -78,7 +78,7 @@ def Backend(
             custom_dataloader = probing_model.get_test_dataloader(
                 test_dataset, 300, shuffle=False
             )
-            trainer = Trainer(accelerator="cpu", devices="auto", precision="32")
+            trainer = Trainer(accelerator="auto", devices="auto", precision="32")
             trainer.test(probing_model, dataloaders=[custom_dataloader])
 
             # Collect predictions for this seed

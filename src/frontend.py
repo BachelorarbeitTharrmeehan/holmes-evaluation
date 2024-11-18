@@ -160,8 +160,8 @@ def update_task():
     st.session_state.df = st.session_state.df[
         st.session_state.df["set-0"] == "test"
     ].reset_index()
-    st.session_state.df = st.session_state.df[["inputs", "label"]].rename(
-        columns={"inputs": "Sentence", "label": "Label"}
+    st.session_state.df = st.session_state.df[["inputs", "org_label"]].rename(
+        columns={"inputs": "Sentence", "org_label": "Label"}
     )
 
     st.session_state.df["Sentence"] = st.session_state.df["Sentence"].map(
