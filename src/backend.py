@@ -25,6 +25,7 @@ def modify_prediction(row):
 def Backend(
     selected_models=["microsoft/deberta-v3-base"],
     probing_task="blimp-determiner_noun_agreement_with_adj_irregular_2",
+    probe_task_type="SENTENCE",
 ):
     all_model_predictions = {}
 
@@ -39,7 +40,7 @@ def Backend(
         probing_frames = data_loading.load_folds(
             probe_frame=probe_frame,
             base_model=base_model,
-            probe_task_type=PROBE_TASK_TYPES.SENTENCE,
+            probe_task_type=PROBE_TASK_TYPES[probe_task_type],
             encoding="full",
             encoding_batch_size=10,
         )

@@ -1,9 +1,12 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 from streamlit import column_config
 import glob
 import os
+import subprocess
 import openai
+import yaml
 
 from backend import Backend
 
@@ -13,19 +16,33 @@ st.set_page_config(layout="wide")
 def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
     temp_data = []
 
-    for index, (sentence, modified_label) in enumerate(
-        zip(df["modified_sentence"], df["modified_label"])
-    ):
-        escaped_item = sentence.replace("'", "\\'")
+    sentence_columns = [
+        col for col in df.columns if col.startswith("modified_Sentence")
+    ]
+
+    for index, row in df.iterrows():
+        # Combine all sentence columns into one escaped input string
+        escaped_sentences = [row[col].replace("'", "\\'") for col in sentence_columns]
+        escaped_context = (
+            row["Context"].replace("'", "\\'") if "Context" in df.columns else ""
+        )
+
+        if len(escaped_sentences) == 1:
+            inputs = f"('{escaped_sentences[0]}',)"
+        else:
+            inputs = "(" + ", ".join(f"('{s}')" for s in escaped_sentences) + ")"
+
         temp_data.append(
             {
-                "inputs": f"('{escaped_item}',)",
-                "context": "",
+                "inputs": inputs,
+                "context": escaped_context,
                 "topic": "",
                 "org_label": 0,
                 "set-0": "test",
                 "id": index,
-                "label": modified_label,
+                "label": row.get(
+                    "modified_Label", 0
+                ),  # Use default 0 if 'modified_label' is missing
             }
         )
 
@@ -39,7 +56,11 @@ def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
         index=False,
     )
 
-    return Backend(probing_task=f"{selected_task}", selected_models=selected_models)
+    return Backend(
+        probing_task=f"{selected_task}",
+        selected_models=selected_models,
+        probe_task_type=probe_task_type,
+    )
 
 
 def get_subfield_and_phenomena(task):
@@ -62,40 +83,108 @@ st.sidebar.title("Navigation Bar")
 selected_task = st.sidebar.selectbox(
     "Please choose a probing task from here", sorted(folders)
 )
-st.sidebar.markdown(
-    f"**Linguistic Subfield:** {get_subfield_and_phenomena(selected_task).iloc[0]['linguistic subfield']}",
-)
-st.sidebar.markdown(
-    f"**Linguistic Phenomena:** {get_subfield_and_phenomena(selected_task).iloc[0]['linguistic phenomena']}"
-)
+subfield_df = get_subfield_and_phenomena(selected_task)
+if not subfield_df.empty:
+    st.sidebar.markdown(
+        f"**Linguistic Subfield:** {subfield_df.iloc[0]['linguistic subfield']}"
+    )
+    st.sidebar.markdown(
+        f"**Linguistic Phenomena:** {subfield_df.iloc[0]['linguistic phenomena']}"
+    )
+else:
+    st.sidebar.markdown("**Linguistic Subfield:** Not available")
+    st.sidebar.markdown("**Linguistic Phenomena:** Not available")
+
 st.session_state.selected_model = st.sidebar.multiselect(
     "Please select at most 4 models from here",
-    default=["microsoft/deberta-v3-base", "albert/albert-base-v2"],
-    options=["microsoft/deberta-v3-base", "albert/albert-base-v2"],
+    default=[
+        "Qwen/Qwen2.5-0.5B",
+        "Qwen/Qwen2.5-0.5B-Instruct",
+        "Qwen/Qwen2.5-0.5B-Instruct-AWQ",
+    ],
+    options=[
+        "Qwen/Qwen2.5-0.5B",
+        "Qwen/Qwen2.5-0.5B-Instruct",
+        "Qwen/Qwen2.5-0.5B-Instruct-AWQ",
+        "Qwen/Qwen2.5-1.5B",
+        "Qwen/Qwen2.5-1.5B-Instruct",
+        "Qwen/Qwen2.5-1.5B-Instruct-AWQ",
+        "Qwen/Qwen2.5-3B",
+        "Qwen/Qwen2.5-3B-Instruct",
+        "Qwen/Qwen2.5-3B-Instruct-AWQ",
+        "Qwen/Qwen2.5-7B",
+        "Qwen/Qwen2.5-7B-Instruct",
+        "Qwen/Qwen2.5-7B-Instruct-AWQ",
+    ],
     max_selections=4,
 )
+
+config_file_path = f"./data/flash-holmes/{selected_task}/config-none.yaml"
+fallback_config_file_path = f"./data/flash-holmes/{selected_task}/config-bi-none.yaml"
+
+if os.path.exists(config_file_path):
+    config_file_to_use = config_file_path
+else:
+    config_file_to_use = fallback_config_file_path
+
+try:
+    with open(config_file_to_use, "r") as file:
+        config_data = yaml.safe_load(file)
+except FileNotFoundError:
+    st.error(f"Neither {config_file_path} nor {fallback_config_file_path} was found.")
+    config_data = {}
+
+
+probe_task_type = config_data.get("probe_task_type", None)
+
 use_openai_response = st.sidebar.checkbox("Get OpenAI Response for Modified Sentences")
 if use_openai_response:
     api_key = st.sidebar.text_input("Enter your OpenAI API key", type="password")
+    task_prompts = {
+        "SemAntoNeg": "For the given sentences:\n"
+        "1. {sentence_1}\n"
+        "2. {sentence_2}\n"
+        "The task probes language models' understanding of negation and antonymy. Determine whether sentence 2 is the correct semantic counterpart to sentence 1. Provide detailed feedback on whether negation markers and antonym substitutions are applied correctly and if the sentences are semantically equivalent.",
+        "task2": "Analyze the linguistic structure of the following sentence: {sentence_1}",
+        "task3": "Determine if the following sentence conveys ambiguity: {sentence_1}",
+        # Add more prompts per task as required, optional: read in file with all the data to reduce size
+    }
+
+    if "Selected" not in st.session_state.df.columns:
+        st.session_state.df["Selected"] = False
+
+    if selected_task in task_prompts:
+        default_prompt = task_prompts[selected_task]
+    else:
+        default_prompt = "Please evaluate the following sentence: {sentence_1}"
+
     user_prompt_template = st.sidebar.text_area(
         label="OpenAI Prompt",
-        value="Is the following sentence grammatically acceptable or no?: {sentence}",
-        help="The {sentence} placeholder is required for every prompt you might create. you can add it anywhere in your prompt.",
+        value=default_prompt,
+        help="The {sentence_1}, {sentence_2}, etc. placeholders are required for every prompt you might create. you can add them anywhere in your prompt.",
     )
-    if "{sentence}" not in user_prompt_template:
-        st.error(
-            "Error: The prompt template must contain '{sentence}'. Please include it in your template."
-        )
 
 
 def get_openai_responses(api_key, user_prompt_template, changes_df):
     client = openai.OpenAI(api_key=api_key)
     responses = []
 
-    for index, row in changes_df.iterrows():
-        modified_sentence = row["modified_sentence"]
+    sentence_columns = [col for col in changes_df.columns if col.startswith("Sentence")]
 
-        prompt = user_prompt_template.format(sentence=modified_sentence)
+    for index, row in changes_df.iterrows():
+        # Map placeholders dynamically to sentence values
+        sentence_placeholders = {
+            f"sentence_{i+1}": row[col].replace("'", "\\'")
+            for i, col in enumerate(sentence_columns)
+        }
+
+        try:
+            prompt = user_prompt_template.format(**sentence_placeholders)
+        except KeyError as e:
+            st.error(
+                f"Error: Missing placeholder for {str(e)}. Please include all required placeholders in your prompt."
+            )
+            continue
 
         try:
             response = client.chat.completions.create(
@@ -111,13 +200,15 @@ def get_openai_responses(api_key, user_prompt_template, changes_df):
 
             responses.append(
                 {
-                    "Modified Sentence": modified_sentence,
+                    "Modified Sentences": list(sentence_placeholders.values()),
                     "OpenAI Response": result,
                 }
             )
 
         except Exception as e:
-            st.error(f"Error fetching response for sentence '{modified_sentence}': {e}")
+            st.error(
+                f"Error fetching response for sentences '{sentence_placeholders}': {e}"
+            )
 
     # Convert the list of responses to a DataFrame
     return pd.DataFrame(responses)
@@ -128,7 +219,7 @@ def load_model_dfs(models):
     for i in models:
         model_name = i.replace("/", "__")
         path = glob.glob(
-            f"./results/holmes/{selected_task}/{model_name}/full/NONE/**/**/0/done/preds.csv"
+            f"./results/flash-holmes/{selected_task}/{model_name}/full/NONE/**/**/0/done/preds.csv"
         )
         files = pd.concat([pd.read_csv(file) for file in path])
 
@@ -156,41 +247,155 @@ def load_model_dfs(models):
 
 # Callback function to update data based on the selected probing task
 def update_task():
-    st.session_state.df = pd.read_csv(f"./data/holmes/{selected_task}/samples.csv")
+    # Load the dataset
+    st.session_state.df = pd.read_csv(
+        f"./data/flash-holmes/{selected_task}/samples.csv"
+    )
     st.session_state.df = st.session_state.df[
         st.session_state.df["set-0"] == "test"
     ].reset_index()
-    st.session_state.df = st.session_state.df[["inputs", "org_label"]].rename(
-        columns={"inputs": "Sentence", "org_label": "Label"}
+    st.session_state.df = st.session_state.df[["inputs", "context", "label"]].rename(
+        columns={"inputs": "Sentence", "label": "Label", "context": "Context"}
     )
 
+    # Evaluate the "Sentence" column and create new columns for each tuple entry
+    def split_tuple_into_columns(input_value):
+        try:
+            evaluated = eval(input_value)
+            # Convert the tuple into strings for consistency
+            evaluated = tuple(str(item) for item in evaluated)
+            # Safely evaluate the string into a tuple
+            return evaluated
+        except Exception as e:
+            st.error(f"Error evaluating input: {input_value} - {e}")
+            return ("Error",)  # Return a placeholder in case of error
+
+    # Apply the function to evaluate the "Sentence" column
     st.session_state.df["Sentence"] = st.session_state.df["Sentence"].map(
-        lambda x: x.lstrip('"(""``').rstrip('"",)"')
+        split_tuple_into_columns
     )
+
+    # Expand the tuple into multiple columns
+    max_tuple_length = st.session_state.df["Sentence"].map(len).max()
+    for i in range(max_tuple_length):
+        st.session_state.df[f"Sentence {i+1}"] = st.session_state.df["Sentence"].map(
+            lambda x: x[i] if i < len(x) else None
+        )
+
+    # Drop the original "Sentence" column if it's no longer needed
+    st.session_state.df.drop(columns=["Sentence"], inplace=True)
+
+    # Reorder columns: Sentence parts, Context, Label, then others
+    sentence_columns = [f"Sentence {i+1}" for i in range(max_tuple_length)]
+    st.session_state.df = st.session_state.df[
+        sentence_columns
+        + ["Context"]
+        + ["Label"]
+        + [
+            col
+            for col in st.session_state.df.columns
+            if col not in sentence_columns + ["Context", "Label"]
+        ]
+    ].dropna(how="all", axis=1)
+
     for i in range(len(st.session_state.selected_model)):
         st.session_state.df[f"{st.session_state.selected_model[i]}"] = load_model_dfs(
             st.session_state.selected_model
         )[i]
 
-    # Define averaging logic
-    def average_results(row):
+    # Average and Standard Deviation
+    def calculate_statistics(row):
         # Collect numerical results from each model for the current row
         model_results = [row[model] for model in st.session_state.selected_model]
-        # Calculate the mean of the model results
-        return sum(model_results) / len(model_results)
+        # Calculate the mean and standard deviation of the model results
+        mean_result = sum(model_results) / len(model_results)
+        std_dev_result = np.std(model_results)
+        return mean_result, std_dev_result
 
-    # Apply averaging function to each row
-    st.session_state.df["Aggregated Results"] = st.session_state.df.apply(
-        average_results, axis=1
+    # Apply the function to each row and store results in new columns
+    st.session_state.df["Aggregated Results"], st.session_state.df["Std Deviation"] = (
+        zip(*st.session_state.df.apply(calculate_statistics, axis=1))
     )
 
 
 def investigate_models():
-    for i in st.session_state.selected_model:
-        probing_command = f"python3 investigate.py --model_name {i} --version holmes  --cuda_visible_devices 0,1 --dump_preds --in_filter {selected_task}"
-        os.chdir("../../src/")
-        os.system(probing_command)
-        os.chdir("../extension/frontend/")
+    base_path = os.getcwd()
+    for model in st.session_state.selected_model:
+        try:
+            # Construct the probing command
+            probing_command = [
+                "python3",
+                "investigate.py",
+                "--model_name",
+                model,
+                "--version",
+                "holmes",
+                "--cuda_visible_devices",
+                "0,1",
+                "--dump_preds",
+                "--in_filter",
+                selected_task,
+            ]
+
+            # Execute the command in the appropriate directory
+            result = subprocess.run(
+                probing_command,
+                cwd=base_path,  # Specify the working directory
+                capture_output=True,  # Capture stdout and stderr
+                text=True,  # Decode output as text
+                check=True,  # Raise an exception if the command fails
+            )
+
+            # Log the output
+            st.write(f"Model {model} investigated successfully.")
+            st.text(result.stdout)
+
+        except subprocess.CalledProcessError as e:
+            # Handle command execution errors
+            st.error(f"Error investigating model {model}: {e}")
+            st.text(e.stderr)
+        except Exception as ex:
+            # Handle other errors
+            st.error(f"Unexpected error: {ex}")
+
+
+def is_label_binary():
+    return st.session_state.df["Label"].isin([0, 1]).all()
+
+
+def calculate_label_percentages():
+    """
+    Calculate the average percentage for every label per model in the DataFrame.
+    The percentages are stored and displayed as a new DataFrame.
+    """
+    # Dictionary to store label-wise percentages for each model
+    label_percentages = {}
+
+    # Compute the mean for each model grouped by 'Label'
+    for model in st.session_state.selected_model + ["Aggregated Results"]:
+        label_percentages[model] = st.session_state.df.groupby("Label")[model].mean()
+
+    # Combine the results into a single DataFrame
+    label_percentages_df = pd.DataFrame(label_percentages)
+
+    models_only_columns = [
+        col for col in label_percentages_df.columns if col not in ["Aggregated Results"]
+    ]
+
+    label_percentages_df["Std Deviation"] = label_percentages_df[
+        models_only_columns
+    ].std(axis=1, ddof=0)
+
+    # Format the percentages as strings with two decimal places
+    if is_label_binary():
+        formatted_label_percentages_df = label_percentages_df.applymap(
+            lambda x: x * 100 if not pd.isna(x) else "N/A"
+        )
+    else:
+        formatted_label_percentages_df = label_percentages_df
+
+    # Save the formatted results to the session state
+    st.session_state.label_percentages_df = formatted_label_percentages_df
 
 
 def calculate_end_percentages():
@@ -199,23 +404,34 @@ def calculate_end_percentages():
         for model in st.session_state.selected_model + ["Aggregated Results"]
     }
 
-    overall_percentages_formatted = {
-        model: "{:.4f}%".format(100 * overall_percentages[model])
-        for model in overall_percentages
-    }
-
     st.session_state.overall_percentages_df = pd.DataFrame(
-        overall_percentages_formatted, index=["Overall Percentage"]
+        overall_percentages, index=["Overall Percentage"]
     )
 
-    for model in st.session_state.selected_model + ["Aggregated Results"]:
-        st.session_state.df[model] = st.session_state.df[model].apply(
-            lambda x: "{:.2f}%".format(x * 100)
-        )
+    models_only_columns = [
+        col
+        for col in st.session_state.overall_percentages_df.columns
+        if col not in ["Aggregated Results"]
+    ]
+
+    st.session_state.overall_percentages_df["Std Deviation"] = (
+        st.session_state.overall_percentages_df[models_only_columns].std(axis=1, ddof=0)
+    )
+    if is_label_binary():
+        for model in (
+            st.session_state.selected_model + ["Aggregated Results"] + ["Std Deviation"]
+        ):
+            st.session_state.df[model] = st.session_state.df[model].apply(
+                lambda x: x * 100
+            )
+            st.session_state.overall_percentages_df[model] = (
+                st.session_state.overall_percentages_df[model].apply(lambda x: x * 100)
+            )
 
 
 if st.sidebar.button("Load Task Data"):
     update_task()
+    calculate_label_percentages()
     calculate_end_percentages()
     # investigate_models()
 
@@ -229,14 +445,30 @@ if "df" not in st.session_state:
 
     # Call the update_task function to load the initial dataframe
     update_task()
+    calculate_label_percentages()
     calculate_end_percentages()
 
 edited_df = st.data_editor(
     st.session_state.df,
-    disabled=st.session_state.selected_model + ["Aggregated Results"],
+    column_order=["Selected"]
+    + [col for col in st.session_state.df.columns if col.startswith("Sentence")]
+    + ["Label"]
+    + ["Std Deviation"]
+    + ["Aggregated Results"]
+    + st.session_state.selected_model,
+    disabled=st.session_state.selected_model
+    + ["Aggregated Results"]
+    + ["Std Deviation"],
     hide_index=1,
     use_container_width=1,
     column_config={
+        **{
+            model: st.column_config.NumberColumn(
+                format="%.2f%%",
+                help=f"Predictions for {model}",
+            )
+            for model in st.session_state.selected_model
+        },
         "Sentence": st.column_config.Column(
             "Sentence",
             help="You are able to change each input sentence for reevaluation",
@@ -245,21 +477,80 @@ edited_df = st.data_editor(
             "Label",
             help="Here you can see the preannotated label aka the ground truth",
         ),
-        "Aggregated Results": st.column_config.Column(
+        "Aggregated Results": st.column_config.NumberColumn(
             "Aggregated Results",
             help="Here you are able to see the percentage of correct predictions over all models",
+            format="%.2f%%",
         ),
+        "Std Deviation": st.column_config.NumberColumn(
+            "Std Deviation",
+            help="Here you are able to see the standard deviation of the results for all the models per sentence",
+            format="%.2f%%",
+        ),
+        "Selected": st.column_config.Column(
+            "Selected",
+            help="Tick to select this row for OpenAI response evaluation",
+        )
+        if use_openai_response
+        else None,
     },
 )
 
-percentages = st.dataframe(st.session_state.overall_percentages_df)
+percentage_column_config = {
+    col: st.column_config.NumberColumn(
+        format="%.2f%%", help=f"Percentage values for {col}"
+    )
+    for col in st.session_state.label_percentages_df.columns
+    if col not in ["Std Deviation"]
+}
+
+percentage_column_config["Std Deviation"] = st.column_config.NumberColumn(
+    format="%.2f%%", help="Standard deviation across models"
+)
+
+st.write("Percentages per Label for every Model")
+st.dataframe(
+    st.session_state.label_percentages_df,
+    use_container_width=True,
+    column_config=percentage_column_config,
+)
+
+st.write("Performance per Model")
+st.dataframe(
+    st.session_state.overall_percentages_df,
+    use_container_width=True,
+    column_config=percentage_column_config,
+)
 
 
 def get_changed_rows_df(original_df, edited_df):
-    changes = original_df[original_df["Sentence"] != edited_df["Sentence"]]
-    changes["modified_sentence"] = edited_df.loc[changes.index, "Sentence"]
-    changes["modified_label"] = edited_df.loc[changes.index, "Label"]
-    return changes[["Sentence", "modified_sentence", "Label", "modified_label"]]
+    columns_to_check = [
+        col
+        for col in original_df.columns
+        if col.startswith("Sentence") or col in ["Context", "Label"]
+    ]
+
+    # Check for changes between the original and edited DataFrame
+    changes = original_df[columns_to_check] != edited_df[columns_to_check]
+
+    # Identify rows where at least one column has changed
+    rows_with_changes = changes.any(axis=1)
+
+    # Extract the rows with changes from the original DataFrame
+    changed_rows = original_df.loc[rows_with_changes].copy()
+
+    # Add the modified columns from the edited DataFrame to the result
+    for column in columns_to_check:
+        changed_rows[f"modified_{column}"] = edited_df.loc[changed_rows.index, column]
+
+    # Return only the relevant columns (original and modified ones)
+    return changed_rows[
+        [
+            col
+            for col in changed_rows.columns
+            if "modified_" in col or col in columns_to_check
+        ]
+    ]
 
 
 if "clicked" not in st.session_state:
@@ -273,27 +564,88 @@ def click_button():
 if st.button("Proceed with Reevaluation", on_click=click_button):
     pass
 
+if "openai_responses_list" not in st.session_state:
+    st.session_state.openai_responses_list = []
+
+
+def get_and_store_openai_responses(api_key, user_prompt_template, changes_df):
+    responses_df = get_openai_responses(api_key, user_prompt_template, changes_df)
+    st.session_state.openai_responses_list.append(
+        {
+            "prompt": user_prompt_template,
+            "selected_rows": changes_df.copy(),
+            "responses": responses_df.copy(),
+        }
+    )
+
+
+if "clicked_openai" not in st.session_state:
+    st.session_state.clicked_openai = False
+
+
+def click_button_openai():
+    st.session_state.clicked_openai = True
+
+
+if use_openai_response:
+    if st.button("Generate OpenAI Responses", on_click=click_button_openai):
+        pass
+
+
+def split_tuple_into_columns(input_value):
+    try:
+        # Check if the input is already a tuple
+        if isinstance(input_value, tuple):
+            return input_value
+        # Safely evaluate the string into a tuple
+        evaluated = eval(input_value)
+        # Ensure the evaluated result is a tuple of strings
+        if isinstance(evaluated, tuple):
+            evaluated = tuple(str(item) for item in evaluated)
+        return evaluated
+    except Exception as e:
+        st.error(f"Error evaluating input: {input_value} - {e}")
+        return ("Error",)  # Return a placeholder in case of error
+
+
+def validate_sentences(row):
+    for col in sentence_columns:
+        if pd.isna(row[col]) or not isinstance(row[col], str):
+            return False
+    return True
+
+
+if st.session_state.clicked_openai:
+    if use_openai_response:
+        selected_rows = edited_df[edited_df["Selected"]]
+        if not selected_rows.empty:
+            with st.expander("OpenAI Prompt", expanded=True):
+                st.write(user_prompt_template)
+                st.write("Selected Rows for OpenAI Response:")
+                st.dataframe(selected_rows, use_container_width=True)
+
+            get_and_store_openai_responses(api_key, user_prompt_template, selected_rows)
+
+            st.write("All Versions of OpenAI Prompts, Selected Rows, and Responses:")
+            for idx, version in enumerate(
+                st.session_state.openai_responses_list, start=1
+            ):
+                with st.expander(f"Version {idx}", expanded=False):
+                    st.markdown("### Prompt")
+                    st.text(version["prompt"])
+                    st.markdown("### Selected Rows")
+                    st.dataframe(version["selected_rows"], use_container_width=True)
+                    st.markdown("### Responses")
+                    st.dataframe(version["responses"], use_container_width=True)
+        else:
+            st.write("No rows selected for OpenAI response generation.")
+    st.session_state.clicked_openai = False
+
+
 if st.session_state.clicked:
     changes_df = get_changed_rows_df(st.session_state.df, edited_df)
     if not changes_df.empty:
         st.write("Changed rows:")
-
-        if use_openai_response:
-            if "{sentence}" not in user_prompt_template:
-                st.error(
-                    "Error: The prompt template must contain '{sentence}'. Please include it in your template."
-                )
-            else:
-                openai_responses_df = get_openai_responses(
-                    api_key, user_prompt_template, changes_df
-                )
-
-                st.write("OpenAI Responses for Modified Sentences:")
-                st.dataframe(
-                    openai_responses_df, hide_index=True, use_container_width=True
-                )
-        else:
-            st.write("OpenAI response generation is disabled.")
 
         # Run evaluation for multiple models
         model_predictions = sentence_eval(
@@ -303,7 +655,6 @@ if st.session_state.clicked:
         # Initialize a list to store model data for merging
         dfs_to_merge = []
 
-        # Loop over each model to process and prepare its results
         for model_name, model_df in model_predictions.items():
             # Rename columns and clean the DataFrame
             model_df = model_df.rename(
@@ -314,29 +665,56 @@ if st.session_state.clicked:
                 }
             ).drop(["loss"], axis=1)
 
-            # Format the columns
-            model_df["Sentence"] = model_df["Sentence"].map(
-                lambda x: str(x).lstrip('"(""``').rstrip('"",)"')
-            )
+            model_df["Sentence"] = model_df["Sentence"].map(split_tuple_into_columns)
+
+            max_tuple_length = model_df["Sentence"].map(len).max()
+            for i in range(max_tuple_length):
+                model_df[f"Sentence {i+1}"] = model_df["Sentence"].map(
+                    lambda x: x[i] if i < len(x) else None
+                )
+
+            # Drop the original "Sentence" column if it's no longer needed
+            model_df.drop(columns=["Sentence"], inplace=True)
+
             model_df[f"{model_name} Prediction"] = model_df[
                 f"{model_name} Prediction"
             ].apply(lambda x: "{:.2f}%".format(x * 100))
+
+            sentence_columns = [f"Sentence {i+1}" for i in range(max_tuple_length)]
 
             # Append to list for merging
             dfs_to_merge.append(model_df)
 
         # Merge all DataFrames on the 'Sentence' column
+        # Refined merge logic for multiple sentences
         if dfs_to_merge:
             combined_df = dfs_to_merge[0]
+
+            sentence_columns = [
+                col for col in combined_df.columns if col.startswith("Sentence")
+            ]
+
             for df in dfs_to_merge[1:]:
                 combined_df = combined_df.merge(
-                    df, on=["Sentence", "Label"], how="outer"
+                    df, on=sentence_columns + ["Label"], how="outer"
                 )
 
-            columns_order = ["Sentence", "Label"] + [
-                col for col in combined_df.columns if col not in ["Sentence", "Label"]
-            ]
+                # Dynamically identify all columns named "Sentence 1" to "Sentence n"
+
+            # Ensure consistent column order: Sentence parts first, Label, and then predictions
+            columns_order = (
+                sentence_columns
+                + ["Label"]
+                + [
+                    col
+                    for col in combined_df.columns
+                    if col not in sentence_columns + ["Label"]
+                ]
+            )
             combined_df = combined_df[columns_order]
+
+            # Filter rows to ensure all sentence parts are valid strings
+            combined_df = combined_df[combined_df.apply(validate_sentences, axis=1)]
 
             # Display the combined DataFrame
             st.write("Combined Model Predictions:")
@@ -346,18 +724,6 @@ if st.session_state.clicked:
                 use_container_width=True,
             )
 
-        st.session_state.evaluated_df = combined_df
-
-        chart_data = combined_df.drop(["Label"], axis=1).set_index("Sentence")
-        chart_data = chart_data.applymap(
-            lambda x: float(x.strip("%")) / 100
-            if isinstance(x, str) and "%" in x
-            else x
-        )
-
-        # Plot all model predictions in a single chart
-        st.write("Model Predictions Visualization:")
-        st.bar_chart(chart_data, stack=False)
-
+            st.session_state.evaluated_df = combined_df
     else:
         st.write("Please edit a sentence and its label to reevaluate.")
