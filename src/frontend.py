@@ -9,6 +9,8 @@ import openai
 import yaml
 
 from backend import Backend
+from config_extension import EXTENSION_CONFIG
+
 
 st.set_page_config(layout="wide")
 
@@ -80,9 +82,14 @@ folders = [
 
 # Sidebar for task selection
 st.sidebar.title("Navigation Bar")
-selected_task = st.sidebar.selectbox(
-    "Please choose a probing task from here", sorted(folders)
-)
+on = st.sidebar.toggle("Load Custom Configuration")
+if on:
+    if EXTENSION_CONFIG["selected_task"]:
+        selected_task = EXTENSION_CONFIG["selected_task"]
+else:
+    selected_task = st.sidebar.selectbox(
+        "Please choose a probing task from here", sorted(folders)
+    )
 subfield_df = get_subfield_and_phenomena(selected_task)
 if not subfield_df.empty:
     st.sidebar.markdown(
@@ -95,29 +102,47 @@ else:
     st.sidebar.markdown("**Linguistic Subfield:** Not available")
     st.sidebar.markdown("**Linguistic Phenomena:** Not available")
 
-st.session_state.selected_model = st.sidebar.multiselect(
-    "Please select at most 4 models from here",
-    default=[
-        "Qwen/Qwen2.5-0.5B",
-        "Qwen/Qwen2.5-0.5B-Instruct",
-        "Qwen/Qwen2.5-0.5B-Instruct-AWQ",
-    ],
-    options=[
-        "Qwen/Qwen2.5-0.5B",
-        "Qwen/Qwen2.5-0.5B-Instruct",
-        "Qwen/Qwen2.5-0.5B-Instruct-AWQ",
-        "Qwen/Qwen2.5-1.5B",
-        "Qwen/Qwen2.5-1.5B-Instruct",
-        "Qwen/Qwen2.5-1.5B-Instruct-AWQ",
-        "Qwen/Qwen2.5-3B",
-        "Qwen/Qwen2.5-3B-Instruct",
-        "Qwen/Qwen2.5-3B-Instruct-AWQ",
-        "Qwen/Qwen2.5-7B",
-        "Qwen/Qwen2.5-7B-Instruct",
-        "Qwen/Qwen2.5-7B-Instruct-AWQ",
-    ],
-    max_selections=4,
-)
+if on:
+    if EXTENSION_CONFIG["selected_models"]:
+        st.session_state.selected_model = EXTENSION_CONFIG["selected_models"]
+        precision = "full"
+else:
+    st.session_state.selected_model = st.sidebar.multiselect(
+        "Please select at most 4 models from here",
+        default=[
+            "Qwen/Qwen2.5-0.5B",
+            "Qwen/Qwen2.5-0.5B-Instruct",
+            "Qwen/Qwen2.5-0.5B-Instruct-AWQ",
+        ],
+        options=[
+            "Qwen/Qwen2.5-0.5B",
+            "Qwen/Qwen2.5-0.5B-Instruct",
+            "Qwen/Qwen2.5-0.5B-Instruct-AWQ",
+            "Qwen/Qwen2.5-1.5B",
+            "Qwen/Qwen2.5-1.5B-Instruct",
+            "Qwen/Qwen2.5-1.5B-Instruct-AWQ",
+            "Qwen/Qwen2.5-3B",
+            "Qwen/Qwen2.5-3B-Instruct",
+            "Qwen/Qwen2.5-3B-Instruct-AWQ",
+            "Qwen/Qwen2.5-7B",
+            "Qwen/Qwen2.5-7B-Instruct",
+            "Qwen/Qwen2.5-7B-Instruct-AWQ",
+        ],
+        max_selections=4,
+    )
+    option_map = {
+        "full": "Full",
+        "half": "Half",
+        "eight_bit": "8Bit",
+        "four_bit": "4Bit",
+    }
+    precision = st.sidebar.segmented_control(
+        "Model Precision",
+        options=option_map.keys(),
+        default="full",
+        format_func=lambda option: option_map[option],
+        selection_mode="single",
+    )
 
 config_file_path = f"./data/flash-holmes/{selected_task}/config-none.yaml"
 fallback_config_file_path = f"./data/flash-holmes/{selected_task}/config-bi-none.yaml"
@@ -137,7 +162,7 @@ except FileNotFoundError:
 
 probe_task_type = config_data.get("probe_task_type", None)
 
-use_openai_response = st.sidebar.checkbox("Get OpenAI Response for Modified Sentences")
+use_openai_response = st.sidebar.toggle("OpenAI Response for Modified Sentences")
 if use_openai_response:
     api_key = st.sidebar.text_input("Enter your OpenAI API key", type="password")
     task_prompts = {
@@ -219,7 +244,7 @@ def load_model_dfs(models):
     for i in models:
         model_name = i.replace("/", "__")
         path = glob.glob(
-            f"./results/flash-holmes/{selected_task}/{model_name}/full/NONE/**/**/0/done/preds.csv"
+            f"./results/flash-holmes/{selected_task}/{model_name}/{precision}/NONE/**/**/0/done/preds.csv"
         )
         files = pd.concat([pd.read_csv(file) for file in path])
 
@@ -513,6 +538,12 @@ st.dataframe(
     st.session_state.label_percentages_df,
     use_container_width=True,
     column_config=percentage_column_config,
+    column_order=["Selected"]
+    + [col for col in st.session_state.df.columns if col.startswith("Sentence")]
+    + ["Label"]
+    + ["Std Deviation"]
+    + ["Aggregated Results"]
+    + st.session_state.selected_model,
 )
 
 st.write("Performance per Model")
@@ -520,6 +551,12 @@ st.dataframe(
     st.session_state.overall_percentages_df,
     use_container_width=True,
     column_config=percentage_column_config,
+    column_order=["Selected"]
+    + [col for col in st.session_state.df.columns if col.startswith("Sentence")]
+    + ["Label"]
+    + ["Std Deviation"]
+    + ["Aggregated Results"]
+    + st.session_state.selected_model,
 )
 
 
