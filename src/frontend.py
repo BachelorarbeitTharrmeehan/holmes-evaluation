@@ -23,7 +23,6 @@ def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
     ]
 
     for index, row in df.iterrows():
-        # Combine all sentence columns into one escaped input string
         escaped_sentences = [row[col].replace("'", "\\'") for col in sentence_columns]
         escaped_context = (
             row["Context"].replace("'", "\\'") if "Context" in df.columns else ""
@@ -127,6 +126,7 @@ else:
             "Qwen/Qwen2.5-7B",
             "Qwen/Qwen2.5-7B-Instruct",
             "Qwen/Qwen2.5-7B-Instruct-AWQ",
+            "albert/albert-base-v2",
         ],
         max_selections=4,
     )
@@ -240,39 +240,53 @@ def get_openai_responses(api_key, user_prompt_template, changes_df):
 
 
 def load_model_dfs(models):
+    import os
+
     list_of_preds_dfs = []
     for i in models:
         model_name = i.replace("/", "__")
         path = glob.glob(
             f"./results/flash-holmes/{selected_task}/{model_name}/{precision}/NONE/**/**/0/done/preds.csv"
         )
-        files = pd.concat([pd.read_csv(file) for file in path])
-
-        def modify_prediction(row):
-            if row["label"] == 0 and row["pred"] == 0:
-                return 1.0
-            elif row["label"] == 1 and row["pred"] == 1:
-                return 1.0
-            elif row["label"] == 0 and row["pred"] == 1:
-                return 0.0
-            elif row["label"] == 1 and row["pred"] == 0:
-                return 0.0
-            else:
-                return row["pred"]
-
-        files["modified_pred"] = files.apply(modify_prediction, axis=1)
-
-        st.session_state.model = (
-            files.groupby("Unnamed: 0")["modified_pred"].mean().reset_index()
+        model_folder_path = os.path.join(
+            "./results/flash-holmes", selected_task, model_name
         )
-        list_of_preds_dfs.append(st.session_state.model["modified_pred"])
+
+        if not os.path.exists(model_folder_path):
+            st.warning(
+                f"Model folder for {model_name} not found. Investigating model..."
+            )
+            investigate_models()
+
+        try:
+            files = pd.concat([pd.read_csv(file) for file in path])
+
+            def modify_prediction(row):
+                if row["label"] == 0 and row["pred"] == 0:
+                    return 1.0
+                elif row["label"] == 1 and row["pred"] == 1:
+                    return 1.0
+                elif row["label"] == 0 and row["pred"] == 1:
+                    return 0.0
+                elif row["label"] == 1 and row["pred"] == 0:
+                    return 0.0
+                else:
+                    return row["pred"]
+
+            files["modified_pred"] = files.apply(modify_prediction, axis=1)
+
+            st.session_state.model = (
+                files.groupby("Unnamed: 0")["modified_pred"].mean().reset_index()
+            )
+            list_of_preds_dfs.append(st.session_state.model["modified_pred"])
+
+        except Exception as e:
+            st.error(f"Error loading predictions for {model_name}: {e}")
 
     return list_of_preds_dfs
 
 
-# Callback function to update data based on the selected probing task
 def update_task():
-    # Load the dataset
     st.session_state.df = pd.read_csv(
         f"./data/flash-holmes/{selected_task}/samples.csv"
     )
@@ -283,13 +297,10 @@ def update_task():
         columns={"inputs": "Sentence", "label": "Label", "context": "Context"}
     )
 
-    # Evaluate the "Sentence" column and create new columns for each tuple entry
     def split_tuple_into_columns(input_value):
         try:
             evaluated = eval(input_value)
-            # Convert the tuple into strings for consistency
             evaluated = tuple(str(item) for item in evaluated)
-            # Safely evaluate the string into a tuple
             return evaluated
         except Exception as e:
             st.error(f"Error evaluating input: {input_value} - {e}")
@@ -344,17 +355,16 @@ def update_task():
 
 
 def investigate_models():
-    base_path = os.getcwd()
+    base_path = "./src/"
     for model in st.session_state.selected_model:
         try:
-            # Construct the probing command
             probing_command = [
                 "python3",
                 "investigate.py",
                 "--model_name",
                 model,
                 "--version",
-                "holmes",
+                "flash-holmes",
                 "--cuda_visible_devices",
                 "0,1",
                 "--dump_preds",
