@@ -543,7 +543,7 @@ percentage_column_config["Std Deviation"] = st.column_config.NumberColumn(
     format="%.2f%%", help="Standard deviation across models"
 )
 
-st.write("Percentages per Label for every Model")
+st.write("Performance per Label for every Model")
 st.dataframe(
     st.session_state.label_percentages_df,
     use_container_width=True,
