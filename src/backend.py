@@ -30,7 +30,7 @@ def Backend(
     all_model_predictions = {}
 
     probe_frame = data_loading.load_probe_file(
-        f"./data/holmes/{probing_task}/modified_samples.csv",
+        f"./data/flash-holmes/{probing_task}/modified_samples.csv",
         CONTROL_TASK_TYPES.NONE,
     )
 
@@ -66,7 +66,7 @@ def Backend(
         for seed in range(0, 5):
             cfg["seed"] = seed  # Update seed in configuration
             model_renamed = model.replace("/", "__")
-            path_pattern = f"./results/holmes/{probing_task}/{model_renamed}/full/NONE/**/{seed}/0/done/*.ckpt"
+            path_pattern = f"./results/flash-holmes/{probing_task}/{model_renamed}/full/NONE/**/{seed}/0/done/*.ckpt"
             checkpoint_files = glob.glob(path_pattern)
 
             # Load model checkpoint for each seed
@@ -109,10 +109,10 @@ def Backend(
         all_model_predictions[model] = average_predictions
 
         # Save the averaged predictions
-        model_name_safe = model.replace("/", "__")
-        average_predictions.to_csv(
-            f"./results/holmes/{probing_task}/{model_name_safe}/averaged_predictions.csv",
-            index=False,
-        )
+        # model_name_safe = model.replace("/", "__")
+        # average_predictions.to_csv(
+        #     f"./results/flash-holmes/{probing_task}/{model_name_safe}/averaged_predictions.csv",
+        #     index=False,
+        # )
 
     return all_model_predictions

@@ -53,7 +53,7 @@ def sentence_eval(df, selected_models=["microsoft/deberta-v3-base"]):
     )
 
     temp_df.to_csv(
-        f"./data/holmes/{selected_task}/modified_samples.csv",
+        f"./data/flash-holmes/{selected_task}/modified_samples.csv",
         index=False,
     )
 
@@ -72,7 +72,7 @@ def get_subfield_and_phenomena(task):
 
 
 # Define the directory and task folders
-directory_path = "./data/holmes/"
+directory_path = "./data/flash-holmes/"
 folders = [
     f
     for f in os.listdir(directory_path)
@@ -109,9 +109,8 @@ else:
     st.session_state.selected_model = st.sidebar.multiselect(
         "Please select at most 4 models from here",
         default=[
-            "Qwen/Qwen2.5-0.5B",
             "Qwen/Qwen2.5-0.5B-Instruct",
-            "Qwen/Qwen2.5-0.5B-Instruct-AWQ",
+            "Qwen/Qwen2.5-1.5B-Instruct",
         ],
         options=[
             "Qwen/Qwen2.5-0.5B",
@@ -370,6 +369,8 @@ def investigate_models():
                 "--dump_preds",
                 "--in_filter",
                 selected_task,
+                "--model_precision",
+                precision,
             ]
 
             # Execute the command in the appropriate directory
