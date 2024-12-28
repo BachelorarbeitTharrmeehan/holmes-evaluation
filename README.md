@@ -1,10 +1,10 @@
-Instructions for the Holmes Evaluation Extension:
+# Instructions for the Holmes Evaluation Extension:
 
 1. Clone the lift-branch of this repo: `git clone -b lift-branch https://github.com/BachelorarbeitTharrmeehan/holmes-evaluation.git`
 2. Cd into directory: `cd holmes-evaluation`
 3. Install the pip requirements, preferably in a python environment: `pip install -r requirements`
 4. Run the frontend: `streamlit run ./src/frontend.py`
-5. On the first run, you probably have to download the data for the Holmes project. The instructions can be found below under '🔎 Getting the data'
+5. On the first run, you probably have to download the data for the Holmes project. The instructions can be found below under '🔎 Getting the data'. Use Flash-Holmes!
 
 ---
 
